@@ -155,15 +155,15 @@
       <property role="3Ej$Sc" value="true" />
     </node>
     <node concept="m$_wf" id="7uZw0yZ2_Jq" role="3989C9">
-      <property role="m$_wk" value="com.mbeddr.mpsutil.inca" />
+      <property role="m$_wk" value="org.inca" />
       <node concept="3_J27D" id="7uZw0yZ2_Jr" role="m$_yQ">
         <node concept="3Mxwew" id="7uZw0yZ2_Js" role="3MwsjC">
-          <property role="3MwjfP" value="com.mbeddr.mpsutil.inca" />
+          <property role="3MwjfP" value="org.inca" />
         </node>
       </node>
       <node concept="3_J27D" id="7uZw0yZ2_Jt" role="m$_w8">
         <node concept="3Mxwey" id="2HHioL2NwSM" role="3MwsjC">
-          <ref role="3Mxwex" node="2HHioL2Nii3" resolve="mbeddr.version" />
+          <ref role="3Mxwex" node="2HHioL2Nii3" resolve="inca.version" />
         </node>
       </node>
       <node concept="m$f5U" id="6_du9upXkOk" role="m$_yh">
@@ -171,12 +171,12 @@
       </node>
       <node concept="3_J27D" id="7uZw0yZ2_Jx" role="m_cZH">
         <node concept="3Mxwew" id="7uZw0yZ2_Jy" role="3MwsjC">
-          <property role="3MwjfP" value="mbeddr.mpsutil.inca" />
+          <property role="3MwjfP" value="org.inca.plugin.meta" />
         </node>
       </node>
       <node concept="2iUeEo" id="7uZw0yZ41GZ" role="2iVFfd">
-        <property role="2iUeEt" value="mbeddr" />
-        <property role="2iUeEu" value="http://mbeddr.com" />
+        <property role="2iUeEt" value="IncA" />
+        <property role="2iUeEu" value="https://github.com/szabta89/IncA" />
       </node>
       <node concept="m$_yC" id="6_du9upXlfV" role="m$_yJ">
         <ref role="m$_y1" to="al5i:7uZw0yZ2_Jq" resolve="com.mbeddr.mpsutil" />
@@ -348,7 +348,7 @@
       </node>
     </node>
     <node concept="2kB4xC" id="2HHioL2Nii3" role="1l3spd">
-      <property role="TrG5h" value="mbeddr.version" />
+      <property role="TrG5h" value="inca.version" />
       <node concept="aVJcg" id="2HHioL2NjXU" role="aVJcv">
         <node concept="NbPM2" id="2HHioL2NjXT" role="aVJcq">
           <node concept="3Mxwey" id="2HHioL2NjXS" role="3MwsjC">

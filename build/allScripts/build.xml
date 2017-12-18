@@ -11,7 +11,7 @@
   <property name="major.version" value="1" />
   <property name="minor.version" value="0" />
   <property name="build" value="0000" />
-  <property name="mbeddr.version" value="${major.version}.${minor.version}-${build}" />
+  <property name="inca.version" value="${major.version}.${minor.version}-${build}" />
   <property name="artifacts.mps" location="${mps.home}" />
   <property name="artifacts.com.mbeddr.platform" location="${artifacts.platform}" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
@@ -40,7 +40,7 @@
   
   <target name="assemble" depends="classes, declare-mps-tasks">
     <mkdir dir="${build.layout}" />
-    <echo file="${build.layout}/build.properties">org.inca.build.meta.major.version=${major.version}${line.separator}org.inca.build.meta.minor.version=${minor.version}${line.separator}org.inca.build.meta.build=${build}${line.separator}org.inca.build.meta.mbeddr.version=${mbeddr.version}${line.separator}mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mps.mps.build.counter=${mps.mps.build.counter}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}${line.separator}com.mbeddr.platform.major.version=${com.mbeddr.platform.major.version}${line.separator}com.mbeddr.platform.minor.version=${com.mbeddr.platform.minor.version}${line.separator}com.mbeddr.platform.build=${com.mbeddr.platform.build}${line.separator}com.mbeddr.platform.mbeddr.version=${com.mbeddr.platform.mbeddr.version}${line.separator}mps-sl-all.versionNumber=${mps-sl-all.versionNumber}</echo>
+    <echo file="${build.layout}/build.properties">org.inca.build.meta.major.version=${major.version}${line.separator}org.inca.build.meta.minor.version=${minor.version}${line.separator}org.inca.build.meta.build=${build}${line.separator}org.inca.build.meta.inca.version=${inca.version}${line.separator}mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mps.mps.build.counter=${mps.mps.build.counter}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}${line.separator}com.mbeddr.platform.major.version=${com.mbeddr.platform.major.version}${line.separator}com.mbeddr.platform.minor.version=${com.mbeddr.platform.minor.version}${line.separator}com.mbeddr.platform.build=${com.mbeddr.platform.build}${line.separator}com.mbeddr.platform.mbeddr.version=${com.mbeddr.platform.mbeddr.version}${line.separator}mps-sl-all.versionNumber=${mps-sl-all.versionNumber}</echo>
   </target>
   
   <target name="buildDependents" />
