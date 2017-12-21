@@ -6169,6 +6169,28 @@
         </node>
       </node>
       <node concept="3clFbS" id="7aUOHOSUfKA" role="3clF47">
+        <node concept="3cpWs8" id="6QPcpHrzZmn" role="3cqZAp">
+          <node concept="3cpWsn" id="6QPcpHrzZmo" role="3cpWs9">
+            <property role="TrG5h" value="mainViewSelection" />
+            <property role="3TUv4t" value="true" />
+            <node concept="3uibUv" id="6QPcpHrzZma" role="1tU5fm">
+              <ref role="3uigEE" to="rgfa:~TreePath" resolve="TreePath" />
+            </node>
+            <node concept="2OqwBi" id="6QPcpHrzZmp" role="33vP2m">
+              <node concept="2OqwBi" id="6QPcpHrzZmq" role="2Oq$k0">
+                <node concept="37vLTw" id="6QPcpHrzZmr" role="2Oq$k0">
+                  <ref role="3cqZAo" node="X9$Hg9SnB7" resolve="queryExplorer" />
+                </node>
+                <node concept="2OwXpG" id="6QPcpHrzZms" role="2OqNvi">
+                  <ref role="2Oxat5" node="492h0wvLxF" resolve="treeViewer" />
+                </node>
+              </node>
+              <node concept="liA8E" id="6QPcpHrzZmt" role="2OqNvi">
+                <ref role="37wK5l" to="dxuu:~JTree.getSelectionPath():javax.swing.tree.TreePath" resolve="getSelectionPath" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbJ" id="4k1r0DoF84c" role="3cqZAp">
           <node concept="3clFbS" id="4k1r0DoF84d" role="3clFbx">
             <node concept="3SKdUt" id="4k1r0DoF8is" role="3cqZAp">
@@ -6179,22 +6201,13 @@
             <node concept="3cpWs8" id="4k1r0DoFrfe" role="3cqZAp">
               <node concept="3cpWsn" id="4k1r0DoFrff" role="3cpWs9">
                 <property role="TrG5h" value="selection" />
+                <property role="3TUv4t" value="true" />
                 <node concept="3uibUv" id="4k1r0DoFrfg" role="1tU5fm">
                   <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
                 </node>
                 <node concept="2OqwBi" id="4k1r0DoFrne" role="33vP2m">
-                  <node concept="2OqwBi" id="4k1r0DoFrim" role="2Oq$k0">
-                    <node concept="2OqwBi" id="4k1r0DoFrin" role="2Oq$k0">
-                      <node concept="37vLTw" id="X9$Hg9SnW5" role="2Oq$k0">
-                        <ref role="3cqZAo" node="X9$Hg9SnB7" resolve="queryExplorer" />
-                      </node>
-                      <node concept="2OwXpG" id="4k1r0DoFrip" role="2OqNvi">
-                        <ref role="2Oxat5" node="492h0wvLxF" resolve="treeViewer" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="4k1r0DoFriq" role="2OqNvi">
-                      <ref role="37wK5l" to="dxuu:~JTree.getSelectionPath():javax.swing.tree.TreePath" resolve="getSelectionPath" />
-                    </node>
+                  <node concept="37vLTw" id="6QPcpHrzZmv" role="2Oq$k0">
+                    <ref role="3cqZAo" node="6QPcpHrzZmo" resolve="mainViewSelection" />
                   </node>
                   <node concept="liA8E" id="4k1r0DoFrPP" role="2OqNvi">
                     <ref role="37wK5l" to="rgfa:~TreePath.getLastPathComponent():java.lang.Object" resolve="getLastPathComponent" />
@@ -6258,18 +6271,8 @@
           </node>
           <node concept="3y3z36" id="4k1r0DoF89u" role="3clFbw">
             <node concept="10Nm6u" id="4k1r0DoF8c2" role="3uHU7w" />
-            <node concept="2OqwBi" id="4k1r0DoF58K" role="3uHU7B">
-              <node concept="2OqwBi" id="4k1r0DoF0L_" role="2Oq$k0">
-                <node concept="37vLTw" id="X9$Hg9SnOX" role="2Oq$k0">
-                  <ref role="3cqZAo" node="X9$Hg9SnB7" resolve="queryExplorer" />
-                </node>
-                <node concept="2OwXpG" id="4k1r0DoF3yx" role="2OqNvi">
-                  <ref role="2Oxat5" node="492h0wvLxF" resolve="treeViewer" />
-                </node>
-              </node>
-              <node concept="liA8E" id="4k1r0DoF7ZQ" role="2OqNvi">
-                <ref role="37wK5l" to="dxuu:~JTree.getSelectionPath():javax.swing.tree.TreePath" resolve="getSelectionPath" />
-              </node>
+            <node concept="37vLTw" id="6QPcpHrzZmu" role="3uHU7B">
+              <ref role="3cqZAo" node="6QPcpHrzZmo" resolve="mainViewSelection" />
             </node>
           </node>
           <node concept="9aQIb" id="4k1r0DoF8lX" role="9aQIa">
@@ -6279,31 +6282,44 @@
                   <property role="3SKdUp" value="PatternRegistry treeViewer selection" />
                 </node>
               </node>
+              <node concept="3cpWs8" id="6QPcpHr$2Ff" role="3cqZAp">
+                <node concept="3cpWsn" id="6QPcpHr$2Fg" role="3cpWs9">
+                  <property role="TrG5h" value="registryViewSelection" />
+                  <property role="3TUv4t" value="true" />
+                  <node concept="3uibUv" id="6QPcpHr$2Fb" role="1tU5fm">
+                    <ref role="3uigEE" to="rgfa:~TreePath" resolve="TreePath" />
+                  </node>
+                  <node concept="2OqwBi" id="6QPcpHr$2Fh" role="33vP2m">
+                    <node concept="2OqwBi" id="6QPcpHr$2Fi" role="2Oq$k0">
+                      <node concept="2OqwBi" id="6QPcpHr$2Fj" role="2Oq$k0">
+                        <node concept="37vLTw" id="6QPcpHr$2Fk" role="2Oq$k0">
+                          <ref role="3cqZAo" node="X9$Hg9SnB7" resolve="queryExplorer" />
+                        </node>
+                        <node concept="2OwXpG" id="6QPcpHr$2Fl" role="2OqNvi">
+                          <ref role="2Oxat5" node="7aUOHOT8LX6" resolve="patternRegistry" />
+                        </node>
+                      </node>
+                      <node concept="2OwXpG" id="6QPcpHr$2Fm" role="2OqNvi">
+                        <ref role="2Oxat5" node="7aUOHOT6yFQ" resolve="treeViewer" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="6QPcpHr$2Fn" role="2OqNvi">
+                      <ref role="37wK5l" to="dxuu:~JTree.getSelectionPath():javax.swing.tree.TreePath" resolve="getSelectionPath" />
+                    </node>
+                  </node>
+                </node>
+              </node>
               <node concept="3cpWs8" id="4k1r0DoFs09" role="3cqZAp">
                 <node concept="3cpWsn" id="4k1r0DoFs0a" role="3cpWs9">
                   <property role="TrG5h" value="selection" />
+                  <property role="3TUv4t" value="true" />
                   <node concept="3uibUv" id="4k1r0DoIDHh" role="1tU5fm">
                     <ref role="3uigEE" node="7aUOHOSU$9R" resolve="QueryExplorerPatternRegistry.PatternSegment" />
                   </node>
                   <node concept="10QFUN" id="4k1r0DoIE6r" role="33vP2m">
                     <node concept="2OqwBi" id="4k1r0DoFGCc" role="10QFUP">
-                      <node concept="2OqwBi" id="4k1r0DoFDDR" role="2Oq$k0">
-                        <node concept="2OqwBi" id="4k1r0DoF_b_" role="2Oq$k0">
-                          <node concept="2OqwBi" id="4k1r0DoFskc" role="2Oq$k0">
-                            <node concept="37vLTw" id="X9$Hg9Soai" role="2Oq$k0">
-                              <ref role="3cqZAo" node="X9$Hg9SnB7" resolve="queryExplorer" />
-                            </node>
-                            <node concept="2OwXpG" id="4k1r0DoFz$N" role="2OqNvi">
-                              <ref role="2Oxat5" node="7aUOHOT8LX6" resolve="patternRegistry" />
-                            </node>
-                          </node>
-                          <node concept="2OwXpG" id="4k1r0DoFC1A" role="2OqNvi">
-                            <ref role="2Oxat5" node="7aUOHOT6yFQ" resolve="treeViewer" />
-                          </node>
-                        </node>
-                        <node concept="liA8E" id="4k1r0DoFGA6" role="2OqNvi">
-                          <ref role="37wK5l" to="dxuu:~JTree.getSelectionPath():javax.swing.tree.TreePath" resolve="getSelectionPath" />
-                        </node>
+                      <node concept="37vLTw" id="6QPcpHr$2Fo" role="2Oq$k0">
+                        <ref role="3cqZAo" node="6QPcpHr$2Fg" resolve="registryViewSelection" />
                       </node>
                       <node concept="liA8E" id="4k1r0DoFHbV" role="2OqNvi">
                         <ref role="37wK5l" to="rgfa:~TreePath.getLastPathComponent():java.lang.Object" resolve="getLastPathComponent" />
@@ -6315,21 +6331,31 @@
                   </node>
                 </node>
               </node>
-              <node concept="3clFbF" id="4k1r0DoMgWE" role="3cqZAp">
-                <node concept="2OqwBi" id="4k1r0DoMlBG" role="3clFbG">
-                  <node concept="2OqwBi" id="4k1r0DoMhgJ" role="2Oq$k0">
-                    <node concept="37vLTw" id="X9$Hg9SogC" role="2Oq$k0">
-                      <ref role="3cqZAo" node="X9$Hg9SnB7" resolve="queryExplorer" />
-                    </node>
-                    <node concept="2OwXpG" id="4k1r0DoMk1C" role="2OqNvi">
-                      <ref role="2Oxat5" node="7aUOHOT8LX6" resolve="patternRegistry" />
+              <node concept="3clFbJ" id="6QPcpHr$6kx" role="3cqZAp">
+                <node concept="3clFbS" id="6QPcpHr$6kz" role="3clFbx">
+                  <node concept="3clFbF" id="4k1r0DoMgWE" role="3cqZAp">
+                    <node concept="2OqwBi" id="4k1r0DoMlBG" role="3clFbG">
+                      <node concept="2OqwBi" id="4k1r0DoMhgJ" role="2Oq$k0">
+                        <node concept="37vLTw" id="X9$Hg9SogC" role="2Oq$k0">
+                          <ref role="3cqZAo" node="X9$Hg9SnB7" resolve="queryExplorer" />
+                        </node>
+                        <node concept="2OwXpG" id="4k1r0DoMk1C" role="2OqNvi">
+                          <ref role="2Oxat5" node="7aUOHOT8LX6" resolve="patternRegistry" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="4k1r0DoMot$" role="2OqNvi">
+                        <ref role="37wK5l" node="4k1r0DoLn4K" resolve="unregisterPattern" />
+                        <node concept="37vLTw" id="4k1r0DoMoux" role="37wK5m">
+                          <ref role="3cqZAo" node="4k1r0DoFs0a" resolve="selection" />
+                        </node>
+                      </node>
                     </node>
                   </node>
-                  <node concept="liA8E" id="4k1r0DoMot$" role="2OqNvi">
-                    <ref role="37wK5l" node="4k1r0DoLn4K" resolve="unregisterPattern" />
-                    <node concept="37vLTw" id="4k1r0DoMoux" role="37wK5m">
-                      <ref role="3cqZAo" node="4k1r0DoFs0a" resolve="selection" />
-                    </node>
+                </node>
+                <node concept="3y3z36" id="6QPcpHr$77Y" role="3clFbw">
+                  <node concept="10Nm6u" id="6QPcpHr$7gm" role="3uHU7w" />
+                  <node concept="37vLTw" id="6QPcpHr$6GT" role="3uHU7B">
+                    <ref role="3cqZAo" node="4k1r0DoFs0a" resolve="selection" />
                   </node>
                 </node>
               </node>
