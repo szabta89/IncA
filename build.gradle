@@ -157,6 +157,15 @@ task run_tests(type: TestLanguages, dependsOn: build_languages) {
     scriptClasspath = buildScriptClasspath
 }
 
+task generateLibrariesXml(type: GenerateLibrariesXml) {
+    dependsOn resolveMpsArtifacts
+    defaults rootProject.file('libraries.properties')
+    overrides rootProject.file('libraries.overrides.properties')
+    destination file('code/.mps/libraries.xml')
+}
+
+defaultTasks 'build_languages', 'generateLibrariesXml'
+
 // Ant <junit> task support
 repositories {
     mavenCentral()

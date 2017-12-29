@@ -5,6 +5,7 @@ test_gen.caches
 workspace.xml
 artifacts
 tmp
+libraries.overrides.properties
 .gradle/
 build/generated/
 build/mps/
