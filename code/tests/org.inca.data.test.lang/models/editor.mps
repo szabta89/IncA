@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:1ba5d697-2b40-46d2-b059-395cf830f5cd(org.inca.testlang.editor)">
+<model ref="r:1ba5d697-2b40-46d2-b059-395cf830f5cd(org.inca.data.test.lang.editor)">
   <persistence version="9" />
   <languages>
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="11" />
     <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   </languages>
   <imports>
-    <import index="w0dh" ref="r:0f17df74-12d3-495c-9401-0232a712e8ff(org.inca.testlang.structure)" implicit="true" />
+    <import index="w0dh" ref="r:0f17df74-12d3-495c-9401-0232a712e8ff(org.inca.data.test.lang.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -136,6 +136,36 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="lj46D" id="7VDQWeb33LA" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="1RSI$j$D6Z1">
+    <ref role="1XX52x" to="w0dh:1RSI$j$D0vo" resolve="IntervalExpression" />
+    <node concept="3EZMnI" id="1RSI$j$D70c" role="2wV5jI">
+      <node concept="l2Vlx" id="1RSI$j$D70d" role="2iSdaV" />
+      <node concept="3F0ifn" id="1RSI$j$D6Zd" role="3EZMnx">
+        <property role="3F0ifm" value="[" />
+        <node concept="11LMrY" id="1RSI$j$D72g" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="1RSI$j$D70v" role="3EZMnx">
+        <ref role="1NtTu8" to="w0dh:1RSI$j$D6XI" resolve="min" />
+      </node>
+      <node concept="3F0ifn" id="1RSI$j$D70B" role="3EZMnx">
+        <property role="3F0ifm" value="," />
+        <node concept="11L4FC" id="1RSI$j$D72A" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="1RSI$j$D71b" role="3EZMnx">
+        <ref role="1NtTu8" to="w0dh:1RSI$j$D6Yo" resolve="max" />
+      </node>
+      <node concept="3F0ifn" id="1RSI$j$D71x" role="3EZMnx">
+        <property role="3F0ifm" value="]" />
+        <node concept="11L4FC" id="1RSI$j$D72W" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>

@@ -21,13 +21,14 @@
       <modulePath path="$PROJECT_DIR$/solutions/org.inca.measurements/org.inca.measurements.msd" folder="measurements" />
       <modulePath path="$PROJECT_DIR$/solutions/org.inca.meta.analysis/org.inca.meta.analysis.msd" folder="meta" />
       <modulePath path="$PROJECT_DIR$/solutions/org.inca.ui/org.inca.ui.msd" folder="ui" />
+      <modulePath path="$PROJECT_DIR$/tests/org.inca.data.test.analyses/org.inca.data.test.analyses.msd" folder="tests" />
+      <modulePath path="$PROJECT_DIR$/tests/org.inca.data.test.lang/org.inca.data.test.lang.mpl" folder="tests" />
       <modulePath path="$PROJECT_DIR$/tests/org.inca.data.test/org.inca.data.test.msd" folder="tests" />
       <modulePath path="$PROJECT_DIR$/tests/org.inca.fun.test/org.inca.fun.test.msd" folder="tests" />
       <modulePath path="$PROJECT_DIR$/tests/org.inca.gp.test/org.inca.gp.test.msd" folder="tests" />
       <modulePath path="$PROJECT_DIR$/tests/org.inca.meta.analysis.impact.test/org.inca.meta.analysis.impact.test.msd" folder="tests" />
       <modulePath path="$PROJECT_DIR$/tests/org.inca.meta.analysis.test/org.inca.meta.analysis.test.msd" folder="tests" />
       <modulePath path="$PROJECT_DIR$/tests/org.inca.sa.test/org.inca.sa.test.msd" folder="tests" />
-      <modulePath path="$PROJECT_DIR$/tests/org.inca.testlang/org.inca.testlang.mpl" folder="tests" />
     </projectModules>
   </component>
 </project>

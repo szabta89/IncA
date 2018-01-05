@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:1ceb1701-594f-4e55-a2a9-c1de79ec1ed1(org.inca.testlang.constraints)">
+<model ref="r:114449c6-e60f-4033-a96d-9cf468bc2f91(org.inca.data.test.lang.behavior)">
   <persistence version="9" />
   <languages>
+    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="1" />
     <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
-    <devkit ref="00000000-0000-4000-0000-5604ebd4f22c(jetbrains.mps.devkit.aspect.constraints)" />
   </languages>
   <imports />
   <registry />
