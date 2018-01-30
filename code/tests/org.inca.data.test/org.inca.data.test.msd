@@ -55,6 +55,7 @@
     <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
     <module reference="b802a056-92a2-4fbc-902e-f8e5004c331f(org.inca.core)" version="0" />
     <module reference="7766a138-716a-422a-9c88-131459fb8d6a(org.inca.core.runtime)" version="0" />
+    <module reference="bc791f96-4749-4311-a6e4-241e47ca97f9(org.inca.core.util)" version="0" />
     <module reference="6839772c-d6f1-4888-802e-6f3fba3a3fe3(org.inca.data.test)" version="0" />
     <module reference="af8b7d6e-4138-4959-9106-3ad2fd47fb92(org.inca.data.test.analyses)" version="0" />
     <module reference="9c179615-5b01-47d6-8747-de24f81c45dc(org.inca.data.test.lang)" version="0" />

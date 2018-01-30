@@ -81,7 +81,7 @@
   </generators>
   <sourcePath />
   <dependencies>
-    <dependency reexport="false">bc791f96-4749-4311-a6e4-241e47ca97f9(org.inca.core.util)</dependency>
+    <dependency reexport="true">bc791f96-4749-4311-a6e4-241e47ca97f9(org.inca.core.util)</dependency>
     <dependency reexport="false">7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)</dependency>
     <dependency reexport="false">df9d410f-2ebb-43f7-893a-483a4f085250(jetbrains.mps.smodel.resources)</dependency>
     <dependency reexport="false">7766a138-716a-422a-9c88-131459fb8d6a(org.inca.core.runtime)</dependency>

@@ -1223,19 +1223,16 @@
   <node concept="1TIwiD" id="1UJP1A0V$Ki">
     <property role="EcuMT" value="2211219148064574482" />
     <property role="3GE5qa" value="type.runtime" />
-    <property role="TrG5h" value="RuntimeJoinType" />
+    <property role="TrG5h" value="DefRuntimeJoinType" />
     <property role="34LRSv" value="join" />
     <property role="R4oN_" value="join type" />
-    <ref role="1TJDcQ" to="tp25:gzTqbfa" resolve="SNodeType" />
+    <ref role="1TJDcQ" node="k7mOBDjKgc" resolve="AbstractRuntimeJoinType" />
     <node concept="1TJgyj" id="1UJP1A0VCHU" role="1TKVEi">
       <property role="IQ2ns" value="2211219148064590714" />
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="joinTypeDef" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="7a3nU354JVn" resolve="IJoinTypeDef" />
-    </node>
-    <node concept="PrWs8" id="aQnmvHEmTJ" role="PzmwI">
-      <ref role="PrY4T" node="aQnmvHEm_S" resolve="IRuntimeIncAType" />
     </node>
   </node>
   <node concept="1TIwiD" id="6ZsaHh09WeF">
@@ -1309,6 +1306,42 @@
     <property role="EcuMT" value="4858353860860377641" />
     <property role="3GE5qa" value="typeHint" />
     <property role="TrG5h" value="ITypeHintKeyProvider" />
+  </node>
+  <node concept="1TIwiD" id="3pHNonXSpeM">
+    <property role="EcuMT" value="3922016825883333554" />
+    <property role="3GE5qa" value="type.runtime" />
+    <property role="TrG5h" value="ComponentRuntimeJoinType" />
+    <property role="34LRSv" value="join" />
+    <property role="R4oN_" value="join type" />
+    <ref role="1TJDcQ" node="k7mOBDjKgc" resolve="AbstractRuntimeJoinType" />
+    <node concept="1TJgyj" id="3pHNonXSpZx" role="1TKVEi">
+      <property role="IQ2ns" value="3922016825883336673" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="components" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" to="tpck:hYa1RjM" resolve="IType" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3pHNonXSpSo">
+    <property role="EcuMT" value="3922016825883336216" />
+    <property role="3GE5qa" value="type.runtime" />
+    <property role="TrG5h" value="IRuntimeJoinType" />
+    <node concept="PrWs8" id="3pHNonXSpTv" role="PrDN$">
+      <ref role="PrY4T" node="aQnmvHEm_S" resolve="IRuntimeIncAType" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="k7mOBDjKgc">
+    <property role="EcuMT" value="362358668031624204" />
+    <property role="3GE5qa" value="type.runtime" />
+    <property role="TrG5h" value="AbstractRuntimeJoinType" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <property role="34LRSv" value="join" />
+    <property role="R4oN_" value="join type" />
+    <ref role="1TJDcQ" to="tp25:gzTqbfa" resolve="SNodeType" />
+    <node concept="PrWs8" id="k7mOBDjKht" role="PzmwI">
+      <ref role="PrY4T" node="aQnmvHEm_S" resolve="IRuntimeIncAType" />
+    </node>
   </node>
 </model>
 

@@ -2776,7 +2776,7 @@
   </node>
   <node concept="24kQdi" id="1UJP1A0VCI4">
     <property role="3GE5qa" value="type.runtime" />
-    <ref role="1XX52x" to="hqsm:1UJP1A0V$Ki" resolve="RuntimeJoinType" />
+    <ref role="1XX52x" to="hqsm:1UJP1A0V$Ki" resolve="DefRuntimeJoinType" />
     <node concept="3EZMnI" id="1UJP1A0VCI9" role="2wV5jI">
       <node concept="l2Vlx" id="1UJP1A0VCIa" role="2iSdaV" />
       <node concept="3F0ifn" id="1UJP1A0VCI6" role="3EZMnx">
@@ -3195,6 +3195,45 @@
       </node>
     </node>
     <node concept="3VyMlK" id="7Hdi_qc2m6m" role="3ft7WO" />
+  </node>
+  <node concept="24kQdi" id="3pHNonXSq0C">
+    <property role="3GE5qa" value="type.runtime" />
+    <ref role="1XX52x" to="hqsm:3pHNonXSpeM" resolve="ComponentRuntimeJoinType" />
+    <node concept="3EZMnI" id="3pHNonXSq0E" role="2wV5jI">
+      <node concept="l2Vlx" id="3pHNonXSq0F" role="2iSdaV" />
+      <node concept="3F0ifn" id="3pHNonXSq0G" role="3EZMnx">
+        <property role="3F0ifm" value="join&lt;" />
+        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
+        <node concept="11LMrY" id="3pHNonXSq0H" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F2HdR" id="3pHNonXSq1Q" role="3EZMnx">
+        <property role="2czwfO" value="," />
+        <ref role="1NtTu8" to="hqsm:3pHNonXSpZx" resolve="components" />
+        <node concept="l2Vlx" id="3pHNonXSq1S" role="2czzBx" />
+        <node concept="3F0ifn" id="3pHNonXSq2z" role="2czzBI" />
+        <node concept="tppnM" id="3pHNonXZhMs" role="sWeuL">
+          <node concept="11L4FC" id="3pHNonXZhMN" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="11LMrY" id="3pHNonXZhNf" role="3F10Kt">
+            <property role="VOm3f" value="false" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="3pHNonXSq0L" role="3EZMnx">
+        <property role="3F0ifm" value="&gt;" />
+        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
+        <node concept="11L4FC" id="3pHNonXSq0M" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3p36aQ" id="k7mOBDjQC4">
+    <property role="3GE5qa" value="type.runtime" />
+    <ref role="aqKnT" to="hqsm:k7mOBDjKgc" resolve="AbstractRuntimeJoinType" />
   </node>
 </model>
 
