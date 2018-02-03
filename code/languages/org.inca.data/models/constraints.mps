@@ -255,17 +255,11 @@
     <node concept="9S07l" id="3VjX_P5CRv7" role="9Vyp8">
       <node concept="3clFbS" id="2RSm1Cz26Q7" role="2VODD2">
         <node concept="3cpWs6" id="2RSm1Cz26Q8" role="3cqZAp">
-          <node concept="3y3z36" id="2RSm1Cz26Q9" role="3cqZAk">
-            <node concept="10Nm6u" id="2RSm1Cz26Qa" role="3uHU7w" />
-            <node concept="2OqwBi" id="2RSm1Cz26Qb" role="3uHU7B">
-              <node concept="nLn13" id="2RSm1Cz26Qc" role="2Oq$k0" />
-              <node concept="2Xjw5R" id="2RSm1Cz26Qd" role="2OqNvi">
-                <node concept="1xMEDy" id="2RSm1Cz26Qe" role="1xVPHs">
-                  <node concept="chp4Y" id="2RSm1Cz26Qf" role="ri$Ld">
-                    <ref role="cht4Q" to="uu1k:6fy2FM6rbXp" resolve="MatchExpression" />
-                  </node>
-                </node>
-                <node concept="1xIGOp" id="2RSm1Cz26Qg" role="1xVPHs" />
+          <node concept="2OqwBi" id="2RSm1Cz26Qb" role="3cqZAk">
+            <node concept="nLn13" id="2RSm1Cz26Qc" role="2Oq$k0" />
+            <node concept="1mIQ4w" id="1Nhm9bH090L" role="2OqNvi">
+              <node concept="chp4Y" id="1Nhm9bH099L" role="cj9EA">
+                <ref role="cht4Q" to="uu1k:6fy2FM6rbXp" resolve="MatchStatement" />
               </node>
             </node>
           </node>
@@ -1043,47 +1037,6 @@
       </node>
     </node>
   </node>
-  <node concept="1M2fIO" id="6h60itP$bQ2">
-    <property role="3GE5qa" value="definition" />
-    <ref role="1M2myG" to="uu1k:6h60itPzHnM" resolve="LatticeOperation" />
-    <node concept="9SLcT" id="6h60itP$bQ3" role="9SGkU">
-      <node concept="3clFbS" id="2RSm1Cz26Qi" role="2VODD2">
-        <node concept="3clFbJ" id="2RSm1Cz26Qj" role="3cqZAp">
-          <node concept="3clFbS" id="2RSm1Cz26Qn" role="3clFbx">
-            <node concept="3cpWs6" id="2RSm1Cz26Qo" role="3cqZAp">
-              <node concept="2OqwBi" id="2RSm1Cz26Qp" role="3cqZAk">
-                <node concept="2DD5aU" id="2RSm1Cz26Qx" role="2Oq$k0" />
-                <node concept="3O6GUB" id="2RSm1Cz26Qr" role="2OqNvi">
-                  <node concept="chp4Y" id="2RSm1Cz26Qs" role="3QVz_e">
-                    <ref role="cht4Q" to="uu1k:6h60itP$bP2" resolve="LatticeOperationParameterDeclaration" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="9aQIb" id="2RSm1Cz26Qt" role="9aQIa">
-            <node concept="3clFbS" id="2RSm1Cz26Qu" role="9aQI4">
-              <node concept="3cpWs6" id="2RSm1Cz26Qv" role="3cqZAp">
-                <node concept="3clFbT" id="2RSm1Cz26Qw" role="3cqZAk">
-                  <property role="3clFbU" value="true" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="2OqwBi" id="2RSm1Cz_Ul3" role="3clFbw">
-            <node concept="359W_D" id="2RSm1Cz26Qz" role="2Oq$k0">
-              <ref role="359W_E" to="tpee:fzclF7W" resolve="BaseMethodDeclaration" />
-              <ref role="359W_F" to="tpee:fzclF7Y" resolve="parameter" />
-            </node>
-            <node concept="liA8E" id="2RSm1Cz_UKW" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object):boolean" resolve="equals" />
-              <node concept="2DA6wF" id="2RSm1Cz_UUQ" role="37wK5m" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="1M2fIO" id="2zB$jxpxh_r">
     <property role="3GE5qa" value="pattern" />
     <ref role="1M2myG" to="uu1k:6fy2FM6rkms" resolve="IPatternMemberElement" />
@@ -1658,6 +1611,47 @@
                   <ref role="3cqZAo" node="1rEZ6Y2ovw$" resolve="result" />
                 </node>
               </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="1rBYdCf2mPD">
+    <property role="3GE5qa" value="definition" />
+    <ref role="1M2myG" to="uu1k:6h60itPzHnN" resolve="ILatticeOperation" />
+    <node concept="9SLcT" id="1rBYdCf5CFg" role="9SGkU">
+      <node concept="3clFbS" id="1rBYdCf5CFh" role="2VODD2">
+        <node concept="3clFbJ" id="2RSm1Cz26Qj" role="3cqZAp">
+          <node concept="3clFbS" id="2RSm1Cz26Qn" role="3clFbx">
+            <node concept="3cpWs6" id="2RSm1Cz26Qo" role="3cqZAp">
+              <node concept="2OqwBi" id="2RSm1Cz26Qp" role="3cqZAk">
+                <node concept="2DD5aU" id="2RSm1Cz26Qx" role="2Oq$k0" />
+                <node concept="3O6GUB" id="2RSm1Cz26Qr" role="2OqNvi">
+                  <node concept="chp4Y" id="2RSm1Cz26Qs" role="3QVz_e">
+                    <ref role="cht4Q" to="uu1k:6h60itP$bP2" resolve="LatticeOperationParameterDeclaration" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="2RSm1Cz26Qt" role="9aQIa">
+            <node concept="3clFbS" id="2RSm1Cz26Qu" role="9aQI4">
+              <node concept="3cpWs6" id="2RSm1Cz26Qv" role="3cqZAp">
+                <node concept="3clFbT" id="2RSm1Cz26Qw" role="3cqZAk">
+                  <property role="3clFbU" value="true" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="2RSm1Cz_Ul3" role="3clFbw">
+            <node concept="359W_D" id="2RSm1Cz26Qz" role="2Oq$k0">
+              <ref role="359W_E" to="tpee:fzclF7W" resolve="BaseMethodDeclaration" />
+              <ref role="359W_F" to="tpee:fzclF7Y" resolve="parameter" />
+            </node>
+            <node concept="liA8E" id="2RSm1Cz_UKW" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object):boolean" resolve="equals" />
+              <node concept="2DA6wF" id="2RSm1Cz_UUQ" role="37wK5m" />
             </node>
           </node>
         </node>

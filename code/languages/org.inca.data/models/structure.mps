@@ -162,15 +162,18 @@
       <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" node="6fy2FM6rcqL" resolve="IMatchPattern" />
     </node>
-    <node concept="1TJgyj" id="4K3_GpAs2$_" role="1TKVEi">
-      <property role="IQ2ns" value="5477387350678972709" />
+    <node concept="1TJgyj" id="1Nhm9bH084$" role="1TKVEi">
+      <property role="IQ2ns" value="2076538291259212068" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="expression" />
+      <property role="20kJfa" value="body" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+      <ref role="20lvS9" to="tpee:fzclF80" resolve="StatementList" />
     </node>
     <node concept="PrWs8" id="2zB$jxp$fmq" role="PrDN$">
       <ref role="PrY4T" to="hqsm:1YBYCQ13COO" resolve="IGenNameProvider" />
+    </node>
+    <node concept="PrWs8" id="oNpFNpbaNS" role="PrDN$">
+      <ref role="PrY4T" node="oNpFNpbaMF" resolve="IMatchLike" />
     </node>
   </node>
   <node concept="PlHQZ" id="6fy2FM6rcqL">
@@ -225,18 +228,18 @@
     <property role="34LRSv" value="case" />
     <property role="R4oN_" value="case" />
     <property role="3GE5qa" value="pattern" />
-    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6fy2FM6rcqI" role="PzmwI">
       <ref role="PrY4T" node="6fy2FM6rc9J" resolve="IMatchCase" />
     </node>
   </node>
   <node concept="1TIwiD" id="6fy2FM6rbXp">
     <property role="EcuMT" value="7197326959316877145" />
-    <property role="TrG5h" value="MatchExpression" />
+    <property role="TrG5h" value="MatchStatement" />
     <property role="34LRSv" value="match" />
     <property role="3GE5qa" value="pattern" />
-    <property role="R4oN_" value="pattern matching expression" />
-    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <property role="R4oN_" value="pattern matching statement" />
+    <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
     <node concept="1TJgyj" id="6fy2FM6rc9K" role="1TKVEi">
       <property role="IQ2ns" value="7197326959316877936" />
       <property role="20lmBu" value="aggregation" />
@@ -250,6 +253,9 @@
       <property role="20kJfa" value="expressions" />
       <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="PrWs8" id="oNpFNpbaOj" role="PzmwI">
+      <ref role="PrY4T" node="oNpFNpbaMF" resolve="IMatchLike" />
     </node>
   </node>
   <node concept="1TIwiD" id="6fy2FM6tE6r">
@@ -507,21 +513,6 @@
     <property role="TrG5h" value="LatticeOperationParameterDeclaration" />
     <ref role="1TJDcQ" to="tpee:fz7vLUk" resolve="ParameterDeclaration" />
   </node>
-  <node concept="1TIwiD" id="2XlXuxNGCFi">
-    <property role="EcuMT" value="3410902671525317330" />
-    <property role="3GE5qa" value="pattern" />
-    <property role="TrG5h" value="MatchCaseBlock" />
-    <property role="34LRSv" value="{" />
-    <property role="R4oN_" value="block expression" />
-    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
-    <node concept="1TJgyj" id="2XlXuxNGEt0" role="1TKVEi">
-      <property role="IQ2ns" value="3410902671525324608" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="body" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="tpee:fzclF80" resolve="StatementList" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="37SozOpSTlY">
     <property role="EcuMT" value="3600735916649583998" />
     <property role="3GE5qa" value="definition" />
@@ -635,6 +626,11 @@
     <node concept="PrWs8" id="1rEZ6Y2nNzz" role="PzmwI">
       <ref role="PrY4T" node="7tOfV2_AEhe" resolve="ILatticeElementCombinator" />
     </node>
+  </node>
+  <node concept="PlHQZ" id="oNpFNpbaMF">
+    <property role="EcuMT" value="446813749323279531" />
+    <property role="3GE5qa" value="pattern" />
+    <property role="TrG5h" value="IMatchLike" />
   </node>
 </model>
 

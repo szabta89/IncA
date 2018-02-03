@@ -19,6 +19,7 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" implicit="true" />
     <import index="coho" ref="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.inca.fun.behavior)" implicit="true" />
+    <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -68,6 +69,9 @@
       <concept id="1638911550608571617" name="jetbrains.mps.lang.editor.structure.TransformationMenu_Default" flags="ng" index="IW6AY" />
       <concept id="1216308599511" name="jetbrains.mps.lang.editor.structure.PositionStyleClassItem" flags="ln" index="LD5Jc">
         <property id="1216308761668" name="position" index="LDHlv" />
+      </concept>
+      <concept id="1078939183254" name="jetbrains.mps.lang.editor.structure.CellModel_Component" flags="sg" stub="3162947552742194261" index="PMmxH">
+        <reference id="1078939183255" name="editorComponent" index="PMmxG" />
       </concept>
       <concept id="3738029991950788349" name="jetbrains.mps.lang.editor.structure.SubstituteMenu_Named" flags="ng" index="Q6S24" />
       <concept id="1186403694788" name="jetbrains.mps.lang.editor.structure.ColorStyleClassItem" flags="ln" index="VaVBg">
@@ -1458,9 +1462,9 @@
     <ref role="1XX52x" to="ebqt:52HBLukRz2d" resolve="Undef" />
     <node concept="3EZMnI" id="52HBLukRz6P" role="2wV5jI">
       <node concept="l2Vlx" id="52HBLukRz6Q" role="2iSdaV" />
-      <node concept="3F0ifn" id="52HBLukRz6L" role="3EZMnx">
-        <property role="3F0ifm" value="undef" />
-        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
+      <node concept="PMmxH" id="4TovPHkdjo4" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+        <ref role="1k5W1q" to="3sc9:2CEi94dgHKA" resolve="KeyWord" />
       </node>
       <node concept="3F1sOY" id="52HBLukRz74" role="3EZMnx">
         <ref role="1NtTu8" to="ebqt:52HBLukRz4s" resolve="expression" />
@@ -1472,9 +1476,9 @@
     <ref role="1XX52x" to="ebqt:4Z0VXz29EWA" resolve="Def" />
     <node concept="3EZMnI" id="4Z0VXz29F1a" role="2wV5jI">
       <node concept="l2Vlx" id="4Z0VXz29F1b" role="2iSdaV" />
-      <node concept="3F0ifn" id="4Z0VXz29F1c" role="3EZMnx">
-        <property role="3F0ifm" value="def" />
-        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
+      <node concept="PMmxH" id="4TovPHkdjpz" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+        <ref role="1k5W1q" to="3sc9:2CEi94dgHKA" resolve="KeyWord" />
       </node>
       <node concept="3F1sOY" id="4Z0VXz29F1d" role="3EZMnx">
         <ref role="1NtTu8" to="ebqt:4Z0VXz29EYP" resolve="expression" />
