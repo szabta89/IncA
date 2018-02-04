@@ -29,7 +29,7 @@
     <language slang="l:c72da2b9-7cce-4447-8389-f407dc1158b7:jetbrains.mps.lang.structure" version="6" />
     <language slang="l:9ded098b-ad6a-4657-bfd9-48636cfe8bc3:jetbrains.mps.lang.traceable" version="0" />
     <language slang="l:b802a056-92a2-4fbc-902e-f8e5004c331f:org.inca.core" version="0" />
-    <language slang="l:e6d2ffd5-9c56-41f8-99ac-9d1ceb13daa2:org.inca.data" version="0" />
+    <language slang="l:e6d2ffd5-9c56-41f8-99ac-9d1ceb13daa2:org.inca.data" version="2" />
     <language slang="l:8c9a2720-9d21-4370-a226-819eb3e76e1e:org.inca.fun" version="0" />
     <language slang="l:cd2909da-ecb4-49dc-b176-33e5c619e516:org.inca.gp" version="0" />
   </languageVersions>

@@ -2376,7 +2376,7 @@
             <node concept="3clFbS" id="SSjGGIuXbc" role="3clFbx">
               <node concept="Dpp1Q" id="2vh$OcNytN6" role="3cqZAp">
                 <node concept="Xl_RD" id="2vh$OcNytN8" role="Dpw9R">
-                  <property role="Xl_RC" value="This import is part of a cyclic dependency chain" />
+                  <property role="Xl_RC" value="This import is part of a cyclic dependency chain." />
                 </node>
                 <node concept="2GrUjf" id="2vh$OcNzc61" role="2OEOjV">
                   <ref role="2Gs0qQ" node="2vh$OcNz2fW" resolve="importNode" />

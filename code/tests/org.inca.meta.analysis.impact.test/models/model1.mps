@@ -6,7 +6,7 @@
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="-1" />
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="-1" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="-1" />
-    <use id="e6d2ffd5-9c56-41f8-99ac-9d1ceb13daa2" name="org.inca.data" version="-1" />
+    <use id="e6d2ffd5-9c56-41f8-99ac-9d1ceb13daa2" name="org.inca.data" version="2" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="-1" />
     <use id="b802a056-92a2-4fbc-902e-f8e5004c331f" name="org.inca.core" version="-1" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="-1" />
@@ -77,9 +77,6 @@
         <reference id="6779281757084071662" name="constructor" index="1tneST" />
       </concept>
       <concept id="6779281757084383227" name="org.inca.data.structure.PatternMemberElement" flags="ng" index="1tm2WG" />
-      <concept id="6779281757084535628" name="org.inca.data.structure.PatternMemberElementReference" flags="ng" index="1tmTer">
-        <reference id="6779281757084535629" name="element" index="1tmTeq" />
-      </concept>
       <concept id="7197326959316877145" name="org.inca.data.structure.MatchStatement" flags="ng" index="3_zFn_">
         <child id="7197326959316877936" name="cases" index="3_zGzc" />
         <child id="7197326959317219477" name="expressions" index="3_$Z8D" />
@@ -93,7 +90,7 @@
       </concept>
       <concept id="7197326959316879021" name="org.inca.data.structure.MatchCase" flags="ng" index="3_zGKh" />
       <concept id="7197326959316911516" name="org.inca.data.structure.IPatternMemberElement" flags="ng" index="3_zOWw">
-        <child id="7197326959316911525" name="type" index="3_zOWp" />
+        <child id="7197326959316911525" name="patternType" index="3_zOWp" />
       </concept>
       <concept id="7197326959317524891" name="org.inca.data.structure.Pattern" flags="ng" index="3__aGB" />
       <concept id="7197326959315955332" name="org.inca.data.structure.TypeConstructorReference" flags="ng" index="3_JagS" />
@@ -979,6 +976,7 @@
               </node>
               <node concept="1tm2WG" id="2sF00vNXZGN" role="3_zOWs">
                 <property role="TrG5h" value="v1" />
+                <node concept="10Oyi0" id="1FxBGu9qoL3" role="1tU5fm" />
               </node>
             </node>
             <node concept="3__aGB" id="2sF00vNXZHA" role="3_$9z$">
@@ -987,16 +985,17 @@
               </node>
               <node concept="1tm2WG" id="2sF00vNXZIq" role="3_zOWs">
                 <property role="TrG5h" value="v2" />
+                <node concept="10Oyi0" id="1FxBGu9qoL4" role="1tU5fm" />
               </node>
             </node>
             <node concept="3clFbS" id="oNpFNoaQff" role="3LOtAQ">
               <node concept="3cpWs6" id="oNpFNoHsck" role="3cqZAp">
                 <node concept="2dkUwp" id="oNpFNoHscl" role="3cqZAk">
-                  <node concept="1tmTer" id="oNpFNoHscm" role="3uHU7w">
-                    <ref role="1tmTeq" node="2sF00vNXZIq" resolve="v2" />
+                  <node concept="37vLTw" id="1FxBGu9sM3q" role="3uHU7w">
+                    <ref role="3cqZAo" node="2sF00vNXZIq" resolve="v2" />
                   </node>
-                  <node concept="1tmTer" id="oNpFNoHscn" role="3uHU7B">
-                    <ref role="1tmTeq" node="2sF00vNXZGN" resolve="v1" />
+                  <node concept="37vLTw" id="1FxBGu9sM3r" role="3uHU7B">
+                    <ref role="3cqZAo" node="2sF00vNXZGN" resolve="v1" />
                   </node>
                 </node>
               </node>
@@ -1039,6 +1038,7 @@
               </node>
               <node concept="1tm2WG" id="2sF00vNY0Xl" role="3_zOWs">
                 <property role="TrG5h" value="v1" />
+                <node concept="10Oyi0" id="1FxBGu9qoL5" role="1tU5fm" />
               </node>
             </node>
             <node concept="3__aGB" id="2sF00vNY0Xm" role="3_$9z$">
@@ -1047,6 +1047,7 @@
               </node>
               <node concept="1tm2WG" id="2sF00vNY0Xo" role="3_zOWs">
                 <property role="TrG5h" value="v2" />
+                <node concept="10Oyi0" id="1FxBGu9qoL6" role="1tU5fm" />
               </node>
             </node>
             <node concept="3clFbS" id="oNpFNoaQfg" role="3LOtAQ">
@@ -1056,11 +1057,11 @@
                   <node concept="2YIFZM" id="oNpFNoHszS" role="2ZRyFy">
                     <ref role="37wK5l" to="wyt6:~Math.max(int,int):int" resolve="max" />
                     <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
-                    <node concept="1tmTer" id="oNpFNoHszT" role="37wK5m">
-                      <ref role="1tmTeq" node="2sF00vNY0Xl" resolve="v1" />
+                    <node concept="37vLTw" id="1FxBGu9sM3s" role="37wK5m">
+                      <ref role="3cqZAo" node="2sF00vNY0Xl" resolve="v1" />
                     </node>
-                    <node concept="1tmTer" id="oNpFNoHszU" role="37wK5m">
-                      <ref role="1tmTeq" node="2sF00vNY0Xo" resolve="v2" />
+                    <node concept="37vLTw" id="1FxBGu9sM3t" role="37wK5m">
+                      <ref role="3cqZAo" node="2sF00vNY0Xo" resolve="v2" />
                     </node>
                   </node>
                 </node>
@@ -1104,6 +1105,7 @@
               </node>
               <node concept="1tm2WG" id="2sF00vNY39b" role="3_zOWs">
                 <property role="TrG5h" value="v1" />
+                <node concept="10Oyi0" id="1FxBGu9qoL7" role="1tU5fm" />
               </node>
             </node>
             <node concept="3__aGB" id="2sF00vNY39c" role="3_$9z$">
@@ -1112,6 +1114,7 @@
               </node>
               <node concept="1tm2WG" id="2sF00vNY39e" role="3_zOWs">
                 <property role="TrG5h" value="v2" />
+                <node concept="10Oyi0" id="1FxBGu9qoL8" role="1tU5fm" />
               </node>
             </node>
             <node concept="3clFbS" id="oNpFNoaQfh" role="3LOtAQ">
@@ -1121,11 +1124,11 @@
                   <node concept="2YIFZM" id="oNpFNoHsY$" role="2ZRyFy">
                     <ref role="37wK5l" to="wyt6:~Math.min(int,int):int" resolve="min" />
                     <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
-                    <node concept="1tmTer" id="oNpFNoHsY_" role="37wK5m">
-                      <ref role="1tmTeq" node="2sF00vNY39b" resolve="v1" />
+                    <node concept="37vLTw" id="1FxBGu9sM3u" role="37wK5m">
+                      <ref role="3cqZAo" node="2sF00vNY39b" resolve="v1" />
                     </node>
-                    <node concept="1tmTer" id="oNpFNoHsYA" role="37wK5m">
-                      <ref role="1tmTeq" node="2sF00vNY39e" resolve="v2" />
+                    <node concept="37vLTw" id="1FxBGu9sM3v" role="37wK5m">
+                      <ref role="3cqZAo" node="2sF00vNY39e" resolve="v2" />
                     </node>
                   </node>
                 </node>
