@@ -196,6 +196,7 @@
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
     </language>
     <language id="b802a056-92a2-4fbc-902e-f8e5004c331f" name="org.inca.core">
+      <concept id="2654063410512847909" name="org.inca.core.structure.DisableCompilerChecks" flags="ng" index="ebWiT" />
       <concept id="996292992025672789" name="org.inca.core.structure.ConceptReferenceType" flags="ng" index="2kdjtB">
         <reference id="7241148409041409499" name="concept" index="2UGuZ7" />
       </concept>
@@ -265,6 +266,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -910,6 +914,7 @@
     <node concept="C6Zt3" id="2sF00vNYHJ8" role="xaH5_">
       <ref role="ws7DW" node="2sF00vNXYzG" resolve="NumberLattice" />
     </node>
+    <node concept="ebWiT" id="3KCX8pnNtPe" role="lGtFl" />
   </node>
   <node concept="3U8wA7" id="2sF00vNXYzG">
     <property role="TrG5h" value="NumberLattice" />

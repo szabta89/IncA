@@ -298,8 +298,8 @@
     <property role="34LRSv" value="_" />
     <property role="3GE5qa" value="pattern" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="68kmV6hsiCO" role="PzmwI">
-      <ref role="PrY4T" node="6fy2FM6rkms" resolve="IPatternMemberElement" />
+    <node concept="PrWs8" id="3KCX8pnM9vw" role="PzmwI">
+      <ref role="PrY4T" node="6fy2FM6rcqL" resolve="IMatchPattern" />
     </node>
   </node>
   <node concept="1TIwiD" id="3l0M8IaBI9$">
