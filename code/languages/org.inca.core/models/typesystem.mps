@@ -20,6 +20,7 @@
     <import index="tpd4" ref="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" />
     <import index="h57a" ref="7766a138-716a-422a-9c88-131459fb8d6a/java:org.eclipse.viatra.query.runtime.api(org.inca.core.runtime/)" />
     <import index="g3l6" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.extapi.model(MPS.Core/)" />
+    <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
     <import index="tpcn" ref="r:00000000-0000-4000-0000-011c8959028b(jetbrains.mps.lang.structure.behavior)" implicit="true" />
@@ -3780,24 +3781,40 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbC" id="2jl89KEYQE5" role="3clFbw">
-          <node concept="10Nm6u" id="2jl89KEYQUA" role="3uHU7w" />
-          <node concept="2OqwBi" id="2jl89KEYQ8p" role="3uHU7B">
-            <node concept="2OqwBi" id="2jl89KEYPzQ" role="2Oq$k0">
-              <node concept="1YBJjd" id="2jl89KEYPqy" role="2Oq$k0">
-                <ref role="1YBMHb" node="2jl89KELt1v" resolve="op" />
-              </node>
-              <node concept="2Xjw5R" id="2jl89KEYPWw" role="2OqNvi">
-                <node concept="1xMEDy" id="2jl89KEYPWy" role="1xVPHs">
-                  <node concept="chp4Y" id="2jl89KEYPYG" role="ri$Ld">
-                    <ref role="cht4Q" to="hqsm:Y78e7A6TUt" resolve="IIncaModule" />
+        <node concept="3fqX7Q" id="5aTuLbkKsZb" role="3clFbw">
+          <node concept="1eOMI4" id="5aTuLbkKsZd" role="3fr31v">
+            <node concept="22lmx$" id="5aTuLbkKsZe" role="1eOMHV">
+              <node concept="3y3z36" id="5aTuLbkKsZf" role="3uHU7B">
+                <node concept="2OqwBi" id="5aTuLbkKsZg" role="3uHU7B">
+                  <node concept="2OqwBi" id="5aTuLbkKsZh" role="2Oq$k0">
+                    <node concept="1YBJjd" id="5aTuLbkKsZi" role="2Oq$k0">
+                      <ref role="1YBMHb" node="2jl89KELt1v" resolve="op" />
+                    </node>
+                    <node concept="2Xjw5R" id="5aTuLbkKsZj" role="2OqNvi">
+                      <node concept="1xMEDy" id="5aTuLbkKsZk" role="1xVPHs">
+                        <node concept="chp4Y" id="5aTuLbkKsZl" role="ri$Ld">
+                          <ref role="cht4Q" to="hqsm:Y78e7A6TUt" resolve="IIncaModule" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3CFZ6_" id="5aTuLbkKsZm" role="2OqNvi">
+                    <node concept="3CFYIy" id="5aTuLbkKsZn" role="3CFYIz">
+                      <ref role="3CFYIx" to="hqsm:2jl89KEYIg_" resolve="DisableCompilerChecks" />
+                    </node>
                   </node>
                 </node>
+                <node concept="10Nm6u" id="5aTuLbkKsZo" role="3uHU7w" />
               </node>
-            </node>
-            <node concept="3CFZ6_" id="2jl89KEYQqi" role="2OqNvi">
-              <node concept="3CFYIy" id="2jl89KEYQu0" role="3CFYIz">
-                <ref role="3CFYIx" to="hqsm:2jl89KEYIg_" resolve="DisableCompilerChecks" />
+              <node concept="2YIFZM" id="5aTuLbkKsZq" role="3uHU7w">
+                <ref role="37wK5l" to="w1kc:~SModelStereotype.isGeneratorModel(org.jetbrains.mps.openapi.model.SModel):boolean" resolve="isGeneratorModel" />
+                <ref role="1Pybhc" to="w1kc:~SModelStereotype" resolve="SModelStereotype" />
+                <node concept="2OqwBi" id="5aTuLbkKsZr" role="37wK5m">
+                  <node concept="1YBJjd" id="5aTuLbkKsZs" role="2Oq$k0">
+                    <ref role="1YBMHb" node="2jl89KELt1v" resolve="op" />
+                  </node>
+                  <node concept="I4A8Y" id="5aTuLbkKsZt" role="2OqNvi" />
+                </node>
               </node>
             </node>
           </node>

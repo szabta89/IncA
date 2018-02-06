@@ -104,6 +104,11 @@
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
+      <concept id="1163668896201" name="jetbrains.mps.baseLanguage.structure.TernaryOperatorExpression" flags="nn" index="3K4zz7">
+        <child id="1163668914799" name="condition" index="3K4Cdx" />
+        <child id="1163668922816" name="ifTrue" index="3K4E3e" />
+        <child id="1163668934364" name="ifFalse" index="3K4GZi" />
+      </concept>
       <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
         <property id="6329021646629104958" name="text" index="3SKdUp" />
       </concept>
@@ -909,24 +914,67 @@
       <ref role="1N5Vy1" to="uu1k:5SkQds3i3rI" resolve="constructor" />
       <node concept="3dgokm" id="2qfgCZsFRsU" role="1N6uqs">
         <node concept="3clFbS" id="2RSm1Cz28qv" role="2VODD2">
-          <node concept="3cpWs6" id="2RSm1CzsBDl" role="3cqZAp">
-            <node concept="2ShNRf" id="2RSm1CzsBDR" role="3cqZAk">
-              <node concept="1pGfFk" id="2RSm1CzsBZx" role="2ShVmc">
-                <ref role="37wK5l" to="6xgk:7lHSllLpTWM" resolve="NamedElementsScope" />
-                <node concept="2OqwBi" id="7qtWaR7pfCt" role="37wK5m">
-                  <node concept="2OqwBi" id="7qtWaR7pfCu" role="2Oq$k0">
-                    <node concept="2rP1CM" id="7qtWaR7pfCv" role="2Oq$k0" />
-                    <node concept="2Xjw5R" id="7qtWaR7pfCw" role="2OqNvi">
-                      <node concept="1xMEDy" id="7qtWaR7pfCx" role="1xVPHs">
-                        <node concept="chp4Y" id="7qtWaR7pfCy" role="ri$Ld">
-                          <ref role="cht4Q" to="uu1k:2qfgCZsFkIW" resolve="ILatticeDefinitionModule" />
-                        </node>
-                      </node>
+          <node concept="3cpWs8" id="5aTuLbkKDOU" role="3cqZAp">
+            <node concept="3cpWsn" id="5aTuLbkKDOV" role="3cpWs9">
+              <property role="TrG5h" value="module" />
+              <property role="3TUv4t" value="true" />
+              <node concept="3Tqbb2" id="5aTuLbkKDOT" role="1tU5fm">
+                <ref role="ehGHo" to="uu1k:2qfgCZsFkIW" resolve="ILatticeDefinitionModule" />
+              </node>
+              <node concept="2OqwBi" id="5aTuLbkKDOW" role="33vP2m">
+                <node concept="2rP1CM" id="5aTuLbkKDOX" role="2Oq$k0" />
+                <node concept="2Xjw5R" id="5aTuLbkKDOY" role="2OqNvi">
+                  <node concept="1xMEDy" id="5aTuLbkKDOZ" role="1xVPHs">
+                    <node concept="chp4Y" id="5aTuLbkKDP0" role="ri$Ld">
+                      <ref role="cht4Q" to="uu1k:2qfgCZsFkIW" resolve="ILatticeDefinitionModule" />
                     </node>
                   </node>
-                  <node concept="3Tsc0h" id="7qtWaR7pfCz" role="2OqNvi">
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3cpWs8" id="5aTuLbkKKXd" role="3cqZAp">
+            <node concept="3cpWsn" id="5aTuLbkKKXe" role="3cpWs9">
+              <property role="TrG5h" value="constructors" />
+              <property role="3TUv4t" value="true" />
+              <node concept="2I9FWS" id="5aTuLbkKKX6" role="1tU5fm">
+                <ref role="2I9WkF" to="uu1k:3l0M8IajV$$" resolve="IDataConstructor" />
+              </node>
+              <node concept="3K4zz7" id="5aTuLbkKLRa" role="33vP2m">
+                <node concept="3y3z36" id="5aTuLbkKMfX" role="3K4Cdx">
+                  <node concept="10Nm6u" id="5aTuLbkKMmA" role="3uHU7w" />
+                  <node concept="37vLTw" id="5aTuLbkKLXY" role="3uHU7B">
+                    <ref role="3cqZAo" node="5aTuLbkKDOV" resolve="module" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="5aTuLbkKKXf" role="3K4E3e">
+                  <node concept="37vLTw" id="5aTuLbkKKXg" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5aTuLbkKDOV" resolve="module" />
+                  </node>
+                  <node concept="3Tsc0h" id="5aTuLbkKKXh" role="2OqNvi">
                     <ref role="3TtcxE" to="uu1k:3l0M8IajV$v" resolve="constructors" />
                   </node>
+                </node>
+                <node concept="2OqwBi" id="5aTuLbkKMAt" role="3K4GZi">
+                  <node concept="2OqwBi" id="5aTuLbkKMAu" role="2Oq$k0">
+                    <node concept="2rP1CM" id="5aTuLbkKMAv" role="2Oq$k0" />
+                    <node concept="I4A8Y" id="5aTuLbkKMAw" role="2OqNvi" />
+                  </node>
+                  <node concept="2SmgA7" id="5aTuLbkKMAx" role="2OqNvi">
+                    <node concept="chp4Y" id="5aTuLbkKMAy" role="1dBWTz">
+                      <ref role="cht4Q" to="uu1k:3l0M8IajV$$" resolve="IDataConstructor" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3cpWs6" id="5aTuLbkKFEJ" role="3cqZAp">
+            <node concept="2ShNRf" id="5aTuLbkKFNn" role="3cqZAk">
+              <node concept="1pGfFk" id="5aTuLbkKG8h" role="2ShVmc">
+                <ref role="37wK5l" to="6xgk:7lHSllLpTWM" resolve="NamedElementsScope" />
+                <node concept="37vLTw" id="5aTuLbkKKhj" role="37wK5m">
+                  <ref role="3cqZAo" node="5aTuLbkKKXe" resolve="constructors" />
                 </node>
               </node>
             </node>
