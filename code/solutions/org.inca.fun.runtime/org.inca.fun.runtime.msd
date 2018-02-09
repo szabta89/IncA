@@ -10,6 +10,7 @@
     <dependency reexport="false">8c9a2720-9d21-4370-a226-819eb3e76e1e(org.inca.fun)</dependency>
     <dependency reexport="false">7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)</dependency>
     <dependency reexport="true">bc791f96-4749-4311-a6e4-241e47ca97f9(org.inca.core.util)</dependency>
+    <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="5" />

@@ -1298,8 +1298,8 @@
     <property role="EcuMT" value="5351508383888030808" />
     <property role="3GE5qa" value="constraints" />
     <property role="TrG5h" value="IGeneratorPathElement" />
-    <node concept="PrWs8" id="4D4o8maaVMb" role="PrDN$">
-      <ref role="PrY4T" node="1ERTnBTmuSC" resolve="IPathElement" />
+    <node concept="PrWs8" id="7w$jYjcdzzK" role="PrDN$">
+      <ref role="PrY4T" node="7Hdi_qc0u2y" resolve="IVirtualPathElement" />
     </node>
   </node>
   <node concept="PlHQZ" id="4dGlLy5IJCD">
@@ -1341,6 +1341,14 @@
     <ref role="1TJDcQ" to="tp25:gzTqbfa" resolve="SNodeType" />
     <node concept="PrWs8" id="k7mOBDjKht" role="PzmwI">
       <ref role="PrY4T" node="aQnmvHEm_S" resolve="IRuntimeIncAType" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="7Hdi_qc0u2y">
+    <property role="EcuMT" value="8884839375448432802" />
+    <property role="3GE5qa" value="constraints.element.virtual" />
+    <property role="TrG5h" value="IVirtualPathElement" />
+    <node concept="PrWs8" id="7w$jYjc8qv7" role="PrDN$">
+      <ref role="PrY4T" node="1ERTnBTmuSC" resolve="IPathElement" />
     </node>
   </node>
 </model>
