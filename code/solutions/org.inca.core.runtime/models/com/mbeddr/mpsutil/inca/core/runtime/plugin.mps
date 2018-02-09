@@ -5304,22 +5304,14 @@
                 <property role="TrG5h" value="wildCardMode" />
                 <property role="3TUv4t" value="true" />
                 <node concept="10P_77" id="6$TCdl5txvm" role="1tU5fm" />
-                <node concept="22lmx$" id="6$TCdl5txGU" role="33vP2m">
-                  <node concept="3fqX7Q" id="6$TCdl5txGV" role="3uHU7B">
-                    <node concept="10M0yZ" id="1gckXeM$mzJ" role="3fr31v">
-                      <ref role="3cqZAo" node="1gckXeMyQ5X" resolve="useHintGuidedCaching" />
-                      <ref role="1PxDUh" node="2R_7gpXUKQk" resolve="IncARuntimeOptions" />
+                <node concept="3clFbC" id="6$TCdl5txGX" role="33vP2m">
+                  <node concept="10Nm6u" id="6$TCdl5txGY" role="3uHU7w" />
+                  <node concept="2OqwBi" id="6$TCdl5txGZ" role="3uHU7B">
+                    <node concept="37vLTw" id="6$TCdl5txH0" role="2Oq$k0">
+                      <ref role="3cqZAo" node="3xwsEjbm8V2" resolve="scope" />
                     </node>
-                  </node>
-                  <node concept="3clFbC" id="6$TCdl5txGX" role="3uHU7w">
-                    <node concept="10Nm6u" id="6$TCdl5txGY" role="3uHU7w" />
-                    <node concept="2OqwBi" id="6$TCdl5txGZ" role="3uHU7B">
-                      <node concept="37vLTw" id="6$TCdl5txH0" role="2Oq$k0">
-                        <ref role="3cqZAo" node="3xwsEjbm8V2" resolve="scope" />
-                      </node>
-                      <node concept="liA8E" id="6$TCdl5txH1" role="2OqNvi">
-                        <ref role="37wK5l" node="42LtM6TRwmy" resolve="getHints" />
-                      </node>
+                    <node concept="liA8E" id="6$TCdl5txH1" role="2OqNvi">
+                      <ref role="37wK5l" node="42LtM6TRwmy" resolve="getHints" />
                     </node>
                   </node>
                 </node>
@@ -5725,16 +5717,10 @@
                   </node>
                 </node>
               </node>
-              <node concept="1Wc70l" id="6$TCdl5tLYV" role="3clFbw">
-                <node concept="3y3z36" id="6$TCdl5tLYX" role="3uHU7w">
-                  <node concept="10Nm6u" id="6$TCdl5tLYY" role="3uHU7w" />
-                  <node concept="37vLTw" id="6$TCdl5tLYZ" role="3uHU7B">
-                    <ref role="3cqZAo" node="6$TCdl5tLY$" resolve="hints" />
-                  </node>
-                </node>
-                <node concept="10M0yZ" id="1gckXeM$n_s" role="3uHU7B">
-                  <ref role="3cqZAo" node="1gckXeMyQ5X" resolve="useHintGuidedCaching" />
-                  <ref role="1PxDUh" node="2R_7gpXUKQk" resolve="IncARuntimeOptions" />
+              <node concept="3y3z36" id="6$TCdl5tLYX" role="3clFbw">
+                <node concept="10Nm6u" id="6$TCdl5tLYY" role="3uHU7w" />
+                <node concept="37vLTw" id="6$TCdl5tLYZ" role="3uHU7B">
+                  <ref role="3cqZAo" node="6$TCdl5tLY$" resolve="hints" />
                 </node>
               </node>
             </node>
@@ -28500,29 +28486,36 @@
                     </node>
                   </node>
                 </node>
-                <node concept="3clFbF" id="42LtM6TYCqS" role="3cqZAp">
-                  <node concept="2OqwBi" id="42LtM6TYC$x" role="3clFbG">
-                    <node concept="37vLTw" id="42LtM6TYCqQ" role="2Oq$k0">
-                      <ref role="3cqZAo" node="6cJttNuq_vP" resolve="scope" />
-                    </node>
-                    <node concept="liA8E" id="42LtM6TYCSE" role="2OqNvi">
-                      <ref role="37wK5l" node="42LtM6TRz6H" resolve="setHints" />
-                      <node concept="2OqwBi" id="42LtM6TYDbq" role="37wK5m">
-                        <node concept="1eOMI4" id="42LtM6TYCYk" role="2Oq$k0">
-                          <node concept="10QFUN" id="42LtM6TYCYh" role="1eOMHV">
-                            <node concept="37vLTw" id="42LtM6TYD6o" role="10QFUP">
-                              <ref role="3cqZAo" node="4h0s9CVLrmi" resolve="specification" />
+                <node concept="3clFbJ" id="4apIOoJ$ySy" role="3cqZAp">
+                  <node concept="3clFbS" id="4apIOoJ$yS$" role="3clFbx">
+                    <node concept="3clFbF" id="42LtM6TYCqS" role="3cqZAp">
+                      <node concept="2OqwBi" id="42LtM6TYC$x" role="3clFbG">
+                        <node concept="37vLTw" id="42LtM6TYCqQ" role="2Oq$k0">
+                          <ref role="3cqZAo" node="6cJttNuq_vP" resolve="scope" />
+                        </node>
+                        <node concept="liA8E" id="42LtM6TYCSE" role="2OqNvi">
+                          <ref role="37wK5l" node="42LtM6TRz6H" resolve="setHints" />
+                          <node concept="2OqwBi" id="42LtM6TYDbq" role="37wK5m">
+                            <node concept="1eOMI4" id="42LtM6TYCYk" role="2Oq$k0">
+                              <node concept="10QFUN" id="42LtM6TYCYh" role="1eOMHV">
+                                <node concept="37vLTw" id="42LtM6TYD6o" role="10QFUP">
+                                  <ref role="3cqZAo" node="4h0s9CVLrmi" resolve="specification" />
+                                </node>
+                                <node concept="3uibUv" id="42LtM6TYD0O" role="10QFUM">
+                                  <ref role="3uigEE" node="2cknNXbyT0X" resolve="MPSQuerySpecification" />
+                                </node>
+                              </node>
                             </node>
-                            <node concept="3uibUv" id="42LtM6TYD0O" role="10QFUM">
-                              <ref role="3uigEE" node="2cknNXbyT0X" resolve="MPSQuerySpecification" />
+                            <node concept="liA8E" id="42LtM6TYDIW" role="2OqNvi">
+                              <ref role="37wK5l" node="2cknNXbyVes" resolve="getHints" />
                             </node>
                           </node>
                         </node>
-                        <node concept="liA8E" id="42LtM6TYDIW" role="2OqNvi">
-                          <ref role="37wK5l" node="2cknNXbyVes" resolve="getHints" />
-                        </node>
                       </node>
                     </node>
+                  </node>
+                  <node concept="37vLTw" id="4apIOoJ$zaD" role="3clFbw">
+                    <ref role="3cqZAo" node="4apIOoJ$wMW" resolve="areHintsAllowed" />
                   </node>
                 </node>
                 <node concept="3clFbF" id="2cknNXbLrdL" role="3cqZAp">
@@ -28668,6 +28661,11 @@
         <node concept="3uibUv" id="6cJttNuqA21" role="1tU5fm">
           <ref role="3uigEE" node="3KgejumhMXD" resolve="MPSScope" />
         </node>
+      </node>
+      <node concept="37vLTG" id="4apIOoJ$wMW" role="3clF46">
+        <property role="TrG5h" value="areHintsAllowed" />
+        <property role="3TUv4t" value="true" />
+        <node concept="10P_77" id="4apIOoJ$xyo" role="1tU5fm" />
       </node>
     </node>
     <node concept="2tJIrI" id="2btsJ11lNFC" role="jymVt" />
@@ -29169,17 +29167,6 @@
   <node concept="312cEu" id="2R_7gpXUKQk">
     <property role="TrG5h" value="IncARuntimeOptions" />
     <node concept="2tJIrI" id="2R_7gpXUKQP" role="jymVt" />
-    <node concept="Wx3nA" id="1gckXeMyQ5X" role="jymVt">
-      <property role="2dlcS1" value="false" />
-      <property role="2dld4O" value="false" />
-      <property role="TrG5h" value="useHintGuidedCaching" />
-      <property role="3TUv4t" value="false" />
-      <node concept="3Tm1VV" id="1gckXeMyQ4q" role="1B3o_S" />
-      <node concept="10P_77" id="1gckXeMyQ5Q" role="1tU5fm" />
-      <node concept="3clFbT" id="1gckXeMz5F9" role="33vP2m">
-        <property role="3clFbU" value="true" />
-      </node>
-    </node>
     <node concept="Wx3nA" id="1gckXeMyQ6X" role="jymVt">
       <property role="2dlcS1" value="false" />
       <property role="2dld4O" value="false" />

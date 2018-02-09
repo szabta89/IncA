@@ -52,6 +52,7 @@
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
+        <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
         <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
@@ -1349,6 +1350,81 @@
     <property role="TrG5h" value="IVirtualPathElement" />
     <node concept="PrWs8" id="7w$jYjc8qv7" role="PrDN$">
       <ref role="PrY4T" node="1ERTnBTmuSC" resolve="IPathElement" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4apIOoJvWng">
+    <property role="EcuMT" value="4799072788058981840" />
+    <property role="TrG5h" value="IncACompilerOptions" />
+    <property role="34LRSv" value="IncA Compiler Options" />
+    <property role="R4oN_" value="IncA Compiler Options" />
+    <property role="3GE5qa" value="compiler" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4apIOoJvXXB" role="1TKVEi">
+      <property role="IQ2ns" value="4799072788058988391" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="options" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="4apIOoJvWqz" resolve="ICompilerOption" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="4apIOoJvWqz">
+    <property role="EcuMT" value="4799072788058982051" />
+    <property role="3GE5qa" value="compiler" />
+    <property role="TrG5h" value="ICompilerOption" />
+  </node>
+  <node concept="1TIwiD" id="4apIOoJvWrc">
+    <property role="EcuMT" value="4799072788058982092" />
+    <property role="3GE5qa" value="compiler" />
+    <property role="TrG5h" value="EmptyCompilerOption" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="4apIOoJvWs9" role="PzmwI">
+      <ref role="PrY4T" node="4apIOoJvWqz" resolve="ICompilerOption" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4apIOoJw0ra">
+    <property role="EcuMT" value="4799072788058998474" />
+    <property role="3GE5qa" value="compiler" />
+    <property role="TrG5h" value="DeveloperModeOption" />
+    <property role="34LRSv" value="Mode" />
+    <property role="R4oN_" value="IncA Mode Selection" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4apIOoJw0Ar" role="1TKVEi">
+      <property role="IQ2ns" value="4799072788058999195" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="mode" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="4apIOoJw0wd" resolve="IIncAMode" />
+    </node>
+    <node concept="PrWs8" id="4apIOoJw0rX" role="PzmwI">
+      <ref role="PrY4T" node="4apIOoJvWqz" resolve="ICompilerOption" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="4apIOoJw0wd">
+    <property role="EcuMT" value="4799072788058998797" />
+    <property role="3GE5qa" value="compiler" />
+    <property role="TrG5h" value="IIncAMode" />
+  </node>
+  <node concept="1TIwiD" id="4apIOoJw0wG">
+    <property role="EcuMT" value="4799072788058998828" />
+    <property role="3GE5qa" value="compiler" />
+    <property role="TrG5h" value="DeveloperMode" />
+    <property role="34LRSv" value="developer" />
+    <property role="R4oN_" value="developer mode" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="4apIOoJw0$2" role="PzmwI">
+      <ref role="PrY4T" node="4apIOoJw0wd" resolve="IIncAMode" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4apIOoJw0CP">
+    <property role="EcuMT" value="4799072788058999349" />
+    <property role="3GE5qa" value="compiler" />
+    <property role="TrG5h" value="ProductionMode" />
+    <property role="34LRSv" value="production" />
+    <property role="R4oN_" value="Production Mode" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="4apIOoJw0DC" role="PzmwI">
+      <ref role="PrY4T" node="4apIOoJw0wd" resolve="IIncAMode" />
     </node>
   </node>
 </model>

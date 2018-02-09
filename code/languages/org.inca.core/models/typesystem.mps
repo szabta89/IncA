@@ -360,6 +360,9 @@
         <child id="1145404616321" name="leftExpression" index="2JrQYb" />
       </concept>
       <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
+      <concept id="1171323947159" name="jetbrains.mps.lang.smodel.structure.Model_NodesOperation" flags="nn" index="2SmgA7">
+        <child id="1758937410080001570" name="conceptArgument" index="1dBWTz" />
+      </concept>
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
         <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
@@ -4437,6 +4440,49 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="18kY7G" id="4apIOoJzY5P">
+    <property role="TrG5h" value="check_IncACompilerOptions" />
+    <property role="3GE5qa" value="compiler" />
+    <node concept="3clFbS" id="4apIOoJzY5Q" role="18ibNy">
+      <node concept="3clFbJ" id="4apIOoJ$4hp" role="3cqZAp">
+        <node concept="3clFbS" id="4apIOoJ$4hr" role="3clFbx">
+          <node concept="2MkqsV" id="4apIOoJ$4rz" role="3cqZAp">
+            <node concept="Xl_RD" id="4apIOoJ$4rZ" role="2MkJ7o">
+              <property role="Xl_RC" value="Multiple compiler options container found!" />
+            </node>
+            <node concept="1YBJjd" id="4apIOoJ$4Bc" role="2OEOjV">
+              <ref role="1YBMHb" node="4apIOoJzY5S" resolve="options" />
+            </node>
+          </node>
+        </node>
+        <node concept="3eOSWO" id="4apIOoJ$4im" role="3clFbw">
+          <node concept="3cmrfG" id="4apIOoJ$4in" role="3uHU7w">
+            <property role="3cmrfH" value="1" />
+          </node>
+          <node concept="2OqwBi" id="4apIOoJ$4io" role="3uHU7B">
+            <node concept="2OqwBi" id="4apIOoJ$4ip" role="2Oq$k0">
+              <node concept="2OqwBi" id="4apIOoJ$4iq" role="2Oq$k0">
+                <node concept="1YBJjd" id="4apIOoJ$4ir" role="2Oq$k0">
+                  <ref role="1YBMHb" node="4apIOoJzY5S" resolve="options" />
+                </node>
+                <node concept="I4A8Y" id="4apIOoJ$4is" role="2OqNvi" />
+              </node>
+              <node concept="2SmgA7" id="4apIOoJ$4it" role="2OqNvi">
+                <node concept="chp4Y" id="4apIOoJ$4iu" role="1dBWTz">
+                  <ref role="cht4Q" to="hqsm:4apIOoJvWng" resolve="IncACompilerOptions" />
+                </node>
+              </node>
+            </node>
+            <node concept="34oBXx" id="4apIOoJ$4iv" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="4apIOoJzY5S" role="1YuTPh">
+      <property role="TrG5h" value="options" />
+      <ref role="1YaFvo" to="hqsm:4apIOoJvWng" resolve="IncACompilerOptions" />
     </node>
   </node>
 </model>
