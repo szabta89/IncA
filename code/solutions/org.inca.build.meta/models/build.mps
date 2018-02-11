@@ -249,31 +249,16 @@
     <node concept="10PD9b" id="3AVJcIMlF8n" role="10PD9s" />
     <node concept="3b7kt6" id="3AVJcIMlF8o" role="10PD9s" />
     <node concept="398rNT" id="3AVJcIMlF8u" role="1l3spd">
-      <property role="TrG5h" value="mps.home" />
-      <node concept="55IIr" id="6ucYLjovqL9" role="398pKh">
-        <node concept="2Ry0Ak" id="6ucYLjovr$S" role="iGT6I">
+      <property role="TrG5h" value="mps_home" />
+      <node concept="55IIr" id="6Upu9aN_43E" role="398pKh">
+        <node concept="2Ry0Ak" id="6Upu9aN_43F" role="iGT6I">
           <property role="2Ry0Am" value=".." />
-          <node concept="2Ry0Ak" id="6ucYLjovr$V" role="2Ry0An">
+          <node concept="2Ry0Ak" id="6Upu9aN_43G" role="2Ry0An">
             <property role="2Ry0Am" value=".." />
-            <node concept="2Ry0Ak" id="6ucYLjovsoE" role="2Ry0An">
-              <property role="2Ry0Am" value=".." />
-              <node concept="2Ry0Ak" id="6ucYLjovu08" role="2Ry0An">
-                <property role="2Ry0Am" value=".." />
-                <node concept="2Ry0Ak" id="7xgFzGS2iEy" role="2Ry0An">
-                  <property role="2Ry0Am" value=".." />
-                  <node concept="2Ry0Ak" id="6_du9upXmFq" role="2Ry0An">
-                    <property role="2Ry0Am" value=".." />
-                    <node concept="2Ry0Ak" id="6_du9upXmTf" role="2Ry0An">
-                      <property role="2Ry0Am" value="Applications" />
-                      <node concept="2Ry0Ak" id="6_du9upXndU" role="2Ry0An">
-                        <property role="2Ry0Am" value="MPS_2018.2_182.1427_inca.app" />
-                        <node concept="2Ry0Ak" id="6_du9upXnrJ" role="2Ry0An">
-                          <property role="2Ry0Am" value="Contents" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
+            <node concept="2Ry0Ak" id="5AjJsRxpYyg" role="2Ry0An">
+              <property role="2Ry0Am" value="build" />
+              <node concept="2Ry0Ak" id="5AjJsRxpYOg" role="2Ry0An">
+                <property role="2Ry0Am" value="mps" />
               </node>
             </node>
           </node>
@@ -378,7 +363,7 @@
     <node concept="2sgV4H" id="3AVJcIMlF9l" role="1l3spa">
       <ref role="1l3spb" to="ffeo:3IKDaVZmzS6" resolve="mps" />
       <node concept="398BVA" id="3AVJcIMlF9m" role="2JcizS">
-        <ref role="398BVh" node="3AVJcIMlF8u" resolve="mps.home" />
+        <ref role="398BVh" node="3AVJcIMlF8u" resolve="mps_home" />
       </node>
     </node>
     <node concept="2sgV4H" id="6_du9upX84j" role="1l3spa">

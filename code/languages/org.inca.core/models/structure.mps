@@ -1426,7 +1426,7 @@
     <property role="3GE5qa" value="compiler" />
     <property role="TrG5h" value="ProductionMode" />
     <property role="34LRSv" value="production" />
-    <property role="R4oN_" value="Production Mode" />
+    <property role="R4oN_" value="production Mode" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="4apIOoJw0DC" role="PzmwI">
       <ref role="PrY4T" node="4apIOoJw0wd" resolve="IIncAMode" />
@@ -1443,6 +1443,16 @@
     </node>
     <node concept="PrWs8" id="20ykNUqEggl" role="PzmwI">
       <ref role="PrY4T" node="aQnmvHEm_S" resolve="IRuntimeIncAType" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7ldkIpUXx_q">
+    <property role="EcuMT" value="8452503225503193434" />
+    <property role="3GE5qa" value="compiler" />
+    <property role="TrG5h" value="StrictErrorCheckingOption" />
+    <property role="34LRSv" value="Strict" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="7ldkIpUXx_r" role="PzmwI">
+      <ref role="PrY4T" node="4apIOoJvWqz" resolve="ICompilerOption" />
     </node>
   </node>
 </model>

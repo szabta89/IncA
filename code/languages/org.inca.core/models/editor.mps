@@ -2,13 +2,13 @@
 <model ref="r:6ff18591-3edc-4f8c-b3b1-e47cd5e8edd2(org.inca.core.editor)">
   <persistence version="9" />
   <languages>
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="11" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="-1" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="-1" />
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="-1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="-1" />
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="-1" />
     <use id="9d69e719-78c8-4286-90db-fb19c107d049" name="com.mbeddr.mpsutil.grammarcells" version="-1" />
-    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="1" />
+    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -3649,9 +3649,15 @@
         <node concept="11LMrY" id="4apIOoJHHZE" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
+        <node concept="Vb9p2" id="7ldkIpV0gVx" role="3F10Kt">
+          <property role="Vbekb" value="BOLD" />
+        </node>
       </node>
       <node concept="1HlG4h" id="4apIOoJHG40" role="3EZMnx">
         <ref role="1k5W1q" to="3sc9:SSjGGIix$D" resolve="Comment" />
+        <node concept="Vb9p2" id="7ldkIpV0gVD" role="3F10Kt">
+          <property role="Vbekb" value="BOLD" />
+        </node>
         <node concept="1HfYo3" id="4apIOoJHG42" role="1HlULh">
           <node concept="3TQlhw" id="4apIOoJHG44" role="1Hhtcw">
             <node concept="3clFbS" id="4apIOoJHG46" role="2VODD2">
@@ -3675,6 +3681,9 @@
         <ref role="1k5W1q" to="3sc9:SSjGGIix$D" resolve="Comment" />
         <node concept="11L4FC" id="4apIOoJHHZH" role="3F10Kt">
           <property role="VOm3f" value="true" />
+        </node>
+        <node concept="Vb9p2" id="7ldkIpV0h7p" role="3F10Kt">
+          <property role="Vbekb" value="BOLD" />
         </node>
       </node>
     </node>
@@ -4217,6 +4226,10 @@
       <ref role="ehGHo" to="hqsm:3VwoHXNAdmh" resolve="IPattern" />
     </node>
   </node>
+  <node concept="3p36aQ" id="20ykNUqEfMi">
+    <property role="3GE5qa" value="type.compileTime" />
+    <ref role="aqKnT" to="hqsm:20ykNUqEfL$" resolve="VoidType" />
+  </node>
   <node concept="24kQdi" id="20ykNUqEfLK">
     <property role="3GE5qa" value="type.compileTime" />
     <ref role="1XX52x" to="hqsm:20ykNUqEfL$" resolve="VoidType" />
@@ -4225,9 +4238,42 @@
       <ref role="1k5W1q" to="3sc9:2CEi94dgHKA" resolve="KeyWord" />
     </node>
   </node>
-  <node concept="3p36aQ" id="20ykNUqEfMi">
-    <property role="3GE5qa" value="type.compileTime" />
-    <ref role="aqKnT" to="hqsm:20ykNUqEfL$" resolve="VoidType" />
+  <node concept="24kQdi" id="7ldkIpUXx_A">
+    <property role="3GE5qa" value="compiler" />
+    <ref role="1XX52x" to="hqsm:7ldkIpUXx_q" resolve="StrictErrorCheckingOption" />
+    <node concept="3EZMnI" id="7ldkIpUXx_G" role="2wV5jI">
+      <node concept="l2Vlx" id="7ldkIpUXx_H" role="2iSdaV" />
+      <node concept="3F0ifn" id="7ldkIpUXx_C" role="3EZMnx">
+        <property role="3F0ifm" value="Strict error checking" />
+      </node>
+      <node concept="3F0ifn" id="7ldkIpV0gSC" role="3EZMnx">
+        <property role="3F0ifm" value="(" />
+        <ref role="1k5W1q" to="3sc9:SSjGGIix$D" resolve="Comment" />
+        <node concept="11LMrY" id="7ldkIpV0gUY" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="Vb9p2" id="7ldkIpV0gVn" role="3F10Kt">
+          <property role="Vbekb" value="BOLD" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="7ldkIpUXx_V" role="3EZMnx">
+        <property role="3F0ifm" value="generation fails in the presence of any error" />
+        <ref role="1k5W1q" to="3sc9:SSjGGIix$D" resolve="Comment" />
+        <node concept="Vb9p2" id="7ldkIpV0gVf" role="3F10Kt">
+          <property role="Vbekb" value="BOLD" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="7ldkIpV0gST" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+        <ref role="1k5W1q" to="3sc9:SSjGGIix$D" resolve="Comment" />
+        <node concept="11L4FC" id="7ldkIpV0gV1" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="Vb9p2" id="7ldkIpV0gV9" role="3F10Kt">
+          <property role="Vbekb" value="BOLD" />
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 

@@ -2,12 +2,12 @@
 <model ref="r:d226e896-6c3b-445a-a0c0-1c57380a3d23(org.inca.fun.test.test2@tests)">
   <persistence version="9" />
   <languages>
-    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="2" />
-    <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="0" />
-    <use id="b802a056-92a2-4fbc-902e-f8e5004c331f" name="org.inca.core" version="0" />
-    <use id="cd2909da-ecb4-49dc-b176-33e5c619e516" name="org.inca.gp" version="0" />
-    <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
-    <use id="8c9a2720-9d21-4370-a226-819eb3e76e1e" name="org.inca.fun" version="0" />
+    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="-1" />
+    <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="-1" />
+    <use id="b802a056-92a2-4fbc-902e-f8e5004c331f" name="org.inca.core" version="-1" />
+    <use id="cd2909da-ecb4-49dc-b176-33e5c619e516" name="org.inca.gp" version="-1" />
+    <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="-1" />
+    <use id="8c9a2720-9d21-4370-a226-819eb3e76e1e" name="org.inca.fun" version="-1" />
   </languages>
   <imports>
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
@@ -159,6 +159,7 @@
       </concept>
     </language>
     <language id="b802a056-92a2-4fbc-902e-f8e5004c331f" name="org.inca.core">
+      <concept id="8452503225503193434" name="org.inca.core.structure.StrictErrorCheckingOption" flags="ng" index="fIOIW" />
       <concept id="996292992025672789" name="org.inca.core.structure.ConceptReferenceType" flags="ng" index="2kdjtB">
         <reference id="7241148409041409499" name="concept" index="2UGuZ7" />
       </concept>
@@ -209,6 +210,13 @@
       <concept id="1925259677761400360" name="org.inca.core.structure.IPathElement" flags="ng" index="3zVwHh">
         <reference id="1925259677761400369" name="interfacePart" index="3zVwH8" />
         <child id="1925259677761400367" name="next" index="3zVwHm" />
+      </concept>
+      <concept id="4799072788058999349" name="org.inca.core.structure.ProductionMode" flags="ng" index="1H6r5N" />
+      <concept id="4799072788058998474" name="org.inca.core.structure.DeveloperModeOption" flags="ng" index="1H6rQc">
+        <child id="4799072788058999195" name="mode" index="1H6rbt" />
+      </concept>
+      <concept id="4799072788058981840" name="org.inca.core.structure.IncACompilerOptions" flags="ng" index="1HTBUm">
+        <child id="4799072788058988391" name="options" index="1HTAgx" />
       </concept>
     </language>
     <language id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers">
@@ -543,7 +551,6 @@
           <node concept="3cpWsn" id="72CZAphnwMS" role="3cpWs9">
             <property role="TrG5h" value="testModel" />
             <property role="3TUv4t" value="true" />
-            <node concept="H_c77" id="72CZAphnwMT" role="1tU5fm" />
             <node concept="2OqwBi" id="2YHx85eVHrU" role="33vP2m">
               <node concept="1Xw6AR" id="2YHx85eVHrV" role="2Oq$k0">
                 <node concept="1dCxOl" id="2YHx85eVHrW" role="1XwpL7">
@@ -559,6 +566,7 @@
                 </node>
               </node>
             </node>
+            <node concept="H_c77" id="72CZAphnwMT" role="1tU5fm" />
           </node>
         </node>
         <node concept="3clFbH" id="72CZAphnwN4" role="3cqZAp" />
@@ -1904,7 +1912,7 @@
         </node>
       </node>
     </node>
-    <node concept="1XdyHe" id="5mId_SEXgdw" role="1dubk0" />
+    <node concept="1XdyHe" id="43u7Nb3WZJg" role="1dubk0" />
     <node concept="2Qv1iZ" id="1xD0u$hueDn" role="1dubk0">
       <property role="EcuMT" value="1758939229997034071" />
       <property role="TrG5h" value="AncestorRelevant" />
@@ -1988,6 +1996,12 @@
     </node>
     <node concept="1XdyHe" id="1xD0u$hudzn" role="1dubk0" />
     <node concept="1XdyHe" id="1xD0u$hudzM" role="1dubk0" />
+  </node>
+  <node concept="1HTBUm" id="43u7Nb3X4ES">
+    <node concept="1H6rQc" id="43u7Nb3X4Fo" role="1HTAgx">
+      <node concept="1H6r5N" id="43u7Nb3X4Gf" role="1H6rbt" />
+    </node>
+    <node concept="fIOIW" id="43u7Nb3X7rL" role="1HTAgx" />
   </node>
 </model>
 

@@ -10,6 +10,7 @@
       <modulePath path="$PROJECT_DIR$/languages/org.inca.meta.analysis.impact/org.inca.meta.analysis.impact.mpl" folder="meta" />
       <modulePath path="$PROJECT_DIR$/languages/org.inca.styles/org.inca.styles.mpl" folder="style" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.mpsutil.soot.runtime/com.mbeddr.mpsutil.soot.runtime.msd" folder="soot" />
+      <modulePath path="$PROJECT_DIR$/solutions/modelchecker/modelchecker.msd" folder="misc" />
       <modulePath path="$PROJECT_DIR$/solutions/org.inca.build.meta/org.inca.build.meta.msd" folder="build" />
       <modulePath path="$PROJECT_DIR$/solutions/org.inca.build/org.inca.build.msd" folder="build" />
       <modulePath path="$PROJECT_DIR$/solutions/org.inca.core.runtime/org.inca.core.runtime.msd" folder="core" />
@@ -17,7 +18,6 @@
       <modulePath path="$PROJECT_DIR$/solutions/org.inca.data.runtime/org.inca.data.runtime.msd" folder="data" />
       <modulePath path="$PROJECT_DIR$/solutions/org.inca.fun.runtime/org.inca.fun.runtime.msd" folder="core" />
       <modulePath path="$PROJECT_DIR$/solutions/org.inca.gp.runtime/org.inca.gp.runtime.msd" folder="core" />
-      <modulePath path="$PROJECT_DIR$/solutions/org.inca.hints/org.inca.hints.msd" folder="core" />
       <modulePath path="$PROJECT_DIR$/solutions/org.inca.measurements/org.inca.measurements.msd" folder="measurements" />
       <modulePath path="$PROJECT_DIR$/solutions/org.inca.meta.analysis/org.inca.meta.analysis.msd" folder="meta" />
       <modulePath path="$PROJECT_DIR$/solutions/org.inca.ui/org.inca.ui.msd" folder="ui" />

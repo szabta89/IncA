@@ -2,12 +2,12 @@
 <model ref="r:289a71a3-fbdd-4e9e-bfcc-9e6186213152(org.inca.fun.test.test3@tests)">
   <persistence version="9" />
   <languages>
-    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="2" />
-    <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="0" />
-    <use id="b802a056-92a2-4fbc-902e-f8e5004c331f" name="org.inca.core" version="0" />
-    <use id="cd2909da-ecb4-49dc-b176-33e5c619e516" name="org.inca.gp" version="0" />
-    <use id="8c9a2720-9d21-4370-a226-819eb3e76e1e" name="org.inca.fun" version="0" />
-    <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
+    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="-1" />
+    <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="-1" />
+    <use id="b802a056-92a2-4fbc-902e-f8e5004c331f" name="org.inca.core" version="-1" />
+    <use id="cd2909da-ecb4-49dc-b176-33e5c619e516" name="org.inca.gp" version="-1" />
+    <use id="8c9a2720-9d21-4370-a226-819eb3e76e1e" name="org.inca.fun" version="-1" />
+    <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="-1" />
   </languages>
   <imports>
     <import index="hqsm" ref="r:aa4c3470-43ab-4dad-b73e-20da0ee43be1(org.inca.core.structure)" />
@@ -420,7 +420,7 @@
       </node>
       <node concept="1VLyuc" id="1L7nrchZP_7" role="1dv5OJ">
         <property role="TrG5h" value="c" />
-        <node concept="2kdjtB" id="1L7nrchZP_r" role="1dukDx">
+        <node concept="2kdjtB" id="7ldkIpV0c95" role="1dukDx">
           <ref role="2UGuZ7" to="tpee:fz12cDA" resolve="ClassConcept" />
         </node>
       </node>
@@ -480,7 +480,6 @@
           <node concept="3cpWsn" id="7rH8wA$qLHb" role="3cpWs9">
             <property role="TrG5h" value="instanceModel" />
             <property role="3TUv4t" value="true" />
-            <node concept="H_c77" id="7rH8wA$qLHc" role="1tU5fm" />
             <node concept="2OqwBi" id="9jrT7EdqaI" role="33vP2m">
               <node concept="1Xw6AR" id="9jrT7EdpR$" role="2Oq$k0">
                 <node concept="1dCxOl" id="9jrT7EdpXO" role="1XwpL7">
@@ -496,13 +495,13 @@
                 </node>
               </node>
             </node>
+            <node concept="H_c77" id="7rH8wA$qLHc" role="1tU5fm" />
           </node>
         </node>
         <node concept="3cpWs8" id="7rH8wA$qLHf" role="3cqZAp">
           <node concept="3cpWsn" id="7rH8wA$qLHg" role="3cpWs9">
             <property role="TrG5h" value="testModel" />
             <property role="3TUv4t" value="true" />
-            <node concept="H_c77" id="7rH8wA$qLHh" role="1tU5fm" />
             <node concept="2OqwBi" id="9jrT7EdvC6" role="33vP2m">
               <node concept="1Xw6AR" id="9jrT7Edvvu" role="2Oq$k0">
                 <node concept="1dCxOl" id="9jrT7Edvx7" role="1XwpL7">
@@ -518,6 +517,7 @@
                 </node>
               </node>
             </node>
+            <node concept="H_c77" id="7rH8wA$qLHh" role="1tU5fm" />
           </node>
         </node>
         <node concept="3clFbH" id="1L7nrci00OE" role="3cqZAp" />
