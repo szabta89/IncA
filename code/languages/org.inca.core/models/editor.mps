@@ -3578,9 +3578,15 @@
         <node concept="11LMrY" id="4apIOoJHHZE" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
+        <node concept="Vb9p2" id="7ldkIpV0gVx" role="3F10Kt">
+          <property role="Vbekb" value="BOLD" />
+        </node>
       </node>
       <node concept="1HlG4h" id="4apIOoJHG40" role="3EZMnx">
         <ref role="1k5W1q" to="3sc9:SSjGGIix$D" resolve="Comment" />
+        <node concept="Vb9p2" id="7ldkIpV0gVD" role="3F10Kt">
+          <property role="Vbekb" value="BOLD" />
+        </node>
         <node concept="1HfYo3" id="4apIOoJHG42" role="1HlULh">
           <node concept="3TQlhw" id="4apIOoJHG44" role="1Hhtcw">
             <node concept="3clFbS" id="4apIOoJHG46" role="2VODD2">
@@ -3604,6 +3610,46 @@
         <ref role="1k5W1q" to="3sc9:SSjGGIix$D" resolve="Comment" />
         <node concept="11L4FC" id="4apIOoJHHZH" role="3F10Kt">
           <property role="VOm3f" value="true" />
+        </node>
+        <node concept="Vb9p2" id="7ldkIpV0h7p" role="3F10Kt">
+          <property role="Vbekb" value="BOLD" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="7ldkIpUXx_A">
+    <property role="3GE5qa" value="compiler" />
+    <ref role="1XX52x" to="hqsm:7ldkIpUXx_q" resolve="StrictErrorCheckingOption" />
+    <node concept="3EZMnI" id="7ldkIpUXx_G" role="2wV5jI">
+      <node concept="l2Vlx" id="7ldkIpUXx_H" role="2iSdaV" />
+      <node concept="3F0ifn" id="7ldkIpUXx_C" role="3EZMnx">
+        <property role="3F0ifm" value="Strict error checking" />
+      </node>
+      <node concept="3F0ifn" id="7ldkIpV0gSC" role="3EZMnx">
+        <property role="3F0ifm" value="(" />
+        <ref role="1k5W1q" to="3sc9:SSjGGIix$D" resolve="Comment" />
+        <node concept="11LMrY" id="7ldkIpV0gUY" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="Vb9p2" id="7ldkIpV0gVn" role="3F10Kt">
+          <property role="Vbekb" value="BOLD" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="7ldkIpUXx_V" role="3EZMnx">
+        <property role="3F0ifm" value="generation fails in the presence of any error" />
+        <ref role="1k5W1q" to="3sc9:SSjGGIix$D" resolve="Comment" />
+        <node concept="Vb9p2" id="7ldkIpV0gVf" role="3F10Kt">
+          <property role="Vbekb" value="BOLD" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="7ldkIpV0gST" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+        <ref role="1k5W1q" to="3sc9:SSjGGIix$D" resolve="Comment" />
+        <node concept="11L4FC" id="7ldkIpV0gV1" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="Vb9p2" id="7ldkIpV0gV9" role="3F10Kt">
+          <property role="Vbekb" value="BOLD" />
         </node>
       </node>
     </node>
