@@ -837,18 +837,6 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="7ldkIpV0gct" role="3bR37C">
-          <node concept="3bR9La" id="7ldkIpV0gcu" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:4IP11oWmB07" resolve="jetbrains.mps.ide.modelchecker.platform" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="7ldkIpV0gcv" role="3bR37C">
-          <node concept="3bR9La" id="7ldkIpV0gcw" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
-          </node>
-        </node>
       </node>
       <node concept="1E1JtA" id="6_du9upXid2" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -1372,12 +1360,6 @@
             <node concept="3bR9La" id="hRqrwL1Om8" role="1SiIV1">
               <property role="3bR36h" value="false" />
               <ref role="3bR37D" node="6_du9upXgV0" resolve="org.inca.core.util" />
-            </node>
-          </node>
-          <node concept="1SiIV0" id="7ldkIpV0gdn" role="3bR37C">
-            <node concept="3bR9La" id="7ldkIpV0gdo" role="1SiIV1">
-              <property role="3bR36h" value="false" />
-              <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
             </node>
           </node>
         </node>

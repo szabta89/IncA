@@ -4377,9 +4377,6 @@
   </node>
   <node concept="bUwia" id="1DglclGLrQV">
     <property role="TrG5h" value="gpPatternLangPreprocessing" />
-    <node concept="1puMqW" id="7ldkIpUZHqb" role="1puA0r">
-      <ref role="1puQsG" to="cj1d:31_95XTI9Mh" resolve="checkModel" />
-    </node>
     <node concept="1puMqW" id="3Cx0Htp8KJi" role="1puA0r">
       <ref role="1puQsG" node="3Cx0Htp8KDs" resolve="cacheVariableReferenceTypeHint" />
     </node>
