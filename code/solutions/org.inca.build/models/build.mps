@@ -2706,6 +2706,12 @@
             <ref role="3bR37D" node="7wIK_Lll4ym" resolve="org.inca.data.test.analyses" />
           </node>
         </node>
+        <node concept="1SiIV0" id="6L3u4302woQ" role="3bR37C">
+          <node concept="3bR9La" id="6L3u4302woR" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="7wIK_Lll4ym" role="2G$12L">
         <property role="BnDLt" value="true" />
