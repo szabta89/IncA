@@ -1976,14 +1976,14 @@
       <node concept="37vLTG" id="1cLRCO10PG9" role="3clF46">
         <property role="TrG5h" value="_left" />
         <property role="3TUv4t" value="true" />
-        <node concept="3uibUv" id="1cLRCO10PGa" role="1tU5fm">
+        <node concept="3uibUv" id="5d$pfuR59f0" role="1tU5fm">
           <ref role="3uigEE" to="inmn:~Tuple" resolve="Tuple" />
         </node>
       </node>
       <node concept="37vLTG" id="1cLRCO10PGb" role="3clF46">
         <property role="TrG5h" value="_right" />
         <property role="3TUv4t" value="true" />
-        <node concept="3uibUv" id="1cLRCO10PGc" role="1tU5fm">
+        <node concept="3uibUv" id="5d$pfuR5b7f" role="1tU5fm">
           <ref role="3uigEE" to="inmn:~Tuple" resolve="Tuple" />
         </node>
       </node>
@@ -1998,7 +1998,7 @@
                   <ref role="3cqZAo" node="1cLRCO10PG9" resolve="_left" />
                 </node>
                 <node concept="liA8E" id="1wFBwDQu7Aj" role="2OqNvi">
-                  <ref role="37wK5l" to="inmn:~Tuple.getSize():int" resolve="getSize" />
+                  <ref role="37wK5l" to="inmn:~ITuple.getSize():int" resolve="getSize" />
                 </node>
               </node>
               <node concept="2OqwBi" id="1wFBwDQu7Ak" role="3uHU7w">
@@ -2006,7 +2006,7 @@
                   <ref role="3cqZAo" node="1cLRCO10PGb" resolve="_right" />
                 </node>
                 <node concept="liA8E" id="1wFBwDQu7Am" role="2OqNvi">
-                  <ref role="37wK5l" to="inmn:~Tuple.getSize():int" resolve="getSize" />
+                  <ref role="37wK5l" to="inmn:~ITuple.getSize():int" resolve="getSize" />
                 </node>
               </node>
             </node>
@@ -2032,7 +2032,7 @@
                           <ref role="3cqZAo" node="1cLRCO10PG9" resolve="_left" />
                         </node>
                         <node concept="liA8E" id="1cLRCO10YkG" role="2OqNvi">
-                          <ref role="37wK5l" to="inmn:~Tuple.getElements():java.lang.Object[]" resolve="getElements" />
+                          <ref role="37wK5l" to="inmn:~AbstractTuple.getElements():java.lang.Object[]" resolve="getElements" />
                         </node>
                       </node>
                     </node>
@@ -2054,7 +2054,7 @@
                           <ref role="3cqZAo" node="1cLRCO10PGb" resolve="_right" />
                         </node>
                         <node concept="liA8E" id="1cLRCO10Z6v" role="2OqNvi">
-                          <ref role="37wK5l" to="inmn:~Tuple.getElements():java.lang.Object[]" resolve="getElements" />
+                          <ref role="37wK5l" to="inmn:~AbstractTuple.getElements():java.lang.Object[]" resolve="getElements" />
                         </node>
                       </node>
                     </node>
@@ -2168,7 +2168,7 @@
                       <ref role="3cqZAo" node="1cLRCO10PG9" resolve="_left" />
                     </node>
                     <node concept="liA8E" id="1wFBwDQtFQl" role="2OqNvi">
-                      <ref role="37wK5l" to="inmn:~Tuple.getSize():int" resolve="getSize" />
+                      <ref role="37wK5l" to="inmn:~ITuple.getSize():int" resolve="getSize" />
                     </node>
                   </node>
                 </node>

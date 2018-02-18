@@ -25,6 +25,7 @@
     <import index="gcg1" ref="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.inca.core.behavior)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="t4sj" ref="r:fc920dcd-3130-40cb-9a1b-95b7ec234932(org.inca.fun.runtime.plugin)" />
+    <import index="1ctc" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.stream(JDK/)" />
     <import index="ebqt" ref="r:17207093-9cf4-4f01-9c48-e6e0146d6087(org.inca.fun.structure)" implicit="true" />
   </imports>
   <registry>
@@ -1628,10 +1629,48 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="2tJIrI" id="12wiuiLpFYR" role="jymVt" />
+    <node concept="3clFb_" id="12wiuiLpF0H" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="aggregateStream" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="3Tm1VV" id="12wiuiLpF0I" role="1B3o_S" />
+      <node concept="16syzq" id="12wiuiLpF0P" role="3clF45">
+        <ref role="16sUi3" node="3xDKE$ECYEH" resolve="T" />
+      </node>
+      <node concept="37vLTG" id="12wiuiLpF0L" role="3clF46">
+        <property role="TrG5h" value="stream" />
+        <property role="3TUv4t" value="true" />
+        <node concept="3uibUv" id="12wiuiLpF0M" role="1tU5fm">
+          <ref role="3uigEE" to="1ctc:~Stream" resolve="Stream" />
+          <node concept="16syzq" id="12wiuiLpF0O" role="11_B2D">
+            <ref role="16sUi3" node="3xDKE$ECYEH" resolve="T" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbS" id="12wiuiLpF0Q" role="3clF47">
+        <node concept="3cpWs6" id="12wiuiLpHVJ" role="3cqZAp">
+          <node concept="10Nm6u" id="12wiuiLpHXW" role="3cqZAk" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="12wiuiLpF0R" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="3xDKE$ED58Z" role="jymVt" />
     <node concept="3Tm1VV" id="3xDKE$ECYp_" role="1B3o_S" />
-    <node concept="3uibUv" id="3xDKE$ECYE9" role="1zkMxy">
-      <ref role="3uigEE" to="8wax:~AbstractMultisetAggregationOperator" resolve="AbstractMultisetAggregationOperator" />
+    <node concept="16euLQ" id="3xDKE$ECYEH" role="16eVyc">
+      <property role="TrG5h" value="T" />
+      <node concept="3uibUv" id="4uaOjKiYQXp" role="3ztrMU">
+        <ref role="3uigEE" to="wyt6:~Comparable" resolve="Comparable" />
+        <node concept="16syzq" id="4uaOjKiYRzT" role="11_B2D">
+          <ref role="16sUi3" node="3xDKE$ECYEH" resolve="T" />
+        </node>
+      </node>
+    </node>
+    <node concept="3uibUv" id="5d$pfuR5fvT" role="EKbjA">
+      <ref role="3uigEE" to="8wax:~IMultisetAggregationOperator" resolve="IMultisetAggregationOperator" />
       <node concept="16syzq" id="3xDKE$ECYIX" role="11_B2D">
         <ref role="16sUi3" node="3xDKE$ECYEH" resolve="T" />
       </node>
@@ -1649,15 +1688,6 @@
       </node>
       <node concept="16syzq" id="3xDKE$ECYI0" role="11_B2D">
         <ref role="16sUi3" node="3xDKE$ECYEH" resolve="T" />
-      </node>
-    </node>
-    <node concept="16euLQ" id="3xDKE$ECYEH" role="16eVyc">
-      <property role="TrG5h" value="T" />
-      <node concept="3uibUv" id="4uaOjKiYQXp" role="3ztrMU">
-        <ref role="3uigEE" to="wyt6:~Comparable" resolve="Comparable" />
-        <node concept="16syzq" id="4uaOjKiYRzT" role="11_B2D">
-          <ref role="16sUi3" node="3xDKE$ECYEH" resolve="T" />
-        </node>
       </node>
     </node>
   </node>

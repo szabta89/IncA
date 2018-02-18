@@ -5,47 +5,47 @@
       <sourceRoot location="models" />
     </modelRoot>
     <modelRoot contentPath="${module}" type="java_classes">
-      <sourceRoot location="lib/org.eclipse.core.databinding.observable_1.6.0.v20160511-1747.jar" />
-      <sourceRoot location="lib/org.eclipse.core.runtime_3.12.0.v20160606-1342.jar" />
-      <sourceRoot location="lib/org.eclipse.emf.common_2.12.0.v20160420-0247.jar" />
-      <sourceRoot location="lib/org.eclipse.emf.ecore.xmi_2.12.0.v20160420-0247.jar" />
-      <sourceRoot location="lib/org.eclipse.emf.ecore_2.12.0.v20160420-0247.jar" />
-      <sourceRoot location="lib/org.eclipse.equinox.common_3.8.0.v20160509-1230.jar" />
-      <sourceRoot location="lib/org.eclipse.osgi_3.11.1.v20160708-1632.jar" />
-      <sourceRoot location="lib/org.eclipse.xtext.xbase_2.10.0.v201605250459.jar" />
-      <sourceRoot location="lib/org.eclipse.xtext.xbase.lib_2.10.0.v201605250459.jar" />
-      <sourceRoot location="lib/org.eclipse.viatra.addon.databinding.runtime_1.7.0.2018.jar" />
-      <sourceRoot location="lib/org.eclipse.viatra.query.runtime.base.itc_1.7.0.2018.jar" />
-      <sourceRoot location="lib/org.eclipse.viatra.query.runtime.base_1.7.0.2018.jar" />
-      <sourceRoot location="lib/org.eclipse.viatra.query.runtime.matchers_1.7.0.2018.jar" />
-      <sourceRoot location="lib/org.eclipse.viatra.query.runtime.rete.recipes_1.7.0.2018.jar" />
-      <sourceRoot location="lib/org.eclipse.viatra.query.runtime.rete_1.7.0.2018.jar" />
-      <sourceRoot location="lib/org.eclipse.viatra.query.runtime_1.7.0.2018.jar" />
-      <sourceRoot location="lib/org.eclipse.viatra.transformation.evm_1.7.0.2018.jar" />
+      <sourceRoot location="lib/org.eclipse.viatra.addon.databinding.runtime_2.0.0.2018.jar" />
+      <sourceRoot location="lib/org.eclipse.viatra.query.runtime.base.itc_2.0.0.2018.jar" />
+      <sourceRoot location="lib/org.eclipse.viatra.query.runtime.base_2.0.0.2018.jar" />
+      <sourceRoot location="lib/org.eclipse.viatra.query.runtime.matchers_2.0.0.2018.jar" />
+      <sourceRoot location="lib/org.eclipse.viatra.query.runtime.rete.recipes_2.0.0.2018.jar" />
+      <sourceRoot location="lib/org.eclipse.viatra.query.runtime.rete_2.0.0.2018.jar" />
+      <sourceRoot location="lib/org.eclipse.viatra.query.runtime_2.0.0.2018.jar" />
+      <sourceRoot location="lib/org.eclipse.viatra.transformation.evm_2.0.0.2018.jar" />
       <sourceRoot location="lib/capsule-0.4.0-20170621.132553-7.jar" />
-      <sourceRoot location="lib/org.eclipse.collections_8.2.0.v20170622-1916.jar" />
+      <sourceRoot location="lib/org.eclipse.collections_9.0.0.v20170920-0536.jar" />
+      <sourceRoot location="lib/org.eclipse.core.databinding.observable_1.6.100.v20170515-1119.jar" />
+      <sourceRoot location="lib/org.eclipse.core.runtime_3.13.0.v20170207-1030.jar" />
+      <sourceRoot location="lib/org.eclipse.emf.codegen.ecore_2.13.0.v20170609-0928.jar" />
+      <sourceRoot location="lib/org.eclipse.emf.common_2.13.0.v20170609-0707.jar" />
+      <sourceRoot location="lib/org.eclipse.equinox.common_3.9.0.v20170207-1454.jar" />
+      <sourceRoot location="lib/org.eclipse.osgi_3.12.50.v20170928-1321.jar" />
+      <sourceRoot location="lib/org.eclipse.xtext.xbase.lib_2.12.0.v20170518-0757.jar" />
+      <sourceRoot location="lib/org.eclipse.xtext.xbase_2.12.0.v20170519-0752.jar" />
+      <sourceRoot location="lib/org.eclipse.emf.ecore_2.13.0.v20170609-0707.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
-    <stubModelEntry path="${module}/lib/org.eclipse.core.databinding.observable_1.6.0.v20160511-1747.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.core.runtime_3.12.0.v20160606-1342.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.emf.common_2.12.0.v20160420-0247.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.emf.ecore.xmi_2.12.0.v20160420-0247.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.emf.ecore_2.12.0.v20160420-0247.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.equinox.common_3.8.0.v20160509-1230.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.osgi_3.11.1.v20160708-1632.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.xtext.xbase_2.10.0.v201605250459.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.xtext.xbase.lib_2.10.0.v201605250459.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.viatra.addon.databinding.runtime_1.7.0.2018.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.viatra.query.runtime.base.itc_1.7.0.2018.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.viatra.query.runtime.base_1.7.0.2018.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.viatra.query.runtime.matchers_1.7.0.2018.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.viatra.query.runtime.rete.recipes_1.7.0.2018.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.viatra.query.runtime.rete_1.7.0.2018.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.viatra.query.runtime_1.7.0.2018.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.viatra.transformation.evm_1.7.0.2018.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.viatra.addon.databinding.runtime_2.0.0.2018.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.viatra.query.runtime.base.itc_2.0.0.2018.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.viatra.query.runtime.base_2.0.0.2018.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.viatra.query.runtime.matchers_2.0.0.2018.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.viatra.query.runtime.rete.recipes_2.0.0.2018.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.viatra.query.runtime.rete_2.0.0.2018.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.viatra.query.runtime_2.0.0.2018.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.viatra.transformation.evm_2.0.0.2018.jar" />
     <stubModelEntry path="${module}/lib/capsule-0.4.0-20170621.132553-7.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.collections_8.2.0.v20170622-1916.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.collections_9.0.0.v20170920-0536.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.core.databinding.observable_1.6.100.v20170515-1119.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.core.runtime_3.13.0.v20170207-1030.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.emf.codegen.ecore_2.13.0.v20170609-0928.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.emf.common_2.13.0.v20170609-0707.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.equinox.common_3.9.0.v20170207-1454.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.osgi_3.12.50.v20170928-1321.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.xtext.xbase.lib_2.12.0.v20170518-0757.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.xtext.xbase_2.12.0.v20170519-0752.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.emf.ecore_2.13.0.v20170609-0707.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
@@ -56,8 +56,6 @@
     <dependency reexport="false">b802a056-92a2-4fbc-902e-f8e5004c331f(org.inca.core)</dependency>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
     <dependency reexport="false">9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)</dependency>
-    <dependency reexport="false">c7a315e6-1d93-4186-85bc-2dfafd1ccc21(com.mbeddr.mpsutil.common)</dependency>
-    <dependency reexport="false">f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="5" />
