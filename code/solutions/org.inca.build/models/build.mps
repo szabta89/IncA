@@ -2706,6 +2706,12 @@
             <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
           </node>
         </node>
+        <node concept="1SiIV0" id="1TG$cdoxtkN" role="3bR37C">
+          <node concept="3bR9La" id="1TG$cdoxtkO" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="7wIK_Lll4ym" role="2G$12L">
         <property role="BnDLt" value="true" />

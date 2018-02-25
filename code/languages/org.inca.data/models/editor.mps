@@ -18,6 +18,7 @@
     <import index="hqsm" ref="r:aa4c3470-43ab-4dad-b73e-20da0ee43be1(org.inca.core.structure)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="j60j" ref="r:13275e02-3f14-48b5-8a82-fa91f2c33c15(org.inca.data.behavior)" implicit="true" />
+    <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
   </imports>
@@ -63,6 +64,7 @@
         <reference id="1078939183255" name="editorComponent" index="PMmxG" />
       </concept>
       <concept id="3738029991950788349" name="jetbrains.mps.lang.editor.structure.SubstituteMenu_Named" flags="ng" index="Q6S24" />
+      <concept id="1186403751766" name="jetbrains.mps.lang.editor.structure.FontStyleStyleClassItem" flags="ln" index="Vb9p2" />
       <concept id="615427434521884870" name="jetbrains.mps.lang.editor.structure.SubstituteMenuPart_Subconcepts" flags="ng" index="2VfDsV" />
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
@@ -1021,11 +1023,9 @@
   <node concept="24kQdi" id="6fy2FM6sD9i">
     <property role="3GE5qa" value="pattern" />
     <ref role="1XX52x" to="uu1k:6fy2FM6sD96" resolve="WildCardPattern" />
-    <node concept="1WcQYu" id="6fy2FM6upep" role="2wV5jI">
-      <node concept="2ElW$n" id="6fy2FM6uper" role="2El2Yn" />
-      <node concept="3F0ifn" id="6fy2FM6upeC" role="1LiK7o">
-        <property role="3F0ifm" value="_" />
-      </node>
+    <node concept="PMmxH" id="1oQbVc7ckyu" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      <node concept="Vb9p2" id="1oQbVc7difZ" role="3F10Kt" />
     </node>
   </node>
   <node concept="24kQdi" id="5SkQds3i3rT">

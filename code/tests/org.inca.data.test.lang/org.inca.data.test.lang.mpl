@@ -60,9 +60,6 @@
     <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
     <module reference="9c179615-5b01-47d6-8747-de24f81c45dc(org.inca.data.test.lang)" version="0" />
   </dependencyVersions>
-  <runtime>
-    <dependency reexport="false">af8b7d6e-4138-4959-9106-3ad2fd47fb92(org.inca.data.test.analyses)</dependency>
-  </runtime>
   <extendedLanguages>
     <extendedLanguage>f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</extendedLanguage>
   </extendedLanguages>

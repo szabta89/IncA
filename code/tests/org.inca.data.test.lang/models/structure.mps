@@ -2,7 +2,6 @@
 <model ref="r:0f17df74-12d3-495c-9401-0232a712e8ff(org.inca.data.test.lang.structure)">
   <persistence version="9" />
   <languages>
-    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="2" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
@@ -106,6 +105,11 @@
       <property role="TrG5h" value="max" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="1oQbVc7ekxh">
+    <property role="EcuMT" value="1600519163543636049" />
+    <property role="TrG5h" value="TestMethodDeclaration" />
+    <ref role="1TJDcQ" to="tpee:fzclF8t" resolve="InstanceMethodDeclaration" />
   </node>
 </model>
 
