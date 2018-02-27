@@ -65,7 +65,6 @@
       <concept id="6368683143941319361" name="org.inca.fun.structure.PatternFunctionModule" flags="ng" index="3TKv5i" />
       <concept id="6368683143941346282" name="org.inca.fun.structure.PatternFunctionAnonymousParameter" flags="ng" index="3TL$xT" />
       <concept id="5458164179963309291" name="org.inca.fun.structure.PatternFunctionParameter" flags="ng" index="1VLyuc" />
-      <concept id="6151553526979403292" name="org.inca.fun.structure.PatternFunctionComment" flags="ng" index="1XdyHb" />
       <concept id="6151553526979403289" name="org.inca.fun.structure.PatternFunctionEmptyContent" flags="ng" index="1XdyHe" />
     </language>
     <language id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples">
@@ -150,7 +149,6 @@
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1153422305557" name="jetbrains.mps.baseLanguage.structure.LessThanOrEqualsExpression" flags="nn" index="2dkUwp" />
-      <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
@@ -163,9 +161,6 @@
       <concept id="1083260308424" name="jetbrains.mps.baseLanguage.structure.EnumConstantReference" flags="nn" index="Rm8GO">
         <reference id="1083260308426" name="enumConstantDeclaration" index="Rm8GQ" />
         <reference id="1144432896254" name="enumClass" index="1Px2BO" />
-      </concept>
-      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
-        <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
       <concept id="1081236700938" name="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" flags="ig" index="2YIFZL" />
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
@@ -256,21 +251,6 @@
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
-    <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
-      <concept id="5858074156537516430" name="jetbrains.mps.baseLanguage.javadoc.structure.ReturnBlockDocTag" flags="ng" index="x79VA">
-        <property id="5858074156537516431" name="text" index="x79VB" />
-      </concept>
-      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
-        <child id="8465538089690331502" name="body" index="TZ5H$" />
-        <child id="5383422241790532083" name="tags" index="3nqlJM" />
-      </concept>
-      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
-        <child id="8970989240999019149" name="part" index="1dT_Ay" />
-      </concept>
-      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
-        <property id="8970989240999019144" name="text" index="1dT_AB" />
-      </concept>
-    </language>
     <language id="b802a056-92a2-4fbc-902e-f8e5004c331f" name="org.inca.core">
       <concept id="996292992024566533" name="org.inca.core.structure.BoolValue" flags="ng" index="2k1_0R">
         <property id="996292992024566534" name="value" index="2k1_0O" />
@@ -296,10 +276,6 @@
       </concept>
       <concept id="7447605944636584242" name="org.inca.core.structure.IncaMatch" flags="ig" index="2yvosn">
         <reference id="7447605944636589388" name="pattern" index="2yvvdD" />
-      </concept>
-      <concept id="266511528377428275" name="org.inca.core.structure.ParameterCommentTag" flags="ng" index="2MMnZx">
-        <property id="266511528377428276" name="text" index="2MMnZA" />
-        <reference id="266511528377428278" name="parameter" index="2MMnZ$" />
       </concept>
       <concept id="7996518772785670958" name="org.inca.core.structure.DataTypeReferenceType" flags="ng" index="2PmbLq">
         <reference id="7996518772785671445" name="dataTypeDeclaration" index="2PmbDx" />
@@ -333,9 +309,6 @@
       <concept id="4530729936991344605" name="org.inca.core.structure.IPatternBody" flags="ng" index="1dubk2">
         <child id="4530729936991965471" name="contents" index="1dgzf0" />
       </concept>
-      <concept id="4530729936991344618" name="org.inca.core.structure.Comment" flags="ng" index="1dubkP">
-        <property id="4530729936991344628" name="text" index="1dubkF" />
-      </concept>
       <concept id="4530729936991344019" name="org.inca.core.structure.IPatternModule" flags="ng" index="1dubtc">
         <child id="4530729936991344607" name="contents" index="1dubk0" />
       </concept>
@@ -347,7 +320,6 @@
         <child id="4530729936991567856" name="parameters" index="1dv5OJ" />
         <child id="1925259677761359694" name="bodies" index="3zVECR" />
       </concept>
-      <concept id="5024559837613016203" name="org.inca.core.structure.IPatternComment" flags="ng" index="1k99o6" />
       <concept id="3634481308605751419" name="org.inca.core.structure.BaseVariableReference" flags="ng" index="1sjAk5">
         <reference id="3634481308605751420" name="variable" index="1sjAk2" />
       </concept>
@@ -378,7 +350,6 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
-        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -388,7 +359,6 @@
       <concept id="1226511727824" name="jetbrains.mps.baseLanguage.collections.structure.SetType" flags="in" index="2hMVRd">
         <child id="1226511765987" name="elementType" index="2hN53Y" />
       </concept>
-      <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
     </language>
   </registry>
@@ -659,38 +629,36 @@
             </node>
           </node>
         </node>
-        <node concept="3cpWs6" id="1UtqsmgqL_i" role="3cqZAp">
-          <node concept="1Wc70l" id="1UtqsmgqPl$" role="3cqZAk">
-            <node concept="3clFbC" id="1UtqsmgqOwp" role="3uHU7B">
-              <node concept="2OqwBi" id="1UtqsmgqMlO" role="3uHU7B">
-                <node concept="37vLTw" id="1UtqsmgqLLq" role="2Oq$k0">
-                  <ref role="3cqZAo" node="1UtqsmgqpcK" resolve="values" />
-                </node>
-                <node concept="34oBXx" id="1UtqsmgqNi8" role="2OqNvi" />
-              </node>
-              <node concept="3cmrfG" id="1UtqsmgqOxf" role="3uHU7w">
-                <property role="3cmrfH" value="1" />
-              </node>
-            </node>
-            <node concept="2OqwBi" id="1Utqsmgr4Wi" role="3uHU7w">
-              <node concept="2OqwBi" id="1Utqsmgr3ui" role="2Oq$k0">
-                <node concept="2OqwBi" id="1Utqsmgr1c7" role="2Oq$k0">
-                  <node concept="37vLTw" id="1Utqsmgr0By" role="2Oq$k0">
-                    <ref role="3cqZAo" node="1UtqsmgqpcK" resolve="values" />
-                  </node>
-                  <node concept="1uHKPH" id="1Utqsmgr2$L" role="2OqNvi" />
-                </node>
-                <node concept="liA8E" id="1Utqsmgr4k4" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Object.toString():java.lang.String" resolve="toString" />
-                </node>
-              </node>
-              <node concept="liA8E" id="1Utqsmgr6xM" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
-                <node concept="Xl_RD" id="1Utqsmgr6Un" role="37wK5m">
-                  <property role="Xl_RC" value="Init" />
+        <node concept="3_zFn_" id="1qEbOveVPqE" role="3cqZAp">
+          <node concept="3_zGKh" id="1qEbOveVSv4" role="3_zGzc">
+            <node concept="3clFbS" id="1qEbOveVSv6" role="3LOtAQ">
+              <node concept="3cpWs6" id="1qEbOveVTWq" role="3cqZAp">
+                <node concept="3clFbT" id="1qEbOveVTXs" role="3cqZAk">
+                  <property role="3clFbU" value="true" />
                 </node>
               </node>
             </node>
+            <node concept="3__aGB" id="1qEbOveVTpc" role="3_$9z$">
+              <node concept="1tkKlP" id="1qEbOveVTpa" role="3_zOWp">
+                <ref role="1tneST" node="1Utqsmgn_el" resolve="Init" />
+              </node>
+            </node>
+          </node>
+          <node concept="3_zGKh" id="1qEbOveVURY" role="3_zGzc">
+            <node concept="3clFbS" id="1qEbOveVUS0" role="3LOtAQ">
+              <node concept="3cpWs6" id="1qEbOveVVhc" role="3cqZAp">
+                <node concept="3clFbT" id="1qEbOveVVie" role="3cqZAk">
+                  <property role="3clFbU" value="false" />
+                </node>
+              </node>
+            </node>
+            <node concept="3_$9zU" id="1qEbOveVVg7" role="3_$9z$" />
+          </node>
+          <node concept="2OqwBi" id="1qEbOveVQZL" role="3_$Z8D">
+            <node concept="37vLTw" id="1qEbOveVQmJ" role="2Oq$k0">
+              <ref role="3cqZAo" node="1UtqsmgqpcK" resolve="values" />
+            </node>
+            <node concept="1uHKPH" id="1qEbOveVSuv" role="2OqNvi" />
           </node>
         </node>
       </node>
@@ -849,8 +817,8 @@
       <node concept="3Tm1VV" id="6h60itPG4qZ" role="1B3o_S" />
       <node concept="3clFbS" id="6h60itPG4r0" role="3clF47">
         <node concept="3cpWs6" id="1UtqsmgnHkI" role="3cqZAp">
-          <node concept="2ZRyFJ" id="1UtqsmgnIOW" role="3cqZAk">
-            <ref role="2ZRyFH" node="1Utqsmgn_gf" resolve="UnInit" />
+          <node concept="2ZRyFJ" id="1qEbOveVxo0" role="3cqZAk">
+            <ref role="2ZRyFH" node="1Utqsmgn_el" resolve="Init" />
           </node>
         </node>
       </node>
@@ -867,8 +835,8 @@
       <node concept="3Tm1VV" id="2XlXuxNCdle" role="1B3o_S" />
       <node concept="3clFbS" id="2XlXuxNCdlf" role="3clF47">
         <node concept="3cpWs6" id="2XlXuxNCdlL" role="3cqZAp">
-          <node concept="2ZRyFJ" id="3GqEEvS7N9h" role="3cqZAk">
-            <ref role="2ZRyFH" node="1Utqsmgn_el" resolve="Init" />
+          <node concept="2ZRyFJ" id="1qEbOveVxpy" role="3cqZAk">
+            <ref role="2ZRyFH" node="1Utqsmgn_gf" resolve="UnInit" />
           </node>
         </node>
       </node>
@@ -894,8 +862,8 @@
         <node concept="3_zFn_" id="2XlXuxNCeHK" role="3cqZAp">
           <node concept="3_zGKh" id="2XlXuxNC_An" role="3_zGzc">
             <node concept="3__aGB" id="7VDQWeb842A" role="3_$9z$">
-              <node concept="1tkKlP" id="1UtqsmgnMv$" role="3_zOWp">
-                <ref role="1tneST" node="1Utqsmgn_gf" resolve="UnInit" />
+              <node concept="1tkKlP" id="1qEbOveVxqX" role="3_zOWp">
+                <ref role="1tneST" node="1Utqsmgn_el" resolve="Init" />
               </node>
             </node>
             <node concept="3_$9zU" id="1UtqsmgnNvE" role="3_$9z$" />
@@ -927,67 +895,8 @@
       </node>
     </node>
     <node concept="2slB5m" id="2XlXuxNCGHs" role="_iOnB" />
-    <node concept="hMdjl" id="2XlXuxNCH7F" role="_iOnB">
-      <property role="TrG5h" value="lub" />
-      <node concept="hPFL_" id="2XlXuxNCHkV" role="3clF46">
-        <property role="TrG5h" value="l" />
-        <node concept="2ZQB9c" id="1Utqsmgo0Wk" role="1tU5fm">
-          <ref role="2ZQB93" node="1UtqsmglAPy" resolve="InitState" />
-        </node>
-      </node>
-      <node concept="hPFL_" id="2XlXuxNCHl3" role="3clF46">
-        <property role="TrG5h" value="r" />
-        <node concept="2ZQB9c" id="1Utqsmgo0Xj" role="1tU5fm">
-          <ref role="2ZQB93" node="1UtqsmglAPy" resolve="InitState" />
-        </node>
-      </node>
-      <node concept="2ZQB9c" id="1Utqsmgo0Y2" role="3clF45">
-        <ref role="2ZQB93" node="1UtqsmglAPy" resolve="InitState" />
-      </node>
-      <node concept="3Tm1VV" id="2XlXuxNCH7I" role="1B3o_S" />
-      <node concept="3clFbS" id="2XlXuxNCH7J" role="3clF47">
-        <node concept="3_zFn_" id="2XlXuxNGvcq" role="3cqZAp">
-          <node concept="3_zGKh" id="7VDQWeb8mxW" role="3_zGzc">
-            <node concept="3__aGB" id="1oQbVc7cjLi" role="3_$9z$">
-              <node concept="1tkKlP" id="1oQbVc7cjLg" role="3_zOWp">
-                <ref role="1tneST" node="1Utqsmgn_gf" resolve="UnInit" />
-              </node>
-            </node>
-            <node concept="3__aGB" id="7VDQWeb8my0" role="3_$9z$">
-              <node concept="1tkKlP" id="1oQbVc7cjMZ" role="3_zOWp">
-                <ref role="1tneST" node="1Utqsmgn_gf" resolve="UnInit" />
-              </node>
-            </node>
-            <node concept="3clFbS" id="oNpFNoaQeW" role="3LOtAQ">
-              <node concept="3cpWs6" id="oNpFNoHrdO" role="3cqZAp">
-                <node concept="2ZRyFJ" id="1oQbVc7cjNg" role="3cqZAk">
-                  <ref role="2ZRyFH" node="1Utqsmgn_gf" resolve="UnInit" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3_zGKh" id="1Utqsmgogu0" role="3_zGzc">
-            <node concept="3_$9zU" id="1Utqsmgol0S" role="3_$9z$" />
-            <node concept="3clFbS" id="oNpFNoaQeY" role="3LOtAQ">
-              <node concept="3cpWs6" id="oNpFNoHrje" role="3cqZAp">
-                <node concept="2ZRyFJ" id="1oQbVc7cjSh" role="3cqZAk">
-                  <ref role="2ZRyFH" node="1Utqsmgn_el" resolve="Init" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="37vLTw" id="2XlXuxNGvcF" role="3_$Z8D">
-            <ref role="3cqZAo" node="2XlXuxNCHkV" resolve="l" />
-          </node>
-          <node concept="37vLTw" id="2XlXuxNGvcR" role="3_$Z8D">
-            <ref role="3cqZAo" node="2XlXuxNCHl3" resolve="r" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2slB5m" id="2XlXuxNCHyT" role="_iOnB" />
     <node concept="hMdjl" id="2XlXuxNCHlj" role="_iOnB">
-      <property role="TrG5h" value="glb" />
+      <property role="TrG5h" value="lub" />
       <node concept="hPFL_" id="2XlXuxNCHlk" role="3clF46">
         <property role="TrG5h" value="l" />
         <node concept="2ZQB9c" id="1UtqsmgonjE" role="1tU5fm">
@@ -1044,7 +953,65 @@
         </node>
       </node>
     </node>
-    <node concept="2slB5m" id="1Utqsmgnzpx" role="_iOnB" />
+    <node concept="2slB5m" id="1qEbOveVxzm" role="_iOnB" />
+    <node concept="hMdjl" id="2XlXuxNCH7F" role="_iOnB">
+      <property role="TrG5h" value="glb" />
+      <node concept="hPFL_" id="2XlXuxNCHkV" role="3clF46">
+        <property role="TrG5h" value="l" />
+        <node concept="2ZQB9c" id="1Utqsmgo0Wk" role="1tU5fm">
+          <ref role="2ZQB93" node="1UtqsmglAPy" resolve="InitState" />
+        </node>
+      </node>
+      <node concept="hPFL_" id="2XlXuxNCHl3" role="3clF46">
+        <property role="TrG5h" value="r" />
+        <node concept="2ZQB9c" id="1Utqsmgo0Xj" role="1tU5fm">
+          <ref role="2ZQB93" node="1UtqsmglAPy" resolve="InitState" />
+        </node>
+      </node>
+      <node concept="2ZQB9c" id="1Utqsmgo0Y2" role="3clF45">
+        <ref role="2ZQB93" node="1UtqsmglAPy" resolve="InitState" />
+      </node>
+      <node concept="3Tm1VV" id="2XlXuxNCH7I" role="1B3o_S" />
+      <node concept="3clFbS" id="2XlXuxNCH7J" role="3clF47">
+        <node concept="3_zFn_" id="2XlXuxNGvcq" role="3cqZAp">
+          <node concept="3_zGKh" id="7VDQWeb8mxW" role="3_zGzc">
+            <node concept="3__aGB" id="1oQbVc7cjLi" role="3_$9z$">
+              <node concept="1tkKlP" id="1oQbVc7cjLg" role="3_zOWp">
+                <ref role="1tneST" node="1Utqsmgn_gf" resolve="UnInit" />
+              </node>
+            </node>
+            <node concept="3__aGB" id="7VDQWeb8my0" role="3_$9z$">
+              <node concept="1tkKlP" id="1oQbVc7cjMZ" role="3_zOWp">
+                <ref role="1tneST" node="1Utqsmgn_gf" resolve="UnInit" />
+              </node>
+            </node>
+            <node concept="3clFbS" id="oNpFNoaQeW" role="3LOtAQ">
+              <node concept="3cpWs6" id="oNpFNoHrdO" role="3cqZAp">
+                <node concept="2ZRyFJ" id="1oQbVc7cjNg" role="3cqZAk">
+                  <ref role="2ZRyFH" node="1Utqsmgn_gf" resolve="UnInit" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3_zGKh" id="1Utqsmgogu0" role="3_zGzc">
+            <node concept="3_$9zU" id="1Utqsmgol0S" role="3_$9z$" />
+            <node concept="3clFbS" id="oNpFNoaQeY" role="3LOtAQ">
+              <node concept="3cpWs6" id="oNpFNoHrje" role="3cqZAp">
+                <node concept="2ZRyFJ" id="1oQbVc7cjSh" role="3cqZAk">
+                  <ref role="2ZRyFH" node="1Utqsmgn_el" resolve="Init" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="37vLTw" id="2XlXuxNGvcF" role="3_$Z8D">
+            <ref role="3cqZAo" node="2XlXuxNCHkV" resolve="l" />
+          </node>
+          <node concept="37vLTw" id="2XlXuxNGvcR" role="3_$Z8D">
+            <ref role="3cqZAo" node="2XlXuxNCHl3" resolve="r" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2Z3Rg9" id="1Utqsmgn_gf" role="2Z3R6k">
       <property role="TrG5h" value="UnInit" />
     </node>
@@ -1064,9 +1031,6 @@
         </node>
       </node>
       <node concept="3zV_Rz" id="7rH8wA$rp3g" role="3zVECR">
-        <node concept="1XdyHb" id="3dy7jiI$8CA" role="1dgzf0">
-          <property role="1dubkF" value="first we get the initializer expression ..." />
-        </node>
         <node concept="34odk1" id="1IhOgo0Xnk$" role="1dgzf0">
           <node concept="30KbLJ" id="1IhOgo0Xnkw" role="34ocZn">
             <property role="TrG5h" value="initializer" />
@@ -1079,9 +1043,6 @@
               <ref role="XkjO9" node="1Utqsmgh4Dr" resolve="var" />
             </node>
           </node>
-        </node>
-        <node concept="1XdyHb" id="3dy7jiI$9ff" role="1dgzf0">
-          <property role="1dubkF" value="... then we check if the expression is initialized" />
         </node>
         <node concept="34ocy7" id="Mi5jCBvtzb" role="1dgzf0">
           <node concept="2dT$3Y" id="Mi5jCBvtCz" role="34ocs8">
@@ -1096,22 +1057,6 @@
           </node>
         </node>
       </node>
-      <node concept="1k99o6" id="3dy7jiI$6LB" role="lGtFl">
-        <node concept="TZ5HA" id="3dy7jiI$6LC" role="TZ5H$">
-          <node concept="1dT_AC" id="3dy7jiI$6LD" role="1dT_Ay">
-            <property role="1dT_AB" value="The given variable var is initialized if its " />
-          </node>
-        </node>
-        <node concept="TZ5HA" id="3dy7jiI$8hY" role="TZ5H$">
-          <node concept="1dT_AC" id="3dy7jiI$8hZ" role="1dT_Ay">
-            <property role="1dT_AB" value="initializer expression is initialized. " />
-          </node>
-        </node>
-        <node concept="2MMnZx" id="3dy7jiI$6LE" role="3nqlJM">
-          <property role="2MMnZA" value="the variable" />
-          <ref role="2MMnZ$" node="1Utqsmgh4Dr" resolve="var" />
-        </node>
-      </node>
     </node>
     <node concept="1XdyHe" id="1xD0u$hudzM" role="1dubk0" />
     <node concept="3zyOaA" id="1Utqsmgh49J" role="1dubk0">
@@ -1123,12 +1068,6 @@
         </node>
       </node>
       <node concept="3zV_Rz" id="1Utqsmgh49K" role="3zVECR">
-        <node concept="1XdyHb" id="3dy7jiI$cZP" role="1dgzf0">
-          <property role="1dubkF" value="an expression can be 'initialized' in two ways" />
-        </node>
-        <node concept="1XdyHb" id="3dy7jiI$cZQ" role="1dgzf0">
-          <property role="1dubkF" value="if it is a variable reference ..." />
-        </node>
         <node concept="34ocy7" id="1Utqsmgh5hK" role="1dgzf0">
           <node concept="34oehE" id="1Utqsmgh5iv" role="34ocs8">
             <node concept="2kdjtB" id="1Utqsmgh5K6" role="2RGvlO">
@@ -1138,9 +1077,6 @@
               <ref role="XkjO9" node="1Utqsmgh5cc" resolve="exp" />
             </node>
           </node>
-        </node>
-        <node concept="1XdyHb" id="3dy7jiI$dft" role="1dgzf0">
-          <property role="1dubkF" value="... then the referenced variable ..." />
         </node>
         <node concept="34odk1" id="1Utqsmgh6VJ" role="1dgzf0">
           <node concept="2kdhWc" id="1Utqsmgh6Wf" role="34ocZk">
@@ -1154,9 +1090,6 @@
           <node concept="30KbLJ" id="1Utqsmgh6MB" role="34ocZn">
             <property role="TrG5h" value="var" />
           </node>
-        </node>
-        <node concept="1XdyHb" id="3dy7jiI$dfz" role="1dgzf0">
-          <property role="1dubkF" value="... must be initialized" />
         </node>
         <node concept="34ocy7" id="Mi5jCBvunM" role="1dgzf0">
           <node concept="2dT$3Y" id="Mi5jCBvuog" role="34ocs8">
@@ -1172,9 +1105,6 @@
         </node>
       </node>
       <node concept="3zV_Rz" id="1Utqsmgh5sk" role="3zVECR">
-        <node concept="1XdyHb" id="3dy7jiI$dMZ" role="1dgzf0">
-          <property role="1dubkF" value="otherwise, it must not be a variable reference (complementer case) ..." />
-        </node>
         <node concept="34ocy7" id="1Utqsmgh5QK" role="1dgzf0">
           <node concept="2BbxxA" id="1Utqsmgh63X" role="34ocs8">
             <node concept="2kdjtB" id="1Utqsmgh6cV" role="2RGvlO">
@@ -1185,9 +1115,6 @@
             </node>
           </node>
         </node>
-        <node concept="1XdyHb" id="3dy7jiI$e5D" role="1dgzf0">
-          <property role="1dubkF" value="... neither the null literal" />
-        </node>
         <node concept="34ocy7" id="1Utqsmgh6kb" role="1dgzf0">
           <node concept="2BbxxA" id="1Utqsmgh6p1" role="34ocs8">
             <node concept="2kdjtB" id="1Utqsmgh6uV" role="2RGvlO">
@@ -1197,22 +1124,6 @@
               <ref role="XkjO9" node="1Utqsmgh5cc" resolve="exp" />
             </node>
           </node>
-        </node>
-      </node>
-      <node concept="1k99o6" id="3dy7jiI$a2E" role="lGtFl">
-        <node concept="TZ5HA" id="3dy7jiI$a2F" role="TZ5H$">
-          <node concept="1dT_AC" id="3dy7jiI$a2G" role="1dT_Ay">
-            <property role="1dT_AB" value="An expression is initialized if it refers to an initialized " />
-          </node>
-        </node>
-        <node concept="TZ5HA" id="3dy7jiI$asI" role="TZ5H$">
-          <node concept="1dT_AC" id="3dy7jiI$asJ" role="1dT_Ay">
-            <property role="1dT_AB" value="variable or it is not the null literal. " />
-          </node>
-        </node>
-        <node concept="2MMnZx" id="3dy7jiI$a2H" role="3nqlJM">
-          <property role="2MMnZA" value="the expression" />
-          <ref role="2MMnZ$" node="1Utqsmgh5cc" resolve="exp" />
         </node>
       </node>
     </node>
@@ -1237,9 +1148,6 @@
         </node>
       </node>
       <node concept="3zV_Rz" id="1UtqsmghNVI" role="3zVECR">
-        <node concept="1XdyHb" id="Mi5jCBxAbe" role="1dgzf0">
-          <property role="1dubkF" value="get the CFG predecessor ..." />
-        </node>
         <node concept="34odk1" id="1Utqsmgjdfz" role="1dgzf0">
           <node concept="2k1GkI" id="1Utqsmgjeey" role="34ocZk">
             <node concept="2k1_uq" id="1Utqsmgjeew" role="2nKVj6">
@@ -1252,9 +1160,6 @@
           <node concept="30KbLJ" id="1Utqsmgjcrg" role="34ocZn">
             <property role="TrG5h" value="src" />
           </node>
-        </node>
-        <node concept="1XdyHb" id="Mi5jCBxIWb" role="1dgzf0">
-          <property role="1dubkF" value="... and see if the variable is initialized after that" />
         </node>
         <node concept="30Nfyg" id="1UtqsmgjfVR" role="1dgzf0">
           <node concept="2k1GkI" id="1UtqsmgjgNR" role="30Nf_D">
@@ -1275,34 +1180,6 @@
           <ref role="2PmbDx" to="tpck:fKAQMTB" resolve="boolean" />
         </node>
       </node>
-      <node concept="1k99o6" id="Mi5jCBxg4m" role="lGtFl">
-        <node concept="TZ5HA" id="Mi5jCBxg4n" role="TZ5H$">
-          <node concept="1dT_AC" id="Mi5jCBxg4o" role="1dT_Ay">
-            <property role="1dT_AB" value="Returns true if the given variable is initialized before the execution of the given statement." />
-          </node>
-        </node>
-        <node concept="TZ5HA" id="Mi5jCBxsUg" role="TZ5H$">
-          <node concept="1dT_AC" id="Mi5jCBxsUh" role="1dT_Ay">
-            <property role="1dT_AB" value="An explicit false value is not returned for uninitialized variables, the fact that a variable" />
-          </node>
-        </node>
-        <node concept="TZ5HA" id="Mi5jCBxy1A" role="TZ5H$">
-          <node concept="1dT_AC" id="Mi5jCBxy1B" role="1dT_Ay">
-            <property role="1dT_AB" value="is uninitialized is represented by the lack of a result tuple in the relation. " />
-          </node>
-        </node>
-        <node concept="2MMnZx" id="Mi5jCBxg4p" role="3nqlJM">
-          <property role="2MMnZA" value="the statement (CFG node)" />
-          <ref role="2MMnZ$" node="1UtqsmghOpP" resolve="stmt" />
-        </node>
-        <node concept="2MMnZx" id="Mi5jCBxg4q" role="3nqlJM">
-          <property role="2MMnZA" value="the variable" />
-          <ref role="2MMnZ$" node="1UtqsmghNVG" resolve="var" />
-        </node>
-        <node concept="x79VA" id="Mi5jCBxg4r" role="3nqlJM">
-          <property role="x79VB" value="true if initialized" />
-        </node>
-      </node>
     </node>
     <node concept="1XdyHe" id="1UtqsmghPwu" role="1dubk0" />
     <node concept="3zyOaA" id="1UtqsmghPkG" role="1dubk0">
@@ -1320,9 +1197,6 @@
         </node>
       </node>
       <node concept="3zV_Rz" id="1UtqsmghPkL" role="3zVECR">
-        <node concept="1XdyHb" id="Mi5jCBy9jp" role="1dgzf0">
-          <property role="1dubkF" value="if the given statement does not assign a new value to the given variable ..." />
-        </node>
         <node concept="34ocy7" id="1Utqsmgksb0" role="1dgzf0">
           <node concept="34sUYq" id="1UtqsmgkGBr" role="34ocs8">
             <node concept="2k1GkI" id="1UtqsmgkHTY" role="34sUSb">
@@ -1337,9 +1211,6 @@
               </node>
             </node>
           </node>
-        </node>
-        <node concept="1XdyHb" id="Mi5jCByjac" role="1dgzf0">
-          <property role="1dubkF" value="... then we simply propagate the information for var that we know from before" />
         </node>
         <node concept="30Nfyg" id="1Utqsmgjj9V" role="1dgzf0">
           <node concept="2k1GkI" id="1UtqsmgjkwH" role="30Nf_D">
@@ -1356,9 +1227,6 @@
         </node>
       </node>
       <node concept="3zV_Rz" id="1UtqsmgkxsA" role="3zVECR">
-        <node concept="1XdyHb" id="Mi5jCByyKM" role="1dgzf0">
-          <property role="1dubkF" value="otherwise, we interpret the initializer ..." />
-        </node>
         <node concept="34odk1" id="1UtqsmgljJX" role="1dgzf0">
           <node concept="2k1GkI" id="1Utqsmglld8" role="34ocZk">
             <node concept="2k1_uq" id="1Utqsmglld6" role="2nKVj6">
@@ -1374,9 +1242,6 @@
           <node concept="30KbLJ" id="1UtqsmglhGH" role="34ocZn">
             <property role="TrG5h" value="initializer" />
           </node>
-        </node>
-        <node concept="1XdyHb" id="Mi5jCByRdX" role="1dgzf0">
-          <property role="1dubkF" value="... to see if it makes the given variable initialized (true)" />
         </node>
         <node concept="30Nfyg" id="1Utqsmgl05B" role="1dgzf0">
           <node concept="2k1GkI" id="1Utqsmgl1wC" role="30Nf_D">
@@ -1397,34 +1262,6 @@
           <ref role="2PmbDx" to="tpck:fKAQMTB" resolve="boolean" />
         </node>
       </node>
-      <node concept="1k99o6" id="Mi5jCBxZFy" role="lGtFl">
-        <node concept="TZ5HA" id="Mi5jCBxZFz" role="TZ5H$">
-          <node concept="1dT_AC" id="Mi5jCBxZF$" role="1dT_Ay">
-            <property role="1dT_AB" value="Returns true if the given variable is initialized after the execution of the given statement." />
-          </node>
-        </node>
-        <node concept="TZ5HA" id="Mi5jCBy2Ll" role="TZ5H$">
-          <node concept="1dT_AC" id="Mi5jCBy2Lm" role="1dT_Ay">
-            <property role="1dT_AB" value="An explicit false value is not returned for uninitialized variables, the fact that a variable" />
-          </node>
-        </node>
-        <node concept="TZ5HA" id="Mi5jCBy2Ln" role="TZ5H$">
-          <node concept="1dT_AC" id="Mi5jCBy2Lo" role="1dT_Ay">
-            <property role="1dT_AB" value="is uninitialized is represented by the lack of a result tuple in the relation. " />
-          </node>
-        </node>
-        <node concept="2MMnZx" id="Mi5jCBy4NK" role="3nqlJM">
-          <property role="2MMnZA" value="the statement (CFG node)" />
-          <ref role="2MMnZ$" node="1UtqsmghPkH" resolve="stmt" />
-        </node>
-        <node concept="2MMnZx" id="Mi5jCBy4NL" role="3nqlJM">
-          <property role="2MMnZA" value="the variable" />
-          <ref role="2MMnZ$" node="1UtqsmghPkJ" resolve="var" />
-        </node>
-        <node concept="x79VA" id="Mi5jCBy4NM" role="3nqlJM">
-          <property role="x79VB" value="true if initialized" />
-        </node>
-      </node>
     </node>
     <node concept="1XdyHe" id="1UtqsmghNWx" role="1dubk0" />
     <node concept="3zyOaA" id="1UtqsmgkT51" role="1dubk0">
@@ -1442,12 +1279,6 @@
         </node>
       </node>
       <node concept="3zV_Rz" id="1UtqsmgkT54" role="3zVECR">
-        <node concept="1XdyHb" id="Mi5jCBzc4e" role="1dgzf0">
-          <property role="1dubkF" value="an expression can be 'initialized' in two ways" />
-        </node>
-        <node concept="1XdyHb" id="Mi5jCBzxzQ" role="1dgzf0">
-          <property role="1dubkF" value="if it is a variable reference ..." />
-        </node>
         <node concept="34ocy7" id="1UtqsmgkT55" role="1dgzf0">
           <node concept="34oehE" id="1UtqsmgkT56" role="34ocs8">
             <node concept="2kdjtB" id="1UtqsmgkT57" role="2RGvlO">
@@ -1457,9 +1288,6 @@
               <ref role="XkjO9" node="1UtqsmgkT52" resolve="exp" />
             </node>
           </node>
-        </node>
-        <node concept="1XdyHb" id="Mi5jCBzEoM" role="1dgzf0">
-          <property role="1dubkF" value="... then the referenced variable ..." />
         </node>
         <node concept="34odk1" id="1UtqsmgkT59" role="1dgzf0">
           <node concept="2kdhWc" id="1UtqsmgkT5a" role="34ocZk">
@@ -1473,9 +1301,6 @@
           <node concept="30KbLJ" id="1UtqsmgkT5d" role="34ocZn">
             <property role="TrG5h" value="var" />
           </node>
-        </node>
-        <node concept="1XdyHb" id="Mi5jCBzSlc" role="1dgzf0">
-          <property role="1dubkF" value="... must be initialized" />
         </node>
         <node concept="30Nfyg" id="1UtqsmgkT5e" role="1dgzf0">
           <node concept="2k1GkI" id="1UtqsmgkT5f" role="30Nf_D">
@@ -1492,9 +1317,6 @@
         </node>
       </node>
       <node concept="3zV_Rz" id="1UtqsmgkT5i" role="3zVECR">
-        <node concept="1XdyHb" id="Mi5jCB$24m" role="1dgzf0">
-          <property role="1dubkF" value="otherwise, it must not be a variable reference (complementer case) ..." />
-        </node>
         <node concept="34ocy7" id="1UtqsmgkT5j" role="1dgzf0">
           <node concept="2BbxxA" id="1UtqsmgkT5k" role="34ocs8">
             <node concept="2kdjtB" id="1UtqsmgkT5l" role="2RGvlO">
@@ -1505,9 +1327,6 @@
             </node>
           </node>
         </node>
-        <node concept="1XdyHb" id="Mi5jCB$dMG" role="1dgzf0">
-          <property role="1dubkF" value="... neither a null literal ..." />
-        </node>
         <node concept="34ocy7" id="1UtqsmgkT5n" role="1dgzf0">
           <node concept="2BbxxA" id="1UtqsmgkT5o" role="34ocs8">
             <node concept="2kdjtB" id="1UtqsmgkT5p" role="2RGvlO">
@@ -1517,9 +1336,6 @@
               <ref role="XkjO9" node="1UtqsmgkT52" resolve="exp" />
             </node>
           </node>
-        </node>
-        <node concept="1XdyHb" id="Mi5jCB$sWW" role="1dgzf0">
-          <property role="1dubkF" value="... in this case we return true" />
         </node>
         <node concept="30Nfyg" id="1UtqsmgkT5r" role="1dgzf0">
           <node concept="2Brx2E" id="1UtqsmgkT5s" role="30Nf_D">
@@ -1532,24 +1348,6 @@
       <node concept="3TL$xT" id="1UtqsmgkT5u" role="3TLBbI">
         <node concept="2PmbLq" id="1UtqsmgkT5v" role="1dukDx">
           <ref role="2PmbDx" to="tpck:fKAQMTB" resolve="boolean" />
-        </node>
-      </node>
-      <node concept="1k99o6" id="Mi5jCBz1Zp" role="lGtFl">
-        <node concept="TZ5HA" id="Mi5jCBz3ZR" role="TZ5H$">
-          <node concept="1dT_AC" id="Mi5jCBz3ZS" role="1dT_Ay">
-            <property role="1dT_AB" value="Returns true if the given expression is initialized at the given statement." />
-          </node>
-        </node>
-        <node concept="2MMnZx" id="Mi5jCBz1Zs" role="3nqlJM">
-          <property role="2MMnZA" value="the statement (CFG node)" />
-          <ref role="2MMnZ$" node="1UtqsmgkUCm" resolve="stmt" />
-        </node>
-        <node concept="2MMnZx" id="Mi5jCBz1Zt" role="3nqlJM">
-          <property role="2MMnZA" value="the expression" />
-          <ref role="2MMnZ$" node="1UtqsmgkT52" resolve="exp" />
-        </node>
-        <node concept="x79VA" id="Mi5jCBz1Zu" role="3nqlJM">
-          <property role="x79VB" value="true if initialized" />
         </node>
       </node>
     </node>
@@ -1580,9 +1378,6 @@
         </node>
       </node>
       <node concept="3zV_Rz" id="7VDQWebdfIQ" role="3zVECR">
-        <node concept="1XdyHb" id="3GqEEvSaQH0" role="1dgzf0">
-          <property role="1dubkF" value="get the CFG predecessor ..." />
-        </node>
         <node concept="34odk1" id="1UtqsmgoP7V" role="1dgzf0">
           <node concept="2k1GkI" id="1UtqsmgoP7W" role="34ocZk">
             <node concept="2k1_uq" id="1UtqsmgoP7X" role="2nKVj6">
@@ -1595,9 +1390,6 @@
           <node concept="30KbLJ" id="1UtqsmgoP7Z" role="34ocZn">
             <property role="TrG5h" value="src" />
           </node>
-        </node>
-        <node concept="1XdyHb" id="3GqEEvSaY2t" role="1dgzf0">
-          <property role="1dubkF" value="... and return the InitState after that" />
         </node>
         <node concept="30Nfyg" id="1UtqsmgoP80" role="1dgzf0">
           <node concept="2k1GkI" id="1UtqsmgoP81" role="30Nf_D">
@@ -1619,26 +1411,8 @@
             <ref role="2ZQB93" node="1UtqsmglAPy" resolve="InitState" />
           </node>
           <node concept="2kHsid" id="3GqEEvS7Rl8" role="iwB5b">
-            <ref role="2kHsi0" node="2XlXuxNCHlj" resolve="glb" />
+            <ref role="2kHsi0" node="2XlXuxNCHlj" resolve="lub" />
           </node>
-        </node>
-      </node>
-      <node concept="1k99o6" id="3GqEEvSaH3Z" role="lGtFl">
-        <node concept="TZ5HA" id="3GqEEvSaH40" role="TZ5H$">
-          <node concept="1dT_AC" id="3GqEEvSaH41" role="1dT_Ay">
-            <property role="1dT_AB" value="Returns the InitState of the given variable before the execution of the given statement. " />
-          </node>
-        </node>
-        <node concept="2MMnZx" id="3GqEEvSaH42" role="3nqlJM">
-          <property role="2MMnZA" value="the statement (CFG node)" />
-          <ref role="2MMnZ$" node="1UtqsmgoO5F" resolve="stmt" />
-        </node>
-        <node concept="2MMnZx" id="3GqEEvSaH43" role="3nqlJM">
-          <property role="2MMnZA" value="the variable" />
-          <ref role="2MMnZ$" node="1UtqsmgoO5H" resolve="var" />
-        </node>
-        <node concept="x79VA" id="3GqEEvSaH44" role="3nqlJM">
-          <property role="x79VB" value="the InitState" />
         </node>
       </node>
     </node>
@@ -1658,9 +1432,6 @@
         </node>
       </node>
       <node concept="3zV_Rz" id="1UtqsmgoQVM" role="3zVECR">
-        <node concept="1XdyHb" id="3GqEEvSbeYt" role="1dgzf0">
-          <property role="1dubkF" value="if the given statement does not affect the given variable (does not appear at assignment LHS) ..." />
-        </node>
         <node concept="34ocy7" id="1UtqsmgoUvS" role="1dgzf0">
           <node concept="34sUYq" id="1UtqsmgoUvT" role="34ocs8">
             <node concept="2k1GkI" id="1UtqsmgoUvU" role="34sUSb">
@@ -1675,9 +1446,6 @@
               </node>
             </node>
           </node>
-        </node>
-        <node concept="1XdyHb" id="3GqEEvSbrjJ" role="1dgzf0">
-          <property role="1dubkF" value="... then we simply propagate the information for the variable that we know from before" />
         </node>
         <node concept="30Nfyg" id="1UtqsmgoUvY" role="1dgzf0">
           <node concept="2k1GkI" id="1UtqsmgoUvZ" role="30Nf_D">
@@ -1694,9 +1462,6 @@
         </node>
       </node>
       <node concept="3zV_Rz" id="3GqEEvS8rCw" role="3zVECR">
-        <node concept="1XdyHb" id="3GqEEvSbtdL" role="1dgzf0">
-          <property role="1dubkF" value="if the statement affects the variable (appears at assignment LHS) ..." />
-        </node>
         <node concept="34ocy7" id="3GqEEvS8tqS" role="1dgzf0">
           <node concept="2dT$3Y" id="3GqEEvS8umm" role="34ocs8">
             <node concept="2k1GkI" id="3GqEEvS8wgV" role="2dT$1H">
@@ -1711,9 +1476,6 @@
               </node>
             </node>
           </node>
-        </node>
-        <node concept="1XdyHb" id="3GqEEvSbGsM" role="1dgzf0">
-          <property role="1dubkF" value="... but it does not assign a new value (no RHS) ..." />
         </node>
         <node concept="34ocy7" id="3GqEEvS8yz_" role="1dgzf0">
           <node concept="34sUYq" id="3GqEEvS8zvD" role="34ocs8">
@@ -1730,9 +1492,6 @@
             </node>
           </node>
         </node>
-        <node concept="1XdyHb" id="3GqEEvSc0lk" role="1dgzf0">
-          <property role="1dubkF" value="... then the variable is uninitialized " />
-        </node>
         <node concept="30Nfyg" id="3GqEEvS8ClV" role="1dgzf0">
           <node concept="2ZRyFJ" id="3GqEEvS8EfR" role="30Nf_D">
             <ref role="2ZRyFH" node="1Utqsmgn_gf" resolve="UnInit" />
@@ -1740,9 +1499,6 @@
         </node>
       </node>
       <node concept="3zV_Rz" id="1UtqsmgoVnJ" role="3zVECR">
-        <node concept="1XdyHb" id="3GqEEvSdFbA" role="1dgzf0">
-          <property role="1dubkF" value="if the statement affects the variable with an assigned expression ..." />
-        </node>
         <node concept="34odk1" id="1UtqsmgoWd0" role="1dgzf0">
           <node concept="2k1GkI" id="1UtqsmgoWd1" role="34ocZk">
             <node concept="2k1_uq" id="1UtqsmgoWd2" role="2nKVj6">
@@ -1758,9 +1514,6 @@
           <node concept="30KbLJ" id="1UtqsmgoWd5" role="34ocZn">
             <property role="TrG5h" value="initializer" />
           </node>
-        </node>
-        <node concept="1XdyHb" id="3GqEEvSdSry" role="1dgzf0">
-          <property role="1dubkF" value="... then return the InitState of the expression" />
         </node>
         <node concept="30Nfyg" id="1UtqsmgoWd6" role="1dgzf0">
           <node concept="2k1GkI" id="1UtqsmgoWd7" role="30Nf_D">
@@ -1782,26 +1535,8 @@
             <ref role="2ZQB93" node="1UtqsmglAPy" resolve="InitState" />
           </node>
           <node concept="2kHsid" id="3GqEEvS7ScY" role="iwB5b">
-            <ref role="2kHsi0" node="2XlXuxNCHlj" resolve="glb" />
+            <ref role="2kHsi0" node="2XlXuxNCHlj" resolve="lub" />
           </node>
-        </node>
-      </node>
-      <node concept="1k99o6" id="3GqEEvSaOqk" role="lGtFl">
-        <node concept="TZ5HA" id="3GqEEvSaOql" role="TZ5H$">
-          <node concept="1dT_AC" id="3GqEEvSaOqm" role="1dT_Ay">
-            <property role="1dT_AB" value="Returns the InitState of the given variable after the execution of the given statement." />
-          </node>
-        </node>
-        <node concept="2MMnZx" id="3GqEEvSaOqn" role="3nqlJM">
-          <property role="2MMnZA" value="the statement (CFG node)" />
-          <ref role="2MMnZ$" node="1UtqsmgoQVI" resolve="stmt" />
-        </node>
-        <node concept="2MMnZx" id="3GqEEvSaOqo" role="3nqlJM">
-          <property role="2MMnZA" value="the variable" />
-          <ref role="2MMnZ$" node="1UtqsmgoQVK" resolve="var" />
-        </node>
-        <node concept="x79VA" id="3GqEEvSaOqp" role="3nqlJM">
-          <property role="x79VB" value="the InitState" />
         </node>
       </node>
     </node>
@@ -1821,9 +1556,6 @@
         </node>
       </node>
       <node concept="3zV_Rz" id="1Utqsmgp97g" role="3zVECR">
-        <node concept="1XdyHb" id="3GqEEvSelaa" role="1dgzf0">
-          <property role="1dubkF" value="if the expression is a variable reference ..." />
-        </node>
         <node concept="34ocy7" id="1Utqsmgp97h" role="1dgzf0">
           <node concept="34oehE" id="1Utqsmgp97i" role="34ocs8">
             <node concept="2kdjtB" id="1Utqsmgp97j" role="2RGvlO">
@@ -1833,9 +1565,6 @@
               <ref role="XkjO9" node="1Utqsmgp6SH" resolve="exp" />
             </node>
           </node>
-        </node>
-        <node concept="1XdyHb" id="3GqEEvSerTy" role="1dgzf0">
-          <property role="1dubkF" value="... then get the referenced variable ..." />
         </node>
         <node concept="34odk1" id="1Utqsmgp97l" role="1dgzf0">
           <node concept="2kdhWc" id="1Utqsmgp97m" role="34ocZk">
@@ -1849,9 +1578,6 @@
           <node concept="30KbLJ" id="1Utqsmgp97p" role="34ocZn">
             <property role="TrG5h" value="var" />
           </node>
-        </node>
-        <node concept="1XdyHb" id="3GqEEvSeD2p" role="1dgzf0">
-          <property role="1dubkF" value="... and return its InitState" />
         </node>
         <node concept="30Nfyg" id="1Utqsmgp97q" role="1dgzf0">
           <node concept="2k1GkI" id="1Utqsmgp97r" role="30Nf_D">
@@ -1868,9 +1594,6 @@
         </node>
       </node>
       <node concept="3zV_Rz" id="1Utqsmgp97v" role="3zVECR">
-        <node concept="1XdyHb" id="3GqEEvSeS66" role="1dgzf0">
-          <property role="1dubkF" value="if the expression is not a variable reference ..." />
-        </node>
         <node concept="34ocy7" id="1Utqsmgp97w" role="1dgzf0">
           <node concept="2BbxxA" id="1Utqsmgp97x" role="34ocs8">
             <node concept="2kdjtB" id="1Utqsmgp97y" role="2RGvlO">
@@ -1880,9 +1603,6 @@
               <ref role="XkjO9" node="1Utqsmgp6SH" resolve="exp" />
             </node>
           </node>
-        </node>
-        <node concept="1XdyHb" id="3GqEEvSf0CO" role="1dgzf0">
-          <property role="1dubkF" value="... neither a null literal ..." />
         </node>
         <node concept="34ocy7" id="1Utqsmgp97$" role="1dgzf0">
           <node concept="2BbxxA" id="1Utqsmgp97_" role="34ocs8">
@@ -1894,9 +1614,6 @@
             </node>
           </node>
         </node>
-        <node concept="1XdyHb" id="3GqEEvSfc2I" role="1dgzf0">
-          <property role="1dubkF" value="... then we consider it initialized" />
-        </node>
         <node concept="30Nfyg" id="1Utqsmgp97C" role="1dgzf0">
           <node concept="2ZRyFJ" id="1Utqsmgpln6" role="30Nf_D">
             <ref role="2ZRyFH" node="1Utqsmgn_el" resolve="Init" />
@@ -1904,9 +1621,6 @@
         </node>
       </node>
       <node concept="3zV_Rz" id="1UtqsmgpmcP" role="3zVECR">
-        <node concept="1XdyHb" id="3GqEEvSflxL" role="1dgzf0">
-          <property role="1dubkF" value="if the expression is the null literal ..." />
-        </node>
         <node concept="34ocy7" id="1UtqsmgpnVG" role="1dgzf0">
           <node concept="34oehE" id="1UtqsmgpoOL" role="34ocs8">
             <node concept="2kdjtB" id="1UtqsmgpqEt" role="2RGvlO">
@@ -1916,9 +1630,6 @@
               <ref role="XkjO9" node="1Utqsmgp6SH" resolve="exp" />
             </node>
           </node>
-        </node>
-        <node concept="1XdyHb" id="3GqEEvSfuQg" role="1dgzf0">
-          <property role="1dubkF" value="... then we consider it uninitialized" />
         </node>
         <node concept="30Nfyg" id="1Utqsmgprvx" role="1dgzf0">
           <node concept="2ZRyFJ" id="3GqEEvS7Qxa" role="30Nf_D">
@@ -1931,24 +1642,6 @@
           <node concept="2ZQB9c" id="1Utqsmgp3fs" role="2eP6Tc">
             <ref role="2ZQB93" node="1UtqsmglAPy" resolve="InitState" />
           </node>
-        </node>
-      </node>
-      <node concept="1k99o6" id="3GqEEvSeflZ" role="lGtFl">
-        <node concept="TZ5HA" id="3GqEEvSefm0" role="TZ5H$">
-          <node concept="1dT_AC" id="3GqEEvSefm1" role="1dT_Ay">
-            <property role="1dT_AB" value="Returns the InitState of the given expression at the given statement. " />
-          </node>
-        </node>
-        <node concept="2MMnZx" id="3GqEEvSefm2" role="3nqlJM">
-          <property role="2MMnZA" value="the statement (CFG node)" />
-          <ref role="2MMnZ$" node="1Utqsmgp6SF" resolve="stmt" />
-        </node>
-        <node concept="2MMnZx" id="3GqEEvSefm3" role="3nqlJM">
-          <property role="2MMnZA" value="the expression" />
-          <ref role="2MMnZ$" node="1Utqsmgp6SH" resolve="exp" />
-        </node>
-        <node concept="x79VA" id="3GqEEvSefm4" role="3nqlJM">
-          <property role="x79VB" value="the InitState" />
         </node>
       </node>
     </node>
@@ -3128,6 +2821,234 @@
   </node>
   <node concept="3TKv5i" id="1UtqsmghQhQ">
     <property role="TrG5h" value="ControlFlowAnalysis" />
+    <node concept="3zyOaA" id="1UtqsmghQj6" role="1dubk0">
+      <property role="TrG5h" value="getFlowTarget" />
+      <node concept="1VLyuc" id="1UtqsmghQjX" role="1dv5OJ">
+        <property role="TrG5h" value="src" />
+        <node concept="2Qv0mg" id="1UtqsmgiRlL" role="1dukDx">
+          <ref role="2Qv0mk" node="1Utqsmgi17o" resolve="Stmt" />
+        </node>
+      </node>
+      <node concept="3zV_Rz" id="1UtqsmghQj7" role="3zVECR">
+        <node concept="34odk1" id="1UtqsmghQoA" role="1dgzf0">
+          <node concept="2kdhWc" id="1UtqsmghQpP" role="34ocZk">
+            <node concept="3lV9lg" id="1UtqsmghQqs" role="3zVzRQ">
+              <ref role="3zVwH8" to="hqsm:7A0HCuGt5s2" resolve="next" />
+            </node>
+            <node concept="30NkWi" id="1UtqsmghQpJ" role="2kdhYM">
+              <ref role="XkjO9" node="1UtqsmghQjX" resolve="src" />
+            </node>
+          </node>
+          <node concept="30KbLJ" id="1UtqsmghQmZ" role="34ocZn">
+            <property role="TrG5h" value="trg" />
+          </node>
+        </node>
+        <node concept="34ocy7" id="3GqEEvSa5dL" role="1dgzf0">
+          <node concept="2BbxxA" id="3GqEEvSahE3" role="34ocs8">
+            <node concept="2kdjtB" id="3GqEEvSaiC9" role="2RGvlO">
+              <ref role="2UGuZ7" to="tpee:fzclF8n" resolve="IfStatement" />
+            </node>
+            <node concept="30NkWi" id="3GqEEvSahcr" role="2RGvhl">
+              <ref role="XkjO9" node="1UtqsmghQjX" resolve="src" />
+            </node>
+          </node>
+        </node>
+        <node concept="34ocy7" id="3GqEEvSaj5G" role="1dgzf0">
+          <node concept="2BbxxA" id="3GqEEvSaj5H" role="34ocs8">
+            <node concept="2kdjtB" id="3GqEEvSak4z" role="2RGvlO">
+              <ref role="2UGuZ7" to="tpee:fE$JKWJ" resolve="WhileStatement" />
+            </node>
+            <node concept="30NkWi" id="3GqEEvSaj5J" role="2RGvhl">
+              <ref role="XkjO9" node="1UtqsmghQjX" resolve="src" />
+            </node>
+          </node>
+        </node>
+        <node concept="30Nfyg" id="1UtqsmghQr7" role="1dgzf0">
+          <node concept="30NkWi" id="1UtqsmghQsb" role="30Nf_D">
+            <ref role="XkjO9" node="1UtqsmghQmZ" resolve="trg" />
+          </node>
+        </node>
+      </node>
+      <node concept="3zV_Rz" id="1UtqsmghWYe" role="3zVECR">
+        <node concept="30Nfyg" id="1UtqsmgiPeF" role="1dgzf0">
+          <node concept="2k1GkI" id="1UtqsmgiPJM" role="30Nf_D">
+            <node concept="2k1_uq" id="1UtqsmgiPJK" role="2nKVj6">
+              <ref role="2nKBpL" node="1UtqsmghXBn" resolve="cFlow_If" />
+              <node concept="30NkWi" id="1UtqsmgiPPt" role="2nKBpO">
+                <ref role="XkjO9" node="1UtqsmghQjX" resolve="src" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3zV_Rz" id="1UtqsmgiSjc" role="3zVECR">
+        <node concept="30Nfyg" id="1UtqsmgiSjd" role="1dgzf0">
+          <node concept="2k1GkI" id="1UtqsmgiSje" role="30Nf_D">
+            <node concept="2k1_uq" id="1UtqsmgiSjf" role="2nKVj6">
+              <ref role="2nKBpL" node="1UtqsmgiJ$o" resolve="cFlow_While" />
+              <node concept="30NkWi" id="1UtqsmgiSjg" role="2nKBpO">
+                <ref role="XkjO9" node="1UtqsmghQjX" resolve="src" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3TL$xT" id="1UtqsmghQlh" role="3TLBbI">
+        <node concept="2Qv0mg" id="1UtqsmgiRP8" role="1dukDx">
+          <ref role="2Qv0mk" node="1Utqsmgi17o" resolve="Stmt" />
+        </node>
+      </node>
+    </node>
+    <node concept="1XdyHe" id="1UtqsmgiXwv" role="1dubk0" />
+    <node concept="3zyOaA" id="1UtqsmghXBn" role="1dubk0">
+      <property role="TrG5h" value="cFlow_If" />
+      <node concept="1VLyuc" id="1UtqsmghXR3" role="1dv5OJ">
+        <property role="TrG5h" value="src" />
+        <node concept="2Qv0mg" id="1Utqsmgi1Ew" role="1dukDx">
+          <ref role="2Qv0mk" node="1Utqsmgi17o" resolve="Stmt" />
+        </node>
+      </node>
+      <node concept="3zV_Rz" id="1UtqsmghXBo" role="3zVECR">
+        <node concept="34ocy7" id="1UtqsmghYs$" role="1dgzf0">
+          <node concept="34oehE" id="1UtqsmghYwC" role="34ocs8">
+            <node concept="2kdjtB" id="1UtqsmghYEo" role="2RGvlO">
+              <ref role="2UGuZ7" to="tpee:fzclF8n" resolve="IfStatement" />
+            </node>
+            <node concept="30NkWi" id="1UtqsmghYwz" role="2RGvhl">
+              <ref role="XkjO9" node="1UtqsmghXR3" resolve="src" />
+            </node>
+          </node>
+        </node>
+        <node concept="30Nfyg" id="1Utqsmgikkx" role="1dgzf0">
+          <node concept="2k1GkI" id="1UtqsmgikL9" role="30Nf_D">
+            <node concept="2k1_uq" id="1UtqsmgikL7" role="2nKVj6">
+              <ref role="2nKBpL" node="1Utqsmgi08G" resolve="getFirstStatement" />
+              <node concept="30NkWi" id="1UtqsmgikO1" role="2nKBpO">
+                <ref role="XkjO9" node="1UtqsmghXR3" resolve="src" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3zV_Rz" id="1UtqsmgildZ" role="3zVECR">
+        <node concept="34odk1" id="1Utqsmgi_wg" role="1dgzf0">
+          <node concept="2k1GkI" id="1UtqsmgiA6E" role="34ocZk">
+            <node concept="2k1_uq" id="1UtqsmgiA6C" role="2nKVj6">
+              <ref role="2nKBpL" node="1Utqsmgivab" resolve="getAncestorIfStatement" />
+              <node concept="30NkWi" id="1UtqsmgiArl" role="2nKBpO">
+                <ref role="XkjO9" node="1UtqsmghXR3" resolve="src" />
+              </node>
+            </node>
+          </node>
+          <node concept="30KbLJ" id="1Utqsmgi$Ik" role="34ocZn">
+            <property role="TrG5h" value="container" />
+          </node>
+        </node>
+        <node concept="34ocy7" id="1UtqsmgiBm0" role="1dgzf0">
+          <node concept="34ofUU" id="1UtqsmgiDzc" role="34ocs8">
+            <node concept="2k1GkI" id="1UtqsmgiECh" role="34ocZk">
+              <node concept="2k1_uq" id="1UtqsmgiECf" role="2nKVj6">
+                <ref role="2nKBpL" node="1Utqsmgig_v" resolve="getLastStatement" />
+                <node concept="30NkWi" id="1UtqsmgiEDZ" role="2nKBpO">
+                  <ref role="XkjO9" node="1Utqsmgi$Ik" resolve="container" />
+                </node>
+              </node>
+            </node>
+            <node concept="30NkWi" id="1UtqsmgiDz5" role="34ocZn">
+              <ref role="XkjO9" node="1UtqsmghXR3" resolve="src" />
+            </node>
+          </node>
+        </node>
+        <node concept="30Nfyg" id="1UtqsmgiFvv" role="1dgzf0">
+          <node concept="2kdhWc" id="1UtqsmgiHGu" role="30Nf_D">
+            <node concept="3lV9lg" id="1UtqsmgiI6d" role="3zVzRQ">
+              <ref role="3zVwH8" to="hqsm:7A0HCuGt5s2" resolve="next" />
+            </node>
+            <node concept="30NkWi" id="1UtqsmgiHGo" role="2kdhYM">
+              <ref role="XkjO9" node="1Utqsmgi$Ik" resolve="container" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3TL$xT" id="1UtqsmghYcr" role="3TLBbI">
+        <node concept="2Qv0mg" id="1Utqsmgi1Ge" role="1dukDx">
+          <ref role="2Qv0mk" node="1Utqsmgi17o" resolve="Stmt" />
+        </node>
+      </node>
+    </node>
+    <node concept="1XdyHe" id="1UtqsmgiK9d" role="1dubk0" />
+    <node concept="3zyOaA" id="1UtqsmgiJ$o" role="1dubk0">
+      <property role="TrG5h" value="cFlow_While" />
+      <node concept="1VLyuc" id="1UtqsmgiJ$p" role="1dv5OJ">
+        <property role="TrG5h" value="src" />
+        <node concept="2Qv0mg" id="1UtqsmgiJ$q" role="1dukDx">
+          <ref role="2Qv0mk" node="1Utqsmgi17o" resolve="Stmt" />
+        </node>
+      </node>
+      <node concept="3zV_Rz" id="1UtqsmgiJ$r" role="3zVECR">
+        <node concept="34ocy7" id="1UtqsmgiJ$s" role="1dgzf0">
+          <node concept="34oehE" id="1UtqsmgiJ$t" role="34ocs8">
+            <node concept="2kdjtB" id="1UtqsmgiMbi" role="2RGvlO">
+              <ref role="2UGuZ7" to="tpee:fE$JKWJ" resolve="WhileStatement" />
+            </node>
+            <node concept="30NkWi" id="1UtqsmgiJ$v" role="2RGvhl">
+              <ref role="XkjO9" node="1UtqsmgiJ$p" resolve="src" />
+            </node>
+          </node>
+        </node>
+        <node concept="30Nfyg" id="1UtqsmgiJ$w" role="1dgzf0">
+          <node concept="2k1GkI" id="1UtqsmgiJ$x" role="30Nf_D">
+            <node concept="2k1_uq" id="1UtqsmgiJ$y" role="2nKVj6">
+              <ref role="2nKBpL" node="1Utqsmgi08G" resolve="getFirstStatement" />
+              <node concept="30NkWi" id="1UtqsmgiJ$z" role="2nKBpO">
+                <ref role="XkjO9" node="1UtqsmgiJ$p" resolve="src" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3zV_Rz" id="1UtqsmgiJ$$" role="3zVECR">
+        <node concept="34odk1" id="1UtqsmgiJ$_" role="1dgzf0">
+          <node concept="2k1GkI" id="1UtqsmgiJ$A" role="34ocZk">
+            <node concept="2k1_uq" id="1UtqsmgiJ$B" role="2nKVj6">
+              <ref role="2nKBpL" node="1Utqsmgiy51" resolve="getAncestorWhileStatement" />
+              <node concept="30NkWi" id="1UtqsmgiJ$C" role="2nKBpO">
+                <ref role="XkjO9" node="1UtqsmgiJ$p" resolve="src" />
+              </node>
+            </node>
+          </node>
+          <node concept="30KbLJ" id="1UtqsmgiJ$D" role="34ocZn">
+            <property role="TrG5h" value="container" />
+          </node>
+        </node>
+        <node concept="34ocy7" id="1UtqsmgiJ$E" role="1dgzf0">
+          <node concept="34ofUU" id="1UtqsmgiJ$F" role="34ocs8">
+            <node concept="2k1GkI" id="1UtqsmgiJ$G" role="34ocZk">
+              <node concept="2k1_uq" id="1UtqsmgiJ$H" role="2nKVj6">
+                <ref role="2nKBpL" node="1Utqsmgig_v" resolve="getLastStatement" />
+                <node concept="30NkWi" id="1UtqsmgiJ$I" role="2nKBpO">
+                  <ref role="XkjO9" node="1UtqsmgiJ$D" resolve="container" />
+                </node>
+              </node>
+            </node>
+            <node concept="30NkWi" id="1UtqsmgiJ$J" role="34ocZn">
+              <ref role="XkjO9" node="1UtqsmgiJ$p" resolve="src" />
+            </node>
+          </node>
+        </node>
+        <node concept="30Nfyg" id="1UtqsmgiJ$K" role="1dgzf0">
+          <node concept="30NkWi" id="1UtqsmgiJ$N" role="30Nf_D">
+            <ref role="XkjO9" node="1UtqsmgiJ$D" resolve="container" />
+          </node>
+        </node>
+      </node>
+      <node concept="3TL$xT" id="1UtqsmgiJ$O" role="3TLBbI">
+        <node concept="2Qv0mg" id="1UtqsmgiJ$P" role="1dukDx">
+          <ref role="2Qv0mk" node="1Utqsmgi17o" resolve="Stmt" />
+        </node>
+      </node>
+    </node>
+    <node concept="1XdyHe" id="1UtqsmghQiI" role="1dubk0" />
     <node concept="3zyOaA" id="1UtqsmgiY2u" role="1dubk0">
       <property role="TrG5h" value="getFlowSource" />
       <node concept="1VLyuc" id="1UtqsmgiZ5h" role="1dv5OJ">
@@ -3173,334 +3094,7 @@
           <ref role="2Qv0mk" node="1Utqsmgi17o" resolve="Stmt" />
         </node>
       </node>
-      <node concept="1k99o6" id="3dy7jiI$fyx" role="lGtFl">
-        <node concept="TZ5HA" id="3dy7jiI$fyy" role="TZ5H$">
-          <node concept="1dT_AC" id="3dy7jiI$fyz" role="1dT_Ay">
-            <property role="1dT_AB" value="Returns the CFG predecessor statement(s) for the given target statement. " />
-          </node>
-        </node>
-        <node concept="2MMnZx" id="3dy7jiI$fy$" role="3nqlJM">
-          <property role="2MMnZA" value="the CFG target" />
-          <ref role="2MMnZ$" node="1UtqsmgiZ5h" resolve="trg" />
-        </node>
-        <node concept="x79VA" id="3dy7jiI$fy_" role="3nqlJM">
-          <property role="x79VB" value="the CFG predecessor(s)" />
-        </node>
-      </node>
     </node>
-    <node concept="1XdyHe" id="3dy7jiI$rZc" role="1dubk0" />
-    <node concept="3zyOaA" id="1UtqsmghQj6" role="1dubk0">
-      <property role="TrG5h" value="getFlowTarget" />
-      <node concept="1VLyuc" id="1UtqsmghQjX" role="1dv5OJ">
-        <property role="TrG5h" value="src" />
-        <node concept="2Qv0mg" id="1UtqsmgiRlL" role="1dukDx">
-          <ref role="2Qv0mk" node="1Utqsmgi17o" resolve="Stmt" />
-        </node>
-      </node>
-      <node concept="3zV_Rz" id="1UtqsmghQj7" role="3zVECR">
-        <node concept="1XdyHb" id="3dy7jiI_97v" role="1dgzf0">
-          <property role="1dubkF" value="(1) simple next relationship between predecessor-successor statements ..." />
-        </node>
-        <node concept="34odk1" id="1UtqsmghQoA" role="1dgzf0">
-          <node concept="2kdhWc" id="1UtqsmghQpP" role="34ocZk">
-            <node concept="3lV9lg" id="1UtqsmghQqs" role="3zVzRQ">
-              <ref role="3zVwH8" to="hqsm:7A0HCuGt5s2" resolve="next" />
-            </node>
-            <node concept="30NkWi" id="1UtqsmghQpJ" role="2kdhYM">
-              <ref role="XkjO9" node="1UtqsmghQjX" resolve="src" />
-            </node>
-          </node>
-          <node concept="30KbLJ" id="1UtqsmghQmZ" role="34ocZn">
-            <property role="TrG5h" value="trg" />
-          </node>
-        </node>
-        <node concept="1XdyHb" id="3GqEEvSa9$O" role="1dgzf0">
-          <property role="1dubkF" value="... which only applies if src is not an if or while statement because those have special handling" />
-        </node>
-        <node concept="34ocy7" id="3GqEEvSa5dL" role="1dgzf0">
-          <node concept="2BbxxA" id="3GqEEvSahE3" role="34ocs8">
-            <node concept="2kdjtB" id="3GqEEvSaiC9" role="2RGvlO">
-              <ref role="2UGuZ7" to="tpee:fzclF8n" resolve="IfStatement" />
-            </node>
-            <node concept="30NkWi" id="3GqEEvSahcr" role="2RGvhl">
-              <ref role="XkjO9" node="1UtqsmghQjX" resolve="src" />
-            </node>
-          </node>
-        </node>
-        <node concept="34ocy7" id="3GqEEvSaj5G" role="1dgzf0">
-          <node concept="2BbxxA" id="3GqEEvSaj5H" role="34ocs8">
-            <node concept="2kdjtB" id="3GqEEvSak4z" role="2RGvlO">
-              <ref role="2UGuZ7" to="tpee:fE$JKWJ" resolve="WhileStatement" />
-            </node>
-            <node concept="30NkWi" id="3GqEEvSaj5J" role="2RGvhl">
-              <ref role="XkjO9" node="1UtqsmghQjX" resolve="src" />
-            </node>
-          </node>
-        </node>
-        <node concept="30Nfyg" id="1UtqsmghQr7" role="1dgzf0">
-          <node concept="30NkWi" id="1UtqsmghQsb" role="30Nf_D">
-            <ref role="XkjO9" node="1UtqsmghQmZ" resolve="trg" />
-          </node>
-        </node>
-      </node>
-      <node concept="3zV_Rz" id="1UtqsmghWYe" role="3zVECR">
-        <node concept="1XdyHb" id="3dy7jiI_goM" role="1dgzf0">
-          <property role="1dubkF" value="(2) if statement related control flow" />
-        </node>
-        <node concept="30Nfyg" id="1UtqsmgiPeF" role="1dgzf0">
-          <node concept="2k1GkI" id="1UtqsmgiPJM" role="30Nf_D">
-            <node concept="2k1_uq" id="1UtqsmgiPJK" role="2nKVj6">
-              <ref role="2nKBpL" node="1UtqsmghXBn" resolve="cFlow_If" />
-              <node concept="30NkWi" id="1UtqsmgiPPt" role="2nKBpO">
-                <ref role="XkjO9" node="1UtqsmghQjX" resolve="src" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3zV_Rz" id="1UtqsmgiSjc" role="3zVECR">
-        <node concept="1XdyHb" id="3dy7jiI_mdo" role="1dgzf0">
-          <property role="1dubkF" value="(3) while statement related control flow" />
-        </node>
-        <node concept="30Nfyg" id="1UtqsmgiSjd" role="1dgzf0">
-          <node concept="2k1GkI" id="1UtqsmgiSje" role="30Nf_D">
-            <node concept="2k1_uq" id="1UtqsmgiSjf" role="2nKVj6">
-              <ref role="2nKBpL" node="1UtqsmgiJ$o" resolve="cFlow_While" />
-              <node concept="30NkWi" id="1UtqsmgiSjg" role="2nKBpO">
-                <ref role="XkjO9" node="1UtqsmghQjX" resolve="src" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3TL$xT" id="1UtqsmghQlh" role="3TLBbI">
-        <node concept="2Qv0mg" id="1UtqsmgiRP8" role="1dukDx">
-          <ref role="2Qv0mk" node="1Utqsmgi17o" resolve="Stmt" />
-        </node>
-      </node>
-      <node concept="1k99o6" id="3dy7jiI_6ym" role="lGtFl">
-        <node concept="TZ5HA" id="3dy7jiI_6yn" role="TZ5H$">
-          <node concept="1dT_AC" id="3dy7jiI_6yo" role="1dT_Ay">
-            <property role="1dT_AB" value="Returns the CFG successor statement(s) for the given source statement. " />
-          </node>
-        </node>
-        <node concept="2MMnZx" id="3dy7jiI_6yp" role="3nqlJM">
-          <property role="2MMnZA" value="the CFG source" />
-          <ref role="2MMnZ$" node="1UtqsmghQjX" resolve="src" />
-        </node>
-        <node concept="x79VA" id="3dy7jiI_6yq" role="3nqlJM">
-          <property role="x79VB" value="the CFG successor(s)" />
-        </node>
-      </node>
-    </node>
-    <node concept="1XdyHe" id="1UtqsmgiXwv" role="1dubk0" />
-    <node concept="3zyOaA" id="1UtqsmghXBn" role="1dubk0">
-      <property role="TrG5h" value="cFlow_If" />
-      <node concept="1VLyuc" id="1UtqsmghXR3" role="1dv5OJ">
-        <property role="TrG5h" value="src" />
-        <node concept="2Qv0mg" id="1Utqsmgi1Ew" role="1dukDx">
-          <ref role="2Qv0mk" node="1Utqsmgi17o" resolve="Stmt" />
-        </node>
-      </node>
-      <node concept="3zV_Rz" id="1UtqsmghXBo" role="3zVECR">
-        <node concept="1XdyHb" id="3dy7jiI$ovd" role="1dgzf0">
-          <property role="1dubkF" value="if src is an if statement ..." />
-        </node>
-        <node concept="34ocy7" id="1UtqsmghYs$" role="1dgzf0">
-          <node concept="34oehE" id="1UtqsmghYwC" role="34ocs8">
-            <node concept="2kdjtB" id="1UtqsmghYEo" role="2RGvlO">
-              <ref role="2UGuZ7" to="tpee:fzclF8n" resolve="IfStatement" />
-            </node>
-            <node concept="30NkWi" id="1UtqsmghYwz" role="2RGvhl">
-              <ref role="XkjO9" node="1UtqsmghXR3" resolve="src" />
-            </node>
-          </node>
-        </node>
-        <node concept="1XdyHb" id="3dy7jiI$y3y" role="1dgzf0">
-          <property role="1dubkF" value="... then the control can flow to its first statement in its individual clauses" />
-        </node>
-        <node concept="30Nfyg" id="1Utqsmgikkx" role="1dgzf0">
-          <node concept="2k1GkI" id="1UtqsmgikL9" role="30Nf_D">
-            <node concept="2k1_uq" id="1UtqsmgikL7" role="2nKVj6">
-              <ref role="2nKBpL" node="1Utqsmgi08G" resolve="getFirstStatement" />
-              <node concept="30NkWi" id="1UtqsmgikO1" role="2nKBpO">
-                <ref role="XkjO9" node="1UtqsmghXR3" resolve="src" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3zV_Rz" id="1UtqsmgildZ" role="3zVECR">
-        <node concept="1XdyHb" id="3dy7jiI$H9S" role="1dgzf0">
-          <property role="1dubkF" value="otherwise, if src is contained under an if statement ..." />
-        </node>
-        <node concept="34odk1" id="1Utqsmgi_wg" role="1dgzf0">
-          <node concept="2k1GkI" id="1UtqsmgiA6E" role="34ocZk">
-            <node concept="2k1_uq" id="1UtqsmgiA6C" role="2nKVj6">
-              <ref role="2nKBpL" node="1Utqsmgivab" resolve="getAncestorIfStatement" />
-              <node concept="30NkWi" id="1UtqsmgiArl" role="2nKBpO">
-                <ref role="XkjO9" node="1UtqsmghXR3" resolve="src" />
-              </node>
-            </node>
-          </node>
-          <node concept="30KbLJ" id="1Utqsmgi$Ik" role="34ocZn">
-            <property role="TrG5h" value="container" />
-          </node>
-        </node>
-        <node concept="1XdyHb" id="3dy7jiI$Sl0" role="1dgzf0">
-          <property role="1dubkF" value="... and it is the last statement of the container ..." />
-        </node>
-        <node concept="34ocy7" id="1UtqsmgiBm0" role="1dgzf0">
-          <node concept="34ofUU" id="1UtqsmgiDzc" role="34ocs8">
-            <node concept="2k1GkI" id="1UtqsmgiECh" role="34ocZk">
-              <node concept="2k1_uq" id="1UtqsmgiECf" role="2nKVj6">
-                <ref role="2nKBpL" node="1Utqsmgig_v" resolve="getLastStatement" />
-                <node concept="30NkWi" id="1UtqsmgiEDZ" role="2nKBpO">
-                  <ref role="XkjO9" node="1Utqsmgi$Ik" resolve="container" />
-                </node>
-              </node>
-            </node>
-            <node concept="30NkWi" id="1UtqsmgiDz5" role="34ocZn">
-              <ref role="XkjO9" node="1UtqsmghXR3" resolve="src" />
-            </node>
-          </node>
-        </node>
-        <node concept="1XdyHb" id="3dy7jiI$VOk" role="1dgzf0">
-          <property role="1dubkF" value="... then the control can flow to the statement after the if statement" />
-        </node>
-        <node concept="30Nfyg" id="1UtqsmgiFvv" role="1dgzf0">
-          <node concept="2kdhWc" id="1UtqsmgiHGu" role="30Nf_D">
-            <node concept="3lV9lg" id="1UtqsmgiI6d" role="3zVzRQ">
-              <ref role="3zVwH8" to="hqsm:7A0HCuGt5s2" resolve="next" />
-            </node>
-            <node concept="30NkWi" id="1UtqsmgiHGo" role="2kdhYM">
-              <ref role="XkjO9" node="1Utqsmgi$Ik" resolve="container" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3TL$xT" id="1UtqsmghYcr" role="3TLBbI">
-        <node concept="2Qv0mg" id="1Utqsmgi1Ge" role="1dukDx">
-          <ref role="2Qv0mk" node="1Utqsmgi17o" resolve="Stmt" />
-        </node>
-      </node>
-      <node concept="1k99o6" id="3dy7jiI$hJP" role="lGtFl">
-        <node concept="TZ5HA" id="3dy7jiI$hJQ" role="TZ5H$">
-          <node concept="1dT_AC" id="3dy7jiI$hJR" role="1dT_Ay">
-            <property role="1dT_AB" value="Returns the CFG successors in the context of an if statement. " />
-          </node>
-        </node>
-        <node concept="2MMnZx" id="3dy7jiI$hJS" role="3nqlJM">
-          <property role="2MMnZA" value="the CFG source" />
-          <ref role="2MMnZ$" node="1UtqsmghXR3" resolve="src" />
-        </node>
-        <node concept="x79VA" id="3dy7jiI$hJT" role="3nqlJM">
-          <property role="x79VB" value="the CFG successor(s)" />
-        </node>
-      </node>
-    </node>
-    <node concept="1XdyHe" id="1UtqsmgiK9d" role="1dubk0" />
-    <node concept="3zyOaA" id="1UtqsmgiJ$o" role="1dubk0">
-      <property role="TrG5h" value="cFlow_While" />
-      <node concept="1VLyuc" id="1UtqsmgiJ$p" role="1dv5OJ">
-        <property role="TrG5h" value="src" />
-        <node concept="2Qv0mg" id="1UtqsmgiJ$q" role="1dukDx">
-          <ref role="2Qv0mk" node="1Utqsmgi17o" resolve="Stmt" />
-        </node>
-      </node>
-      <node concept="3zV_Rz" id="1UtqsmgiJ$r" role="3zVECR">
-        <node concept="1XdyHb" id="3dy7jiI_sfW" role="1dgzf0">
-          <property role="1dubkF" value="if src is a while statement" />
-        </node>
-        <node concept="34ocy7" id="1UtqsmgiJ$s" role="1dgzf0">
-          <node concept="34oehE" id="1UtqsmgiJ$t" role="34ocs8">
-            <node concept="2kdjtB" id="1UtqsmgiMbi" role="2RGvlO">
-              <ref role="2UGuZ7" to="tpee:fE$JKWJ" resolve="WhileStatement" />
-            </node>
-            <node concept="30NkWi" id="1UtqsmgiJ$v" role="2RGvhl">
-              <ref role="XkjO9" node="1UtqsmgiJ$p" resolve="src" />
-            </node>
-          </node>
-        </node>
-        <node concept="1XdyHb" id="3dy7jiI_x6x" role="1dgzf0">
-          <property role="1dubkF" value="then the control can flow to its first statement in its body" />
-        </node>
-        <node concept="30Nfyg" id="1UtqsmgiJ$w" role="1dgzf0">
-          <node concept="2k1GkI" id="1UtqsmgiJ$x" role="30Nf_D">
-            <node concept="2k1_uq" id="1UtqsmgiJ$y" role="2nKVj6">
-              <ref role="2nKBpL" node="1Utqsmgi08G" resolve="getFirstStatement" />
-              <node concept="30NkWi" id="1UtqsmgiJ$z" role="2nKBpO">
-                <ref role="XkjO9" node="1UtqsmgiJ$p" resolve="src" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3zV_Rz" id="1UtqsmgiJ$$" role="3zVECR">
-        <node concept="1XdyHb" id="3dy7jiI_Cn5" role="1dgzf0">
-          <property role="1dubkF" value="otherwise, if src is contained under a while statement ..." />
-        </node>
-        <node concept="34odk1" id="1UtqsmgiJ$_" role="1dgzf0">
-          <node concept="2k1GkI" id="1UtqsmgiJ$A" role="34ocZk">
-            <node concept="2k1_uq" id="1UtqsmgiJ$B" role="2nKVj6">
-              <ref role="2nKBpL" node="1Utqsmgiy51" resolve="getAncestorWhileStatement" />
-              <node concept="30NkWi" id="1UtqsmgiJ$C" role="2nKBpO">
-                <ref role="XkjO9" node="1UtqsmgiJ$p" resolve="src" />
-              </node>
-            </node>
-          </node>
-          <node concept="30KbLJ" id="1UtqsmgiJ$D" role="34ocZn">
-            <property role="TrG5h" value="container" />
-          </node>
-        </node>
-        <node concept="1XdyHb" id="3dy7jiI_Jc5" role="1dgzf0">
-          <property role="1dubkF" value="... and it is the last statement of the container ..." />
-        </node>
-        <node concept="34ocy7" id="1UtqsmgiJ$E" role="1dgzf0">
-          <node concept="34ofUU" id="1UtqsmgiJ$F" role="34ocs8">
-            <node concept="2k1GkI" id="1UtqsmgiJ$G" role="34ocZk">
-              <node concept="2k1_uq" id="1UtqsmgiJ$H" role="2nKVj6">
-                <ref role="2nKBpL" node="1Utqsmgig_v" resolve="getLastStatement" />
-                <node concept="30NkWi" id="1UtqsmgiJ$I" role="2nKBpO">
-                  <ref role="XkjO9" node="1UtqsmgiJ$D" resolve="container" />
-                </node>
-              </node>
-            </node>
-            <node concept="30NkWi" id="1UtqsmgiJ$J" role="34ocZn">
-              <ref role="XkjO9" node="1UtqsmgiJ$p" resolve="src" />
-            </node>
-          </node>
-        </node>
-        <node concept="1XdyHb" id="3dy7jiI_O$W" role="1dgzf0">
-          <property role="1dubkF" value="... then the control can flow to the containing while statement" />
-        </node>
-        <node concept="30Nfyg" id="1UtqsmgiJ$K" role="1dgzf0">
-          <node concept="30NkWi" id="1UtqsmgiJ$N" role="30Nf_D">
-            <ref role="XkjO9" node="1UtqsmgiJ$D" resolve="container" />
-          </node>
-        </node>
-      </node>
-      <node concept="3TL$xT" id="1UtqsmgiJ$O" role="3TLBbI">
-        <node concept="2Qv0mg" id="1UtqsmgiJ$P" role="1dukDx">
-          <ref role="2Qv0mk" node="1Utqsmgi17o" resolve="Stmt" />
-        </node>
-      </node>
-      <node concept="1k99o6" id="3dy7jiI_qcZ" role="lGtFl">
-        <node concept="TZ5HA" id="3dy7jiI_qd0" role="TZ5H$">
-          <node concept="1dT_AC" id="3dy7jiI_qd1" role="1dT_Ay">
-            <property role="1dT_AB" value="Returns the CFG successor(s) in the context of a while statement. " />
-          </node>
-        </node>
-        <node concept="2MMnZx" id="3dy7jiI_qd2" role="3nqlJM">
-          <property role="2MMnZA" value="the CFG source" />
-          <ref role="2MMnZ$" node="1UtqsmgiJ$p" resolve="src" />
-        </node>
-        <node concept="x79VA" id="3dy7jiI_qd3" role="3nqlJM">
-          <property role="x79VB" value="the CFG successor(s)" />
-        </node>
-      </node>
-    </node>
-    <node concept="1XdyHe" id="1UtqsmghQiI" role="1dubk0" />
     <node concept="wJ9QX" id="1UtqsmgiqoH" role="xaH5_">
       <ref role="ws7DW" node="1Utqsmgio1m" resolve="CommonAnalysisFunctions" />
     </node>

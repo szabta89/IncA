@@ -4350,7 +4350,7 @@
       <node concept="3clFbS" id="4BWlfm3poZn" role="3clF47">
         <node concept="3cpWs6" id="4BWlfm3poZo" role="3cqZAp">
           <node concept="Xl_RD" id="4BWlfm3Hus9" role="3cqZAk">
-            <property role="Xl_RC" value="Models" />
+            <property role="Xl_RC" value="Subject Programs" />
           </node>
         </node>
       </node>
@@ -6462,7 +6462,7 @@
                 <ref role="37wK5l" node="7aUOHOT4Y0D" resolve="QueryExplorerPatternRegistry.CompositePatternSegment" />
                 <node concept="10Nm6u" id="7aUOHOT5QhE" role="37wK5m" />
                 <node concept="Xl_RD" id="7aUOHOT5QkD" role="37wK5m">
-                  <property role="Xl_RC" value="Pattern Functions" />
+                  <property role="Xl_RC" value="Program Analyses" />
                 </node>
               </node>
             </node>
