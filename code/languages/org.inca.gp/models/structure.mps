@@ -399,5 +399,16 @@
       <ref role="PrY4T" to="hqsm:4D4o8maaVLo" resolve="IGeneratorPathElement" />
     </node>
   </node>
+  <node concept="1TIwiD" id="5mId_SEK64_">
+    <property role="EcuMT" value="6173931917243605285" />
+    <property role="3GE5qa" value="constraints.element.virtual" />
+    <property role="TrG5h" value="IndexPathElement" />
+    <property role="34LRSv" value="index" />
+    <property role="R4oN_" value="index property" />
+    <ref role="1TJDcQ" node="2K9A72IyXjN" resolve="AbstractPathElement" />
+    <node concept="PrWs8" id="5mId_SEK64A" role="PzmwI">
+      <ref role="PrY4T" to="hqsm:7Hdi_qc0u2y" resolve="IVirtualPathElement" />
+    </node>
+  </node>
 </model>
 

@@ -130,6 +130,9 @@
         <child id="1185805056450" name="argument" index="nvjzm" />
         <child id="1205761991995" name="argumentRepresentator" index="2X0Ygz" />
       </concept>
+      <concept id="1224760201579" name="jetbrains.mps.lang.typesystem.structure.InfoStatement" flags="nn" index="Dpp1Q">
+        <child id="1224760230762" name="infoText" index="Dpw9R" />
+      </concept>
       <concept id="1175517767210" name="jetbrains.mps.lang.typesystem.structure.ReportErrorStatement" flags="nn" index="2MkqsV">
         <child id="1175517851849" name="errorString" index="2MkJ7o" />
       </concept>
@@ -1246,6 +1249,50 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="1YbPZF" id="5mId_SEK6VC">
+    <property role="TrG5h" value="typeof_IndexPathElement" />
+    <property role="3GE5qa" value="constraints.element.virtual" />
+    <node concept="3clFbS" id="5mId_SEK6VD" role="18ibNy">
+      <node concept="1Z5TYs" id="5mId_SEK7pg" role="3cqZAp">
+        <node concept="mw_s8" id="5mId_SEK7p$" role="1ZfhKB">
+          <node concept="2pJPEk" id="5mId_SEK7pw" role="mwGJk">
+            <node concept="2pJPED" id="5mId_SEK7pJ" role="2pJPEn">
+              <ref role="2pJxaS" to="tpee:f_0OyhT" resolve="IntegerType" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="5mId_SEK7pj" role="1ZfhK$">
+          <node concept="1Z2H0r" id="5mId_SEK7aR" role="mwGJk">
+            <node concept="1YBJjd" id="5mId_SEK7cB" role="1Z2MuG">
+              <ref role="1YBMHb" node="5mId_SEK6VF" resolve="element" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="5mId_SEK6VF" role="1YuTPh">
+      <property role="TrG5h" value="element" />
+      <ref role="1YaFvo" to="55iy:5mId_SEK64_" resolve="IndexPathElement" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="5mId_SEXmBt">
+    <property role="TrG5h" value="check_IndexPathElement" />
+    <property role="3GE5qa" value="constraints.element.virtual" />
+    <node concept="3clFbS" id="5mId_SEXmBu" role="18ibNy">
+      <node concept="Dpp1Q" id="5mId_SEXmBH" role="3cqZAp">
+        <node concept="Xl_RD" id="5mId_SEXmBZ" role="Dpw9R">
+          <property role="Xl_RC" value="Incremental maintenance is expensive on long lists!" />
+        </node>
+        <node concept="1YBJjd" id="5mId_SEXmDB" role="2OEOjV">
+          <ref role="1YBMHb" node="5mId_SEXmBw" resolve="element" />
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="5mId_SEXmBw" role="1YuTPh">
+      <property role="TrG5h" value="element" />
+      <ref role="1YaFvo" to="55iy:5mId_SEK64_" resolve="IndexPathElement" />
     </node>
   </node>
 </model>

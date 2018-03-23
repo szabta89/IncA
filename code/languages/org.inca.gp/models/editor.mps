@@ -122,6 +122,7 @@
       </concept>
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
       <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
         <child id="1068498886297" name="rValue" index="37vLTx" />
         <child id="1068498886295" name="lValue" index="37vLTJ" />
@@ -146,6 +147,7 @@
         <child id="1070534934092" name="expression" index="10QFUP" />
       </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
+        <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
@@ -789,6 +791,7 @@
             <node concept="3cpWs8" id="5xvu2kSJBSx" role="3cqZAp">
               <node concept="3cpWsn" id="5xvu2kSJBSy" role="3cpWs9">
                 <property role="TrG5h" value="constraint" />
+                <property role="3TUv4t" value="true" />
                 <node concept="3Tqbb2" id="5xvu2kSJBSt" role="1tU5fm">
                   <ref role="ehGHo" to="55iy:5Dmozv0zaht" resolve="GraphPatternConceptConstraint" />
                 </node>
@@ -806,19 +809,43 @@
                 </node>
               </node>
             </node>
-            <node concept="3cpWs6" id="5xvu2kSHP3d" role="3cqZAp">
-              <node concept="2OqwBi" id="5xvu2kSJDJT" role="3cqZAk">
-                <node concept="2OqwBi" id="5xvu2kSJCGt" role="2Oq$k0">
-                  <node concept="37vLTw" id="5xvu2kSJBSB" role="2Oq$k0">
+            <node concept="3cpWs8" id="5mId_SECffk" role="3cqZAp">
+              <node concept="3cpWsn" id="5mId_SECffl" role="3cpWs9">
+                <property role="TrG5h" value="type" />
+                <property role="3TUv4t" value="true" />
+                <node concept="3Tqbb2" id="5mId_SECffh" role="1tU5fm">
+                  <ref role="ehGHo" to="hqsm:6VTlRjrCuQt" resolve="ICompileTimeIncAType" />
+                </node>
+                <node concept="2OqwBi" id="5mId_SECffm" role="33vP2m">
+                  <node concept="37vLTw" id="5mId_SECffn" role="2Oq$k0">
                     <ref role="3cqZAo" node="5xvu2kSJBSy" resolve="constraint" />
                   </node>
-                  <node concept="3TrEf2" id="5xvu2kSJDf4" role="2OqNvi">
+                  <node concept="3TrEf2" id="5mId_SECffo" role="2OqNvi">
                     <ref role="3Tt5mk" to="hqsm:7a3nU35cEKQ" resolve="type" />
                   </node>
                 </node>
-                <node concept="1mIQ4w" id="5xvu2kSJEe$" role="2OqNvi">
-                  <node concept="chp4Y" id="5xvu2kSJEra" role="cj9EA">
-                    <ref role="cht4Q" to="hqsm:RjyNapTFLl" resolve="ConceptReferenceType" />
+              </node>
+            </node>
+            <node concept="3cpWs6" id="5xvu2kSHP3d" role="3cqZAp">
+              <node concept="22lmx$" id="5mId_SECf0Z" role="3cqZAk">
+                <node concept="2OqwBi" id="5mId_SECg3U" role="3uHU7w">
+                  <node concept="37vLTw" id="5mId_SECfPe" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5mId_SECffl" resolve="type" />
+                  </node>
+                  <node concept="1mIQ4w" id="5mId_SECgGy" role="2OqNvi">
+                    <node concept="chp4Y" id="5mId_SECgRE" role="cj9EA">
+                      <ref role="cht4Q" to="hqsm:7a3nU34ZPCK" resolve="JoinType" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="5xvu2kSJDJT" role="3uHU7B">
+                  <node concept="37vLTw" id="5mId_SECffp" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5mId_SECffl" resolve="type" />
+                  </node>
+                  <node concept="1mIQ4w" id="5xvu2kSJEe$" role="2OqNvi">
+                    <node concept="chp4Y" id="5xvu2kSJEra" role="cj9EA">
+                      <ref role="cht4Q" to="hqsm:RjyNapTFLl" resolve="ConceptReferenceType" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -839,6 +866,7 @@
             <node concept="3cpWs8" id="5xvu2kSHPlv" role="3cqZAp">
               <node concept="3cpWsn" id="5xvu2kSHPlw" role="3cpWs9">
                 <property role="TrG5h" value="_new" />
+                <property role="3TUv4t" value="true" />
                 <node concept="3Tqbb2" id="5xvu2kSHPlx" role="1tU5fm">
                   <ref role="ehGHo" to="55iy:RjyNapTDgY" resolve="PathExpressionConstraint" />
                 </node>
@@ -854,6 +882,7 @@
             <node concept="3cpWs8" id="5xvu2kSHQQ6" role="3cqZAp">
               <node concept="3cpWsn" id="5xvu2kSHQQ7" role="3cpWs9">
                 <property role="TrG5h" value="_old" />
+                <property role="3TUv4t" value="true" />
                 <node concept="3Tqbb2" id="5xvu2kSHQQ3" role="1tU5fm">
                   <ref role="ehGHo" to="55iy:5Dmozv0zaht" resolve="GraphPatternConceptConstraint" />
                 </node>
@@ -1743,6 +1772,20 @@
   <node concept="3p36aQ" id="4I7_XjxN0$b">
     <property role="3GE5qa" value="constraints.element.virtual" />
     <ref role="aqKnT" to="55iy:360F32dey26" resolve="FirstPathElement" />
+  </node>
+  <node concept="24kQdi" id="5mId_SEK6S$">
+    <property role="3GE5qa" value="constraints.element.virtual" />
+    <ref role="1XX52x" to="55iy:5mId_SEK64_" resolve="IndexPathElement" />
+    <node concept="1WcQYu" id="5mId_SEK6SA" role="2wV5jI">
+      <node concept="2ElW$n" id="5mId_SEK6SB" role="2El2Yn" />
+      <node concept="3EZMnI" id="5mId_SEK6SC" role="1LiK7o">
+        <node concept="PMmxH" id="5mId_SEK6SD" role="3EZMnx">
+          <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+          <node concept="Vb9p2" id="5mId_SEK6SE" role="3F10Kt" />
+        </node>
+        <node concept="l2Vlx" id="5mId_SEK6SQ" role="2iSdaV" />
+      </node>
+    </node>
   </node>
 </model>
 
