@@ -14,7 +14,7 @@ apply plugin: 'base'
 import de.itemis.mps.gradle.*
 
 // Specify the required MPS version
-ext.mpsVersion = '2017.3'
+ext.mpsVersion = '2018.1'
 
 // Specify the required mbeddr version or branch name
 ext.mbeddrVersion = '1.0+'

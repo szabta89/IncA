@@ -8,7 +8,6 @@
   </languages>
   <imports>
     <import index="zt8v" ref="r:ab008189-f07c-44e4-9434-629f972e973d(org.inca.core.util.plugin)" />
-    <import index="6xgk" ref="r:6e9ad488-5df2-49e4-8c01-8a7f3812adf7(jetbrains.mps.lang.scopes.runtime)" />
     <import index="hqsm" ref="r:aa4c3470-43ab-4dad-b73e-20da0ee43be1(org.inca.core.structure)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="tpfp" ref="r:00000000-0000-4000-0000-011c89590519(jetbrains.mps.baseLanguage.regexp.jetbrains.mps.regexp.accessory)" />
@@ -16,6 +15,7 @@
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
     <import index="gcg1" ref="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.inca.core.behavior)" />
     <import index="g3l6" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.extapi.model(MPS.Core/)" />
+    <import index="6xgk" ref="r:6e9ad488-5df2-49e4-8c01-8a7f3812adf7(jetbrains.mps.lang.scopes.runtime)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="m373" ref="r:4095af4f-a097-4799-aaa9-03df087ddfa6(jetbrains.mps.baseLanguage.javadoc.structure)" implicit="true" />
@@ -835,6 +835,7 @@
           <node concept="3cpWs8" id="2RSm1Cz27$_" role="3cqZAp">
             <node concept="3cpWsn" id="2RSm1Cz27$A" role="3cpWs9">
               <property role="TrG5h" value="parameters" />
+              <property role="3TUv4t" value="true" />
               <node concept="2ShNRf" id="2RSm1Cz27$B" role="33vP2m">
                 <node concept="Tc6Ow" id="2RSm1Cz27$C" role="2ShVmc">
                   <node concept="3Tqbb2" id="2RSm1Cz27$D" role="HW$YZ">
@@ -894,6 +895,7 @@
           <node concept="3cpWs8" id="2RSm1Cz27$Z" role="3cqZAp">
             <node concept="3cpWsn" id="2RSm1Cz27_0" role="3cpWs9">
               <property role="TrG5h" value="scope" />
+              <property role="3TUv4t" value="true" />
               <node concept="3uibUv" id="2RSm1Cz27_1" role="1tU5fm">
                 <ref role="3uigEE" to="6xgk:3dppoMAuxA2" resolve="NamedElementsScope" />
               </node>
@@ -975,6 +977,7 @@
           <node concept="3cpWs8" id="2RSm1Cz27hN" role="3cqZAp">
             <node concept="3cpWsn" id="2RSm1Cz27hO" role="3cpWs9">
               <property role="TrG5h" value="parameters" />
+              <property role="3TUv4t" value="true" />
               <node concept="2ShNRf" id="2RSm1Cz27hP" role="33vP2m">
                 <node concept="Tc6Ow" id="2RSm1Cz27hQ" role="2ShVmc">
                   <node concept="3Tqbb2" id="2RSm1Cz27hR" role="HW$YZ">
@@ -992,6 +995,7 @@
           <node concept="3cpWs8" id="2RSm1Cz27hU" role="3cqZAp">
             <node concept="3cpWsn" id="2RSm1Cz27hV" role="3cpWs9">
               <property role="TrG5h" value="matcher" />
+              <property role="3TUv4t" value="true" />
               <node concept="3Tqbb2" id="2RSm1Cz27hW" role="1tU5fm">
                 <ref role="ehGHo" to="tpee:fz3vP1J" resolve="Expression" />
               </node>
@@ -1011,7 +1015,6 @@
               </node>
             </node>
           </node>
-          <node concept="3clFbH" id="2RSm1Cz27i4" role="3cqZAp" />
           <node concept="3clFbJ" id="2RSm1Cz27i5" role="3cqZAp">
             <node concept="3clFbS" id="2RSm1Cz27i6" role="3clFbx">
               <node concept="3clFbF" id="2RSm1Cz27i7" role="3cqZAp">
@@ -1069,10 +1072,10 @@
               </node>
             </node>
           </node>
-          <node concept="3clFbH" id="2RSm1Cz27iv" role="3cqZAp" />
           <node concept="3cpWs8" id="2RSm1Cz27iw" role="3cqZAp">
             <node concept="3cpWsn" id="2RSm1Cz27ix" role="3cpWs9">
               <property role="TrG5h" value="scope" />
+              <property role="3TUv4t" value="true" />
               <node concept="3uibUv" id="2RSm1Cz27iy" role="1tU5fm">
                 <ref role="3uigEE" to="6xgk:3dppoMAuxA2" resolve="NamedElementsScope" />
               </node>
