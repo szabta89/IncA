@@ -200,7 +200,7 @@
         <node concept="3cpWs8" id="6mbwRz6$vxc" role="3cqZAp">
           <node concept="3cpWsn" id="6mbwRz6$vxd" role="3cpWs9">
             <property role="TrG5h" value="node" />
-            <property role="3TUv4t" value="false" />
+            <property role="3TUv4t" value="true" />
             <node concept="3Tqbb2" id="6mbwRz6$vxb" role="1tU5fm">
               <ref role="ehGHo" to="ebqt:1i65yRAQ7jk" resolve="IExpression" />
             </node>
@@ -213,7 +213,7 @@
         <node concept="3cpWs8" id="6mbwRz6$wlS" role="3cqZAp">
           <node concept="3cpWsn" id="6mbwRz6$wlT" role="3cpWs9">
             <property role="TrG5h" value="statement" />
-            <property role="3TUv4t" value="false" />
+            <property role="3TUv4t" value="true" />
             <node concept="3Tqbb2" id="6mbwRz6$wlK" role="1tU5fm">
               <ref role="ehGHo" to="ebqt:5luHlsCq70i" resolve="IStatement" />
             </node>
@@ -238,7 +238,7 @@
         <node concept="3cpWs8" id="6mbwRz6$ws8" role="3cqZAp">
           <node concept="3cpWsn" id="6mbwRz6$wsb" role="3cpWs9">
             <property role="TrG5h" value="var" />
-            <property role="3TUv4t" value="false" />
+            <property role="3TUv4t" value="true" />
             <node concept="3Tqbb2" id="6mbwRz6$ws6" role="1tU5fm">
               <ref role="ehGHo" to="ebqt:Tz5AFeCUC5" resolve="FunTemporaryVariable" />
             </node>
@@ -258,7 +258,7 @@
         <node concept="3cpWs8" id="6mbwRz6$w$Z" role="3cqZAp">
           <node concept="3cpWsn" id="6mbwRz6$w_2" role="3cpWs9">
             <property role="TrG5h" value="newStatement" />
-            <property role="3TUv4t" value="false" />
+            <property role="3TUv4t" value="true" />
             <node concept="3Tqbb2" id="6mbwRz6$w$X" role="1tU5fm">
               <ref role="ehGHo" to="ebqt:52HBLukNkCm" resolve="AssignmentStatement" />
             </node>

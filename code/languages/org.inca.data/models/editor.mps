@@ -880,19 +880,6 @@
       </node>
     </node>
   </node>
-  <node concept="24kQdi" id="5SkQds3jOHo">
-    <property role="3GE5qa" value="pattern" />
-    <ref role="1XX52x" to="uu1k:5SkQds3jOHc" resolve="PatternMemberElementReference" />
-    <node concept="1iCGBv" id="5SkQds3jOHu" role="2wV5jI">
-      <ref role="1NtTu8" to="uu1k:5SkQds3jOHd" resolve="element" />
-      <node concept="1sVBvm" id="5SkQds3jOHw" role="1sWHZn">
-        <node concept="3F0A7n" id="5SkQds3jOHE" role="2wV5jI">
-          <property role="1Intyy" value="true" />
-          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="24kQdi" id="5SkQds3jfw7">
     <property role="3GE5qa" value="pattern" />
     <ref role="1XX52x" to="uu1k:5SkQds3jfvV" resolve="PatternMemberElement" />

@@ -306,6 +306,9 @@
         <property id="521412098689998745" name="nonStatic" index="2bfB8j" />
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
+      <concept id="1171903916106" name="jetbrains.mps.baseLanguage.structure.UpperBoundType" flags="in" index="3qUE_q">
+        <child id="1171903916107" name="bound" index="3qUE_r" />
+      </concept>
       <concept id="7812454656619025416" name="jetbrains.mps.baseLanguage.structure.MethodDeclaration" flags="ng" index="1rXfSm">
         <property id="8355037393041754995" name="isNative" index="2aFKle" />
       </concept>
@@ -357,7 +360,9 @@
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
-      <concept id="1116615150612" name="jetbrains.mps.baseLanguage.structure.ClassifierClassExpression" flags="nn" index="3VsKOn" />
+      <concept id="1116615150612" name="jetbrains.mps.baseLanguage.structure.ClassifierClassExpression" flags="nn" index="3VsKOn">
+        <reference id="1116615189566" name="classifier" index="3VsUkX" />
+      </concept>
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
       <concept id="1200397529627" name="jetbrains.mps.baseLanguage.structure.CharConstant" flags="nn" index="1Xhbcc">
         <property id="1200397540847" name="charConstant" index="1XhdNS" />
@@ -3585,11 +3590,35 @@
           </node>
         </node>
         <node concept="3clFbH" id="16VcpL010Vd" role="3cqZAp" />
+        <node concept="3cpWs8" id="1aEThOBJBQN" role="3cqZAp">
+          <node concept="3cpWsn" id="1aEThOBJBQO" role="3cpWs9">
+            <property role="TrG5h" value="makeService" />
+            <property role="3TUv4t" value="true" />
+            <node concept="3uibUv" id="1aEThOBJBQP" role="1tU5fm">
+              <ref role="3uigEE" to="hfuk:1NAY6bPd4nM" resolve="IMakeService" />
+            </node>
+            <node concept="2OqwBi" id="1aEThOBJBQQ" role="33vP2m">
+              <node concept="2OqwBi" id="1aEThOBJBQR" role="2Oq$k0">
+                <node concept="37vLTw" id="1aEThOBJBQS" role="2Oq$k0">
+                  <ref role="3cqZAo" node="16VcpL00OoB" resolve="project" />
+                </node>
+                <node concept="liA8E" id="1aEThOBJBQT" role="2OqNvi">
+                  <ref role="37wK5l" to="z1c4:~MPSProject.getComponent(java.lang.Class):java.lang.Object" resolve="getComponent" />
+                  <node concept="3VsKOn" id="1aEThOBJBQU" role="37wK5m">
+                    <ref role="3VsUkX" to="hfuk:4QUA3Sqts3M" resolve="MakeServiceComponent" />
+                  </node>
+                </node>
+              </node>
+              <node concept="liA8E" id="1aEThOBJBQV" role="2OqNvi">
+                <ref role="37wK5l" to="hfuk:4QUA3SqtLoe" resolve="get" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbJ" id="7dvIwSTbfCn" role="3cqZAp">
           <node concept="2OqwBi" id="7dvIwSTbfCo" role="3clFbw">
-            <node concept="2YIFZM" id="7dvIwSTbfCp" role="2Oq$k0">
-              <ref role="37wK5l" to="hfuk:7yGn3z4MRr2" resolve="get" />
-              <ref role="1Pybhc" to="hfuk:7yGn3z4MRqM" resolve="IMakeService.INSTANCE" />
+            <node concept="37vLTw" id="1aEThOBJClr" role="2Oq$k0">
+              <ref role="3cqZAo" node="1aEThOBJBQO" resolve="makeService" />
             </node>
             <node concept="liA8E" id="7dvIwSTbfCq" role="2OqNvi">
               <ref role="37wK5l" to="hfuk:7yGn3z4N63W" resolve="openNewSession" />
@@ -3599,47 +3628,67 @@
             </node>
           </node>
           <node concept="3clFbS" id="7dvIwSTbfCs" role="3clFbx">
-            <node concept="3cpWs8" id="7dvIwSTbhsn" role="3cqZAp">
-              <node concept="3cpWsn" id="7dvIwSTbhso" role="3cpWs9">
+            <node concept="3cpWs8" id="1aEThOBX3kZ" role="3cqZAp">
+              <node concept="3cpWsn" id="1aEThOBX3l2" role="3cpWs9">
                 <property role="TrG5h" value="resources" />
                 <property role="3TUv4t" value="true" />
-                <node concept="2OqwBi" id="7dvIwSTbhsp" role="33vP2m">
-                  <node concept="2ShNRf" id="7dvIwSTbhsq" role="2Oq$k0">
-                    <node concept="1pGfFk" id="7dvIwSTbhsr" role="2ShVmc">
-                      <ref role="37wK5l" to="fn29:6zsZmIC0WqK" resolve="ModelsToResources" />
-                      <node concept="37vLTw" id="7dvIwSTbhss" role="37wK5m">
-                        <ref role="3cqZAo" node="16VcpL01iUE" resolve="models" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="liA8E" id="7dvIwSTbhst" role="2OqNvi">
-                    <ref role="37wK5l" to="fn29:713BH0S$TAn" resolve="resources" />
-                    <node concept="3clFbT" id="7dvIwSTbhDH" role="37wK5m">
-                      <property role="3clFbU" value="false" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="A3Dl8" id="7dvIwSTbhsv" role="1tU5fm">
-                  <node concept="3uibUv" id="7dvIwSTbhsw" role="A3Ik2">
+                <node concept="_YKpA" id="1aEThOBX3kV" role="1tU5fm">
+                  <node concept="3uibUv" id="1aEThOBY8Jz" role="_ZDj9">
                     <ref role="3uigEE" to="yo81:5mqBoD3U3WC" resolve="IResource" />
                   </node>
                 </node>
+                <node concept="2ShNRf" id="1aEThOBX3Qk" role="33vP2m">
+                  <node concept="Tc6Ow" id="1aEThOBX3LQ" role="2ShVmc">
+                    <node concept="3uibUv" id="1aEThOBX3AX" role="HW$YZ">
+                      <ref role="3uigEE" to="yo81:5mqBoD3U3WC" resolve="IResource" />
+                    </node>
+                  </node>
+                </node>
               </node>
-              <node concept="15s5l7" id="7dvIwSTbhsx" role="lGtFl" />
+            </node>
+            <node concept="3clFbF" id="1aEThOBX4ek" role="3cqZAp">
+              <node concept="2OqwBi" id="1aEThOBX52o" role="3clFbG">
+                <node concept="37vLTw" id="1aEThOBX4ei" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1aEThOBX3l2" resolve="resources" />
+                </node>
+                <node concept="X8dFx" id="1aEThOBX61R" role="2OqNvi">
+                  <node concept="2OqwBi" id="1aEThOBX69B" role="25WWJ7">
+                    <node concept="2ShNRf" id="1aEThOBX69C" role="2Oq$k0">
+                      <node concept="1pGfFk" id="1aEThOBX69D" role="2ShVmc">
+                        <ref role="37wK5l" to="fn29:6zsZmIC0WqK" resolve="ModelsToResources" />
+                        <node concept="37vLTw" id="1aEThOBX69E" role="37wK5m">
+                          <ref role="3cqZAo" node="16VcpL01iUE" resolve="models" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="1aEThOBX69F" role="2OqNvi">
+                      <ref role="37wK5l" to="fn29:713BH0S$TAn" resolve="resources" />
+                    </node>
+                  </node>
+                </node>
+              </node>
             </node>
             <node concept="3clFbF" id="5QA7oNouqxk" role="3cqZAp">
               <node concept="2OqwBi" id="7dvIwSTbiH$" role="3clFbG">
-                <node concept="2YIFZM" id="7dvIwSTbiH_" role="2Oq$k0">
-                  <ref role="37wK5l" to="hfuk:7yGn3z4MRr2" resolve="get" />
-                  <ref role="1Pybhc" to="hfuk:7yGn3z4MRqM" resolve="IMakeService.INSTANCE" />
+                <node concept="37vLTw" id="1aEThOBJCwC" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1aEThOBJBQO" resolve="makeService" />
                 </node>
                 <node concept="liA8E" id="7dvIwSTbiHA" role="2OqNvi">
                   <ref role="37wK5l" to="hfuk:7yGn3z4N64K" resolve="make" />
                   <node concept="37vLTw" id="7dvIwSTbiHB" role="37wK5m">
                     <ref role="3cqZAo" node="1AfPmE4ty$3" resolve="session" />
                   </node>
-                  <node concept="37vLTw" id="7dvIwSTbiHC" role="37wK5m">
-                    <ref role="3cqZAo" node="7dvIwSTbhso" resolve="resources" />
+                  <node concept="10QFUN" id="1aEThOBY9Fe" role="37wK5m">
+                    <node concept="A3Dl8" id="1aEThOBY9Fj" role="10QFUM">
+                      <node concept="3qUE_q" id="1aEThOBY9Fk" role="A3Ik2">
+                        <node concept="3uibUv" id="1aEThOBY9Fl" role="3qUE_r">
+                          <ref role="3uigEE" to="yo81:5mqBoD3U3WC" resolve="IResource" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="37vLTw" id="1aEThOBY9Gq" role="10QFUP">
+                      <ref role="3cqZAo" node="1aEThOBX3l2" resolve="resources" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -16574,6 +16623,32 @@
           </node>
         </node>
         <node concept="3clFbH" id="4wNWMN_DH4x" role="3cqZAp" />
+        <node concept="3cpWs8" id="1aEThOBJan8" role="3cqZAp">
+          <node concept="3cpWsn" id="1aEThOBJan9" role="3cpWs9">
+            <property role="TrG5h" value="makeService" />
+            <property role="3TUv4t" value="true" />
+            <node concept="3uibUv" id="1aEThOBJp4Y" role="1tU5fm">
+              <ref role="3uigEE" to="hfuk:1NAY6bPd4nM" resolve="IMakeService" />
+            </node>
+            <node concept="2OqwBi" id="1aEThOBJiDO" role="33vP2m">
+              <node concept="2OqwBi" id="1aEThOBJana" role="2Oq$k0">
+                <node concept="37vLTw" id="1aEThOBJanb" role="2Oq$k0">
+                  <ref role="3cqZAo" node="2vzj_6TyYQz" resolve="project" />
+                </node>
+                <node concept="liA8E" id="1aEThOBJanc" role="2OqNvi">
+                  <ref role="37wK5l" to="z1c4:~MPSProject.getComponent(java.lang.Class):java.lang.Object" resolve="getComponent" />
+                  <node concept="3VsKOn" id="1aEThOBJand" role="37wK5m">
+                    <ref role="3VsUkX" to="hfuk:4QUA3Sqts3M" resolve="MakeServiceComponent" />
+                  </node>
+                </node>
+              </node>
+              <node concept="liA8E" id="1aEThOBJm1L" role="2OqNvi">
+                <ref role="37wK5l" to="hfuk:4QUA3SqtLoe" resolve="get" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1aEThOBJ6QV" role="3cqZAp" />
         <node concept="3cpWs8" id="5AdqgcTGPLL" role="3cqZAp">
           <node concept="3cpWsn" id="5AdqgcTGPLM" role="3cpWs9">
             <property role="TrG5h" value="func" />
@@ -16652,6 +16727,7 @@
                               </node>
                             </node>
                           </node>
+                          <node concept="15s5l7" id="1aEThOBJxeC" role="lGtFl" />
                         </node>
                         <node concept="3cpWs6" id="5AdqgcTGPMh" role="3cqZAp">
                           <node concept="10Nm6u" id="5AdqgcTGPMi" role="3cqZAk" />
@@ -16915,9 +16991,8 @@
                 </node>
                 <node concept="3clFbF" id="5AdqgcTGPO3" role="3cqZAp">
                   <node concept="2OqwBi" id="5AdqgcTGPO4" role="3clFbG">
-                    <node concept="2YIFZM" id="5AdqgcTGPO5" role="2Oq$k0">
-                      <ref role="1Pybhc" to="hfuk:7yGn3z4MRqM" resolve="IMakeService.INSTANCE" />
-                      <ref role="37wK5l" to="hfuk:7yGn3z4MRr2" resolve="get" />
+                    <node concept="37vLTw" id="1aEThOBJfEf" role="2Oq$k0">
+                      <ref role="3cqZAo" node="1aEThOBJan9" resolve="makeService" />
                     </node>
                     <node concept="liA8E" id="5AdqgcTGPO6" role="2OqNvi">
                       <ref role="37wK5l" to="hfuk:7lTD6YZtjhM" resolve="addListener" />
@@ -16949,9 +17024,8 @@
                 </node>
                 <node concept="3clFbF" id="5AdqgcTGPOg" role="3cqZAp">
                   <node concept="2OqwBi" id="5AdqgcTGPOh" role="3clFbG">
-                    <node concept="2YIFZM" id="5AdqgcTGPOi" role="2Oq$k0">
-                      <ref role="1Pybhc" to="hfuk:7yGn3z4MRqM" resolve="IMakeService.INSTANCE" />
-                      <ref role="37wK5l" to="hfuk:7yGn3z4MRr2" resolve="get" />
+                    <node concept="37vLTw" id="1aEThOBJujM" role="2Oq$k0">
+                      <ref role="3cqZAo" node="1aEThOBJan9" resolve="makeService" />
                     </node>
                     <node concept="liA8E" id="5AdqgcTGPOj" role="2OqNvi">
                       <ref role="37wK5l" to="hfuk:7lTD6YZtjhT" resolve="removeListener" />
@@ -19319,6 +19393,31 @@
         <node concept="10P_77" id="3OV1JRXFr$m" role="1tU5fm" />
       </node>
       <node concept="3clFbS" id="3OV1JRXFqN1" role="3clF47">
+        <node concept="3cpWs8" id="1aEThOBJKfm" role="3cqZAp">
+          <node concept="3cpWsn" id="1aEThOBJKfn" role="3cpWs9">
+            <property role="TrG5h" value="makeService" />
+            <property role="3TUv4t" value="true" />
+            <node concept="3uibUv" id="1aEThOBJKfo" role="1tU5fm">
+              <ref role="3uigEE" to="hfuk:1NAY6bPd4nM" resolve="IMakeService" />
+            </node>
+            <node concept="2OqwBi" id="1aEThOBJKfp" role="33vP2m">
+              <node concept="2OqwBi" id="1aEThOBJKfq" role="2Oq$k0">
+                <node concept="37vLTw" id="1aEThOBJKfr" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3OV1JRXFr$j" resolve="project" />
+                </node>
+                <node concept="liA8E" id="1aEThOBJKfs" role="2OqNvi">
+                  <ref role="37wK5l" to="z1c4:~MPSProject.getComponent(java.lang.Class):java.lang.Object" resolve="getComponent" />
+                  <node concept="3VsKOn" id="1aEThOBJKft" role="37wK5m">
+                    <ref role="3VsUkX" to="hfuk:4QUA3Sqts3M" resolve="MakeServiceComponent" />
+                  </node>
+                </node>
+              </node>
+              <node concept="liA8E" id="1aEThOBJKfu" role="2OqNvi">
+                <ref role="37wK5l" to="hfuk:4QUA3SqtLoe" resolve="get" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="3OV1JRXGGw2" role="3cqZAp">
           <node concept="3cpWsn" id="3OV1JRXGGw3" role="3cpWs9">
             <property role="TrG5h" value="func" />
@@ -19386,6 +19485,7 @@
                               </node>
                             </node>
                           </node>
+                          <node concept="15s5l7" id="1aEThOBJLrX" role="lGtFl" />
                         </node>
                         <node concept="3cpWs6" id="3OV1JRXGGw$" role="3cqZAp">
                           <node concept="10Nm6u" id="3OV1JRXGGw_" role="3cqZAk" />
@@ -19728,9 +19828,8 @@
                 </node>
                 <node concept="3clFbF" id="3OV1JRXGGyn" role="3cqZAp">
                   <node concept="2OqwBi" id="3OV1JRXGGyo" role="3clFbG">
-                    <node concept="2YIFZM" id="3OV1JRXGGyp" role="2Oq$k0">
-                      <ref role="1Pybhc" to="hfuk:7yGn3z4MRqM" resolve="IMakeService.INSTANCE" />
-                      <ref role="37wK5l" to="hfuk:7yGn3z4MRr2" resolve="get" />
+                    <node concept="37vLTw" id="1aEThOBJO0k" role="2Oq$k0">
+                      <ref role="3cqZAo" node="1aEThOBJKfn" resolve="makeService" />
                     </node>
                     <node concept="liA8E" id="3OV1JRXGGyq" role="2OqNvi">
                       <ref role="37wK5l" to="hfuk:7lTD6YZtjhM" resolve="addListener" />
@@ -19767,9 +19866,8 @@
                 </node>
                 <node concept="3clFbF" id="3OV1JRXGGy$" role="3cqZAp">
                   <node concept="2OqwBi" id="3OV1JRXGGy_" role="3clFbG">
-                    <node concept="2YIFZM" id="3OV1JRXGGyA" role="2Oq$k0">
-                      <ref role="1Pybhc" to="hfuk:7yGn3z4MRqM" resolve="IMakeService.INSTANCE" />
-                      <ref role="37wK5l" to="hfuk:7yGn3z4MRr2" resolve="get" />
+                    <node concept="37vLTw" id="1aEThOBJQKD" role="2Oq$k0">
+                      <ref role="3cqZAo" node="1aEThOBJKfn" resolve="makeService" />
                     </node>
                     <node concept="liA8E" id="3OV1JRXGGyB" role="2OqNvi">
                       <ref role="37wK5l" to="hfuk:7lTD6YZtjhT" resolve="removeListener" />
@@ -20325,6 +20423,7 @@
                                 <node concept="3Tqbb2" id="3OV1JRYzPEQ" role="1tU5fm" />
                                 <node concept="10Nm6u" id="3OV1JRYzSOM" role="33vP2m" />
                               </node>
+                              <node concept="15s5l7" id="1aEThOBJS9h" role="lGtFl" />
                             </node>
                             <node concept="3cpWs8" id="3OV1JRYzUo9" role="3cqZAp">
                               <node concept="3cpWsn" id="3OV1JRYzUoa" role="3cpWs9">
@@ -20332,6 +20431,7 @@
                                 <node concept="3Tqbb2" id="3OV1JRYzUob" role="1tU5fm" />
                                 <node concept="10Nm6u" id="3OV1JRYzUoc" role="33vP2m" />
                               </node>
+                              <node concept="15s5l7" id="1aEThOBJTK5" role="lGtFl" />
                             </node>
                             <node concept="3clFbH" id="3OV1JRXGGBD" role="3cqZAp" />
                             <node concept="3SKdUt" id="3OV1JRXGGDo" role="3cqZAp">
