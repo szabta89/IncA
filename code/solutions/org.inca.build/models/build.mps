@@ -2576,6 +2576,18 @@
             <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
           </node>
         </node>
+        <node concept="1SiIV0" id="5_25IeHDtJ4" role="3bR37C">
+          <node concept="3bR9La" id="5_25IeHDtJ5" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="6_du9upXhGz" resolve="org.inca.fun" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5_25IeHDtJ6" role="3bR37C">
+          <node concept="3bR9La" id="5_25IeHDtJ7" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="2xeWpQbNJoS" role="2G$12L">
         <property role="BnDLt" value="true" />

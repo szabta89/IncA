@@ -2,6 +2,7 @@
 <model ref="r:57e36c77-4854-4a58-b799-163b27d24428(org.inca.core.typesystem)">
   <persistence version="9" />
   <languages>
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="11" />
     <devkit ref="00000000-0000-4000-0000-1de82b3a4936(jetbrains.mps.devkit.aspect.typesystem)" />
   </languages>
   <imports>
@@ -286,6 +287,7 @@
         <child id="1216383476350" name="quickFixArgument" index="Q6Id_" />
       </concept>
       <concept id="1216383287005" name="jetbrains.mps.lang.typesystem.structure.QuickFixExecuteBlock" flags="in" index="Q5ZZ6" />
+      <concept id="1216383337216" name="jetbrains.mps.lang.typesystem.structure.ConceptFunctionParameter_node" flags="nn" index="Q6c8r" />
       <concept id="1216383482742" name="jetbrains.mps.lang.typesystem.structure.QuickFixArgument" flags="ng" index="Q6JDH">
         <child id="1216383511839" name="argumentType" index="Q6QK4" />
       </concept>
@@ -358,10 +360,6 @@
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
       </concept>
-      <concept id="559557797393017698" name="jetbrains.mps.lang.smodel.structure.ModelReferenceExpression" flags="nn" index="BaHAS">
-        <property id="559557797393021807" name="stereotype" index="BaGAP" />
-        <property id="559557797393017702" name="name" index="BaHAW" />
-      </concept>
       <concept id="8866923313515890008" name="jetbrains.mps.lang.smodel.structure.AsNodeOperation" flags="nn" index="FGMqu" />
       <concept id="1143226024141" name="jetbrains.mps.lang.smodel.structure.SModelType" flags="in" index="H_c77" />
       <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
@@ -411,12 +409,10 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
-        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
-      <concept id="4222318806802425298" name="jetbrains.mps.lang.core.structure.SuppressErrorsAnnotation" flags="ng" index="15s5l7" />
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="1204796164442" name="jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation" flags="nn" index="23sCx2">
@@ -4389,17 +4385,47 @@
     </node>
     <node concept="Q5ZZ6" id="7Hdi_qc0vvA" role="Q6x$H">
       <node concept="3clFbS" id="7Hdi_qc0vvB" role="2VODD2">
+        <node concept="3cpWs8" id="5_25IeHCFqi" role="3cqZAp">
+          <node concept="3cpWsn" id="5_25IeHCFqj" role="3cpWs9">
+            <property role="TrG5h" value="repository" />
+            <property role="3TUv4t" value="true" />
+            <node concept="3uibUv" id="5_25IeHCFqc" role="1tU5fm">
+              <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
+            </node>
+            <node concept="2OqwBi" id="5_25IeHCFqk" role="33vP2m">
+              <node concept="2JrnkZ" id="5_25IeHCFql" role="2Oq$k0">
+                <node concept="2OqwBi" id="5_25IeHCFqm" role="2JrQYb">
+                  <node concept="Q6c8r" id="5_25IeHCFqn" role="2Oq$k0" />
+                  <node concept="I4A8Y" id="5_25IeHCFqo" role="2OqNvi" />
+                </node>
+              </node>
+              <node concept="liA8E" id="5_25IeHCFqp" role="2OqNvi">
+                <ref role="37wK5l" to="mhbf:~SModel.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="7Hdi_qc0waV" role="3cqZAp">
           <node concept="3cpWsn" id="7Hdi_qc0waW" role="3cpWs9">
             <property role="TrG5h" value="dep" />
             <property role="3TUv4t" value="true" />
             <node concept="H_c77" id="7Hdi_qc0waU" role="1tU5fm" />
-            <node concept="BaHAS" id="7Hdi_qc0waX" role="33vP2m">
-              <property role="BaHAW" value="org.inca.core.structure" />
-              <property role="BaGAP" value="" />
+            <node concept="2OqwBi" id="5_25IeHD741" role="33vP2m">
+              <node concept="1Xw6AR" id="5_25IeHD73X" role="2Oq$k0">
+                <node concept="1dCxOl" id="5_25IeHD73Y" role="1XwpL7">
+                  <property role="1XweGQ" value="r:aa4c3470-43ab-4dad-b73e-20da0ee43be1" />
+                  <node concept="1j_P7g" id="5_25IeHD73Z" role="1j$8Uc">
+                    <property role="1j_P7h" value="org.inca.core.structure" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2yCiCJ" id="5_25IeHD740" role="2OqNvi">
+                <node concept="37vLTw" id="5_25IeHCFRz" role="Vysub">
+                  <ref role="3cqZAo" node="5_25IeHCFqj" resolve="repository" />
+                </node>
+              </node>
             </node>
           </node>
-          <node concept="15s5l7" id="7Hdi_qc0xhQ" role="lGtFl" />
         </node>
         <node concept="3clFbF" id="7Hdi_qc0vKA" role="3cqZAp">
           <node concept="2OqwBi" id="7Hdi_qc0vT0" role="3clFbG">
