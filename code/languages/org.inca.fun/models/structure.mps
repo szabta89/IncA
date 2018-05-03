@@ -613,5 +613,21 @@
       </node>
     </node>
   </node>
+  <node concept="1TIwiD" id="3I_3247nl1K">
+    <property role="EcuMT" value="4297854755392016496" />
+    <property role="3GE5qa" value="misc" />
+    <property role="TrG5h" value="CostConsistentAttribute" />
+    <property role="34LRSv" value="costConsistent" />
+    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
+    <node concept="M6xJ_" id="3I_3247nl1L" role="lGtFl">
+      <property role="Hh88m" value="costConsistent" />
+      <node concept="tn0Fv" id="3I_3247nl1O" role="HhnKV">
+        <property role="tnX3d" value="false" />
+      </node>
+      <node concept="trNpa" id="3I_3247nl1R" role="EQaZv">
+        <ref role="trN6q" to="hqsm:3VwoHXNAdmh" resolve="IPattern" />
+      </node>
+    </node>
+  </node>
 </model>
 

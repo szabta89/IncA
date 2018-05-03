@@ -341,7 +341,7 @@
   </node>
   <node concept="2S6QgY" id="AmUunjSf$J">
     <property role="3GE5qa" value="statement" />
-    <property role="TrG5h" value="ToogleOptimize" />
+    <property role="TrG5h" value="ToogleSwitchStatementNoOptimizationAttribute" />
     <ref role="2ZfgGC" to="ebqt:5YhdhgZIEPp" resolve="SwitchStatement" />
     <node concept="2S6ZIM" id="AmUunjSf$K" role="2ZfVej">
       <node concept="3clFbS" id="AmUunjSf$L" role="2VODD2">
@@ -424,6 +424,100 @@
                     </node>
                   </node>
                   <node concept="3YRAZt" id="AmUunjSmaA" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="3I_3247nl3a">
+    <property role="3GE5qa" value="misc" />
+    <property role="TrG5h" value="ToogleCostConsistentAttribute" />
+    <property role="2ZfUl0" value="true" />
+    <ref role="2ZfgGC" to="hqsm:3VwoHXNAdmh" resolve="IPattern" />
+    <node concept="2S6ZIM" id="3I_3247nl3b" role="2ZfVej">
+      <node concept="3clFbS" id="3I_3247nl3c" role="2VODD2">
+        <node concept="3clFbJ" id="3I_3247nmiZ" role="3cqZAp">
+          <node concept="3clFbS" id="3I_3247nmj0" role="3clFbx">
+            <node concept="3cpWs6" id="3I_3247nmj1" role="3cqZAp">
+              <node concept="Xl_RD" id="3I_3247nmj2" role="3cqZAk">
+                <property role="Xl_RC" value="Add Cost Consistent Annotation" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="3I_3247nmj3" role="3clFbw">
+            <node concept="10Nm6u" id="3I_3247nmj4" role="3uHU7w" />
+            <node concept="2OqwBi" id="3I_3247nmj5" role="3uHU7B">
+              <node concept="2Sf5sV" id="3I_3247nmj6" role="2Oq$k0" />
+              <node concept="3CFZ6_" id="3I_3247nmj7" role="2OqNvi">
+                <node concept="3CFYIy" id="3I_3247nmvi" role="3CFYIz">
+                  <ref role="3CFYIx" to="ebqt:3I_3247nl1K" resolve="CostConsistentAttribute" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="3I_3247nmj9" role="9aQIa">
+            <node concept="3clFbS" id="3I_3247nmja" role="9aQI4">
+              <node concept="3cpWs6" id="3I_3247nmjb" role="3cqZAp">
+                <node concept="Xl_RD" id="3I_3247nmjc" role="3cqZAk">
+                  <property role="Xl_RC" value="Remove Cost Consistent Annotation" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="3I_3247nl3d" role="2ZfgGD">
+      <node concept="3clFbS" id="3I_3247nl3e" role="2VODD2">
+        <node concept="3clFbJ" id="3I_3247nlAT" role="3cqZAp">
+          <node concept="3clFbS" id="3I_3247nlAU" role="3clFbx">
+            <node concept="3clFbF" id="3I_3247nlAV" role="3cqZAp">
+              <node concept="37vLTI" id="3I_3247nlAW" role="3clFbG">
+                <node concept="2ShNRf" id="3I_3247nlAX" role="37vLTx">
+                  <node concept="3zrR0B" id="3I_3247nlAY" role="2ShVmc">
+                    <node concept="3Tqbb2" id="3I_3247nlAZ" role="3zrR0E">
+                      <ref role="ehGHo" to="ebqt:3I_3247nl1K" resolve="CostConsistentAttribute" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="3I_3247nlB0" role="37vLTJ">
+                  <node concept="2Sf5sV" id="3I_3247nlB1" role="2Oq$k0" />
+                  <node concept="3CFZ6_" id="3I_3247nlB2" role="2OqNvi">
+                    <node concept="3CFYIy" id="3I_3247nlIX" role="3CFYIz">
+                      <ref role="3CFYIx" to="ebqt:3I_3247nl1K" resolve="CostConsistentAttribute" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="3I_3247nlB4" role="3clFbw">
+            <node concept="10Nm6u" id="3I_3247nlB5" role="3uHU7w" />
+            <node concept="2OqwBi" id="3I_3247nlB6" role="3uHU7B">
+              <node concept="2Sf5sV" id="3I_3247nlB7" role="2Oq$k0" />
+              <node concept="3CFZ6_" id="3I_3247nlB8" role="2OqNvi">
+                <node concept="3CFYIy" id="3I_3247nlFS" role="3CFYIz">
+                  <ref role="3CFYIx" to="ebqt:3I_3247nl1K" resolve="CostConsistentAttribute" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="3I_3247nlBa" role="9aQIa">
+            <node concept="3clFbS" id="3I_3247nlBb" role="9aQI4">
+              <node concept="3clFbF" id="3I_3247nlBc" role="3cqZAp">
+                <node concept="2OqwBi" id="3I_3247nlBd" role="3clFbG">
+                  <node concept="2OqwBi" id="3I_3247nlBe" role="2Oq$k0">
+                    <node concept="2Sf5sV" id="3I_3247nlBf" role="2Oq$k0" />
+                    <node concept="3CFZ6_" id="3I_3247nlBg" role="2OqNvi">
+                      <node concept="3CFYIy" id="3I_3247nlNT" role="3CFYIz">
+                        <ref role="3CFYIx" to="ebqt:3I_3247nl1K" resolve="CostConsistentAttribute" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3YRAZt" id="3I_3247nlBi" role="2OqNvi" />
                 </node>
               </node>
             </node>
