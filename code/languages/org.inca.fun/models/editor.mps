@@ -74,6 +74,7 @@
         <reference id="1078939183255" name="editorComponent" index="PMmxG" />
       </concept>
       <concept id="3738029991950788349" name="jetbrains.mps.lang.editor.structure.SubstituteMenu_Named" flags="ng" index="Q6S24" />
+      <concept id="1149850725784" name="jetbrains.mps.lang.editor.structure.CellModel_AttributedNodeCell" flags="ng" index="2SsqMj" />
       <concept id="1186403694788" name="jetbrains.mps.lang.editor.structure.ColorStyleClassItem" flags="ln" index="VaVBg">
         <property id="1186403713874" name="color" index="Vb096" />
       </concept>
@@ -1945,6 +1946,27 @@
         <node concept="l2Vlx" id="5YhdhgZIEPV" role="2czzBx" />
       </node>
       <node concept="l2Vlx" id="5YhdhgZIEPM" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="AmUunjSfbc">
+    <property role="3GE5qa" value="statement" />
+    <ref role="1XX52x" to="ebqt:AmUunjSfaU" resolve="SwitchStatementNoOptimizationAttribute" />
+    <node concept="3EZMnI" id="AmUunjSfbi" role="2wV5jI">
+      <node concept="l2Vlx" id="AmUunjSfbj" role="2iSdaV" />
+      <node concept="3F0ifn" id="AmUunjSfbe" role="3EZMnx">
+        <property role="3F0ifm" value="@" />
+        <node concept="11LMrY" id="AmUunjSf$j" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="PMmxH" id="AmUunjSfjy" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="2SsqMj" id="AmUunjSfjI" role="3EZMnx">
+        <node concept="pVoyu" id="AmUunjSf$g" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
     </node>
   </node>
 </model>

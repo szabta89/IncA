@@ -11,6 +11,9 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
+        <child id="1082485599096" name="statements" index="9aQI4" />
+      </concept>
       <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
         <child id="1068498886297" name="rValue" index="37vLTx" />
         <child id="1068498886295" name="lValue" index="37vLTJ" />
@@ -45,6 +48,11 @@
       <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
+      </concept>
+      <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
+        <child id="1082485599094" name="ifFalseStatement" index="9aQIa" />
+        <child id="1068580123160" name="condition" index="3clFbw" />
+        <child id="1068580123161" name="ifTrue" index="3clFbx" />
       </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
@@ -99,6 +107,12 @@
       </concept>
       <concept id="1180636770613" name="jetbrains.mps.lang.smodel.structure.SNodeCreator" flags="nn" index="3zrR0B">
         <child id="1180636770616" name="createdType" index="3zrR0E" />
+      </concept>
+      <concept id="6407023681583036853" name="jetbrains.mps.lang.smodel.structure.NodeAttributeQualifier" flags="ng" index="3CFYIy">
+        <reference id="6407023681583036854" name="attributeConcept" index="3CFYIx" />
+      </concept>
+      <concept id="6407023681583031218" name="jetbrains.mps.lang.smodel.structure.AttributeAccess" flags="nn" index="3CFZ6_">
+        <child id="6407023681583036852" name="qualifier" index="3CFYIz" />
       </concept>
       <concept id="1140131837776" name="jetbrains.mps.lang.smodel.structure.Node_ReplaceWithAnotherOperation" flags="nn" index="1P9Npp">
         <child id="1140131861877" name="replacementNode" index="1P9ThW" />
@@ -319,6 +333,99 @@
                 </node>
               </node>
               <node concept="34oBXx" id="6xhm47xetYt" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="AmUunjSf$J">
+    <property role="3GE5qa" value="statement" />
+    <property role="TrG5h" value="ToogleOptimize" />
+    <ref role="2ZfgGC" to="ebqt:5YhdhgZIEPp" resolve="SwitchStatement" />
+    <node concept="2S6ZIM" id="AmUunjSf$K" role="2ZfVej">
+      <node concept="3clFbS" id="AmUunjSf$L" role="2VODD2">
+        <node concept="3clFbJ" id="AmUunjSfQq" role="3cqZAp">
+          <node concept="3clFbS" id="AmUunjSfQs" role="3clFbx">
+            <node concept="3cpWs6" id="AmUunjShcu" role="3cqZAp">
+              <node concept="Xl_RD" id="AmUunjShnS" role="3cqZAk">
+                <property role="Xl_RC" value="Do not Optimize" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="AmUunjSh0N" role="3clFbw">
+            <node concept="10Nm6u" id="AmUunjSh1d" role="3uHU7w" />
+            <node concept="2OqwBi" id="AmUunjSg7_" role="3uHU7B">
+              <node concept="2Sf5sV" id="AmUunjSfQE" role="2Oq$k0" />
+              <node concept="3CFZ6_" id="AmUunjSgu_" role="2OqNvi">
+                <node concept="3CFYIy" id="AmUunjSgFq" role="3CFYIz">
+                  <ref role="3CFYIx" to="ebqt:AmUunjSfaU" resolve="SwitchStatementNoOptimizationAttribute" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="AmUunjSirQ" role="9aQIa">
+            <node concept="3clFbS" id="AmUunjSirR" role="9aQI4">
+              <node concept="3cpWs6" id="AmUunjSiMF" role="3cqZAp">
+                <node concept="Xl_RD" id="AmUunjSiYm" role="3cqZAk">
+                  <property role="Xl_RC" value="Optimize" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="AmUunjSf$M" role="2ZfgGD">
+      <node concept="3clFbS" id="AmUunjSf$N" role="2VODD2">
+        <node concept="3clFbJ" id="AmUunjSjx6" role="3cqZAp">
+          <node concept="3clFbS" id="AmUunjSjx8" role="3clFbx">
+            <node concept="3clFbF" id="AmUunjSkoI" role="3cqZAp">
+              <node concept="37vLTI" id="AmUunjSl00" role="3clFbG">
+                <node concept="2ShNRf" id="AmUunjSl3j" role="37vLTx">
+                  <node concept="3zrR0B" id="AmUunjSl0G" role="2ShVmc">
+                    <node concept="3Tqbb2" id="AmUunjSl0H" role="3zrR0E">
+                      <ref role="ehGHo" to="ebqt:AmUunjSfaU" resolve="SwitchStatementNoOptimizationAttribute" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="AmUunjSkza" role="37vLTJ">
+                  <node concept="2Sf5sV" id="AmUunjSkoG" role="2Oq$k0" />
+                  <node concept="3CFZ6_" id="AmUunjSkLW" role="2OqNvi">
+                    <node concept="3CFYIy" id="AmUunjSkOO" role="3CFYIz">
+                      <ref role="3CFYIx" to="ebqt:AmUunjSfaU" resolve="SwitchStatementNoOptimizationAttribute" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="AmUunjSkeJ" role="3clFbw">
+            <node concept="10Nm6u" id="AmUunjSklK" role="3uHU7w" />
+            <node concept="2OqwBi" id="AmUunjSjIn" role="3uHU7B">
+              <node concept="2Sf5sV" id="AmUunjSjxC" role="2Oq$k0" />
+              <node concept="3CFZ6_" id="AmUunjSjX5" role="2OqNvi">
+                <node concept="3CFYIy" id="AmUunjSk1C" role="3CFYIz">
+                  <ref role="3CFYIx" to="ebqt:AmUunjSfaU" resolve="SwitchStatementNoOptimizationAttribute" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="AmUunjSl6r" role="9aQIa">
+            <node concept="3clFbS" id="AmUunjSl6s" role="9aQI4">
+              <node concept="3clFbF" id="AmUunjSl9I" role="3cqZAp">
+                <node concept="2OqwBi" id="AmUunjSlKY" role="3clFbG">
+                  <node concept="2OqwBi" id="AmUunjSlka" role="2Oq$k0">
+                    <node concept="2Sf5sV" id="AmUunjSl9H" role="2Oq$k0" />
+                    <node concept="3CFZ6_" id="AmUunjSlyW" role="2OqNvi">
+                      <node concept="3CFYIy" id="AmUunjSl_O" role="3CFYIz">
+                        <ref role="3CFYIx" to="ebqt:AmUunjSfaU" resolve="SwitchStatementNoOptimizationAttribute" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3YRAZt" id="AmUunjSmaA" role="2OqNvi" />
+                </node>
+              </node>
             </node>
           </node>
         </node>

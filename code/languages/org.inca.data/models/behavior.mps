@@ -1762,5 +1762,37 @@
       <node concept="3clFbS" id="4aOuL3PKwyg" role="2VODD2" />
     </node>
   </node>
+  <node concept="13h7C7" id="9jrT7Eho2n">
+    <property role="3GE5qa" value="adt" />
+    <ref role="13h7C2" to="uu1k:3l0M8IaAFFW" resolve="ITypeConstructorType" />
+    <node concept="13hLZK" id="9jrT7Eho2o" role="13h7CW">
+      <node concept="3clFbS" id="9jrT7Eho2p" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="9jrT7Eho2y" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="asCompileTimeType" />
+      <ref role="13i0hy" to="gcg1:aQnmvHEmKm" resolve="asCompileTimeType" />
+      <node concept="3Tm1VV" id="9jrT7Eho2z" role="1B3o_S" />
+      <node concept="3clFbS" id="9jrT7Eho2C" role="3clF47">
+        <node concept="3cpWs6" id="9jrT7EhonK" role="3cqZAp">
+          <node concept="2pJPEk" id="9jrT7EhonL" role="3cqZAk">
+            <node concept="2pJPED" id="9jrT7EhonM" role="2pJPEn">
+              <ref role="2pJxaS" to="uu1k:2A0WHmBhrvB" resolve="TypeConstructorTypeWrapper" />
+              <node concept="2pIpSj" id="9jrT7EhonN" role="2pJxcM">
+                <ref role="2pIpSl" to="uu1k:2A0WHmBl9Mp" resolve="type" />
+                <node concept="36biLy" id="9jrT7EhonO" role="2pJxcZ">
+                  <node concept="13iPFW" id="9jrT7Ehore" role="36biLW" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="9jrT7Eho2D" role="3clF45">
+        <ref role="ehGHo" to="hqsm:6VTlRjrCuQt" resolve="ICompileTimeIncAType" />
+      </node>
+    </node>
+  </node>
 </model>
 

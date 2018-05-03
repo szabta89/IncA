@@ -350,6 +350,9 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="3l0M8IajNMF" resolve="ITypeConstructor" />
     </node>
+    <node concept="PrWs8" id="9jrT7EhnNE" role="PrDN$">
+      <ref role="PrY4T" to="hqsm:aQnmvHEm_S" resolve="IRuntimeIncAType" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5SkQds3hXQy">
     <property role="EcuMT" value="6779281757084048802" />

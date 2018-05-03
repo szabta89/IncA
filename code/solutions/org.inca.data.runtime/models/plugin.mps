@@ -5152,9 +5152,10 @@
                     <ref role="3Tt5mk" to="hqsm:3VwoHXNAiyY" resolve="type" />
                   </node>
                 </node>
-                <node concept="1rXfSq" id="aQnmvHYAsz" role="37vLTx">
-                  <ref role="37wK5l" node="aQnmvHRuv$" resolve="recoverCompileTimeType" />
-                  <node concept="37vLTw" id="aQnmvI5WmB" role="37wK5m">
+                <node concept="2YIFZM" id="9jrT7Ehqdb" role="37vLTx">
+                  <ref role="1Pybhc" to="t4sj:PkXq9C0R_H" resolve="FunPatternRewriter" />
+                  <ref role="37wK5l" to="t4sj:aQnmvHRuv$" resolve="recoverCompileTimeType" />
+                  <node concept="37vLTw" id="9jrT7Ehqdc" role="37wK5m">
                     <ref role="3cqZAo" node="aQnmvI5Wmz" resolve="runtimeType" />
                   </node>
                 </node>
@@ -5515,87 +5516,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="aQnmvHAeTj" role="jymVt" />
-    <node concept="2YIFZL" id="aQnmvHRuv$" role="jymVt">
-      <property role="TrG5h" value="recoverCompileTimeType" />
-      <property role="od$2w" value="false" />
-      <property role="DiZV1" value="false" />
-      <property role="2aFKle" value="false" />
-      <node concept="3clFbS" id="aQnmvHRuvB" role="3clF47">
-        <node concept="3clFbJ" id="aQnmvHRuQt" role="3cqZAp">
-          <node concept="3clFbS" id="aQnmvHRuQv" role="3clFbx">
-            <node concept="3cpWs6" id="PkXq9C19TR" role="3cqZAp">
-              <node concept="2pJPEk" id="PkXq9C19TS" role="3cqZAk">
-                <node concept="2pJPED" id="PkXq9C19TT" role="2pJPEn">
-                  <ref role="2pJxaS" to="uu1k:2A0WHmBhrvB" resolve="TypeConstructorTypeWrapper" />
-                  <node concept="2pIpSj" id="PkXq9C19TU" role="2pJxcM">
-                    <ref role="2pIpSl" to="uu1k:2A0WHmBl9Mp" resolve="type" />
-                    <node concept="36biLy" id="PkXq9C19TV" role="2pJxcZ">
-                      <node concept="1PxgMI" id="PkXq9C19TW" role="36biLW">
-                        <node concept="chp4Y" id="PkXq9C19TX" role="3oSUPX">
-                          <ref role="cht4Q" to="uu1k:3l0M8IaAFFW" resolve="ITypeConstructorType" />
-                        </node>
-                        <node concept="37vLTw" id="PkXq9C19TY" role="1m5AlR">
-                          <ref role="3cqZAo" node="aQnmvHRuOt" resolve="runtimeType" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="9aQIb" id="aQnmvHY_vs" role="9aQIa">
-            <node concept="3clFbS" id="aQnmvHY_vt" role="9aQI4">
-              <node concept="3cpWs6" id="PkXq9C1aM6" role="3cqZAp">
-                <node concept="2YIFZM" id="PkXq9C1aY0" role="3cqZAk">
-                  <ref role="37wK5l" to="t4sj:aQnmvHRuv$" resolve="recoverCompileTimeType" />
-                  <ref role="1Pybhc" to="t4sj:PkXq9C0R_H" resolve="FunPatternRewriter" />
-                  <node concept="37vLTw" id="PkXq9C1b7_" role="37wK5m">
-                    <ref role="3cqZAo" node="aQnmvHRuOt" resolve="runtimeType" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="2OqwBi" id="PkXq9C19Fv" role="3clFbw">
-            <node concept="37vLTw" id="PkXq9C19Fw" role="2Oq$k0">
-              <ref role="3cqZAo" node="aQnmvHRuOt" resolve="runtimeType" />
-            </node>
-            <node concept="1mIQ4w" id="PkXq9C19Fx" role="2OqNvi">
-              <node concept="chp4Y" id="PkXq9C19Fy" role="cj9EA">
-                <ref role="cht4Q" to="uu1k:3l0M8IaAFFW" resolve="ITypeConstructorType" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3Tm1VV" id="PkXq9C19v3" role="1B3o_S" />
-      <node concept="3Tqbb2" id="aQnmvHRuuq" role="3clF45">
-        <ref role="ehGHo" to="hqsm:6VTlRjrCuQt" resolve="ICompileTimeIncAType" />
-      </node>
-      <node concept="37vLTG" id="aQnmvHRuOt" role="3clF46">
-        <property role="TrG5h" value="runtimeType" />
-        <property role="3TUv4t" value="true" />
-        <node concept="3Tqbb2" id="aQnmvHRuOs" role="1tU5fm" />
-      </node>
-      <node concept="P$JXv" id="PkXq9C1bnO" role="lGtFl">
-        <node concept="TZ5HA" id="PkXq9C1bnP" role="TZ5H$">
-          <node concept="1dT_AC" id="PkXq9C1bnQ" role="1dT_Ay">
-            <property role="1dT_AB" value="Constructs a compile time type from a given runtime type. " />
-          </node>
-        </node>
-        <node concept="TUZQ0" id="PkXq9C1bnR" role="3nqlJM">
-          <property role="TUZQ4" value="the runtime type" />
-          <node concept="zr_55" id="PkXq9C1bnT" role="zr_5Q">
-            <ref role="zr_51" node="aQnmvHRuOt" resolve="runtimeType" />
-          </node>
-        </node>
-        <node concept="x79VA" id="PkXq9C1bnU" role="3nqlJM">
-          <property role="x79VB" value="the compile time type" />
-        </node>
-      </node>
-    </node>
-    <node concept="2tJIrI" id="aQnmvHRtzB" role="jymVt" />
     <node concept="3Tm1VV" id="aQnmvHx83Y" role="1B3o_S" />
     <node concept="3uibUv" id="PkXq9C0S0Y" role="1zkMxy">
       <ref role="3uigEE" to="t4sj:PkXq9C0R_H" resolve="FunPatternRewriter" />

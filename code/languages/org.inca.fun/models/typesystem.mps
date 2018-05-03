@@ -190,6 +190,9 @@
       <concept id="1138676077309" name="jetbrains.mps.lang.smodel.structure.EnumMemberReference" flags="nn" index="uoxfO">
         <reference id="1138676095763" name="enumMember" index="uo_Cq" />
       </concept>
+      <concept id="4693937538533521280" name="jetbrains.mps.lang.smodel.structure.OfConceptOperation" flags="ng" index="v3k3i">
+        <child id="4693937538533538124" name="requestedConcept" index="v3oSu" />
+      </concept>
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
@@ -198,6 +201,7 @@
         <reference id="1145383142433" name="elementConcept" index="2I9WkF" />
       </concept>
       <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
+      <concept id="1145573345940" name="jetbrains.mps.lang.smodel.structure.Node_GetAllSiblingsOperation" flags="nn" index="2TvwIu" />
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
         <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
@@ -2064,6 +2068,44 @@
       </node>
     </node>
     <node concept="1YaCAy" id="5Yhdhh0$nft" role="1YuTPh">
+      <property role="TrG5h" value="statement" />
+      <ref role="1YaFvo" to="ebqt:5YhdhgZIEPp" resolve="SwitchStatement" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="9jrT7EdJeO">
+    <property role="TrG5h" value="check_SwitchStatement" />
+    <property role="3GE5qa" value="statement" />
+    <node concept="3clFbS" id="9jrT7EdJeP" role="18ibNy">
+      <node concept="3clFbJ" id="9jrT7EdJAW" role="3cqZAp">
+        <node concept="3clFbS" id="9jrT7EdJAY" role="3clFbx">
+          <node concept="2MkqsV" id="9jrT7EdSRQ" role="3cqZAp">
+            <node concept="Xl_RD" id="9jrT7EdSS5" role="2MkJ7o">
+              <property role="Xl_RC" value="Only one switch is allowed per scope!" />
+            </node>
+            <node concept="1YBJjd" id="9jrT7EdSTl" role="2OEOjV">
+              <ref role="1YBMHb" node="9jrT7EdJeR" resolve="statement" />
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="9jrT7EdSAI" role="3clFbw">
+          <node concept="2OqwBi" id="9jrT7EdQLF" role="2Oq$k0">
+            <node concept="2OqwBi" id="9jrT7EdJNP" role="2Oq$k0">
+              <node concept="1YBJjd" id="9jrT7EdJBc" role="2Oq$k0">
+                <ref role="1YBMHb" node="9jrT7EdJeR" resolve="statement" />
+              </node>
+              <node concept="2TvwIu" id="9jrT7EdNgL" role="2OqNvi" />
+            </node>
+            <node concept="v3k3i" id="9jrT7EdSnt" role="2OqNvi">
+              <node concept="chp4Y" id="9jrT7EdSoh" role="v3oSu">
+                <ref role="cht4Q" to="ebqt:5YhdhgZIEPp" resolve="SwitchStatement" />
+              </node>
+            </node>
+          </node>
+          <node concept="3GX2aA" id="9jrT7EdSRF" role="2OqNvi" />
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="9jrT7EdJeR" role="1YuTPh">
       <property role="TrG5h" value="statement" />
       <ref role="1YaFvo" to="ebqt:5YhdhgZIEPp" resolve="SwitchStatement" />
     </node>

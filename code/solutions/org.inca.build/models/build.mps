@@ -1696,6 +1696,12 @@
               <ref role="3bR37D" node="6_du9upXijF" resolve="org.inca.fun.runtime" />
             </node>
           </node>
+          <node concept="1SiIV0" id="6EGUiJerhvp" role="3bR37C">
+            <node concept="3bR9La" id="6EGUiJerhvq" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
+            </node>
+          </node>
         </node>
         <node concept="1E0d5M" id="2Yoto85RRcw" role="1E1XAP">
           <ref role="1E0d5P" node="11w71Xmfzpd" resolve="org.inca.meta.analysis" />

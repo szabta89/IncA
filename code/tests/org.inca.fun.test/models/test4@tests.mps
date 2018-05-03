@@ -23,6 +23,9 @@
   </imports>
   <registry>
     <language id="8c9a2720-9d21-4370-a226-819eb3e76e1e" name="org.inca.fun">
+      <concept id="996292992024565907" name="org.inca.fun.structure.Tuple" flags="ng" index="2k1_ex">
+        <child id="5168759050436890827" name="expressions" index="3tmOSN" />
+      </concept>
       <concept id="996292992025662526" name="org.inca.fun.structure.PathExpression" flags="ng" index="2kdhWc">
         <child id="996292992025662592" name="src" index="2kdhYM" />
         <child id="1925259677761394831" name="element" index="3zVzRQ" />
@@ -183,6 +186,19 @@
             <property role="TrG5h" value="condition" />
           </node>
         </node>
+        <node concept="34odk1" id="9jrT7EnpXB" role="1dgzf0">
+          <node concept="2kdhWc" id="9jrT7Enq3a" role="34ocZk">
+            <node concept="727y6" id="9jrT7Enqda" role="3zVzRQ">
+              <ref role="3zVwH8" to="tpck:4uZwTti3__2" resolve="smodelAttribute" />
+            </node>
+            <node concept="30NkWi" id="9jrT7Enq1P" role="2kdhYM">
+              <ref role="XkjO9" node="2YHx85eVisB" resolve="condition" />
+            </node>
+          </node>
+          <node concept="30KbLJ" id="9jrT7EnpF2" role="34ocZn">
+            <property role="TrG5h" value="attribute" />
+          </node>
+        </node>
         <node concept="1waTxd" id="2YHx85eVo$F" role="1dgzf0">
           <node concept="3zV_Rz" id="2YHx85eVo$H" role="3zVECR">
             <node concept="34ocy7" id="2YHx85eVp5F" role="1dgzf0">
@@ -210,14 +226,24 @@
           </node>
         </node>
         <node concept="30Nfyg" id="2YHx85eVnOp" role="1dgzf0">
-          <node concept="30NkWi" id="2YHx85eVnPq" role="30Nf_D">
-            <ref role="XkjO9" node="2YHx85eVisB" resolve="condition" />
+          <node concept="2k1_ex" id="9jrT7EnqpJ" role="30Nf_D">
+            <node concept="30NkWi" id="9jrT7EnqrY" role="3tmOSN">
+              <ref role="XkjO9" node="2YHx85eVisB" resolve="condition" />
+            </node>
+            <node concept="30NkWi" id="9jrT7EnqAX" role="3tmOSN">
+              <ref role="XkjO9" node="9jrT7EnpF2" resolve="attribute" />
+            </node>
           </node>
         </node>
       </node>
       <node concept="3TL$xT" id="2YHx85eVn0P" role="3TLBbI">
         <node concept="2kdjtB" id="2YHx85eVnn2" role="1dukDx">
           <ref role="2UGuZ7" to="ebqt:52HBLukNkpc" resolve="ICondition" />
+        </node>
+      </node>
+      <node concept="3TL$xT" id="9jrT7EnqHx" role="3TLBbI">
+        <node concept="2kdjtB" id="9jrT7EnqZY" role="1dukDx">
+          <ref role="2UGuZ7" to="tpck:4uZwTti3_$T" resolve="Attribute" />
         </node>
       </node>
     </node>
