@@ -5118,14 +5118,34 @@
     <property role="3GE5qa" value="scripts" />
     <node concept="1pplIY" id="39KhnTIh5tL" role="1pqMTA">
       <node concept="3clFbS" id="39KhnTIh5tM" role="2VODD2">
+        <node concept="3cpWs8" id="20ykNUpnT$_" role="3cqZAp">
+          <node concept="3cpWsn" id="20ykNUpnT$A" role="3cpWs9">
+            <property role="TrG5h" value="oldReferences" />
+            <property role="3TUv4t" value="true" />
+            <node concept="_YKpA" id="20ykNUpo9WD" role="1tU5fm">
+              <node concept="3Tqbb2" id="20ykNUpoaA3" role="_ZDj9">
+                <ref role="ehGHo" to="hqsm:39KhnTIfy1V" resolve="BaseVariableReference" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="20ykNUpnT$B" role="33vP2m">
+              <node concept="1Q6Npb" id="20ykNUpnT$C" role="2Oq$k0" />
+              <node concept="2SmgA7" id="20ykNUpnT$D" role="2OqNvi">
+                <node concept="chp4Y" id="20ykNUpnT$E" role="1dBWTz">
+                  <ref role="cht4Q" to="hqsm:39KhnTIfy1V" resolve="BaseVariableReference" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="2Gpval" id="39KhnTIh5tN" role="3cqZAp">
           <node concept="2GrKxI" id="39KhnTIh5tO" role="2Gsz3X">
-            <property role="TrG5h" value="ref" />
+            <property role="TrG5h" value="reference" />
           </node>
           <node concept="3clFbS" id="39KhnTIh5tP" role="2LFqv$">
             <node concept="3cpWs8" id="39KhnTIh5I$" role="3cqZAp">
               <node concept="3cpWsn" id="39KhnTIh5IB" role="3cpWs9">
-                <property role="TrG5h" value="newRef" />
+                <property role="TrG5h" value="newReference" />
+                <property role="3TUv4t" value="true" />
                 <node concept="3Tqbb2" id="39KhnTIh5Iy" role="1tU5fm">
                   <ref role="ehGHo" to="hqsm:1YBYCQ0ZLGM" resolve="VariableReference" />
                 </node>
@@ -5142,7 +5162,7 @@
               <node concept="37vLTI" id="39KhnTIh7Le" role="3clFbG">
                 <node concept="2OqwBi" id="39KhnTIh7Qb" role="37vLTx">
                   <node concept="2GrUjf" id="39KhnTIh7LZ" role="2Oq$k0">
-                    <ref role="2Gs0qQ" node="39KhnTIh5tO" resolve="ref" />
+                    <ref role="2Gs0qQ" node="39KhnTIh5tO" resolve="reference" />
                   </node>
                   <node concept="3TrEf2" id="39KhnTIhbtC" role="2OqNvi">
                     <ref role="3Tt5mk" to="hqsm:39KhnTIfy1W" resolve="variable" />
@@ -5150,7 +5170,7 @@
                 </node>
                 <node concept="2OqwBi" id="39KhnTIh5U$" role="37vLTJ">
                   <node concept="37vLTw" id="39KhnTIh5MR" role="2Oq$k0">
-                    <ref role="3cqZAo" node="39KhnTIh5IB" resolve="newRef" />
+                    <ref role="3cqZAo" node="39KhnTIh5IB" resolve="newReference" />
                   </node>
                   <node concept="3TrEf2" id="7oCdOCUVjfr" role="2OqNvi">
                     <ref role="3Tt5mk" to="hqsm:EE49sRYMQu" resolve="variable" />
@@ -5161,23 +5181,18 @@
             <node concept="3clFbF" id="39KhnTIhf5F" role="3cqZAp">
               <node concept="2OqwBi" id="39KhnTIhf8c" role="3clFbG">
                 <node concept="2GrUjf" id="39KhnTIhf5D" role="2Oq$k0">
-                  <ref role="2Gs0qQ" node="39KhnTIh5tO" resolve="ref" />
+                  <ref role="2Gs0qQ" node="39KhnTIh5tO" resolve="reference" />
                 </node>
                 <node concept="1P9Npp" id="39KhnTIhjc4" role="2OqNvi">
                   <node concept="37vLTw" id="39KhnTIhjdb" role="1P9ThW">
-                    <ref role="3cqZAo" node="39KhnTIh5IB" resolve="newRef" />
+                    <ref role="3cqZAo" node="39KhnTIh5IB" resolve="newReference" />
                   </node>
                 </node>
               </node>
             </node>
           </node>
-          <node concept="2OqwBi" id="39KhnTIh5wL" role="2GsD0m">
-            <node concept="1Q6Npb" id="39KhnTIh5vx" role="2Oq$k0" />
-            <node concept="2SmgA7" id="39KhnTIh5GO" role="2OqNvi">
-              <node concept="chp4Y" id="39KhnTIh5Hq" role="1dBWTz">
-                <ref role="cht4Q" to="hqsm:39KhnTIfy1V" resolve="BaseVariableReference" />
-              </node>
-            </node>
+          <node concept="37vLTw" id="20ykNUpnT$F" role="2GsD0m">
+            <ref role="3cqZAo" node="20ykNUpnT$A" resolve="oldReferences" />
           </node>
         </node>
       </node>

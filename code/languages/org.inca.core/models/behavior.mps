@@ -7457,7 +7457,7 @@
       <node concept="3clFbS" id="4apIOoJHFWT" role="3clF47">
         <node concept="3cpWs6" id="4apIOoJHG01" role="3cqZAp">
           <node concept="Xl_RD" id="4apIOoJHG0n" role="3cqZAk">
-            <property role="Xl_RC" value="no hints are computed" />
+            <property role="Xl_RC" value="hints are not computed" />
           </node>
         </node>
       </node>
@@ -7485,6 +7485,51 @@
     </node>
     <node concept="13hLZK" id="4apIOoJHG1K" role="13h7CW">
       <node concept="3clFbS" id="4apIOoJHG1L" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="20ykNUqEfMj">
+    <property role="3GE5qa" value="type.compileTime" />
+    <ref role="13h7C2" to="hqsm:20ykNUqEfL$" resolve="VoidType" />
+    <node concept="13hLZK" id="20ykNUqEfMk" role="13h7CW">
+      <node concept="3clFbS" id="20ykNUqEfMl" role="2VODD2">
+        <node concept="3clFbH" id="20ykNUqFJiR" role="3cqZAp" />
+      </node>
+    </node>
+    <node concept="13i0hz" id="20ykNUqEfMu" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="asRuntimeType" />
+      <ref role="13i0hy" node="6VTlRjrHmoa" resolve="asRuntimeType" />
+      <node concept="3Tm1VV" id="20ykNUqEfMv" role="1B3o_S" />
+      <node concept="3clFbS" id="20ykNUqEfM$" role="3clF47">
+        <node concept="3cpWs6" id="20ykNUqEfUn" role="3cqZAp">
+          <node concept="2OqwBi" id="20ykNUqEg4q" role="3cqZAk">
+            <node concept="13iPFW" id="20ykNUqEfUJ" role="2Oq$k0" />
+            <node concept="1$rogu" id="20ykNUqEgep" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="20ykNUqEfM_" role="3clF45">
+        <ref role="ehGHo" to="tpck:hYa1RjM" resolve="IType" />
+      </node>
+    </node>
+    <node concept="13i0hz" id="20ykNUqEggr" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="asCompileTimeType" />
+      <ref role="13i0hy" node="aQnmvHEmKm" resolve="asCompileTimeType" />
+      <node concept="3Tm1VV" id="20ykNUqEggs" role="1B3o_S" />
+      <node concept="3clFbS" id="20ykNUqEggx" role="3clF47">
+        <node concept="3cpWs6" id="20ykNUqEgny" role="3cqZAp">
+          <node concept="2OqwBi" id="20ykNUqEgxg" role="3cqZAk">
+            <node concept="13iPFW" id="20ykNUqEgnG" role="2Oq$k0" />
+            <node concept="1$rogu" id="20ykNUqEgH1" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="20ykNUqEggy" role="3clF45">
+        <ref role="ehGHo" to="hqsm:6VTlRjrCuQt" resolve="ICompileTimeIncAType" />
+      </node>
     </node>
   </node>
 </model>

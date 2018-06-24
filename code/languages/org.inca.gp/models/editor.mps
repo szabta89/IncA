@@ -289,9 +289,11 @@
     <property role="3GE5qa" value="content" />
     <ref role="1XX52x" to="55iy:1ERTnBTfavv" resolve="GraphPattern" />
     <node concept="3EZMnI" id="RjyNapPkO9" role="2wV5jI">
-      <node concept="_tjkj" id="2FsPteOLsqo" role="3EZMnx">
-        <node concept="3F1sOY" id="2FsPteOLsra" role="_tjki">
-          <ref role="1NtTu8" to="hqsm:SSjGGIHUFA" resolve="visibility" />
+      <node concept="1kIj98" id="7EAjQ1EtlwO" role="3EZMnx">
+        <node concept="_tjkj" id="2FsPteOLsqo" role="1kIj9b">
+          <node concept="3F1sOY" id="2FsPteOLsra" role="_tjki">
+            <ref role="1NtTu8" to="hqsm:SSjGGIHUFA" resolve="visibility" />
+          </node>
         </node>
       </node>
       <node concept="3F0ifn" id="RjyNapPkOg" role="3EZMnx">

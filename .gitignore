@@ -1,5 +1,6 @@
 classes_gen
 source_gen
+jimple_gen
 source_gen.caches
 test_gen.caches
 workspace.xml

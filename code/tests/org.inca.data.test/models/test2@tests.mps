@@ -180,7 +180,7 @@
   </registry>
   <node concept="1lH9Xt" id="6AFedOHG9vL">
     <property role="TrG5h" value="InitializedVariablesTest_FI" />
-    <property role="3GE5qa" value="uninit" />
+    <property role="3GE5qa" value="" />
     <node concept="1qefOq" id="7iCDZEf23$T" role="1SKRRt">
       <node concept="312cEu" id="7iCDZEf23_5" role="1qenE9">
         <property role="TrG5h" value="TestClass" />
@@ -367,7 +367,7 @@
   </node>
   <node concept="1lH9Xt" id="7iCDZEf259f">
     <property role="TrG5h" value="InitializedVariablesTest_FS" />
-    <property role="3GE5qa" value="uninit" />
+    <property role="3GE5qa" value="" />
     <node concept="1qefOq" id="7iCDZEf259g" role="1SKRRt">
       <node concept="312cEu" id="7iCDZEf259h" role="1qenE9">
         <property role="TrG5h" value="TestClass" />
@@ -590,7 +590,7 @@
   </node>
   <node concept="1lH9Xt" id="7iCDZEf25PC">
     <property role="TrG5h" value="InitializedVariablesTest_LAT" />
-    <property role="3GE5qa" value="uninit" />
+    <property role="3GE5qa" value="" />
     <node concept="1qefOq" id="7iCDZEf25PD" role="1SKRRt">
       <node concept="312cEu" id="7iCDZEf25PE" role="1qenE9">
         <property role="TrG5h" value="TestClass" />

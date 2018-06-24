@@ -4226,5 +4226,17 @@
       <ref role="ehGHo" to="hqsm:3VwoHXNAdmh" resolve="IPattern" />
     </node>
   </node>
+  <node concept="24kQdi" id="20ykNUqEfLK">
+    <property role="3GE5qa" value="type.compileTime" />
+    <ref role="1XX52x" to="hqsm:20ykNUqEfL$" resolve="VoidType" />
+    <node concept="PMmxH" id="20ykNUqEfLQ" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      <ref role="1k5W1q" to="3sc9:2CEi94dgHKA" resolve="KeyWord" />
+    </node>
+  </node>
+  <node concept="3p36aQ" id="20ykNUqEfMi">
+    <property role="3GE5qa" value="type.compileTime" />
+    <ref role="aqKnT" to="hqsm:20ykNUqEfL$" resolve="VoidType" />
+  </node>
 </model>
 
