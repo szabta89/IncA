@@ -9,6 +9,7 @@
     <import index="hqsm" ref="r:aa4c3470-43ab-4dad-b73e-20da0ee43be1(org.inca.core.structure)" />
     <import index="55iy" ref="r:6bb35df6-a651-4174-a533-ca7006eccec8(org.inca.gp.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
@@ -627,6 +628,154 @@
       <node concept="trNpa" id="3I_3247nl1R" role="EQaZv">
         <ref role="trN6q" to="hqsm:3VwoHXNAdmh" resolve="IPattern" />
       </node>
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6fy2FM6rbXp">
+    <property role="EcuMT" value="7197326959316877145" />
+    <property role="TrG5h" value="MatchStatement" />
+    <property role="34LRSv" value="match" />
+    <property role="3GE5qa" value="statement.match" />
+    <property role="R4oN_" value="pattern matching statement" />
+    <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
+    <node concept="1TJgyj" id="6fy2FM6svyl" role="1TKVEi">
+      <property role="IQ2ns" value="7197326959317219477" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="expressions" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="1i65yRAQ7jk" resolve="IExpression" />
+    </node>
+    <node concept="1TJgyj" id="6fy2FM6rc9K" role="1TKVEi">
+      <property role="IQ2ns" value="7197326959316877936" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="cases" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="6fy2FM6rcqH" resolve="MatchCase" />
+    </node>
+    <node concept="PrWs8" id="7Hs6JnWywAP" role="PzmwI">
+      <ref role="PrY4T" node="5luHlsCq70i" resolve="IStatement" />
+    </node>
+    <node concept="PrWs8" id="7Hs6JnWywAZ" role="PzmwI">
+      <ref role="PrY4T" node="7y$TCdXqclu" resolve="IReturnContainer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6fy2FM6rcqH">
+    <property role="EcuMT" value="7197326959316879021" />
+    <property role="TrG5h" value="MatchCase" />
+    <property role="34LRSv" value="case" />
+    <property role="R4oN_" value="case" />
+    <property role="3GE5qa" value="statement.match" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="6fy2FM6sD9o" role="1TKVEi">
+      <property role="IQ2ns" value="7197326959317258840" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="patterns" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="6fy2FM6rcqL" resolve="IMatchPattern" />
+    </node>
+    <node concept="PrWs8" id="7Hs6JnX7cw7" role="PzmwI">
+      <ref role="PrY4T" to="hqsm:7Hs6JnX5qmV" resolve="IVariableBinder" />
+    </node>
+    <node concept="PrWs8" id="2RafZtbZvV4" role="PzmwI">
+      <ref role="PrY4T" to="hqsm:3VwoHXNAdvt" resolve="IPatternBody" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="6fy2FM6rcqL">
+    <property role="EcuMT" value="7197326959316879025" />
+    <property role="TrG5h" value="IMatchPattern" />
+    <property role="3GE5qa" value="statement.match" />
+  </node>
+  <node concept="1TIwiD" id="6fy2FM6sD96">
+    <property role="EcuMT" value="7197326959317258822" />
+    <property role="TrG5h" value="StringPattern" />
+    <property role="3GE5qa" value="statement.match" />
+    <property role="34LRSv" value="&quot;" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="7Hs6JnWyxpP" role="PzmwI">
+      <ref role="PrY4T" node="6fy2FM6rcqL" resolve="IMatchPattern" />
+    </node>
+    <node concept="1TJgyi" id="2RafZtc4hzX" role="1TKVEl">
+      <property role="IQ2nx" value="3299520008367970557" />
+      <property role="TrG5h" value="literal" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7Hs6JnWyxN4">
+    <property role="EcuMT" value="8889009408328735940" />
+    <property role="3GE5qa" value="statement.match" />
+    <property role="TrG5h" value="PatternVariable" />
+    <ref role="1TJDcQ" to="hqsm:6L84cjtSlH$" resolve="TemporaryVariable" />
+    <node concept="PrWs8" id="7Hs6JnWyxNs" role="PzmwI">
+      <ref role="PrY4T" node="6fy2FM6rcqL" resolve="IMatchPattern" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7Hs6JnWyxNk">
+    <property role="EcuMT" value="8889009408328735956" />
+    <property role="3GE5qa" value="statement.match" />
+    <property role="TrG5h" value="NodePattern" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7Hs6JnWyxNB" role="1TKVEi">
+      <property role="IQ2ns" value="8889009408328735975" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="type" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="hqsm:RjyNapTFLl" resolve="ConceptReferenceType" />
+    </node>
+    <node concept="1TJgyj" id="7Hs6JnWyxNE" role="1TKVEi">
+      <property role="IQ2ns" value="8889009408328735978" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="bindings" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="69yn6_DNapv" resolve="NodePatternBinding" />
+    </node>
+    <node concept="PrWs8" id="7Hs6JnWyxN$" role="PzmwI">
+      <ref role="PrY4T" node="6fy2FM6rcqL" resolve="IMatchPattern" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="69yn6_DNapv">
+    <property role="EcuMT" value="7089330371250923103" />
+    <property role="3GE5qa" value="statement.match" />
+    <property role="TrG5h" value="NodePatternBinding" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1ERTnBTmuSL" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="interfacePart" />
+      <property role="20lbJX" value="1" />
+      <property role="IQ2ns" value="1925259677761400369" />
+      <ref role="20lvS9" to="tpck:19gBtYEAf4C" resolve="InterfacePart" />
+    </node>
+    <node concept="1TJgyj" id="69yn6_DNapy" role="1TKVEi">
+      <property role="IQ2ns" value="7089330371250923106" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="pattern" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6fy2FM6rcqL" resolve="IMatchPattern" />
+    </node>
+    <node concept="PrWs8" id="69yn6_EyFeC" role="PzmwI">
+      <ref role="PrY4T" to="hqsm:1i65yRATv5I" resolve="ITypeConstraintProvider" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2RafZtc4hzV">
+    <property role="EcuMT" value="3299520008367970555" />
+    <property role="TrG5h" value="WildCardPattern" />
+    <property role="34LRSv" value="_" />
+    <property role="3GE5qa" value="statement.match" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="2RafZtc4hzW" role="PzmwI">
+      <ref role="PrY4T" node="6fy2FM6rcqL" resolve="IMatchPattern" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2RafZtcgx9y">
+    <property role="EcuMT" value="3299520008371180130" />
+    <property role="TrG5h" value="IntPattern" />
+    <property role="3GE5qa" value="statement.match" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="2RafZtcgx9z" role="PzmwI">
+      <ref role="PrY4T" node="6fy2FM6rcqL" resolve="IMatchPattern" />
+    </node>
+    <node concept="1TJgyi" id="2RafZtcgx9$" role="1TKVEl">
+      <property role="IQ2nx" value="3299520008371180132" />
+      <property role="TrG5h" value="literal" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
 </model>

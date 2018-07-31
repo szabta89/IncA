@@ -114,6 +114,9 @@
     <node concept="PrWs8" id="eMPHaLt70u" role="PrDN$">
       <ref role="PrY4T" to="tpee:hOIEacT" resolve="IBLDeprecatable" />
     </node>
+    <node concept="PrWs8" id="7Hs6JnX5rZV" role="PrDN$">
+      <ref role="PrY4T" node="7Hs6JnX5qmV" resolve="IVariableBinder" />
+    </node>
   </node>
   <node concept="PlHQZ" id="3VwoHXNAdmi">
     <property role="TrG5h" value="IVariable" />
@@ -1444,6 +1447,11 @@
     <node concept="PrWs8" id="20ykNUqEggl" role="PzmwI">
       <ref role="PrY4T" node="aQnmvHEm_S" resolve="IRuntimeIncAType" />
     </node>
+  </node>
+  <node concept="PlHQZ" id="7Hs6JnX5qmV">
+    <property role="EcuMT" value="8889009408337880507" />
+    <property role="3GE5qa" value="content" />
+    <property role="TrG5h" value="IVariableBinder" />
   </node>
 </model>
 

@@ -379,6 +379,8 @@
       <concept id="1237909114519" name="jetbrains.mps.baseLanguage.collections.structure.GetValuesOperation" flags="nn" index="T8wYR" />
       <concept id="1160600644654" name="jetbrains.mps.baseLanguage.collections.structure.ListCreatorWithInit" flags="nn" index="Tc6Ow" />
       <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
+      <concept id="1160666733551" name="jetbrains.mps.baseLanguage.collections.structure.AddAllElementsOperation" flags="nn" index="X8dFx" />
+      <concept id="1240217271293" name="jetbrains.mps.baseLanguage.collections.structure.LinkedHashSetCreator" flags="nn" index="32HrFt" />
       <concept id="1162934736510" name="jetbrains.mps.baseLanguage.collections.structure.GetElementOperation" flags="nn" index="34jXtK" />
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1197683403723" name="jetbrains.mps.baseLanguage.collections.structure.MapType" flags="in" index="3rvAFt">
@@ -757,6 +759,85 @@
       <node concept="A3Dl8" id="4mUOCOhDuBo" role="3clF45">
         <node concept="3Tqbb2" id="4mUOCOhDuBt" role="A3Ik2">
           <ref role="ehGHo" to="hqsm:4IZiQsKumaj" resolve="IParameter" />
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="7Hs6JnX5szj" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="boundVariables" />
+      <ref role="13i0hy" node="7Hs6JnX5qn7" resolve="boundVariables" />
+      <node concept="3Tm1VV" id="7Hs6JnX5szk" role="1B3o_S" />
+      <node concept="3clFbS" id="7Hs6JnX5szo" role="3clF47">
+        <node concept="3clFbF" id="7Hs6JnX5tzc" role="3cqZAp">
+          <node concept="BsUDl" id="7Hs6JnX5tzb" role="3clFbG">
+            <ref role="37wK5l" node="3VwoHXO8zzZ" resolve="getInParameters" />
+          </node>
+        </node>
+      </node>
+      <node concept="A3Dl8" id="7Hs6JnX5szp" role="3clF45">
+        <node concept="3Tqbb2" id="7Hs6JnX5szq" role="A3Ik2">
+          <ref role="ehGHo" to="hqsm:3VwoHXNAdmi" resolve="IVariable" />
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="7Hs6JnX5u5i" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="boundVariablesForTransientModel" />
+      <ref role="13i0hy" node="7Hs6JnX5rJl" resolve="boundVariablesForTransientModel" />
+      <node concept="3Tm1VV" id="7Hs6JnX5u5j" role="1B3o_S" />
+      <node concept="3clFbS" id="7Hs6JnX5u5n" role="3clF47">
+        <node concept="3cpWs8" id="5LLe7EhFBEb" role="3cqZAp">
+          <node concept="3cpWsn" id="5LLe7EhFBEc" role="3cpWs9">
+            <property role="TrG5h" value="variables" />
+            <node concept="2hMVRd" id="2Js88U4oOhn" role="1tU5fm">
+              <node concept="3Tqbb2" id="5LLe7EhFBEe" role="2hN53Y">
+                <ref role="ehGHo" to="hqsm:3VwoHXNAdmi" resolve="IVariable" />
+              </node>
+            </node>
+            <node concept="2ShNRf" id="2Js88U4oSTk" role="33vP2m">
+              <node concept="32HrFt" id="2Js88U4oRDu" role="2ShVmc">
+                <node concept="3Tqbb2" id="2Js88U4oRDv" role="HW$YZ">
+                  <ref role="ehGHo" to="hqsm:3VwoHXNAdmi" resolve="IVariable" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7Hs6JnX5xPf" role="3cqZAp">
+          <node concept="2OqwBi" id="7Hs6JnX5yDp" role="3clFbG">
+            <node concept="37vLTw" id="7Hs6JnX5xPd" role="2Oq$k0">
+              <ref role="3cqZAo" node="5LLe7EhFBEc" resolve="variables" />
+            </node>
+            <node concept="X8dFx" id="7Hs6JnX5IsW" role="2OqNvi">
+              <node concept="BsUDl" id="7Hs6JnX5Jd9" role="25WWJ7">
+                <ref role="37wK5l" node="3VwoHXO8zzZ" resolve="getInParameters" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7Hs6JnX5zIn" role="3cqZAp">
+          <node concept="2OqwBi" id="7Hs6JnX5$$F" role="3clFbG">
+            <node concept="37vLTw" id="7Hs6JnX5zIl" role="2Oq$k0">
+              <ref role="3cqZAo" node="5LLe7EhFBEc" resolve="variables" />
+            </node>
+            <node concept="X8dFx" id="7Hs6JnX5L$4" role="2OqNvi">
+              <node concept="BsUDl" id="7Hs6JnX5MCb" role="25WWJ7">
+                <ref role="37wK5l" node="4mUOCOhDuui" resolve="getOutParameters" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7Hs6JnX5_G_" role="3cqZAp">
+          <node concept="37vLTw" id="7Hs6JnX5_Gz" role="3clFbG">
+            <ref role="3cqZAo" node="5LLe7EhFBEc" resolve="variables" />
+          </node>
+        </node>
+      </node>
+      <node concept="A3Dl8" id="7Hs6JnX5u5o" role="3clF45">
+        <node concept="3Tqbb2" id="7Hs6JnX5u5p" role="A3Ik2">
+          <ref role="ehGHo" to="hqsm:3VwoHXNAdmi" resolve="IVariable" />
         </node>
       </node>
     </node>
@@ -7530,6 +7611,37 @@
       <node concept="3Tqbb2" id="20ykNUqEggy" role="3clF45">
         <ref role="ehGHo" to="hqsm:6VTlRjrCuQt" resolve="ICompileTimeIncAType" />
       </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="7Hs6JnX5qmW">
+    <property role="3GE5qa" value="content" />
+    <ref role="13h7C2" to="hqsm:7Hs6JnX5qmV" resolve="IVariableBinder" />
+    <node concept="13i0hz" id="7Hs6JnX5qn7" role="13h7CS">
+      <property role="13i0iv" value="true" />
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="boundVariables" />
+      <node concept="3Tm1VV" id="7Hs6JnX5qn8" role="1B3o_S" />
+      <node concept="3clFbS" id="7Hs6JnX5qna" role="3clF47" />
+      <node concept="A3Dl8" id="7Hs6JnX5qYU" role="3clF45">
+        <node concept="3Tqbb2" id="7Hs6JnX5qYV" role="A3Ik2">
+          <ref role="ehGHo" to="hqsm:3VwoHXNAdmi" resolve="IVariable" />
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="7Hs6JnX5rJl" role="13h7CS">
+      <property role="13i0iv" value="true" />
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="boundVariablesForTransientModel" />
+      <node concept="3Tm1VV" id="7Hs6JnX5rJm" role="1B3o_S" />
+      <node concept="A3Dl8" id="7Hs6JnX5rOk" role="3clF45">
+        <node concept="3Tqbb2" id="7Hs6JnX5rOz" role="A3Ik2">
+          <ref role="ehGHo" to="hqsm:3VwoHXNAdmi" resolve="IVariable" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="7Hs6JnX5rJo" role="3clF47" />
+    </node>
+    <node concept="13hLZK" id="7Hs6JnX5qmX" role="13h7CW">
+      <node concept="3clFbS" id="7Hs6JnX5qmY" role="2VODD2" />
     </node>
   </node>
 </model>
