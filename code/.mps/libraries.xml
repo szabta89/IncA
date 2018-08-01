@@ -6,7 +6,7 @@
           <value>
             <Library>
               <option name='name' value='mbeddr.build' />
-              <option name='path' value='${mbeddr.github.core.home}/code/languages/com.mbeddr.build' />
+              <option name='path' value='$PROJECT_DIR$/../artifacts/com.mbeddr.allScripts' />
             </Library>
           </value>
         </entry>
@@ -14,15 +14,7 @@
           <value>
             <Library>
               <option name='name' value='mbeddr.mpsutil' />
-              <option name='path' value='${mbeddr.github.core.home}/code/languages/com.mbeddr.mpsutil' />
-            </Library>
-          </value>
-        </entry>
-        <entry key='mps.extensions'>
-          <value>
-            <Library>
-              <option name='name' value='mps.extensions' />
-              <option name='path' value='${mps.extensions.github.core.home}/code' />
+              <option name='path' value='$PROJECT_DIR$/../artifacts/com.mbeddr.platform' />
             </Library>
           </value>
         </entry>

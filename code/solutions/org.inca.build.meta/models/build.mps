@@ -8,7 +8,7 @@
   <imports>
     <import index="al5i" ref="r:742f344d-4dc4-4862-992c-4bc94b094870(com.mbeddr.mpsutil.dev.build)" />
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
-    <import index="90a9" ref="r:fb24ac52-5985-4947-bba9-25be6fd32c1a(de.slisson.mps.all.build)" />
+    <import index="90a9" ref="r:fb24ac52-5985-4947-bba9-25be6fd32c1a(de.itemis.mps.extensions.build)" />
   </imports>
   <registry>
     <language id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build">
@@ -241,7 +241,7 @@
         <node concept="1SiIV0" id="3ZVm2locOy$" role="3bR37C">
           <node concept="3bR9La" id="3ZVm2locOy_" role="1SiIV1">
             <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="90a9:PE3B26VOkn" resolve="de.slisson.mps.all.build" />
+            <ref role="3bR37D" to="90a9:PE3B26VOkn" resolve="de.itemis.mps.extensions.build" />
           </node>
         </node>
       </node>

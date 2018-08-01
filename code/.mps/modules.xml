@@ -7,6 +7,7 @@
       <modulePath path="$PROJECT_DIR$/languages/org.inca.data/org.inca.data.mpl" folder="data" />
       <modulePath path="$PROJECT_DIR$/languages/org.inca.fun/org.inca.fun.mpl" folder="core" />
       <modulePath path="$PROJECT_DIR$/languages/org.inca.gp/org.inca.gp.mpl" folder="core" />
+      <modulePath path="$PROJECT_DIR$/languages/org.inca.matching/org.inca.matching.mpl" folder="core" />
       <modulePath path="$PROJECT_DIR$/languages/org.inca.meta.analysis.impact/org.inca.meta.analysis.impact.mpl" folder="meta" />
       <modulePath path="$PROJECT_DIR$/languages/org.inca.styles/org.inca.styles.mpl" folder="style" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.mpsutil.soot.runtime/com.mbeddr.mpsutil.soot.runtime.msd" folder="soot" />
