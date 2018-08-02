@@ -198,5 +198,28 @@
       <ref role="PrY4T" node="6fy2FM6rcqL" resolve="IMatchPattern" />
     </node>
   </node>
+  <node concept="1TIwiD" id="5jddR$DhDKJ">
+    <property role="EcuMT" value="6110601262934694959" />
+    <property role="3GE5qa" value="statement.match" />
+    <property role="TrG5h" value="NamedPattern" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="5jddR$Dk5XW" role="1TKVEi">
+      <property role="IQ2ns" value="6110601262935334780" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="var" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7Hs6JnWyxN4" resolve="PatternVariable" />
+    </node>
+    <node concept="PrWs8" id="5jddR$DhDKK" role="PzmwI">
+      <ref role="PrY4T" node="6fy2FM6rcqL" resolve="IMatchPattern" />
+    </node>
+    <node concept="1TJgyj" id="5jddR$DhDKZ" role="1TKVEi">
+      <property role="IQ2ns" value="6110601262934694975" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="pattern" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6fy2FM6rcqL" resolve="IMatchPattern" />
+    </node>
+  </node>
 </model>
 
