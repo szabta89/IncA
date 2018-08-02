@@ -64,7 +64,7 @@
     <node concept="1TJgyi" id="2RafZtcgx9$" role="1TKVEl">
       <property role="IQ2nx" value="3299520008371180132" />
       <property role="TrG5h" value="literal" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
   <node concept="1TIwiD" id="6fy2FM6rcqH">

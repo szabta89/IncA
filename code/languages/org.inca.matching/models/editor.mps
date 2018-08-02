@@ -48,6 +48,9 @@
       <concept id="1216308599511" name="jetbrains.mps.lang.editor.structure.PositionStyleClassItem" flags="ln" index="LD5Jc">
         <property id="1216308761668" name="position" index="LDHlv" />
       </concept>
+      <concept id="1078939183254" name="jetbrains.mps.lang.editor.structure.CellModel_Component" flags="sg" stub="3162947552742194261" index="PMmxH">
+        <reference id="1078939183255" name="editorComponent" index="PMmxG" />
+      </concept>
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
         <child id="1223387335081" name="query" index="3n$kyP" />
@@ -750,25 +753,34 @@
   <node concept="24kQdi" id="2RafZtc4hEp">
     <property role="3GE5qa" value="statement.match" />
     <ref role="1XX52x" to="z9af:6fy2FM6sD96" resolve="StringPattern" />
-    <node concept="3EZMnI" id="2RafZtc4hEH" role="2wV5jI">
-      <ref role="1k5W1q" to="tpen:hgVSdfU" resolve="StringLiteral" />
-      <node concept="3F0ifn" id="2RafZtc4hER" role="3EZMnx">
-        <property role="3F0ifm" value="&quot;" />
-        <node concept="11LMrY" id="2RafZtcbLd$" role="3F10Kt">
-          <property role="VOm3f" value="true" />
+    <node concept="1kIj98" id="5jddR$Dd7A$" role="2wV5jI">
+      <node concept="3EZMnI" id="2RafZtc4hEH" role="1kIj9b">
+        <ref role="1k5W1q" to="tpen:hgVSdfU" resolve="StringLiteral" />
+        <node concept="3F0ifn" id="2RafZtc4hER" role="3EZMnx">
+          <property role="3F0ifm" value="&quot;" />
+          <node concept="11LMrY" id="2RafZtcbLd$" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="2RafZtc4hFl" role="3EZMnx">
+          <property role="39s7Ar" value="true" />
+          <ref role="1NtTu8" to="z9af:2RafZtc4hzX" resolve="literal" />
+        </node>
+        <node concept="2iRfu4" id="2RafZtc4hEK" role="2iSdaV" />
+        <node concept="3F0ifn" id="2RafZtc4hF0" role="3EZMnx">
+          <property role="3F0ifm" value="&quot;" />
+          <node concept="11L4FC" id="2RafZtcbLdE" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
         </node>
       </node>
-      <node concept="3F0A7n" id="2RafZtc4hFl" role="3EZMnx">
-        <property role="39s7Ar" value="true" />
-        <ref role="1NtTu8" to="z9af:2RafZtc4hzX" resolve="literal" />
-      </node>
-      <node concept="2iRfu4" id="2RafZtc4hEK" role="2iSdaV" />
-      <node concept="3F0ifn" id="2RafZtc4hF0" role="3EZMnx">
-        <property role="3F0ifm" value="&quot;" />
-        <node concept="11L4FC" id="2RafZtcbLdE" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="5jddR$Dczpq">
+    <property role="3GE5qa" value="statement.match" />
+    <ref role="1XX52x" to="z9af:2RafZtc4hzV" resolve="WildCardPattern" />
+    <node concept="PMmxH" id="5jddR$Dczps" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
     </node>
   </node>
 </model>
