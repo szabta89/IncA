@@ -169,6 +169,9 @@
     <node concept="PrWs8" id="7Hs6JnWyxNs" role="PzmwI">
       <ref role="PrY4T" node="6fy2FM6rcqL" resolve="IMatchPattern" />
     </node>
+    <node concept="PrWs8" id="6zWr6F6$Klh" role="PzmwI">
+      <ref role="PrY4T" to="hqsm:6zWr6F6$Kl1" resolve="IVariableWithDeclaredType" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6fy2FM6sD96">
     <property role="EcuMT" value="7197326959317258822" />

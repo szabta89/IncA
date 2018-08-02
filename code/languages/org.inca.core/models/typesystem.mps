@@ -2646,8 +2646,8 @@
               <ref role="3cqZAo" node="1ThF9Cw2W5w" resolve="variable" />
             </node>
             <node concept="1mIQ4w" id="7oCdOCUU7jh" role="2OqNvi">
-              <node concept="chp4Y" id="7oCdOCUU7j$" role="cj9EA">
-                <ref role="cht4Q" to="hqsm:4IZiQsKumaj" resolve="IParameter" />
+              <node concept="chp4Y" id="6zWr6F6$Lo2" role="cj9EA">
+                <ref role="cht4Q" to="hqsm:6zWr6F6$Kl1" resolve="IVariableWithDeclaredType" />
               </node>
             </node>
           </node>

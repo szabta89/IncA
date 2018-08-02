@@ -862,6 +862,9 @@
     <node concept="PrWs8" id="eMPHaLt9GV" role="PrDN$">
       <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />
     </node>
+    <node concept="PrWs8" id="6zWr6F6$Kly" role="PrDN$">
+      <ref role="PrY4T" node="6zWr6F6$Kl1" resolve="IVariableWithDeclaredType" />
+    </node>
   </node>
   <node concept="1TIwiD" id="4mUOCOhB$ib">
     <property role="TrG5h" value="IPatternComment" />
@@ -1452,6 +1455,14 @@
     <property role="EcuMT" value="8889009408337880507" />
     <property role="3GE5qa" value="content" />
     <property role="TrG5h" value="IVariableBinder" />
+  </node>
+  <node concept="PlHQZ" id="6zWr6F6$Kl1">
+    <property role="EcuMT" value="7565040679929447745" />
+    <property role="3GE5qa" value="content" />
+    <property role="TrG5h" value="IVariableWithDeclaredType" />
+    <node concept="PrWs8" id="6zWr6F6$Kl2" role="PrDN$">
+      <ref role="PrY4T" node="3VwoHXNAdmi" resolve="IVariable" />
+    </node>
   </node>
 </model>
 
