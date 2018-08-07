@@ -635,12 +635,11 @@
     <property role="3GE5qa" value="statement" />
     <property role="TrG5h" value="StatementList" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="6jigiXceGkR" role="1TKVEi">
-      <property role="IQ2ns" value="7264940820300219703" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="contents" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" to="hqsm:3VwoHXNAdvs" resolve="IPatternBodyContent" />
+    <node concept="PrWs8" id="6k2In$Gt_9a" role="PzmwI">
+      <ref role="PrY4T" to="hqsm:1i65yRATv5I" resolve="ITypeConstraintProvider" />
+    </node>
+    <node concept="PrWs8" id="6k2In$Gzp8f" role="PzmwI">
+      <ref role="PrY4T" to="hqsm:3VwoHXNAdvt" resolve="IPatternBody" />
     </node>
   </node>
 </model>
