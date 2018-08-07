@@ -1038,5 +1038,67 @@
       </node>
     </node>
   </node>
+  <node concept="1YbPZF" id="6k2In$GnFpt">
+    <property role="TrG5h" value="typeof_IfStatement" />
+    <property role="3GE5qa" value="statement.if" />
+    <node concept="3clFbS" id="6k2In$GnFpu" role="18ibNy">
+      <node concept="1Z5TYs" id="6k2In$GnGGi" role="3cqZAp">
+        <node concept="mw_s8" id="6k2In$GnGGQ" role="1ZfhKB">
+          <node concept="2pJPEk" id="6k2In$GnGGM" role="mwGJk">
+            <node concept="2pJPED" id="6k2In$GnGH4" role="2pJPEn">
+              <ref role="2pJxaS" to="tpee:f_0P_4Y" resolve="BooleanType" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="6k2In$GnGGl" role="1ZfhK$">
+          <node concept="1Z2H0r" id="6k2In$GnFp$" role="mwGJk">
+            <node concept="2OqwBi" id="6k2In$GnFB2" role="1Z2MuG">
+              <node concept="1YBJjd" id="6k2In$GnFrp" role="2Oq$k0">
+                <ref role="1YBMHb" node="6k2In$GnFpw" resolve="ifStatement" />
+              </node>
+              <node concept="3TrEf2" id="6k2In$GnFRa" role="2OqNvi">
+                <ref role="3Tt5mk" to="z9af:6jigiXcjSKc" resolve="condition" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6k2In$GnFpw" role="1YuTPh">
+      <property role="TrG5h" value="ifStatement" />
+      <ref role="1YaFvo" to="z9af:6jigiXcjSK9" resolve="IfStatement" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="6k2In$GnJwD">
+    <property role="TrG5h" value="typeof_ElseIfClause" />
+    <property role="3GE5qa" value="statement.if" />
+    <node concept="3clFbS" id="6k2In$GnJwE" role="18ibNy">
+      <node concept="1Z5TYs" id="6k2In$GnKF_" role="3cqZAp">
+        <node concept="mw_s8" id="6k2In$GnKG9" role="1ZfhKB">
+          <node concept="2pJPEk" id="6k2In$GnKG5" role="mwGJk">
+            <node concept="2pJPED" id="6k2In$GnKGn" role="2pJPEn">
+              <ref role="2pJxaS" to="tpee:f_0P_4Y" resolve="BooleanType" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="6k2In$GnKFC" role="1ZfhK$">
+          <node concept="1Z2H0r" id="6k2In$GnJwK" role="mwGJk">
+            <node concept="2OqwBi" id="6k2In$GnJFr" role="1Z2MuG">
+              <node concept="1YBJjd" id="6k2In$GnJy_" role="2Oq$k0">
+                <ref role="1YBMHb" node="6k2In$GnJwG" resolve="elseIfClause" />
+              </node>
+              <node concept="3TrEf2" id="6k2In$GnJPz" role="2OqNvi">
+                <ref role="3Tt5mk" to="z9af:5jddR$DCoUF" resolve="condition" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6k2In$GnJwG" role="1YuTPh">
+      <property role="TrG5h" value="elseIfClause" />
+      <ref role="1YaFvo" to="z9af:5jddR$DCoUE" resolve="ElseIfClause" />
+    </node>
+  </node>
 </model>
 
