@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:3ab68c7d-3ea1-4ceb-b2ae-a6d6a1dd50b1(org.inca.matching.typesystem)">
+<model ref="r:3ab68c7d-3ea1-4ceb-b2ae-a6d6a1dd50b1(org.inca.extensions.typesystem)">
   <persistence version="9" />
   <languages>
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="1" />
@@ -11,10 +11,10 @@
     <devkit ref="00000000-0000-4000-0000-1de82b3a4936(jetbrains.mps.devkit.aspect.typesystem)" />
   </languages>
   <imports>
-    <import index="z9af" ref="r:92efe085-3295-42c0-bd7e-2ea049fae522(org.inca.matching.structure)" />
+    <import index="z9af" ref="r:92efe085-3295-42c0-bd7e-2ea049fae522(org.inca.extensions.structure)" />
     <import index="hqsm" ref="r:aa4c3470-43ab-4dad-b73e-20da0ee43be1(org.inca.core.structure)" />
     <import index="gcg1" ref="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.inca.core.behavior)" />
-    <import index="ymd4" ref="r:c4bc4036-a012-47e9-af12-a473e8eaa614(org.inca.matching.behavior)" />
+    <import index="ymd4" ref="r:c4bc4036-a012-47e9-af12-a473e8eaa614(org.inca.extensions.behavior)" />
     <import index="4hto" ref="r:57e36c77-4854-4a58-b799-163b27d24428(org.inca.core.typesystem)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="ebqt" ref="r:17207093-9cf4-4f01-9c48-e6e0146d6087(org.inca.fun.structure)" />

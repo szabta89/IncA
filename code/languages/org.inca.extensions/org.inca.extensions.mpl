@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="org.inca.matching" uuid="3a1c1f85-c745-4d04-a210-f97a7e31f9cc" languageVersion="0" moduleVersion="0">
+<language namespace="org.inca.extensions" uuid="3a1c1f85-c745-4d04-a210-f97a7e31f9cc" languageVersion="0" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -7,7 +7,7 @@
   </models>
   <accessoryModels />
   <generators>
-    <generator alias="" namespace="org.inca.matching#01" uuid="ffdbca37-b97f-439c-8366-148d3b8b6c53">
+    <generator alias="" namespace="org.inca.extensions#01" uuid="ffdbca37-b97f-439c-8366-148d3b8b6c53">
       <models>
         <modelRoot contentPath="${module}/generator/template" type="default">
           <sourceRoot location="." />
@@ -22,7 +22,6 @@
         <dependency reexport="false">cd2909da-ecb4-49dc-b176-33e5c619e516(org.inca.gp)</dependency>
       </dependencies>
       <languageVersions>
-        <language slang="l:4f0197ca-971d-45b6-82d7-0a2bf8511267:com.mbeddr.mpsutil.soot" version="0" />
         <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="6" />
         <language slang="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" version="0" />
         <language slang="l:83888646-71ce-4f1c-9c53-c54016f6ad4f:jetbrains.mps.baseLanguage.collections" version="0" />
@@ -65,17 +64,17 @@
         <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
         <module reference="b802a056-92a2-4fbc-902e-f8e5004c331f(org.inca.core)" version="0" />
         <module reference="bc791f96-4749-4311-a6e4-241e47ca97f9(org.inca.core.util)" version="0" />
+        <module reference="3a1c1f85-c745-4d04-a210-f97a7e31f9cc(org.inca.extensions)" version="0" />
+        <module reference="ffdbca37-b97f-439c-8366-148d3b8b6c53(org.inca.extensions#01)" version="0" />
         <module reference="8c9a2720-9d21-4370-a226-819eb3e76e1e(org.inca.fun)" version="0" />
         <module reference="8f5e7b65-fd75-4aa6-b49e-44ecf418fcb5(org.inca.fun#4530729936991344015)" version="0" />
         <module reference="cd2909da-ecb4-49dc-b176-33e5c619e516(org.inca.gp)" version="0" />
-        <module reference="3a1c1f85-c745-4d04-a210-f97a7e31f9cc(org.inca.matching)" version="0" />
-        <module reference="ffdbca37-b97f-439c-8366-148d3b8b6c53(org.inca.matching#01)" version="0" />
         <module reference="f5ee8e88-9527-4830-8337-ea0b6bc93131(org.inca.matching.util)" version="0" />
       </dependencyVersions>
       <mapping-priorities>
         <mapping-priority-rule kind="strictly_before">
           <greater-priority-mapping>
-            <generator generatorUID="ffdbca37-b97f-439c-8366-148d3b8b6c53(org.inca.matching#01)" />
+            <generator generatorUID="ffdbca37-b97f-439c-8366-148d3b8b6c53(org.inca.extensions#01)" />
             <external-mapping>
               <all-local-mappings />
             </external-mapping>
@@ -144,9 +143,9 @@
     <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
     <module reference="b802a056-92a2-4fbc-902e-f8e5004c331f(org.inca.core)" version="0" />
     <module reference="bc791f96-4749-4311-a6e4-241e47ca97f9(org.inca.core.util)" version="0" />
+    <module reference="3a1c1f85-c745-4d04-a210-f97a7e31f9cc(org.inca.extensions)" version="0" />
     <module reference="8c9a2720-9d21-4370-a226-819eb3e76e1e(org.inca.fun)" version="0" />
     <module reference="cd2909da-ecb4-49dc-b176-33e5c619e516(org.inca.gp)" version="0" />
-    <module reference="3a1c1f85-c745-4d04-a210-f97a7e31f9cc(org.inca.matching)" version="0" />
     <module reference="f5ee8e88-9527-4830-8337-ea0b6bc93131(org.inca.matching.util)" version="0" />
     <module reference="80e42679-e00d-400f-8714-aee80946d2f9(org.inca.styles)" version="0" />
   </dependencyVersions>
