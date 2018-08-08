@@ -59,6 +59,9 @@
       <concept id="1186415722038" name="jetbrains.mps.lang.editor.structure.FontSizeStyleClassItem" flags="ln" index="VSNWy">
         <property id="1221209241505" name="value" index="1lJzqX" />
       </concept>
+      <concept id="1630016958697344083" name="jetbrains.mps.lang.editor.structure.IMenu_Concept" flags="ng" index="2ZABuq">
+        <reference id="6591946374543067572" name="conceptDeclaration" index="aqKnT" />
+      </concept>
       <concept id="1233758997495" name="jetbrains.mps.lang.editor.structure.PunctuationLeftStyleClassItem" flags="ln" index="11L4FC" />
       <concept id="1233759184865" name="jetbrains.mps.lang.editor.structure.PunctuationRightStyleClassItem" flags="ln" index="11LMrY" />
       <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
@@ -68,6 +71,7 @@
         <reference id="1381004262292426837" name="parentStyleClass" index="1k5W1q" />
       </concept>
       <concept id="1223387125302" name="jetbrains.mps.lang.editor.structure.QueryFunction_Boolean" flags="in" index="3nzxsE" />
+      <concept id="3308396621974580100" name="jetbrains.mps.lang.editor.structure.SubstituteMenu_Default" flags="ng" index="3p36aQ" />
       <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
         <property id="1214560368769" name="emptyNoTargetText" index="39s7Ar" />
@@ -1027,7 +1031,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="6k2In$Gsgia">
-    <property role="3GE5qa" value="statement" />
+    <property role="3GE5qa" value="statement.iteration" />
     <ref role="1XX52x" to="z9af:6k2In$Gsdl6" resolve="ForeachStatement" />
     <node concept="3EZMnI" id="6k2In$Gsgic" role="2wV5jI">
       <node concept="3F0ifn" id="6k2In$Gsgim" role="3EZMnx">
@@ -1040,6 +1044,7 @@
       </node>
       <node concept="3F0ifn" id="6k2In$GsgiM" role="3EZMnx">
         <property role="3F0ifm" value="in" />
+        <ref role="1k5W1q" to="3sc9:2CEi94dgHKA" resolve="KeyWord" />
       </node>
       <node concept="3F1sOY" id="6k2In$Gsgj3" role="3EZMnx">
         <ref role="1NtTu8" to="z9af:6k2In$GsghQ" resolve="collection" />
@@ -1083,6 +1088,28 @@
         </node>
       </node>
     </node>
+  </node>
+  <node concept="24kQdi" id="6k2In$GO8ea">
+    <property role="3GE5qa" value="statement.iteration" />
+    <ref role="1XX52x" to="z9af:6k2In$GNBhC" resolve="IterableExpression" />
+    <node concept="1kIj98" id="6k2In$GWOIS" role="2wV5jI">
+      <node concept="3F1sOY" id="6k2In$GO8eq" role="1kIj9b">
+        <ref role="1NtTu8" to="z9af:6k2In$GNBhD" resolve="exp" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="6k2In$GO8eA">
+    <property role="3GE5qa" value="statement.iteration" />
+    <ref role="1XX52x" to="z9af:6k2In$GNBh$" resolve="IterableType" />
+    <node concept="1kIj98" id="6k2In$GWOJ0" role="2wV5jI">
+      <node concept="3F1sOY" id="6k2In$GO8eC" role="1kIj9b">
+        <ref role="1NtTu8" to="z9af:6k2In$GNBh_" resolve="type" />
+      </node>
+    </node>
+  </node>
+  <node concept="3p36aQ" id="6k2In$HkGna">
+    <property role="3GE5qa" value="expression" />
+    <ref role="aqKnT" to="z9af:6k2In$GAOx8" resolve="CastExpression" />
   </node>
 </model>
 

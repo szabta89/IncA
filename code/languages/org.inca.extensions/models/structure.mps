@@ -19,7 +19,9 @@
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
-      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ">
+        <child id="1169127546356" name="extends" index="PrDN$" />
+      </concept>
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
@@ -249,6 +251,7 @@
     <property role="3GE5qa" value="statement.if" />
     <property role="TrG5h" value="IfStatement" />
     <property role="34LRSv" value="if" />
+    <property role="R4oN_" value="if statement" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6jigiXcjSKa" role="PzmwI">
       <ref role="PrY4T" to="ebqt:5luHlsCq70i" resolve="IStatement" />
@@ -289,7 +292,8 @@
     <property role="EcuMT" value="7278583877871916358" />
     <property role="TrG5h" value="ForeachStatement" />
     <property role="34LRSv" value="foreach" />
-    <property role="3GE5qa" value="statement" />
+    <property role="3GE5qa" value="statement.iteration" />
+    <property role="R4oN_" value="foreach statement" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6k2In$Gsdl7" role="PzmwI">
       <ref role="PrY4T" to="ebqt:5luHlsCq70i" resolve="IStatement" />
@@ -312,7 +316,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="collection" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="ebqt:1i65yRAQ7jk" resolve="IExpression" />
+      <ref role="20lvS9" node="6k2In$GO3y3" resolve="IIterable" />
     </node>
     <node concept="1TJgyj" id="6k2In$GsghV" role="1TKVEi">
       <property role="IQ2ns" value="7278583877871928443" />
@@ -349,6 +353,46 @@
     </node>
     <node concept="PrWs8" id="6k2In$GAOx_" role="PzmwI">
       <ref role="PrY4T" to="hqsm:3ybyOPMBaDy" resolve="IPathExpressionLike" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6k2In$GNBh$">
+    <property role="EcuMT" value="7278583877878051940" />
+    <property role="3GE5qa" value="statement.iteration" />
+    <property role="TrG5h" value="IterableType" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="6k2In$GNBh_" role="1TKVEi">
+      <property role="IQ2ns" value="7278583877878051941" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="type" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="hqsm:6VTlRjrCuQt" resolve="ICompileTimeIncAType" />
+    </node>
+    <node concept="PrWs8" id="6k2In$GO3y7" role="PzmwI">
+      <ref role="PrY4T" node="6k2In$GO3y3" resolve="IIterable" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6k2In$GNBhC">
+    <property role="EcuMT" value="7278583877878051944" />
+    <property role="3GE5qa" value="statement.iteration" />
+    <property role="TrG5h" value="IterableExpression" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="6k2In$GNBhD" role="1TKVEi">
+      <property role="IQ2ns" value="7278583877878051945" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="exp" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="ebqt:1i65yRAQ7jk" resolve="IExpression" />
+    </node>
+    <node concept="PrWs8" id="6k2In$GO3y4" role="PzmwI">
+      <ref role="PrY4T" node="6k2In$GO3y3" resolve="IIterable" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="6k2In$GO3y3">
+    <property role="EcuMT" value="7278583877878167683" />
+    <property role="3GE5qa" value="statement.iteration" />
+    <property role="TrG5h" value="IIterable" />
+    <node concept="PrWs8" id="6k2In$GO4Ly" role="PrDN$">
+      <ref role="PrY4T" to="hqsm:1i65yRATv5I" resolve="ITypeConstraintProvider" />
     </node>
   </node>
 </model>

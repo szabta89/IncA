@@ -1372,7 +1372,7 @@
   </node>
   <node concept="1YbPZF" id="6k2In$GtigK">
     <property role="TrG5h" value="typeof_ForeachStatement" />
-    <property role="3GE5qa" value="statement" />
+    <property role="3GE5qa" value="statement.iteration" />
     <node concept="3clFbS" id="6k2In$GtigL" role="18ibNy">
       <node concept="1Z5TYs" id="6k2In$Gtj$X" role="3cqZAp">
         <node concept="mw_s8" id="6k2In$Gtj_p" role="1ZfhKB">
