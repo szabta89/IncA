@@ -36,6 +36,7 @@
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
+        <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
       <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ">
         <child id="1169127546356" name="extends" index="PrDN$" />
@@ -48,6 +49,10 @@
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
         <child id="6327362524875300597" name="icon" index="rwd14" />
         <child id="1169129564478" name="implements" index="PzmwI" />
+      </concept>
+      <concept id="1071489288299" name="jetbrains.mps.lang.structure.structure.PropertyDeclaration" flags="ig" index="1TJgyi">
+        <property id="241647608299431129" name="propertyId" index="IQ2nx" />
+        <reference id="1082985295845" name="dataType" index="AX2Wp" />
       </concept>
       <concept id="1071489288298" name="jetbrains.mps.lang.structure.structure.LinkDeclaration" flags="ig" index="1TJgyj">
         <property id="1071599776563" name="role" index="20kJfa" />
@@ -69,8 +74,8 @@
   <node concept="1TIwiD" id="2qfgCZsFkG8">
     <property role="EcuMT" value="2778512680760986376" />
     <property role="TrG5h" value="LatticeDefinitionModule" />
-    <property role="R4oN_" value="Lattice Definition Module" />
-    <property role="34LRSv" value="Lattice Definition Module" />
+    <property role="R4oN_" value="ADT/Lattice Definition Module" />
+    <property role="34LRSv" value="ADT/Lattice Definition Module" />
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="definition" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -396,6 +401,18 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="3l0M8IajVIG" resolve="IDataConstructorParameter" />
     </node>
+    <node concept="1TJgyj" id="4crFY5v7ofp" role="1TKVEi">
+      <property role="IQ2ns" value="4835652007410631641" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="equalsFunction" />
+      <ref role="20lvS9" node="4crFY5v7mVB" resolve="DataConstructorEqualsFunction" />
+    </node>
+    <node concept="1TJgyj" id="4crFY5v7ofs" role="1TKVEi">
+      <property role="IQ2ns" value="4835652007410631644" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="hashCodeFunction" />
+      <ref role="20lvS9" node="4crFY5v7oeI" resolve="DataConstructorHashCodeFunction" />
+    </node>
     <node concept="PrWs8" id="6h60itPDdQT" role="PrDN$">
       <ref role="PrY4T" to="hqsm:6h60itPDcm$" resolve="IIdentifierNamedConcept" />
     </node>
@@ -615,6 +632,60 @@
     <property role="EcuMT" value="446813749323279531" />
     <property role="3GE5qa" value="pattern" />
     <property role="TrG5h" value="IMatchLike" />
+  </node>
+  <node concept="1TIwiD" id="4crFY5v7mVB">
+    <property role="EcuMT" value="4835652007410626279" />
+    <property role="3GE5qa" value="adt" />
+    <property role="TrG5h" value="DataConstructorEqualsFunction" />
+    <property role="34LRSv" value="equals" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+    <node concept="PrWs8" id="4crFY5vfYqX" role="PzmwI">
+      <ref role="PrY4T" node="4crFY5vfYqi" resolve="IDataConstructorFunction" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4crFY5v7n6O">
+    <property role="EcuMT" value="4835652007410626996" />
+    <property role="3GE5qa" value="adt" />
+    <property role="TrG5h" value="DataConstructorEqualsFunctionObjectParameter" />
+    <property role="34LRSv" value="object" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="4crFY5v7oeI">
+    <property role="EcuMT" value="4835652007410631598" />
+    <property role="3GE5qa" value="adt" />
+    <property role="TrG5h" value="DataConstructorHashCodeFunction" />
+    <property role="34LRSv" value="hashCode" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+    <node concept="PrWs8" id="4crFY5vfYOt" role="PzmwI">
+      <ref role="PrY4T" node="4crFY5vfYqi" resolve="IDataConstructorFunction" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4crFY5vb$P_">
+    <property role="EcuMT" value="4835652007411731813" />
+    <property role="3GE5qa" value="adt" />
+    <property role="TrG5h" value="DataConstructorFunctionThisExpression" />
+    <property role="34LRSv" value="this" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+  </node>
+  <node concept="1TIwiD" id="4crFY5veme9">
+    <property role="EcuMT" value="4835652007412458377" />
+    <property role="3GE5qa" value="adt" />
+    <property role="TrG5h" value="DataConstructorParameterAccessor" />
+    <property role="34LRSv" value="_" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="4crFY5vemfF" role="1TKVEl">
+      <property role="IQ2nx" value="4835652007412458475" />
+      <property role="TrG5h" value="index" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="PrWs8" id="4crFY5vemeO" role="PzmwI">
+      <ref role="PrY4T" to="tpee:hqOqG0K" resolve="IOperation" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="4crFY5vfYqi">
+    <property role="EcuMT" value="4835652007412885138" />
+    <property role="3GE5qa" value="adt" />
+    <property role="TrG5h" value="IDataConstructorFunction" />
   </node>
 </model>
 

@@ -6633,8 +6633,8 @@
                 </node>
                 <node concept="3eNFk2" id="1lsowDU4Mnc" role="3eNLev">
                   <node concept="2ZW3vV" id="1lsowDU4QPz" role="3eO9$A">
-                    <node concept="3uibUv" id="1lsowDU4Rdl" role="2ZW6by">
-                      <ref role="3uigEE" node="1cLRCO10m9S" resolve="IPosetInputKey" />
+                    <node concept="3uibUv" id="4crFY5utyVy" role="2ZW6by">
+                      <ref role="3uigEE" node="4crFY5uqHcM" resolve="ISynthesisedInputKey" />
                     </node>
                     <node concept="37vLTw" id="1lsowDU4QAF" role="2ZW6bz">
                       <ref role="3cqZAo" node="1D4dCkVp2tU" resolve="key" />
@@ -6735,8 +6735,8 @@
         <node concept="3clFbJ" id="1D4dCkVqOCY" role="3cqZAp">
           <node concept="3eNFk2" id="1lsowDU7tuv" role="3eNLev">
             <node concept="2ZW3vV" id="1lsowDU7zpW" role="3eO9$A">
-              <node concept="3uibUv" id="1lsowDU7zM4" role="2ZW6by">
-                <ref role="3uigEE" node="1cLRCO10m9S" resolve="IPosetInputKey" />
+              <node concept="3uibUv" id="4crFY5urUmR" role="2ZW6by">
+                <ref role="3uigEE" node="4crFY5uqHcM" resolve="ISynthesisedInputKey" />
               </node>
               <node concept="37vLTw" id="1lsowDU7zbg" role="2ZW6bz">
                 <ref role="3cqZAo" node="1D4dCkVsaS8" resolve="key" />
@@ -6771,14 +6771,14 @@
                         <node concept="3cpWsn" id="1lsowDU7Mjj" role="3cpWs9">
                           <property role="TrG5h" value="actual" />
                           <property role="3TUv4t" value="true" />
-                          <node concept="3uibUv" id="1lsowDU7Mjc" role="1tU5fm">
-                            <ref role="3uigEE" node="1cLRCO10m9S" resolve="IPosetInputKey" />
+                          <node concept="3uibUv" id="4crFY5urUwr" role="1tU5fm">
+                            <ref role="3uigEE" node="4crFY5uqHcM" resolve="ISynthesisedInputKey" />
                           </node>
                           <node concept="2OqwBi" id="1lsowDU7Mjk" role="33vP2m">
                             <node concept="1eOMI4" id="1lsowDU7Mjl" role="2Oq$k0">
                               <node concept="10QFUN" id="1lsowDU7Mjm" role="1eOMHV">
-                                <node concept="3uibUv" id="1lsowDU7Mjn" role="10QFUM">
-                                  <ref role="3uigEE" node="1lsowDU7i0a" resolve="IPosetInputKeyProvider" />
+                                <node concept="3uibUv" id="4crFY5urUop" role="10QFUM">
+                                  <ref role="3uigEE" node="4crFY5uqHba" resolve="ISynthesisedInputKeyProvider" />
                                 </node>
                                 <node concept="37vLTw" id="1lsowDU7Mjo" role="10QFUP">
                                   <ref role="3cqZAo" node="1lsowDU7KT7" resolve="element" />
@@ -6786,7 +6786,7 @@
                               </node>
                             </node>
                             <node concept="liA8E" id="1lsowDU7Mjp" role="2OqNvi">
-                              <ref role="37wK5l" node="1lsowDU7i1G" resolve="getPosetKey" />
+                              <ref role="37wK5l" node="4crFY5uqHe_" resolve="getKey" />
                             </node>
                           </node>
                         </node>
@@ -6811,8 +6811,8 @@
                       </node>
                     </node>
                     <node concept="2ZW3vV" id="1lsowDU7LIS" role="3clFbw">
-                      <node concept="3uibUv" id="1lsowDU7LLp" role="2ZW6by">
-                        <ref role="3uigEE" node="1lsowDU7i0a" resolve="IPosetInputKeyProvider" />
+                      <node concept="3uibUv" id="4crFY5urUnC" role="2ZW6by">
+                        <ref role="3uigEE" node="4crFY5uqHba" resolve="ISynthesisedInputKeyProvider" />
                       </node>
                       <node concept="37vLTw" id="1lsowDU7Lsz" role="2ZW6bz">
                         <ref role="3cqZAo" node="1lsowDU7KT7" resolve="element" />
@@ -30401,8 +30401,8 @@
     </node>
     <node concept="2tJIrI" id="1cLRCO10r4p" role="jymVt" />
     <node concept="3Tm1VV" id="1cLRCO10m9T" role="1B3o_S" />
-    <node concept="3uibUv" id="1cLRCO10mar" role="3HQHJm">
-      <ref role="3uigEE" to="4v9i:~IInputKey" resolve="IInputKey" />
+    <node concept="3uibUv" id="4crFY5utE9L" role="3HQHJm">
+      <ref role="3uigEE" node="4crFY5uqWm8" resolve="IADTInputKey" />
     </node>
   </node>
   <node concept="3HP615" id="1Wcd$PdFA1Y">
@@ -31050,23 +31050,6 @@
     <node concept="2tJIrI" id="6CmzIMnhCTt" role="jymVt" />
     <node concept="3Tm1VV" id="6CmzIMnhCSS" role="1B3o_S" />
   </node>
-  <node concept="3HP615" id="1lsowDU7i0a">
-    <property role="3GE5qa" value="indexing.inputkey" />
-    <property role="TrG5h" value="IPosetInputKeyProvider" />
-    <node concept="2tJIrI" id="1lsowDU7i0s" role="jymVt" />
-    <node concept="3clFb_" id="1lsowDU7i1G" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="getPosetKey" />
-      <node concept="3clFbS" id="1lsowDU7i1J" role="3clF47" />
-      <node concept="3Tm1VV" id="1lsowDU7i1K" role="1B3o_S" />
-      <node concept="3uibUv" id="1lsowDU7i1A" role="3clF45">
-        <ref role="3uigEE" node="1cLRCO10m9S" resolve="IPosetInputKey" />
-      </node>
-    </node>
-    <node concept="2tJIrI" id="1lsowDU7i0v" role="jymVt" />
-    <node concept="3Tm1VV" id="1lsowDU7i0b" role="1B3o_S" />
-  </node>
   <node concept="312cEu" id="4fdpnmcRzil">
     <property role="3GE5qa" value="indexing.context" />
     <property role="TrG5h" value="MPSQueryMetaContext" />
@@ -31175,8 +31158,8 @@
           </node>
           <node concept="3eNFk2" id="1lsowDU3Mnd" role="3eNLev">
             <node concept="2ZW3vV" id="1lsowDU3MRA" role="3eO9$A">
-              <node concept="3uibUv" id="1lsowDU3Nwv" role="2ZW6by">
-                <ref role="3uigEE" node="1cLRCO10m9S" resolve="IPosetInputKey" />
+              <node concept="3uibUv" id="4crFY5uttaj" role="2ZW6by">
+                <ref role="3uigEE" node="4crFY5uqHcM" resolve="ISynthesisedInputKey" />
               </node>
               <node concept="37vLTw" id="1lsowDU3MCU" role="2ZW6bz">
                 <ref role="3cqZAo" node="7TrMLNbSJVR" resolve="key" />
@@ -31644,8 +31627,8 @@
                 </node>
                 <node concept="3eNFk2" id="1cLRCO1gsMv" role="3eNLev">
                   <node concept="2ZW3vV" id="1cLRCO1gtpT" role="3eO9$A">
-                    <node concept="3uibUv" id="1cLRCO1gtAt" role="2ZW6by">
-                      <ref role="3uigEE" node="1cLRCO10m9S" resolve="IPosetInputKey" />
+                    <node concept="3uibUv" id="4crFY5uttb1" role="2ZW6by">
+                      <ref role="3uigEE" node="4crFY5uqHcM" resolve="ISynthesisedInputKey" />
                     </node>
                     <node concept="37vLTw" id="1cLRCO1gt4v" role="2ZW6bz">
                       <ref role="3cqZAo" node="7TrMLNbSJW1" resolve="key" />
@@ -32316,8 +32299,8 @@
             <property role="TrG5h" value="c3" />
             <node concept="10P_77" id="1XrGTNcMbAU" role="1tU5fm" />
             <node concept="2ZW3vV" id="1XrGTNcMbAV" role="33vP2m">
-              <node concept="3uibUv" id="1XrGTNcMbNY" role="2ZW6by">
-                <ref role="3uigEE" node="1cLRCO10m9S" resolve="IPosetInputKey" />
+              <node concept="3uibUv" id="4crFY5uttbF" role="2ZW6by">
+                <ref role="3uigEE" node="4crFY5uqHcM" resolve="ISynthesisedInputKey" />
               </node>
               <node concept="37vLTw" id="1XrGTNcMbAX" role="2ZW6bz">
                 <ref role="3cqZAo" node="7TrMLNbSMFi" resolve="key" />
@@ -32639,20 +32622,32 @@
                 </node>
               </node>
             </node>
-            <node concept="3cpWs6" id="1cLRCO10tN7" role="3cqZAp">
-              <node concept="2OqwBi" id="1cLRCO10uLA" role="3cqZAk">
-                <node concept="1eOMI4" id="1cLRCO10tVK" role="2Oq$k0">
-                  <node concept="10QFUN" id="1cLRCO10tVH" role="1eOMHV">
-                    <node concept="3uibUv" id="1cLRCO10ubV" role="10QFUM">
-                      <ref role="3uigEE" node="1cLRCO10m9S" resolve="IPosetInputKey" />
+            <node concept="3clFbJ" id="4crFY5utt$t" role="3cqZAp">
+              <node concept="3clFbS" id="4crFY5utt$v" role="3clFbx">
+                <node concept="3cpWs6" id="1cLRCO10tN7" role="3cqZAp">
+                  <node concept="2OqwBi" id="1cLRCO10uLA" role="3cqZAk">
+                    <node concept="1eOMI4" id="1cLRCO10tVK" role="2Oq$k0">
+                      <node concept="10QFUN" id="1cLRCO10tVH" role="1eOMHV">
+                        <node concept="3uibUv" id="1cLRCO10ubV" role="10QFUM">
+                          <ref role="3uigEE" node="1cLRCO10m9S" resolve="IPosetInputKey" />
+                        </node>
+                        <node concept="37vLTw" id="1cLRCO10ut_" role="10QFUP">
+                          <ref role="3cqZAo" node="1cLRCO10twf" resolve="key" />
+                        </node>
+                      </node>
                     </node>
-                    <node concept="37vLTw" id="1cLRCO10ut_" role="10QFUP">
-                      <ref role="3cqZAo" node="1cLRCO10twf" resolve="key" />
+                    <node concept="liA8E" id="1cLRCO10uYv" role="2OqNvi">
+                      <ref role="37wK5l" node="1cLRCO10r5k" resolve="getPosetComparator" />
                     </node>
                   </node>
                 </node>
-                <node concept="liA8E" id="1cLRCO10uYv" role="2OqNvi">
-                  <ref role="37wK5l" node="1cLRCO10r5k" resolve="getPosetComparator" />
+              </node>
+              <node concept="2ZW3vV" id="4crFY5utuGd" role="3clFbw">
+                <node concept="3uibUv" id="4crFY5utuJF" role="2ZW6by">
+                  <ref role="3uigEE" node="1cLRCO10m9S" resolve="IPosetInputKey" />
+                </node>
+                <node concept="37vLTw" id="4crFY5utt_z" role="2ZW6bz">
+                  <ref role="3cqZAo" node="1cLRCO10twf" resolve="key" />
                 </node>
               </node>
             </node>
@@ -34232,6 +34227,39 @@
     <node concept="3Tm1VV" id="5d$pfuQJKkD" role="1B3o_S" />
     <node concept="3uibUv" id="5d$pfuQJKxj" role="1zkMxy">
       <ref role="3uigEE" to="4azy:~BasePQuery" resolve="BasePQuery" />
+    </node>
+  </node>
+  <node concept="3HP615" id="4crFY5uqHba">
+    <property role="3GE5qa" value="indexing.inputkey" />
+    <property role="TrG5h" value="ISynthesisedInputKeyProvider" />
+    <node concept="2tJIrI" id="4crFY5uqHei" role="jymVt" />
+    <node concept="3clFb_" id="4crFY5uqHe_" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="getKey" />
+      <node concept="3clFbS" id="4crFY5uqHeA" role="3clF47" />
+      <node concept="3Tm1VV" id="4crFY5uqHeB" role="1B3o_S" />
+      <node concept="3uibUv" id="4crFY5uqWkB" role="3clF45">
+        <ref role="3uigEE" node="4crFY5uqHcM" resolve="ISynthesisedInputKey" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="4crFY5uqHel" role="jymVt" />
+    <node concept="3Tm1VV" id="4crFY5uqHbb" role="1B3o_S" />
+  </node>
+  <node concept="3HP615" id="4crFY5uqHcM">
+    <property role="3GE5qa" value="indexing.inputkey" />
+    <property role="TrG5h" value="ISynthesisedInputKey" />
+    <node concept="3Tm1VV" id="4crFY5uqHcN" role="1B3o_S" />
+    <node concept="3uibUv" id="4crFY5usuGp" role="3HQHJm">
+      <ref role="3uigEE" to="4v9i:~IInputKey" resolve="IInputKey" />
+    </node>
+  </node>
+  <node concept="3HP615" id="4crFY5uqWm8">
+    <property role="3GE5qa" value="indexing.inputkey" />
+    <property role="TrG5h" value="IADTInputKey" />
+    <node concept="3Tm1VV" id="4crFY5uqWm9" role="1B3o_S" />
+    <node concept="3uibUv" id="4crFY5uqWp5" role="3HQHJm">
+      <ref role="3uigEE" node="4crFY5uqHcM" resolve="ISynthesisedInputKey" />
     </node>
   </node>
 </model>
