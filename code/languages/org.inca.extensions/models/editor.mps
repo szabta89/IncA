@@ -812,7 +812,7 @@
           <node concept="3clFbS" id="5jddR$DjcLM" role="2VODD2">
             <node concept="3clFbF" id="5jddR$DjcUy" role="3cqZAp">
               <node concept="Xl_RD" id="5jddR$DjcUx" role="3clFbG">
-                <property role="Xl_RC" value="@" />
+                <property role="Xl_RC" value=":" />
               </node>
             </node>
           </node>
