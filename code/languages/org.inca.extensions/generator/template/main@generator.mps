@@ -316,9 +316,6 @@
       <concept id="3909214783366769316" name="org.inca.gp.structure.PathElement" flags="ng" index="727y6" />
     </language>
     <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
-      <concept id="1168401810208" name="jetbrains.mps.baseLanguage.logging.structure.PrintStatement" flags="nn" index="abc8K">
-        <child id="1168401864803" name="textExpression" index="abp_N" />
-      </concept>
       <concept id="1167227138527" name="jetbrains.mps.baseLanguage.logging.structure.LogStatement" flags="nn" index="34ab3g">
         <property id="1167245565795" name="severity" index="35gtTG" />
         <child id="1167227463056" name="logExpression" index="34bqiv" />
@@ -2613,7 +2610,7 @@
                     <node concept="3fqX7Q" id="6k2In$HnOit" role="3uHU7w">
                       <node concept="2OqwBi" id="6k2In$Ho8FD" role="3fr31v">
                         <node concept="35c_gC" id="6k2In$Ho8h_" role="2Oq$k0">
-                          <ref role="35c_gD" to="ebqt:6jigiXceGkQ" resolve="StatementList" />
+                          <ref role="35c_gD" to="ebqt:5luHlsCq70i" resolve="IStatement" />
                         </node>
                         <node concept="liA8E" id="6k2In$HobUc" role="2OqNvi">
                           <ref role="37wK5l" to="c17a:~SAbstractConcept.isSubConceptOf(org.jetbrains.mps.openapi.language.SAbstractConcept):boolean" resolve="isSubConceptOf" />
@@ -2673,41 +2670,6 @@
                           <node concept="2NL2c5" id="6k2In$HoAlp" role="2OqNvi" />
                         </node>
                       </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="3clFbF" id="6k2In$Ho32p" role="3cqZAp">
-                  <node concept="37vLTI" id="6k2In$Ho3mc" role="3clFbG">
-                    <node concept="2OqwBi" id="6k2In$Ho3t_" role="37vLTx">
-                      <node concept="37vLTw" id="6k2In$Ho3n2" role="2Oq$k0">
-                        <ref role="3cqZAo" node="6k2In$HlG94" resolve="stm" />
-                      </node>
-                      <node concept="1mfA1w" id="6k2In$Ho3CG" role="2OqNvi" />
-                    </node>
-                    <node concept="37vLTw" id="6k2In$Ho32n" role="37vLTJ">
-                      <ref role="3cqZAo" node="6k2In$HlG94" resolve="stm" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="abc8K" id="6k2In$HnnFl" role="3cqZAp">
-                  <node concept="Xl_RD" id="6k2In$HnnIM" role="abp_N">
-                    <property role="Xl_RC" value="stm concept is " />
-                  </node>
-                  <node concept="2OqwBi" id="6k2In$Hnr5Q" role="abp_N">
-                    <node concept="37vLTw" id="6k2In$HnnJz" role="2Oq$k0">
-                      <ref role="3cqZAo" node="6k2In$HlG94" resolve="stm" />
-                    </node>
-                    <node concept="2yIwOk" id="6k2In$Hnrs7" role="2OqNvi" />
-                  </node>
-                  <node concept="Xl_RD" id="6k2In$Hnz7D" role="abp_N">
-                    <property role="Xl_RC" value=" for " />
-                  </node>
-                  <node concept="2OqwBi" id="6k2In$HnzPA" role="abp_N">
-                    <node concept="37vLTw" id="6k2In$HnzG7" role="2Oq$k0">
-                      <ref role="3cqZAo" node="6k2In$HlG94" resolve="stm" />
-                    </node>
-                    <node concept="2qgKlT" id="6k2In$Hn$bZ" role="2OqNvi">
-                      <ref role="37wK5l" to="tpcu:22G2W3WJ92t" resolve="getDetailedPresentation" />
                     </node>
                   </node>
                 </node>
@@ -2875,7 +2837,7 @@
                 </node>
                 <node concept="3cpWs8" id="6k2In$HlGPW" role="3cqZAp">
                   <node concept="3cpWsn" id="6k2In$HlGPZ" role="3cpWs9">
-                    <property role="TrG5h" value="replacement" />
+                    <property role="TrG5h" value="stmList" />
                     <node concept="3Tqbb2" id="6k2In$HlGPU" role="1tU5fm">
                       <ref role="ehGHo" to="ebqt:6jigiXceGkQ" resolve="StatementList" />
                     </node>
@@ -2914,7 +2876,7 @@
                     </node>
                     <node concept="1P9Npp" id="6k2In$HlTye" role="2OqNvi">
                       <node concept="37vLTw" id="6k2In$HlTyW" role="1P9ThW">
-                        <ref role="3cqZAo" node="6k2In$HlGPZ" resolve="replacement" />
+                        <ref role="3cqZAo" node="6k2In$HlGPZ" resolve="stmList" />
                       </node>
                     </node>
                   </node>
