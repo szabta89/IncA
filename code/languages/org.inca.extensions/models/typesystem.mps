@@ -53,6 +53,7 @@
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
+      <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
@@ -1433,6 +1434,30 @@
     <node concept="1YaCAy" id="6k2In$GDhIy" role="1YuTPh">
       <property role="TrG5h" value="castExpression" />
       <ref role="1YaFvo" to="z9af:6k2In$GAOx8" resolve="CastExpression" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="16Zc08r9wg7">
+    <property role="TrG5h" value="typeof_BooleanPattern" />
+    <property role="3GE5qa" value="statement.match" />
+    <node concept="3clFbS" id="16Zc08r9wg8" role="18ibNy">
+      <node concept="1Z5TYs" id="16Zc08r9wTU" role="3cqZAp">
+        <node concept="mw_s8" id="16Zc08r9wTX" role="1ZfhK$">
+          <node concept="1Z2H0r" id="16Zc08r9wge" role="mwGJk">
+            <node concept="1YBJjd" id="16Zc08r9wi3" role="1Z2MuG">
+              <ref role="1YBMHb" node="16Zc08r9wga" resolve="booleanPattern" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="16Zc08r9wWq" role="1ZfhKB">
+          <node concept="2c44tf" id="16Zc08r9wWm" role="mwGJk">
+            <node concept="10P_77" id="16Zc08r9wWN" role="2c44tc" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="16Zc08r9wga" role="1YuTPh">
+      <property role="TrG5h" value="booleanPattern" />
+      <ref role="1YaFvo" to="z9af:16Zc08r9w5h" resolve="BooleanPattern" />
     </node>
   </node>
 </model>
