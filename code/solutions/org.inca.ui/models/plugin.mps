@@ -888,6 +888,16 @@
         <ref role="3uigEE" to="dxuu:~JButton" resolve="JButton" />
       </node>
     </node>
+    <node concept="312cEg" id="16Zc08rY8jv" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="loadModelButton" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3Tmbuc" id="16Zc08rY8jw" role="1B3o_S" />
+      <node concept="3uibUv" id="16Zc08rY8jx" role="1tU5fm">
+        <ref role="3uigEE" to="dxuu:~JButton" resolve="JButton" />
+      </node>
+    </node>
     <node concept="312cEg" id="4k1r0DoH2iz" role="jymVt">
       <property role="34CwA1" value="false" />
       <property role="eg7rD" value="false" />
@@ -1133,6 +1143,44 @@
           </node>
         </node>
         <node concept="3clFbH" id="7aUOHOSU5L7" role="3cqZAp" />
+        <node concept="3clFbF" id="16Zc08rYa$p" role="3cqZAp">
+          <node concept="37vLTI" id="16Zc08rYa$q" role="3clFbG">
+            <node concept="37vLTw" id="16Zc08rYBTX" role="37vLTJ">
+              <ref role="3cqZAo" node="16Zc08rY8jv" resolve="loadModelButton" />
+            </node>
+            <node concept="2ShNRf" id="16Zc08rYa$s" role="37vLTx">
+              <node concept="1pGfFk" id="16Zc08rYa$t" role="2ShVmc">
+                <ref role="37wK5l" to="dxuu:~JButton.&lt;init&gt;(javax.swing.Icon)" resolve="JButton" />
+                <node concept="1QGGTA" id="16Zc08rYa$u" role="37wK5m">
+                  <node concept="1QGGSu" id="16Zc08rYa$v" role="1QGGTw">
+                    <property role="1iqoE4" value="${module}/icons/root.gif" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="15s5l7" id="16Zc08rYa$x" role="lGtFl" />
+        </node>
+        <node concept="3clFbF" id="16Zc08rYa$y" role="3cqZAp">
+          <node concept="2OqwBi" id="16Zc08rYa$z" role="3clFbG">
+            <node concept="37vLTw" id="16Zc08rYCsd" role="2Oq$k0">
+              <ref role="3cqZAo" node="16Zc08rY8jv" resolve="loadModelButton" />
+            </node>
+            <node concept="liA8E" id="16Zc08rYa$_" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~AbstractButton.addActionListener(java.awt.event.ActionListener):void" resolve="addActionListener" />
+              <node concept="2ShNRf" id="16Zc08rYa$A" role="37wK5m">
+                <node concept="1pGfFk" id="16Zc08rYa$B" role="2ShVmc">
+                  <ref role="37wK5l" node="77Ri3O56SWr" resolve="LoadHandler" />
+                  <node concept="Xjq3P" id="16Zc08rYa$C" role="37wK5m" />
+                  <node concept="3clFbT" id="16Zc08rYwCq" role="37wK5m">
+                    <property role="3clFbU" value="true" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="16Zc08rYass" role="3cqZAp" />
         <node concept="3clFbF" id="4k1r0DoHspv" role="3cqZAp">
           <node concept="37vLTI" id="4k1r0DoHzs_" role="3clFbG">
             <node concept="37vLTw" id="4k1r0DoHD1s" role="37vLTJ">
@@ -1190,6 +1238,19 @@
               <ref role="37wK5l" to="z60i:~Container.add(java.awt.Component):java.awt.Component" resolve="add" />
               <node concept="37vLTw" id="492h0wwnu4" role="37wK5m">
                 <ref role="3cqZAo" node="4k1r0DoGWjy" resolve="loadButton" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="16Zc08rYCIZ" role="3cqZAp">
+          <node concept="2OqwBi" id="16Zc08rYCJ0" role="3clFbG">
+            <node concept="37vLTw" id="16Zc08rYCJ1" role="2Oq$k0">
+              <ref role="3cqZAo" node="492h0wvIMo" resolve="toolbar" />
+            </node>
+            <node concept="liA8E" id="16Zc08rYCJ2" role="2OqNvi">
+              <ref role="37wK5l" to="z60i:~Container.add(java.awt.Component):java.awt.Component" resolve="add" />
+              <node concept="37vLTw" id="16Zc08rYGUE" role="37wK5m">
+                <ref role="3cqZAo" node="16Zc08rY8jv" resolve="loadModelButton" />
               </node>
             </node>
           </node>
