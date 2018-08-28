@@ -15,10 +15,16 @@ The project is equipped with a Gradle build, and setting up the project requires
 ## Publications
 
 IncA is a research project, and its various features have been documented in the following publications: 
-* **IncAL: A DSL for Incremental Program Analysis with Lattices**, **Tamás Szabó**, Sebastian Erdweg, and Markus Völter.
+* **Incrementalizing Lattice-Based Program Analyses in Datalog**, Tamás Szabó, Gábor Bergmann, Sebastian Erdweg, and Markus Völter.
+In *Proceedings of Conference on Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA)*, 2018. [[pdf]](https://szabta89.github.io/publications/inca-oopsla-draft.pdf)
+
+* **Incremental Overload Resolution in Object-Oriented Programming Languages**, Tamás Szabó, Edlira Kuci, Matthijs Bijman, Mira Mezini, and Sebastian Erdweg.
+In *Proceedings of International Workshop on Formal Techniques for Java-like Programs (FTfJP)*, 2018. [[pdf]](https://szabta89.github.io/publications/inca-ftfjp.pdf)
+
+* **IncAL: A DSL for Incremental Program Analysis with Lattices**, Tamás Szabó, Sebastian Erdweg, and Markus Völter.
 In *International Workshop on Incremental Computing (IC)*, 2017. [[pdf]](https://szabta89.github.io/publications/inca-ic.pdf)
 
-* **IncA: A DSL for the Definition of Incremental Program Analyses**, **Tamás Szabó**, Sebastian Erdweg, and Markus Völter.
+* **IncA: A DSL for the Definition of Incremental Program Analyses**, Tamás Szabó, Sebastian Erdweg, and Markus Völter.
 In *Proceedings of International Conference on Automated Software Engineering (ASE)*, 2016. [[pdf]](https://szabta89.github.io/publications/inca-ase.pdf)
 
 ## Examples ##
