@@ -1460,5 +1460,31 @@
       <ref role="1YaFvo" to="z9af:16Zc08r9w5h" resolve="BooleanPattern" />
     </node>
   </node>
+  <node concept="1YbPZF" id="16Zc08$FO1K">
+    <property role="TrG5h" value="typeof_ReportStatement" />
+    <property role="3GE5qa" value="reporting" />
+    <node concept="3clFbS" id="16Zc08$FO1L" role="18ibNy">
+      <node concept="1Z5TYs" id="16Zc08$FOGI" role="3cqZAp">
+        <node concept="mw_s8" id="16Zc08$FOHa" role="1ZfhKB">
+          <node concept="2pJPEk" id="16Zc08$FOH6" role="mwGJk">
+            <node concept="2pJPED" id="16Zc08$FOHo" role="2pJPEn">
+              <ref role="2pJxaS" to="hqsm:20ykNUqEfL$" resolve="VoidType" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="16Zc08$FOGL" role="1ZfhK$">
+          <node concept="1Z2H0r" id="16Zc08$FO1R" role="mwGJk">
+            <node concept="1YBJjd" id="16Zc08$FO3G" role="1Z2MuG">
+              <ref role="1YBMHb" node="16Zc08$FO1N" resolve="reportStatement" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="16Zc08$FO1N" role="1YuTPh">
+      <property role="TrG5h" value="reportStatement" />
+      <ref role="1YaFvo" to="z9af:16Zc08zLH83" resolve="ReportStatement" />
+    </node>
+  </node>
 </model>
 

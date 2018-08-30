@@ -409,5 +409,132 @@
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
+  <node concept="1TIwiD" id="1ERTnBTfavv">
+    <property role="TrG5h" value="ReportingFunction" />
+    <property role="R4oN_" value="reporting function" />
+    <property role="34LRSv" value="report" />
+    <property role="3GE5qa" value="reporting" />
+    <property role="EcuMT" value="1925259677759481823" />
+    <ref role="1TJDcQ" to="ebqt:1ERTnBTfavv" resolve="PatternFunction" />
+  </node>
+  <node concept="1TIwiD" id="16Zc08zLEYE">
+    <property role="EcuMT" value="1278793604944801706" />
+    <property role="3GE5qa" value="reporting" />
+    <property role="TrG5h" value="InfoMessage" />
+    <property role="34LRSv" value="info" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="16Zc08zLGZn" role="PzmwI">
+      <ref role="PrY4T" node="16Zc08zLGXz" resolve="MessageKind" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="16Zc08zLEYI">
+    <property role="EcuMT" value="1278793604944801710" />
+    <property role="3GE5qa" value="reporting" />
+    <property role="TrG5h" value="WarningMessage" />
+    <property role="34LRSv" value="warning" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="16Zc08zLH7D" role="PzmwI">
+      <ref role="PrY4T" node="16Zc08zLGXz" resolve="MessageKind" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="16Zc08zLEYK">
+    <property role="EcuMT" value="1278793604944801712" />
+    <property role="3GE5qa" value="reporting" />
+    <property role="TrG5h" value="ErrorMessage" />
+    <property role="34LRSv" value="error" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="16Zc08zLGZW" role="PzmwI">
+      <ref role="PrY4T" node="16Zc08zLGXz" resolve="MessageKind" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="16Zc08zLGXz">
+    <property role="EcuMT" value="1278793604944809827" />
+    <property role="3GE5qa" value="reporting" />
+    <property role="TrG5h" value="MessageKind" />
+  </node>
+  <node concept="1TIwiD" id="16Zc08zLH83">
+    <property role="EcuMT" value="1278793604944810499" />
+    <property role="3GE5qa" value="reporting" />
+    <property role="TrG5h" value="ReportStatement" />
+    <property role="R4oN_" value="report a message" />
+    <property role="34LRSv" value="report" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="16Zc08zLH84" role="1TKVEi">
+      <property role="IQ2ns" value="1278793604944810500" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="kind" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="16Zc08zLGXz" resolve="MessageKind" />
+    </node>
+    <node concept="1TJgyj" id="16Zc08zLH85" role="1TKVEi">
+      <property role="IQ2ns" value="1278793604944810501" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="target" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="ebqt:1i65yRAQ7jk" resolve="IExpression" />
+    </node>
+    <node concept="1TJgyj" id="16Zc08zLH86" role="1TKVEi">
+      <property role="IQ2ns" value="1278793604944810502" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="msg" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="16Zc08zLHB8" resolve="Message" />
+    </node>
+    <node concept="PrWs8" id="16Zc08zLH8d" role="PzmwI">
+      <ref role="PrY4T" to="ebqt:5luHlsCq70i" resolve="IStatement" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="16Zc08zLHB8">
+    <property role="EcuMT" value="1278793604944812488" />
+    <property role="3GE5qa" value="reporting" />
+    <property role="TrG5h" value="Message" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="16Zc08zLHB9" role="PzmwI">
+      <ref role="PrY4T" to="ebqt:1i65yRAQ7jk" resolve="IExpression" />
+    </node>
+    <node concept="1TJgyj" id="16Zc08zLHBh" role="1TKVEi">
+      <property role="IQ2ns" value="1278793604944812497" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="parts" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="16Zc08zLHBg" resolve="MessagePart" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="16Zc08zLHBg">
+    <property role="EcuMT" value="1278793604944812496" />
+    <property role="3GE5qa" value="reporting" />
+    <property role="TrG5h" value="MessagePart" />
+  </node>
+  <node concept="1TIwiD" id="16Zc08zLKnv">
+    <property role="EcuMT" value="1278793604944823775" />
+    <property role="3GE5qa" value="reporting" />
+    <property role="TrG5h" value="MessagePartLiteral" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="16Zc08zLKnw" role="1TKVEl">
+      <property role="IQ2nx" value="1278793604944823776" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="PrWs8" id="16Zc08$tjnK" role="PzmwI">
+      <ref role="PrY4T" node="16Zc08zLHBg" resolve="MessagePart" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="16Zc08zLNB4">
+    <property role="EcuMT" value="1278793604944837060" />
+    <property role="3GE5qa" value="reporting" />
+    <property role="TrG5h" value="MessagePartReference" />
+    <property role="34LRSv" value="$" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="16Zc08zLNB5" role="1TKVEi">
+      <property role="IQ2ns" value="1278793604944837061" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="ref" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="ebqt:Tz5AFeF__S" resolve="FunVariableReference" />
+    </node>
+    <node concept="PrWs8" id="16Zc08$tjnQ" role="PzmwI">
+      <ref role="PrY4T" node="16Zc08zLHBg" resolve="MessagePart" />
+    </node>
+  </node>
 </model>
 
