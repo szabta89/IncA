@@ -9,8 +9,10 @@
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="hqsm" ref="r:aa4c3470-43ab-4dad-b73e-20da0ee43be1(org.inca.core.structure)" />
     <import index="gcg1" ref="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.inca.core.behavior)" />
+    <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="j60j" ref="r:13275e02-3f14-48b5-8a82-fa91f2c33c15(org.inca.data.behavior)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
+    <import index="ebqt" ref="r:17207093-9cf4-4f01-9c48-e6e0146d6087(org.inca.fun.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -100,6 +102,7 @@
         <child id="1144231399730" name="condition" index="1Dwp0S" />
         <child id="1144231408325" name="iteration" index="1Dwrff" />
       </concept>
+      <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
@@ -185,7 +188,16 @@
       <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS">
         <reference id="1145383142433" name="elementConcept" index="2I9WkF" />
       </concept>
+      <concept id="7504436213544206332" name="jetbrains.mps.lang.smodel.structure.Node_ContainingLinkOperation" flags="nn" index="2NL2c5" />
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
+      <concept id="2644386474301421077" name="jetbrains.mps.lang.smodel.structure.LinkIdRefExpression" flags="nn" index="359W_D">
+        <reference id="2644386474301421078" name="conceptDeclaration" index="359W_E" />
+        <reference id="2644386474301421079" name="linkDeclaration" index="359W_F" />
+      </concept>
+      <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
+      <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
+        <child id="1177027386292" name="conceptArgument" index="cj9EA" />
+      </concept>
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
       </concept>
@@ -1291,6 +1303,67 @@
     <node concept="1YaCAy" id="4crFY5vs7pp" role="1YuTPh">
       <property role="TrG5h" value="accessor" />
       <ref role="1YaFvo" to="uu1k:4crFY5veme9" resolve="DataConstructorParameterAccessor" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="1WbPV9BxirM">
+    <property role="TrG5h" value="check_TypeConstructorTypeWrapper" />
+    <property role="3GE5qa" value="adt" />
+    <node concept="3clFbS" id="1WbPV9BxirN" role="18ibNy">
+      <node concept="3cpWs8" id="1WbPV9BxlTw" role="3cqZAp">
+        <node concept="3cpWsn" id="1WbPV9BxlTx" role="3cpWs9">
+          <property role="TrG5h" value="parent" />
+          <property role="3TUv4t" value="true" />
+          <node concept="3Tqbb2" id="1WbPV9BxlTu" role="1tU5fm" />
+          <node concept="2OqwBi" id="1WbPV9BxlTy" role="33vP2m">
+            <node concept="1YBJjd" id="1WbPV9BxlTz" role="2Oq$k0">
+              <ref role="1YBMHb" node="1WbPV9BxirP" resolve="type" />
+            </node>
+            <node concept="1mfA1w" id="1WbPV9BxlT$" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="1WbPV9Bxis2" role="3cqZAp">
+        <node concept="1Wc70l" id="1WbPV9BxjGx" role="3clFbw">
+          <node concept="2OqwBi" id="1WbPV9Bxj9A" role="3uHU7B">
+            <node concept="37vLTw" id="1WbPV9BxlT_" role="2Oq$k0">
+              <ref role="3cqZAo" node="1WbPV9BxlTx" resolve="parent" />
+            </node>
+            <node concept="1mIQ4w" id="1WbPV9BxjkI" role="2OqNvi">
+              <node concept="chp4Y" id="1WbPV9Bxjm_" role="cj9EA">
+                <ref role="cht4Q" to="ebqt:4IZiQsKumNF" resolve="PatternFunctionParameter" />
+              </node>
+            </node>
+          </node>
+          <node concept="2YIFZM" id="1WbPV9BxlO5" role="3uHU7w">
+            <ref role="37wK5l" to="33ny:~Objects.equals(java.lang.Object,java.lang.Object):boolean" resolve="equals" />
+            <ref role="1Pybhc" to="33ny:~Objects" resolve="Objects" />
+            <node concept="2OqwBi" id="1WbPV9Bxmf4" role="37wK5m">
+              <node concept="37vLTw" id="1WbPV9Bxm4p" role="2Oq$k0">
+                <ref role="3cqZAo" node="1WbPV9BxlTx" resolve="parent" />
+              </node>
+              <node concept="2NL2c5" id="1WbPV9BxmpN" role="2OqNvi" />
+            </node>
+            <node concept="359W_D" id="1WbPV9Bxmya" role="37wK5m">
+              <ref role="359W_E" to="ebqt:1ERTnBTfavv" resolve="PatternFunction" />
+              <ref role="359W_F" to="hqsm:3VwoHXNB3ZK" resolve="parameters" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbS" id="1WbPV9Bxis4" role="3clFbx">
+          <node concept="2MkqsV" id="1WbPV9BxnkP" role="3cqZAp">
+            <node concept="Xl_RD" id="1WbPV9Bxnl4" role="2MkJ7o">
+              <property role="Xl_RC" value="Cannot be used as the type of an input parameter!" />
+            </node>
+            <node concept="1YBJjd" id="1WbPV9BxolS" role="2OEOjV">
+              <ref role="1YBMHb" node="1WbPV9BxirP" resolve="type" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="1WbPV9BxirP" role="1YuTPh">
+      <property role="TrG5h" value="type" />
+      <ref role="1YaFvo" to="uu1k:2A0WHmBhrvB" resolve="TypeConstructorTypeWrapper" />
     </node>
   </node>
 </model>
