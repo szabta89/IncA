@@ -3,7 +3,7 @@
   <property name="build.dir" location="build" />
   <property name="build.tmp" location="${build.dir}/tmp/org.inca.build.meta" />
   <property name="build.layout" location="${build.dir}/artifacts/org.inca.build.meta" />
-  <property name="mps.home" location="${basedir}/../../../../../../Applications/MPS_2017.2_172.1347_inca.app/Contents" />
+  <property name="mps.home" location="${basedir}/../../../../../../Applications/MPS_2018.2_182.1427_inca.app/Contents" />
   <property name="inca.home" location="${basedir}/../.." />
   <property name="inca.code" location="${inca.home}/code" />
   <property name="artifacts.root" location="${basedir}/../../artifacts" />
@@ -31,6 +31,7 @@
   <property name="environment" value="env" />
   <property name="env.JAVA_HOME" value="${java.home}/.." />
   <property name="jdk.home" value="${env.JAVA_HOME}" />
+  <property name="mps.generator.skipUnmodifiedModels" value="false" />
   
   <path id="path.mps.ant.path">
     <pathelement location="${artifacts.mps}/lib/ant/lib/ant-mps.jar" />
@@ -66,7 +67,7 @@
   
   <target name="generate" depends="declare-mps-tasks, fetchDependencies">
     <echo message="generating" />
-    <generate strictMode="true" parallelMode="true" parallelThreads="4" useInplaceTransform="true" hideWarnings="false" createStaticRefs="true" fork="true" targetJavaVersion="1.8">
+    <generate strictMode="true" parallelMode="true" parallelThreads="4" useInplaceTransform="true" hideWarnings="false" createStaticRefs="true" fork="true" targetJavaVersion="1.8" skipUnmodifiedModels="${mps.generator.skipUnmodifiedModels}">
       <plugin path="${artifacts.com.mbeddr.platform}/com.mbeddr.mpsutil.common" />
       <plugin path="${artifacts.com.mbeddr.platform}/com.mbeddr.mpsutil.filepicker" />
       <plugin path="${artifacts.com.mbeddr.platform}/com.mbeddr.mpsutil.infrastructure.misc" />
