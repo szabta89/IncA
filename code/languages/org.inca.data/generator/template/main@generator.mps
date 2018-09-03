@@ -3304,7 +3304,10 @@
     <node concept="1puMqW" id="33oWlMHaos_" role="1puA0r">
       <ref role="1puQsG" node="5u2_tzjX1a" resolve="checkLatticeUsage" />
     </node>
-    <node concept="1puMqW" id="4Mox7H_9wzN" role="1puA0r">
+    <node concept="1puMqW" id="56F00UrqAnb" role="1puA0r">
+      <ref role="1puQsG" to="d3yh:6k2In$GXS8u" resolve="flattenStatementList" />
+    </node>
+    <node concept="1puMqW" id="56F00UsgoyS" role="1puA0r">
       <ref role="1puQsG" to="d3yh:28bFZSiFVgc" resolve="rewriteSwitchStatements" />
     </node>
     <node concept="1puMqW" id="606mdnYkASW" role="1puA0r">

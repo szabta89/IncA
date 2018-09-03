@@ -21,6 +21,7 @@
         <dependency reexport="false">8f5e7b65-fd75-4aa6-b49e-44ecf418fcb5(org.inca.fun#4530729936991344015)</dependency>
         <dependency reexport="false">cd2909da-ecb4-49dc-b176-33e5c619e516(org.inca.gp)</dependency>
         <dependency reexport="false">f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</dependency>
+        <dependency reexport="false">d5a58d02-4ac7-4892-afde-65968670c300(org.inca.data#8607574815737030311)</dependency>
       </dependencies>
       <languageVersions>
         <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="6" />
@@ -65,6 +66,7 @@
         <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
         <module reference="b802a056-92a2-4fbc-902e-f8e5004c331f(org.inca.core)" version="0" />
         <module reference="bc791f96-4749-4311-a6e4-241e47ca97f9(org.inca.core.util)" version="0" />
+        <module reference="d5a58d02-4ac7-4892-afde-65968670c300(org.inca.data#8607574815737030311)" version="0" />
         <module reference="3a1c1f85-c745-4d04-a210-f97a7e31f9cc(org.inca.extensions)" version="0" />
         <module reference="ffdbca37-b97f-439c-8366-148d3b8b6c53(org.inca.extensions#01)" version="0" />
         <module reference="8c9a2720-9d21-4370-a226-819eb3e76e1e(org.inca.fun)" version="0" />
@@ -82,6 +84,20 @@
           </greater-priority-mapping>
           <lesser-priority-mapping>
             <generator generatorUID="8f5e7b65-fd75-4aa6-b49e-44ecf418fcb5(org.inca.fun#4530729936991344015)" />
+            <external-mapping>
+              <all-local-mappings />
+            </external-mapping>
+          </lesser-priority-mapping>
+        </mapping-priority-rule>
+        <mapping-priority-rule kind="strictly_before">
+          <greater-priority-mapping>
+            <generator generatorUID="ffdbca37-b97f-439c-8366-148d3b8b6c53(org.inca.extensions#01)" />
+            <external-mapping>
+              <all-local-mappings />
+            </external-mapping>
+          </greater-priority-mapping>
+          <lesser-priority-mapping>
+            <generator generatorUID="d5a58d02-4ac7-4892-afde-65968670c300(org.inca.data#8607574815737030311)" />
             <external-mapping>
               <all-local-mappings />
             </external-mapping>

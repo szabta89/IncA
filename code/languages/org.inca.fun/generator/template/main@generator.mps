@@ -447,14 +447,14 @@
       <ref role="30HIoZ" to="ebqt:5luHlsCq9Sp" resolve="PatternFunctionEmptyContent" />
       <node concept="b5Tf3" id="39KhnTI9dsE" role="1lVwrX" />
     </node>
-    <node concept="1puMqW" id="6k2In$GY1jK" role="1puA0r">
-      <ref role="1puQsG" node="6k2In$GXS8u" resolve="flattenStatementList" />
-    </node>
     <node concept="1puMqW" id="5u2_tzmGRY" role="1puA0r">
       <ref role="1puQsG" node="5u2_tzjX1a" resolve="checkNegationInRecursion" />
     </node>
     <node concept="1puMqW" id="3ybyOPMFnfM" role="1puA0r">
       <ref role="1puQsG" to="cj1d:6zEhbQQw8IS" resolve="startGeneratorSession" />
+    </node>
+    <node concept="1puMqW" id="56F00UrRaiM" role="1puA0r">
+      <ref role="1puQsG" node="6k2In$GXS8u" resolve="flattenStatementList" />
     </node>
     <node concept="1puMqW" id="28bFZSiGas$" role="1puA0r">
       <ref role="1puQsG" node="28bFZSiFVgc" resolve="rewriteSwitchStatements" />
