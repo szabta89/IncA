@@ -629,5 +629,20 @@
       </node>
     </node>
   </node>
+  <node concept="1TIwiD" id="4ieGY3N3Jr9">
+    <property role="EcuMT" value="4940083620003903177" />
+    <property role="3GE5qa" value="misc" />
+    <property role="TrG5h" value="RelationAttribute" />
+    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
+    <node concept="M6xJ_" id="4ieGY3N3Jra" role="lGtFl">
+      <property role="Hh88m" value="relation" />
+      <node concept="tn0Fv" id="4ieGY3N3Jrd" role="HhnKV">
+        <property role="tnX3d" value="false" />
+      </node>
+      <node concept="trNpa" id="4ieGY3N3Jrg" role="EQaZv">
+        <ref role="trN6q" node="1ERTnBTfavv" resolve="PatternFunction" />
+      </node>
+    </node>
+  </node>
 </model>
 

@@ -271,6 +271,12 @@
         <child id="1180636770616" name="createdType" index="3zrR0E" />
       </concept>
       <concept id="1144146199828" name="jetbrains.mps.lang.smodel.structure.Node_CopyOperation" flags="nn" index="1$rogu" />
+      <concept id="6407023681583036853" name="jetbrains.mps.lang.smodel.structure.NodeAttributeQualifier" flags="ng" index="3CFYIy">
+        <reference id="6407023681583036854" name="attributeConcept" index="3CFYIx" />
+      </concept>
+      <concept id="6407023681583031218" name="jetbrains.mps.lang.smodel.structure.AttributeAccess" flags="nn" index="3CFZ6_">
+        <child id="6407023681583036852" name="qualifier" index="3CFYIz" />
+      </concept>
       <concept id="1140131837776" name="jetbrains.mps.lang.smodel.structure.Node_ReplaceWithAnotherOperation" flags="nn" index="1P9Npp">
         <child id="1140131861877" name="replacementNode" index="1P9ThW" />
       </concept>
@@ -497,6 +503,26 @@
         </node>
       </node>
       <node concept="10Oyi0" id="5te8vJ2FbWs" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="4ieGY3N3LeE" role="13h7CS">
+      <property role="TrG5h" value="isRelation" />
+      <node concept="3Tm1VV" id="4ieGY3N3LeF" role="1B3o_S" />
+      <node concept="10P_77" id="4ieGY3N3LNE" role="3clF45" />
+      <node concept="3clFbS" id="4ieGY3N3LeH" role="3clF47">
+        <node concept="3cpWs6" id="4ieGY3N3LP1" role="3cqZAp">
+          <node concept="3y3z36" id="4ieGY3N3MEw" role="3cqZAk">
+            <node concept="10Nm6u" id="4ieGY3N3MId" role="3uHU7w" />
+            <node concept="2OqwBi" id="4ieGY3N3M64" role="3uHU7B">
+              <node concept="13iPFW" id="4ieGY3N3LP9" role="2Oq$k0" />
+              <node concept="3CFZ6_" id="4ieGY3N3MnX" role="2OqNvi">
+                <node concept="3CFYIy" id="4ieGY3N3MsY" role="3CFYIz">
+                  <ref role="3CFYIx" to="ebqt:4ieGY3N3Jr9" resolve="RelationAttribute" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node concept="13h7C7" id="5xy6TexDh8G">

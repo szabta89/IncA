@@ -2390,6 +2390,7 @@
           <node concept="3cpWs8" id="2RSm1Cz27H3" role="3cqZAp">
             <node concept="3cpWsn" id="2RSm1Cz27H4" role="3cpWs9">
               <property role="TrG5h" value="typeDef" />
+              <property role="3TUv4t" value="true" />
               <node concept="3Tqbb2" id="2RSm1Cz27H5" role="1tU5fm">
                 <ref role="ehGHo" to="hqsm:7a3nU34ZOGv" resolve="JoinTypeDef" />
               </node>
@@ -2409,6 +2410,7 @@
           <node concept="3cpWs8" id="2RSm1Cz27Hc" role="3cqZAp">
             <node concept="3cpWsn" id="2RSm1Cz27Hd" role="3cpWs9">
               <property role="TrG5h" value="typeDefs" />
+              <property role="3TUv4t" value="true" />
               <node concept="2hMVRd" id="2RSm1Cz27He" role="1tU5fm">
                 <node concept="3Tqbb2" id="2RSm1Cz27Hf" role="2hN53Y">
                   <ref role="ehGHo" to="hqsm:7a3nU354JVn" resolve="IJoinTypeDef" />

@@ -275,6 +275,7 @@
       <concept id="8207263695490893775" name="com.mbeddr.mpsutil.grammarcells.structure.CellBasedRule" flags="ng" index="2ElW$n" />
       <concept id="8945098465480383073" name="com.mbeddr.mpsutil.grammarcells.structure.OptionalCell_TransformationText" flags="ig" index="ZYGn8" />
       <concept id="7363578995839435357" name="com.mbeddr.mpsutil.grammarcells.structure.WrapperCell" flags="ng" index="1kIj98">
+        <property id="484443907677193054" name="focusWrapped" index="3g2DhO" />
         <child id="1984422498404558693" name="leftTransformationText" index="2ee7bq" />
         <child id="7363578995839435358" name="wrapped" index="1kIj9b" />
       </concept>
@@ -1352,12 +1353,12 @@
       <node concept="l2Vlx" id="3l0M8IaAFFA" role="2iSdaV" />
       <node concept="1iCGBv" id="3l0M8IaAFFl" role="3EZMnx">
         <ref role="1NtTu8" to="uu1k:3l0M8IaAFF8" resolve="constructor" />
-        <ref role="1k5W1q" to="3sc9:7tOfV2_EoPv" resolve="Type" />
+        <ref role="1k5W1q" to="3sc9:2hR54KDMZgx" resolve="SynthesisedType" />
         <node concept="1sVBvm" id="3l0M8IaAFFn" role="1sWHZn">
           <node concept="3F0A7n" id="3l0M8IaAFFx" role="2wV5jI">
             <property role="1Intyy" value="true" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-            <ref role="1k5W1q" to="3sc9:7tOfV2_EoPv" resolve="Type" />
+            <ref role="1k5W1q" to="3sc9:2hR54KDMZgx" resolve="SynthesisedType" />
           </node>
         </node>
       </node>
@@ -1456,6 +1457,7 @@
     <node concept="3EZMnI" id="6h60itP$bPz" role="2wV5jI">
       <node concept="l2Vlx" id="6h60itP$bP$" role="2iSdaV" />
       <node concept="1kIj98" id="5ZcZlaf5LJS" role="3EZMnx">
+        <property role="3g2DhO" value="true" />
         <node concept="3F0A7n" id="5ZcZlaf5LK8" role="1kIj9b">
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
