@@ -251,7 +251,7 @@
       <node concept="3clFbS" id="4wNWMNAi5cR" role="2VODD2">
         <node concept="3cpWs6" id="4wNWMNAi6MR" role="3cqZAp">
           <node concept="Xl_RD" id="4wNWMNAi6MS" role="3cqZAk">
-            <property role="Xl_RC" value="AAAA - Generate Jimple Representation" />
+            <property role="Xl_RC" value="Generate Jimple Representation" />
           </node>
         </node>
       </node>

@@ -4147,6 +4147,9 @@
     <node concept="wJ9QX" id="6jQDSPOxIFD" role="xaH5_">
       <ref role="ws7DW" node="4ieGY3N0Hiv" resolve="InterPointsTo_Base" />
     </node>
+    <node concept="C6Zt3" id="2e$$0pvQtjq" role="xaH5_">
+      <ref role="ws7DW" node="6jQDSPOxOfS" resolve="HeapContext" />
+    </node>
     <node concept="2Qv1iZ" id="5J8EtnqIRNR" role="1dubk0">
       <property role="EcuMT" value="6613722788756421879" />
       <property role="TrG5h" value="CallContext" />
@@ -4154,14 +4157,7 @@
         <ref role="2UGuZ7" to="tpee:hxndl_i" resolve="IMethodCall" />
       </node>
     </node>
-    <node concept="2Qv1iZ" id="5J8EtnqIVqn" role="1dubk0">
-      <property role="EcuMT" value="6613722788756436631" />
-      <property role="TrG5h" value="HeapContext" />
-      <node concept="2kdjtB" id="5J8EtnqIXbI" role="2Qv0pB">
-        <ref role="2UGuZ7" to="tpee:gEShNN5" resolve="GenericNewExpression" />
-      </node>
-    </node>
-    <node concept="1XdyHe" id="5J8EtnqIT_j" role="1dubk0" />
+    <node concept="1XdyHe" id="2e$$0pvShvV" role="1dubk0" />
     <node concept="3zyOaA" id="6jQDSPOxIFE" role="1dubk0">
       <property role="TrG5h" value="varPointsTo" />
       <node concept="1VLyuc" id="6jQDSPOxIFF" role="1dv5OJ">
@@ -4184,8 +4180,10 @@
       </node>
       <node concept="1VLyuc" id="6jQDSPOybGj" role="1dv5OJ">
         <property role="TrG5h" value="hCtx" />
-        <node concept="2Qv0mg" id="5J8EtnqJq63" role="1dukDx">
-          <ref role="2Qv0mk" node="5J8EtnqIVqn" resolve="HeapContext" />
+        <node concept="2eLkkM" id="2e$$0pvQEyR" role="1dukDx">
+          <node concept="2ZQB9c" id="2e$$0pvQEyP" role="2eP6Tc">
+            <ref role="2ZQB93" node="6jQDSPOxOfS" resolve="HeapContext" />
+          </node>
         </node>
       </node>
       <node concept="3zV_Rz" id="6jQDSPOxIFH" role="3zVECS">
@@ -4227,17 +4225,17 @@
             <node concept="30NkWi" id="7Tak9Xcy8iH" role="34ocZn">
               <ref role="XkjO9" node="6jQDSPOybGj" resolve="hCtx" />
             </node>
-            <node concept="11bN8U" id="5J8EtnqLyGK" role="34ocZk">
-              <node concept="2k1_p_" id="5J8EtnqLyGL" role="11bN8K">
-                <node concept="2YIFZM" id="5J8EtnqL$wl" role="2k1_pE">
-                  <ref role="37wK5l" node="5J8EtnqKMG4" resolve="record" />
-                  <ref role="1Pybhc" node="5J8EtnqKM_h" resolve="ContextHelper" />
-                  <node concept="1sjAk5" id="5J8EtnqL$wD" role="37wK5m">
-                    <ref role="1sjAk2" node="6jQDSPOya4s" resolve="obj" />
-                  </node>
-                  <node concept="1sjAk5" id="5J8EtnqLAkC" role="37wK5m">
-                    <ref role="1sjAk2" node="6jQDSPOy0jU" resolve="ctx" />
-                  </node>
+            <node concept="1p__ei" id="2e$$0pvQQao" role="34ocZk">
+              <node concept="3_JagS" id="2e$$0pvQQam" role="1p__f_">
+                <ref role="3_Jajq" node="6jQDSPOxOfS" resolve="HeapContext" />
+              </node>
+              <node concept="1i8UFo" id="2e$$0pvQSfk" role="1p_StM">
+                <ref role="2RnLXx" node="6jQDSPOy045" resolve="record" />
+                <node concept="1sjAk5" id="2e$$0pvQSfr" role="2ZRyFy">
+                  <ref role="1sjAk2" node="6jQDSPOya4s" resolve="obj" />
+                </node>
+                <node concept="1sjAk5" id="2e$$0pvQUnf" role="2ZRyFy">
+                  <ref role="1sjAk2" node="6jQDSPOy0jU" resolve="ctx" />
                 </node>
               </node>
             </node>
@@ -4434,17 +4432,17 @@
                 <node concept="30NkWi" id="7Tak9XcDjET" role="34ocZn">
                   <ref role="XkjO9" node="6jQDSPOybGj" resolve="hCtx" />
                 </node>
-                <node concept="11bN8U" id="5J8EtnqV0J8" role="34ocZk">
-                  <node concept="2k1_p_" id="5J8EtnqV0J9" role="11bN8K">
-                    <node concept="2YIFZM" id="5J8EtnqV2yg" role="2k1_pE">
-                      <ref role="37wK5l" node="5J8EtnqKMG4" resolve="record" />
-                      <ref role="1Pybhc" node="5J8EtnqKM_h" resolve="ContextHelper" />
-                      <node concept="1sjAk5" id="5J8EtnqV2y_" role="37wK5m">
-                        <ref role="1sjAk2" node="6jQDSPOya4s" resolve="obj" />
-                      </node>
-                      <node concept="1sjAk5" id="5J8EtnqV65G" role="37wK5m">
-                        <ref role="1sjAk2" node="7Tak9XcCaYx" resolve="fromObjCtx" />
-                      </node>
+                <node concept="1p__ei" id="2e$$0pvR0o3" role="34ocZk">
+                  <node concept="3_JagS" id="2e$$0pvR0o1" role="1p__f_">
+                    <ref role="3_Jajq" node="6jQDSPOxOfS" resolve="HeapContext" />
+                  </node>
+                  <node concept="1i8UFo" id="2e$$0pvR2tl" role="1p_StM">
+                    <ref role="2RnLXx" node="6jQDSPOy045" resolve="record" />
+                    <node concept="1sjAk5" id="5J8EtnqV2y_" role="2ZRyFy">
+                      <ref role="1sjAk2" node="6jQDSPOya4s" resolve="obj" />
+                    </node>
+                    <node concept="1sjAk5" id="5J8EtnqV65G" role="2ZRyFy">
+                      <ref role="1sjAk2" node="7Tak9XcCaYx" resolve="fromObjCtx" />
                     </node>
                   </node>
                 </node>
@@ -4541,8 +4539,10 @@
       </node>
       <node concept="1VLyuc" id="6jQDSPOz2AO" role="1dv5OJ">
         <property role="TrG5h" value="pointerHCtx" />
-        <node concept="2Qv0mg" id="5J8EtnqJ_Pf" role="1dukDx">
-          <ref role="2Qv0mk" node="5J8EtnqIVqn" resolve="HeapContext" />
+        <node concept="2eLkkM" id="2e$$0pvQEyL" role="1dukDx">
+          <node concept="2ZQB9c" id="2e$$0pvQEyJ" role="2eP6Tc">
+            <ref role="2ZQB93" node="6jQDSPOxOfS" resolve="HeapContext" />
+          </node>
         </node>
       </node>
       <node concept="1VLyuc" id="6jQDSPOxIGY" role="1dv5OJ">
@@ -4559,8 +4559,10 @@
       </node>
       <node concept="1VLyuc" id="6jQDSPOz5Om" role="1dv5OJ">
         <property role="TrG5h" value="targetHCtx" />
-        <node concept="2Qv0mg" id="5J8EtnqJHbT" role="1dukDx">
-          <ref role="2Qv0mk" node="5J8EtnqIVqn" resolve="HeapContext" />
+        <node concept="2eLkkM" id="2e$$0pvQEyO" role="1dukDx">
+          <node concept="2ZQB9c" id="2e$$0pvQEyM" role="2eP6Tc">
+            <ref role="2ZQB93" node="6jQDSPOxOfS" resolve="HeapContext" />
+          </node>
         </node>
       </node>
       <node concept="3zV_Rz" id="6jQDSPOxIH0" role="3zVECS">
@@ -5100,28 +5102,29 @@
   </node>
   <node concept="3U8wA7" id="6jQDSPOxOfS">
     <property role="TrG5h" value="HeapContext" />
+    <node concept="2Z3Rg9" id="2e$$0pvQri9" role="2Z3R6k">
+      <property role="TrG5h" value="CTX" />
+    </node>
     <node concept="hMdjl" id="6jQDSPOy045" role="_iOnB">
       <property role="TrG5h" value="record" />
-      <node concept="2ZQB9c" id="6jQDSPOy06p" role="3clF45">
+      <node concept="2ZQB9c" id="2e$$0pvQrkX" role="3clF45">
         <ref role="2ZQB93" node="6jQDSPOxOfS" resolve="HeapContext" />
       </node>
       <node concept="3Tm1VV" id="6jQDSPOy048" role="1B3o_S" />
       <node concept="3clFbS" id="6jQDSPOy049" role="3clF47">
         <node concept="3cpWs6" id="6jQDSPOy06M" role="3cqZAp">
-          <node concept="10Nm6u" id="6jQDSPOy07k" role="3cqZAk" />
+          <node concept="2ZRyFJ" id="2e$$0pvQrkC" role="3cqZAk">
+            <ref role="2ZRyFH" node="2e$$0pvQri9" resolve="CTX" />
+          </node>
         </node>
       </node>
       <node concept="hPFL_" id="6jQDSPOy04Q" role="3clF46">
         <property role="TrG5h" value="heap" />
-        <node concept="3Tqbb2" id="6jQDSPOy056" role="1tU5fm">
-          <ref role="ehGHo" to="tpee:fz3vP1J" resolve="Expression" />
-        </node>
+        <node concept="3Tqbb2" id="6jQDSPOy056" role="1tU5fm" />
       </node>
       <node concept="hPFL_" id="6jQDSPOy05x" role="3clF46">
         <property role="TrG5h" value="ctx" />
-        <node concept="2ZQB9c" id="6jQDSPOy06b" role="1tU5fm">
-          <ref role="2ZQB93" node="6jQDSPOxOg7" resolve="CallContext" />
-        </node>
+        <node concept="3Tqbb2" id="2e$$0pvQrl_" role="1tU5fm" />
       </node>
     </node>
     <node concept="C6Zt3" id="6jQDSPOy062" role="xaH5_">
@@ -5175,32 +5178,6 @@
   <node concept="312cEu" id="5J8EtnqKM_h">
     <property role="TrG5h" value="ContextHelper" />
     <node concept="2tJIrI" id="5J8EtnqKM_L" role="jymVt" />
-    <node concept="2YIFZL" id="5J8EtnqKMG4" role="jymVt">
-      <property role="TrG5h" value="record" />
-      <property role="DiZV1" value="false" />
-      <property role="od$2w" value="false" />
-      <property role="2aFKle" value="false" />
-      <node concept="3clFbS" id="5J8EtnqKMG6" role="3clF47">
-        <node concept="3cpWs6" id="5J8EtnqKWmi" role="3cqZAp">
-          <node concept="37vLTw" id="5J8EtnqKWnp" role="3cqZAk">
-            <ref role="3cqZAo" node="5J8EtnqKMGa" resolve="heap" />
-          </node>
-        </node>
-      </node>
-      <node concept="3Tqbb2" id="5J8EtnqKMG9" role="3clF45" />
-      <node concept="37vLTG" id="5J8EtnqKMGa" role="3clF46">
-        <property role="TrG5h" value="heap" />
-        <property role="3TUv4t" value="true" />
-        <node concept="3Tqbb2" id="5J8EtnqKMGb" role="1tU5fm" />
-      </node>
-      <node concept="37vLTG" id="5J8EtnqKMGc" role="3clF46">
-        <property role="TrG5h" value="callContext" />
-        <property role="3TUv4t" value="true" />
-        <node concept="3Tqbb2" id="5J8EtnqKMGd" role="1tU5fm" />
-      </node>
-      <node concept="3Tm1VV" id="5J8EtnqKMG8" role="1B3o_S" />
-    </node>
-    <node concept="2tJIrI" id="5J8EtnqKMF6" role="jymVt" />
     <node concept="2YIFZL" id="5J8EtnqKMH1" role="jymVt">
       <property role="TrG5h" value="merge" />
       <property role="od$2w" value="false" />
@@ -5214,7 +5191,9 @@
       <node concept="37vLTG" id="5J8EtnqKWep" role="3clF46">
         <property role="TrG5h" value="heapContext" />
         <property role="3TUv4t" value="true" />
-        <node concept="3Tqbb2" id="5J8EtnqKWfk" role="1tU5fm" />
+        <node concept="3uibUv" id="2e$$0pvR2uK" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+        </node>
       </node>
       <node concept="37vLTG" id="5J8EtnqKWg0" role="3clF46">
         <property role="TrG5h" value="call" />
