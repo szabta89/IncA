@@ -7,6 +7,7 @@
       <modulePath path="$PROJECT_DIR$/languages/org.inca.data/org.inca.data.mpl" folder="data" />
       <modulePath path="$PROJECT_DIR$/languages/org.inca.fun/org.inca.fun.mpl" folder="core" />
       <modulePath path="$PROJECT_DIR$/languages/org.inca.gp/org.inca.gp.mpl" folder="core" />
+      <modulePath path="$PROJECT_DIR$/languages/org.inca.integration.souffle/org.inca.integration.souffle.mpl" folder="souffle" />
       <modulePath path="$PROJECT_DIR$/languages/org.inca.meta.analysis.impact/org.inca.meta.analysis.impact.mpl" folder="meta" />
       <modulePath path="$PROJECT_DIR$/languages/org.inca.styles/org.inca.styles.mpl" folder="style" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.mpsutil.soot.runtime/com.mbeddr.mpsutil.soot.runtime.msd" folder="soot" />
@@ -18,6 +19,7 @@
       <modulePath path="$PROJECT_DIR$/solutions/org.inca.data.runtime/org.inca.data.runtime.msd" folder="data" />
       <modulePath path="$PROJECT_DIR$/solutions/org.inca.fun.runtime/org.inca.fun.runtime.msd" folder="core" />
       <modulePath path="$PROJECT_DIR$/solutions/org.inca.gp.runtime/org.inca.gp.runtime.msd" folder="core" />
+      <modulePath path="$PROJECT_DIR$/solutions/org.inca.integration.souffle.runtime/org.inca.integration.souffle.runtime.msd" folder="souffle" />
       <modulePath path="$PROJECT_DIR$/solutions/org.inca.measurements/org.inca.measurements.msd" folder="measurements" />
       <modulePath path="$PROJECT_DIR$/solutions/org.inca.meta.analysis/org.inca.meta.analysis.msd" folder="meta" />
       <modulePath path="$PROJECT_DIR$/solutions/org.inca.ui/org.inca.ui.msd" folder="ui" />

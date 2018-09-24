@@ -13,6 +13,7 @@
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
     <dependency reexport="false">7766a138-716a-422a-9c88-131459fb8d6a(org.inca.core.runtime)</dependency>
     <dependency reexport="false">4f0197ca-971d-45b6-82d7-0a2bf8511267(com.mbeddr.mpsutil.soot)</dependency>
+    <dependency reexport="false">cbe65572-4018-4a0b-9cdb-21078fa8ed81(org.inca.integration.souffle)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:4f0197ca-971d-45b6-82d7-0a2bf8511267:com.mbeddr.mpsutil.soot" version="0" />
@@ -53,6 +54,7 @@
     <module reference="b802a056-92a2-4fbc-902e-f8e5004c331f(org.inca.core)" version="0" />
     <module reference="7766a138-716a-422a-9c88-131459fb8d6a(org.inca.core.runtime)" version="0" />
     <module reference="bc791f96-4749-4311-a6e4-241e47ca97f9(org.inca.core.util)" version="0" />
+    <module reference="cbe65572-4018-4a0b-9cdb-21078fa8ed81(org.inca.integration.souffle)" version="0" />
     <module reference="63eb6607-fb6c-406b-9a48-912b4c8dcf0e(org.inca.sa.inter.test)" version="0" />
   </dependencyVersions>
 </solution>
