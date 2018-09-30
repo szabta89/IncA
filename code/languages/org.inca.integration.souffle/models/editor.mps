@@ -8,6 +8,7 @@
   <imports>
     <import index="jo05" ref="r:84041fac-ee84-4462-aa40-45272492d5ac(org.inca.integration.souffle.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="hqsm" ref="r:aa4c3470-43ab-4dad-b73e-20da0ee43be1(org.inca.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -38,6 +39,7 @@
       <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ng" index="3F0Thp">
         <child id="1219418656006" name="styleItem" index="3F10Kt" />
       </concept>
+      <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY" />
       <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR" />
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
@@ -61,6 +63,26 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="pj6Ft" id="1puHZ8EAdAT" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="1cwfJkv_Wfx">
+    <ref role="1XX52x" to="jo05:1cwfJkvvAQA" resolve="DoopCustomScope" />
+    <node concept="3EZMnI" id="1cwfJkvtucw" role="2wV5jI">
+      <node concept="l2Vlx" id="1cwfJkvtucx" role="2iSdaV" />
+      <node concept="3F0ifn" id="1cwfJkvtuct" role="3EZMnx">
+        <property role="3F0ifm" value="custom Doop scope" />
+      </node>
+      <node concept="3F0ifn" id="1cwfJkvA1mu" role="3EZMnx">
+        <node concept="pVoyu" id="1cwfJkvA1m_" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="1cwfJkvtucD" role="3EZMnx">
+        <ref role="1NtTu8" to="hqsm:1cwfJkvtqFl" resolve="function" />
+        <node concept="pVoyu" id="1cwfJkvtucH" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>

@@ -33,7 +33,6 @@
     <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
-    <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
     <import index="gcg1" ref="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.inca.core.behavior)" implicit="true" />
@@ -4271,6 +4270,22 @@
         </node>
         <node concept="Vb9p2" id="7ldkIpV0gV9" role="3F10Kt">
           <property role="Vbekb" value="BOLD" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="1cwfJkvtucr">
+    <property role="3GE5qa" value="scope" />
+    <ref role="1XX52x" to="hqsm:1cwfJkvtqFk" resolve="AbstractCustomScope" />
+    <node concept="3EZMnI" id="1cwfJkvtucw" role="2wV5jI">
+      <node concept="l2Vlx" id="1cwfJkvtucx" role="2iSdaV" />
+      <node concept="3F0ifn" id="1cwfJkvtuct" role="3EZMnx">
+        <property role="3F0ifm" value="custom IncA scope" />
+      </node>
+      <node concept="3F1sOY" id="1cwfJkvtucD" role="3EZMnx">
+        <ref role="1NtTu8" to="hqsm:1cwfJkvtqFl" resolve="function" />
+        <node concept="pVoyu" id="1cwfJkvtucH" role="3F10Kt">
+          <property role="VOm3f" value="true" />
         </node>
       </node>
     </node>

@@ -14,6 +14,7 @@
     <dependency reexport="false">7766a138-716a-422a-9c88-131459fb8d6a(org.inca.core.runtime)</dependency>
     <dependency reexport="false">4f0197ca-971d-45b6-82d7-0a2bf8511267(com.mbeddr.mpsutil.soot)</dependency>
     <dependency reexport="false">cbe65572-4018-4a0b-9cdb-21078fa8ed81(org.inca.integration.souffle)</dependency>
+    <dependency reexport="false">7f52706a-b8e9-4b0c-aa29-a10b46f6ea9f(org.inca.integration.souffle.runtime)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:4f0197ca-971d-45b6-82d7-0a2bf8511267:com.mbeddr.mpsutil.soot" version="0" />
@@ -30,6 +31,7 @@
     <language slang="l:e6d2ffd5-9c56-41f8-99ac-9d1ceb13daa2:org.inca.data" version="2" />
     <language slang="l:8c9a2720-9d21-4370-a226-819eb3e76e1e:org.inca.fun" version="0" />
     <language slang="l:cd2909da-ecb4-49dc-b176-33e5c619e516:org.inca.gp" version="0" />
+    <language slang="l:cbe65572-4018-4a0b-9cdb-21078fa8ed81:org.inca.integration.souffle" version="0" />
   </languageVersions>
   <dependencyVersions>
     <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
@@ -55,6 +57,7 @@
     <module reference="7766a138-716a-422a-9c88-131459fb8d6a(org.inca.core.runtime)" version="0" />
     <module reference="bc791f96-4749-4311-a6e4-241e47ca97f9(org.inca.core.util)" version="0" />
     <module reference="cbe65572-4018-4a0b-9cdb-21078fa8ed81(org.inca.integration.souffle)" version="0" />
+    <module reference="7f52706a-b8e9-4b0c-aa29-a10b46f6ea9f(org.inca.integration.souffle.runtime)" version="0" />
     <module reference="63eb6607-fb6c-406b-9a48-912b4c8dcf0e(org.inca.sa.inter.test)" version="0" />
   </dependencyVersions>
 </solution>

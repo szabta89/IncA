@@ -2945,8 +2945,8 @@
                   <ref role="1Pybhc" to="h57a:~AdvancedViatraQueryEngine" resolve="AdvancedViatraQueryEngine" />
                   <ref role="37wK5l" to="h57a:~AdvancedViatraQueryEngine.createUnmanagedEngine(org.eclipse.viatra.query.runtime.api.scope.QueryScope,org.eclipse.viatra.query.runtime.api.ViatraQueryEngineOptions):org.eclipse.viatra.query.runtime.api.AdvancedViatraQueryEngine" resolve="createUnmanagedEngine" />
                   <node concept="2YIFZM" id="526VibMIjYt" role="37wK5m">
-                    <ref role="1Pybhc" to="pzen:3KgejumhMXD" resolve="MPSScope" />
-                    <ref role="37wK5l" to="pzen:6cJttNupUNl" resolve="from" />
+                    <ref role="1Pybhc" to="pzen:1cwfJkvsPlx" resolve="AbstractScope" />
+                    <ref role="37wK5l" to="pzen:1cwfJkvJisJ" resolve="from" />
                     <node concept="37vLTw" id="4Ak$Z6PLnZ7" role="37wK5m">
                       <ref role="3cqZAo" node="4Ak$Z6PLnZ3" resolve="model" />
                     </node>
@@ -3651,41 +3651,49 @@
                           </node>
                         </node>
                       </node>
-                      <node concept="3cpWs8" id="2oRZV_1OFHL" role="3cqZAp">
-                        <node concept="3cpWsn" id="2oRZV_1OFHM" role="3cpWs9">
-                          <property role="TrG5h" value="baseIndex" />
-                          <property role="3TUv4t" value="true" />
-                          <node concept="3uibUv" id="2oRZV_1OGMf" role="1tU5fm">
-                            <ref role="3uigEE" to="pzen:5GIDTvtu_M_" resolve="MPSNavigationHelper" />
-                          </node>
-                          <node concept="10QFUN" id="2oRZV_1OIYs" role="33vP2m">
-                            <node concept="3uibUv" id="2oRZV_1OIYq" role="10QFUM">
+                      <node concept="1X3_iC" id="1cwfJkwpkdM" role="lGtFl">
+                        <property role="3V$3am" value="statement" />
+                        <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+                        <node concept="3cpWs8" id="2oRZV_1OFHL" role="8Wnug">
+                          <node concept="3cpWsn" id="2oRZV_1OFHM" role="3cpWs9">
+                            <property role="TrG5h" value="baseIndex" />
+                            <property role="3TUv4t" value="true" />
+                            <node concept="3uibUv" id="2oRZV_1OGMf" role="1tU5fm">
                               <ref role="3uigEE" to="pzen:5GIDTvtu_M_" resolve="MPSNavigationHelper" />
                             </node>
-                            <node concept="2OqwBi" id="2oRZV_1OFHN" role="10QFUP">
-                              <node concept="37vLTw" id="2oRZV_1OFHO" role="2Oq$k0">
-                                <ref role="3cqZAo" node="2oRZV_1NRTS" resolve="engine" />
+                            <node concept="10QFUN" id="2oRZV_1OIYs" role="33vP2m">
+                              <node concept="3uibUv" id="2oRZV_1OIYq" role="10QFUM">
+                                <ref role="3uigEE" to="pzen:5GIDTvtu_M_" resolve="MPSNavigationHelper" />
                               </node>
-                              <node concept="liA8E" id="2oRZV_1OFHP" role="2OqNvi">
-                                <ref role="37wK5l" to="h57a:~ViatraQueryEngine.getBaseIndex():org.eclipse.viatra.query.runtime.api.scope.IBaseIndex" resolve="getBaseIndex" />
+                              <node concept="2OqwBi" id="2oRZV_1OFHN" role="10QFUP">
+                                <node concept="37vLTw" id="2oRZV_1OFHO" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="2oRZV_1NRTS" resolve="engine" />
+                                </node>
+                                <node concept="liA8E" id="2oRZV_1OFHP" role="2OqNvi">
+                                  <ref role="37wK5l" to="h57a:~ViatraQueryEngine.getBaseIndex():org.eclipse.viatra.query.runtime.api.scope.IBaseIndex" resolve="getBaseIndex" />
+                                </node>
                               </node>
                             </node>
                           </node>
                         </node>
                       </node>
-                      <node concept="3clFbF" id="2oRZV_1NVRL" role="3cqZAp">
-                        <node concept="2OqwBi" id="2oRZV_1OJEK" role="3clFbG">
-                          <node concept="37vLTw" id="2oRZV_1OFHQ" role="2Oq$k0">
-                            <ref role="3cqZAo" node="2oRZV_1OFHM" resolve="baseIndex" />
-                          </node>
-                          <node concept="liA8E" id="2oRZV_1OJP1" role="2OqNvi">
-                            <ref role="37wK5l" to="pzen:7Zw$ExPO8yk" resolve="registerEvalCache" />
-                            <node concept="2OqwBi" id="2oRZV_1OK$K" role="37wK5m">
-                              <node concept="37vLTw" id="2oRZV_1OKih" role="2Oq$k0">
-                                <ref role="3cqZAo" node="2oRZV_1OvcJ" resolve="hints" />
-                              </node>
-                              <node concept="liA8E" id="2oRZV_1OKYG" role="2OqNvi">
-                                <ref role="37wK5l" to="pzen:7xh$8$gPtLf" resolve="getEvalCache" />
+                      <node concept="1X3_iC" id="1cwfJkwpkdN" role="lGtFl">
+                        <property role="3V$3am" value="statement" />
+                        <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+                        <node concept="3clFbF" id="2oRZV_1NVRL" role="8Wnug">
+                          <node concept="2OqwBi" id="2oRZV_1OJEK" role="3clFbG">
+                            <node concept="37vLTw" id="2oRZV_1OFHQ" role="2Oq$k0">
+                              <ref role="3cqZAo" node="2oRZV_1OFHM" resolve="baseIndex" />
+                            </node>
+                            <node concept="liA8E" id="2oRZV_1OJP1" role="2OqNvi">
+                              <ref role="37wK5l" to="pzen:7Zw$ExPO8yk" resolve="registerEvalCache" />
+                              <node concept="2OqwBi" id="2oRZV_1OK$K" role="37wK5m">
+                                <node concept="37vLTw" id="2oRZV_1OKih" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="2oRZV_1OvcJ" resolve="hints" />
+                                </node>
+                                <node concept="liA8E" id="2oRZV_1OKYG" role="2OqNvi">
+                                  <ref role="37wK5l" to="pzen:7xh$8$gPtLf" resolve="getEvalCache" />
+                                </node>
                               </node>
                             </node>
                           </node>

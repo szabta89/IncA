@@ -16,6 +16,8 @@
     <import index="qq03" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.actions(MPS.Platform/)" />
     <import index="ekwn" ref="r:9832fb5f-2578-4b58-8014-a5de79da988e(jetbrains.mps.ide.editor.actions)" />
     <import index="kn4z" ref="r:7d378049-64b5-4606-8242-93ea206e7286(org.inca.sa.test.plugin@tests)" />
+    <import index="vebz" ref="r:1c89766f-bec5-416e-a735-1d8e2add3fc0(org.inca.sa.inter.test.doop)" />
+    <import index="pzen" ref="r:25bfb30f-3676-4451-9448-27a17343be80(org.inca.core.runtime.plugin)" />
   </imports>
   <registry>
     <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
@@ -185,6 +187,9 @@
       </node>
       <node concept="tCFHf" id="1_JXc3TkJcq" role="ftvYc">
         <ref role="tCJdB" node="1_JXc3TiNbn" resolve="FlixAction" />
+      </node>
+      <node concept="tCFHf" id="1dZT6p18Uy6" role="ftvYc">
+        <ref role="tCJdB" node="1dZT6p18Dyu" resolve="DoopAction" />
       </node>
     </node>
   </node>
@@ -522,6 +527,39 @@
   </node>
   <node concept="2DaZZR" id="6ukHF6h8quY">
     <property role="3GE5qa" value="" />
+  </node>
+  <node concept="sE7Ow" id="1dZT6p18Dyu">
+    <property role="TrG5h" value="DoopAction" />
+    <property role="2uzpH1" value="Doop Measurement" />
+    <property role="3GE5qa" value="" />
+    <property role="72QZ$" value="true" />
+    <node concept="1DS2jV" id="1dZT6p18Dyv" role="1NuT2Z">
+      <property role="TrG5h" value="project" />
+      <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.MPS_PROJECT" resolve="MPS_PROJECT" />
+      <node concept="1oajcY" id="1dZT6p18Dyw" role="1oa70y" />
+    </node>
+    <node concept="tnohg" id="1dZT6p18Dyx" role="tncku">
+      <node concept="3clFbS" id="1dZT6p18Dyy" role="2VODD2">
+        <node concept="3clFbF" id="1dZT6p18KnZ" role="3cqZAp">
+          <node concept="2YIFZM" id="1dZT6p18KtL" role="3clFbG">
+            <ref role="37wK5l" to="vebz:1dZT6p12vjv" resolve="run" />
+            <ref role="1Pybhc" to="vebz:1dZT6p12vih" resolve="DoopRunner" />
+            <node concept="2OqwBi" id="1dZT6p18SSC" role="37wK5m">
+              <node concept="2WthIp" id="1dZT6p18SSF" role="2Oq$k0" />
+              <node concept="1DTwFV" id="1dZT6p18SSH" role="2OqNvi">
+                <ref role="2WH_rO" node="1dZT6p18Dyv" resolve="project" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2V8Gn2StC7I" role="3cqZAp">
+          <node concept="2YIFZM" id="2V8Gn2StCht" role="3clFbG">
+            <ref role="37wK5l" to="pzen:7N0GnG$EaoY" resolve="printDebugInfo" />
+            <ref role="1Pybhc" to="pzen:7N0GnG$EadP" resolve="ReteDebugger" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 

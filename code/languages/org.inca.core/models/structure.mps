@@ -2,7 +2,6 @@
 <model ref="r:aa4c3470-43ab-4dad-b73e-20da0ee43be1(org.inca.core.structure)">
   <persistence version="9" />
   <languages>
-    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="-1" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
@@ -1454,6 +1453,40 @@
     <node concept="PrWs8" id="7ldkIpUXx_r" role="PzmwI">
       <ref role="PrY4T" node="4apIOoJvWqz" resolve="ICompilerOption" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="1cwfJkvtqFj">
+    <property role="EcuMT" value="1378170708491086547" />
+    <property role="TrG5h" value="CustomScopeFunction" />
+    <property role="3GE5qa" value="scope" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="1cwfJkvtqFk">
+    <property role="EcuMT" value="1378170708491086548" />
+    <property role="3GE5qa" value="scope" />
+    <property role="TrG5h" value="AbstractCustomScope" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1cwfJkvtqFl" role="1TKVEi">
+      <property role="IQ2ns" value="1378170708491086549" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="function" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="1cwfJkvtqFj" resolve="CustomScopeFunction" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1cwfJkvts0n">
+    <property role="EcuMT" value="1378170708491091991" />
+    <property role="3GE5qa" value="scope" />
+    <property role="TrG5h" value="CustomScopeFunctionModelParameter" />
+    <property role="34LRSv" value="model" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="1cwfJkvtsch">
+    <property role="EcuMT" value="1378170708491092753" />
+    <property role="3GE5qa" value="scope" />
+    <property role="TrG5h" value="CustomScopeFunctionRepositoryParameter" />
+    <property role="34LRSv" value="repository" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
 </model>
 
