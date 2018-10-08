@@ -3,10 +3,12 @@
   <persistence version="9" />
   <languages>
     <use id="cbe65572-4018-4a0b-9cdb-21078fa8ed81" name="org.inca.integration.souffle" version="0" />
+    <use id="1d07278f-c7c0-42f9-86d5-36c90a494d43" name="org.inca.integration.doop" version="0" />
   </languages>
   <imports>
     <import index="9p7m" ref="r:1dc81452-17b3-4789-bde7-f8715778fb48(org.inca.integration.souffle.runtime.plugin)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
+    <import index="y6gk" ref="r:5ac39770-a2bb-4532-9906-8d3463ccf042(org.inca.integration.doop.runtime.plugin)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -56,9 +58,6 @@
         <reference id="1107535924139" name="classifier" index="3uigEE" />
       </concept>
     </language>
-    <language id="cbe65572-4018-4a0b-9cdb-21078fa8ed81" name="org.inca.integration.souffle">
-      <concept id="1378170708491660710" name="org.inca.integration.souffle.structure.DoopCustomScope" flags="ng" index="cn_dj" />
-    </language>
     <language id="b802a056-92a2-4fbc-902e-f8e5004c331f" name="org.inca.core">
       <concept id="1378170708491086548" name="org.inca.core.structure.AbstractCustomScope" flags="ng" index="clpgx">
         <child id="1378170708491086549" name="function" index="clpgw" />
@@ -66,95 +65,98 @@
       <concept id="1378170708491086547" name="org.inca.core.structure.CustomScopeFunction" flags="ig" index="clpgA" />
       <concept id="1378170708491092753" name="org.inca.core.structure.CustomScopeFunctionRepositoryParameter" flags="ng" index="clvR$" />
     </language>
+    <language id="1d07278f-c7c0-42f9-86d5-36c90a494d43" name="org.inca.integration.doop">
+      <concept id="1378170708491660710" name="org.inca.integration.doop.structure.DoopCustomScope" flags="ng" index="cn_dj" />
+    </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
   </registry>
-  <node concept="cn_dj" id="1cwfJkv_RVV">
-    <node concept="clpgA" id="1cwfJkv_RVW" role="clpgw">
-      <node concept="3clFbS" id="1cwfJkv_RVX" role="2VODD2">
-        <node concept="3cpWs8" id="1cwfJkvlXtR" role="3cqZAp">
-          <node concept="3cpWsn" id="1cwfJkvlXtS" role="3cpWs9">
+  <node concept="cn_dj" id="77tbxk_slZ8">
+    <node concept="clpgA" id="77tbxk_slZ9" role="clpgw">
+      <node concept="3clFbS" id="77tbxk_slZa" role="2VODD2">
+        <node concept="3cpWs8" id="77tbxk_smbP" role="3cqZAp">
+          <node concept="3cpWsn" id="77tbxk_smbQ" role="3cpWs9">
             <property role="TrG5h" value="input" />
             <property role="3TUv4t" value="true" />
-            <node concept="3uibUv" id="1cwfJkvlXtT" role="1tU5fm">
+            <node concept="3uibUv" id="77tbxk_smbR" role="1tU5fm">
               <ref role="3uigEE" to="guwi:~File" resolve="File" />
             </node>
-            <node concept="2ShNRf" id="1cwfJkvlXtU" role="33vP2m">
-              <node concept="1pGfFk" id="1cwfJkvlXtV" role="2ShVmc">
+            <node concept="2ShNRf" id="77tbxk_smbS" role="33vP2m">
+              <node concept="1pGfFk" id="77tbxk_smbT" role="2ShVmc">
                 <ref role="37wK5l" to="guwi:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
-                <node concept="Xl_RD" id="1cwfJkvlXtW" role="37wK5m">
+                <node concept="Xl_RD" id="77tbxk_smbU" role="37wK5m">
                   <property role="Xl_RC" value="/Users/szabta/git/doop/tmp" />
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="3cpWs8" id="1cwfJkw5xTr" role="3cqZAp">
-          <node concept="3cpWsn" id="1cwfJkw5xTs" role="3cpWs9">
+        <node concept="3cpWs8" id="77tbxk_smbV" role="3cqZAp">
+          <node concept="3cpWsn" id="77tbxk_smbW" role="3cpWs9">
             <property role="TrG5h" value="analysis" />
             <property role="3TUv4t" value="true" />
-            <node concept="3uibUv" id="1cwfJkw5xTt" role="1tU5fm">
+            <node concept="3uibUv" id="77tbxk_smbX" role="1tU5fm">
               <ref role="3uigEE" to="guwi:~File" resolve="File" />
             </node>
-            <node concept="2ShNRf" id="w2h3oDV51W" role="33vP2m">
-              <node concept="1pGfFk" id="w2h3oDV51X" role="2ShVmc">
+            <node concept="2ShNRf" id="77tbxk_smbY" role="33vP2m">
+              <node concept="1pGfFk" id="77tbxk_smbZ" role="2ShVmc">
                 <ref role="37wK5l" to="guwi:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
-                <node concept="Xl_RD" id="w2h3oDV51Y" role="37wK5m">
+                <node concept="Xl_RD" id="77tbxk_smc0" role="37wK5m">
                   <property role="Xl_RC" value="/Users/szabta/git/doop/experiments/self-contained.dl" />
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="3cpWs8" id="1cwfJkw9nL3" role="3cqZAp">
-          <node concept="3cpWsn" id="1cwfJkw9nL4" role="3cpWs9">
+        <node concept="3cpWs8" id="77tbxk_smc1" role="3cqZAp">
+          <node concept="3cpWsn" id="77tbxk_smc2" role="3cpWs9">
             <property role="TrG5h" value="context" />
             <property role="3TUv4t" value="true" />
-            <node concept="3uibUv" id="1cwfJkw9nL2" role="1tU5fm">
-              <ref role="3uigEE" to="9p7m:1cwfJkw5u_e" resolve="DoopContext" />
+            <node concept="3uibUv" id="77tbxk_sn_7" role="1tU5fm">
+              <ref role="3uigEE" to="y6gk:1cwfJkw5u_e" resolve="DoopContext" />
             </node>
-            <node concept="2OqwBi" id="1cwfJkw9nL5" role="33vP2m">
-              <node concept="2OqwBi" id="1cwfJkw9nL6" role="2Oq$k0">
-                <node concept="2OqwBi" id="1cwfJkw9nL7" role="2Oq$k0">
-                  <node concept="2OqwBi" id="1cwfJkw9nL8" role="2Oq$k0">
-                    <node concept="2YIFZM" id="1cwfJkw9nL9" role="2Oq$k0">
-                      <ref role="37wK5l" to="9p7m:1cwfJkw65Ek" resolve="builder" />
-                      <ref role="1Pybhc" to="9p7m:1cwfJkw5u_e" resolve="DoopContext" />
+            <node concept="2OqwBi" id="77tbxk_smc4" role="33vP2m">
+              <node concept="2OqwBi" id="77tbxk_smc5" role="2Oq$k0">
+                <node concept="2OqwBi" id="77tbxk_smc6" role="2Oq$k0">
+                  <node concept="2OqwBi" id="77tbxk_smc7" role="2Oq$k0">
+                    <node concept="2YIFZM" id="77tbxk_smc8" role="2Oq$k0">
+                      <ref role="1Pybhc" to="y6gk:1cwfJkw5u_e" resolve="DoopContext" />
+                      <ref role="37wK5l" to="y6gk:1cwfJkw65Ek" resolve="builder" />
                     </node>
-                    <node concept="liA8E" id="1cwfJkw9nLa" role="2OqNvi">
-                      <ref role="37wK5l" to="9p7m:1cwfJkw5Z2l" resolve="setAnalysis" />
-                      <node concept="37vLTw" id="1cwfJkw9nLb" role="37wK5m">
-                        <ref role="3cqZAo" node="1cwfJkw5xTs" resolve="analysis" />
+                    <node concept="liA8E" id="77tbxk_smc9" role="2OqNvi">
+                      <ref role="37wK5l" to="y6gk:1cwfJkw5Z2l" resolve="setAnalysis" />
+                      <node concept="37vLTw" id="77tbxk_smca" role="37wK5m">
+                        <ref role="3cqZAo" node="77tbxk_smbW" resolve="analysis" />
                       </node>
                     </node>
                   </node>
-                  <node concept="liA8E" id="1cwfJkw9nLc" role="2OqNvi">
-                    <ref role="37wK5l" to="9p7m:1cwfJkw5Z2A" resolve="setInput" />
-                    <node concept="37vLTw" id="1cwfJkw9nLd" role="37wK5m">
-                      <ref role="3cqZAo" node="1cwfJkvlXtS" resolve="input" />
+                  <node concept="liA8E" id="77tbxk_smcb" role="2OqNvi">
+                    <ref role="37wK5l" to="y6gk:1cwfJkw5Z2A" resolve="setInput" />
+                    <node concept="37vLTw" id="77tbxk_smcc" role="37wK5m">
+                      <ref role="3cqZAo" node="77tbxk_smbQ" resolve="input" />
                     </node>
                   </node>
                 </node>
-                <node concept="liA8E" id="1cwfJkw9nLe" role="2OqNvi">
-                  <ref role="37wK5l" to="9p7m:1cwfJkw5Z24" resolve="setRepository" />
-                  <node concept="clvR$" id="1cwfJkw9nLf" role="37wK5m" />
+                <node concept="liA8E" id="77tbxk_smcd" role="2OqNvi">
+                  <ref role="37wK5l" to="y6gk:1cwfJkw5Z24" resolve="setRepository" />
+                  <node concept="clvR$" id="77tbxk_smce" role="37wK5m" />
                 </node>
               </node>
-              <node concept="liA8E" id="1cwfJkw9nLg" role="2OqNvi">
-                <ref role="37wK5l" to="9p7m:1cwfJkw5Z3p" resolve="build" />
+              <node concept="liA8E" id="77tbxk_smcf" role="2OqNvi">
+                <ref role="37wK5l" to="y6gk:1cwfJkw5Z3p" resolve="build" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="3cpWs6" id="1cwfJkvlXuo" role="3cqZAp">
-          <node concept="2ShNRf" id="1cwfJkvm2Qh" role="3cqZAk">
-            <node concept="1pGfFk" id="1cwfJkvm2Qc" role="2ShVmc">
-              <ref role="37wK5l" to="9p7m:3xwsEjblpR6" resolve="DoopScope" />
-              <node concept="37vLTw" id="1cwfJkw5_s_" role="37wK5m">
-                <ref role="3cqZAo" node="1cwfJkw9nL4" resolve="context" />
+        <node concept="3cpWs6" id="77tbxk_smcg" role="3cqZAp">
+          <node concept="2ShNRf" id="77tbxk_smch" role="3cqZAk">
+            <node concept="1pGfFk" id="77tbxk_smci" role="2ShVmc">
+              <ref role="37wK5l" to="y6gk:3xwsEjblpR6" resolve="DoopScope" />
+              <node concept="37vLTw" id="77tbxk_smcj" role="37wK5m">
+                <ref role="3cqZAo" node="77tbxk_smc2" resolve="context" />
               </node>
             </node>
           </node>

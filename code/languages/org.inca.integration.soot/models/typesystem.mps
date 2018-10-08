@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:9bc5b43d-81e0-4a5f-9dc7-397181e0b348(com.mbeddr.mpsutil.soot.typesystem)">
+<model ref="r:9bc5b43d-81e0-4a5f-9dc7-397181e0b348(org.inca.integration.soot.typesystem)">
   <persistence version="9" />
   <languages>
     <devkit ref="00000000-0000-4000-0000-1de82b3a4936(jetbrains.mps.devkit.aspect.typesystem)" />
   </languages>
   <imports>
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
-    <import index="zlu8" ref="r:78834de7-6fe6-4a19-9aac-690061daffae(com.mbeddr.mpsutil.soot.structure)" implicit="true" />
+    <import index="zlu8" ref="r:78834de7-6fe6-4a19-9aac-690061daffae(org.inca.integration.soot.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:518e52c3-d4c9-4dcb-ad2c-4951846e7fc1(com.mbeddr.mpsutil.soot.dataFlow)">
+<model ref="r:518e52c3-d4c9-4dcb-ad2c-4951846e7fc1(org.inca.integration.soot.dataFlow)">
   <persistence version="9" />
   <languages>
     <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
     <devkit ref="00000000-0000-4000-0000-443879f56b80(jetbrains.mps.devkit.aspect.dataflow)" />
   </languages>
   <imports>
-    <import index="zlu8" ref="r:78834de7-6fe6-4a19-9aac-690061daffae(com.mbeddr.mpsutil.soot.structure)" />
+    <import index="zlu8" ref="r:78834de7-6fe6-4a19-9aac-690061daffae(org.inca.integration.soot.structure)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
