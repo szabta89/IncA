@@ -196,10 +196,6 @@
       </concept>
     </language>
     <language id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext">
-      <concept id="1217960179967" name="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_ShowErrorMessage" flags="nn" index="2k5nB$" />
-      <concept id="1217960314443" name="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_ShowMessageBase" flags="nn" index="2k5Stg">
-        <child id="1217960314448" name="messageText" index="2k5Stb" />
-      </concept>
       <concept id="1216860049633" name="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextType" flags="in" index="1iwH7U" />
     </language>
     <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
@@ -333,27 +329,44 @@
       <node concept="3clFbS" id="6$RZwFUt2Dw" role="3clF47">
         <node concept="3clFbJ" id="6$RZwFUt3Tx" role="3cqZAp">
           <node concept="3clFbS" id="6$RZwFUt3Tz" role="3clFbx">
-            <node concept="3clFbF" id="6$TCdl5H5Yo" role="3cqZAp">
-              <node concept="2OqwBi" id="6$TCdl5H69a" role="3clFbG">
-                <node concept="37vLTw" id="6$TCdl5H5Ym" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5te8vJ2DfPs" resolve="context" />
-                </node>
-                <node concept="2k5nB$" id="6$TCdl5H6hn" role="2OqNvi">
-                  <node concept="3cpWs3" id="6$TCdl5H6hL" role="2k5Stb">
-                    <node concept="37vLTw" id="6$TCdl5H6hM" role="3uHU7w">
-                      <ref role="3cqZAo" node="6$RZwFUt2ZB" resolve="right" />
-                    </node>
-                    <node concept="3cpWs3" id="6$TCdl5H6hN" role="3uHU7B">
-                      <node concept="3cpWs3" id="6$TCdl5H6hO" role="3uHU7B">
-                        <node concept="Xl_RD" id="6$TCdl5H6hP" role="3uHU7B">
-                          <property role="Xl_RC" value="The arity of the left and right tuples does not match! " />
+            <node concept="YS8fn" id="bDXmH1N0vI" role="3cqZAp">
+              <node concept="2ShNRf" id="bDXmH1N0_D" role="YScLw">
+                <node concept="1pGfFk" id="bDXmH1N0H5" role="2ShVmc">
+                  <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;(java.lang.String)" resolve="IllegalStateException" />
+                  <node concept="3cpWs3" id="bDXmH1TA_z" role="37wK5m">
+                    <node concept="3cpWs3" id="bDXmH1T$ZM" role="3uHU7B">
+                      <node concept="3cpWs3" id="bDXmH1N0Lv" role="3uHU7B">
+                        <node concept="3cpWs3" id="bDXmH1N0Lx" role="3uHU7B">
+                          <node concept="3cpWs3" id="bDXmH1N0Ly" role="3uHU7B">
+                            <node concept="Xl_RD" id="bDXmH1N0Lz" role="3uHU7B">
+                              <property role="Xl_RC" value="The arity of the left and right tuples does not match! " />
+                            </node>
+                            <node concept="37vLTw" id="bDXmH1N0L$" role="3uHU7w">
+                              <ref role="3cqZAo" node="6$RZwFUt2Qe" resolve="left" />
+                            </node>
+                          </node>
+                          <node concept="Xl_RD" id="bDXmH1N0L_" role="3uHU7w">
+                            <property role="Xl_RC" value=" " />
+                          </node>
                         </node>
-                        <node concept="37vLTw" id="6$TCdl5H6hQ" role="3uHU7w">
-                          <ref role="3cqZAo" node="6$RZwFUt2Qe" resolve="left" />
+                        <node concept="37vLTw" id="bDXmH1N0Lw" role="3uHU7w">
+                          <ref role="3cqZAo" node="6$RZwFUt2ZB" resolve="right" />
                         </node>
                       </node>
-                      <node concept="Xl_RD" id="6$TCdl5H6hR" role="3uHU7w">
-                        <property role="Xl_RC" value=" " />
+                      <node concept="Xl_RD" id="bDXmH1T_tJ" role="3uHU7w">
+                        <property role="Xl_RC" value=" in " />
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="bDXmH20ahg" role="3uHU7w">
+                      <node concept="37vLTw" id="bDXmH20ahh" role="2Oq$k0">
+                        <ref role="3cqZAo" node="6$RZwFUt3bc" resolve="body" />
+                      </node>
+                      <node concept="2Xjw5R" id="bDXmH20ahi" role="2OqNvi">
+                        <node concept="1xMEDy" id="bDXmH20ahj" role="1xVPHs">
+                          <node concept="chp4Y" id="bDXmH20ahk" role="ri$Ld">
+                            <ref role="cht4Q" to="hqsm:3VwoHXNAdmh" resolve="IPattern" />
+                          </node>
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -556,27 +569,44 @@
       <node concept="3clFbS" id="6$RZwFUtedu" role="3clF47">
         <node concept="3clFbJ" id="6$RZwFUtedv" role="3cqZAp">
           <node concept="3clFbS" id="6$RZwFUtedw" role="3clFbx">
-            <node concept="3clFbF" id="6$TCdl5CzAG" role="3cqZAp">
-              <node concept="2OqwBi" id="6$TCdl5CzLu" role="3clFbG">
-                <node concept="37vLTw" id="6$TCdl5CzAE" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5te8vJ2Dg5k" resolve="context" />
-                </node>
-                <node concept="2k5nB$" id="6$TCdl5CzPT" role="2OqNvi">
-                  <node concept="3cpWs3" id="6$TCdl5C$3d" role="2k5Stb">
-                    <node concept="37vLTw" id="6$TCdl5C$3e" role="3uHU7w">
-                      <ref role="3cqZAo" node="6$RZwFUtedo" resolve="right" />
-                    </node>
-                    <node concept="3cpWs3" id="6$TCdl5C$3f" role="3uHU7B">
-                      <node concept="3cpWs3" id="6$TCdl5C$3g" role="3uHU7B">
-                        <node concept="Xl_RD" id="6$TCdl5C$3h" role="3uHU7B">
-                          <property role="Xl_RC" value="The arity of the left and right tuples does not match! " />
-                        </node>
-                        <node concept="37vLTw" id="6$TCdl5C$3i" role="3uHU7w">
-                          <ref role="3cqZAo" node="6$RZwFUtedl" resolve="left" />
+            <node concept="YS8fn" id="bDXmH1MZJt" role="3cqZAp">
+              <node concept="2ShNRf" id="bDXmH1MZPC" role="YScLw">
+                <node concept="1pGfFk" id="bDXmH1MZX4" role="2ShVmc">
+                  <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;(java.lang.String)" resolve="IllegalStateException" />
+                  <node concept="3cpWs3" id="bDXmH208VR" role="37wK5m">
+                    <node concept="2OqwBi" id="bDXmH209Jc" role="3uHU7w">
+                      <node concept="37vLTw" id="bDXmH209qv" role="2Oq$k0">
+                        <ref role="3cqZAo" node="6$RZwFUtedr" resolve="body" />
+                      </node>
+                      <node concept="2Xjw5R" id="bDXmH209Zs" role="2OqNvi">
+                        <node concept="1xMEDy" id="bDXmH209Zu" role="1xVPHs">
+                          <node concept="chp4Y" id="bDXmH20a7V" role="ri$Ld">
+                            <ref role="cht4Q" to="hqsm:3VwoHXNAdmh" resolve="IPattern" />
+                          </node>
                         </node>
                       </node>
-                      <node concept="Xl_RD" id="6$TCdl5C$3j" role="3uHU7w">
-                        <property role="Xl_RC" value=" " />
+                    </node>
+                    <node concept="3cpWs3" id="bDXmH1TDNN" role="3uHU7B">
+                      <node concept="3cpWs3" id="bDXmH1N000" role="3uHU7B">
+                        <node concept="3cpWs3" id="bDXmH1N002" role="3uHU7B">
+                          <node concept="3cpWs3" id="bDXmH1N003" role="3uHU7B">
+                            <node concept="Xl_RD" id="bDXmH1N004" role="3uHU7B">
+                              <property role="Xl_RC" value="The arity of the left and right tuples does not match! " />
+                            </node>
+                            <node concept="37vLTw" id="bDXmH1N005" role="3uHU7w">
+                              <ref role="3cqZAo" node="6$RZwFUtedl" resolve="left" />
+                            </node>
+                          </node>
+                          <node concept="Xl_RD" id="bDXmH1N006" role="3uHU7w">
+                            <property role="Xl_RC" value=" " />
+                          </node>
+                        </node>
+                        <node concept="37vLTw" id="bDXmH1N001" role="3uHU7w">
+                          <ref role="3cqZAo" node="6$RZwFUtedo" resolve="right" />
+                        </node>
+                      </node>
+                      <node concept="Xl_RD" id="bDXmH1TEhL" role="3uHU7w">
+                        <property role="Xl_RC" value=" in " />
                       </node>
                     </node>
                   </node>

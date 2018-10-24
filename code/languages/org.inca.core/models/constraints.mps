@@ -771,11 +771,6 @@
                               </node>
                             </node>
                             <node concept="1xIGOp" id="5LLe7EhFBFq" role="1xVPHs" />
-                            <node concept="hTh3S" id="5LLe7EhFBFr" role="1xVPHs">
-                              <node concept="3gn64h" id="5LLe7EhFBFs" role="hTh3Z">
-                                <ref role="3gnhBz" to="hqsm:3VwoHXNAdvt" resolve="IPatternBody" />
-                              </node>
-                            </node>
                           </node>
                         </node>
                       </node>

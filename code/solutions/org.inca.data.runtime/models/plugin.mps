@@ -5142,6 +5142,31 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbJ" id="bDXmH1vrsQ" role="3cqZAp">
+              <node concept="3clFbS" id="bDXmH1vrsS" role="3clFbx">
+                <node concept="YS8fn" id="bDXmH1vs4Z" role="3cqZAp">
+                  <node concept="2ShNRf" id="bDXmH1vs8R" role="YScLw">
+                    <node concept="1pGfFk" id="bDXmH1vssR" role="2ShVmc">
+                      <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;(java.lang.String)" resolve="IllegalStateException" />
+                      <node concept="3cpWs3" id="bDXmH1vtkA" role="37wK5m">
+                        <node concept="37vLTw" id="bDXmH1vtut" role="3uHU7w">
+                          <ref role="3cqZAo" node="aQnmvI6m9p" resolve="originalTempVar" />
+                        </node>
+                        <node concept="Xl_RD" id="bDXmH1vszj" role="3uHU7B">
+                          <property role="Xl_RC" value="Cannot rewrite with untyped variable " />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbC" id="bDXmH1vrPg" role="3clFbw">
+                <node concept="10Nm6u" id="bDXmH1vrXk" role="3uHU7w" />
+                <node concept="37vLTw" id="bDXmH1vrE3" role="3uHU7B">
+                  <ref role="3cqZAo" node="aQnmvI5Wmz" resolve="runtimeType" />
+                </node>
+              </node>
+            </node>
             <node concept="3clFbF" id="aQnmvHBkIO" role="3cqZAp">
               <node concept="37vLTI" id="aQnmvHBln$" role="3clFbG">
                 <node concept="2OqwBi" id="aQnmvHBkTF" role="37vLTJ">

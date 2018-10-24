@@ -25,40 +25,40 @@
   </imports>
   <registry>
     <language id="8c9a2720-9d21-4370-a226-819eb3e76e1e" name="org.inca.fun">
-      <concept id="1024655549792572278" name="org.inca.fun.structure.PatternFunctionModuleImport" flags="ng" index="wJ9QX" />
-      <concept id="5058472606514896546" name="org.inca.fun.structure.LiteralValue" flags="ng" index="2Brx2E">
-        <child id="5058472606514896559" name="value" index="2Brx2B" />
+      <concept id="996292992024530460" name="org.inca.fun.structure.PatternFunctionCall" flags="ng" index="2k1GkI">
+        <child id="996292992028393460" name="call" index="2nKVj6" />
       </concept>
-      <concept id="7264940820300219702" name="org.inca.fun.structure.StatementList" flags="ng" index="CU8gp" />
+      <concept id="1024655549792572278" name="org.inca.fun.structure.PatternFunctionModuleImport" flags="ng" index="wJ9QX" />
       <concept id="1036696987215326970" name="org.inca.fun.structure.ReturnStatement" flags="ng" index="30Nfyg">
         <child id="1036696987215326979" name="expression" index="30Nf_D" />
       </concept>
-      <concept id="1925259677759481823" name="org.inca.fun.structure.PatternFunction" flags="ng" index="3zyOaA" />
+      <concept id="1925259677759481823" name="org.inca.fun.structure.PatternFunction" flags="ng" index="3zyOaA">
+        <child id="6368683143941351805" name="outParameters" index="3TLBbI" />
+      </concept>
       <concept id="1925259677761386650" name="org.inca.fun.structure.PatternFunctionBody" flags="ng" index="3zV_Rz" />
       <concept id="6368683143941319361" name="org.inca.fun.structure.PatternFunctionModule" flags="ng" index="3TKv5i" />
+      <concept id="6368683143941346282" name="org.inca.fun.structure.PatternFunctionAnonymousParameter" flags="ng" index="3TL$xT" />
       <concept id="6151553526979403289" name="org.inca.fun.structure.PatternFunctionEmptyContent" flags="ng" index="1XdyHe" />
     </language>
-    <language id="3a1c1f85-c745-4d04-a210-f97a7e31f9cc" name="org.inca.extensions">
-      <concept id="7264940820301581321" name="org.inca.extensions.structure.IfStatement" flags="ng" index="CBsOA">
-        <child id="7264940820301581325" name="thenClause" index="CBsOy" />
-        <child id="7264940820301581324" name="condition" index="CBsOz" />
-      </concept>
-    </language>
     <language id="b802a056-92a2-4fbc-902e-f8e5004c331f" name="org.inca.core">
-      <concept id="996292992024566533" name="org.inca.core.structure.BoolValue" flags="ng" index="2k1_0R">
-        <property id="996292992024566534" name="value" index="2k1_0O" />
-      </concept>
-      <concept id="996292992024565941" name="org.inca.core.structure.NumberValue" flags="ng" index="2k1_e7">
-        <property id="996292992024565942" name="value" index="2k1_e4" />
-      </concept>
+      <concept id="996292992024566952" name="org.inca.core.structure.PatternCall" flags="ng" index="2k1_uq" />
       <concept id="1024655549788599478" name="org.inca.core.structure.IIncaModuleImport" flags="ng" index="ws7DX">
         <reference id="1024655549788599479" name="module" index="ws7DW" />
+      </concept>
+      <concept id="7996518772785670958" name="org.inca.core.structure.DataTypeReferenceType" flags="ng" index="2PmbLq">
+        <reference id="7996518772785671445" name="dataTypeDeclaration" index="2PmbDx" />
+      </concept>
+      <concept id="4074503452633891989" name="org.inca.core.structure.IPatternCall" flags="ng" index="1aOKZo">
+        <reference id="996292992028507459" name="pattern" index="2nKBpL" />
       </concept>
       <concept id="4530729936991344605" name="org.inca.core.structure.IPatternBody" flags="ng" index="1dubk2">
         <child id="4530729936991965471" name="contents" index="1dgzf0" />
       </concept>
       <concept id="4530729936991344019" name="org.inca.core.structure.IPatternModule" flags="ng" index="1dubtc">
         <child id="4530729936991344607" name="contents" index="1dubk0" />
+      </concept>
+      <concept id="4530729936991344018" name="org.inca.core.structure.IVariable" flags="ng" index="1dubtd">
+        <child id="4530729936991365310" name="type" index="1dukDx" />
       </concept>
       <concept id="4530729936991344017" name="org.inca.core.structure.IPattern" flags="ng" index="1dubte">
         <child id="1925259677761359694" name="bodies" index="3zVECR" />
@@ -80,29 +80,43 @@
     <node concept="1XdyHe" id="16Zc08rcUBo" role="1dubk0" />
     <node concept="1XdyHe" id="16Zc08rcUM3" role="1dubk0" />
     <node concept="1XdyHe" id="16Zc08rcUWK" role="1dubk0" />
-    <node concept="1XdyHe" id="16Zc08rcV7v" role="1dubk0" />
-    <node concept="1XdyHe" id="16Zc08rcVig" role="1dubk0" />
-    <node concept="3zyOaA" id="56F00UuewTQ" role="1dubk0">
-      <property role="TrG5h" value="foo" />
-      <node concept="3zV_Rz" id="56F00UuewTR" role="3zVECR">
-        <node concept="CBsOA" id="56F00UuewU8" role="1dgzf0">
-          <node concept="2Brx2E" id="56F00UuewUV" role="CBsOz">
-            <node concept="2k1_0R" id="56F00UuewUU" role="2Brx2B">
-              <property role="2k1_0O" value="true" />
-            </node>
-          </node>
-          <node concept="CU8gp" id="56F00UuewUa" role="CBsOy">
-            <node concept="30Nfyg" id="56F00UukKSJ" role="1dgzf0">
-              <node concept="2Brx2E" id="56F00UukKTb" role="30Nf_D">
-                <node concept="2k1_e7" id="56F00UukKTa" role="2Brx2B">
-                  <property role="2k1_e4" value="1" />
-                </node>
-              </node>
+    <node concept="3zyOaA" id="51sf_c16EWj" role="1dubk0">
+      <property role="TrG5h" value="bar" />
+      <node concept="3zV_Rz" id="51sf_c16EWk" role="3zVECR">
+        <node concept="30Nfyg" id="51sf_c16EZm" role="1dgzf0">
+          <node concept="2k1GkI" id="51sf_c16F03" role="30Nf_D">
+            <node concept="2k1_uq" id="51sf_c16F01" role="2nKVj6">
+              <ref role="2nKBpL" node="56F00UuewTQ" resolve="foo" />
             </node>
           </node>
         </node>
       </node>
+      <node concept="3TL$xT" id="51sf_c16EXR" role="3TLBbI">
+        <node concept="2PmbLq" id="51sf_c16EXY" role="1dukDx">
+          <ref role="2PmbDx" to="tpck:fKAOsGN" resolve="string" />
+        </node>
+      </node>
     </node>
+    <node concept="1XdyHe" id="16Zc08rcVig" role="1dubk0" />
+    <node concept="3zyOaA" id="56F00UuewTQ" role="1dubk0">
+      <property role="TrG5h" value="foo" />
+      <node concept="3zV_Rz" id="56F00UuewTR" role="3zVECR">
+        <node concept="30Nfyg" id="51sf_c16EY$" role="1dgzf0">
+          <node concept="2k1GkI" id="51sf_c16EZ4" role="30Nf_D">
+            <node concept="2k1_uq" id="51sf_c16EZ2" role="2nKVj6">
+              <ref role="2nKBpL" node="51sf_c16EWj" resolve="bar" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3TL$xT" id="51sf_c16EYe" role="3TLBbI">
+        <node concept="2PmbLq" id="51sf_c16EYl" role="1dukDx">
+          <ref role="2PmbDx" to="tpck:fKAOsGN" resolve="string" />
+        </node>
+      </node>
+    </node>
+    <node concept="1XdyHe" id="51sf_c16F0y" role="1dubk0" />
+    <node concept="1XdyHe" id="51sf_c16F1d" role="1dubk0" />
     <node concept="wJ9QX" id="16Zc08qRo6R" role="xaH5_">
       <ref role="ws7DW" to="i963:16Zc08qPvY4" resolve="Utils" />
     </node>

@@ -52,6 +52,10 @@
       <concept id="1182160077978" name="jetbrains.mps.baseLanguage.structure.AnonymousClassCreator" flags="nn" index="YeOm9">
         <child id="1182160096073" name="cls" index="YeSDq" />
       </concept>
+      <concept id="1081256982272" name="jetbrains.mps.baseLanguage.structure.InstanceOfExpression" flags="nn" index="2ZW3vV">
+        <child id="1081256993305" name="classType" index="2ZW6by" />
+        <child id="1081256993304" name="leftExpression" index="2ZW6bz" />
+      </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
@@ -111,6 +115,9 @@
         <property id="521412098689998745" name="nonStatic" index="2bfB8j" />
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
+      <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
+        <reference id="1107535924139" name="classifier" index="3uigEE" />
+      </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
@@ -161,6 +168,7 @@
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
       </concept>
+      <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="1180031783296" name="jetbrains.mps.lang.smodel.structure.Concept_IsSubConceptOfOperation" flags="nn" index="2Zo12i">
         <child id="1180031783297" name="conceptArgument" index="2Zo12j" />
@@ -413,14 +421,25 @@
         <node concept="3clFbF" id="2RafZtbYN10" role="3cqZAp">
           <node concept="22lmx$" id="5jddR$Dk7sk" role="3clFbG">
             <node concept="22lmx$" id="2RafZtbYOSY" role="3uHU7B">
-              <node concept="2OqwBi" id="2RafZtbYNO8" role="3uHU7B">
-                <node concept="2OqwBi" id="2RafZtbYNgq" role="2Oq$k0">
-                  <node concept="nLn13" id="2RafZtbYN0Z" role="2Oq$k0" />
-                  <node concept="2yIwOk" id="2RafZtbYNt9" role="2OqNvi" />
+              <node concept="22lmx$" id="bDXmH1o57A" role="3uHU7B">
+                <node concept="2OqwBi" id="2RafZtbYNO8" role="3uHU7w">
+                  <node concept="2OqwBi" id="2RafZtbYNgq" role="2Oq$k0">
+                    <node concept="nLn13" id="2RafZtbYN0Z" role="2Oq$k0" />
+                    <node concept="2yIwOk" id="2RafZtbYNt9" role="2OqNvi" />
+                  </node>
+                  <node concept="2Zo12i" id="2RafZtbYOcK" role="2OqNvi">
+                    <node concept="chp4Y" id="2RafZtbZ9Y0" role="2Zo12j">
+                      <ref role="cht4Q" to="z9af:69yn6_DNapv" resolve="NodePatternBinding" />
+                    </node>
+                  </node>
                 </node>
-                <node concept="2Zo12i" id="2RafZtbYOcK" role="2OqNvi">
-                  <node concept="chp4Y" id="2RafZtbZ9Y0" role="2Zo12j">
-                    <ref role="cht4Q" to="z9af:69yn6_DNapv" resolve="NodePatternBinding" />
+                <node concept="2ZW3vV" id="aQnmvIGl1o" role="3uHU7B">
+                  <node concept="3uibUv" id="aQnmvIGlgX" role="2ZW6by">
+                    <ref role="3uigEE" to="g3l6:~TransientSModel" resolve="TransientSModel" />
+                  </node>
+                  <node concept="2OqwBi" id="aQnmvIGk4U" role="2ZW6bz">
+                    <node concept="EsrRn" id="aQnmvIGjN8" role="2Oq$k0" />
+                    <node concept="I4A8Y" id="aQnmvIGkt1" role="2OqNvi" />
                   </node>
                 </node>
               </node>
