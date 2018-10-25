@@ -2,7 +2,6 @@
 <model ref="r:aa4c3470-43ab-4dad-b73e-20da0ee43be1(org.inca.core.structure)">
   <persistence version="9" />
   <languages>
-    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="-1" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
@@ -428,7 +427,7 @@
     <property role="3GE5qa" value="usage.matcher" />
     <property role="TrG5h" value="IncaEvaluatorInstantiation" />
     <property role="R4oN_" value="Instantiate Inca Evaluator" />
-    <property role="34LRSv" value="get evaluator" />
+    <property role="34LRSv" value="get evaluator for" />
     <property role="EcuMT" value="7241148409043933760" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="1TJgyj" id="6ZM2l12NP7U" role="1TKVEi">
@@ -620,7 +619,7 @@
     <property role="R5$K2" value="false" />
     <property role="EcuMT" value="996292992024565924" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="1i65yRAWiKI" role="PzmwI">
+    <node concept="PrWs8" id="72eq42Oxs8E" role="PzmwI">
       <ref role="PrY4T" node="1i65yRAWiCQ" resolve="IValue" />
     </node>
   </node>
@@ -1432,7 +1431,7 @@
     <property role="3GE5qa" value="compiler" />
     <property role="TrG5h" value="ProductionMode" />
     <property role="34LRSv" value="production" />
-    <property role="R4oN_" value="Production Mode" />
+    <property role="R4oN_" value="production Mode" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="4apIOoJw0DC" role="PzmwI">
       <ref role="PrY4T" node="4apIOoJw0wd" resolve="IIncAMode" />
@@ -1463,6 +1462,71 @@
     <node concept="PrWs8" id="6zWr6F6$Kl2" role="PrDN$">
       <ref role="PrY4T" node="3VwoHXNAdmi" resolve="IVariable" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="7ldkIpUXx_q">
+    <property role="EcuMT" value="8452503225503193434" />
+    <property role="3GE5qa" value="compiler" />
+    <property role="TrG5h" value="StrictErrorCheckingOption" />
+    <property role="34LRSv" value="Strict" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="7ldkIpUXx_r" role="PzmwI">
+      <ref role="PrY4T" node="4apIOoJvWqz" resolve="ICompilerOption" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3udlLtLDedu">
+    <property role="EcuMT" value="4002951402004734814" />
+    <property role="3GE5qa" value="usage.matcher" />
+    <property role="TrG5h" value="IncAPrintSizeDebugStatement" />
+    <property role="34LRSv" value="printSize" />
+    <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
+    <node concept="1TJgyj" id="3udlLtLE6m5" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="model" />
+      <property role="IQ2ns" value="4002951402004964741" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="3udlLtLDedv" role="1TKVEi">
+      <property role="IQ2ns" value="4002951402004734815" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="input" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1cwfJkvtqFj">
+    <property role="EcuMT" value="1378170708491086547" />
+    <property role="TrG5h" value="CustomScopeFunction" />
+    <property role="3GE5qa" value="scope" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="1cwfJkvtqFk">
+    <property role="EcuMT" value="1378170708491086548" />
+    <property role="3GE5qa" value="scope" />
+    <property role="TrG5h" value="AbstractCustomScope" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1cwfJkvtqFl" role="1TKVEi">
+      <property role="IQ2ns" value="1378170708491086549" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="function" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="1cwfJkvtqFj" resolve="CustomScopeFunction" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1cwfJkvtsch">
+    <property role="EcuMT" value="1378170708491092753" />
+    <property role="3GE5qa" value="scope" />
+    <property role="TrG5h" value="CustomScopeFunctionRepositoryParameter" />
+    <property role="34LRSv" value="repository" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="1cwfJkvts0n">
+    <property role="EcuMT" value="1378170708491091991" />
+    <property role="3GE5qa" value="scope" />
+    <property role="TrG5h" value="CustomScopeFunctionModelParameter" />
+    <property role="34LRSv" value="model" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
 </model>
 

@@ -6,7 +6,7 @@ IncA is a program analysis framework. It comes with a DSL for the definition of 
 
 ## Getting Started
 
-IncA is tightly integrated into the JetBrains MPS language workbench (https://www.jetbrains.com/mps/). The primary goal of this integration is to make analysis development and maintenance an integral part of the language development process. Getting started with IncA is easy, it only requires Java 1.8+ and MPS 2018.1.x. 
+IncA is tightly integrated into the JetBrains MPS language workbench (https://www.jetbrains.com/mps/). The primary goal of this integration is to make analysis development and maintenance an integral part of the language development process. Getting started with IncA is easy, it only requires Java 1.8+ and MPS 2018.2.x. Note that there are maintenance branches for earlier MPS versions (e.g. 2018.1), as well. 
 
 The project is equipped with a Gradle build, and setting up the project requires the cloning of this project and running `./gradlew` in the root directory from a command line. The default gradle task takes care of downloading all dependencies and building IncA itself. Note that the build downloads MPS itself because it is required for building IncA, though, the downloaded MPS application is independent from any of your existing MPS installations. Once the project is built, you can start using IncA by opening the `code` directory (under the root directory) in MPS. 
 
@@ -15,10 +15,16 @@ The project is equipped with a Gradle build, and setting up the project requires
 ## Publications
 
 IncA is a research project, and its various features have been documented in the following publications: 
-* **IncAL: A DSL for Incremental Program Analysis with Lattices**, **Tamás Szabó**, Sebastian Erdweg, and Markus Völter.
+* **Incrementalizing Lattice-Based Program Analyses in Datalog**, Tamás Szabó, Gábor Bergmann, Sebastian Erdweg, and Markus Völter.
+In *Proceedings of Conference on Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA)*, 2018. [[pdf]](https://szabta89.github.io/publications/inca-oopsla-draft.pdf)
+
+* **Incremental Overload Resolution in Object-Oriented Programming Languages**, Tamás Szabó, Edlira Kuci, Matthijs Bijman, Mira Mezini, and Sebastian Erdweg.
+In *Proceedings of International Workshop on Formal Techniques for Java-like Programs (FTfJP)*, 2018. [[pdf]](https://szabta89.github.io/publications/inca-ftfjp.pdf)
+
+* **IncAL: A DSL for Incremental Program Analysis with Lattices**, Tamás Szabó, Sebastian Erdweg, and Markus Völter.
 In *International Workshop on Incremental Computing (IC)*, 2017. [[pdf]](https://szabta89.github.io/publications/inca-ic.pdf)
 
-* **IncA: A DSL for the Definition of Incremental Program Analyses**, **Tamás Szabó**, Sebastian Erdweg, and Markus Völter.
+* **IncA: A DSL for the Definition of Incremental Program Analyses**, Tamás Szabó, Sebastian Erdweg, and Markus Völter.
 In *Proceedings of International Conference on Automated Software Engineering (ASE)*, 2016. [[pdf]](https://szabta89.github.io/publications/inca-ase.pdf)
 
 ## Examples ##

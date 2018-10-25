@@ -1,0 +1,96 @@
+grammar org.inca.integration.souffle.Lang with org.eclipse.xtext.common.Terminals
+
+generate lang "http://www.inca.org/integration/souffle/Lang"
+
+Analysis:
+	contents+=AnalysisContent*;
+
+AnalysisContent:
+	TypeDeclaration
+	| RuleSignature
+	| Input
+	| RuleDefinition
+	| ComponentDefinition
+	| ComponentInitialization;
+
+ComponentInitialization:
+	'.init' name=ID '=' composite=[ComponentDefinition];
+
+ComponentDefinition:
+	'.comp' name=ID '{'
+	contents+=AnalysisContent*
+	'}';
+
+RuleSignature:
+	'.decl' name=ID '(' parameters+=RuleParameter (',' parameters+=RuleParameter)* ')' output?='output'?;
+
+RuleParameter:
+	name=PARAMETER_NAME ':' type=TypeReference;
+
+terminal PARAMETER_NAME:
+	'?' ID;
+
+PrimitiveTypes:
+	name='symbol'
+	| name='number'
+	| name='string';
+
+TypeDeclaration:
+	'.type' name=ID ('=' superType=DeclaredTypeReference)?;
+
+TypeReference:
+	PrimitiveTypes | DeclaredTypeReference;
+
+DeclaredTypeReference:
+	declaration=[TypeDeclaration];
+
+Input:
+	'.input' rule=[RuleSignature] '('
+	'IO' '=' '"file"' ',' 'filename' '=' filename=STRING ',' 'delimiter' '=' delimiter=STRING
+	')';
+
+RuleDefinition:
+	head+=RuleHead (',' head+=RuleHead)*
+	':-'
+	body+=Statement (',' body+=Statement)* '.';
+
+RuleHead:
+	rule=[RuleSignature] '(' arguments+=Expression (',' arguments+=Expression)* ')';
+
+RuleExpansionWithContainedDeclaration returns RuleDefinition:
+	variables+=Variable;
+
+Variable:
+	name=PARAMETER_NAME;
+
+Statement:
+	RuleApplication
+	| Equality;
+
+Equality:
+	left=Expression ('=' | not?='!=') right=Expression;
+
+RuleApplication:
+	(negated?='!')? (componentReference=[ComponentInitialization] '.')? rule=[RuleSignature] '(' arguments+=Expression (','
+	arguments+=Expression)* ')';
+
+Expression:
+	VariableReference | StringValue | NumberValue | Any | BuiltInFunctionCall;
+
+BuiltInFunctionCall:
+	function=BuiltInFunction '(' (arguments+=Expression (',' arguments+=Expression)*)? ')';
+
+BuiltInFunction:
+	name='cat';
+
+Any:
+	{Any} '_';
+
+StringValue:
+	value=STRING;
+
+NumberValue:
+	value=INT;
+
+VariableReference:
+	variable=[Variable|PARAMETER_NAME];

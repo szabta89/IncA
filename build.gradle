@@ -15,10 +15,10 @@ apply plugin: 'base'
 import de.itemis.mps.gradle.*
 
 // Specify the required MPS version
-ext.mpsVersion = '2018.1'
+ext.mpsVersion = '2018.2'
 
 // Specify the required mbeddr version or branch name
-ext.mbeddrVersion = 'maintenance-mps20181+'
+ext.mbeddrVersion = '1.0+'
 
 task wrapper(type: Wrapper) {
     gradleVersion '3.1'
@@ -113,9 +113,10 @@ task resolveMps(type: Copy) {
 ext.buildScriptClasspath = project.configurations.ant_lib.fileCollection({ true }) + project.files("$project.jdk_home/lib/tools.jar")
 
 def artifactsDir = new File(rootDir, 'artifacts')
+def buildDir = new File(rootDir, 'build')
 
-
-ext.mps_home =  '-Dmps.home=' + resolveMps.destinationDir.getAbsolutePath()
+ext.mps_home =  '-Dmps_home=' + resolveMps.destinationDir.getAbsolutePath()
+ext.mps_home_ext =  '-Dmps.home=' + resolveMps.destinationDir.getAbsolutePath()
 ext.build_dir = '-Dbuild.dir=' + file(rootProject.projectDir.absolutePath).getAbsolutePath()
 ext.artifacts_dir = '-Dartifacts.root=' + artifactsDir
 ext.pluginVersion = "-Dversion=" + version
@@ -123,12 +124,10 @@ ext.buildDate = "-DbuildDate=" + new Date().toString()
 
 // ___________________ utilities ___________________
 File scriptFile(String relativePath) {
-    new File("$rootDir/build/$relativePath")
+    new File("$buildDir/$relativePath")
 }
 
-def defaultScriptArgs = [mps_home,  build_dir, artifacts_dir, ext.buildDate, ext.pluginVersion]
-
-
+def defaultScriptArgs = [mps_home, mps_home_ext, build_dir, artifacts_dir, ext.buildDate, ext.pluginVersion]
 
 task resolveMpsArtifacts(type: Copy) {
     dependsOn configurations.mbeddrPlatformArtifacts
@@ -151,7 +150,12 @@ task build_languages(type: BuildLanguages, dependsOn: [build_allScripts]){
      scriptClasspath = buildScriptClasspath
 }
 
-task run_tests(type: TestLanguages, dependsOn: build_languages) {
+task install_modelchecker(type: Copy, dependsOn: build_languages) {
+    from zipTree(project.file("$artifactsDir/org.inca.build/org.inca.modelchecker.zip"))
+    into "$buildDir/mps/plugins"
+}
+
+task run_tests(type: TestLanguages, dependsOn: install_modelchecker) {
     description "Will execute all tests from command line"
     script scriptFile('test/build.xml')
     scriptArgs = defaultScriptArgs

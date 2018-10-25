@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: org.inca.integration.souffle
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.qualifier
+Bundle-SymbolicName: org.inca.integration.souffle; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.eclipse.xtext,
+ org.eclipse.xtext.xbase,
+ org.eclipse.equinox.common;bundle-version="3.5.0",
+ org.eclipse.emf.ecore,
+ org.eclipse.xtext.xbase.lib,
+ org.antlr.runtime,
+ org.eclipse.xtext.util,
+ org.eclipse.xtend.lib,
+ org.eclipse.emf.common
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: org.inca.integration.souffle.lang,
+ org.inca.integration.souffle.lang.impl,
+ org.inca.integration.souffle.services,
+ org.inca.integration.souffle.generator,
+ org.inca.integration.souffle.lang.util,
+ org.inca.integration.souffle.scoping,
+ org.inca.integration.souffle,
+ org.inca.integration.souffle.serializer,
+ org.inca.integration.souffle.parser.antlr,
+ org.inca.integration.souffle.parser.antlr.internal,
+ org.inca.integration.souffle.validation
+Import-Package: org.apache.log4j

@@ -2,7 +2,7 @@
 <model ref="r:57e36c77-4854-4a58-b799-163b27d24428(org.inca.core.typesystem)">
   <persistence version="9" />
   <languages>
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="11" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="-1" />
     <devkit ref="00000000-0000-4000-0000-1de82b3a4936(jetbrains.mps.devkit.aspect.typesystem)" />
   </languages>
   <imports>
@@ -4491,6 +4491,49 @@
     <node concept="1YaCAy" id="4apIOoJzY5S" role="1YuTPh">
       <property role="TrG5h" value="options" />
       <ref role="1YaFvo" to="hqsm:4apIOoJvWng" resolve="IncACompilerOptions" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="1cwfJkvtud8">
+    <property role="TrG5h" value="check_AbstractCustomScope" />
+    <property role="3GE5qa" value="scope" />
+    <node concept="3clFbS" id="1cwfJkvtud9" role="18ibNy">
+      <node concept="3clFbJ" id="1cwfJkvtudl" role="3cqZAp">
+        <node concept="3clFbS" id="1cwfJkvtudn" role="3clFbx">
+          <node concept="2MkqsV" id="1cwfJkvtybe" role="3cqZAp">
+            <node concept="Xl_RD" id="1cwfJkvtybt" role="2MkJ7o">
+              <property role="Xl_RC" value="There must be at most one custom scope definition!" />
+            </node>
+            <node concept="1YBJjd" id="1cwfJkvtyci" role="2OEOjV">
+              <ref role="1YBMHb" node="1cwfJkvtudb" resolve="scope" />
+            </node>
+          </node>
+        </node>
+        <node concept="3eOSWO" id="1cwfJkvty0v" role="3clFbw">
+          <node concept="3cmrfG" id="1cwfJkvty0y" role="3uHU7w">
+            <property role="3cmrfH" value="1" />
+          </node>
+          <node concept="2OqwBi" id="1cwfJkvtuNj" role="3uHU7B">
+            <node concept="2OqwBi" id="1cwfJkvtuG0" role="2Oq$k0">
+              <node concept="2OqwBi" id="1cwfJkvtumj" role="2Oq$k0">
+                <node concept="1YBJjd" id="1cwfJkvtud$" role="2Oq$k0">
+                  <ref role="1YBMHb" node="1cwfJkvtudb" resolve="scope" />
+                </node>
+                <node concept="I4A8Y" id="1cwfJkvtuth" role="2OqNvi" />
+              </node>
+              <node concept="2SmgA7" id="1cwfJkvtuKR" role="2OqNvi">
+                <node concept="chp4Y" id="1cwfJkvtuMR" role="1dBWTz">
+                  <ref role="cht4Q" to="hqsm:1cwfJkvtqFk" resolve="AbstractCustomScope" />
+                </node>
+              </node>
+            </node>
+            <node concept="34oBXx" id="1cwfJkvtw1y" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="1cwfJkvtudb" role="1YuTPh">
+      <property role="TrG5h" value="scope" />
+      <ref role="1YaFvo" to="hqsm:1cwfJkvtqFk" resolve="AbstractCustomScope" />
     </node>
   </node>
 </model>
