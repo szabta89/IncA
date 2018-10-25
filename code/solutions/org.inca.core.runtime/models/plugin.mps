@@ -33085,6 +33085,7 @@
       </node>
       <node concept="3Tm6S6" id="16Zc08yXrGq" role="1B3o_S" />
     </node>
+    <node concept="2tJIrI" id="6xWrepZrAyX" role="jymVt" />
     <node concept="312cEu" id="16Zc08yXT6u" role="jymVt">
       <property role="2bfB8j" value="false" />
       <property role="1sVAO0" value="false" />
@@ -33105,13 +33106,15 @@
         <node concept="3Tm1VV" id="16Zc08yXUh2" role="1B3o_S" />
         <node concept="10Oyi0" id="16Zc08yXUh4" role="3clF45" />
         <node concept="37vLTG" id="16Zc08yXUh5" role="3clF46">
-          <property role="TrG5h" value="l" />
+          <property role="TrG5h" value="left" />
+          <property role="3TUv4t" value="true" />
           <node concept="3uibUv" id="16Zc08yXUh9" role="1tU5fm">
             <ref role="3uigEE" node="16Zc08yXst5" resolve="ReteDebugger.DebugNode" />
           </node>
         </node>
         <node concept="37vLTG" id="16Zc08yXUh7" role="3clF46">
-          <property role="TrG5h" value="r" />
+          <property role="TrG5h" value="right" />
+          <property role="3TUv4t" value="true" />
           <node concept="3uibUv" id="16Zc08yXUha" role="1tU5fm">
             <ref role="3uigEE" node="16Zc08yXst5" resolve="ReteDebugger.DebugNode" />
           </node>
@@ -33124,7 +33127,7 @@
               <node concept="2OqwBi" id="16Zc08yXVNl" role="37wK5m">
                 <node concept="2OqwBi" id="16Zc08yXUK7" role="2Oq$k0">
                   <node concept="37vLTw" id="16Zc08yXUE$" role="2Oq$k0">
-                    <ref role="3cqZAo" node="16Zc08yXUh5" resolve="l" />
+                    <ref role="3cqZAo" node="16Zc08yXUh5" resolve="left" />
                   </node>
                   <node concept="2OwXpG" id="16Zc08yXV7d" role="2OqNvi">
                     <ref role="2Oxat5" node="16Zc08yXuOA" resolve="tuples" />
@@ -33137,7 +33140,7 @@
               <node concept="2OqwBi" id="16Zc08yXYRW" role="37wK5m">
                 <node concept="2OqwBi" id="16Zc08yXXQ7" role="2Oq$k0">
                   <node concept="37vLTw" id="16Zc08yXXED" role="2Oq$k0">
-                    <ref role="3cqZAo" node="16Zc08yXUh7" resolve="r" />
+                    <ref role="3cqZAo" node="16Zc08yXUh7" resolve="right" />
                   </node>
                   <node concept="2OwXpG" id="16Zc08yXYaN" role="2OqNvi">
                     <ref role="2Oxat5" node="16Zc08yXuOA" resolve="tuples" />
@@ -33187,10 +33190,10 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="16Zc08yXpve" role="3cqZAp" />
         <node concept="3cpWs8" id="16Zc08yXqqq" role="3cqZAp">
           <node concept="3cpWsn" id="16Zc08yXqqr" role="3cpWs9">
             <property role="TrG5h" value="nodes" />
+            <property role="3TUv4t" value="true" />
             <node concept="3uibUv" id="16Zc08yXqqo" role="1tU5fm">
               <ref role="3uigEE" to="33ny:~ArrayList" resolve="ArrayList" />
               <node concept="3uibUv" id="16Zc08yXBwE" role="11_B2D">

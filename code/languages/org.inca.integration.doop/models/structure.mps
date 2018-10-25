@@ -28,7 +28,7 @@
   <node concept="1TIwiD" id="1cwfJkvvAQA">
     <property role="EcuMT" value="1378170708491660710" />
     <property role="TrG5h" value="DoopCustomScope" />
-    <property role="34LRSv" value="Doop custom scope" />
+    <property role="34LRSv" value="custom Doop scope" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="hqsm:1cwfJkvtqFk" resolve="AbstractCustomScope" />
   </node>
