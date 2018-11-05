@@ -536,5 +536,15 @@
       <ref role="PrY4T" node="16Zc08zLHBg" resolve="MessagePart" />
     </node>
   </node>
+  <node concept="1TIwiD" id="6ZopJQQz_lB">
+    <property role="EcuMT" value="8059304773055042919" />
+    <property role="3GE5qa" value="statement.match" />
+    <property role="TrG5h" value="DefaultPattern" />
+    <property role="34LRSv" value="default" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="6ZopJQQBTYY" role="PzmwI">
+      <ref role="PrY4T" node="6fy2FM6rcqL" resolve="IMatchPattern" />
+    </node>
+  </node>
 </model>
 
