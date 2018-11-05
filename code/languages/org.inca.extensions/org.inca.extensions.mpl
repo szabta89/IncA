@@ -19,7 +19,6 @@
         <dependency reexport="false">b802a056-92a2-4fbc-902e-f8e5004c331f(org.inca.core)</dependency>
         <dependency reexport="false">ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</dependency>
         <dependency reexport="false">8f5e7b65-fd75-4aa6-b49e-44ecf418fcb5(org.inca.fun#4530729936991344015)</dependency>
-        <dependency reexport="false">cd2909da-ecb4-49dc-b176-33e5c619e516(org.inca.gp)</dependency>
         <dependency reexport="false">f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</dependency>
         <dependency reexport="false">d5a58d02-4ac7-4892-afde-65968670c300(org.inca.data#8607574815737030311)</dependency>
       </dependencies>

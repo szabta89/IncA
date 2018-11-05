@@ -297,7 +297,7 @@
       <node concept="2ElW$n" id="5jddR$DhGdh" role="2El2Yn" />
       <node concept="1kIj98" id="2RafZtcgy12" role="1LiK7o">
         <node concept="2lNzut" id="5jddR$DhGd3" role="1kIj9b">
-          <ref role="1NtTu8" to="z9af:2RafZtcgx9$" resolve="literal" />
+          <ref role="1NtTu8" to="z9af:2RafZtcgx9$" resolve="value" />
           <node concept="bYqod" id="5jddR$DhGd9" role="2lD6_D" />
         </node>
       </node>
@@ -805,7 +805,7 @@
   <node concept="24kQdi" id="7_7pTnfIam0">
     <property role="3GE5qa" value="statement.match" />
     <ref role="1XX52x" to="z9af:7Hs6JnWyxN4" resolve="PatternVariable" />
-    <node concept="1kIj98" id="5jddR$DhGdE" role="2wV5jI">
+    <node concept="1kIj98" id="2qqv24yklDC" role="2wV5jI">
       <node concept="3F0A7n" id="5jddR$DhGgq" role="1kIj9b">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
@@ -864,30 +864,22 @@
     <property role="3GE5qa" value="statement.match" />
     <ref role="1XX52x" to="z9af:5jddR$DhDKJ" resolve="NamedPattern" />
     <node concept="3EZMnI" id="5jddR$DjcLn" role="2wV5jI">
-      <node concept="3F1sOY" id="5jddR$Dk6gN" role="3EZMnx">
-        <ref role="1NtTu8" to="z9af:5jddR$Dk5XW" resolve="var" />
-      </node>
-      <node concept="1Lj6DL" id="5jddR$DjcLI" role="3EZMnx">
-        <node concept="1Lj6DC" id="5jddR$DjcLK" role="1Lj8FM">
-          <node concept="3clFbS" id="5jddR$DjcLM" role="2VODD2">
-            <node concept="3clFbF" id="5jddR$DjcUy" role="3cqZAp">
-              <node concept="Xl_RD" id="5jddR$DjcUx" role="3clFbG">
-                <property role="Xl_RC" value=":" />
-              </node>
-            </node>
-          </node>
+      <node concept="1kIj98" id="2qqv24yguf$" role="3EZMnx">
+        <node concept="3F1sOY" id="2qqv24ygufW" role="1kIj9b">
+          <ref role="1NtTu8" to="z9af:5jddR$Dk5XW" resolve="var" />
         </node>
-        <node concept="11L4FC" id="5jddR$Djd3m" role="3F10Kt">
+      </node>
+      <node concept="3F0ifn" id="2qqv24ygueH" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+        <node concept="11L4FC" id="2qqv24ygueR" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
-        <node concept="11LMrY" id="5jddR$Djd3$" role="3F10Kt">
+        <node concept="11LMrY" id="2qqv24ygueZ" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node concept="1kIj98" id="5jddR$Djd4q" role="3EZMnx">
-        <node concept="3F1sOY" id="5jddR$Djd4P" role="1kIj9b">
-          <ref role="1NtTu8" to="z9af:5jddR$DhDKZ" resolve="pattern" />
-        </node>
+      <node concept="3F1sOY" id="5jddR$Djd4P" role="3EZMnx">
+        <ref role="1NtTu8" to="z9af:5jddR$DhDKZ" resolve="pattern" />
       </node>
       <node concept="l2Vlx" id="5jddR$DjcLq" role="2iSdaV" />
     </node>
@@ -1176,8 +1168,8 @@
     <ref role="1XX52x" to="z9af:16Zc08r9w5h" resolve="BooleanPattern" />
     <node concept="1kIj98" id="16Zc08r9weS" role="2wV5jI">
       <node concept="3F0A7n" id="16Zc08r9wf0" role="1kIj9b">
-        <ref role="1NtTu8" to="z9af:16Zc08r9w5j" resolve="literal" />
         <ref role="1k5W1q" to="3sc9:2CEi94dgHKA" resolve="KeyWord" />
+        <ref role="1NtTu8" to="z9af:16Zc08r9w5j" resolve="value" />
       </node>
     </node>
   </node>
@@ -1470,6 +1462,26 @@
       </node>
       <node concept="Vb9p2" id="16Zc08$Epgs" role="3F10Kt" />
     </node>
+  </node>
+  <node concept="3p36aQ" id="5tt5O5YaqkU">
+    <property role="3GE5qa" value="statement.match" />
+    <ref role="aqKnT" to="z9af:16Zc08r9w5h" resolve="BooleanPattern" />
+  </node>
+  <node concept="3p36aQ" id="5tt5O5YdAL5">
+    <property role="3GE5qa" value="statement.match" />
+    <ref role="aqKnT" to="z9af:2RafZtcgx9y" resolve="IntPattern" />
+  </node>
+  <node concept="3p36aQ" id="5tt5O5YfeKY">
+    <property role="3GE5qa" value="statement.match" />
+    <ref role="aqKnT" to="z9af:7Hs6JnWyxNk" resolve="NodePattern" />
+  </node>
+  <node concept="3p36aQ" id="2qqv24yi55I">
+    <property role="3GE5qa" value="statement.match" />
+    <ref role="aqKnT" to="z9af:5jddR$DhDKJ" resolve="NamedPattern" />
+  </node>
+  <node concept="3p36aQ" id="2qqv24yklEb">
+    <property role="3GE5qa" value="statement.match" />
+    <ref role="aqKnT" to="z9af:7Hs6JnWyxN4" resolve="PatternVariable" />
   </node>
 </model>
 

@@ -65,7 +65,7 @@
     </node>
     <node concept="1TJgyi" id="2RafZtcgx9$" role="1TKVEl">
       <property role="IQ2nx" value="3299520008371180132" />
-      <property role="TrG5h" value="literal" />
+      <property role="TrG5h" value="value" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
@@ -405,7 +405,7 @@
     </node>
     <node concept="1TJgyi" id="16Zc08r9w5j" role="1TKVEl">
       <property role="IQ2nx" value="1278793604800053587" />
-      <property role="TrG5h" value="literal" />
+      <property role="TrG5h" value="value" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>

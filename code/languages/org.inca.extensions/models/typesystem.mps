@@ -20,8 +20,6 @@
     <import index="ebqt" ref="r:17207093-9cf4-4f01-9c48-e6e0146d6087(org.inca.fun.structure)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
-    <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
-    <import index="6av" ref="r:353f19f6-9bc6-401f-b934-c0d7d5f68fd9(org.inca.fun.typesystem)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -271,14 +269,14 @@
         <node concept="mw_s8" id="2RafZtcgyic" role="1ZfhK$">
           <node concept="1Z2H0r" id="2RafZtcgy2x" role="mwGJk">
             <node concept="1YBJjd" id="2RafZtcgy4m" role="1Z2MuG">
-              <ref role="1YBMHb" node="2RafZtcgy2t" resolve="intPattern" />
+              <ref role="1YBMHb" node="2RafZtcgy2t" resolve="pattern" />
             </node>
           </node>
         </node>
       </node>
     </node>
     <node concept="1YaCAy" id="2RafZtcgy2t" role="1YuTPh">
-      <property role="TrG5h" value="intPattern" />
+      <property role="TrG5h" value="pattern" />
       <ref role="1YaFvo" to="z9af:2RafZtcgx9y" resolve="IntPattern" />
     </node>
   </node>
@@ -1444,7 +1442,7 @@
         <node concept="mw_s8" id="16Zc08r9wTX" role="1ZfhK$">
           <node concept="1Z2H0r" id="16Zc08r9wge" role="mwGJk">
             <node concept="1YBJjd" id="16Zc08r9wi3" role="1Z2MuG">
-              <ref role="1YBMHb" node="16Zc08r9wga" resolve="booleanPattern" />
+              <ref role="1YBMHb" node="16Zc08r9wga" resolve="pattern" />
             </node>
           </node>
         </node>
@@ -1456,7 +1454,7 @@
       </node>
     </node>
     <node concept="1YaCAy" id="16Zc08r9wga" role="1YuTPh">
-      <property role="TrG5h" value="booleanPattern" />
+      <property role="TrG5h" value="pattern" />
       <ref role="1YaFvo" to="z9af:16Zc08r9w5h" resolve="BooleanPattern" />
     </node>
   </node>

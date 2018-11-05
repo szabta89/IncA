@@ -1103,7 +1103,7 @@
                               <node concept="2OqwBi" id="6zWr6F67QXd" role="3cqZAk">
                                 <node concept="30H73N" id="6zWr6F67QXe" role="2Oq$k0" />
                                 <node concept="3TrcHB" id="6zWr6F67SRj" role="2OqNvi">
-                                  <ref role="3TsBF5" to="z9af:2RafZtcgx9$" resolve="literal" />
+                                  <ref role="3TsBF5" to="z9af:2RafZtcgx9$" resolve="value" />
                                 </node>
                               </node>
                             </node>

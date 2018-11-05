@@ -326,31 +326,6 @@
       <node concept="3clFbS" id="7Hs6JnX7dba" role="2VODD2" />
     </node>
   </node>
-  <node concept="13h7C7" id="2RafZtcgy1i">
-    <property role="3GE5qa" value="statement.match" />
-    <ref role="13h7C2" to="z9af:2RafZtcgx9y" resolve="IntPattern" />
-    <node concept="13i0hz" id="2RafZtcgy1t" role="13h7CS">
-      <property role="13i0iv" value="false" />
-      <property role="13i0it" value="false" />
-      <property role="TrG5h" value="collectPatternVariables" />
-      <property role="2Ki8OM" value="false" />
-      <ref role="13i0hy" node="7Hs6JnX7dbj" resolve="collectPatternVariables" />
-      <node concept="3clFbS" id="2RafZtcgy1u" role="3clF47" />
-      <node concept="37vLTG" id="2RafZtcgy1v" role="3clF46">
-        <property role="TrG5h" value="variables" />
-        <node concept="2hMVRd" id="2RafZtcgy1w" role="1tU5fm">
-          <node concept="3Tqbb2" id="2RafZtcgy1x" role="2hN53Y">
-            <ref role="ehGHo" to="hqsm:3VwoHXNAdmi" resolve="IVariable" />
-          </node>
-        </node>
-      </node>
-      <node concept="3cqZAl" id="2RafZtcgy1y" role="3clF45" />
-      <node concept="3Tm1VV" id="2RafZtcgy1z" role="1B3o_S" />
-    </node>
-    <node concept="13hLZK" id="2RafZtcgy1j" role="13h7CW">
-      <node concept="3clFbS" id="2RafZtcgy1k" role="2VODD2" />
-    </node>
-  </node>
   <node concept="13h7C7" id="7Hs6JnX04j2">
     <property role="3GE5qa" value="statement.match" />
     <ref role="13h7C2" to="z9af:6fy2FM6rcqH" resolve="MatchCase" />
