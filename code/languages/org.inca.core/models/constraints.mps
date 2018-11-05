@@ -866,7 +866,7 @@
   </node>
   <node concept="1M2fIO" id="6trdyn5plFy">
     <property role="3GE5qa" value="usage.match" />
-    <ref role="1M2myG" to="hqsm:6trdyn5pjvN" resolve="IncaMatchOperation" />
+    <ref role="1M2myG" to="hqsm:6trdyn5pjvN" resolve="IncATupleOperation" />
     <node concept="9S07l" id="6trdyn5plIV" role="9Vyp8">
       <node concept="3clFbS" id="2RSm1Cz26N5" role="2VODD2">
         <node concept="3clFbF" id="2RSm1Cz26N6" role="3cqZAp">
@@ -888,7 +888,7 @@
               </node>
               <node concept="1mIQ4w" id="2RSm1Cz26Ng" role="2OqNvi">
                 <node concept="chp4Y" id="2RSm1Cz26Nh" role="cj9EA">
-                  <ref role="cht4Q" to="hqsm:6trdyn59F4M" resolve="IncaMatch" />
+                  <ref role="cht4Q" to="hqsm:6trdyn59F4M" resolve="IncATuple" />
                 </node>
               </node>
             </node>
@@ -937,7 +937,7 @@
                   <node concept="1PxgMI" id="2RSm1Cz27$K" role="2Oq$k0">
                     <node concept="2rP1CM" id="2RSm1Cz27$L" role="1m5AlR" />
                     <node concept="chp4Y" id="2RSm1Cz27$M" role="3oSUPX">
-                      <ref role="cht4Q" to="hqsm:6trdyn5pjvN" resolve="IncaMatchOperation" />
+                      <ref role="cht4Q" to="hqsm:6trdyn5pjvN" resolve="IncATupleOperation" />
                     </node>
                   </node>
                   <node concept="2qgKlT" id="2RSm1Cz27$N" role="2OqNvi">
@@ -1000,7 +1000,7 @@
   </node>
   <node concept="1M2fIO" id="19Cj9tCJwHm">
     <property role="3GE5qa" value="usage.match" />
-    <ref role="1M2myG" to="hqsm:6trdyn59F4M" resolve="IncaMatch" />
+    <ref role="1M2myG" to="hqsm:6trdyn59F4M" resolve="IncATuple" />
     <node concept="1N5Pfh" id="19Cj9tCJwHn" role="1Mr941">
       <ref role="1N5Vy1" to="hqsm:6trdyn59Glc" resolve="pattern" />
       <node concept="3dgokm" id="19Cj9tCJwI_" role="1N6uqs">
@@ -1310,7 +1310,7 @@
   </node>
   <node concept="1M2fIO" id="6trdyn51MdP">
     <property role="3GE5qa" value="usage.matcher" />
-    <ref role="1M2myG" to="hqsm:6trdyn510ca" resolve="PartialMatchParameterBinding" />
+    <ref role="1M2myG" to="hqsm:6trdyn510ca" resolve="ParameterBinding" />
     <node concept="1N5Pfh" id="6trdyn51Mhe" role="1Mr941">
       <ref role="1N5Vy1" to="hqsm:6trdyn51Lmu" resolve="parameter" />
       <node concept="3dgokm" id="6trdyn51T$9" role="1N6uqs">

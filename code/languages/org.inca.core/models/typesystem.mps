@@ -984,14 +984,14 @@
     </node>
   </node>
   <node concept="1YbPZF" id="6trdyn59Nb9">
-    <property role="TrG5h" value="typeof_MPSIncQueryMatch" />
+    <property role="TrG5h" value="typeof_IncATuple" />
     <property role="3GE5qa" value="usage.match" />
     <node concept="3clFbS" id="6trdyn59Nba" role="18ibNy">
       <node concept="1Z5TYs" id="6trdyn59NuP" role="3cqZAp">
         <node concept="mw_s8" id="6trdyn59NuQ" role="1ZfhKB">
           <node concept="2pJPEk" id="6trdyn5jhMY" role="mwGJk">
             <node concept="2pJPED" id="6trdyn5jhSe" role="2pJPEn">
-              <ref role="2pJxaS" to="hqsm:6trdyn59F4M" resolve="IncaMatch" />
+              <ref role="2pJxaS" to="hqsm:6trdyn59F4M" resolve="IncATuple" />
               <node concept="2pIpSj" id="6trdyn5jhVi" role="2pJxcM">
                 <ref role="2pIpSl" to="hqsm:6trdyn59Glc" resolve="pattern" />
                 <node concept="36biLy" id="6trdyn5jhZC" role="2pJxcZ">
@@ -1019,7 +1019,7 @@
     </node>
     <node concept="1YaCAy" id="6trdyn59Nbc" role="1YuTPh">
       <property role="TrG5h" value="match" />
-      <ref role="1YaFvo" to="hqsm:6trdyn59F4M" resolve="IncaMatch" />
+      <ref role="1YaFvo" to="hqsm:6trdyn59F4M" resolve="IncATuple" />
     </node>
   </node>
   <node concept="1YbPZF" id="6trdyn5sSIw">
@@ -1253,7 +1253,7 @@
     </node>
   </node>
   <node concept="1YbPZF" id="7wcU5h3qqMj">
-    <property role="TrG5h" value="typeof_CountMatchesOperation" />
+    <property role="TrG5h" value="typeof_CountTuplesOperation" />
     <property role="3GE5qa" value="usage.matcher" />
     <node concept="3clFbS" id="7wcU5h3qqMk" role="18ibNy">
       <node concept="1Z5TYs" id="7wcU5h3qrSL" role="3cqZAp">
@@ -1275,7 +1275,7 @@
     </node>
     <node concept="1YaCAy" id="7wcU5h3qqMm" role="1YuTPh">
       <property role="TrG5h" value="operation" />
-      <ref role="1YaFvo" to="hqsm:7wcU5h3p_sU" resolve="CountMatchesOperation" />
+      <ref role="1YaFvo" to="hqsm:7wcU5h3p_sU" resolve="CountTuplesOperation" />
     </node>
   </node>
   <node concept="1YbPZF" id="7wcU5h3syuP">
@@ -1363,7 +1363,7 @@
     </node>
   </node>
   <node concept="18kY7G" id="77l4yxHKb_I">
-    <property role="TrG5h" value="check_CountMatchesOperation" />
+    <property role="TrG5h" value="check_CountTuplesOperation" />
     <property role="3GE5qa" value="usage" />
     <node concept="3clFbS" id="77l4yxHKb_J" role="18ibNy">
       <node concept="3clFbJ" id="6trdyn5_eD4" role="3cqZAp">
@@ -1409,7 +1409,7 @@
               </node>
               <node concept="2pJPEk" id="6trdyn5_eDo" role="3JuZjQ">
                 <node concept="2pJPED" id="6trdyn5_eDp" role="2pJPEn">
-                  <ref role="2pJxaS" to="hqsm:6trdyn59F4M" resolve="IncaMatch" />
+                  <ref role="2pJxaS" to="hqsm:6trdyn59F4M" resolve="IncATuple" />
                   <node concept="2pIpSj" id="6trdyn5_eDq" role="2pJxcM">
                     <ref role="2pIpSl" to="hqsm:6trdyn59Glc" resolve="pattern" />
                     <node concept="36biLy" id="6trdyn5_eDr" role="2pJxcZ">
@@ -1432,11 +1432,11 @@
     </node>
     <node concept="1YaCAy" id="77l4yxHKb_L" role="1YuTPh">
       <property role="TrG5h" value="operation" />
-      <ref role="1YaFvo" to="hqsm:7wcU5h3p_sU" resolve="CountMatchesOperation" />
+      <ref role="1YaFvo" to="hqsm:7wcU5h3p_sU" resolve="CountTuplesOperation" />
     </node>
   </node>
   <node concept="18kY7G" id="77l4yxHKCmX">
-    <property role="TrG5h" value="check_GetAllMatchesOperation" />
+    <property role="TrG5h" value="check_GetAllTuplesOperation" />
     <property role="3GE5qa" value="usage.matcher" />
     <node concept="3clFbS" id="77l4yxHKCmY" role="18ibNy">
       <node concept="3clFbJ" id="6trdyn5oJ7B" role="3cqZAp">
@@ -1482,7 +1482,7 @@
               </node>
               <node concept="2pJPEk" id="6trdyn5oJ7V" role="3JuZjQ">
                 <node concept="2pJPED" id="6trdyn5oJ7W" role="2pJPEn">
-                  <ref role="2pJxaS" to="hqsm:6trdyn59F4M" resolve="IncaMatch" />
+                  <ref role="2pJxaS" to="hqsm:6trdyn59F4M" resolve="IncATuple" />
                   <node concept="2pIpSj" id="6trdyn5oJ7X" role="2pJxcM">
                     <ref role="2pIpSl" to="hqsm:6trdyn59Glc" resolve="pattern" />
                     <node concept="36biLy" id="6trdyn5oJ7Y" role="2pJxcZ">
@@ -1505,7 +1505,7 @@
     </node>
     <node concept="1YaCAy" id="77l4yxHKCn0" role="1YuTPh">
       <property role="TrG5h" value="operation" />
-      <ref role="1YaFvo" to="hqsm:7wcU5h38V8Z" resolve="GetAllMatchesOperation" />
+      <ref role="1YaFvo" to="hqsm:7wcU5h38V8Z" resolve="GetAllTuplesOperation" />
     </node>
   </node>
   <node concept="18kY7G" id="77l4yxHKCS6">
@@ -1516,11 +1516,11 @@
         <node concept="3cpWsn" id="56sNkn8obaj" role="3cpWs9">
           <property role="TrG5h" value="matchType" />
           <node concept="3Tqbb2" id="56sNkn8obah" role="1tU5fm">
-            <ref role="ehGHo" to="hqsm:6trdyn59F4M" resolve="IncaMatch" />
+            <ref role="ehGHo" to="hqsm:6trdyn59F4M" resolve="IncATuple" />
           </node>
           <node concept="2pJPEk" id="56sNkn8obak" role="33vP2m">
             <node concept="2pJPED" id="56sNkn8obal" role="2pJPEn">
-              <ref role="2pJxaS" to="hqsm:6trdyn59F4M" resolve="IncaMatch" />
+              <ref role="2pJxaS" to="hqsm:6trdyn59F4M" resolve="IncATuple" />
               <node concept="2pIpSj" id="56sNkn8obam" role="2pJxcM">
                 <ref role="2pIpSl" to="hqsm:6trdyn59Glc" resolve="pattern" />
                 <node concept="36biLy" id="56sNkn8oban" role="2pJxcZ">
@@ -1608,7 +1608,7 @@
     </node>
   </node>
   <node concept="1YbPZF" id="77l4yxHMl1_">
-    <property role="TrG5h" value="typeof_GetAllMatchesOperation" />
+    <property role="TrG5h" value="typeof_GetAllTuplesOperation" />
     <property role="3GE5qa" value="usage" />
     <node concept="3clFbS" id="77l4yxHMl1A" role="18ibNy">
       <node concept="1Z5TYs" id="77l4yxHMlmv" role="3cqZAp">
@@ -1619,7 +1619,7 @@
               <node concept="2pIpSj" id="6trdyn5bK_h" role="2pJxcM">
                 <ref role="2pIpSl" to="tp2q:4VG9JMUYces" resolve="elementType" />
                 <node concept="2pJPED" id="6trdyn5bP0H" role="2pJxcZ">
-                  <ref role="2pJxaS" to="hqsm:6trdyn59F4M" resolve="IncaMatch" />
+                  <ref role="2pJxaS" to="hqsm:6trdyn59F4M" resolve="IncATuple" />
                   <node concept="2pIpSj" id="6trdyn5bPr1" role="2pJxcM">
                     <ref role="2pIpSl" to="hqsm:6trdyn59Glc" resolve="pattern" />
                     <node concept="36biLy" id="6trdyn5bPvz" role="2pJxcZ">
@@ -1649,7 +1649,7 @@
     </node>
     <node concept="1YaCAy" id="77l4yxHMl1C" role="1YuTPh">
       <property role="TrG5h" value="operation" />
-      <ref role="1YaFvo" to="hqsm:7wcU5h38V8Z" resolve="GetAllMatchesOperation" />
+      <ref role="1YaFvo" to="hqsm:7wcU5h38V8Z" resolve="GetAllTuplesOperation" />
     </node>
   </node>
   <node concept="1YbPZF" id="77l4yxHO4dr">
@@ -1707,14 +1707,14 @@
     </node>
   </node>
   <node concept="1YbPZF" id="6trdyn51guE">
-    <property role="TrG5h" value="typeof_NewPartialMatchOperation" />
+    <property role="TrG5h" value="typeof_NewPTupleOperation" />
     <property role="3GE5qa" value="usage.matcher" />
     <node concept="3clFbS" id="6trdyn51gDD" role="18ibNy">
       <node concept="1Z5TYs" id="6trdyn51npo" role="3cqZAp">
         <node concept="mw_s8" id="6trdyn51nxZ" role="1ZfhKB">
           <node concept="2pJPEk" id="6trdyn5ofw3" role="mwGJk">
             <node concept="2pJPED" id="6trdyn5ofAN" role="2pJPEn">
-              <ref role="2pJxaS" to="hqsm:6trdyn59F4M" resolve="IncaMatch" />
+              <ref role="2pJxaS" to="hqsm:6trdyn59F4M" resolve="IncATuple" />
               <node concept="2pIpSj" id="6trdyn5ofEn" role="2pJxcM">
                 <ref role="2pIpSl" to="hqsm:6trdyn59Glc" resolve="pattern" />
                 <node concept="36biLy" id="6trdyn5ofHl" role="2pJxcZ">
@@ -1742,7 +1742,7 @@
     </node>
     <node concept="1YaCAy" id="6trdyn51gDF" role="1YuTPh">
       <property role="TrG5h" value="operation" />
-      <ref role="1YaFvo" to="hqsm:6trdyn50y7Y" resolve="NewMatchOperation" />
+      <ref role="1YaFvo" to="hqsm:6trdyn50y7Y" resolve="NewTupleOperation" />
     </node>
   </node>
   <node concept="18kY7G" id="6trdyn54Mo_">
@@ -1842,21 +1842,22 @@
     </node>
     <node concept="1YaCAy" id="6trdyn54MoC" role="1YuTPh">
       <property role="TrG5h" value="binding" />
-      <ref role="1YaFvo" to="hqsm:6trdyn510ca" resolve="PartialMatchParameterBinding" />
+      <ref role="1YaFvo" to="hqsm:6trdyn510ca" resolve="ParameterBinding" />
     </node>
   </node>
   <node concept="18kY7G" id="6trdyn56_z9">
-    <property role="TrG5h" value="check_NewPartialMatchOperation" />
+    <property role="TrG5h" value="check_NewTupleOperation" />
     <property role="3GE5qa" value="usage" />
     <node concept="3clFbS" id="6trdyn56_za" role="18ibNy">
       <node concept="3cpWs8" id="6trdyn56_JO" role="3cqZAp">
         <node concept="3cpWsn" id="6trdyn56_JR" role="3cpWs9">
           <property role="TrG5h" value="bindingMap" />
+          <property role="3TUv4t" value="true" />
           <node concept="3rvAFt" id="6trdyn56_JL" role="1tU5fm">
             <node concept="17QB3L" id="6trdyn56_Ml" role="3rvQeY" />
             <node concept="2hMVRd" id="6trdyn56_Rb" role="3rvSg0">
               <node concept="3Tqbb2" id="6trdyn56_U1" role="2hN53Y">
-                <ref role="ehGHo" to="hqsm:6trdyn510ca" resolve="PartialMatchParameterBinding" />
+                <ref role="ehGHo" to="hqsm:6trdyn510ca" resolve="ParameterBinding" />
               </node>
             </node>
           </node>
@@ -1865,7 +1866,7 @@
               <node concept="17QB3L" id="6trdyn56ABF" role="3rHrn6" />
               <node concept="2hMVRd" id="6trdyn56ABG" role="3rHtpV">
                 <node concept="3Tqbb2" id="6trdyn56ABH" role="2hN53Y">
-                  <ref role="ehGHo" to="hqsm:6trdyn510ca" resolve="PartialMatchParameterBinding" />
+                  <ref role="ehGHo" to="hqsm:6trdyn510ca" resolve="ParameterBinding" />
                 </node>
               </node>
             </node>
@@ -1894,7 +1895,7 @@
                       <node concept="2ShNRf" id="6trdyn56McG" role="37vLTx">
                         <node concept="2i4dXS" id="6trdyn56M9$" role="2ShVmc">
                           <node concept="3Tqbb2" id="6trdyn56M9_" role="HW$YZ">
-                            <ref role="ehGHo" to="hqsm:6trdyn510ca" resolve="PartialMatchParameterBinding" />
+                            <ref role="ehGHo" to="hqsm:6trdyn510ca" resolve="ParameterBinding" />
                           </node>
                         </node>
                       </node>
@@ -2043,7 +2044,7 @@
     </node>
     <node concept="1YaCAy" id="6trdyn56_zc" role="1YuTPh">
       <property role="TrG5h" value="operation" />
-      <ref role="1YaFvo" to="hqsm:6trdyn50y7Y" resolve="NewMatchOperation" />
+      <ref role="1YaFvo" to="hqsm:6trdyn50y7Y" resolve="NewTupleOperation" />
     </node>
   </node>
   <node concept="18kY7G" id="6WpUQi6Qn1g">

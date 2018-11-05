@@ -301,7 +301,7 @@
     <property role="34LRSv" value="get" />
     <property role="R4oN_" value="Get Value Of Parameter" />
     <property role="EcuMT" value="7447605944641594150" />
-    <ref role="1TJDcQ" node="6trdyn5pjvN" resolve="IncaMatchOperation" />
+    <ref role="1TJDcQ" node="6trdyn5pjvN" resolve="IncATupleOperation" />
     <node concept="1TJgyj" id="6trdyn5sNjA" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="parameter" />
@@ -312,8 +312,8 @@
   </node>
   <node concept="1TIwiD" id="6trdyn59F4M">
     <property role="3GE5qa" value="usage.match" />
-    <property role="TrG5h" value="IncaMatch" />
-    <property role="34LRSv" value="Match" />
+    <property role="TrG5h" value="IncATuple" />
+    <property role="34LRSv" value="tuple" />
     <property role="EcuMT" value="7447605944636584242" />
     <ref role="1TJDcQ" to="tpee:fz3vP1H" resolve="Type" />
     <node concept="1TJgyj" id="6trdyn59Glc" role="1TKVEi">
@@ -326,7 +326,7 @@
   </node>
   <node concept="1TIwiD" id="6trdyn5pjvN">
     <property role="3GE5qa" value="usage.match" />
-    <property role="TrG5h" value="IncaMatchOperation" />
+    <property role="TrG5h" value="IncATupleOperation" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
     <property role="EcuMT" value="7447605944640681971" />
@@ -337,8 +337,8 @@
   </node>
   <node concept="1TIwiD" id="7wcU5h3p_sU">
     <property role="3GE5qa" value="usage.matcher" />
-    <property role="TrG5h" value="CountMatchesOperation" />
-    <property role="34LRSv" value="countMatches" />
+    <property role="TrG5h" value="CountTuplesOperation" />
+    <property role="34LRSv" value="countTuples" />
     <property role="EcuMT" value="8650544432877557562" />
     <ref role="1TJDcQ" node="6trdyn5bRIt" resolve="IncaEvaluatorOperation" />
     <node concept="1TJgyj" id="7wcU5h3p_Tb" role="1TKVEi">
@@ -350,8 +350,8 @@
   </node>
   <node concept="1TIwiD" id="7wcU5h38V8Z">
     <property role="3GE5qa" value="usage.matcher" />
-    <property role="TrG5h" value="GetAllMatchesOperation" />
-    <property role="34LRSv" value="getAllMatches" />
+    <property role="TrG5h" value="GetAllTuplesOperation" />
+    <property role="34LRSv" value="getAllTuples" />
     <property role="EcuMT" value="8650544432873189951" />
     <ref role="1TJDcQ" node="6trdyn5bRIt" resolve="IncaEvaluatorOperation" />
     <node concept="1TJgyj" id="7wcU5h3e5D6" role="1TKVEi">
@@ -412,7 +412,7 @@
   <node concept="1TIwiD" id="7wcU5h3ekti">
     <property role="3GE5qa" value="usage.matcher" />
     <property role="TrG5h" value="IncaEvaluator" />
-    <property role="34LRSv" value="Evaluator" />
+    <property role="34LRSv" value="evaluator" />
     <property role="EcuMT" value="8650544432874604370" />
     <ref role="1TJDcQ" to="tpee:fz3vP1H" resolve="Type" />
     <node concept="1TJgyj" id="7wcU5h3elMf" role="1TKVEi">
@@ -458,8 +458,8 @@
   </node>
   <node concept="1TIwiD" id="6trdyn50y7Y">
     <property role="3GE5qa" value="usage.matcher" />
-    <property role="TrG5h" value="NewMatchOperation" />
-    <property role="34LRSv" value="newMatch" />
+    <property role="TrG5h" value="NewTupleOperation" />
+    <property role="34LRSv" value="newTuple" />
     <property role="EcuMT" value="7447605944634188286" />
     <ref role="1TJDcQ" node="6trdyn5bRIt" resolve="IncaEvaluatorOperation" />
     <node concept="1TJgyj" id="6trdyn515A1" role="1TKVEi">
@@ -467,12 +467,12 @@
       <property role="20kJfa" value="bindings" />
       <property role="20lbJX" value="0..n" />
       <property role="IQ2ns" value="7447605944634333569" />
-      <ref role="20lvS9" node="6trdyn510ca" resolve="PartialMatchParameterBinding" />
+      <ref role="20lvS9" node="6trdyn510ca" resolve="ParameterBinding" />
     </node>
   </node>
   <node concept="1TIwiD" id="6trdyn510ca">
     <property role="3GE5qa" value="usage.matcher" />
-    <property role="TrG5h" value="PartialMatchParameterBinding" />
+    <property role="TrG5h" value="ParameterBinding" />
     <property role="EcuMT" value="7447605944634311434" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6trdyn51Lmu" role="1TKVEi">

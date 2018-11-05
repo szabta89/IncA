@@ -83,7 +83,7 @@
   </registry>
   <node concept="3_zdsH" id="7oCdOCUXKS$">
     <property role="3GE5qa" value="usage.matcher" />
-    <ref role="3_znuS" to="hqsm:6trdyn50y7Y" resolve="NewMatchOperation" />
+    <ref role="3_znuS" to="hqsm:6trdyn50y7Y" resolve="NewTupleOperation" />
     <node concept="3__wT9" id="7oCdOCUXKS_" role="3_A6iZ">
       <node concept="3clFbS" id="7oCdOCUXKSA" role="2VODD2">
         <node concept="3clFbF" id="7oCdOCUXKVG" role="3cqZAp">
@@ -116,7 +116,7 @@
   </node>
   <node concept="3_zdsH" id="7oCdOCUXNjA">
     <property role="3GE5qa" value="usage.matcher" />
-    <ref role="3_znuS" to="hqsm:6trdyn510ca" resolve="PartialMatchParameterBinding" />
+    <ref role="3_znuS" to="hqsm:6trdyn510ca" resolve="ParameterBinding" />
     <node concept="3__wT9" id="7oCdOCUXNjB" role="3_A6iZ">
       <node concept="3clFbS" id="7oCdOCUXNjC" role="2VODD2">
         <node concept="3AgYrR" id="7oCdOCUXNjN" role="3cqZAp">
@@ -177,7 +177,7 @@
   </node>
   <node concept="3_zdsH" id="7oCdOCUXNO5">
     <property role="3GE5qa" value="usage.matcher" />
-    <ref role="3_znuS" to="hqsm:7wcU5h3p_sU" resolve="CountMatchesOperation" />
+    <ref role="3_znuS" to="hqsm:7wcU5h3p_sU" resolve="CountTuplesOperation" />
     <node concept="3__wT9" id="7oCdOCUXNO6" role="3_A6iZ">
       <node concept="3clFbS" id="7oCdOCUXNO7" role="2VODD2">
         <node concept="3AgYrR" id="7oCdOCUXNOi" role="3cqZAp">
@@ -193,7 +193,7 @@
   </node>
   <node concept="3_zdsH" id="7oCdOCUXNV7">
     <property role="3GE5qa" value="usage.matcher" />
-    <ref role="3_znuS" to="hqsm:7wcU5h38V8Z" resolve="GetAllMatchesOperation" />
+    <ref role="3_znuS" to="hqsm:7wcU5h38V8Z" resolve="GetAllTuplesOperation" />
     <node concept="3__wT9" id="7oCdOCUXNV8" role="3_A6iZ">
       <node concept="3clFbS" id="7oCdOCUXNV9" role="2VODD2">
         <node concept="3AgYrR" id="7oCdOCUXNVk" role="3cqZAp">
