@@ -17,7 +17,6 @@
     <import index="ekwn" ref="r:9832fb5f-2578-4b58-8014-a5de79da988e(jetbrains.mps.ide.editor.actions)" />
     <import index="kn4z" ref="r:7d378049-64b5-4606-8242-93ea206e7286(org.inca.sa.test.plugin@tests)" />
     <import index="vebz" ref="r:1c89766f-bec5-416e-a735-1d8e2add3fc0(org.inca.sa.inter.test.doop)" />
-    <import index="pzen" ref="r:25bfb30f-3676-4451-9448-27a17343be80(org.inca.core.runtime.plugin)" />
   </imports>
   <registry>
     <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
