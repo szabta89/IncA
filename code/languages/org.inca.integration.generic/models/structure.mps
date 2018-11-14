@@ -85,20 +85,16 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="6ZopJQR6qlv" resolve="Sort" />
     </node>
-    <node concept="1TJgyi" id="6ZopJQRmjt$" role="1TKVEl">
-      <property role="IQ2nx" value="8059304773068339044" />
-      <property role="TrG5h" value="name" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="PrWs8" id="5CbGk5LhUzk" role="PzmwI">
+      <ref role="PrY4T" node="5CbGk5LhTD6" resolve="GenericName" />
     </node>
   </node>
   <node concept="1TIwiD" id="6ZopJQR6qmi">
     <property role="EcuMT" value="8059304773064172946" />
     <property role="TrG5h" value="ParamName" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="6ZopJQR6qmj" role="1TKVEl">
-      <property role="IQ2nx" value="8059304773064172947" />
-      <property role="TrG5h" value="name" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="PrWs8" id="5CbGk5LhUz3" role="PzmwI">
+      <ref role="PrY4T" node="5CbGk5LhTD6" resolve="GenericName" />
     </node>
   </node>
   <node concept="1TIwiD" id="6ZopJQR6vie">
@@ -132,13 +128,21 @@
     <property role="EcuMT" value="8059304773064193239" />
     <property role="TrG5h" value="SortNamed" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="6ZopJQR6vjo" role="1TKVEl">
-      <property role="IQ2nx" value="8059304773064193240" />
-      <property role="TrG5h" value="name" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="1TJgyi" id="5CbGk5Ldvfy" role="1TKVEl">
+      <property role="IQ2nx" value="6488474582787683298" />
+      <property role="TrG5h" value="isList" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="5CbGk5LhKf5" role="1TKVEl">
+      <property role="IQ2nx" value="6488474582788801477" />
+      <property role="TrG5h" value="isOption" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
     <node concept="PrWs8" id="6ZopJQR6vjr" role="PzmwI">
       <ref role="PrY4T" node="6ZopJQR6qlv" resolve="Sort" />
+    </node>
+    <node concept="PrWs8" id="5CbGk5LhTWX" role="PzmwI">
+      <ref role="PrY4T" node="5CbGk5LhTD6" resolve="GenericName" />
     </node>
   </node>
   <node concept="1TIwiD" id="6ZopJQRd2X6">
@@ -152,11 +156,6 @@
       <property role="20kJfa" value="content" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="6ZopJQRd2ZB" resolve="FileContent" />
-    </node>
-    <node concept="1TJgyi" id="5CbGk5L8U72" role="1TKVEl">
-      <property role="IQ2nx" value="6488474582786482626" />
-      <property role="TrG5h" value="langName" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
   <node concept="1TIwiD" id="6ZopJQRd2X7">
@@ -191,6 +190,15 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6ZopJQRhqSI" role="PzmwI">
       <ref role="PrY4T" node="6ZopJQRd2ZB" resolve="FileContent" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="5CbGk5LhTD6">
+    <property role="EcuMT" value="6488474582788840006" />
+    <property role="TrG5h" value="GenericName" />
+    <node concept="1TJgyi" id="5CbGk5LhTD7" role="1TKVEl">
+      <property role="IQ2nx" value="6488474582788840007" />
+      <property role="TrG5h" value="name" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
 </model>
