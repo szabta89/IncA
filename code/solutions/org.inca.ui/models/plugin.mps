@@ -195,6 +195,10 @@
       <concept id="1197029447546" name="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation" flags="nn" index="2OwXpG">
         <reference id="1197029500499" name="fieldDeclaration" index="2Oxat5" />
       </concept>
+      <concept id="1083260308424" name="jetbrains.mps.baseLanguage.structure.EnumConstantReference" flags="nn" index="Rm8GO">
+        <reference id="1083260308426" name="enumConstantDeclaration" index="Rm8GQ" />
+        <reference id="1144432896254" name="enumClass" index="1Px2BO" />
+      </concept>
       <concept id="1164879751025" name="jetbrains.mps.baseLanguage.structure.TryCatchStatement" flags="nn" index="SfApY">
         <child id="1164879758292" name="body" index="SfCbr" />
         <child id="1164903496223" name="catchClause" index="TEbGg" />
@@ -2863,31 +2867,48 @@
       <node concept="3clFbS" id="47VZ_g5dNRH" role="3clF47">
         <node concept="SfApY" id="47VZ_g5dR_h" role="3cqZAp">
           <node concept="3clFbS" id="47VZ_g5dR_i" role="SfCbr">
-            <node concept="3cpWs8" id="4gXnpRrZta8" role="3cqZAp">
-              <node concept="3cpWsn" id="4gXnpRrZta9" role="3cpWs9">
-                <property role="TrG5h" value="evaluationHints" />
+            <node concept="3clFbF" id="252dCBpbt0" role="3cqZAp">
+              <node concept="2YIFZM" id="252dCBpbF0" role="3clFbG">
+                <ref role="1Pybhc" to="h57a:~ViatraQueryEngineOptions" resolve="ViatraQueryEngineOptions" />
+                <ref role="37wK5l" to="h57a:~ViatraQueryEngineOptions.setSystemDefaultBackends(org.eclipse.viatra.query.runtime.matchers.backend.IQueryBackendFactory,org.eclipse.viatra.query.runtime.matchers.backend.IQueryBackendFactory,org.eclipse.viatra.query.runtime.matchers.backend.IQueryBackendFactory):void" resolve="setSystemDefaultBackends" />
+                <node concept="10M0yZ" id="252dCBpcg2" role="37wK5m">
+                  <ref role="3cqZAo" to="x6p8:~ReteBackendFactory.INSTANCE" resolve="INSTANCE" />
+                  <ref role="1PxDUh" to="x6p8:~ReteBackendFactory" resolve="ReteBackendFactory" />
+                </node>
+                <node concept="10M0yZ" id="252dCBpcpZ" role="37wK5m">
+                  <ref role="1PxDUh" to="x6p8:~ReteBackendFactory" resolve="ReteBackendFactory" />
+                  <ref role="3cqZAo" to="x6p8:~ReteBackendFactory.INSTANCE" resolve="INSTANCE" />
+                </node>
+                <node concept="10M0yZ" id="252dCBsRsK" role="37wK5m">
+                  <ref role="3cqZAo" to="pzen:252dCBsNuQ" resolve="INSTANCE" />
+                  <ref role="1PxDUh" to="pzen:252dCBsJwK" resolve="DummySearchBackendFactory" />
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs8" id="252dCBtSgK" role="3cqZAp">
+              <node concept="3cpWsn" id="252dCBtSgL" role="3cpWs9">
+                <property role="TrG5h" value="hint" />
                 <property role="3TUv4t" value="true" />
-                <node concept="3uibUv" id="4gXnpRrZtaa" role="1tU5fm">
+                <node concept="3uibUv" id="252dCBtSgM" role="1tU5fm">
                   <ref role="3uigEE" to="wduz:~QueryEvaluationHint" resolve="QueryEvaluationHint" />
                 </node>
-                <node concept="2ShNRf" id="4gXnpRrZuJQ" role="33vP2m">
-                  <node concept="1pGfFk" id="4gXnpRrZUgD" role="2ShVmc">
-                    <ref role="37wK5l" to="wduz:~QueryEvaluationHint.&lt;init&gt;(java.util.Map,org.eclipse.viatra.query.runtime.matchers.backend.IQueryBackendFactory)" resolve="QueryEvaluationHint" />
-                    <node concept="2YIFZM" id="4gXnpRrZZ9W" role="37wK5m">
-                      <ref role="1Pybhc" to="3o3z:~ImmutableMap" resolve="ImmutableMap" />
+                <node concept="2ShNRf" id="252dCBtSgN" role="33vP2m">
+                  <node concept="1pGfFk" id="252dCBtSgO" role="2ShVmc">
+                    <ref role="37wK5l" to="wduz:~QueryEvaluationHint.&lt;init&gt;(java.util.Map,org.eclipse.viatra.query.runtime.matchers.backend.QueryEvaluationHint$BackendRequirement)" resolve="QueryEvaluationHint" />
+                    <node concept="2YIFZM" id="252dCBtSgP" role="37wK5m">
                       <ref role="37wK5l" to="3o3z:~ImmutableMap.of(java.lang.Object,java.lang.Object):com.google.common.collect.ImmutableMap" resolve="of" />
-                      <node concept="10M0yZ" id="4gXnpRs01iV" role="37wK5m">
-                        <ref role="1PxDUh" to="gg94:~ReteHintOptions" resolve="ReteHintOptions" />
+                      <ref role="1Pybhc" to="3o3z:~ImmutableMap" resolve="ImmutableMap" />
+                      <node concept="10M0yZ" id="252dCBtSgQ" role="37wK5m">
                         <ref role="3cqZAo" to="gg94:~ReteHintOptions.deleteRederiveEvaluation" resolve="deleteRederiveEvaluation" />
+                        <ref role="1PxDUh" to="gg94:~ReteHintOptions" resolve="ReteHintOptions" />
                       </node>
-                      <node concept="3clFbT" id="4gXnpRs01YP" role="37wK5m">
+                      <node concept="3clFbT" id="252dCBtSgR" role="37wK5m">
                         <property role="3clFbU" value="true" />
                       </node>
                     </node>
-                    <node concept="2ShNRf" id="6nzlhF84Gnd" role="37wK5m">
-                      <node concept="1pGfFk" id="6nzlhF84WER" role="2ShVmc">
-                        <ref role="37wK5l" to="x6p8:~ReteBackendFactory.&lt;init&gt;()" resolve="ReteBackendFactory" />
-                      </node>
+                    <node concept="Rm8GO" id="252dCBp5sj" role="37wK5m">
+                      <ref role="1Px2BO" to="wduz:~QueryEvaluationHint$BackendRequirement" resolve="QueryEvaluationHint.BackendRequirement" />
+                      <ref role="Rm8GQ" to="wduz:~QueryEvaluationHint$BackendRequirement.DEFAULT_CACHING" resolve="DEFAULT_CACHING" />
                     </node>
                   </node>
                 </node>
@@ -2908,8 +2929,8 @@
                     </node>
                     <node concept="liA8E" id="4gXnpRrZpxm" role="2OqNvi">
                       <ref role="37wK5l" to="h57a:~ViatraQueryEngineOptions$Builder.withDefaultHint(org.eclipse.viatra.query.runtime.matchers.backend.QueryEvaluationHint):org.eclipse.viatra.query.runtime.api.ViatraQueryEngineOptions$Builder" resolve="withDefaultHint" />
-                      <node concept="37vLTw" id="4gXnpRs03va" role="37wK5m">
-                        <ref role="3cqZAo" node="4gXnpRrZta9" resolve="evaluationHints" />
+                      <node concept="37vLTw" id="252dCBu1d3" role="37wK5m">
+                        <ref role="3cqZAo" node="252dCBtSgL" resolve="hint" />
                       </node>
                     </node>
                   </node>

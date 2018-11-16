@@ -29090,6 +29090,24 @@
             <node concept="3clFbH" id="2cknNXbLzrM" role="3cqZAp" />
             <node concept="3clFbJ" id="5YH9iFAGdNn" role="3cqZAp">
               <node concept="3clFbS" id="5YH9iFAGdNq" role="3clFbx">
+                <node concept="3clFbF" id="252dCBpbt0" role="3cqZAp">
+                  <node concept="2YIFZM" id="252dCBpbF0" role="3clFbG">
+                    <ref role="37wK5l" to="h57a:~ViatraQueryEngineOptions.setSystemDefaultBackends(org.eclipse.viatra.query.runtime.matchers.backend.IQueryBackendFactory,org.eclipse.viatra.query.runtime.matchers.backend.IQueryBackendFactory,org.eclipse.viatra.query.runtime.matchers.backend.IQueryBackendFactory):void" resolve="setSystemDefaultBackends" />
+                    <ref role="1Pybhc" to="h57a:~ViatraQueryEngineOptions" resolve="ViatraQueryEngineOptions" />
+                    <node concept="10M0yZ" id="252dCBpcg2" role="37wK5m">
+                      <ref role="3cqZAo" to="x6p8:~ReteBackendFactory.INSTANCE" resolve="INSTANCE" />
+                      <ref role="1PxDUh" to="x6p8:~ReteBackendFactory" resolve="ReteBackendFactory" />
+                    </node>
+                    <node concept="10M0yZ" id="252dCBpcpZ" role="37wK5m">
+                      <ref role="3cqZAo" to="x6p8:~ReteBackendFactory.INSTANCE" resolve="INSTANCE" />
+                      <ref role="1PxDUh" to="x6p8:~ReteBackendFactory" resolve="ReteBackendFactory" />
+                    </node>
+                    <node concept="10M0yZ" id="252dCBsRsK" role="37wK5m">
+                      <ref role="3cqZAo" node="252dCBsNuQ" resolve="INSTANCE" />
+                      <ref role="1PxDUh" node="252dCBsJwK" resolve="DummySearchBackendFactory" />
+                    </node>
+                  </node>
+                </node>
                 <node concept="3cpWs8" id="4gXnpRrZta8" role="3cqZAp">
                   <node concept="3cpWsn" id="4gXnpRrZta9" role="3cpWs9">
                     <property role="TrG5h" value="hint" />
@@ -29099,7 +29117,7 @@
                     </node>
                     <node concept="2ShNRf" id="4gXnpRrZuJQ" role="33vP2m">
                       <node concept="1pGfFk" id="4gXnpRrZUgD" role="2ShVmc">
-                        <ref role="37wK5l" to="wduz:~QueryEvaluationHint.&lt;init&gt;(java.util.Map,org.eclipse.viatra.query.runtime.matchers.backend.IQueryBackendFactory)" resolve="QueryEvaluationHint" />
+                        <ref role="37wK5l" to="wduz:~QueryEvaluationHint.&lt;init&gt;(java.util.Map,org.eclipse.viatra.query.runtime.matchers.backend.QueryEvaluationHint$BackendRequirement)" resolve="QueryEvaluationHint" />
                         <node concept="2YIFZM" id="4gXnpRrZZ9W" role="37wK5m">
                           <ref role="1Pybhc" to="3o3z:~ImmutableMap" resolve="ImmutableMap" />
                           <ref role="37wK5l" to="3o3z:~ImmutableMap.of(java.lang.Object,java.lang.Object):com.google.common.collect.ImmutableMap" resolve="of" />
@@ -29111,10 +29129,9 @@
                             <property role="3clFbU" value="true" />
                           </node>
                         </node>
-                        <node concept="2ShNRf" id="6nzlhF84Gnd" role="37wK5m">
-                          <node concept="1pGfFk" id="6nzlhF84WER" role="2ShVmc">
-                            <ref role="37wK5l" to="x6p8:~ReteBackendFactory.&lt;init&gt;()" resolve="ReteBackendFactory" />
-                          </node>
+                        <node concept="Rm8GO" id="252dCBp5sj" role="37wK5m">
+                          <ref role="Rm8GQ" to="wduz:~QueryEvaluationHint$BackendRequirement.DEFAULT_CACHING" resolve="DEFAULT_CACHING" />
+                          <ref role="1Px2BO" to="wduz:~QueryEvaluationHint$BackendRequirement" resolve="QueryEvaluationHint.BackendRequirement" />
                         </node>
                       </node>
                     </node>
@@ -35163,6 +35180,138 @@
     </node>
     <node concept="2tJIrI" id="1cwfJkvBjsR" role="jymVt" />
     <node concept="3Tm1VV" id="1cwfJkvBjsD" role="1B3o_S" />
+  </node>
+  <node concept="312cEu" id="252dCBsJwK">
+    <property role="3GE5qa" value="runtime" />
+    <property role="TrG5h" value="DummySearchBackendFactory" />
+    <node concept="2tJIrI" id="252dCBsN3W" role="jymVt" />
+    <node concept="Wx3nA" id="252dCBsNuQ" role="jymVt">
+      <property role="2dlcS1" value="false" />
+      <property role="2dld4O" value="false" />
+      <property role="TrG5h" value="INSTANCE" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm1VV" id="252dCBsNfA" role="1B3o_S" />
+      <node concept="3uibUv" id="252dCBsNqm" role="1tU5fm">
+        <ref role="3uigEE" node="252dCBsJwK" resolve="DummySearchBackendFactory" />
+      </node>
+      <node concept="2ShNRf" id="252dCBsN$H" role="33vP2m">
+        <node concept="1pGfFk" id="252dCBsOIt" role="2ShVmc">
+          <ref role="37wK5l" node="252dCBsOag" resolve="DummySearchBackendFactory" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="252dCBsO3J" role="jymVt" />
+    <node concept="3clFbW" id="252dCBsOag" role="jymVt">
+      <node concept="3cqZAl" id="252dCBsOai" role="3clF45" />
+      <node concept="3Tm6S6" id="252dCBsOfR" role="1B3o_S" />
+      <node concept="3clFbS" id="252dCBsOak" role="3clF47">
+        <node concept="3clFbH" id="252dCBsOk4" role="3cqZAp" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="252dCBsNa5" role="jymVt" />
+    <node concept="3Tm1VV" id="252dCBsJwL" role="1B3o_S" />
+    <node concept="3uibUv" id="252dCBsLyK" role="EKbjA">
+      <ref role="3uigEE" to="wduz:~IQueryBackendFactory" resolve="IQueryBackendFactory" />
+    </node>
+    <node concept="3clFb_" id="252dCBsLz2" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="create" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="3Tm1VV" id="252dCBsLz3" role="1B3o_S" />
+      <node concept="3uibUv" id="252dCBsLz5" role="3clF45">
+        <ref role="3uigEE" to="wduz:~IQueryBackend" resolve="IQueryBackend" />
+      </node>
+      <node concept="37vLTG" id="252dCBsLz6" role="3clF46">
+        <property role="TrG5h" value="context" />
+        <node concept="3uibUv" id="252dCBsLz7" role="1tU5fm">
+          <ref role="3uigEE" to="4v9i:~IQueryBackendContext" resolve="IQueryBackendContext" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="252dCBsLz8" role="3clF47">
+        <node concept="3cpWs6" id="252dCBsN95" role="3cqZAp">
+          <node concept="10Nm6u" id="252dCBsN96" role="3cqZAk" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="252dCBsLz9" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="252dCBsMj$" role="jymVt" />
+    <node concept="3clFb_" id="252dCBsLzc" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getBackendClass" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="3Tm1VV" id="252dCBsLzd" role="1B3o_S" />
+      <node concept="3uibUv" id="252dCBsLzf" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Class" resolve="Class" />
+        <node concept="3qUE_q" id="252dCBsLzg" role="11_B2D">
+          <node concept="3uibUv" id="252dCBsLzh" role="3qUE_r">
+            <ref role="3uigEE" to="wduz:~IQueryBackend" resolve="IQueryBackend" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbS" id="252dCBsLzi" role="3clF47">
+        <node concept="3cpWs6" id="252dCBsMyu" role="3cqZAp">
+          <node concept="10Nm6u" id="252dCBsMyv" role="3cqZAk" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="252dCBsLzj" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="252dCBsM5y" role="jymVt" />
+    <node concept="3clFb_" id="252dCBsLzm" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="calculateRequiredCapability" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="3Tm1VV" id="252dCBsLzn" role="1B3o_S" />
+      <node concept="3uibUv" id="252dCBsLzp" role="3clF45">
+        <ref role="3uigEE" to="wduz:~IMatcherCapability" resolve="IMatcherCapability" />
+      </node>
+      <node concept="37vLTG" id="252dCBsLzq" role="3clF46">
+        <property role="TrG5h" value="query" />
+        <property role="3TUv4t" value="true" />
+        <node concept="3uibUv" id="252dCBsLzr" role="1tU5fm">
+          <ref role="3uigEE" to="4azy:~PQuery" resolve="PQuery" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="252dCBsLzs" role="3clF46">
+        <property role="TrG5h" value="hint" />
+        <property role="3TUv4t" value="true" />
+        <node concept="3uibUv" id="252dCBsLzt" role="1tU5fm">
+          <ref role="3uigEE" to="wduz:~QueryEvaluationHint" resolve="QueryEvaluationHint" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="252dCBsLzu" role="3clF47">
+        <node concept="3cpWs6" id="252dCBsMaD" role="3cqZAp">
+          <node concept="10Nm6u" id="252dCBsMaE" role="3cqZAk" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="252dCBsLzv" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="252dCBsLVr" role="jymVt" />
+    <node concept="3clFb_" id="252dCBsLzy" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="isCaching" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="3Tm1VV" id="252dCBsLzz" role="1B3o_S" />
+      <node concept="10P_77" id="252dCBsLz_" role="3clF45" />
+      <node concept="3clFbS" id="252dCBsLzA" role="3clF47">
+        <node concept="3cpWs6" id="252dCBsLV6" role="3cqZAp">
+          <node concept="3clFbT" id="252dCBsLV7" role="3cqZAk" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="252dCBsLzB" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="252dCBsM0u" role="jymVt" />
   </node>
 </model>
 
