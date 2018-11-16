@@ -52,6 +52,7 @@
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="gcg1" ref="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.inca.core.behavior)" />
     <import index="3qmy" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.classloading(MPS.Core/)" />
+    <import index="9h3f" ref="7766a138-716a-422a-9c88-131459fb8d6a/java:org.eclipse.viatra.query.runtime.matchers.util(org.inca.core.runtime/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -11492,6 +11493,98 @@
       </node>
     </node>
     <node concept="2tJIrI" id="6$TCdl5yMoP" role="jymVt" />
+    <node concept="3clFb_" id="252dCAZ29L" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="estimateCardinality" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="3Tm1VV" id="252dCAZ29M" role="1B3o_S" />
+      <node concept="3uibUv" id="252dCAZ29O" role="3clF45">
+        <ref role="3uigEE" to="33ny:~Optional" resolve="Optional" />
+        <node concept="3uibUv" id="252dCAZ29P" role="11_B2D">
+          <ref role="3uigEE" to="wyt6:~Long" resolve="Long" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="252dCAZ29Q" role="3clF46">
+        <property role="TrG5h" value="key" />
+        <property role="3TUv4t" value="true" />
+        <node concept="3uibUv" id="252dCAZ29R" role="1tU5fm">
+          <ref role="3uigEE" to="4v9i:~IInputKey" resolve="IInputKey" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="252dCAZ29S" role="3clF46">
+        <property role="TrG5h" value="mask" />
+        <property role="3TUv4t" value="true" />
+        <node concept="3uibUv" id="252dCAZ29T" role="1tU5fm">
+          <ref role="3uigEE" to="inmn:~TupleMask" resolve="TupleMask" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="252dCAZ29U" role="3clF46">
+        <property role="TrG5h" value="accuracy" />
+        <property role="3TUv4t" value="true" />
+        <node concept="3uibUv" id="252dCAZ29V" role="1tU5fm">
+          <ref role="3uigEE" to="9h3f:~Accuracy" resolve="Accuracy" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="252dCAZ29W" role="3clF47">
+        <node concept="3cpWs6" id="252dCAZ$9a" role="3cqZAp">
+          <node concept="2YIFZM" id="252dCAZJZv" role="3cqZAk">
+            <ref role="37wK5l" to="33ny:~Optional.empty():java.util.Optional" resolve="empty" />
+            <ref role="1Pybhc" to="33ny:~Optional" resolve="Optional" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="252dCAZ29X" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="252dCAZ764" role="jymVt" />
+    <node concept="3clFb_" id="252dCAZ2a0" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="estimateAverageBucketSize" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="3Tm1VV" id="252dCAZ2a1" role="1B3o_S" />
+      <node concept="3uibUv" id="252dCAZ2a3" role="3clF45">
+        <ref role="3uigEE" to="33ny:~Optional" resolve="Optional" />
+        <node concept="3uibUv" id="252dCAZ2a4" role="11_B2D">
+          <ref role="3uigEE" to="wyt6:~Double" resolve="Double" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="252dCAZ2a5" role="3clF46">
+        <property role="TrG5h" value="key" />
+        <property role="3TUv4t" value="true" />
+        <node concept="3uibUv" id="252dCAZ2a6" role="1tU5fm">
+          <ref role="3uigEE" to="4v9i:~IInputKey" resolve="IInputKey" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="252dCAZ2a7" role="3clF46">
+        <property role="TrG5h" value="groupMask" />
+        <property role="3TUv4t" value="true" />
+        <node concept="3uibUv" id="252dCAZ2a8" role="1tU5fm">
+          <ref role="3uigEE" to="inmn:~TupleMask" resolve="TupleMask" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="252dCAZ2a9" role="3clF46">
+        <property role="TrG5h" value="requiredAccuracy" />
+        <property role="3TUv4t" value="true" />
+        <node concept="3uibUv" id="252dCAZ2aa" role="1tU5fm">
+          <ref role="3uigEE" to="9h3f:~Accuracy" resolve="Accuracy" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="252dCAZ2ab" role="3clF47">
+        <node concept="3cpWs6" id="252dCAZSmJ" role="3cqZAp">
+          <node concept="2YIFZM" id="252dCAZSmK" role="3cqZAk">
+            <ref role="37wK5l" to="33ny:~Optional.empty():java.util.Optional" resolve="empty" />
+            <ref role="1Pybhc" to="33ny:~Optional" resolve="Optional" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="252dCAZ2ac" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="252dCAZbTP" role="jymVt" />
   </node>
   <node concept="312cEu" id="1D4dCkVyUxn">
     <property role="3GE5qa" value="indexing.listener" />
