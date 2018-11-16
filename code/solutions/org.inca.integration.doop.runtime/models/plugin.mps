@@ -8653,9 +8653,13 @@
                   <ref role="3cqZAo" node="5p_pYsZNpq" resolve="buffer" />
                 </node>
                 <node concept="liA8E" id="5p_pYsZQj$" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~StringBuffer.append(int):java.lang.StringBuffer" resolve="append" />
-                  <node concept="37vLTw" id="5p_pYsZRSu" role="37wK5m">
-                    <ref role="3cqZAo" node="5p_pYsZOyp" resolve="value" />
+                  <ref role="37wK5l" to="wyt6:~StringBuffer.append(java.lang.String):java.lang.StringBuffer" resolve="append" />
+                  <node concept="2YIFZM" id="66ob5gPZFIU" role="37wK5m">
+                    <ref role="37wK5l" node="FaFEdxvpdk" resolve="get" />
+                    <ref role="1Pybhc" node="4twydQJFF4n" resolve="StringInterner" />
+                    <node concept="37vLTw" id="66ob5gPZFRl" role="37wK5m">
+                      <ref role="3cqZAo" node="5p_pYsZOyp" resolve="value" />
+                    </node>
                   </node>
                 </node>
               </node>
