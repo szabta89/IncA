@@ -330,6 +330,9 @@
       <concept id="1153944233411" name="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference" flags="nn" index="2GrUjf">
         <reference id="1153944258490" name="variable" index="2Gs0qQ" />
       </concept>
+      <concept id="1201306600024" name="jetbrains.mps.baseLanguage.collections.structure.ContainsKeyOperation" flags="nn" index="2Nt0df">
+        <child id="1201654602639" name="key" index="38cxEo" />
+      </concept>
       <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
       <concept id="4611582986551314327" name="jetbrains.mps.baseLanguage.collections.structure.OfTypeOperation" flags="nn" index="UnYns">
         <child id="4611582986551314344" name="requestedType" index="UnYnz" />
@@ -2021,6 +2024,11 @@
             </node>
           </node>
           <node concept="3clFbS" id="5CbGk5LcNv_" role="2LFqv$">
+            <node concept="3SKdUt" id="7PU92hiaf3d" role="3cqZAp">
+              <node concept="3SKdUq" id="7PU92hiaf3f" role="3SKWNk">
+                <property role="3SKdUp" value="this is necessary for some reason, otherwise found SubsortDeclaration here" />
+              </node>
+            </node>
             <node concept="3clFbJ" id="7PU92hi8wOQ" role="3cqZAp">
               <node concept="3clFbS" id="7PU92hi8wOS" role="3clFbx">
                 <node concept="3N13vt" id="7PU92hi8xaZ" role="3cqZAp" />
@@ -2053,6 +2061,71 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbJ" id="7PU92hi9Cr6" role="3cqZAp">
+              <node concept="3clFbS" id="7PU92hi9Cr8" role="3clFbx">
+                <node concept="YS8fn" id="7PU92hi9DMe" role="3cqZAp">
+                  <node concept="2ShNRf" id="7PU92hi9DP9" role="YScLw">
+                    <node concept="1pGfFk" id="7PU92hi9Eit" role="2ShVmc">
+                      <ref role="37wK5l" node="5CbGk5L748S" resolve="GenericASTParser.ParseException" />
+                      <node concept="3cpWs3" id="7PU92hia9RI" role="37wK5m">
+                        <node concept="Xl_RD" id="7PU92hiaa0M" role="3uHU7w">
+                          <property role="Xl_RC" value=" as constructor name" />
+                        </node>
+                        <node concept="3cpWs3" id="7PU92hi9FOy" role="3uHU7B">
+                          <node concept="Xl_RD" id="7PU92hi9EmG" role="3uHU7B">
+                            <property role="Xl_RC" value="Cannot reuse sort name " />
+                          </node>
+                          <node concept="37vLTw" id="7PU92hi9FV$" role="3uHU7w">
+                            <ref role="3cqZAo" node="7PU92hi8sA3" resolve="constructorName" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="7PU92hi9D9w" role="3clFbw">
+                <node concept="37vLTw" id="7PU92hi9CML" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5CbGk5LcsvM" resolve="sortDecls" />
+                </node>
+                <node concept="2Nt0df" id="7PU92hi9DyD" role="2OqNvi">
+                  <node concept="37vLTw" id="7PU92hi9EYe" role="38cxEo">
+                    <ref role="3cqZAo" node="7PU92hi8sA3" resolve="constructorName" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbJ" id="7PU92hiaazX" role="3cqZAp">
+              <node concept="3clFbS" id="7PU92hiaazY" role="3clFbx">
+                <node concept="YS8fn" id="7PU92hiaazZ" role="3cqZAp">
+                  <node concept="2ShNRf" id="7PU92hiaa$0" role="YScLw">
+                    <node concept="1pGfFk" id="7PU92hiaa$1" role="2ShVmc">
+                      <ref role="37wK5l" node="5CbGk5L748S" resolve="GenericASTParser.ParseException" />
+                      <node concept="3cpWs3" id="7PU92hiaa$4" role="37wK5m">
+                        <node concept="Xl_RD" id="7PU92hiaa$5" role="3uHU7B">
+                          <property role="Xl_RC" value="Cannot overload constructor name " />
+                        </node>
+                        <node concept="37vLTw" id="7PU92hiaa$6" role="3uHU7w">
+                          <ref role="3cqZAo" node="7PU92hi8sA3" resolve="constructorName" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="7PU92hiaa$7" role="3clFbw">
+                <node concept="37vLTw" id="7PU92hiaaRH" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5CbGk5LcSjP" resolve="constructorDecls" />
+                </node>
+                <node concept="2Nt0df" id="7PU92hiaa$9" role="2OqNvi">
+                  <node concept="37vLTw" id="7PU92hiaa$a" role="38cxEo">
+                    <ref role="3cqZAo" node="7PU92hi8sA3" resolve="constructorName" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="7PU92hi9EyM" role="3cqZAp" />
+            <node concept="3clFbH" id="7PU92hi9ED7" role="3cqZAp" />
             <node concept="3cpWs8" id="5CbGk5LcSNd" role="3cqZAp">
               <node concept="3cpWsn" id="5CbGk5LcSNe" role="3cpWs9">
                 <property role="TrG5h" value="decl" />
@@ -2620,6 +2693,9 @@
         <node concept="3uibUv" id="5CbGk5Lk4Ar" role="1tU5fm">
           <ref role="3uigEE" to="mhbf:~SModel" resolve="SModel" />
         </node>
+      </node>
+      <node concept="3uibUv" id="7PU92hiaap7" role="Sfmx6">
+        <ref role="3uigEE" node="5CbGk5L744w" resolve="GenericASTParser.ParseException" />
       </node>
     </node>
     <node concept="2tJIrI" id="5CbGk5LbBnI" role="jymVt" />
