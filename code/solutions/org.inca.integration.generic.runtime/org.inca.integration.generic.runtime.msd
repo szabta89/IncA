@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="org.inca.integration.generic.runtime" uuid="e96047d3-f700-41f8-a297-432ba6edf67d" moduleVersion="0" compileInMPS="true">
+<solution name="org.inca.integration.generic.runtime" uuid="e96047d3-f700-41f8-a297-432ba6edf67d" moduleVersion="0" pluginKind="PLUGIN_OTHER" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
