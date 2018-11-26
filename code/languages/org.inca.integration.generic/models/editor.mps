@@ -97,8 +97,14 @@
         <reference id="1138405853777" name="concept" index="ehGHo" />
       </concept>
     </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
+    </language>
   </registry>
   <node concept="24kQdi" id="6ZopJQR6qmu">
+    <property role="3GE5qa" value="metamodel" />
     <ref role="1XX52x" to="iwjs:6ZopJQR6qlr" resolve="ConstructorDeclaration" />
     <node concept="3EZMnI" id="6ZopJQR6qmw" role="2wV5jI">
       <node concept="l2Vlx" id="6ZopJQR6qmx" role="2iSdaV" />
@@ -148,6 +154,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="6ZopJQR6qx1">
+    <property role="3GE5qa" value="metamodel" />
     <ref role="1XX52x" to="iwjs:6ZopJQR6qmd" resolve="ConstructorParam" />
     <node concept="3EZMnI" id="6ZopJQR6qx3" role="2wV5jI">
       <node concept="l2Vlx" id="6ZopJQR6qx4" role="2iSdaV" />
@@ -187,6 +194,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="6ZopJQR6vh$">
+    <property role="3GE5qa" value="metamodel" />
     <ref role="1XX52x" to="iwjs:6ZopJQR6qmi" resolve="ParamName" />
     <node concept="1kIj98" id="6ZopJQRku1T" role="2wV5jI">
       <node concept="3F0A7n" id="6ZopJQR6via" role="1kIj9b">
@@ -197,24 +205,28 @@
     </node>
   </node>
   <node concept="24kQdi" id="6ZopJQR6vif">
+    <property role="3GE5qa" value="metamodel" />
     <ref role="1XX52x" to="iwjs:6ZopJQR6vie" resolve="SortString" />
     <node concept="3F0ifn" id="6ZopJQR6viP" role="2wV5jI">
       <property role="3F0ifm" value="string" />
     </node>
   </node>
   <node concept="24kQdi" id="6ZopJQR6vj2">
+    <property role="3GE5qa" value="metamodel" />
     <ref role="1XX52x" to="iwjs:6ZopJQR6viT" resolve="SortInteger" />
     <node concept="3F0ifn" id="6ZopJQR6vj4" role="2wV5jI">
       <property role="3F0ifm" value="integer" />
     </node>
   </node>
   <node concept="24kQdi" id="6ZopJQR6vjh">
+    <property role="3GE5qa" value="metamodel" />
     <ref role="1XX52x" to="iwjs:6ZopJQR6vj8" resolve="SortBool" />
     <node concept="3F0ifn" id="6ZopJQR6vjj" role="2wV5jI">
       <property role="3F0ifm" value="boolean" />
     </node>
   </node>
   <node concept="24kQdi" id="6ZopJQR6vjJ">
+    <property role="3GE5qa" value="metamodel" />
     <ref role="1XX52x" to="iwjs:6ZopJQR6vjn" resolve="SortNamed" />
     <node concept="3EZMnI" id="5CbGk5LdwG9" role="2wV5jI">
       <node concept="1kIj98" id="6ZopJQR6vty" role="3EZMnx">
@@ -237,6 +249,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="6ZopJQRd2XK">
+    <property role="3GE5qa" value="metamodel" />
     <ref role="1XX52x" to="iwjs:6ZopJQRd2X7" resolve="SubsortDeclaration" />
     <node concept="3EZMnI" id="6ZopJQRd2XM" role="2wV5jI">
       <node concept="3F0ifn" id="6ZopJQRh0Y6" role="3EZMnx">
@@ -255,7 +268,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="6ZopJQRd2ZT">
-    <ref role="1XX52x" to="iwjs:6ZopJQRd2X6" resolve="File" />
+    <property role="3GE5qa" value="metamodel" />
+    <ref role="1XX52x" to="iwjs:6ZopJQRd2X6" resolve="Metamodel" />
     <node concept="3EZMnI" id="6ZopJQRd310" role="2wV5jI">
       <node concept="2iRkQZ" id="6ZopJQRd311" role="2iSdaV" />
       <node concept="3F2HdR" id="6ZopJQRd31g" role="3EZMnx">
@@ -267,7 +281,7 @@
               <node concept="2ShNRf" id="6ZopJQRhCQW" role="3cqZAk">
                 <node concept="3zrR0B" id="6ZopJQRhCQU" role="2ShVmc">
                   <node concept="3Tqbb2" id="6ZopJQRhCQV" role="3zrR0E">
-                    <ref role="ehGHo" to="iwjs:6ZopJQRhqSH" resolve="EmptyDeclaration" />
+                    <ref role="ehGHo" to="iwjs:6ZopJQRhqSH" resolve="EmptyMetamodelContent" />
                   </node>
                 </node>
               </node>
@@ -278,14 +292,62 @@
     </node>
   </node>
   <node concept="3p36aQ" id="6ZopJQRhrfo">
-    <ref role="aqKnT" to="iwjs:6ZopJQRhqSH" resolve="EmptyDeclaration" />
+    <property role="3GE5qa" value="metamodel" />
+    <ref role="aqKnT" to="iwjs:6ZopJQRhqSH" resolve="EmptyMetamodelContent" />
   </node>
   <node concept="24kQdi" id="6ZopJQRhRxk">
-    <ref role="1XX52x" to="iwjs:6ZopJQRhqSH" resolve="EmptyDeclaration" />
+    <property role="3GE5qa" value="metamodel" />
+    <ref role="1XX52x" to="iwjs:6ZopJQRhqSH" resolve="EmptyMetamodelContent" />
     <node concept="3F0ifn" id="6ZopJQRhRxm" role="2wV5jI">
       <node concept="VPxyj" id="6ZopJQRhRxq" role="3F10Kt">
         <property role="VOm3f" value="true" />
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="7PU92hihyYf">
+    <property role="3GE5qa" value="metamodel" />
+    <ref role="1XX52x" to="iwjs:7PU92higp9V" resolve="StartConstructorDeclaration" />
+    <node concept="3EZMnI" id="7PU92hihyYh" role="2wV5jI">
+      <node concept="3F0ifn" id="7PU92hihyYr" role="3EZMnx">
+        <property role="3F0ifm" value="start" />
+      </node>
+      <node concept="3F0A7n" id="7PU92hihyY$" role="3EZMnx">
+        <ref role="1NtTu8" to="iwjs:5CbGk5LhTD7" resolve="name" />
+      </node>
+      <node concept="l2Vlx" id="7PU92hihyYk" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4qcXZpq5TsT">
+    <ref role="1XX52x" to="iwjs:4qcXZpq5TsH" resolve="Integer" />
+    <node concept="3F0A7n" id="4qcXZpq5TsV" role="2wV5jI">
+      <ref role="1NtTu8" to="iwjs:4qcXZpq5TsI" resolve="val" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4qcXZpq5Tt7">
+    <ref role="1XX52x" to="iwjs:4qcXZpq5TsF" resolve="Boolean" />
+    <node concept="3F0A7n" id="4qcXZpq5Ttd" role="2wV5jI">
+      <ref role="1NtTu8" to="iwjs:4qcXZpq5TsG" resolve="val" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4qcXZpq5TtE">
+    <ref role="1XX52x" to="iwjs:4qcXZpq5TsB" resolve="String" />
+    <node concept="3EZMnI" id="4qcXZpq5TtK" role="2wV5jI">
+      <node concept="3F0ifn" id="4qcXZpq5TtM" role="3EZMnx">
+        <property role="3F0ifm" value="&quot;" />
+        <node concept="11LMrY" id="4qcXZpq5Tus" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="4qcXZpq5Tuk" role="3EZMnx">
+        <ref role="1NtTu8" to="iwjs:4qcXZpq5TsC" resolve="val" />
+      </node>
+      <node concept="3F0ifn" id="4qcXZpq5TtZ" role="3EZMnx">
+        <property role="3F0ifm" value="&quot;" />
+        <node concept="11L4FC" id="4qcXZpq5Tuv" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="4qcXZpq5TtN" role="2iSdaV" />
     </node>
   </node>
 </model>

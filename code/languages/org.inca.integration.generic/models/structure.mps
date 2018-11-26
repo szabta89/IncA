@@ -38,6 +38,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -46,6 +49,7 @@
   <node concept="1TIwiD" id="6ZopJQR6qlr">
     <property role="EcuMT" value="8059304773064172891" />
     <property role="TrG5h" value="ConstructorDeclaration" />
+    <property role="3GE5qa" value="metamodel" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="6ZopJQR6qls" role="1TKVEl">
       <property role="IQ2nx" value="8059304773064172892" />
@@ -64,19 +68,31 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="sort" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="6ZopJQR6qlv" resolve="Sort" />
+      <ref role="20lvS9" node="6ZopJQR6vjn" resolve="SortNamed" />
     </node>
     <node concept="PrWs8" id="6ZopJQRd2ZF" role="PzmwI">
-      <ref role="PrY4T" node="6ZopJQRd2ZB" resolve="FileContent" />
+      <ref role="PrY4T" node="6ZopJQRd2ZB" resolve="MetamodelContent" />
     </node>
   </node>
   <node concept="PlHQZ" id="6ZopJQR6qlv">
     <property role="EcuMT" value="8059304773064172895" />
     <property role="TrG5h" value="Sort" />
+    <property role="3GE5qa" value="metamodel" />
+    <node concept="1TJgyi" id="5CbGk5Ldvfy" role="1TKVEl">
+      <property role="IQ2nx" value="6488474582787683298" />
+      <property role="TrG5h" value="isList" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="5CbGk5LhKf5" role="1TKVEl">
+      <property role="IQ2nx" value="6488474582788801477" />
+      <property role="TrG5h" value="isOption" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6ZopJQR6qmd">
     <property role="EcuMT" value="8059304773064172941" />
     <property role="TrG5h" value="ConstructorParam" />
+    <property role="3GE5qa" value="metamodel" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6ZopJQR6qmp" role="1TKVEi">
       <property role="IQ2ns" value="8059304773064172953" />
@@ -92,6 +108,7 @@
   <node concept="1TIwiD" id="6ZopJQR6qmi">
     <property role="EcuMT" value="8059304773064172946" />
     <property role="TrG5h" value="ParamName" />
+    <property role="3GE5qa" value="metamodel" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="5CbGk5LhUz3" role="PzmwI">
       <ref role="PrY4T" node="5CbGk5LhTD6" resolve="GenericName" />
@@ -101,6 +118,7 @@
     <property role="EcuMT" value="8059304773064193166" />
     <property role="TrG5h" value="SortString" />
     <property role="34LRSv" value="string" />
+    <property role="3GE5qa" value="metamodel" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6ZopJQR6vju" role="PzmwI">
       <ref role="PrY4T" node="6ZopJQR6qlv" resolve="Sort" />
@@ -110,6 +128,7 @@
     <property role="EcuMT" value="8059304773064193209" />
     <property role="TrG5h" value="SortInteger" />
     <property role="34LRSv" value="integer" />
+    <property role="3GE5qa" value="metamodel" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6ZopJQR6vjx" role="PzmwI">
       <ref role="PrY4T" node="6ZopJQR6qlv" resolve="Sort" />
@@ -119,6 +138,7 @@
     <property role="EcuMT" value="8059304773064193224" />
     <property role="TrG5h" value="SortBool" />
     <property role="34LRSv" value="boolean" />
+    <property role="3GE5qa" value="metamodel" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6ZopJQR6vj$" role="PzmwI">
       <ref role="PrY4T" node="6ZopJQR6qlv" resolve="Sort" />
@@ -127,17 +147,8 @@
   <node concept="1TIwiD" id="6ZopJQR6vjn">
     <property role="EcuMT" value="8059304773064193239" />
     <property role="TrG5h" value="SortNamed" />
+    <property role="3GE5qa" value="metamodel" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="5CbGk5Ldvfy" role="1TKVEl">
-      <property role="IQ2nx" value="6488474582787683298" />
-      <property role="TrG5h" value="isList" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-    <node concept="1TJgyi" id="5CbGk5LhKf5" role="1TKVEl">
-      <property role="IQ2nx" value="6488474582788801477" />
-      <property role="TrG5h" value="isOption" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
     <node concept="PrWs8" id="6ZopJQR6vjr" role="PzmwI">
       <ref role="PrY4T" node="6ZopJQR6qlv" resolve="Sort" />
     </node>
@@ -147,20 +158,22 @@
   </node>
   <node concept="1TIwiD" id="6ZopJQRd2X6">
     <property role="EcuMT" value="8059304773065912134" />
-    <property role="TrG5h" value="File" />
+    <property role="TrG5h" value="Metamodel" />
     <property role="19KtqR" value="true" />
+    <property role="3GE5qa" value="metamodel" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6ZopJQRd2ZI" role="1TKVEi">
       <property role="IQ2ns" value="8059304773065912302" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="content" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="6ZopJQRd2ZB" resolve="FileContent" />
+      <ref role="20lvS9" node="6ZopJQRd2ZB" resolve="MetamodelContent" />
     </node>
   </node>
   <node concept="1TIwiD" id="6ZopJQRd2X7">
     <property role="EcuMT" value="8059304773065912135" />
     <property role="TrG5h" value="SubsortDeclaration" />
+    <property role="3GE5qa" value="metamodel" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6ZopJQRd2X8" role="1TKVEi">
       <property role="IQ2ns" value="8059304773065912136" />
@@ -177,28 +190,73 @@
       <ref role="20lvS9" node="6ZopJQR6qlv" resolve="Sort" />
     </node>
     <node concept="PrWs8" id="6ZopJQRd2ZC" role="PzmwI">
-      <ref role="PrY4T" node="6ZopJQRd2ZB" resolve="FileContent" />
+      <ref role="PrY4T" node="6ZopJQRd2ZB" resolve="MetamodelContent" />
     </node>
   </node>
   <node concept="PlHQZ" id="6ZopJQRd2ZB">
     <property role="EcuMT" value="8059304773065912295" />
-    <property role="TrG5h" value="FileContent" />
+    <property role="TrG5h" value="MetamodelContent" />
+    <property role="3GE5qa" value="metamodel" />
   </node>
   <node concept="1TIwiD" id="6ZopJQRhqSH">
     <property role="EcuMT" value="8059304773067058733" />
-    <property role="TrG5h" value="EmptyDeclaration" />
+    <property role="TrG5h" value="EmptyMetamodelContent" />
+    <property role="3GE5qa" value="metamodel" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6ZopJQRhqSI" role="PzmwI">
-      <ref role="PrY4T" node="6ZopJQRd2ZB" resolve="FileContent" />
+      <ref role="PrY4T" node="6ZopJQRd2ZB" resolve="MetamodelContent" />
     </node>
   </node>
   <node concept="PlHQZ" id="5CbGk5LhTD6">
     <property role="EcuMT" value="6488474582788840006" />
     <property role="TrG5h" value="GenericName" />
+    <property role="3GE5qa" value="metamodel" />
     <node concept="1TJgyi" id="5CbGk5LhTD7" role="1TKVEl">
       <property role="IQ2nx" value="6488474582788840007" />
       <property role="TrG5h" value="name" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7PU92higp9V">
+    <property role="EcuMT" value="9041578940317143675" />
+    <property role="3GE5qa" value="metamodel" />
+    <property role="TrG5h" value="StartConstructorDeclaration" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="7PU92hiilqX" role="PzmwI">
+      <ref role="PrY4T" node="5CbGk5LhTD6" resolve="GenericName" />
+    </node>
+    <node concept="PrWs8" id="7PU92hikdBg" role="PzmwI">
+      <ref role="PrY4T" node="6ZopJQRd2ZB" resolve="MetamodelContent" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4qcXZpq5TsB">
+    <property role="EcuMT" value="5083710716839958311" />
+    <property role="TrG5h" value="String" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="4qcXZpq5TsC" role="1TKVEl">
+      <property role="IQ2nx" value="5083710716839958312" />
+      <property role="TrG5h" value="val" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4qcXZpq5TsF">
+    <property role="EcuMT" value="5083710716839958315" />
+    <property role="TrG5h" value="Boolean" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="4qcXZpq5TsG" role="1TKVEl">
+      <property role="IQ2nx" value="5083710716839958316" />
+      <property role="TrG5h" value="val" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4qcXZpq5TsH">
+    <property role="EcuMT" value="5083710716839958317" />
+    <property role="TrG5h" value="Integer" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="4qcXZpq5TsI" role="1TKVEl">
+      <property role="IQ2nx" value="5083710716839958318" />
+      <property role="TrG5h" value="val" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
 </model>
