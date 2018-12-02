@@ -1,0 +1,31 @@
+start Block
+
+subsort Literal <: Expr                                      
+
+constructor Block(stmts:Stmt*): Block
+
+constructor Declare(var:string): Stmt
+constructor Assign(var:string, exp:Expr): Stmt
+constructor While(cond:Expr, body:Block): Stmt
+constructor If(cond:Expr, then:Block, else:Block?): Stmt
+constructor Print(expr:Expr): Stmt
+
+constructor Plus() : BinOp                                   
+constructor Minus() : BinOp                                  
+constructor Times() : BinOp                                  
+constructor DivBy() : BinOp                                  
+constructor And() : BinOp                                    
+constructor Or() : BinOp                                     
+constructor Eq() : BinOp                                     
+                                                             
+constructor Neg() : UnOp                                     
+constructor Not() : UnOp                                     
+                                                             
+constructor BoolLit(boolean) : Literal                     
+constructor NumberLit(_:integer) : Literal                   
+                                                             
+constructor VarRef(var:string): Expr
+constructor BinOpExpr(left:Expr, op:BinOp, right:Expr) : Expr
+constructor UnOpExpr(op:UnOp, exp:Expr) : Expr               
+                                                             
+                                                             

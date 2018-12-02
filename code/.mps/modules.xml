@@ -8,6 +8,7 @@
       <modulePath path="$PROJECT_DIR$/languages/org.inca.fun/org.inca.fun.mpl" folder="core" />
       <modulePath path="$PROJECT_DIR$/languages/org.inca.gp/org.inca.gp.mpl" folder="core" />
       <modulePath path="$PROJECT_DIR$/languages/org.inca.integration.doop/org.inca.integration.doop.mpl" folder="integration" />
+      <modulePath path="$PROJECT_DIR$/languages/org.inca.integration.generic.test.lang/org.inca.integration.generic.test.lang.mpl" folder="tests" />
       <modulePath path="$PROJECT_DIR$/languages/org.inca.integration.generic/org.inca.integration.generic.mpl" folder="integration" />
       <modulePath path="$PROJECT_DIR$/languages/org.inca.integration.soot/com.mbeddr.mpsutil.soot.mpl" folder="integration" />
       <modulePath path="$PROJECT_DIR$/languages/org.inca.integration.souffle/org.inca.integration.souffle.mpl" folder="integration" />
@@ -34,7 +35,7 @@
       <modulePath path="$PROJECT_DIR$/tests/org.inca.data.test/org.inca.data.test.msd" folder="tests" />
       <modulePath path="$PROJECT_DIR$/tests/org.inca.fun.test/org.inca.fun.test.msd" folder="tests" />
       <modulePath path="$PROJECT_DIR$/tests/org.inca.gp.test/org.inca.gp.test.msd" folder="tests" />
-      <modulePath path="$PROJECT_DIR$/tests/org.inca.integration.generic.test/org.inca.integration.generic.test.msd" folder="integration" />
+      <modulePath path="$PROJECT_DIR$/tests/org.inca.integration.generic.test/org.inca.integration.generic.test.msd" folder="tests" />
       <modulePath path="$PROJECT_DIR$/tests/org.inca.meta.analysis.impact.test/org.inca.meta.analysis.impact.test.msd" folder="tests" />
       <modulePath path="$PROJECT_DIR$/tests/org.inca.meta.analysis.test/org.inca.meta.analysis.test.msd" folder="tests" />
       <modulePath path="$PROJECT_DIR$/tests/org.inca.sa.inter.test/org.inca.sa.inter.test.msd" folder="tests" />

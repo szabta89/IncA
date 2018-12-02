@@ -2088,7 +2088,7 @@
                 </node>
                 <node concept="3clFbF" id="5CbGk5LkEzM" role="3cqZAp">
                   <node concept="2YIFZM" id="5CbGk5LkEzN" role="3clFbG">
-                    <ref role="37wK5l" node="5CbGk5LbGGk" resolve="importFile" />
+                    <ref role="37wK5l" node="5CbGk5LbGGk" resolve="importMetamodel" />
                     <ref role="1Pybhc" node="5CbGk5LbBn6" resolve="MetamodelImporter" />
                     <node concept="37vLTw" id="5CbGk5LkEzO" role="37wK5m">
                       <ref role="3cqZAo" node="5CbGk5LkEzD" resolve="file" />
@@ -2198,7 +2198,7 @@
     <property role="TrG5h" value="MetamodelImporter" />
     <node concept="2tJIrI" id="5CbGk5LbBnq" role="jymVt" />
     <node concept="2YIFZL" id="5CbGk5LbGGk" role="jymVt">
-      <property role="TrG5h" value="importFile" />
+      <property role="TrG5h" value="importMetamodel" />
       <property role="od$2w" value="false" />
       <property role="DiZV1" value="false" />
       <property role="2aFKle" value="false" />
