@@ -229,16 +229,6 @@
       <ref role="PrY4T" node="6ZopJQRd2ZB" resolve="MetamodelContent" />
     </node>
   </node>
-  <node concept="1TIwiD" id="4qcXZpq5TsB">
-    <property role="EcuMT" value="5083710716839958311" />
-    <property role="TrG5h" value="String" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="4qcXZpq5TsC" role="1TKVEl">
-      <property role="IQ2nx" value="5083710716839958312" />
-      <property role="TrG5h" value="val" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="4qcXZpq5TsF">
     <property role="EcuMT" value="5083710716839958315" />
     <property role="TrG5h" value="Boolean" />
@@ -257,6 +247,16 @@
       <property role="IQ2nx" value="5083710716839958318" />
       <property role="TrG5h" value="val" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4qcXZpq5TsB">
+    <property role="EcuMT" value="5083710716839958311" />
+    <property role="TrG5h" value="String" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="4qcXZpq5TsC" role="1TKVEl">
+      <property role="IQ2nx" value="5083710716839958312" />
+      <property role="TrG5h" value="val" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
 </model>
