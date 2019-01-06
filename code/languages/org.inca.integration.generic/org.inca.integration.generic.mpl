@@ -40,6 +40,7 @@
         <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
         <module reference="44040329-7bfd-4c13-9275-784e91191a9f(org.inca.integration.generic)" version="0" />
         <module reference="8f636387-b990-4365-b004-452bf805297e(org.inca.integration.generic#01)" version="0" />
+        <module reference="e96047d3-f700-41f8-a297-432ba6edf67d(org.inca.integration.generic.runtime)" version="0" />
       </dependencyVersions>
       <mapping-priorities />
     </generator>
@@ -84,6 +85,9 @@
     <module reference="bc791f96-4749-4311-a6e4-241e47ca97f9(org.inca.core.util)" version="0" />
     <module reference="44040329-7bfd-4c13-9275-784e91191a9f(org.inca.integration.generic)" version="0" />
   </dependencyVersions>
+  <runtime>
+    <dependency reexport="false">e96047d3-f700-41f8-a297-432ba6edf67d(org.inca.integration.generic.runtime)</dependency>
+  </runtime>
   <extendedLanguages />
 </language>
 
