@@ -8,6 +8,7 @@
   </languages>
   <imports>
     <import index="iwjs" ref="r:c76125f2-e753-485d-9dfe-60bf8ff98758(org.inca.integration.generic.structure)" implicit="true" />
+    <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -23,6 +24,9 @@
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
+      </concept>
+      <concept id="1078939183254" name="jetbrains.mps.lang.editor.structure.CellModel_Component" flags="sg" stub="3162947552742194261" index="PMmxH">
+        <reference id="1078939183255" name="editorComponent" index="PMmxG" />
       </concept>
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
@@ -207,22 +211,22 @@
   <node concept="24kQdi" id="6ZopJQR6vif">
     <property role="3GE5qa" value="metamodel" />
     <ref role="1XX52x" to="iwjs:6ZopJQR6vie" resolve="SortString" />
-    <node concept="3F0ifn" id="6ZopJQR6viP" role="2wV5jI">
-      <property role="3F0ifm" value="string" />
+    <node concept="PMmxH" id="41RZVBddJsY" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
     </node>
   </node>
   <node concept="24kQdi" id="6ZopJQR6vj2">
     <property role="3GE5qa" value="metamodel" />
     <ref role="1XX52x" to="iwjs:6ZopJQR6viT" resolve="SortInteger" />
-    <node concept="3F0ifn" id="6ZopJQR6vj4" role="2wV5jI">
-      <property role="3F0ifm" value="integer" />
+    <node concept="PMmxH" id="41RZVBddJsW" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
     </node>
   </node>
   <node concept="24kQdi" id="6ZopJQR6vjh">
     <property role="3GE5qa" value="metamodel" />
     <ref role="1XX52x" to="iwjs:6ZopJQR6vj8" resolve="SortBool" />
-    <node concept="3F0ifn" id="6ZopJQR6vjj" role="2wV5jI">
-      <property role="3F0ifm" value="boolean" />
+    <node concept="PMmxH" id="41RZVBddJsU" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
     </node>
   </node>
   <node concept="24kQdi" id="6ZopJQR6vjJ">

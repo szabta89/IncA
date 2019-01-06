@@ -6,7 +6,6 @@
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="0" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="11" />
     <use id="f47b95d4-5e73-4c04-9204-18076950153b" name="com.mbeddr.mpsutil.compare" version="0" />
-    <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="0" />
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="6" />
     <use id="44040329-7bfd-4c13-9275-784e91191a9f" name="org.inca.integration.generic" version="0" />
     <use id="56c69f56-bf8a-4272-8045-bd79b973b66c" name="org.inca.integration.generic.test.lang" version="0" />
@@ -22,12 +21,12 @@
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
     <import index="dkcw" ref="r:4762f896-3466-4878-af8f-cf0e2a0d96b0(org.inca.integration.generic.runtime.plugin)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="iwjs" ref="r:c76125f2-e753-485d-9dfe-60bf8ff98758(org.inca.integration.generic.structure)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
-    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
-    <import index="tpcn" ref="r:00000000-0000-4000-0000-011c8959028b(jetbrains.mps.lang.structure.behavior)" />
     <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
     <import index="tp5g" ref="r:00000000-0000-4000-0000-011c89590388(jetbrains.mps.lang.test.structure)" implicit="true" />
+    <import index="tpcn" ref="r:00000000-0000-4000-0000-011c8959028b(jetbrains.mps.lang.structure.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
@@ -73,9 +72,6 @@
         <child id="1153952416686" name="body" index="2GV8ay" />
         <child id="1153952429843" name="finallyBody" index="2GVbov" />
         <child id="1164903700860" name="catchClause" index="TEXxN" />
-      </concept>
-      <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
-        <reference id="2820489544401957798" name="classifier" index="HV5vE" />
       </concept>
       <concept id="1224848483129" name="jetbrains.mps.baseLanguage.structure.IBLDeprecatable" flags="ng" index="IEa8$">
         <property id="1224848525476" name="isDeprecated" index="IEkAT" />
@@ -771,7 +767,7 @@
               <node concept="3xONca" id="5sCJO5t3s2q" role="2Oq$k0">
                 <ref role="3xOPvv" node="5sCJO5t3rYt" resolve="model3" />
               </node>
-              <node concept="3TrEf2" id="5sCJO5t3rvO" role="2OqNvi">
+              <node concept="3TrEf2" id="41RZVBdkfDG" role="2OqNvi">
                 <ref role="3Tt5mk" to="tp5g:hHqenIi" resolve="nodeToCheck" />
               </node>
             </node>
@@ -2641,8 +2637,8 @@
                       <ref role="3uigEE" to="dkcw:4qcXZpqGCKv" resolve="ModelComparator" />
                     </node>
                     <node concept="2ShNRf" id="4qcXZprgckc" role="33vP2m">
-                      <node concept="HV5vD" id="4qcXZprgckd" role="2ShVmc">
-                        <ref role="HV5vE" to="dkcw:4qcXZpqGCKv" resolve="ModelComparator" />
+                      <node concept="1pGfFk" id="41RZVBdkFxz" role="2ShVmc">
+                        <ref role="37wK5l" to="dkcw:4qcXZpqQr9o" resolve="ModelComparator" />
                       </node>
                     </node>
                   </node>
@@ -2769,6 +2765,7 @@
                     <node concept="3Tqbb2" id="5sCJO5t5fJo" role="1tU5fm" />
                     <node concept="10Nm6u" id="5sCJO5t5giD" role="33vP2m" />
                   </node>
+                  <node concept="15s5l7" id="41RZVBdkLzn" role="lGtFl" />
                 </node>
                 <node concept="2GUZhq" id="5sCJO5t59Gi" role="3cqZAp">
                   <node concept="3clFbS" id="5sCJO5t59Gk" role="2GV8ay">
