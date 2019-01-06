@@ -12,6 +12,12 @@ The project is equipped with a Gradle build, and setting up the project requires
 
 > Pro tip: you can customize the contents of the MPS project libraries for IncA by creating a file `libraries.overrides.properties` in the root directory. The key-value pairs in this file will override the contents of the `libraries.properties` while generating the `libraries.xml` file for the project during the Gradle build. 
 
+## Videos
+
+We have talked about IncA at various conferences and meetups. The following videos provide a good starting point to explore IncA. 
+
+[![Alt text](https://img.youtube.com/vi/nzHEErtaHd8/0.jpg)](https://www.youtube.com/watch?v=nzHEErtaHd8)
+
 ## Publications
 
 IncA is a research project, and its various features have been documented in the following publications: 
