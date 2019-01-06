@@ -933,7 +933,7 @@
       </node>
     </node>
     <node concept="3aamgX" id="6trdyn5yBLd" role="3acgRq">
-      <ref role="30HIoZ" to="hqsm:6trdyn59F4M" resolve="IncaMatch" />
+      <ref role="30HIoZ" to="hqsm:6trdyn59F4M" resolve="IncATuple" />
       <node concept="1Koe21" id="6trdyn5yEAg" role="1lVwrX">
         <node concept="3uibUv" id="6trdyn5yF4z" role="1Koe22">
           <ref role="3uigEE" to="h57a:~IPatternMatch" resolve="IPatternMatch" />
@@ -942,7 +942,7 @@
       </node>
     </node>
     <node concept="3aamgX" id="6trdyn5AnSe" role="3acgRq">
-      <ref role="30HIoZ" to="hqsm:6trdyn50y7Y" resolve="NewMatchOperation" />
+      <ref role="30HIoZ" to="hqsm:6trdyn50y7Y" resolve="NewTupleOperation" />
       <node concept="1Koe21" id="6trdyn5Arqg" role="1lVwrX">
         <node concept="3clFb_" id="6trdyn5ArAk" role="1Koe22">
           <property role="1EzhhJ" value="false" />
@@ -1087,7 +1087,7 @@
       </node>
     </node>
     <node concept="3aamgX" id="114jZ_b8ZHc" role="3acgRq">
-      <ref role="30HIoZ" to="hqsm:7wcU5h38V8Z" resolve="GetAllMatchesOperation" />
+      <ref role="30HIoZ" to="hqsm:7wcU5h38V8Z" resolve="GetAllTuplesOperation" />
       <node concept="1Koe21" id="114jZ_b9464" role="1lVwrX">
         <node concept="3clFb_" id="114jZ_b96nM" role="1Koe22">
           <property role="1EzhhJ" value="false" />
@@ -1141,7 +1141,7 @@
       </node>
     </node>
     <node concept="3aamgX" id="114jZ_b9GYf" role="3acgRq">
-      <ref role="30HIoZ" to="hqsm:7wcU5h38V8Z" resolve="GetAllMatchesOperation" />
+      <ref role="30HIoZ" to="hqsm:7wcU5h38V8Z" resolve="GetAllTuplesOperation" />
       <node concept="1Koe21" id="114jZ_b9Lnt" role="1lVwrX">
         <node concept="3clFb_" id="114jZ_b9L$o" role="1Koe22">
           <property role="1EzhhJ" value="false" />
@@ -1568,7 +1568,7 @@
       </node>
     </node>
     <node concept="3aamgX" id="3VYxn0lfDfU" role="3acgRq">
-      <ref role="30HIoZ" to="hqsm:7wcU5h3p_sU" resolve="CountMatchesOperation" />
+      <ref role="30HIoZ" to="hqsm:7wcU5h3p_sU" resolve="CountTuplesOperation" />
       <node concept="1Koe21" id="3VYxn0lfF1o" role="1lVwrX">
         <node concept="3clFb_" id="3VYxn0lfF28" role="1Koe22">
           <property role="1EzhhJ" value="false" />
@@ -1622,7 +1622,7 @@
       </node>
     </node>
     <node concept="3aamgX" id="3VYxn0lhWle" role="3acgRq">
-      <ref role="30HIoZ" to="hqsm:7wcU5h3p_sU" resolve="CountMatchesOperation" />
+      <ref role="30HIoZ" to="hqsm:7wcU5h3p_sU" resolve="CountTuplesOperation" />
       <node concept="1Koe21" id="3VYxn0lhY6t" role="1lVwrX">
         <node concept="3clFb_" id="3VYxn0lhY7L" role="1Koe22">
           <property role="1EzhhJ" value="false" />

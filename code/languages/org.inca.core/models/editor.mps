@@ -656,14 +656,22 @@
   </node>
   <node concept="24kQdi" id="6trdyn59GIo">
     <property role="3GE5qa" value="usage.match" />
-    <ref role="1XX52x" to="hqsm:6trdyn59F4M" resolve="IncaMatch" />
+    <ref role="1XX52x" to="hqsm:6trdyn59F4M" resolve="IncATuple" />
     <node concept="3EZMnI" id="6trdyn59GSg" role="2wV5jI">
+      <node concept="PMmxH" id="2qqv24yupC1" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
+      </node>
       <node concept="l2Vlx" id="6trdyn59GSh" role="2iSdaV" />
       <node concept="3F0ifn" id="6trdyn59GLM" role="3EZMnx">
-        <property role="3F0ifm" value="Match&lt;" />
+        <property role="3F0ifm" value="&lt;" />
+        <node concept="11L4FC" id="2qqv24yupCn" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
         <node concept="11LMrY" id="6trdyn59Hxv" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
+        <node concept="Vb9p2" id="2qqv24ywqO1" role="3F10Kt" />
       </node>
       <node concept="1iCGBv" id="6trdyn59GZ3" role="3EZMnx">
         <ref role="1NtTu8" to="hqsm:6trdyn59Glc" resolve="pattern" />
@@ -679,6 +687,7 @@
         <node concept="11L4FC" id="6trdyn59Hm2" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
+        <node concept="Vb9p2" id="2qqv24ywqOd" role="3F10Kt" />
       </node>
     </node>
   </node>
@@ -780,11 +789,17 @@
   </node>
   <node concept="24kQdi" id="7wcU5h39kJ2">
     <property role="3GE5qa" value="usage.matcher" />
-    <ref role="1XX52x" to="hqsm:7wcU5h38V8Z" resolve="GetAllMatchesOperation" />
+    <ref role="1XX52x" to="hqsm:7wcU5h38V8Z" resolve="GetAllTuplesOperation" />
     <node concept="3EZMnI" id="7wcU5h3e6km" role="2wV5jI">
+      <node concept="PMmxH" id="2qqv24ytXwD" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
       <node concept="l2Vlx" id="7wcU5h3e6kn" role="2iSdaV" />
       <node concept="3F0ifn" id="7wcU5h39o3W" role="3EZMnx">
-        <property role="3F0ifm" value="getAllMatches(" />
+        <property role="3F0ifm" value="(" />
+        <node concept="11L4FC" id="2qqv24ytXx1" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
         <node concept="11LMrY" id="7wcU5h3gd_S" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -851,12 +866,20 @@
     <property role="3GE5qa" value="usage.matcher" />
     <ref role="1XX52x" to="hqsm:7wcU5h3ekti" resolve="IncaEvaluator" />
     <node concept="3EZMnI" id="7wcU5h3em7G" role="2wV5jI">
+      <node concept="PMmxH" id="2qqv24yulsD" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
+      </node>
       <node concept="l2Vlx" id="7wcU5h3em7H" role="2iSdaV" />
       <node concept="3F0ifn" id="7wcU5h3elzx" role="3EZMnx">
-        <property role="3F0ifm" value="Evaluator&lt;" />
+        <property role="3F0ifm" value="&lt;" />
+        <node concept="11L4FC" id="2qqv24yulsZ" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
         <node concept="11LMrY" id="7wcU5h3lMTQ" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
+        <node concept="Vb9p2" id="2qqv24ywqNC" role="3F10Kt" />
       </node>
       <node concept="1iCGBv" id="7wcU5h3emcB" role="3EZMnx">
         <ref role="1NtTu8" to="hqsm:7wcU5h3elMf" resolve="pattern" />
@@ -872,16 +895,27 @@
         <node concept="11L4FC" id="7wcU5h3lN3N" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
+        <node concept="Vb9p2" id="2qqv24ywqNP" role="3F10Kt" />
       </node>
     </node>
   </node>
   <node concept="24kQdi" id="7wcU5h3pAd7">
     <property role="3GE5qa" value="usage.matcher" />
-    <ref role="1XX52x" to="hqsm:7wcU5h3p_sU" resolve="CountMatchesOperation" />
+    <ref role="1XX52x" to="hqsm:7wcU5h3p_sU" resolve="CountTuplesOperation" />
     <node concept="3EZMnI" id="7wcU5h3pA$y" role="2wV5jI">
+      <node concept="PMmxH" id="2qqv24ytB8_" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+        <node concept="VPxyj" id="2qqv24ytB8S" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="Vb9p2" id="2qqv24ytB8T" role="3F10Kt" />
+      </node>
       <node concept="l2Vlx" id="7wcU5h3pA$z" role="2iSdaV" />
       <node concept="3F0ifn" id="7wcU5h3pAmW" role="3EZMnx">
-        <property role="3F0ifm" value="countMatches(" />
+        <property role="3F0ifm" value="(" />
+        <node concept="11L4FC" id="2qqv24ytB97" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
         <node concept="11LMrY" id="7wcU5h3pB5J" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -951,7 +985,7 @@
   </node>
   <node concept="24kQdi" id="6trdyn511Pk">
     <property role="3GE5qa" value="usage.matcher" />
-    <ref role="1XX52x" to="hqsm:6trdyn510ca" resolve="PartialMatchParameterBinding" />
+    <ref role="1XX52x" to="hqsm:6trdyn510ca" resolve="ParameterBinding" />
     <node concept="3EZMnI" id="6trdyn515g1" role="2wV5jI">
       <node concept="l2Vlx" id="6trdyn515g2" role="2iSdaV" />
       <node concept="1kIj98" id="7lNkc6MlJTP" role="3EZMnx">
@@ -975,12 +1009,19 @@
   </node>
   <node concept="24kQdi" id="6trdyn5167t">
     <property role="3GE5qa" value="usage.matcher" />
-    <ref role="1XX52x" to="hqsm:6trdyn50y7Y" resolve="NewMatchOperation" />
+    <ref role="1XX52x" to="hqsm:6trdyn50y7Y" resolve="NewTupleOperation" />
     <node concept="3EZMnI" id="6trdyn516lt" role="2wV5jI">
+      <node concept="PMmxH" id="2qqv24yoDz$" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+        <node concept="Vb9p2" id="2qqv24yoPXh" role="3F10Kt" />
+      </node>
       <node concept="l2Vlx" id="6trdyn516lu" role="2iSdaV" />
       <node concept="3F0ifn" id="6trdyn516aR" role="3EZMnx">
-        <property role="3F0ifm" value="newMatch(" />
+        <property role="3F0ifm" value="(" />
         <node concept="11LMrY" id="6trdyn51fWQ" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="11L4FC" id="2qqv24yoPX9" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
         <node concept="Vb9p2" id="7lNkc6Mlox4" role="3F10Kt" />
@@ -1135,6 +1176,7 @@
     <property role="3GE5qa" value="values" />
     <ref role="1XX52x" to="hqsm:RjyNapPtPn" resolve="ExpressionEvaluationValue" />
     <node concept="3EZMnI" id="RjyNapPtPN" role="2wV5jI">
+      <node concept="l2Vlx" id="FaFEdxy47h" role="2iSdaV" />
       <node concept="3F0ifn" id="RjyNapPtPX" role="3EZMnx">
         <property role="3F0ifm" value="eval" />
         <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
@@ -1162,7 +1204,6 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node concept="l2Vlx" id="FaFEdxy47h" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="RjyNaq5$Y2">
@@ -3281,22 +3322,35 @@
                     </node>
                     <node concept="3cpWs6" id="7Hdi_qc2mo_" role="3cqZAp">
                       <node concept="22lmx$" id="7Hdi_qc2moA" role="3cqZAk">
+                        <node concept="22lmx$" id="16Zc08$bPr2" role="3uHU7B">
+                          <node concept="2OqwBi" id="7Hdi_qc2moF" role="3uHU7B">
+                            <node concept="37vLTw" id="7Hdi_qc2moG" role="2Oq$k0">
+                              <ref role="3cqZAo" node="7Hdi_qc2moc" resolve="name" />
+                            </node>
+                            <node concept="liA8E" id="7Hdi_qc2moH" role="2OqNvi">
+                              <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String):boolean" resolve="startsWith" />
+                              <node concept="Xl_RD" id="7Hdi_qc2moI" role="37wK5m">
+                                <property role="Xl_RC" value="org.inca.fun" />
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="2OqwBi" id="16Zc08$bPP6" role="3uHU7w">
+                            <node concept="37vLTw" id="16Zc08$bPP7" role="2Oq$k0">
+                              <ref role="3cqZAo" node="7Hdi_qc2moc" resolve="name" />
+                            </node>
+                            <node concept="liA8E" id="16Zc08$bPP8" role="2OqNvi">
+                              <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String):boolean" resolve="startsWith" />
+                              <node concept="Xl_RD" id="16Zc08$bPP9" role="37wK5m">
+                                <property role="Xl_RC" value="org.inca.extensions" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
                         <node concept="2OqwBi" id="7Hdi_qc2moB" role="3uHU7w">
                           <node concept="1GpqW3" id="7Hdi_qc2moC" role="2Oq$k0" />
                           <node concept="2Zo12i" id="7Hdi_qc2moD" role="2OqNvi">
                             <node concept="chp4Y" id="7Hdi_qc2moE" role="2Zo12j">
                               <ref role="cht4Q" to="hqsm:7a3nU351sZC" resolve="ISharedPatternModuleContent" />
-                            </node>
-                          </node>
-                        </node>
-                        <node concept="2OqwBi" id="7Hdi_qc2moF" role="3uHU7B">
-                          <node concept="37vLTw" id="7Hdi_qc2moG" role="2Oq$k0">
-                            <ref role="3cqZAo" node="7Hdi_qc2moc" resolve="name" />
-                          </node>
-                          <node concept="liA8E" id="7Hdi_qc2moH" role="2OqNvi">
-                            <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String):boolean" resolve="startsWith" />
-                            <node concept="Xl_RD" id="7Hdi_qc2moI" role="37wK5m">
-                              <property role="Xl_RC" value="org.inca.fun" />
                             </node>
                           </node>
                         </node>

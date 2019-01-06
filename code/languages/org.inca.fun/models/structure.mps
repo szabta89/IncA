@@ -8,6 +8,7 @@
   <imports>
     <import index="hqsm" ref="r:aa4c3470-43ab-4dad-b73e-20da0ee43be1(org.inca.core.structure)" />
     <import index="55iy" ref="r:6bb35df6-a651-4174-a533-ca7006eccec8(org.inca.gp.structure)" />
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -630,6 +631,21 @@
       <node concept="trNpa" id="3I_3247nl1R" role="EQaZv">
         <ref role="trN6q" to="hqsm:3VwoHXNAdmh" resolve="IPattern" />
       </node>
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6jigiXceGkQ">
+    <property role="EcuMT" value="7264940820300219702" />
+    <property role="3GE5qa" value="statement" />
+    <property role="TrG5h" value="StatementList" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="6k2In$GHVgD" role="PzmwI">
+      <ref role="PrY4T" node="5luHlsCq70i" resolve="IStatement" />
+    </node>
+    <node concept="PrWs8" id="6k2In$GHVgJ" role="PzmwI">
+      <ref role="PrY4T" to="hqsm:3VwoHXNAdvt" resolve="IPatternBody" />
+    </node>
+    <node concept="PrWs8" id="6k2In$HfEtO" role="PzmwI">
+      <ref role="PrY4T" node="7y$TCdXqclu" resolve="IReturnContainer" />
     </node>
   </node>
   <node concept="1TIwiD" id="4ieGY3N3Jr9">

@@ -4,9 +4,11 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/org.inca.core/org.inca.core.mpl" folder="core" />
       <modulePath path="$PROJECT_DIR$/languages/org.inca.data/org.inca.data.mpl" folder="data" />
+      <modulePath path="$PROJECT_DIR$/languages/org.inca.extensions/org.inca.extensions.mpl" folder="ext" />
       <modulePath path="$PROJECT_DIR$/languages/org.inca.fun/org.inca.fun.mpl" folder="core" />
       <modulePath path="$PROJECT_DIR$/languages/org.inca.gp/org.inca.gp.mpl" folder="core" />
       <modulePath path="$PROJECT_DIR$/languages/org.inca.integration.doop/org.inca.integration.doop.mpl" folder="integration" />
+      <modulePath path="$PROJECT_DIR$/languages/org.inca.integration.generic/org.inca.integration.generic.mpl" folder="integration" />
       <modulePath path="$PROJECT_DIR$/languages/org.inca.integration.soot/com.mbeddr.mpsutil.soot.mpl" folder="integration" />
       <modulePath path="$PROJECT_DIR$/languages/org.inca.integration.souffle/org.inca.integration.souffle.mpl" folder="integration" />
       <modulePath path="$PROJECT_DIR$/languages/org.inca.meta.analysis.impact/org.inca.meta.analysis.impact.mpl" folder="meta" />
@@ -21,16 +23,20 @@
       <modulePath path="$PROJECT_DIR$/solutions/org.inca.fun.runtime/org.inca.fun.runtime.msd" folder="core" />
       <modulePath path="$PROJECT_DIR$/solutions/org.inca.gp.runtime/org.inca.gp.runtime.msd" folder="core" />
       <modulePath path="$PROJECT_DIR$/solutions/org.inca.integration.doop.runtime/org.inca.integration.doop.runtime.msd" folder="integration" />
+      <modulePath path="$PROJECT_DIR$/solutions/org.inca.integration.generic.runtime/org.inca.integration.generic.runtime.msd" folder="integration" />
       <modulePath path="$PROJECT_DIR$/solutions/org.inca.integration.soot.runtime/com.mbeddr.mpsutil.soot.runtime.msd" folder="integration" />
       <modulePath path="$PROJECT_DIR$/solutions/org.inca.integration.souffle.runtime/org.inca.integration.souffle.runtime.msd" folder="integration" />
       <modulePath path="$PROJECT_DIR$/solutions/org.inca.measurements/org.inca.measurements.msd" folder="measurements" />
       <modulePath path="$PROJECT_DIR$/solutions/org.inca.meta.analysis/org.inca.meta.analysis.msd" folder="meta" />
+      <modulePath path="$PROJECT_DIR$/solutions/org.inca.meta.typing/org.inca.meta.typing.msd" folder="meta" />
       <modulePath path="$PROJECT_DIR$/solutions/org.inca.ui/org.inca.ui.msd" folder="ui" />
       <modulePath path="$PROJECT_DIR$/tests/org.inca.data.test.analyses/org.inca.data.test.analyses.msd" folder="tests" />
       <modulePath path="$PROJECT_DIR$/tests/org.inca.data.test.lang/org.inca.data.test.lang.mpl" folder="tests" />
       <modulePath path="$PROJECT_DIR$/tests/org.inca.data.test/org.inca.data.test.msd" folder="tests" />
       <modulePath path="$PROJECT_DIR$/tests/org.inca.fun.test/org.inca.fun.test.msd" folder="tests" />
       <modulePath path="$PROJECT_DIR$/tests/org.inca.gp.test/org.inca.gp.test.msd" folder="tests" />
+      <modulePath path="$PROJECT_DIR$/tests/org.inca.integration.generic.test.lang/org.inca.integration.generic.test.lang.mpl" folder="tests" />
+      <modulePath path="$PROJECT_DIR$/tests/org.inca.integration.generic.test/org.inca.integration.generic.test.msd" folder="tests" />
       <modulePath path="$PROJECT_DIR$/tests/org.inca.meta.analysis.impact.test/org.inca.meta.analysis.impact.test.msd" folder="tests" />
       <modulePath path="$PROJECT_DIR$/tests/org.inca.meta.analysis.test/org.inca.meta.analysis.test.msd" folder="tests" />
       <modulePath path="$PROJECT_DIR$/tests/org.inca.sa.inter.test/org.inca.sa.inter.test.msd" folder="tests" />

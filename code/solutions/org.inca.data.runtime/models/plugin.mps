@@ -2,12 +2,12 @@
 <model ref="r:d2d84e6c-cf0c-4ca7-a9fa-ec9e67ca1098(org.inca.data.runtime.plugin)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
-    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="0" />
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="11" />
-    <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="0" />
-    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="1" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="-1" />
+    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="-1" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="-1" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="-1" />
+    <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="-1" />
+    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="-1" />
   </languages>
   <imports>
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
@@ -2352,6 +2352,12 @@
   <node concept="312cEu" id="1cLRCO10y$l">
     <property role="3GE5qa" value="lattice" />
     <property role="TrG5h" value="LatticeInputKey" />
+    <node concept="3uibUv" id="4crFY5utI1r" role="1zkMxy">
+      <ref role="3uigEE" node="4crFY5utA2M" resolve="ADTInputKey" />
+    </node>
+    <node concept="3uibUv" id="4crFY5utJVb" role="EKbjA">
+      <ref role="3uigEE" to="pzen:1cLRCO10m9S" resolve="IPosetInputKey" />
+    </node>
     <node concept="2tJIrI" id="1cLRCO10A3E" role="jymVt" />
     <node concept="312cEg" id="1cLRCO11eWR" role="jymVt">
       <property role="34CwA1" value="false" />
@@ -2423,12 +2429,6 @@
     </node>
     <node concept="2tJIrI" id="1cLRCO10Bik" role="jymVt" />
     <node concept="3Tm1VV" id="1cLRCO10y$m" role="1B3o_S" />
-    <node concept="3uibUv" id="4crFY5utI1r" role="1zkMxy">
-      <ref role="3uigEE" node="4crFY5utA2M" resolve="ADTInputKey" />
-    </node>
-    <node concept="3uibUv" id="4crFY5utJVb" role="EKbjA">
-      <ref role="3uigEE" to="pzen:1cLRCO10m9S" resolve="IPosetInputKey" />
-    </node>
   </node>
   <node concept="3HP615" id="4MZFMBz5SFx">
     <property role="3GE5qa" value="matcher" />
@@ -4899,6 +4899,31 @@
                     <ref role="3cqZAo" node="aQnmvI6m9p" resolve="originalTempVar" />
                   </node>
                   <node concept="3JvlWi" id="aQnmvI5WmA" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbJ" id="bDXmH1vrsQ" role="3cqZAp">
+              <node concept="3clFbS" id="bDXmH1vrsS" role="3clFbx">
+                <node concept="YS8fn" id="bDXmH1vs4Z" role="3cqZAp">
+                  <node concept="2ShNRf" id="bDXmH1vs8R" role="YScLw">
+                    <node concept="1pGfFk" id="bDXmH1vssR" role="2ShVmc">
+                      <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;(java.lang.String)" resolve="IllegalStateException" />
+                      <node concept="3cpWs3" id="bDXmH1vtkA" role="37wK5m">
+                        <node concept="37vLTw" id="bDXmH1vtut" role="3uHU7w">
+                          <ref role="3cqZAo" node="aQnmvI6m9p" resolve="originalTempVar" />
+                        </node>
+                        <node concept="Xl_RD" id="bDXmH1vszj" role="3uHU7B">
+                          <property role="Xl_RC" value="Cannot rewrite with untyped variable " />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbC" id="bDXmH1vrPg" role="3clFbw">
+                <node concept="10Nm6u" id="bDXmH1vrXk" role="3uHU7w" />
+                <node concept="37vLTw" id="bDXmH1vrE3" role="3uHU7B">
+                  <ref role="3cqZAo" node="aQnmvI5Wmz" resolve="runtimeType" />
                 </node>
               </node>
             </node>

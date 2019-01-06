@@ -1,0 +1,16 @@
+Block([
+
+Declare("x"),
+Declare("y"),
+Declare("z"),
+
+Assign("x", VarRef("y")),
+
+If(BoolLit(true),
+  Block([Assign("z", NumberLit(0))]),
+  Block([Assign("z", NumberLit(1))])
+),
+
+Print(VarRef("z"))
+
+])

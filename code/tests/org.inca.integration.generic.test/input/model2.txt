@@ -1,0 +1,18 @@
+Block([
+
+Declare("a"),
+Declare("y"),
+Declare("z"),
+
+Assign("a", VarRef("y")),
+
+While(BoolLit(true),
+  Block([
+    Assign("z", NumberLit(0)),
+    Assign("z", NumberLit(1))
+  ])
+),
+
+Print(VarRef("z"))
+
+])

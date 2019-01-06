@@ -113,6 +113,9 @@
     <node concept="PrWs8" id="eMPHaLt70u" role="PrDN$">
       <ref role="PrY4T" to="tpee:hOIEacT" resolve="IBLDeprecatable" />
     </node>
+    <node concept="PrWs8" id="7Hs6JnX5rZV" role="PrDN$">
+      <ref role="PrY4T" node="7Hs6JnX5qmV" resolve="IVariableBinder" />
+    </node>
   </node>
   <node concept="PlHQZ" id="3VwoHXNAdmi">
     <property role="TrG5h" value="IVariable" />
@@ -298,7 +301,7 @@
     <property role="34LRSv" value="get" />
     <property role="R4oN_" value="Get Value Of Parameter" />
     <property role="EcuMT" value="7447605944641594150" />
-    <ref role="1TJDcQ" node="6trdyn5pjvN" resolve="IncaMatchOperation" />
+    <ref role="1TJDcQ" node="6trdyn5pjvN" resolve="IncATupleOperation" />
     <node concept="1TJgyj" id="6trdyn5sNjA" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="parameter" />
@@ -309,8 +312,8 @@
   </node>
   <node concept="1TIwiD" id="6trdyn59F4M">
     <property role="3GE5qa" value="usage.match" />
-    <property role="TrG5h" value="IncaMatch" />
-    <property role="34LRSv" value="Match" />
+    <property role="TrG5h" value="IncATuple" />
+    <property role="34LRSv" value="tuple" />
     <property role="EcuMT" value="7447605944636584242" />
     <ref role="1TJDcQ" to="tpee:fz3vP1H" resolve="Type" />
     <node concept="1TJgyj" id="6trdyn59Glc" role="1TKVEi">
@@ -323,7 +326,7 @@
   </node>
   <node concept="1TIwiD" id="6trdyn5pjvN">
     <property role="3GE5qa" value="usage.match" />
-    <property role="TrG5h" value="IncaMatchOperation" />
+    <property role="TrG5h" value="IncATupleOperation" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
     <property role="EcuMT" value="7447605944640681971" />
@@ -334,8 +337,8 @@
   </node>
   <node concept="1TIwiD" id="7wcU5h3p_sU">
     <property role="3GE5qa" value="usage.matcher" />
-    <property role="TrG5h" value="CountMatchesOperation" />
-    <property role="34LRSv" value="countMatches" />
+    <property role="TrG5h" value="CountTuplesOperation" />
+    <property role="34LRSv" value="countTuples" />
     <property role="EcuMT" value="8650544432877557562" />
     <ref role="1TJDcQ" node="6trdyn5bRIt" resolve="IncaEvaluatorOperation" />
     <node concept="1TJgyj" id="7wcU5h3p_Tb" role="1TKVEi">
@@ -347,8 +350,8 @@
   </node>
   <node concept="1TIwiD" id="7wcU5h38V8Z">
     <property role="3GE5qa" value="usage.matcher" />
-    <property role="TrG5h" value="GetAllMatchesOperation" />
-    <property role="34LRSv" value="getAllMatches" />
+    <property role="TrG5h" value="GetAllTuplesOperation" />
+    <property role="34LRSv" value="getAllTuples" />
     <property role="EcuMT" value="8650544432873189951" />
     <ref role="1TJDcQ" node="6trdyn5bRIt" resolve="IncaEvaluatorOperation" />
     <node concept="1TJgyj" id="7wcU5h3e5D6" role="1TKVEi">
@@ -409,7 +412,7 @@
   <node concept="1TIwiD" id="7wcU5h3ekti">
     <property role="3GE5qa" value="usage.matcher" />
     <property role="TrG5h" value="IncaEvaluator" />
-    <property role="34LRSv" value="Evaluator" />
+    <property role="34LRSv" value="evaluator" />
     <property role="EcuMT" value="8650544432874604370" />
     <ref role="1TJDcQ" to="tpee:fz3vP1H" resolve="Type" />
     <node concept="1TJgyj" id="7wcU5h3elMf" role="1TKVEi">
@@ -455,8 +458,8 @@
   </node>
   <node concept="1TIwiD" id="6trdyn50y7Y">
     <property role="3GE5qa" value="usage.matcher" />
-    <property role="TrG5h" value="NewMatchOperation" />
-    <property role="34LRSv" value="newMatch" />
+    <property role="TrG5h" value="NewTupleOperation" />
+    <property role="34LRSv" value="newTuple" />
     <property role="EcuMT" value="7447605944634188286" />
     <ref role="1TJDcQ" node="6trdyn5bRIt" resolve="IncaEvaluatorOperation" />
     <node concept="1TJgyj" id="6trdyn515A1" role="1TKVEi">
@@ -464,12 +467,12 @@
       <property role="20kJfa" value="bindings" />
       <property role="20lbJX" value="0..n" />
       <property role="IQ2ns" value="7447605944634333569" />
-      <ref role="20lvS9" node="6trdyn510ca" resolve="PartialMatchParameterBinding" />
+      <ref role="20lvS9" node="6trdyn510ca" resolve="ParameterBinding" />
     </node>
   </node>
   <node concept="1TIwiD" id="6trdyn510ca">
     <property role="3GE5qa" value="usage.matcher" />
-    <property role="TrG5h" value="PartialMatchParameterBinding" />
+    <property role="TrG5h" value="ParameterBinding" />
     <property role="EcuMT" value="7447605944634311434" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6trdyn51Lmu" role="1TKVEi">
@@ -857,6 +860,9 @@
     </node>
     <node concept="PrWs8" id="eMPHaLt9GV" role="PrDN$">
       <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />
+    </node>
+    <node concept="PrWs8" id="6zWr6F6$Kly" role="PrDN$">
+      <ref role="PrY4T" node="6zWr6F6$Kl1" resolve="IVariableWithDeclaredType" />
     </node>
   </node>
   <node concept="1TIwiD" id="4mUOCOhB$ib">
@@ -1444,6 +1450,19 @@
       <ref role="PrY4T" node="aQnmvHEm_S" resolve="IRuntimeIncAType" />
     </node>
   </node>
+  <node concept="PlHQZ" id="7Hs6JnX5qmV">
+    <property role="EcuMT" value="8889009408337880507" />
+    <property role="3GE5qa" value="content" />
+    <property role="TrG5h" value="IVariableBinder" />
+  </node>
+  <node concept="PlHQZ" id="6zWr6F6$Kl1">
+    <property role="EcuMT" value="7565040679929447745" />
+    <property role="3GE5qa" value="content" />
+    <property role="TrG5h" value="IVariableWithDeclaredType" />
+    <node concept="PrWs8" id="6zWr6F6$Kl2" role="PrDN$">
+      <ref role="PrY4T" node="3VwoHXNAdmi" resolve="IVariable" />
+    </node>
+  </node>
   <node concept="1TIwiD" id="7ldkIpUXx_q">
     <property role="EcuMT" value="8452503225503193434" />
     <property role="3GE5qa" value="compiler" />
@@ -1452,6 +1471,27 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7ldkIpUXx_r" role="PzmwI">
       <ref role="PrY4T" node="4apIOoJvWqz" resolve="ICompilerOption" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3udlLtLDedu">
+    <property role="EcuMT" value="4002951402004734814" />
+    <property role="3GE5qa" value="usage.matcher" />
+    <property role="TrG5h" value="IncAPrintSizeDebugStatement" />
+    <property role="34LRSv" value="printSize" />
+    <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
+    <node concept="1TJgyj" id="3udlLtLE6m5" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="model" />
+      <property role="IQ2ns" value="4002951402004964741" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="3udlLtLDedv" role="1TKVEi">
+      <property role="IQ2ns" value="4002951402004734815" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="input" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="1cwfJkvtqFj">
@@ -1474,13 +1514,6 @@
       <ref role="20lvS9" node="1cwfJkvtqFj" resolve="CustomScopeFunction" />
     </node>
   </node>
-  <node concept="1TIwiD" id="1cwfJkvts0n">
-    <property role="EcuMT" value="1378170708491091991" />
-    <property role="3GE5qa" value="scope" />
-    <property role="TrG5h" value="CustomScopeFunctionModelParameter" />
-    <property role="34LRSv" value="model" />
-    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
-  </node>
   <node concept="1TIwiD" id="1cwfJkvtsch">
     <property role="EcuMT" value="1378170708491092753" />
     <property role="3GE5qa" value="scope" />
@@ -1488,26 +1521,12 @@
     <property role="34LRSv" value="repository" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
-  <node concept="1TIwiD" id="3udlLtLDedu">
-    <property role="EcuMT" value="4002951402004734814" />
-    <property role="3GE5qa" value="usage.matcher" />
-    <property role="TrG5h" value="IncAPrintSizeDebugStatement" />
-    <property role="34LRSv" value="printSize" />
-    <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
-    <node concept="1TJgyj" id="3udlLtLE6m5" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="model" />
-      <property role="IQ2ns" value="4002951402004964741" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
-    </node>
-    <node concept="1TJgyj" id="3udlLtLDedv" role="1TKVEi">
-      <property role="IQ2ns" value="4002951402004734815" />
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="input" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
+  <node concept="1TIwiD" id="1cwfJkvts0n">
+    <property role="EcuMT" value="1378170708491091991" />
+    <property role="3GE5qa" value="scope" />
+    <property role="TrG5h" value="CustomScopeFunctionModelParameter" />
+    <property role="34LRSv" value="model" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
 </model>
 
