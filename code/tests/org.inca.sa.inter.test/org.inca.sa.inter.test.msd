@@ -16,6 +16,7 @@
     <dependency reexport="false">cbe65572-4018-4a0b-9cdb-21078fa8ed81(org.inca.integration.souffle)</dependency>
     <dependency reexport="false">7f52706a-b8e9-4b0c-aa29-a10b46f6ea9f(org.inca.integration.souffle.runtime)</dependency>
     <dependency reexport="false">6193bb5b-df9d-4e26-9824-c45e895b4e42(org.inca.integration.doop.runtime)</dependency>
+    <dependency reexport="false">fd5ca093-4a4b-4e4b-89ad-14ee9891bfc5(org.inca.sa.inter.test.ifds)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="6" />
@@ -35,6 +36,7 @@
     <language slang="l:1d07278f-c7c0-42f9-86d5-36c90a494d43:org.inca.integration.doop" version="0" />
     <language slang="l:4f0197ca-971d-45b6-82d7-0a2bf8511267:org.inca.integration.soot" version="0" />
     <language slang="l:cbe65572-4018-4a0b-9cdb-21078fa8ed81:org.inca.integration.souffle" version="0" />
+    <language slang="l:fd5ca093-4a4b-4e4b-89ad-14ee9891bfc5:org.inca.sa.inter.test.ifds" version="0" />
   </languageVersions>
   <dependencyVersions>
     <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
@@ -63,6 +65,7 @@
     <module reference="cbe65572-4018-4a0b-9cdb-21078fa8ed81(org.inca.integration.souffle)" version="0" />
     <module reference="7f52706a-b8e9-4b0c-aa29-a10b46f6ea9f(org.inca.integration.souffle.runtime)" version="0" />
     <module reference="63eb6607-fb6c-406b-9a48-912b4c8dcf0e(org.inca.sa.inter.test)" version="0" />
+    <module reference="fd5ca093-4a4b-4e4b-89ad-14ee9891bfc5(org.inca.sa.inter.test.ifds)" version="0" />
   </dependencyVersions>
 </solution>
 
