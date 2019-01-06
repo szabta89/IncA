@@ -14,7 +14,7 @@ The project is equipped with a Gradle build, and setting up the project requires
 
 ## Videos
 
-We have talked about IncA at various conferences and meetups. The following videos provide a good starting point to explore IncA. 
+The following videos provide a good starting point to explore IncA. 
 
 **Better living through incrementality: Immediate static analysis feedback without loss of precision**, Tamás Szabó, Sebastian Erdweg, *SPLASH-I, 2018*
 
