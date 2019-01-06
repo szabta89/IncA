@@ -16,7 +16,11 @@ The project is equipped with a Gradle build, and setting up the project requires
 
 We have talked about IncA at various conferences and meetups. The following videos provide a good starting point to explore IncA. 
 
+**Better living through incrementality: Immediate static analysis feedback without loss of precision**, Tamás Szabó, Sebastian Erdweg, *SPLASH-I, 2018*
+
 [![vid1](https://img.youtube.com/vi/nzHEErtaHd8/0.jpg)](https://www.youtube.com/watch?v=nzHEErtaHd8)
+
+**Incrementalizing Lattice-Based Program Analyses in Datalog**, Tamás Szabó, *OOPSLA, 2018*
 [![vid2](https://img.youtube.com/vi/Q-02beV6EFs/0.jpg)](https://www.youtube.com/watch?v=Q-02beV6EFs)
 
 ## Publications
