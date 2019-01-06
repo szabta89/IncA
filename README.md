@@ -16,7 +16,8 @@ The project is equipped with a Gradle build, and setting up the project requires
 
 We have talked about IncA at various conferences and meetups. The following videos provide a good starting point to explore IncA. 
 
-[![Alt text](https://img.youtube.com/vi/nzHEErtaHd8/0.jpg)](https://www.youtube.com/watch?v=nzHEErtaHd8)
+[![vid1](https://img.youtube.com/vi/nzHEErtaHd8/0.jpg)](https://www.youtube.com/watch?v=nzHEErtaHd8)
+[![vid2](https://img.youtube.com/vi/Q-02beV6EFs/0.jpg)](https://www.youtube.com/watch?v=Q-02beV6EFs)
 
 ## Publications
 
