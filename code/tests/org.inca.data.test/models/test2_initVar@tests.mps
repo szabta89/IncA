@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:9f768829-4c41-4eda-9bc7-8c6813355c3f(org.inca.data.test.test2@tests)">
+<model ref="r:9f768829-4c41-4eda-9bc7-8c6813355c3f(org.inca.data.test.test2_initVar@tests)">
   <persistence version="9" />
   <languages>
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="2" />

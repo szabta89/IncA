@@ -2,17 +2,17 @@
 <model ref="r:b246389f-c376-4fd1-9944-aebd32bee320(org.inca.data.test.model1_reachability)">
   <persistence version="9" />
   <languages>
-    <use id="9c179615-5b01-47d6-8747-de24f81c45dc" name="org.inca.test.lang" version="0" />
+    <use id="9c179615-5b01-47d6-8747-de24f81c45dc" name="org.inca.data.test.lang" version="0" />
   </languages>
   <imports />
   <registry>
-    <language id="9c179615-5b01-47d6-8747-de24f81c45dc" name="org.inca.test.lang">
-      <concept id="9145082151250354909" name="org.inca.test.lang.structure.Edge" flags="ng" index="3PSN$u">
+    <language id="9c179615-5b01-47d6-8747-de24f81c45dc" name="org.inca.data.test.lang">
+      <concept id="9145082151250354909" name="org.inca.data.test.lang.structure.Edge" flags="ng" index="3PSN$u">
         <reference id="9145082151250354913" name="from" index="3PSN$y" />
         <reference id="9145082151250354916" name="to" index="3PSN$B" />
       </concept>
-      <concept id="9145082151250354875" name="org.inca.test.lang.structure.Node" flags="ng" index="3PSN_S" />
-      <concept id="9145082151250354874" name="org.inca.test.lang.structure.Graph" flags="ng" index="3PSN_T">
+      <concept id="9145082151250354875" name="org.inca.data.test.lang.structure.Node" flags="ng" index="3PSN_S" />
+      <concept id="9145082151250354874" name="org.inca.data.test.lang.structure.Graph" flags="ng" index="3PSN_T">
         <child id="9145082151250355035" name="nodes" index="3PSNyo" />
         <child id="9145082151250355038" name="edges" index="3PSNyt" />
       </concept>
