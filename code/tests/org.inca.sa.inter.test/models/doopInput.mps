@@ -2,11 +2,9 @@
 <model ref="r:ec2c92a8-a33c-4322-a193-7483e984f292(org.inca.sa.inter.test.doopInput)">
   <persistence version="9" />
   <languages>
-    <use id="cbe65572-4018-4a0b-9cdb-21078fa8ed81" name="org.inca.integration.souffle" version="0" />
     <use id="1d07278f-c7c0-42f9-86d5-36c90a494d43" name="org.inca.integration.doop" version="0" />
   </languages>
   <imports>
-    <import index="9p7m" ref="r:1dc81452-17b3-4789-bde7-f8715778fb48(org.inca.integration.souffle.runtime.plugin)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="y6gk" ref="r:5ac39770-a2bb-4532-9906-8d3463ccf042(org.inca.integration.doop.runtime.plugin)" />
   </imports>

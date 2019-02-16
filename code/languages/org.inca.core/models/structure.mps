@@ -1404,7 +1404,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="mode" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="4apIOoJw0wd" resolve="IIncAMode" />
+      <ref role="20lvS9" node="4apIOoJw0wd" resolve="ICompilationMode" />
     </node>
     <node concept="PrWs8" id="4apIOoJw0rX" role="PzmwI">
       <ref role="PrY4T" node="4apIOoJvWqz" resolve="ICompilerOption" />
@@ -1413,7 +1413,7 @@
   <node concept="PlHQZ" id="4apIOoJw0wd">
     <property role="EcuMT" value="4799072788058998797" />
     <property role="3GE5qa" value="compiler" />
-    <property role="TrG5h" value="IIncAMode" />
+    <property role="TrG5h" value="ICompilationMode" />
   </node>
   <node concept="1TIwiD" id="4apIOoJw0wG">
     <property role="EcuMT" value="4799072788058998828" />
@@ -1423,7 +1423,7 @@
     <property role="R4oN_" value="developer mode" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="4apIOoJw0$2" role="PzmwI">
-      <ref role="PrY4T" node="4apIOoJw0wd" resolve="IIncAMode" />
+      <ref role="PrY4T" node="4apIOoJw0wd" resolve="ICompilationMode" />
     </node>
   </node>
   <node concept="1TIwiD" id="4apIOoJw0CP">
@@ -1434,7 +1434,7 @@
     <property role="R4oN_" value="production Mode" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="4apIOoJw0DC" role="PzmwI">
-      <ref role="PrY4T" node="4apIOoJw0wd" resolve="IIncAMode" />
+      <ref role="PrY4T" node="4apIOoJw0wd" resolve="ICompilationMode" />
     </node>
   </node>
   <node concept="1TIwiD" id="20ykNUqEfL$">
@@ -1555,6 +1555,48 @@
       <property role="20kJfa" value="module" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="3VwoHXNAdmj" resolve="IPatternModule" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3iREICylhdd">
+    <property role="EcuMT" value="3798692733285372749" />
+    <property role="3GE5qa" value="compiler" />
+    <property role="TrG5h" value="BackendOption" />
+    <property role="34LRSv" value="Backend" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3iREICylu8F" role="1TKVEi">
+      <property role="IQ2ns" value="3798692733285425707" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="kind" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3iREICylu8n" resolve="IBackendKind" />
+    </node>
+    <node concept="PrWs8" id="3iREICylu8D" role="PzmwI">
+      <ref role="PrY4T" node="4apIOoJvWqz" resolve="ICompilerOption" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3iREICylu8m">
+    <property role="EcuMT" value="3798692733285425686" />
+    <property role="3GE5qa" value="compiler" />
+    <property role="TrG5h" value="DRedKind" />
+    <property role="34LRSv" value="DRed" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3iREICylu8o" role="PzmwI">
+      <ref role="PrY4T" node="3iREICylu8n" resolve="IBackendKind" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3iREICylu8n">
+    <property role="EcuMT" value="3798692733285425687" />
+    <property role="3GE5qa" value="compiler" />
+    <property role="TrG5h" value="IBackendKind" />
+  </node>
+  <node concept="1TIwiD" id="3iREICylu8q">
+    <property role="EcuMT" value="3798692733285425690" />
+    <property role="3GE5qa" value="compiler" />
+    <property role="TrG5h" value="TimelyKind" />
+    <property role="34LRSv" value="Timely" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3iREICylu8r" role="PzmwI">
+      <ref role="PrY4T" node="3iREICylu8n" resolve="IBackendKind" />
     </node>
   </node>
 </model>

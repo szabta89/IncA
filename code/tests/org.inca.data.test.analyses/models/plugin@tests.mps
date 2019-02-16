@@ -290,6 +290,10 @@
       <concept id="996292992025672789" name="org.inca.core.structure.ConceptReferenceType" flags="ng" index="2kdjtB">
         <reference id="7241148409041409499" name="concept" index="2UGuZ7" />
       </concept>
+      <concept id="3798692733285425690" name="org.inca.core.structure.TimelyKind" flags="ng" index="mS$zK" />
+      <concept id="3798692733285372749" name="org.inca.core.structure.BackendOption" flags="ng" index="mSFAB">
+        <child id="3798692733285425707" name="kind" index="mS$z1" />
+      </concept>
       <concept id="2281067221947980594" name="org.inca.core.structure.VariableReference" flags="ng" index="2vme6Z">
         <reference id="768444928085405086" name="variable" index="XkjO9" />
       </concept>
@@ -365,6 +369,9 @@
       </concept>
       <concept id="1118899187025157789" name="org.inca.core.structure.IIncaModule" flags="ng" index="3DBbTW">
         <child id="8118018043742924547" name="imports" index="xaH5_" />
+      </concept>
+      <concept id="4799072788058981840" name="org.inca.core.structure.IncACompilerOptions" flags="ng" index="1HTBUm">
+        <child id="4799072788058988391" name="options" index="1HTAgx" />
       </concept>
     </language>
     <language id="cd2909da-ecb4-49dc-b176-33e5c619e516" name="org.inca.gp">
@@ -4160,11 +4167,11 @@
       </node>
       <node concept="3TL$xT" id="ziWFuXo41n" role="3TLBbI">
         <node concept="2eLkkM" id="ziWFuXo41v" role="1dukDx">
-          <node concept="2kHsid" id="4suYlEuC4sg" role="iwB5b">
-            <ref role="2kHsi0" node="6L3u42ZURrw" resolve="lub" />
-          </node>
           <node concept="2ZQB9c" id="ziWFuXo41u" role="2eP6Tc">
             <ref role="2ZQB93" node="5sJvx6oOTEM" resolve="IntervalLattice" />
+          </node>
+          <node concept="2kHsid" id="74PY6VXLiWR" role="iwB5b">
+            <ref role="2kHsi0" node="6L3u42ZURrw" resolve="lub" />
           </node>
         </node>
       </node>
@@ -6523,6 +6530,11 @@
     </node>
     <node concept="2tJIrI" id="2MDx4A5d_KQ" role="jymVt" />
     <node concept="3Tm1VV" id="2MDx4A5d_K4" role="1B3o_S" />
+  </node>
+  <node concept="1HTBUm" id="3iREICyobo4">
+    <node concept="mSFAB" id="3iREICyobo6" role="1HTAgx">
+      <node concept="mS$zK" id="V$N1GNSt9z" role="mS$z1" />
+    </node>
   </node>
 </model>
 

@@ -849,17 +849,6 @@
       <node concept="3clFbS" id="3v8A$eE$AmJ" role="3clF47">
         <node concept="3cpWs6" id="3v8A$eE$AsR" role="3cqZAp">
           <node concept="22lmx$" id="3v8A$eE$AV5" role="3cqZAk">
-            <node concept="2YIFZM" id="3v8A$eE$Ayk" role="3uHU7B">
-              <ref role="37wK5l" to="33ny:~Objects.equals(java.lang.Object,java.lang.Object):boolean" resolve="equals" />
-              <ref role="1Pybhc" to="33ny:~Objects" resolve="Objects" />
-              <node concept="10M0yZ" id="3v8A$eE$A_f" role="37wK5m">
-                <ref role="3cqZAo" node="3v8A$eDUq06" resolve="INTEGER" />
-                <ref role="1PxDUh" node="yM$tZcY5nk" resolve="UniqueDataType" />
-              </node>
-              <node concept="37vLTw" id="3v8A$eE$AEL" role="37wK5m">
-                <ref role="3cqZAo" node="3v8A$eE$Ara" resolve="dataType" />
-              </node>
-            </node>
             <node concept="2YIFZM" id="7epptckHmwa" role="3uHU7w">
               <ref role="37wK5l" to="33ny:~Objects.equals(java.lang.Object,java.lang.Object):boolean" resolve="equals" />
               <ref role="1Pybhc" to="33ny:~Objects" resolve="Objects" />
@@ -868,6 +857,17 @@
                 <ref role="1PxDUh" to="xx25:~SPrimitiveTypes" resolve="SPrimitiveTypes" />
               </node>
               <node concept="37vLTw" id="7epptckHnO3" role="37wK5m">
+                <ref role="3cqZAo" node="3v8A$eE$Ara" resolve="dataType" />
+              </node>
+            </node>
+            <node concept="2YIFZM" id="3v8A$eE$Ayk" role="3uHU7B">
+              <ref role="37wK5l" to="33ny:~Objects.equals(java.lang.Object,java.lang.Object):boolean" resolve="equals" />
+              <ref role="1Pybhc" to="33ny:~Objects" resolve="Objects" />
+              <node concept="10M0yZ" id="3v8A$eE$A_f" role="37wK5m">
+                <ref role="3cqZAo" node="3v8A$eDUq06" resolve="INTEGER" />
+                <ref role="1PxDUh" node="yM$tZcY5nk" resolve="UniqueDataType" />
+              </node>
+              <node concept="37vLTw" id="3v8A$eE$AEL" role="37wK5m">
                 <ref role="3cqZAo" node="3v8A$eE$Ara" resolve="dataType" />
               </node>
             </node>
@@ -893,17 +893,6 @@
       <node concept="3clFbS" id="3v8A$eE$E8B" role="3clF47">
         <node concept="3cpWs6" id="3v8A$eE$E8C" role="3cqZAp">
           <node concept="22lmx$" id="3v8A$eE$E8D" role="3cqZAk">
-            <node concept="2YIFZM" id="3v8A$eE$E8R" role="3uHU7B">
-              <ref role="37wK5l" to="33ny:~Objects.equals(java.lang.Object,java.lang.Object):boolean" resolve="equals" />
-              <ref role="1Pybhc" to="33ny:~Objects" resolve="Objects" />
-              <node concept="10M0yZ" id="3v8A$eE$G3j" role="37wK5m">
-                <ref role="3cqZAo" node="3v8A$eDUzDI" resolve="BOOLEAN" />
-                <ref role="1PxDUh" node="yM$tZcY5nk" resolve="UniqueDataType" />
-              </node>
-              <node concept="37vLTw" id="3v8A$eE$E8T" role="37wK5m">
-                <ref role="3cqZAo" node="3v8A$eE$E8W" resolve="dataType" />
-              </node>
-            </node>
             <node concept="2YIFZM" id="7epptckHnV0" role="3uHU7w">
               <ref role="1Pybhc" to="33ny:~Objects" resolve="Objects" />
               <ref role="37wK5l" to="33ny:~Objects.equals(java.lang.Object,java.lang.Object):boolean" resolve="equals" />
@@ -912,6 +901,17 @@
                 <ref role="1PxDUh" to="xx25:~SPrimitiveTypes" resolve="SPrimitiveTypes" />
               </node>
               <node concept="37vLTw" id="7epptckHnV2" role="37wK5m">
+                <ref role="3cqZAo" node="3v8A$eE$E8W" resolve="dataType" />
+              </node>
+            </node>
+            <node concept="2YIFZM" id="3v8A$eE$E8R" role="3uHU7B">
+              <ref role="37wK5l" to="33ny:~Objects.equals(java.lang.Object,java.lang.Object):boolean" resolve="equals" />
+              <ref role="1Pybhc" to="33ny:~Objects" resolve="Objects" />
+              <node concept="10M0yZ" id="3v8A$eE$G3j" role="37wK5m">
+                <ref role="3cqZAo" node="3v8A$eDUzDI" resolve="BOOLEAN" />
+                <ref role="1PxDUh" node="yM$tZcY5nk" resolve="UniqueDataType" />
+              </node>
+              <node concept="37vLTw" id="3v8A$eE$E8T" role="37wK5m">
                 <ref role="3cqZAo" node="3v8A$eE$E8W" resolve="dataType" />
               </node>
             </node>
@@ -937,17 +937,6 @@
       <node concept="3clFbS" id="3v8A$eE$Eyy" role="3clF47">
         <node concept="3cpWs6" id="3v8A$eE$Eyz" role="3cqZAp">
           <node concept="22lmx$" id="3v8A$eE$Ey$" role="3cqZAk">
-            <node concept="2YIFZM" id="3v8A$eE$EyM" role="3uHU7B">
-              <ref role="37wK5l" to="33ny:~Objects.equals(java.lang.Object,java.lang.Object):boolean" resolve="equals" />
-              <ref role="1Pybhc" to="33ny:~Objects" resolve="Objects" />
-              <node concept="10M0yZ" id="3v8A$eE$Gok" role="37wK5m">
-                <ref role="3cqZAo" node="3v8A$eDUzFD" resolve="STRING" />
-                <ref role="1PxDUh" node="yM$tZcY5nk" resolve="UniqueDataType" />
-              </node>
-              <node concept="37vLTw" id="3v8A$eE$EyO" role="37wK5m">
-                <ref role="3cqZAo" node="3v8A$eE$EyR" resolve="dataType" />
-              </node>
-            </node>
             <node concept="2YIFZM" id="7epptckHoat" role="3uHU7w">
               <ref role="1Pybhc" to="33ny:~Objects" resolve="Objects" />
               <ref role="37wK5l" to="33ny:~Objects.equals(java.lang.Object,java.lang.Object):boolean" resolve="equals" />
@@ -956,6 +945,17 @@
                 <ref role="1PxDUh" to="xx25:~SPrimitiveTypes" resolve="SPrimitiveTypes" />
               </node>
               <node concept="37vLTw" id="7epptckHoav" role="37wK5m">
+                <ref role="3cqZAo" node="3v8A$eE$EyR" resolve="dataType" />
+              </node>
+            </node>
+            <node concept="2YIFZM" id="3v8A$eE$EyM" role="3uHU7B">
+              <ref role="37wK5l" to="33ny:~Objects.equals(java.lang.Object,java.lang.Object):boolean" resolve="equals" />
+              <ref role="1Pybhc" to="33ny:~Objects" resolve="Objects" />
+              <node concept="10M0yZ" id="3v8A$eE$Gok" role="37wK5m">
+                <ref role="3cqZAo" node="3v8A$eDUzFD" resolve="STRING" />
+                <ref role="1PxDUh" node="yM$tZcY5nk" resolve="UniqueDataType" />
+              </node>
+              <node concept="37vLTw" id="3v8A$eE$EyO" role="37wK5m">
                 <ref role="3cqZAo" node="3v8A$eE$EyR" resolve="dataType" />
               </node>
             </node>
@@ -28906,76 +28906,32 @@
             <node concept="3clFbH" id="2cknNXbLzrM" role="3cqZAp" />
             <node concept="3clFbJ" id="5YH9iFAGdNn" role="3cqZAp">
               <node concept="3clFbS" id="5YH9iFAGdNq" role="3clFbx">
+                <node concept="3cpWs8" id="75lWqKIBnza" role="3cqZAp">
+                  <node concept="3cpWsn" id="75lWqKIBnzb" role="3cpWs9">
+                    <property role="TrG5h" value="factory" />
+                    <property role="3TUv4t" value="true" />
+                    <node concept="3uibUv" id="1rXCk7hJ4Zu" role="1tU5fm">
+                      <ref role="3uigEE" to="x6p8:~ReteBackendFactory" resolve="ReteBackendFactory" />
+                    </node>
+                    <node concept="10M0yZ" id="75lWqKIBnzc" role="33vP2m">
+                      <ref role="1PxDUh" to="x6p8:~NonScatteredTimelyReteBackendFactory" resolve="NonScatteredTimelyReteBackendFactory" />
+                      <ref role="3cqZAo" to="x6p8:~NonScatteredTimelyReteBackendFactory.INSTANCE" resolve="INSTANCE" />
+                    </node>
+                  </node>
+                </node>
                 <node concept="3clFbF" id="252dCBpbt0" role="3cqZAp">
                   <node concept="2YIFZM" id="252dCBpbF0" role="3clFbG">
                     <ref role="37wK5l" to="h57a:~ViatraQueryEngineOptions.setSystemDefaultBackends(org.eclipse.viatra.query.runtime.matchers.backend.IQueryBackendFactory,org.eclipse.viatra.query.runtime.matchers.backend.IQueryBackendFactory,org.eclipse.viatra.query.runtime.matchers.backend.IQueryBackendFactory):void" resolve="setSystemDefaultBackends" />
                     <ref role="1Pybhc" to="h57a:~ViatraQueryEngineOptions" resolve="ViatraQueryEngineOptions" />
-                    <node concept="10M0yZ" id="252dCBpcg2" role="37wK5m">
-                      <ref role="3cqZAo" to="x6p8:~ReteBackendFactory.INSTANCE" resolve="INSTANCE" />
-                      <ref role="1PxDUh" to="x6p8:~ReteBackendFactory" resolve="ReteBackendFactory" />
+                    <node concept="37vLTw" id="75lWqKIBnzd" role="37wK5m">
+                      <ref role="3cqZAo" node="75lWqKIBnzb" resolve="factory" />
                     </node>
-                    <node concept="10M0yZ" id="252dCBpcpZ" role="37wK5m">
-                      <ref role="3cqZAo" to="x6p8:~ReteBackendFactory.INSTANCE" resolve="INSTANCE" />
-                      <ref role="1PxDUh" to="x6p8:~ReteBackendFactory" resolve="ReteBackendFactory" />
+                    <node concept="37vLTw" id="75lWqKIBnze" role="37wK5m">
+                      <ref role="3cqZAo" node="75lWqKIBnzb" resolve="factory" />
                     </node>
                     <node concept="10M0yZ" id="252dCBsRsK" role="37wK5m">
                       <ref role="3cqZAo" node="252dCBsNuQ" resolve="INSTANCE" />
                       <ref role="1PxDUh" node="252dCBsJwK" resolve="DummySearchBackendFactory" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3cpWs8" id="4gXnpRrZta8" role="3cqZAp">
-                  <node concept="3cpWsn" id="4gXnpRrZta9" role="3cpWs9">
-                    <property role="TrG5h" value="hint" />
-                    <property role="3TUv4t" value="true" />
-                    <node concept="3uibUv" id="4gXnpRrZtaa" role="1tU5fm">
-                      <ref role="3uigEE" to="wduz:~QueryEvaluationHint" resolve="QueryEvaluationHint" />
-                    </node>
-                    <node concept="2ShNRf" id="4gXnpRrZuJQ" role="33vP2m">
-                      <node concept="1pGfFk" id="4gXnpRrZUgD" role="2ShVmc">
-                        <ref role="37wK5l" to="wduz:~QueryEvaluationHint.&lt;init&gt;(java.util.Map,org.eclipse.viatra.query.runtime.matchers.backend.QueryEvaluationHint$BackendRequirement)" resolve="QueryEvaluationHint" />
-                        <node concept="2YIFZM" id="4gXnpRrZZ9W" role="37wK5m">
-                          <ref role="1Pybhc" to="3o3z:~ImmutableMap" resolve="ImmutableMap" />
-                          <ref role="37wK5l" to="3o3z:~ImmutableMap.of(java.lang.Object,java.lang.Object):com.google.common.collect.ImmutableMap" resolve="of" />
-                          <node concept="10M0yZ" id="4gXnpRs01iV" role="37wK5m">
-                            <ref role="1PxDUh" to="gg94:~ReteHintOptions" resolve="ReteHintOptions" />
-                            <ref role="3cqZAo" to="gg94:~ReteHintOptions.deleteRederiveEvaluation" resolve="deleteRederiveEvaluation" />
-                          </node>
-                          <node concept="3clFbT" id="4gXnpRs01YP" role="37wK5m">
-                            <property role="3clFbU" value="true" />
-                          </node>
-                        </node>
-                        <node concept="Rm8GO" id="252dCBp5sj" role="37wK5m">
-                          <ref role="Rm8GQ" to="wduz:~QueryEvaluationHint$BackendRequirement.DEFAULT_CACHING" resolve="DEFAULT_CACHING" />
-                          <ref role="1Px2BO" to="wduz:~QueryEvaluationHint$BackendRequirement" resolve="QueryEvaluationHint.BackendRequirement" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="3cpWs8" id="4gXnpRrZmDl" role="3cqZAp">
-                  <node concept="3cpWsn" id="4gXnpRrZmDm" role="3cpWs9">
-                    <property role="TrG5h" value="options" />
-                    <property role="3TUv4t" value="true" />
-                    <node concept="3uibUv" id="4gXnpRrZmDn" role="1tU5fm">
-                      <ref role="3uigEE" to="h57a:~ViatraQueryEngineOptions" resolve="ViatraQueryEngineOptions" />
-                    </node>
-                    <node concept="2OqwBi" id="4gXnpRs03Bk" role="33vP2m">
-                      <node concept="2OqwBi" id="4gXnpRrZpoK" role="2Oq$k0">
-                        <node concept="2YIFZM" id="4gXnpRrZpj1" role="2Oq$k0">
-                          <ref role="37wK5l" to="h57a:~ViatraQueryEngineOptions.defineOptions():org.eclipse.viatra.query.runtime.api.ViatraQueryEngineOptions$Builder" resolve="defineOptions" />
-                          <ref role="1Pybhc" to="h57a:~ViatraQueryEngineOptions" resolve="ViatraQueryEngineOptions" />
-                        </node>
-                        <node concept="liA8E" id="4gXnpRrZpxm" role="2OqNvi">
-                          <ref role="37wK5l" to="h57a:~ViatraQueryEngineOptions$Builder.withDefaultHint(org.eclipse.viatra.query.runtime.matchers.backend.QueryEvaluationHint):org.eclipse.viatra.query.runtime.api.ViatraQueryEngineOptions$Builder" resolve="withDefaultHint" />
-                          <node concept="37vLTw" id="4gXnpRs03va" role="37wK5m">
-                            <ref role="3cqZAo" node="4gXnpRrZta9" resolve="hint" />
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="liA8E" id="4gXnpRs03LU" role="2OqNvi">
-                        <ref role="37wK5l" to="h57a:~ViatraQueryEngineOptions$Builder.build():org.eclipse.viatra.query.runtime.api.ViatraQueryEngineOptions" resolve="build" />
-                      </node>
                     </node>
                   </node>
                 </node>
@@ -29018,12 +28974,9 @@
                     </node>
                     <node concept="2YIFZM" id="2Pc1eSRsft6" role="37vLTx">
                       <ref role="1Pybhc" to="h57a:~AdvancedViatraQueryEngine" resolve="AdvancedViatraQueryEngine" />
-                      <ref role="37wK5l" to="h57a:~AdvancedViatraQueryEngine.createUnmanagedEngine(org.eclipse.viatra.query.runtime.api.scope.QueryScope,org.eclipse.viatra.query.runtime.api.ViatraQueryEngineOptions):org.eclipse.viatra.query.runtime.api.AdvancedViatraQueryEngine" resolve="createUnmanagedEngine" />
+                      <ref role="37wK5l" to="h57a:~AdvancedViatraQueryEngine.createUnmanagedEngine(org.eclipse.viatra.query.runtime.api.scope.QueryScope):org.eclipse.viatra.query.runtime.api.AdvancedViatraQueryEngine" resolve="createUnmanagedEngine" />
                       <node concept="37vLTw" id="2Pc1eSRsft7" role="37wK5m">
                         <ref role="3cqZAo" node="6cJttNuq_vP" resolve="scope" />
-                      </node>
-                      <node concept="37vLTw" id="2og3ZV_SNlk" role="37wK5m">
-                        <ref role="3cqZAo" node="4gXnpRrZmDm" resolve="options" />
                       </node>
                     </node>
                   </node>
@@ -32628,89 +32581,89 @@
             </node>
             <node concept="liA8E" id="5Gdu3aZrJmX" role="2OqNvi">
               <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-              <node concept="2OqwBi" id="5Gdu3aZrJzq" role="37wK5m">
-                <node concept="37vLTw" id="5Gdu3aZrJzr" role="2Oq$k0">
+              <node concept="2YIFZM" id="1rXCk7hCIxA" role="37wK5m">
+                <ref role="1Pybhc" to="cqwv:~DotGenerator" resolve="DotGenerator" />
+                <ref role="37wK5l" to="cqwv:~DotGenerator.generateDot(org.eclipse.viatra.query.runtime.base.itc.graphimpl.Graph,boolean,java.util.function.Function,java.util.function.Function,java.util.function.Function):java.lang.String" resolve="generateDot" />
+                <node concept="37vLTw" id="1rXCk7hCJ0G" role="37wK5m">
                   <ref role="3cqZAo" node="5Gdu3aZryBB" resolve="graph" />
                 </node>
-                <node concept="liA8E" id="5Gdu3aZrJzs" role="2OqNvi">
-                  <ref role="37wK5l" to="cqwv:~Graph.generateDot(boolean,java.util.function.Function,java.util.function.Function):java.lang.String" resolve="generateDot" />
-                  <node concept="3clFbT" id="5Gdu3aZrJzt" role="37wK5m">
-                    <property role="3clFbU" value="true" />
-                  </node>
-                  <node concept="2ShNRf" id="5Gdu3aZrJzu" role="37wK5m">
-                    <node concept="YeOm9" id="5Gdu3aZrJzv" role="2ShVmc">
-                      <node concept="1Y3b0j" id="5Gdu3aZrJzw" role="YeSDq">
-                        <property role="2bfB8j" value="true" />
-                        <ref role="1Y3XeK" to="gyfg:~Function" resolve="Function" />
-                        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-                        <node concept="3Tm1VV" id="5Gdu3aZrJzx" role="1B3o_S" />
-                        <node concept="3clFb_" id="5Gdu3aZrJzy" role="jymVt">
-                          <property role="1EzhhJ" value="false" />
-                          <property role="TrG5h" value="apply" />
-                          <property role="DiZV1" value="false" />
-                          <property role="od$2w" value="false" />
-                          <node concept="3Tm1VV" id="5Gdu3aZrJzz" role="1B3o_S" />
-                          <node concept="17QB3L" id="5Gdu3aZrJz_" role="3clF45" />
-                          <node concept="37vLTG" id="5Gdu3aZrJzA" role="3clF46">
-                            <property role="TrG5h" value="node" />
-                            <property role="3TUv4t" value="true" />
-                            <node concept="3uibUv" id="5Gdu3aZrJzB" role="1tU5fm">
-                              <ref role="3uigEE" to="qtrc:~Node" resolve="Node" />
-                            </node>
+                <node concept="3clFbT" id="1rXCk7hCJwV" role="37wK5m">
+                  <property role="3clFbU" value="true" />
+                </node>
+                <node concept="2ShNRf" id="1rXCk7hCJwW" role="37wK5m">
+                  <node concept="YeOm9" id="1rXCk7hCJwX" role="2ShVmc">
+                    <node concept="1Y3b0j" id="1rXCk7hCJwY" role="YeSDq">
+                      <property role="2bfB8j" value="true" />
+                      <ref role="1Y3XeK" to="gyfg:~Function" resolve="Function" />
+                      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+                      <node concept="3Tm1VV" id="1rXCk7hCJwZ" role="1B3o_S" />
+                      <node concept="3clFb_" id="1rXCk7hCJx0" role="jymVt">
+                        <property role="1EzhhJ" value="false" />
+                        <property role="TrG5h" value="apply" />
+                        <property role="DiZV1" value="false" />
+                        <property role="od$2w" value="false" />
+                        <node concept="3Tm1VV" id="1rXCk7hCJx1" role="1B3o_S" />
+                        <node concept="17QB3L" id="1rXCk7hCJx2" role="3clF45" />
+                        <node concept="37vLTG" id="1rXCk7hCJx3" role="3clF46">
+                          <property role="TrG5h" value="node" />
+                          <property role="3TUv4t" value="true" />
+                          <node concept="3uibUv" id="1rXCk7hCJx4" role="1tU5fm">
+                            <ref role="3uigEE" to="qtrc:~Node" resolve="Node" />
                           </node>
-                          <node concept="3clFbS" id="5Gdu3aZrJzD" role="3clF47">
-                            <node concept="3cpWs6" id="5Gdu3aZrKxh" role="3cqZAp">
-                              <node concept="2OqwBi" id="5Gdu3aZrLkE" role="3cqZAk">
-                                <node concept="2OqwBi" id="5Gdu3aZrKE1" role="2Oq$k0">
-                                  <node concept="37vLTw" id="5Gdu3aZrK$y" role="2Oq$k0">
-                                    <ref role="3cqZAo" node="5Gdu3aZrJzA" resolve="node" />
-                                  </node>
-                                  <node concept="liA8E" id="5Gdu3aZrKVs" role="2OqNvi">
-                                    <ref role="37wK5l" to="wyt6:~Object.toString():java.lang.String" resolve="toString" />
-                                  </node>
+                        </node>
+                        <node concept="3clFbS" id="1rXCk7hCJx5" role="3clF47">
+                          <node concept="3cpWs6" id="1rXCk7hCJx6" role="3cqZAp">
+                            <node concept="2OqwBi" id="1rXCk7hCJx7" role="3cqZAk">
+                              <node concept="2OqwBi" id="1rXCk7hCJx8" role="2Oq$k0">
+                                <node concept="37vLTw" id="1rXCk7hCJx9" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="1rXCk7hCJx3" resolve="node" />
                                 </node>
-                                <node concept="liA8E" id="5Gdu3aZrMIy" role="2OqNvi">
-                                  <ref role="37wK5l" to="wyt6:~String.substring(int,int):java.lang.String" resolve="substring" />
-                                  <node concept="3cmrfG" id="5Gdu3aZrNcL" role="37wK5m">
-                                    <property role="3cmrfH" value="0" />
+                                <node concept="liA8E" id="1rXCk7hCJxa" role="2OqNvi">
+                                  <ref role="37wK5l" to="wyt6:~Object.toString():java.lang.String" resolve="toString" />
+                                </node>
+                              </node>
+                              <node concept="liA8E" id="1rXCk7hCJxb" role="2OqNvi">
+                                <ref role="37wK5l" to="wyt6:~String.substring(int,int):java.lang.String" resolve="substring" />
+                                <node concept="3cmrfG" id="1rXCk7hCJxc" role="37wK5m">
+                                  <property role="3cmrfH" value="0" />
+                                </node>
+                                <node concept="2YIFZM" id="1rXCk7hCJxd" role="37wK5m">
+                                  <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
+                                  <ref role="37wK5l" to="wyt6:~Math.min(int,int):int" resolve="min" />
+                                  <node concept="3cmrfG" id="1rXCk7hCJxe" role="37wK5m">
+                                    <property role="3cmrfH" value="30" />
                                   </node>
-                                  <node concept="2YIFZM" id="5Gdu3aZrOAM" role="37wK5m">
-                                    <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
-                                    <ref role="37wK5l" to="wyt6:~Math.min(int,int):int" resolve="min" />
-                                    <node concept="3cmrfG" id="5Gdu3aZrOVY" role="37wK5m">
-                                      <property role="3cmrfH" value="30" />
+                                  <node concept="2OqwBi" id="1rXCk7hCJxf" role="37wK5m">
+                                    <node concept="2OqwBi" id="1rXCk7hCJxg" role="2Oq$k0">
+                                      <node concept="37vLTw" id="1rXCk7hCJxh" role="2Oq$k0">
+                                        <ref role="3cqZAo" node="1rXCk7hCJx3" resolve="node" />
+                                      </node>
+                                      <node concept="liA8E" id="1rXCk7hCJxi" role="2OqNvi">
+                                        <ref role="37wK5l" to="wyt6:~Object.toString():java.lang.String" resolve="toString" />
+                                      </node>
                                     </node>
-                                    <node concept="2OqwBi" id="5Gdu3aZrQP0" role="37wK5m">
-                                      <node concept="2OqwBi" id="5Gdu3aZrPGq" role="2Oq$k0">
-                                        <node concept="37vLTw" id="5Gdu3aZrPkD" role="2Oq$k0">
-                                          <ref role="3cqZAo" node="5Gdu3aZrJzA" resolve="node" />
-                                        </node>
-                                        <node concept="liA8E" id="5Gdu3aZrQe6" role="2OqNvi">
-                                          <ref role="37wK5l" to="wyt6:~Object.toString():java.lang.String" resolve="toString" />
-                                        </node>
-                                      </node>
-                                      <node concept="liA8E" id="5Gdu3aZrRD8" role="2OqNvi">
-                                        <ref role="37wK5l" to="wyt6:~String.length():int" resolve="length" />
-                                      </node>
+                                    <node concept="liA8E" id="1rXCk7hCJxj" role="2OqNvi">
+                                      <ref role="37wK5l" to="wyt6:~String.length():int" resolve="length" />
                                     </node>
                                   </node>
                                 </node>
                               </node>
                             </node>
                           </node>
-                          <node concept="2AHcQZ" id="5Gdu3aZrY94" role="2AJF6D">
-                            <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
-                          </node>
                         </node>
-                        <node concept="3uibUv" id="5Gdu3aZrJzG" role="2Ghqu4">
-                          <ref role="3uigEE" to="qtrc:~Node" resolve="Node" />
+                        <node concept="2AHcQZ" id="1rXCk7hCJxk" role="2AJF6D">
+                          <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                         </node>
-                        <node concept="17QB3L" id="5Gdu3aZrJzH" role="2Ghqu4" />
                       </node>
+                      <node concept="3uibUv" id="1rXCk7hCJxl" role="2Ghqu4">
+                        <ref role="3uigEE" to="qtrc:~Node" resolve="Node" />
+                      </node>
+                      <node concept="17QB3L" id="1rXCk7hCJxm" role="2Ghqu4" />
                     </node>
                   </node>
-                  <node concept="10Nm6u" id="5Gdu3aZrJzI" role="37wK5m" />
                 </node>
+                <node concept="10Nm6u" id="1rXCk7hCJxn" role="37wK5m" />
+                <node concept="10Nm6u" id="1rXCk7hCJxo" role="37wK5m" />
               </node>
             </node>
           </node>
@@ -33030,9 +32983,12 @@
                 </node>
               </node>
               <node concept="liA8E" id="16Zc08yXvKI" role="2OqNvi">
-                <ref role="37wK5l" to="qtrc:~Supplier.pullInto(java.util.Collection):void" resolve="pullInto" />
+                <ref role="37wK5l" to="qtrc:~Supplier.pullInto(java.util.Collection,boolean):void" resolve="pullInto" />
                 <node concept="37vLTw" id="16Zc08yXvKJ" role="37wK5m">
                   <ref role="3cqZAo" node="16Zc08yXuOA" resolve="tuples" />
+                </node>
+                <node concept="3clFbT" id="5rL2ZczYzyA" role="37wK5m">
+                  <property role="3clFbU" value="true" />
                 </node>
               </node>
             </node>
@@ -33355,9 +33311,12 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="7N0GnG$FcEL" role="2OqNvi">
-                  <ref role="37wK5l" to="qtrc:~Supplier.pullInto(java.util.Collection):void" resolve="pullInto" />
+                  <ref role="37wK5l" to="qtrc:~Supplier.pullInto(java.util.Collection,boolean):void" resolve="pullInto" />
                   <node concept="37vLTw" id="7N0GnG$FcG$" role="37wK5m">
                     <ref role="3cqZAo" node="7N0GnG$Fbas" resolve="tuples" />
+                  </node>
+                  <node concept="3clFbT" id="5rL2ZczYzN7" role="37wK5m">
+                    <property role="3clFbU" value="true" />
                   </node>
                 </node>
               </node>

@@ -243,6 +243,10 @@
       <concept id="996292992025672789" name="org.inca.core.structure.ConceptReferenceType" flags="ng" index="2kdjtB">
         <reference id="7241148409041409499" name="concept" index="2UGuZ7" />
       </concept>
+      <concept id="3798692733285425690" name="org.inca.core.structure.TimelyKind" flags="ng" index="mS$zK" />
+      <concept id="3798692733285372749" name="org.inca.core.structure.BackendOption" flags="ng" index="mSFAB">
+        <child id="3798692733285425707" name="kind" index="mS$z1" />
+      </concept>
       <concept id="2281067221947980594" name="org.inca.core.structure.VariableReference" flags="ng" index="2vme6Z">
         <reference id="768444928085405086" name="variable" index="XkjO9" />
       </concept>
@@ -292,6 +296,9 @@
       </concept>
       <concept id="1118899187025157789" name="org.inca.core.structure.IIncaModule" flags="ng" index="3DBbTW">
         <child id="8118018043742924547" name="imports" index="xaH5_" />
+      </concept>
+      <concept id="4799072788058981840" name="org.inca.core.structure.IncACompilerOptions" flags="ng" index="1HTBUm">
+        <child id="4799072788058988391" name="options" index="1HTAgx" />
       </concept>
     </language>
     <language id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers">
@@ -1058,7 +1065,7 @@
           <node concept="2ZQB9c" id="7VDQWebdhYI" role="2eP6Tc">
             <ref role="2ZQB93" node="7VDQWeb34Mb" resolve="PowerSetLattice" />
           </node>
-          <node concept="2kHsid" id="1rEZ6Y2RzAf" role="iwB5b">
+          <node concept="2kHsid" id="5q2SP8j4wq6" role="iwB5b">
             <ref role="2kHsi0" node="2XlXuxNCH7F" resolve="lub" />
           </node>
         </node>
@@ -2154,6 +2161,11 @@
   </node>
   <node concept="2XOHcx" id="4gUX5LzYvDb">
     <property role="2XOHcw" value="${inca.home}/code" />
+  </node>
+  <node concept="1HTBUm" id="3iREICy$8jv">
+    <node concept="mSFAB" id="3iREICy$8jx" role="1HTAgx">
+      <node concept="mS$zK" id="7zh7ZG6kA4O" role="mS$z1" />
+    </node>
   </node>
 </model>
 

@@ -3647,7 +3647,7 @@
   <node concept="PKFIW" id="4apIOoJHG2Z">
     <property role="3GE5qa" value="compiler" />
     <property role="TrG5h" value="IIncAMode_EditorComponent" />
-    <ref role="1XX52x" to="hqsm:4apIOoJw0wd" resolve="IIncAMode" />
+    <ref role="1XX52x" to="hqsm:4apIOoJw0wd" resolve="ICompilationMode" />
     <node concept="3EZMnI" id="4apIOoJHG34" role="2wV5jI">
       <node concept="l2Vlx" id="4apIOoJHG35" role="2iSdaV" />
       <node concept="PMmxH" id="4apIOoJHG31" role="3EZMnx">
@@ -3661,7 +3661,7 @@
                   <node concept="2ShNRf" id="4apIOoJHK1Z" role="3cqZAk">
                     <node concept="Tc6Ow" id="4apIOoJHK1V" role="2ShVmc">
                       <node concept="3bZ5Sz" id="4apIOoJHK1W" role="HW$YZ">
-                        <ref role="3bZ5Sy" to="hqsm:4apIOoJw0wd" resolve="IIncAMode" />
+                        <ref role="3bZ5Sy" to="hqsm:4apIOoJw0wd" resolve="ICompilationMode" />
                       </node>
                       <node concept="35c_gC" id="4apIOoJHKzI" role="HW$Y0">
                         <ref role="35c_gD" to="hqsm:4apIOoJw0wG" resolve="DeveloperMode" />
@@ -3690,7 +3690,7 @@
               </node>
             </node>
             <node concept="3bZ5Sz" id="4apIOoJHJhi" role="1eyP2E">
-              <ref role="3bZ5Sy" to="hqsm:4apIOoJw0wd" resolve="IIncAMode" />
+              <ref role="3bZ5Sy" to="hqsm:4apIOoJw0wd" resolve="ICompilationMode" />
             </node>
             <node concept="6VE3a" id="4apIOoJJvQA" role="1ezQQy">
               <node concept="3clFbS" id="4apIOoJJvQB" role="2VODD2">
@@ -4481,6 +4481,36 @@
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="3iREICylu8_">
+    <property role="3GE5qa" value="compiler" />
+    <ref role="1XX52x" to="hqsm:3iREICylu8q" resolve="TimelyKind" />
+    <node concept="PMmxH" id="3iREICylu8B" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3iREICylu8P">
+    <property role="3GE5qa" value="compiler" />
+    <ref role="1XX52x" to="hqsm:3iREICylhdd" resolve="BackendOption" />
+    <node concept="3EZMnI" id="3iREICylu8T" role="2wV5jI">
+      <node concept="l2Vlx" id="3iREICylu8U" role="2iSdaV" />
+      <node concept="PMmxH" id="3iREICylu8R" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="3F0ifn" id="3iREICylu92" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+      </node>
+      <node concept="3F1sOY" id="3iREICylu9a" role="3EZMnx">
+        <ref role="1NtTu8" to="hqsm:3iREICylu8F" resolve="kind" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="3iREICyoboc">
+    <property role="3GE5qa" value="compiler" />
+    <ref role="1XX52x" to="hqsm:3iREICylu8m" resolve="DRedKind" />
+    <node concept="PMmxH" id="3iREICyobod" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
     </node>
   </node>
 </model>

@@ -7617,7 +7617,7 @@
   </node>
   <node concept="13h7C7" id="4apIOoJHFM4">
     <property role="3GE5qa" value="compiler" />
-    <ref role="13h7C2" to="hqsm:4apIOoJw0wd" resolve="IIncAMode" />
+    <ref role="13h7C2" to="hqsm:4apIOoJw0wd" resolve="ICompilationMode" />
     <node concept="13i0hz" id="4apIOoJHFMf" role="13h7CS">
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="true" />
