@@ -13,6 +13,7 @@
       <modulePath path="$PROJECT_DIR$/languages/org.inca.integration.souffle/org.inca.integration.souffle.mpl" folder="integration" />
       <modulePath path="$PROJECT_DIR$/languages/org.inca.meta.analysis.impact/org.inca.meta.analysis.impact.mpl" folder="meta" />
       <modulePath path="$PROJECT_DIR$/languages/org.inca.sa.inter.test.ifds/org.inca.sa.inter.test.ifds.mpl" folder="tests" />
+      <modulePath path="$PROJECT_DIR$/languages/org.inca.sa.inter.test.lang/org.inca.sa.inter.test.lang.mpl" folder="tests" />
       <modulePath path="$PROJECT_DIR$/languages/org.inca.styles/org.inca.styles.mpl" folder="style" />
       <modulePath path="$PROJECT_DIR$/solutions/modelchecker/modelchecker.msd" folder="misc" />
       <modulePath path="$PROJECT_DIR$/solutions/org.inca.build.meta/org.inca.build.meta.msd" folder="build" />
