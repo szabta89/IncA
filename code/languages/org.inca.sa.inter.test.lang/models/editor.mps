@@ -18,6 +18,7 @@
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
         <child id="928328222691832421" name="separatorTextQuery" index="2gpyvW" />
       </concept>
+      <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
       <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
       <concept id="1237307900041" name="jetbrains.mps.lang.editor.structure.IndentLayoutIndentStyleClassItem" flags="ln" index="lj46D" />
@@ -31,6 +32,7 @@
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
+      <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
       <concept id="1233758997495" name="jetbrains.mps.lang.editor.structure.PunctuationLeftStyleClassItem" flags="ln" index="11L4FC" />
       <concept id="1233759184865" name="jetbrains.mps.lang.editor.structure.PunctuationRightStyleClassItem" flags="ln" index="11LMrY" />
       <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
@@ -318,6 +320,19 @@
   <node concept="24kQdi" id="1gVl_oH3ARC">
     <ref role="1XX52x" to="5r84:1gVl_oH3AQL" resolve="Program" />
     <node concept="3EZMnI" id="1gVl_oH3ARR" role="2wV5jI">
+      <node concept="3EZMnI" id="1ERmlFLKFIs" role="3EZMnx">
+        <node concept="VPM3Z" id="1ERmlFLKFIu" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="3F0ifn" id="1ERmlFLKFIw" role="3EZMnx">
+          <property role="3F0ifm" value="program" />
+        </node>
+        <node concept="3F0A7n" id="1ERmlFLKFJl" role="3EZMnx">
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+        <node concept="2iRfu4" id="1ERmlFLKFIx" role="2iSdaV" />
+      </node>
+      <node concept="3F0ifn" id="1ERmlFLKFJt" role="3EZMnx" />
       <node concept="3F2HdR" id="1gVl_oH3AS1" role="3EZMnx">
         <ref role="1NtTu8" to="5r84:1gVl_oH3AQM" resolve="procs" />
         <node concept="2iRkQZ" id="1gVl_oH3AS3" role="2czzBx" />

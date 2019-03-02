@@ -299,6 +299,9 @@
       <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" node="1gVl_oH377_" resolve="Procedure" />
     </node>
+    <node concept="PrWs8" id="1ERmlFLKFqM" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1gVl_oH4qmP">
     <property role="EcuMT" value="1457853832507794869" />
