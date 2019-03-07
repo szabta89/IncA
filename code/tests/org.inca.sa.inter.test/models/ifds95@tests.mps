@@ -11,7 +11,7 @@
     <use id="3a1c1f85-c745-4d04-a210-f97a7e31f9cc" name="org.inca.extensions" version="0" />
   </languages>
   <imports>
-    <import index="vj3b" ref="r:2f56b2b9-7081-4115-90a7-5a4fcc94f184(org.inca.sa.inter.test.ifds95)" />
+    <import index="vj3b" ref="r:2f56b2b9-7081-4115-90a7-5a4fcc94f184(org.inca.sa.inter.test.ifds_ide.uninit)" />
     <import index="hqsm" ref="r:aa4c3470-43ab-4dad-b73e-20da0ee43be1(org.inca.core.structure)" />
     <import index="5r84" ref="r:a80de423-c20f-4c2b-a12a-bcba3c4017a6(org.inca.sa.inter.test.lang.structure)" />
   </imports>

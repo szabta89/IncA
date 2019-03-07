@@ -96,7 +96,7 @@
     <property role="TrG5h" value="Enter" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1gVl_oH3p63" role="PzmwI">
-      <ref role="PrY4T" node="1gVl_oH3p5Z" resolve="ControlNode" />
+      <ref role="PrY4T" node="1gVl_oH3p5Z" resolve="IControlNode" />
     </node>
   </node>
   <node concept="1TIwiD" id="1gVl_oH377E">
@@ -104,7 +104,7 @@
     <property role="TrG5h" value="Exit" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1gVl_oH3p66" role="PzmwI">
-      <ref role="PrY4T" node="1gVl_oH3p5Z" resolve="ControlNode" />
+      <ref role="PrY4T" node="1gVl_oH3p5Z" resolve="IControlNode" />
     </node>
   </node>
   <node concept="PlHQZ" id="1gVl_oH377U">
@@ -112,7 +112,7 @@
     <property role="TrG5h" value="Statement" />
     <property role="3GE5qa" value="statement" />
     <node concept="PrWs8" id="1gVl_oH3p60" role="PrDN$">
-      <ref role="PrY4T" node="1gVl_oH3p5Z" resolve="ControlNode" />
+      <ref role="PrY4T" node="1gVl_oH3p5Z" resolve="IControlNode" />
     </node>
   </node>
   <node concept="1TIwiD" id="1gVl_oH377V">
@@ -221,7 +221,7 @@
     <property role="TrG5h" value="ReturnFrom" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1gVl_oH3p69" role="PzmwI">
-      <ref role="PrY4T" node="1gVl_oH3p5Z" resolve="ControlNode" />
+      <ref role="PrY4T" node="1gVl_oH3p5Z" resolve="IControlNode" />
     </node>
   </node>
   <node concept="1TIwiD" id="1gVl_oH3lF6">
@@ -278,7 +278,7 @@
   </node>
   <node concept="PlHQZ" id="1gVl_oH3p5Z">
     <property role="EcuMT" value="1457853832507527551" />
-    <property role="TrG5h" value="ControlNode" />
+    <property role="TrG5h" value="IControlNode" />
   </node>
   <node concept="1TIwiD" id="1gVl_oH3AQL">
     <property role="EcuMT" value="1457853832507583921" />

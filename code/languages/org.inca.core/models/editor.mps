@@ -4382,5 +4382,94 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="75sz5gyPK5V">
+    <property role="3GE5qa" value="constraints" />
+    <ref role="1XX52x" to="hqsm:75sz5gyPK5r" resolve="QualifiedPatternCall" />
+    <node concept="1WcQYu" id="75sz5gyUTw3" role="2wV5jI">
+      <node concept="2ElW$n" id="75sz5gyUTw4" role="2El2Yn" />
+      <node concept="3EZMnI" id="75sz5gyPK5X" role="1LiK7o">
+        <node concept="1kIj98" id="75sz5gyPK64" role="3EZMnx">
+          <node concept="3F1sOY" id="75sz5gyW4bo" role="1kIj9b">
+            <ref role="1NtTu8" to="hqsm:75sz5gyW4bi" resolve="qualifier" />
+          </node>
+        </node>
+        <node concept="3F0ifn" id="75sz5gyPK6s" role="3EZMnx">
+          <property role="3F0ifm" value="." />
+          <node concept="11L4FC" id="75sz5gyPKaA" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="11LMrY" id="75sz5gyPKaF" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="1iCGBv" id="75sz5gyPK6J" role="3EZMnx">
+          <ref role="1NtTu8" to="hqsm:RjyNaq4vP3" resolve="pattern" />
+          <node concept="1sVBvm" id="75sz5gyPK6K" role="1sWHZn">
+            <node concept="3F0A7n" id="75sz5gyPK6L" role="2wV5jI">
+              <property role="1Intyy" value="true" />
+              <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            </node>
+          </node>
+        </node>
+        <node concept="1kHk_G" id="75sz5gyPK6M" role="3EZMnx">
+          <property role="ZjSer" value="+" />
+          <ref role="1NtTu8" to="hqsm:RjyNaq4vP0" resolve="transitive" />
+          <node concept="11L4FC" id="75sz5gyPK6N" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="Vb9p2" id="75sz5gyPK6O" role="3F10Kt" />
+        </node>
+        <node concept="3F0ifn" id="75sz5gyPK8T" role="3EZMnx">
+          <property role="3F0ifm" value="(" />
+          <ref role="1k5W1q" to="tpen:hF$iCJm" resolve="Parenthesis" />
+          <node concept="11L4FC" id="75sz5gyPK8U" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="11LMrY" id="75sz5gyPK8V" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="3F2HdR" id="75sz5gyPK6S" role="3EZMnx">
+          <property role="2czwfO" value="," />
+          <property role="1cu_pB" value="2" />
+          <ref role="1NtTu8" to="hqsm:RjyNaq4vP6" resolve="arguments" />
+          <node concept="l2Vlx" id="75sz5gyPK6T" role="2czzBx" />
+          <node concept="3F0ifn" id="75sz5gyPK6U" role="2czzBI">
+            <node concept="VPxyj" id="75sz5gyPK6V" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+          </node>
+          <node concept="2$oqgb" id="75sz5gyPK6W" role="3F10Kt">
+            <ref role="Bvoe9" node="47XGxT8xUGh" resolve="PatternCallParameterInformation" />
+          </node>
+        </node>
+        <node concept="3F0ifn" id="75sz5gyPK9Q" role="3EZMnx">
+          <property role="3F0ifm" value=")" />
+          <ref role="1k5W1q" to="tpen:hF$iCJm" resolve="Parenthesis" />
+          <node concept="11L4FC" id="75sz5gyPK9R" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="l2Vlx" id="75sz5gyPK60" role="2iSdaV" />
+      </node>
+    </node>
+  </node>
+  <node concept="3p36aQ" id="75sz5gyTicO">
+    <property role="3GE5qa" value="constraints" />
+    <ref role="aqKnT" to="hqsm:75sz5gyPK5r" resolve="QualifiedPatternCall" />
+  </node>
+  <node concept="24kQdi" id="75sz5gyW4b1">
+    <property role="3GE5qa" value="constraints" />
+    <ref role="1XX52x" to="hqsm:75sz5gyW4aA" resolve="Qualifier" />
+    <node concept="1iCGBv" id="75sz5gyW4b3" role="2wV5jI">
+      <ref role="1NtTu8" to="hqsm:75sz5gyPK5t" resolve="module" />
+      <node concept="1sVBvm" id="75sz5gyW4b5" role="1sWHZn">
+        <node concept="3F0A7n" id="75sz5gyW4bf" role="2wV5jI">
+          <property role="1Intyy" value="true" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

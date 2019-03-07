@@ -7,6 +7,7 @@
       <modulePath path="$PROJECT_DIR$/languages/org.inca.extensions/org.inca.extensions.mpl" folder="ext" />
       <modulePath path="$PROJECT_DIR$/languages/org.inca.fun/org.inca.fun.mpl" folder="core" />
       <modulePath path="$PROJECT_DIR$/languages/org.inca.gp/org.inca.gp.mpl" folder="core" />
+      <modulePath path="$PROJECT_DIR$/languages/org.inca.ifds/org.inca.ifds.mpl" folder="ext" />
       <modulePath path="$PROJECT_DIR$/languages/org.inca.integration.doop/org.inca.integration.doop.mpl" folder="integration" />
       <modulePath path="$PROJECT_DIR$/languages/org.inca.integration.generic/org.inca.integration.generic.mpl" folder="integration" />
       <modulePath path="$PROJECT_DIR$/languages/org.inca.integration.soot/com.mbeddr.mpsutil.soot.mpl" folder="integration" />
