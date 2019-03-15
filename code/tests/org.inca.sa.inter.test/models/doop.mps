@@ -4,7 +4,7 @@
   <languages>
     <use id="b802a056-92a2-4fbc-902e-f8e5004c331f" name="org.inca.core" version="0" />
     <use id="8c9a2720-9d21-4370-a226-819eb3e76e1e" name="org.inca.fun" version="0" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
     <use id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples" version="0" />
   </languages>
@@ -236,7 +236,7 @@
       <concept id="7447605944641594150" name="org.inca.core.structure.GetParameterOperation" flags="ng" index="2ya1k3">
         <reference id="7447605944641598694" name="parameter" index="2ya0b3" />
       </concept>
-      <concept id="7447605944636584242" name="org.inca.core.structure.IncaMatch" flags="ig" index="2yvosn">
+      <concept id="7447605944636584242" name="org.inca.core.structure.IncATuple" flags="ig" index="2yvosn">
         <reference id="7447605944636589388" name="pattern" index="2yvvdD" />
       </concept>
       <concept id="7996518772785670958" name="org.inca.core.structure.DataTypeReferenceType" flags="ng" index="2PmbLq">
@@ -249,7 +249,7 @@
       <concept id="8650544432874604370" name="org.inca.core.structure.IncaEvaluator" flags="ig" index="VdqW6">
         <reference id="8650544432874609807" name="pattern" index="Vdrjr" />
       </concept>
-      <concept id="8650544432877557562" name="org.inca.core.structure.CountMatchesOperation" flags="ng" index="VqFXI" />
+      <concept id="8650544432877557562" name="org.inca.core.structure.CountTuplesOperation" flags="ng" index="VqFXI" />
       <concept id="4002951402004734814" name="org.inca.core.structure.IncAPrintSizeDebugStatement" flags="ng" index="16arh9">
         <reference id="4002951402004734815" name="input" index="16arh8" />
         <child id="4002951402004964741" name="model" index="169jai" />
@@ -320,7 +320,7 @@
       </concept>
       <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
         <property id="709746936026609031" name="linkId" index="3V$3ak" />
-        <property id="709746936026609029" name="linkRole" index="3V$3am" />
+        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
       </concept>
       <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
         <child id="3078666699043039389" name="commentedNode" index="8Wnug" />

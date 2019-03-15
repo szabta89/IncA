@@ -2,10 +2,10 @@
 <model ref="r:ab008189-f07c-44e4-9434-629f972e973d(org.inca.core.util.plugin)">
   <persistence version="9" />
   <languages>
-    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="-1" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="-1" />
+    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="13" />
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="-1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="-1" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
     <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="-1" />
     <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="-1" />
   </languages>
@@ -63,9 +63,6 @@
       <concept id="1173175405605" name="jetbrains.mps.baseLanguage.structure.ArrayAccessExpression" flags="nn" index="AH0OO">
         <child id="1173175577737" name="index" index="AHEQo" />
         <child id="1173175590490" name="array" index="AHHXb" />
-      </concept>
-      <concept id="1224848483129" name="jetbrains.mps.baseLanguage.structure.IBLDeprecatable" flags="ng" index="IEa8$">
-        <property id="1224848525476" name="isDeprecated" index="IEkAT" />
       </concept>
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
@@ -436,7 +433,6 @@
     <property role="3GE5qa" value="" />
     <node concept="2tJIrI" id="RjyNapPdBc" role="jymVt" />
     <node concept="Wx3nA" id="6L84cjtRyk4" role="jymVt">
-      <property role="IEkAT" value="false" />
       <property role="TrG5h" value="ID_PATTERN" />
       <property role="3TUv4t" value="false" />
       <node concept="17QB3L" id="RjyNapPdC6" role="1tU5fm" />
@@ -446,7 +442,6 @@
       </node>
     </node>
     <node concept="Wx3nA" id="6L84cjtRyxn" role="jymVt">
-      <property role="IEkAT" value="false" />
       <property role="TrG5h" value="QN_PATTERN" />
       <property role="3TUv4t" value="false" />
       <node concept="17QB3L" id="RjyNapPhs7" role="1tU5fm" />
@@ -2186,7 +2181,6 @@
     <node concept="2tJIrI" id="51PDsydn8Sl" role="jymVt" />
     <node concept="2YIFZL" id="51PDsydn96m" role="jymVt">
       <property role="TrG5h" value="toFirstUpper" />
-      <property role="IEkAT" value="false" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="51PDsydn96n" role="3clF47">

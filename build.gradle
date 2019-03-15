@@ -15,13 +15,13 @@ apply plugin: 'base'
 import de.itemis.mps.gradle.*
 
 // Specify the required MPS version
-ext.mpsVersion = '2018.2'
+ext.mpsVersion = '2018.3'
 
 // Specify the required mbeddr version or branch name
-ext.mbeddrVersion = '1.0+'
+ext.mbeddrVersion = '1.2+'
 
 task wrapper(type: Wrapper) {
-    gradleVersion '3.1'
+    gradleVersion '4.9'
     distributionType 'all'
 }
 

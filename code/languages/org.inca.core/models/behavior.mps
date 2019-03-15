@@ -2,11 +2,11 @@
 <model ref="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.inca.core.behavior)">
   <persistence version="9" />
   <languages>
-    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="-1" />
+    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="2" />
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="-1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="-1" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="-1" />
-    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="-1" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="13" />
+    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
     <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -40,7 +40,6 @@
       <concept id="1225194413805" name="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" flags="in" index="13hLZK" />
       <concept id="1225194472830" name="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" flags="ng" index="13i0hz">
         <property id="5864038008284099149" name="isStatic" index="2Ki8OM" />
-        <property id="1225194472833" name="isPrivate" index="13i0is" />
         <property id="1225194472832" name="isVirtual" index="13i0it" />
         <property id="1225194472834" name="isAbstract" index="13i0iv" />
         <reference id="1225194472831" name="overriddenMethod" index="13i0hy" />
@@ -71,9 +70,6 @@
       </concept>
       <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
         <child id="1188208488637" name="annotation" index="2AJF6D" />
-      </concept>
-      <concept id="1224848483129" name="jetbrains.mps.baseLanguage.structure.IBLDeprecatable" flags="ng" index="IEa8$">
-        <property id="1224848525476" name="isDeprecated" index="IEkAT" />
       </concept>
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
@@ -1920,7 +1916,6 @@
     <property role="3GE5qa" value="type.compileTime" />
     <ref role="13h7C2" to="hqsm:6VTlRjrCuGI" resolve="DataTypeReferenceType" />
     <node concept="13i0hz" id="6j5__H05AK8" role="13h7CS">
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getPresentation" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
@@ -3005,7 +3000,7 @@
               <ref role="3cqZAo" node="6trdyn59zT3" resolve="buffer" />
             </node>
             <node concept="liA8E" id="2qqv24yrLxJ" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~StringBuffer.append(java.lang.CharSequence):java.lang.StringBuffer" resolve="append" />
+              <ref role="37wK5l" to="wyt6:~StringBuffer.append(java.lang.String):java.lang.StringBuffer" resolve="append" />
               <node concept="2OqwBi" id="2qqv24yrSeY" role="37wK5m">
                 <node concept="2OqwBi" id="2qqv24yrOrd" role="2Oq$k0">
                   <node concept="2OqwBi" id="2qqv24yrLTg" role="2Oq$k0">
@@ -4451,7 +4446,6 @@
     <property role="3GE5qa" value="type" />
     <ref role="13h7C2" to="hqsm:39KhnTI9ELb" resolve="TupleType" />
     <node concept="13i0hz" id="39KhnTIjPH_" role="13h7CS">
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getPresentation" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
@@ -5230,7 +5224,6 @@
                         <property role="1EzhhJ" value="false" />
                         <property role="TrG5h" value="compare" />
                         <property role="DiZV1" value="false" />
-                        <property role="IEkAT" value="false" />
                         <property role="od$2w" value="false" />
                         <node concept="3Tm1VV" id="3p0ky8LiQvp" role="1B3o_S" />
                         <node concept="10Oyi0" id="3p0ky8LiQvq" role="3clF45" />
@@ -6530,7 +6523,6 @@
       <node concept="3clFbS" id="6j5__H05Aa0" role="2VODD2" />
     </node>
     <node concept="13i0hz" id="6j5__H05CX8" role="13h7CS">
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getPresentation" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
@@ -7310,7 +7302,6 @@
       </node>
     </node>
     <node concept="13i0hz" id="3pHNonXYysV" role="13h7CS">
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getPresentation" />
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
@@ -7484,7 +7475,6 @@
       </node>
     </node>
     <node concept="13i0hz" id="3pHNonXZhNX" role="13h7CS">
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getPresentation" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
@@ -7905,7 +7895,6 @@
       </node>
     </node>
     <node concept="13i0hz" id="1cwfJkvtrI1" role="13h7CS">
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getParameterConcepts" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
@@ -7967,7 +7956,6 @@
       </node>
     </node>
     <node concept="13i0hz" id="1cwfJkvtrIh" role="13h7CS">
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getExpectedReturnType" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />

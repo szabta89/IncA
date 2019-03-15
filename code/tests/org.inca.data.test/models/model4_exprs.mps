@@ -2,7 +2,7 @@
 <model ref="r:44185bc0-d63d-47aa-b1a1-638b8c425c1f(org.inca.data.test.model4_exprs)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
   </languages>
   <imports />
   <registry>

@@ -2,7 +2,7 @@
 <model ref="r:d7788ae3-4afe-431e-a7ca-f1369bead1e8(org.inca.gp.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="-1" />
+    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="2" />
     <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="-1" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="-1" />
     <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="-1" />
@@ -83,9 +83,6 @@
       </concept>
       <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
         <reference id="2820489544401957798" name="classifier" index="HV5vE" />
-      </concept>
-      <concept id="1224848483129" name="jetbrains.mps.baseLanguage.structure.IBLDeprecatable" flags="ng" index="IEa8$">
-        <property id="1224848525476" name="isDeprecated" index="IEkAT" />
       </concept>
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
@@ -446,11 +443,11 @@
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="3364660638048049750" name="jetbrains.mps.lang.core.structure.PropertyAttribute" flags="ng" index="A9Btg">
-        <property id="1757699476691236117" name="propertyName" index="2qtEX9" />
+        <property id="1757699476691236117" name="name_DebugInfo" index="2qtEX9" />
         <property id="1341860900487648621" name="propertyId" index="P4ACc" />
       </concept>
       <concept id="3364660638048049745" name="jetbrains.mps.lang.core.structure.LinkAttribute" flags="ng" index="A9Btn">
-        <property id="1757699476691236116" name="linkRole" index="2qtEX8" />
+        <property id="1757699476691236116" name="role_DebugInfo" index="2qtEX8" />
         <property id="1341860900488019036" name="linkId" index="P3scX" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -1874,7 +1871,6 @@
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="instantiate" />
       <property role="DiZV1" value="false" />
-      <property role="IEkAT" value="false" />
       <node concept="3Tmbuc" id="26S5csTrdOa" role="1B3o_S" />
       <node concept="3uibUv" id="12wiuiLaZeE" role="3clF45">
         <ref role="3uigEE" to="pzen:7LNF20FG5u8" resolve="MPSGenericPatternMatcher" />
@@ -1909,7 +1905,6 @@
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getPreferredScopeClass" />
       <property role="DiZV1" value="false" />
-      <property role="IEkAT" value="false" />
       <node concept="3Tm1VV" id="26S5csTrdOo" role="1B3o_S" />
       <node concept="3uibUv" id="26S5csTrdOq" role="3clF45">
         <ref role="3uigEE" to="wyt6:~Class" resolve="Class" />
@@ -2077,7 +2072,6 @@
         <property role="1EzhhJ" value="false" />
         <property role="TrG5h" value="doGetContainedBodies" />
         <property role="DiZV1" value="false" />
-        <property role="IEkAT" value="false" />
         <node concept="3Tmbuc" id="8FTmV8sFJe" role="1B3o_S" />
         <node concept="3uibUv" id="8FTmV8sFJg" role="3clF45">
           <ref role="3uigEE" to="33ny:~Set" resolve="Set" />
@@ -3104,7 +3098,6 @@
         <property role="1EzhhJ" value="false" />
         <property role="TrG5h" value="getFullyQualifiedName" />
         <property role="DiZV1" value="false" />
-        <property role="IEkAT" value="false" />
         <node concept="3Tm1VV" id="26S5csTpFri" role="1B3o_S" />
         <node concept="17QB3L" id="26S5csTpSD0" role="3clF45" />
         <node concept="3clFbS" id="26S5csTpFro" role="3clF47">
@@ -3139,7 +3132,6 @@
         <property role="1EzhhJ" value="false" />
         <property role="TrG5h" value="getParameters" />
         <property role="DiZV1" value="false" />
-        <property role="IEkAT" value="false" />
         <node concept="3Tm1VV" id="26S5csTpFrs" role="1B3o_S" />
         <node concept="3uibUv" id="26S5csTpFru" role="3clF45">
           <ref role="3uigEE" to="33ny:~List" resolve="List" />
@@ -3202,7 +3194,6 @@
         <property role="1EzhhJ" value="false" />
         <property role="TrG5h" value="getParameterNames" />
         <property role="DiZV1" value="false" />
-        <property role="IEkAT" value="false" />
         <node concept="3Tm1VV" id="26S5csTpV5v" role="1B3o_S" />
         <node concept="3uibUv" id="26S5csTpV5x" role="3clF45">
           <ref role="3uigEE" to="33ny:~List" resolve="List" />
