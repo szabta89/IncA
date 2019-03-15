@@ -6,7 +6,7 @@ IncA is a program analysis framework. It comes with a DSL for the definition of 
 
 ## Getting Started
 
-IncA is tightly integrated into the JetBrains MPS language workbench (https://www.jetbrains.com/mps/). The primary goal of this integration is to make analysis development and maintenance an integral part of the language development process. Getting started with IncA is easy, it only requires Java 1.8+ and MPS 2018.2.x. Note that there are maintenance branches for earlier MPS versions (e.g. 2018.1), as well. 
+IncA is tightly integrated into the JetBrains MPS language workbench (https://www.jetbrains.com/mps/). The primary goal of this integration is to make analysis development and maintenance an integral part of the language development process. Getting started with IncA is easy, it only requires Java 1.8+ and MPS 2018.3.x. Note that there are maintenance branches for earlier MPS versions (e.g. 2018.1, 2018.2), as well. 
 
 The project is equipped with a Gradle build, and setting up the project requires the cloning of this project and running `./gradlew` in the root directory from a command line. The default gradle task takes care of downloading all dependencies and building IncA itself. Note that the build downloads MPS itself because it is required for building IncA, though, the downloaded MPS application is independent from any of your existing MPS installations. Once the project is built, you can start using IncA by opening the `code` directory (under the root directory) in MPS. Once you have opened the project in MPS, you need to set up a path variable `inca.home` in `MPS Preferences -> Appearance & Behavior -> Path Variables`. The path variable must point to the root folder of the git repository clone.
 
