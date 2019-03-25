@@ -47,4 +47,4 @@ analysis or static analyses of string values.
 ## Contact
 
 Feel free to get in touch if you would like to discuss about, contribute to, or simply use IncA. 
-You can find all relevant contact information on the following website: [szabta89.github.io](szabta89.github.io). 
+You can find all relevant contact information on [szabta89.github.io](https://szabta89.github.io). 
