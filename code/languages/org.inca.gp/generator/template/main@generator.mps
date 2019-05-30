@@ -580,6 +580,60 @@
       <node concept="j$656" id="5xy6TexyRkt" role="1lVwrX">
         <ref role="v9R2y" to="cj1d:5xy6Texy90b" resolve="template_ConceptConstraint" />
       </node>
+      <node concept="30G5F_" id="72Vn6m1EpqA" role="30HLyM">
+        <node concept="3clFbS" id="72Vn6m1EpqB" role="2VODD2">
+          <node concept="3cpWs6" id="72Vn6m1Ep_i" role="3cqZAp">
+            <node concept="3fqX7Q" id="72Vn6m1Es6a" role="3cqZAk">
+              <node concept="2OqwBi" id="72Vn6m1Es6c" role="3fr31v">
+                <node concept="2OqwBi" id="72Vn6m1Es6d" role="2Oq$k0">
+                  <node concept="30H73N" id="72Vn6m1Es6e" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="72Vn6m1Es6f" role="2OqNvi">
+                    <ref role="3Tt5mk" to="hqsm:7a3nU35cEKQ" resolve="type" />
+                  </node>
+                </node>
+                <node concept="1mIQ4w" id="72Vn6m1Es6g" role="2OqNvi">
+                  <node concept="chp4Y" id="72Vn6m1Es6h" role="cj9EA">
+                    <ref role="cht4Q" to="hqsm:ADbz7un29O" resolve="ISynthesisedDataType" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3aamgX" id="72Vn6m1Epe8" role="3acgRq">
+      <ref role="30HIoZ" to="55iy:5Dmozv0zaht" resolve="GraphPatternConceptConstraint" />
+      <node concept="b5Tf3" id="72Vn6m1EuSn" role="1lVwrX" />
+      <node concept="30G5F_" id="72Vn6m1EsA8" role="30HLyM">
+        <node concept="3clFbS" id="72Vn6m1EsA9" role="2VODD2">
+          <node concept="3SKdUt" id="72Vn6m1EtQ7" role="3cqZAp">
+            <node concept="3SKdUq" id="72Vn6m1EtQ9" role="3SKWNk">
+              <property role="3SKdUp" value="There is no need to generate a type constraint for " />
+            </node>
+          </node>
+          <node concept="3SKdUt" id="72Vn6m1Eusr" role="3cqZAp">
+            <node concept="3SKdUq" id="72Vn6m1Eust" role="3SKWNk">
+              <property role="3SKdUp" value="synthesised data types. There is no subtyping among them. " />
+            </node>
+          </node>
+          <node concept="3cpWs6" id="72Vn6m1EsHt" role="3cqZAp">
+            <node concept="2OqwBi" id="72Vn6m1EsHv" role="3cqZAk">
+              <node concept="2OqwBi" id="72Vn6m1EsHw" role="2Oq$k0">
+                <node concept="30H73N" id="72Vn6m1EsHx" role="2Oq$k0" />
+                <node concept="3TrEf2" id="72Vn6m1EsHy" role="2OqNvi">
+                  <ref role="3Tt5mk" to="hqsm:7a3nU35cEKQ" resolve="type" />
+                </node>
+              </node>
+              <node concept="1mIQ4w" id="72Vn6m1EsHz" role="2OqNvi">
+                <node concept="chp4Y" id="72Vn6m1EsH$" role="cj9EA">
+                  <ref role="cht4Q" to="hqsm:ADbz7un29O" resolve="ISynthesisedDataType" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="3aamgX" id="5xy6TexyRkw" role="3acgRq">
       <property role="36QftV" value="true" />
