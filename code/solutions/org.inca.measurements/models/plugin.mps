@@ -15,7 +15,7 @@
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="qq03" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.actions(MPS.Platform/)" />
     <import index="ekwn" ref="r:9832fb5f-2578-4b58-8014-a5de79da988e(jetbrains.mps.ide.editor.actions)" />
-    <import index="kn4z" ref="r:7d378049-64b5-4606-8242-93ea206e7286(org.inca.sa.test.plugin@tests)" />
+    <import index="38y7" ref="r:50e2196d-3af6-4b37-878b-561ddee89648(org.inca.sa.test.plugin)" />
     <import index="vebz" ref="r:1c89766f-bec5-416e-a735-1d8e2add3fc0(org.inca.sa.inter.test.doop)" />
   </imports>
   <registry>
@@ -227,12 +227,12 @@
               <node concept="3cpWsn" id="3XQWGS7yN$3" role="3cpWs9">
                 <property role="TrG5h" value="measurement" />
                 <property role="3TUv4t" value="true" />
-                <node concept="3uibUv" id="3XQWGS7yN$4" role="1tU5fm">
-                  <ref role="3uigEE" to="kn4z:1OpGjkrUY8J" resolve="AbstractMeasurement" />
+                <node concept="3uibUv" id="8Aw05$btOg" role="1tU5fm">
+                  <ref role="3uigEE" to="38y7:1OpGjkrUY8J" resolve="AbstractMeasurement" />
                 </node>
                 <node concept="2ShNRf" id="3XQWGS7yN$5" role="33vP2m">
                   <node concept="1pGfFk" id="3XQWGS7yN$6" role="2ShVmc">
-                    <ref role="37wK5l" to="kn4z:3jUy2c7hVaT" resolve="AllStringAnalysis_BerkeleyDB_Measurment" />
+                    <ref role="37wK5l" to="38y7:3jUy2c7hVaT" resolve="AllStringAnalysis_BerkeleyDB_Measurment" />
                     <node concept="37vLTw" id="3XQWGS7yN$7" role="37wK5m">
                       <ref role="3cqZAo" node="3XQWGS7yOwy" resolve="outputFolder" />
                     </node>
@@ -314,8 +314,8 @@
                           <ref role="3uigEE" to="guwi:~File" resolve="File" />
                         </node>
                         <node concept="2YIFZM" id="1_JXc3TiZQC" role="33vP2m">
-                          <ref role="1Pybhc" to="kn4z:1_JXc3TiqqE" resolve="MeasurementUtil" />
-                          <ref role="37wK5l" to="kn4z:3XQWGS7xKXe" resolve="selectOutputFolder" />
+                          <ref role="1Pybhc" to="38y7:1_JXc3TiqqE" resolve="MeasurementUtil" />
+                          <ref role="37wK5l" to="38y7:3XQWGS7xKXe" resolve="selectOutputFolder" />
                           <node concept="2OqwBi" id="1_JXc3TiZQD" role="37wK5m">
                             <node concept="2WthIp" id="1_JXc3TiZQE" role="2Oq$k0" />
                             <node concept="1DTwFV" id="1_JXc3TiZQF" role="2OqNvi">
@@ -458,8 +458,8 @@
                               <node concept="H_c77" id="1_JXc3TkeRk" role="A3Ik2" />
                             </node>
                             <node concept="2YIFZM" id="1_JXc3TkeRs" role="33vP2m">
-                              <ref role="1Pybhc" to="kn4z:1_JXc3TiqqE" resolve="MeasurementUtil" />
-                              <ref role="37wK5l" to="kn4z:1_JXc3TjeeI" resolve="getModelsWithPrefix" />
+                              <ref role="1Pybhc" to="38y7:1_JXc3TiqqE" resolve="MeasurementUtil" />
+                              <ref role="37wK5l" to="38y7:1_JXc3TjeeI" resolve="getModelsWithPrefix" />
                               <node concept="37vLTw" id="1_JXc3TkeRt" role="37wK5m">
                                 <ref role="3cqZAo" node="1_JXc3Tkd$J" resolve="repository" />
                               </node>
@@ -474,8 +474,8 @@
                         </node>
                         <node concept="3clFbF" id="5Hg2Q$0xbk9" role="3cqZAp">
                           <node concept="2YIFZM" id="5Hg2Q$0xd6y" role="3clFbG">
-                            <ref role="37wK5l" to="kn4z:5Hg2Q$0iEma" resolve="generate" />
-                            <ref role="1Pybhc" to="kn4z:5Hg2Q$0iBBJ" resolve="FactGenerator" />
+                            <ref role="1Pybhc" to="38y7:5Hg2Q$0iBBJ" resolve="FactGenerator" />
+                            <ref role="37wK5l" to="38y7:5Hg2Q$0iEma" resolve="generate" />
                             <node concept="37vLTw" id="5Hg2Q$0xhCf" role="37wK5m">
                               <ref role="3cqZAo" node="1_JXc3TkeRr" resolve="models" />
                             </node>
@@ -541,8 +541,8 @@
       <node concept="3clFbS" id="1dZT6p18Dyy" role="2VODD2">
         <node concept="3clFbF" id="1dZT6p18KnZ" role="3cqZAp">
           <node concept="2YIFZM" id="1dZT6p18KtL" role="3clFbG">
-            <ref role="37wK5l" to="vebz:1dZT6p12vjv" resolve="run" />
             <ref role="1Pybhc" to="vebz:1dZT6p12vih" resolve="DoopRunner" />
+            <ref role="37wK5l" to="vebz:1dZT6p12vjv" resolve="run" />
             <node concept="2OqwBi" id="1dZT6p18SSC" role="37wK5m">
               <node concept="2WthIp" id="1dZT6p18SSF" role="2Oq$k0" />
               <node concept="1DTwFV" id="1dZT6p18SSH" role="2OqNvi">

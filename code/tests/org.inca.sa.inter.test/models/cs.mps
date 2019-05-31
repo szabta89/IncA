@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:9bb63912-76bf-44a1-a018-d76de161b40a(org.inca.sa.inter.test.plugin)">
+<model ref="r:9bb63912-76bf-44a1-a018-d76de161b40a(org.inca.sa.inter.test.cs)">
   <persistence version="9" />
   <languages>
     <use id="b802a056-92a2-4fbc-902e-f8e5004c331f" name="org.inca.core" version="0" />
