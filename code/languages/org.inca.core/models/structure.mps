@@ -161,6 +161,9 @@
     <node concept="PrWs8" id="Y78e7A6TYz" role="PrDN$">
       <ref role="PrY4T" node="Y78e7A6TUt" resolve="IIncaModule" />
     </node>
+    <node concept="PrWs8" id="1Or6MxS5bSt" role="PrDN$">
+      <ref role="PrY4T" to="tpee:hoSGL_l" resolve="IMemberContainer" />
+    </node>
   </node>
   <node concept="PlHQZ" id="1YBYCQ13COO">
     <property role="TrG5h" value="IGenNameProvider" />

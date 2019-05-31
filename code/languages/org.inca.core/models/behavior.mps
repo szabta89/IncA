@@ -40,6 +40,7 @@
       <concept id="1225194413805" name="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" flags="in" index="13hLZK" />
       <concept id="1225194472830" name="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" flags="ng" index="13i0hz">
         <property id="5864038008284099149" name="isStatic" index="2Ki8OM" />
+        <property id="1225194472833" name="isPrivate" index="13i0is" />
         <property id="1225194472832" name="isVirtual" index="13i0it" />
         <property id="1225194472834" name="isAbstract" index="13i0iv" />
         <reference id="1225194472831" name="overriddenMethod" index="13i0hy" />
@@ -1477,6 +1478,33 @@
         </node>
       </node>
       <node concept="17QB3L" id="16fePAuoJhT" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="1Or6MxS5chm" role="13h7CS">
+      <property role="TrG5h" value="getMembers" />
+      <property role="13i0is" value="false" />
+      <ref role="13i0hy" to="tpek:hEwJjl2" resolve="getMembers" />
+      <node concept="3Tm1VV" id="1Or6MxS5chr" role="1B3o_S" />
+      <node concept="3clFbS" id="1Or6MxS5chs" role="3clF47">
+        <node concept="3cpWs6" id="1Or6MxS5cFe" role="3cqZAp">
+          <node concept="2OqwBi" id="1Or6MxS5hwq" role="3cqZAk">
+            <node concept="2OqwBi" id="1Or6MxS5eCb" role="2Oq$k0">
+              <node concept="2OqwBi" id="1Or6MxS5cTb" role="2Oq$k0">
+                <node concept="13iPFW" id="1Or6MxS5cFz" role="2Oq$k0" />
+                <node concept="3Tsc0h" id="1Or6MxS5daR" role="2OqNvi">
+                  <ref role="3TtcxE" to="hqsm:3VwoHXNAdvv" resolve="contents" />
+                </node>
+              </node>
+              <node concept="v3k3i" id="1Or6MxS5ha3" role="2OqNvi">
+                <node concept="chp4Y" id="1Or6MxS5he5" role="v3oSu">
+                  <ref role="cht4Q" to="hqsm:3VwoHXNAdmh" resolve="IPattern" />
+                </node>
+              </node>
+            </node>
+            <node concept="ANE8D" id="1Or6MxS5mU8" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+      <node concept="2I9FWS" id="1Or6MxS5cht" role="3clF45" />
     </node>
   </node>
   <node concept="13h7C7" id="3VwoHXNBClD">
