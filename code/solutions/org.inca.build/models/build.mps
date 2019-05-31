@@ -1899,65 +1899,6 @@
           </node>
         </node>
       </node>
-      <node concept="1E1JtD" id="3DTKCScnUEz" role="2G$12L">
-        <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="org.inca.meta.analysis.impact" />
-        <property role="3LESm3" value="caca42a9-2a32-4920-b8d1-c58713e40a17" />
-        <node concept="398BVA" id="3DTKCScnUE$" role="3LF7KH">
-          <ref role="398BVh" node="4IWFKja4eXD" resolve="inca.code" />
-          <node concept="2Ry0Ak" id="3DTKCScnUE_" role="iGT6I">
-            <property role="2Ry0Am" value="languages" />
-            <node concept="2Ry0Ak" id="3DTKCScnUEA" role="2Ry0An">
-              <property role="2Ry0Am" value="org.inca.meta.analysis.impact" />
-              <node concept="2Ry0Ak" id="3DTKCScnV0P" role="2Ry0An">
-                <property role="2Ry0Am" value="org.inca.meta.analysis.impact.mpl" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3DTKCScnUEE" role="3bR37C">
-          <node concept="3bR9La" id="3DTKCScnUEF" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
-          </node>
-        </node>
-        <node concept="1E0d5M" id="3DTKCScnUEQ" role="1E1XAP">
-          <ref role="1E0d5P" node="6_du9upXgV0" resolve="org.inca.core.util" />
-        </node>
-        <node concept="1E0d5M" id="3DTKCScnUER" role="1E1XAP">
-          <ref role="1E0d5P" node="6_du9upXid2" resolve="org.inca.data.runtime" />
-        </node>
-        <node concept="3rtmxn" id="3DTKCScnUFl" role="3bR31x">
-          <node concept="3LXTmp" id="3DTKCScnUFm" role="3rtmxm">
-            <node concept="3qWCbU" id="3DTKCScnUFn" role="3LXTna">
-              <property role="3qWCbO" value="icons/**, resources/**" />
-            </node>
-            <node concept="398BVA" id="3DTKCScnUFo" role="3LXTmr">
-              <ref role="398BVh" node="4IWFKja4eXD" resolve="inca.code" />
-              <node concept="2Ry0Ak" id="3DTKCScnUFp" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3DTKCScnUFq" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.inca.data" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3DTKCScnVcf" role="3bR37C">
-          <node concept="3bR9La" id="3DTKCScnVcg" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3DTKCScnVch" role="3bR37C">
-          <node concept="3bR9La" id="3DTKCScnVci" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6LeP" resolve="jetbrains.mps.analyzers.runtime" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3DTKCScnV$o" role="3bR37C">
-          <node concept="3bR9La" id="3DTKCScnV$p" role="1SiIV1">
-            <ref role="3bR37D" node="6_du9upXhYK" resolve="org.inca.data" />
-          </node>
-        </node>
-      </node>
       <node concept="1E1JtD" id="41RZVBdslO0" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="org.inca.integration.generic" />
