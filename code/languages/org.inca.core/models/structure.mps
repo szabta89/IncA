@@ -590,6 +590,11 @@
     <property role="EcuMT" value="996292992024567127" />
     <property role="R4oN_" value="expression evaluation" />
     <ref role="1TJDcQ" node="RjyNapPtLD" resolve="ComputationValue" />
+    <node concept="1TJgyi" id="63E4q94r2qX" role="1TKVEl">
+      <property role="IQ2nx" value="6983413560821687997" />
+      <property role="TrG5h" value="const" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="1TJgyj" id="RjyNapPtPo" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="expression" />

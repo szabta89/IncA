@@ -61,6 +61,7 @@
         <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
+      <concept id="1070534513062" name="jetbrains.mps.baseLanguage.structure.DoubleType" flags="in" index="10P55v" />
       <concept id="1070534555686" name="jetbrains.mps.baseLanguage.structure.CharType" flags="in" index="10Pfzv" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1070534760951" name="jetbrains.mps.baseLanguage.structure.ArrayType" flags="in" index="10Q1$e">
@@ -89,6 +90,9 @@
       </concept>
       <concept id="4269842503726207156" name="jetbrains.mps.baseLanguage.structure.LongLiteral" flags="nn" index="1adDum">
         <property id="4269842503726207157" name="value" index="1adDun" />
+      </concept>
+      <concept id="1111509017652" name="jetbrains.mps.baseLanguage.structure.FloatingPointConstant" flags="nn" index="3b6qkQ">
+        <property id="1113006610751" name="value" index="$nhwW" />
       </concept>
       <concept id="1068580123132" name="jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration" flags="ng" index="3clF44">
         <property id="4276006055363816570" name="isSynchronized" index="od$2w" />
@@ -244,6 +248,22 @@
         </node>
         <node concept="3cmrfG" id="7A0HCuGfwy4" role="2BsfMF">
           <property role="3cmrfH" value="14" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="63E4q94Fhil" role="jymVt" />
+    <node concept="312cEg" id="63E4q94FkbL" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="floatingPointNumbers" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3Tm6S6" id="63E4q94FkbM" role="1B3o_S" />
+      <node concept="10Q1$e" id="63E4q94FkbN" role="1tU5fm">
+        <node concept="10P55v" id="63E4q94Fm8J" role="10Q1$1" />
+      </node>
+      <node concept="2BsdOp" id="63E4q94FkbP" role="33vP2m">
+        <node concept="3b6qkQ" id="63E4q94Fmei" role="2BsfMF">
+          <property role="$nhwW" value="1.1" />
         </node>
       </node>
     </node>
