@@ -42,6 +42,7 @@
       <modulePath path="$PROJECT_DIR$/tests/org.inca.meta.analysis.test/org.inca.meta.analysis.test.msd" folder="tests" />
       <modulePath path="$PROJECT_DIR$/tests/org.inca.sa.inter.test/org.inca.sa.inter.test.msd" folder="tests" />
       <modulePath path="$PROJECT_DIR$/tests/org.inca.sa.test/org.inca.sa.test.msd" folder="tests" />
+      <modulePath path="$PROJECT_DIR$/tests/sandbox/sandbox.msd" folder="tests" />
     </projectModules>
   </component>
 </project>

@@ -86,7 +86,7 @@
               <node concept="1pGfFk" id="77tbxk_smbT" role="2ShVmc">
                 <ref role="37wK5l" to="guwi:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
                 <node concept="Xl_RD" id="77tbxk_smbU" role="37wK5m">
-                  <property role="Xl_RC" value="/Users/szabta/git/doop/tmp2" />
+                  <property role="Xl_RC" value="/Users/szabta/git/doop/facts/sandbox-reduced" />
                 </node>
               </node>
             </node>

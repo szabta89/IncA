@@ -57,6 +57,8 @@
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
     <import index="ft0j" ref="r:adc783db-1c21-4910-9cf7-6a22bf949a4a(jetbrains.mps.persistence.java.library)" />
     <import index="18ew" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util(MPS.Core/)" />
+    <import index="t6h5" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang.reflect(JDK/)" />
+    <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
     <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" implicit="true" />
   </imports>
   <registry>
@@ -70,11 +72,6 @@
       <concept id="1238857743184" name="jetbrains.mps.baseLanguage.tuples.structure.IndexedTupleMemberAccessExpression" flags="nn" index="1LFfDK">
         <child id="1238857764950" name="tuple" index="1LFl5Q" />
         <child id="1238857834412" name="index" index="1LF_Uc" />
-      </concept>
-    </language>
-    <language id="654422bf-e75f-44dc-936d-188890a746ce" name="de.slisson.mps.reflection">
-      <concept id="8520162698482806193" name="de.slisson.mps.reflection.structure.ReflectionStaticMethodCall" flags="ng" index="1DD5X$">
-        <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
     </language>
     <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
@@ -114,6 +111,9 @@
       <concept id="7520713872864775836" name="jetbrains.mps.lang.plugin.standalone.structure.StandalonePluginDescriptor" flags="ng" index="2DaZZR" />
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="4564374268190696673" name="jetbrains.mps.baseLanguage.structure.PrimitiveClassExpression" flags="nn" index="229OVn">
+        <child id="4564374268190696674" name="primitiveType" index="229OVk" />
+      </concept>
       <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
       <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
         <child id="1082485599096" name="statements" index="9aQI4" />
@@ -190,7 +190,7 @@
       </concept>
       <concept id="1081236700938" name="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" flags="ig" index="2YIFZL" />
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
-        <reference id="1144433194310" name="classConcept" index="1Pybhd" />
+        <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
       <concept id="1164991038168" name="jetbrains.mps.baseLanguage.structure.ThrowStatement" flags="nn" index="YS8fn">
         <child id="1164991057263" name="throwable" index="YScLw" />
@@ -524,6 +524,9 @@
         <property id="3542851458883439832" name="languageId" index="2V$B1T" />
       </concept>
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
+      <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
+        <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
+      </concept>
       <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
@@ -714,7 +717,7 @@
         <node concept="3clFbF" id="16VcpKZWRGQ" role="3cqZAp">
           <node concept="2YIFZM" id="16VcpKZWTC1" role="3clFbG">
             <ref role="37wK5l" node="16VcpKZWjKK" resolve="generate" />
-            <ref role="1Pybhd" node="4wNWMN_S3tE" resolve="SootTransformer_Generator" />
+            <ref role="1Pybhc" node="4wNWMN_S3tE" resolve="SootTransformer_Generator" />
             <node concept="2OqwBi" id="16VcpKZWV7T" role="37wK5m">
               <node concept="2WthIp" id="16VcpKZWV7W" role="2Oq$k0" />
               <node concept="1DTwFV" id="16VcpKZWV7Y" role="2OqNvi">
@@ -737,7 +740,7 @@
           <node concept="2OqwBi" id="59T8kI_MlJS" role="3cqZAk">
             <node concept="2YIFZM" id="59T8kI_MlJU" role="2Oq$k0">
               <ref role="37wK5l" node="59T8kI_Luin" resolve="getModelMap" />
-              <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+              <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
               <node concept="2OqwBi" id="59T8kI_MlJV" role="37wK5m">
                 <node concept="2WthIp" id="59T8kI_MlJW" role="2Oq$k0" />
                 <node concept="1DTwFV" id="59T8kI_MlJX" role="2OqNvi">
@@ -1635,7 +1638,7 @@
         <node concept="3clFbH" id="4wNWMN_CCsP" role="3cqZAp" />
         <node concept="3clFbF" id="4wNWMN_CCsQ" role="3cqZAp">
           <node concept="2YIFZM" id="4wNWMN_CCsR" role="3clFbG">
-            <ref role="1Pybhd" to="3sjl:~G" resolve="G" />
+            <ref role="1Pybhc" to="3sjl:~G" resolve="G" />
             <ref role="37wK5l" to="3sjl:~G.reset():void" resolve="reset" />
           </node>
         </node>
@@ -1649,7 +1652,7 @@
             </node>
             <node concept="2YIFZM" id="4wNWMN_CCsW" role="33vP2m">
               <ref role="37wK5l" to="ltkh:~Options.v():soot.options.Options" resolve="v" />
-              <ref role="1Pybhd" to="ltkh:~Options" resolve="Options" />
+              <ref role="1Pybhc" to="ltkh:~Options" resolve="Options" />
             </node>
           </node>
         </node>
@@ -1689,7 +1692,7 @@
               <ref role="37wK5l" to="ltkh:~Options.set_process_dir(java.util.List):void" resolve="set_process_dir" />
               <node concept="2YIFZM" id="4wNWMN_CCup" role="37wK5m">
                 <ref role="37wK5l" to="3o3z:~Lists.newArrayList(java.lang.Object...):java.util.ArrayList" resolve="newArrayList" />
-                <ref role="1Pybhd" to="3o3z:~Lists" resolve="Lists" />
+                <ref role="1Pybhc" to="3o3z:~Lists" resolve="Lists" />
                 <node concept="2OqwBi" id="4wNWMN_CCuq" role="37wK5m">
                   <node concept="37vLTw" id="4wNWMN_CCur" role="2Oq$k0">
                     <ref role="3cqZAo" node="4wNWMN_CCq9" resolve="classesOutput" />
@@ -1750,7 +1753,7 @@
           <node concept="2OqwBi" id="2hR54KDKYd9" role="3clFbG">
             <node concept="2YIFZM" id="2hR54KDKXQw" role="2Oq$k0">
               <ref role="37wK5l" to="3sjl:~PhaseOptions.v():soot.PhaseOptions" resolve="v" />
-              <ref role="1Pybhd" to="3sjl:~PhaseOptions" resolve="PhaseOptions" />
+              <ref role="1Pybhc" to="3sjl:~PhaseOptions" resolve="PhaseOptions" />
             </node>
             <node concept="liA8E" id="2hR54KDKYAL" role="2OqNvi">
               <ref role="37wK5l" to="3sjl:~PhaseOptions.setPhaseOption(java.lang.String,java.lang.String):boolean" resolve="setPhaseOption" />
@@ -1767,7 +1770,7 @@
           <node concept="2OqwBi" id="2hR54KDKYUY" role="3clFbG">
             <node concept="2YIFZM" id="2hR54KDKYUZ" role="2Oq$k0">
               <ref role="37wK5l" to="3sjl:~PhaseOptions.v():soot.PhaseOptions" resolve="v" />
-              <ref role="1Pybhd" to="3sjl:~PhaseOptions" resolve="PhaseOptions" />
+              <ref role="1Pybhc" to="3sjl:~PhaseOptions" resolve="PhaseOptions" />
             </node>
             <node concept="liA8E" id="2hR54KDKYV0" role="2OqNvi">
               <ref role="37wK5l" to="3sjl:~PhaseOptions.setPhaseOption(java.lang.String,java.lang.String):boolean" resolve="setPhaseOption" />
@@ -1784,7 +1787,7 @@
           <node concept="2OqwBi" id="2hR54KDKZjm" role="3clFbG">
             <node concept="2YIFZM" id="2hR54KDKZjn" role="2Oq$k0">
               <ref role="37wK5l" to="3sjl:~PhaseOptions.v():soot.PhaseOptions" resolve="v" />
-              <ref role="1Pybhd" to="3sjl:~PhaseOptions" resolve="PhaseOptions" />
+              <ref role="1Pybhc" to="3sjl:~PhaseOptions" resolve="PhaseOptions" />
             </node>
             <node concept="liA8E" id="2hR54KDKZjo" role="2OqNvi">
               <ref role="37wK5l" to="3sjl:~PhaseOptions.setPhaseOption(java.lang.String,java.lang.String):boolean" resolve="setPhaseOption" />
@@ -1805,7 +1808,7 @@
             <node concept="17QB3L" id="7EAjQ1EqYIw" role="1tU5fm" />
             <node concept="2YIFZM" id="7EAjQ1EqYjE" role="33vP2m">
               <ref role="37wK5l" to="wyt6:~System.getProperty(java.lang.String):java.lang.String" resolve="getProperty" />
-              <ref role="1Pybhd" to="wyt6:~System" resolve="System" />
+              <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
               <node concept="Xl_RD" id="7EAjQ1EqYjF" role="37wK5m">
                 <property role="Xl_RC" value="os.name" />
               </node>
@@ -1814,7 +1817,7 @@
         </node>
         <node concept="3clFbF" id="7EAjQ1EqVVn" role="3cqZAp">
           <node concept="2YIFZM" id="7EAjQ1EqWqN" role="3clFbG">
-            <ref role="1Pybhd" to="wyt6:~System" resolve="System" />
+            <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
             <ref role="37wK5l" to="wyt6:~System.setProperty(java.lang.String,java.lang.String):java.lang.String" resolve="setProperty" />
             <node concept="Xl_RD" id="7EAjQ1EqWqO" role="37wK5m">
               <property role="Xl_RC" value="os.name" />
@@ -1827,7 +1830,7 @@
         <node concept="3clFbF" id="7EAjQ1EqVVr" role="3cqZAp">
           <node concept="2OqwBi" id="7EAjQ1EqVVs" role="3clFbG">
             <node concept="2YIFZM" id="7EAjQ1EqWob" role="2Oq$k0">
-              <ref role="1Pybhd" to="3sjl:~Scene" resolve="Scene" />
+              <ref role="1Pybhc" to="3sjl:~Scene" resolve="Scene" />
               <ref role="37wK5l" to="3sjl:~Scene.v():soot.Scene" resolve="v" />
             </node>
             <node concept="liA8E" id="7EAjQ1EqVVu" role="2OqNvi">
@@ -1837,7 +1840,7 @@
         </node>
         <node concept="3clFbF" id="7EAjQ1EqVVv" role="3cqZAp">
           <node concept="2YIFZM" id="7EAjQ1EqWtq" role="3clFbG">
-            <ref role="1Pybhd" to="wyt6:~System" resolve="System" />
+            <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
             <ref role="37wK5l" to="wyt6:~System.setProperty(java.lang.String,java.lang.String):java.lang.String" resolve="setProperty" />
             <node concept="Xl_RD" id="7EAjQ1EqWtr" role="37wK5m">
               <property role="Xl_RC" value="os.name" />
@@ -1864,7 +1867,7 @@
         <node concept="3clFbF" id="4wNWMN_CCuN" role="3cqZAp">
           <node concept="2OqwBi" id="4wNWMN_CCuO" role="3clFbG">
             <node concept="2YIFZM" id="4wNWMN_CCuP" role="2Oq$k0">
-              <ref role="1Pybhd" to="3sjl:~PackManager" resolve="PackManager" />
+              <ref role="1Pybhc" to="3sjl:~PackManager" resolve="PackManager" />
               <ref role="37wK5l" to="3sjl:~PackManager.v():soot.PackManager" resolve="v" />
             </node>
             <node concept="liA8E" id="4wNWMN_CCuQ" role="2OqNvi">
@@ -2115,7 +2118,7 @@
             </node>
             <node concept="2YIFZM" id="1zG_gsNHiXg" role="33vP2m">
               <ref role="37wK5l" to="3sjl:~RefType.v():soot.RefType" resolve="v" />
-              <ref role="1Pybhd" to="3sjl:~RefType" resolve="RefType" />
+              <ref role="1Pybhc" to="3sjl:~RefType" resolve="RefType" />
             </node>
           </node>
         </node>
@@ -2275,7 +2278,7 @@
         <node concept="3clFbF" id="59T8kI_LsGW" role="3cqZAp">
           <node concept="2YIFZM" id="59T8kI_LsGX" role="3clFbG">
             <ref role="37wK5l" to="3a50:~ThreadUtils.runInUIThreadAndWait(java.lang.Runnable):java.lang.Exception" resolve="runInUIThreadAndWait" />
-            <ref role="1Pybhd" to="3a50:~ThreadUtils" resolve="ThreadUtils" />
+            <ref role="1Pybhc" to="3a50:~ThreadUtils" resolve="ThreadUtils" />
             <node concept="1bVj0M" id="59T8kI_LsGY" role="37wK5m">
               <node concept="3clFbS" id="59T8kI_LsGZ" role="1bW5cS">
                 <node concept="1QHqEO" id="59T8kI_LsH0" role="3cqZAp">
@@ -2493,7 +2496,7 @@
                     </node>
                     <node concept="2YIFZM" id="MeIVZL7uiR" role="3clFbw">
                       <ref role="37wK5l" node="4E7bgtNpup9" resolve="isStubModel" />
-                      <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+                      <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
                       <node concept="2GrUjf" id="MeIVZL7uiS" role="37wK5m">
                         <ref role="2Gs0qQ" node="MeIVZL7uis" resolve="model" />
                       </node>
@@ -3067,7 +3070,7 @@
                     <node concept="3clFbF" id="5cMBPSsh1xi" role="3cqZAp">
                       <node concept="2YIFZM" id="5cMBPSsh1xj" role="3clFbG">
                         <ref role="37wK5l" to="33ny:~Objects.equals(java.lang.Object,java.lang.Object):boolean" resolve="equals" />
-                        <ref role="1Pybhd" to="33ny:~Objects" resolve="Objects" />
+                        <ref role="1Pybhc" to="33ny:~Objects" resolve="Objects" />
                         <node concept="2OqwBi" id="5cMBPSsh1xk" role="37wK5m">
                           <node concept="37vLTw" id="5cMBPSsh1xl" role="2Oq$k0">
                             <ref role="3cqZAo" node="5cMBPSsh1xo" resolve="it" />
@@ -3099,7 +3102,7 @@
                   <ref role="3uigEE" to="dush:~ModelRoot" resolve="ModelRoot" />
                 </node>
                 <node concept="2YIFZM" id="5cMBPSsgXn7" role="33vP2m">
-                  <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+                  <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
                   <ref role="37wK5l" node="2QKJJA$$jCD" resolve="getModelRoot" />
                   <node concept="37vLTw" id="5cMBPSsgXn8" role="37wK5m">
                     <ref role="3cqZAo" node="5cMBPSsgXif" resolve="module" />
@@ -3117,7 +3120,7 @@
                 </node>
                 <node concept="2YIFZM" id="5cMBPSsgXnd" role="37vLTx">
                   <ref role="37wK5l" to="z1c3:~SModuleOperations.createModelWithAdjustments(java.lang.String,org.jetbrains.mps.openapi.persistence.ModelRoot):org.jetbrains.mps.openapi.model.EditableSModel" resolve="createModelWithAdjustments" />
-                  <ref role="1Pybhd" to="z1c3:~SModuleOperations" resolve="SModuleOperations" />
+                  <ref role="1Pybhc" to="z1c3:~SModuleOperations" resolve="SModuleOperations" />
                   <node concept="37vLTw" id="5cMBPSsh4uj" role="37wK5m">
                     <ref role="3cqZAo" node="5cMBPSsgMCk" resolve="TMP" />
                   </node>
@@ -3200,7 +3203,7 @@
                 </node>
                 <node concept="2YIFZM" id="59T8kI_LC9r" role="33vP2m">
                   <ref role="37wK5l" node="2QKJJA$$jCD" resolve="getModelRoot" />
-                  <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+                  <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
                   <node concept="37vLTw" id="59T8kI_LLyT" role="37wK5m">
                     <ref role="3cqZAo" node="59T8kI_LK_3" resolve="module" />
                   </node>
@@ -3218,7 +3221,7 @@
                   <ref role="3uigEE" to="mhbf:~EditableSModel" resolve="EditableSModel" />
                 </node>
                 <node concept="2YIFZM" id="59T8kI_LC9z" role="33vP2m">
-                  <ref role="1Pybhd" to="z1c3:~SModuleOperations" resolve="SModuleOperations" />
+                  <ref role="1Pybhc" to="z1c3:~SModuleOperations" resolve="SModuleOperations" />
                   <ref role="37wK5l" to="z1c3:~SModuleOperations.createModelWithAdjustments(java.lang.String,org.jetbrains.mps.openapi.persistence.ModelRoot):org.jetbrains.mps.openapi.model.EditableSModel" resolve="createModelWithAdjustments" />
                   <node concept="37vLTw" id="59T8kI_LC9$" role="37wK5m">
                     <ref role="3cqZAo" node="59T8kI_LC98" resolve="jimpleModelFQN" />
@@ -3677,7 +3680,7 @@
                   <node concept="10P_77" id="2To5PNxIBxF" role="1Lm7xW" />
                 </node>
                 <node concept="2YIFZM" id="2To5PNxIBxG" role="33vP2m">
-                  <ref role="1Pybhd" to="fnmy:2Jvt1sWfvHp" resolve="MethodResolveUtil" />
+                  <ref role="1Pybhc" to="fnmy:2Jvt1sWfvHp" resolve="MethodResolveUtil" />
                   <ref role="37wK5l" to="fnmy:6mBdlj31AFU" resolve="resolveMethod" />
                   <node concept="2GrUjf" id="2To5PNxIBxH" role="37wK5m">
                     <ref role="2Gs0qQ" node="2To5PNxIBxe" resolve="call" />
@@ -4132,10 +4135,10 @@
                             </node>
                             <node concept="2YIFZM" id="3xFfVLRkYtk" role="1m5AlR">
                               <ref role="37wK5l" node="79owz0bg4LP" resolve="transformType" />
-                              <ref role="1Pybhd" node="3xFfVLRkYdK" resolve="SootTransformer_Type" />
+                              <ref role="1Pybhc" node="3xFfVLRkYdK" resolve="SootTransformer_Type" />
                               <node concept="2YIFZM" id="1zG_gsNHvUw" role="37wK5m">
                                 <ref role="37wK5l" node="1zG_gsNHikr" resolve="createRefType" />
-                                <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+                                <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
                                 <node concept="2GrUjf" id="1zG_gsNHvUx" role="37wK5m">
                                   <ref role="2Gs0qQ" node="1zG_gsNHvUi" resolve="_interface" />
                                 </node>
@@ -4172,10 +4175,10 @@
                             </node>
                             <node concept="2YIFZM" id="3xFfVLRkYto" role="1m5AlR">
                               <ref role="37wK5l" node="79owz0bg4LP" resolve="transformType" />
-                              <ref role="1Pybhd" node="3xFfVLRkYdK" resolve="SootTransformer_Type" />
+                              <ref role="1Pybhc" node="3xFfVLRkYdK" resolve="SootTransformer_Type" />
                               <node concept="2YIFZM" id="1zG_gsNHlnX" role="37wK5m">
                                 <ref role="37wK5l" node="1zG_gsNHikr" resolve="createRefType" />
-                                <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+                                <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
                                 <node concept="2OqwBi" id="1zG_gsNHloq" role="37wK5m">
                                   <node concept="37vLTw" id="1zG_gsNHlor" role="2Oq$k0">
                                     <ref role="3cqZAo" node="7YWMZ8DrusG" resolve="input" />
@@ -4253,9 +4256,9 @@
                               </node>
                               <node concept="2YIFZM" id="3xFfVLRkYtr" role="1m5AlR">
                                 <ref role="37wK5l" node="79owz0bg4LP" resolve="transformType" />
-                                <ref role="1Pybhd" node="3xFfVLRkYdK" resolve="SootTransformer_Type" />
+                                <ref role="1Pybhc" node="3xFfVLRkYdK" resolve="SootTransformer_Type" />
                                 <node concept="2YIFZM" id="1zG_gsNHsmc" role="37wK5m">
-                                  <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+                                  <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
                                   <ref role="37wK5l" node="1zG_gsNHikr" resolve="createRefType" />
                                   <node concept="2GrUjf" id="1zG_gsNHsRM" role="37wK5m">
                                     <ref role="2Gs0qQ" node="1zG_gsNHfhh" resolve="_interface" />
@@ -4302,7 +4305,7 @@
                   </node>
                   <node concept="2YIFZM" id="3KIzNoUKX5S" role="3clFbw">
                     <ref role="37wK5l" to="3sjl:~Modifier.isAbstract(int):boolean" resolve="isAbstract" />
-                    <ref role="1Pybhd" to="3sjl:~Modifier" resolve="Modifier" />
+                    <ref role="1Pybhc" to="3sjl:~Modifier" resolve="Modifier" />
                     <node concept="2OqwBi" id="3KIzNoUKXoC" role="37wK5m">
                       <node concept="37vLTw" id="3KIzNoUKX78" role="2Oq$k0">
                         <ref role="3cqZAo" node="7YWMZ8DrusG" resolve="input" />
@@ -4338,7 +4341,7 @@
                   </node>
                   <node concept="2YIFZM" id="3KIzNoUL0yZ" role="3clFbw">
                     <ref role="37wK5l" to="3sjl:~Modifier.isFinal(int):boolean" resolve="isFinal" />
-                    <ref role="1Pybhd" to="3sjl:~Modifier" resolve="Modifier" />
+                    <ref role="1Pybhc" to="3sjl:~Modifier" resolve="Modifier" />
                     <node concept="2OqwBi" id="3KIzNoUL0z0" role="37wK5m">
                       <node concept="37vLTw" id="3KIzNoUL0z1" role="2Oq$k0">
                         <ref role="3cqZAo" node="7YWMZ8DrusG" resolve="input" />
@@ -4386,7 +4389,7 @@
               <node concept="37vLTI" id="4VnrxT9umt0" role="3clFbG">
                 <node concept="2YIFZM" id="3xFfVLRkMKN" role="37vLTx">
                   <ref role="37wK5l" node="4VnrxT9ufJA" resolve="transformVisibility" />
-                  <ref role="1Pybhd" node="3xFfVLRkMjN" resolve="SootTransformer_ClassMember" />
+                  <ref role="1Pybhc" node="3xFfVLRkMjN" resolve="SootTransformer_ClassMember" />
                   <node concept="2OqwBi" id="4VnrxT9umt2" role="37wK5m">
                     <node concept="37vLTw" id="4VnrxT9umt3" role="2Oq$k0">
                       <ref role="3cqZAo" node="7YWMZ8DrusG" resolve="input" />
@@ -4447,7 +4450,7 @@
                         </node>
                         <node concept="2YIFZM" id="3xFfVLRkMKU" role="1m5AlR">
                           <ref role="37wK5l" node="4pyiuE3u8yn" resolve="transformField" />
-                          <ref role="1Pybhd" node="3xFfVLRkMjN" resolve="SootTransformer_ClassMember" />
+                          <ref role="1Pybhc" node="3xFfVLRkMjN" resolve="SootTransformer_ClassMember" />
                           <node concept="2GrUjf" id="4pyiuE3uEBZ" role="37wK5m">
                             <ref role="2Gs0qQ" node="4pyiuE3uD0j" resolve="field" />
                           </node>
@@ -4484,7 +4487,7 @@
                     </node>
                     <node concept="2YIFZM" id="2To5PNxEeiC" role="33vP2m">
                       <ref role="37wK5l" node="2BNRyTOg9MY" resolve="transformMethodSignature" />
-                      <ref role="1Pybhd" node="3xFfVLRkMjN" resolve="SootTransformer_ClassMember" />
+                      <ref role="1Pybhc" node="3xFfVLRkMjN" resolve="SootTransformer_ClassMember" />
                       <node concept="2GrUjf" id="2To5PNxEeiD" role="37wK5m">
                         <ref role="2Gs0qQ" node="17hKM_4U0iP" resolve="method" />
                       </node>
@@ -4935,7 +4938,7 @@
               <ref role="3uigEE" node="7epptckvIRM" resolve="SootTransformer_Top.ResolveResult" />
             </node>
             <node concept="2YIFZM" id="7epptckvE5R" role="33vP2m">
-              <ref role="1Pybhd" to="fnmy:47AFxFGR3kx" resolve="RepositoryStateCacheUtils" />
+              <ref role="1Pybhc" to="fnmy:47AFxFGR3kx" resolve="RepositoryStateCacheUtils" />
               <ref role="37wK5l" to="fnmy:_HxOdnhk$K" resolve="getFromCache" />
               <node concept="Xl_RD" id="7epptckvE5S" role="37wK5m">
                 <property role="Xl_RC" value="Classifiers_scope" />
@@ -4945,28 +4948,215 @@
               </node>
               <node concept="1bVj0M" id="7epptckvL_9" role="37wK5m">
                 <node concept="3clFbS" id="7epptckvL_b" role="1bW5cS">
-                  <node concept="3cpWs8" id="7epptckyAPz" role="3cqZAp">
-                    <node concept="3cpWsn" id="7epptckyAP$" role="3cpWs9">
+                  <node concept="3cpWs8" id="5IJ1btmg2VF" role="3cqZAp">
+                    <node concept="3cpWsn" id="5IJ1btmg2VI" role="3cpWs9">
                       <property role="TrG5h" value="resolved" />
+                      <node concept="3Tqbb2" id="5IJ1btmg2VD" role="1tU5fm" />
+                      <node concept="10Nm6u" id="5IJ1btmg3ZU" role="33vP2m" />
+                    </node>
+                    <node concept="15s5l7" id="5IJ1btmgOOB" role="lGtFl">
+                      <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;" />
+                    </node>
+                  </node>
+                  <node concept="3cpWs8" id="5IJ1btmbgtZ" role="3cqZAp">
+                    <node concept="3cpWsn" id="5IJ1btmbgu0" role="3cpWs9">
+                      <property role="TrG5h" value="clazz" />
                       <property role="3TUv4t" value="true" />
-                      <node concept="3Tqbb2" id="7epptckyAPq" role="1tU5fm">
-                        <ref role="ehGHo" to="tpee:g7pOWCK" resolve="Classifier" />
-                      </node>
-                      <node concept="10QFUN" id="7epptckzqGP" role="33vP2m">
-                        <node concept="3Tqbb2" id="7epptckzr92" role="10QFUM">
-                          <ref role="ehGHo" to="tpee:g7pOWCK" resolve="Classifier" />
+                      <node concept="3uibUv" id="5IJ1btmbgtV" role="1tU5fm">
+                        <ref role="3uigEE" to="wyt6:~Class" resolve="Class" />
+                        <node concept="3uibUv" id="5IJ1btmbgtY" role="11_B2D">
+                          <ref role="3uigEE" to="fnmy:47k7VnvViZM" resolve="ClassifierResolveUtils" />
                         </node>
-                        <node concept="1DD5X$" id="7epptckyAP_" role="10QFUP">
-                          <ref role="1Pybhc" to="fnmy:47k7VnvViZM" resolve="ClassifierResolveUtils" />
-                          <ref role="37wK5l" to="fnmy:5fRKNW6tTv7" resolve="resolve" />
-                          <node concept="37vLTw" id="7epptckyAPA" role="37wK5m">
-                            <ref role="3cqZAo" node="7epptckvD$8" resolve="refText" />
+                      </node>
+                      <node concept="3VsKOn" id="5IJ1btmbgu1" role="33vP2m">
+                        <ref role="3VsUkX" to="fnmy:47k7VnvViZM" resolve="ClassifierResolveUtils" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="SfApY" id="5IJ1btm7f8I" role="3cqZAp">
+                    <node concept="3clFbS" id="5IJ1btm7f8K" role="SfCbr">
+                      <node concept="3cpWs8" id="5IJ1btmg5z6" role="3cqZAp">
+                        <node concept="3cpWsn" id="5IJ1btmg5z7" role="3cpWs9">
+                          <property role="TrG5h" value="resolveNonSpecialSyntaxMethod" />
+                          <property role="3TUv4t" value="true" />
+                          <node concept="3uibUv" id="5IJ1btmg5z8" role="1tU5fm">
+                            <ref role="3uigEE" to="t6h5:~Method" resolve="Method" />
                           </node>
-                          <node concept="37vLTw" id="7epptckyAPB" role="37wK5m">
-                            <ref role="3cqZAo" node="7epptckvD$h" resolve="classifier" />
+                          <node concept="2OqwBi" id="5IJ1btmg5z9" role="33vP2m">
+                            <node concept="37vLTw" id="5IJ1btmg5za" role="2Oq$k0">
+                              <ref role="3cqZAo" node="5IJ1btmbgu0" resolve="clazz" />
+                            </node>
+                            <node concept="liA8E" id="5IJ1btmg5zb" role="2OqNvi">
+                              <ref role="37wK5l" to="wyt6:~Class.getDeclaredMethod(java.lang.String,java.lang.Class...):java.lang.reflect.Method" resolve="getDeclaredMethod" />
+                              <node concept="Xl_RD" id="5IJ1btmg5zc" role="37wK5m">
+                                <property role="Xl_RC" value="resolveNonSpecialSyntax" />
+                              </node>
+                              <node concept="3VsKOn" id="5IJ1btmg5zd" role="37wK5m">
+                                <ref role="3VsUkX" to="wyt6:~String" resolve="String" />
+                              </node>
+                              <node concept="3VsKOn" id="5IJ1btmg5ze" role="37wK5m">
+                                <ref role="3VsUkX" to="mhbf:~SModel" resolve="SModel" />
+                              </node>
+                              <node concept="3VsKOn" id="5IJ1btmgdA9" role="37wK5m">
+                                <ref role="3VsUkX" to="o8zo:7ipADkTfyIz" resolve="ModelPlusImportedScope" />
+                              </node>
+                            </node>
                           </node>
-                          <node concept="37vLTw" id="7epptckyAPC" role="37wK5m">
-                            <ref role="3cqZAo" node="7epptckvD$e" resolve="includeAncestors" />
+                        </node>
+                      </node>
+                      <node concept="3clFbF" id="5IJ1btmgEpu" role="3cqZAp">
+                        <node concept="2OqwBi" id="5IJ1btmgF4$" role="3clFbG">
+                          <node concept="37vLTw" id="5IJ1btmgEps" role="2Oq$k0">
+                            <ref role="3cqZAo" node="5IJ1btmg5z7" resolve="resolveNonSpecialSyntaxMethod" />
+                          </node>
+                          <node concept="liA8E" id="5IJ1btmgG0R" role="2OqNvi">
+                            <ref role="37wK5l" to="t6h5:~AccessibleObject.setAccessible(boolean):void" resolve="setAccessible" />
+                            <node concept="3clFbT" id="5IJ1btmgGEO" role="37wK5m">
+                              <property role="3clFbU" value="true" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbF" id="5IJ1btmguNH" role="3cqZAp">
+                        <node concept="37vLTI" id="5IJ1btmgvsp" role="3clFbG">
+                          <node concept="10QFUN" id="5IJ1btmgwpL" role="37vLTx">
+                            <node concept="3Tqbb2" id="5IJ1btmgwpI" role="10QFUM" />
+                            <node concept="2OqwBi" id="5IJ1btmgk2G" role="10QFUP">
+                              <node concept="37vLTw" id="5IJ1btmgjl3" role="2Oq$k0">
+                                <ref role="3cqZAo" node="5IJ1btmg5z7" resolve="resolveNonSpecialSyntaxMethod" />
+                              </node>
+                              <node concept="liA8E" id="5IJ1btmgkN4" role="2OqNvi">
+                                <ref role="37wK5l" to="t6h5:~Method.invoke(java.lang.Object,java.lang.Object...):java.lang.Object" resolve="invoke" />
+                                <node concept="37vLTw" id="5IJ1btmgnMl" role="37wK5m">
+                                  <ref role="3cqZAo" node="7epptckvD$8" resolve="refText" />
+                                </node>
+                                <node concept="2OqwBi" id="5IJ1btmgpaA" role="37wK5m">
+                                  <node concept="37vLTw" id="5IJ1btmgo_j" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="7epptckvD$a" resolve="contextNode" />
+                                  </node>
+                                  <node concept="I4A8Y" id="5IJ1btmgpKI" role="2OqNvi" />
+                                </node>
+                                <node concept="2ShNRf" id="5IJ1btmgsAx" role="37wK5m">
+                                  <node concept="1pGfFk" id="5IJ1btmgsAy" role="2ShVmc">
+                                    <ref role="37wK5l" to="o8zo:4k9eBec$QVW" resolve="ModelPlusImportedScope" />
+                                    <node concept="2OqwBi" id="5IJ1btmgsAz" role="37wK5m">
+                                      <node concept="37vLTw" id="5IJ1btmgsA$" role="2Oq$k0">
+                                        <ref role="3cqZAo" node="7epptckvD$a" resolve="contextNode" />
+                                      </node>
+                                      <node concept="I4A8Y" id="5IJ1btmgsA_" role="2OqNvi" />
+                                    </node>
+                                    <node concept="3clFbT" id="5IJ1btmgsAA" role="37wK5m" />
+                                    <node concept="35c_gC" id="5IJ1btmgsAB" role="37wK5m">
+                                      <ref role="35c_gD" to="tpee:g7pOWCK" resolve="Classifier" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="37vLTw" id="5IJ1btmguNF" role="37vLTJ">
+                            <ref role="3cqZAo" node="5IJ1btmg2VI" resolve="resolved" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbJ" id="5IJ1btmg$9f" role="3cqZAp">
+                        <node concept="3clFbS" id="5IJ1btmg$9h" role="3clFbx">
+                          <node concept="3cpWs8" id="5IJ1btm7B7z" role="3cqZAp">
+                            <node concept="3cpWsn" id="5IJ1btm7B7$" role="3cpWs9">
+                              <property role="TrG5h" value="resolveMethod" />
+                              <property role="3TUv4t" value="true" />
+                              <node concept="3uibUv" id="5IJ1btm7B7u" role="1tU5fm">
+                                <ref role="3uigEE" to="t6h5:~Method" resolve="Method" />
+                              </node>
+                              <node concept="2OqwBi" id="5IJ1btm7B7_" role="33vP2m">
+                                <node concept="37vLTw" id="5IJ1btmbgu2" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="5IJ1btmbgu0" resolve="clazz" />
+                                </node>
+                                <node concept="liA8E" id="5IJ1btm7B7B" role="2OqNvi">
+                                  <ref role="37wK5l" to="wyt6:~Class.getDeclaredMethod(java.lang.String,java.lang.Class...):java.lang.reflect.Method" resolve="getDeclaredMethod" />
+                                  <node concept="Xl_RD" id="5IJ1btm7B7C" role="37wK5m">
+                                    <property role="Xl_RC" value="resolve" />
+                                  </node>
+                                  <node concept="3VsKOn" id="5IJ1btm7B7D" role="37wK5m">
+                                    <ref role="3VsUkX" to="wyt6:~String" resolve="String" />
+                                  </node>
+                                  <node concept="3VsKOn" id="5IJ1btm7B7E" role="37wK5m">
+                                    <ref role="3VsUkX" to="mhbf:~SNode" resolve="SNode" />
+                                  </node>
+                                  <node concept="229OVn" id="5IJ1btmc7yU" role="37wK5m">
+                                    <node concept="10P_77" id="5IJ1btmc7yS" role="229OVk" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3clFbF" id="5IJ1btmcY7y" role="3cqZAp">
+                            <node concept="2OqwBi" id="5IJ1btmcYCQ" role="3clFbG">
+                              <node concept="37vLTw" id="5IJ1btmcY7w" role="2Oq$k0">
+                                <ref role="3cqZAo" node="5IJ1btm7B7$" resolve="resolveMethod" />
+                              </node>
+                              <node concept="liA8E" id="5IJ1btmcZm0" role="2OqNvi">
+                                <ref role="37wK5l" to="t6h5:~AccessibleObject.setAccessible(boolean):void" resolve="setAccessible" />
+                                <node concept="3clFbT" id="5IJ1btmcZH4" role="37wK5m">
+                                  <property role="3clFbU" value="true" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3clFbF" id="5IJ1btmgHXY" role="3cqZAp">
+                            <node concept="37vLTI" id="5IJ1btmgIFf" role="3clFbG">
+                              <node concept="37vLTw" id="5IJ1btmgHXW" role="37vLTJ">
+                                <ref role="3cqZAo" node="5IJ1btmg2VI" resolve="resolved" />
+                              </node>
+                              <node concept="10QFUN" id="5IJ1btmgJgz" role="37vLTx">
+                                <node concept="2OqwBi" id="5IJ1btmgJg$" role="10QFUP">
+                                  <node concept="37vLTw" id="5IJ1btmgJg_" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="5IJ1btm7B7$" resolve="resolveMethod" />
+                                  </node>
+                                  <node concept="liA8E" id="5IJ1btmgJgA" role="2OqNvi">
+                                    <ref role="37wK5l" to="t6h5:~Method.invoke(java.lang.Object,java.lang.Object...):java.lang.Object" resolve="invoke" />
+                                    <node concept="10Nm6u" id="5IJ1btmgJgB" role="37wK5m" />
+                                    <node concept="37vLTw" id="5IJ1btmgJgC" role="37wK5m">
+                                      <ref role="3cqZAo" node="7epptckvD$8" resolve="refText" />
+                                    </node>
+                                    <node concept="37vLTw" id="5IJ1btmgJgD" role="37wK5m">
+                                      <ref role="3cqZAo" node="7epptckvD$h" resolve="classifier" />
+                                    </node>
+                                    <node concept="37vLTw" id="5IJ1btmgJgE" role="37wK5m">
+                                      <ref role="3cqZAo" node="7epptckvD$e" resolve="includeAncestors" />
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="3Tqbb2" id="5IJ1btmgJgF" role="10QFUM" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3clFbC" id="5IJ1btmgAHj" role="3clFbw">
+                          <node concept="37vLTw" id="5IJ1btmg$KL" role="3uHU7B">
+                            <ref role="3cqZAo" node="5IJ1btmg2VI" resolve="resolved" />
+                          </node>
+                          <node concept="10Nm6u" id="5IJ1btmgA4m" role="3uHU7w" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="TDmWw" id="5IJ1btm7f8L" role="TEbGg">
+                      <node concept="3cpWsn" id="5IJ1btm7f8N" role="TDEfY">
+                        <property role="TrG5h" value="e" />
+                        <property role="3TUv4t" value="true" />
+                        <node concept="3uibUv" id="5IJ1btm7fqA" role="1tU5fm">
+                          <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
+                        </node>
+                      </node>
+                      <node concept="3clFbS" id="5IJ1btm7f8R" role="TDEfX">
+                        <node concept="YS8fn" id="5IJ1btm7hY$" role="3cqZAp">
+                          <node concept="2ShNRf" id="5IJ1btm7hZ_" role="YScLw">
+                            <node concept="1pGfFk" id="5IJ1btm7yeK" role="2ShVmc">
+                              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
+                              <node concept="37vLTw" id="5IJ1btm7y$F" role="37wK5m">
+                                <ref role="3cqZAo" node="5IJ1btm7f8N" resolve="e" />
+                              </node>
+                            </node>
                           </node>
                         </node>
                       </node>
@@ -4976,8 +5166,13 @@
                     <node concept="2ShNRf" id="7epptckvJnr" role="3cqZAk">
                       <node concept="1pGfFk" id="7epptckvJnz" role="2ShVmc">
                         <ref role="37wK5l" node="7epptckvIRS" resolve="SootTransformer_Top.ResolveResult" />
-                        <node concept="37vLTw" id="7epptckyAPD" role="37wK5m">
-                          <ref role="3cqZAo" node="7epptckyAP$" resolve="resolved" />
+                        <node concept="1PxgMI" id="5IJ1btmgLSt" role="37wK5m">
+                          <node concept="chp4Y" id="5IJ1btmgMt0" role="3oSUPX">
+                            <ref role="cht4Q" to="tpee:g7pOWCK" resolve="Classifier" />
+                          </node>
+                          <node concept="37vLTw" id="5IJ1btmgL5I" role="1m5AlR">
+                            <ref role="3cqZAo" node="5IJ1btmg2VI" resolve="resolved" />
+                          </node>
                         </node>
                       </node>
                     </node>
@@ -4985,9 +5180,6 @@
                 </node>
               </node>
             </node>
-          </node>
-          <node concept="15s5l7" id="7epptckwMw2" role="lGtFl">
-            <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;" />
           </node>
         </node>
         <node concept="3cpWs6" id="7epptckvD$U" role="3cqZAp">
@@ -6863,7 +7055,7 @@
         </node>
         <node concept="3clFbF" id="59T8kI_QjcG" role="3cqZAp">
           <node concept="2YIFZM" id="59T8kI_Qjqy" role="3clFbG">
-            <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+            <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
             <ref role="37wK5l" node="59T8kI_LsGN" resolve="runInUIThreadWithCommand" />
             <node concept="1bVj0M" id="59T8kI_QleJ" role="37wK5m">
               <node concept="3clFbS" id="59T8kI_QleK" role="1bW5cS">
@@ -6877,7 +7069,7 @@
                     </node>
                     <node concept="2YIFZM" id="59T8kI_MjnC" role="33vP2m">
                       <ref role="37wK5l" node="59T8kI_Luin" resolve="getModelMap" />
-                      <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+                      <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
                       <node concept="2OqwBi" id="59T8kI_MjnD" role="37wK5m">
                         <node concept="2WthIp" id="59T8kI_MjnE" role="2Oq$k0" />
                         <node concept="1DTwFV" id="59T8kI_MjnF" role="2OqNvi">
@@ -6951,7 +7143,7 @@
                     <node concept="3clFbF" id="59T8kI_Mjg3" role="3cqZAp">
                       <node concept="2YIFZM" id="59T8kI_Mk7y" role="3clFbG">
                         <ref role="37wK5l" node="59T8kI_LAgW" resolve="deleteModel" />
-                        <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+                        <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
                         <node concept="2OqwBi" id="59T8kI_Mkav" role="37wK5m">
                           <node concept="2WthIp" id="59T8kI_Mkay" role="2Oq$k0" />
                           <node concept="1DTwFV" id="59T8kI_Mka$" role="2OqNvi">
@@ -6982,7 +7174,7 @@
                     <node concept="H_c77" id="5GlJOAAcF12" role="1tU5fm" />
                     <node concept="2YIFZM" id="5GlJOAAcF1c" role="33vP2m">
                       <ref role="37wK5l" node="5cMBPSsgWxL" resolve="getTemporaryModel" />
-                      <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+                      <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
                       <node concept="2OqwBi" id="5GlJOAAcF1d" role="37wK5m">
                         <node concept="2WthIp" id="5GlJOAAcF1e" role="2Oq$k0" />
                         <node concept="1DTwFV" id="5GlJOAAcF1f" role="2OqNvi">
@@ -7002,7 +7194,7 @@
                   <node concept="3clFbS" id="5GlJOAAcH$J" role="3clFbx">
                     <node concept="3clFbF" id="5GlJOAAaEuc" role="3cqZAp">
                       <node concept="2YIFZM" id="5GlJOAAaEud" role="3clFbG">
-                        <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+                        <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
                         <ref role="37wK5l" node="5GlJOAAcwo3" resolve="deleteModel" />
                         <node concept="2OqwBi" id="5GlJOAAaEue" role="37wK5m">
                           <node concept="2WthIp" id="5GlJOAAaEuf" role="2Oq$k0" />
@@ -7067,7 +7259,7 @@
             </node>
             <node concept="2YIFZM" id="5GlJOAAbM0d" role="33vP2m">
               <ref role="37wK5l" node="59T8kI_Luin" resolve="getModelMap" />
-              <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+              <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
               <node concept="2OqwBi" id="5GlJOAAbM0e" role="37wK5m">
                 <node concept="2WthIp" id="5GlJOAAbM0f" role="2Oq$k0" />
                 <node concept="1DTwFV" id="5GlJOAAbM0g" role="2OqNvi">
@@ -7126,7 +7318,7 @@
             <node concept="3y3z36" id="5GlJOAAcJr5" role="3uHU7w">
               <node concept="10Nm6u" id="5GlJOAAcJrH" role="3uHU7w" />
               <node concept="2YIFZM" id="5GlJOAAcJ2h" role="3uHU7B">
-                <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+                <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
                 <ref role="37wK5l" node="5cMBPSsgWxL" resolve="getTemporaryModel" />
                 <node concept="2OqwBi" id="5GlJOAAcJ2i" role="37wK5m">
                   <node concept="2WthIp" id="5GlJOAAcJ2j" role="2Oq$k0" />
@@ -7211,7 +7403,7 @@
                         <ref role="ehGHo" to="tpee:fz3vP1J" resolve="Expression" />
                       </node>
                       <node concept="2YIFZM" id="q$F6KxohAr" role="33vP2m">
-                        <ref role="1Pybhd" node="3xFfVLRkH5h" resolve="SootTransformer_Expression" />
+                        <ref role="1Pybhc" node="3xFfVLRkH5h" resolve="SootTransformer_Expression" />
                         <ref role="37wK5l" node="7XVdL9R9m4" resolve="transformValue" />
                         <node concept="1GhH$d" id="q$F6KxohAs" role="37wK5m">
                           <ref role="1GhH$c" node="q$F6Kxoilh" resolve="key" />
@@ -7321,7 +7513,7 @@
                                     <property role="2qtEX9" value="value" />
                                     <property role="3hQQBS" value="IntegerConstant" />
                                     <node concept="2YIFZM" id="q$F6KxohB0" role="2c44t1">
-                                      <ref role="1Pybhd" to="wyt6:~Integer" resolve="Integer" />
+                                      <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
                                       <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />
                                       <node concept="37vLTw" id="q$F6Kxo$rw" role="37wK5m">
                                         <ref role="3cqZAo" node="q$F6Kxox2A" resolve="lookupValue" />
@@ -7504,7 +7696,7 @@
                             <node concept="2c44te" id="17hKM_4PrGq" role="lGtFl">
                               <node concept="2YIFZM" id="3xFfVLRkHXM" role="2c44t1">
                                 <ref role="37wK5l" node="7XVdL9R9m4" resolve="transformValue" />
-                                <ref role="1Pybhd" node="3xFfVLRkH5h" resolve="SootTransformer_Expression" />
+                                <ref role="1Pybhc" node="3xFfVLRkH5h" resolve="SootTransformer_Expression" />
                                 <node concept="1GhH$d" id="3xFfVLRkG$2" role="37wK5m">
                                   <ref role="1GhH$c" node="1zG_gsNNrMd" resolve="value" />
                                 </node>
@@ -7590,7 +7782,7 @@
                               <node concept="2c44te" id="zhZIgb_3Kb" role="lGtFl">
                                 <node concept="2YIFZM" id="3xFfVLRkHYm" role="2c44t1">
                                   <ref role="37wK5l" node="1zG_gsNMJIx" resolve="transformValue" />
-                                  <ref role="1Pybhd" node="3xFfVLRkH5h" resolve="SootTransformer_Expression" />
+                                  <ref role="1Pybhc" node="3xFfVLRkH5h" resolve="SootTransformer_Expression" />
                                   <node concept="1GhH$d" id="3xFfVLRkGzH" role="37wK5m">
                                     <ref role="1GhH$c" node="1zG_gsNQzAD" resolve="right" />
                                   </node>
@@ -7608,7 +7800,7 @@
                               <node concept="2c44te" id="zhZIgb_3Kg" role="lGtFl">
                                 <node concept="2YIFZM" id="3xFfVLRkHXW" role="2c44t1">
                                   <ref role="37wK5l" node="1zG_gsNMJIx" resolve="transformValue" />
-                                  <ref role="1Pybhd" node="3xFfVLRkH5h" resolve="SootTransformer_Expression" />
+                                  <ref role="1Pybhc" node="3xFfVLRkH5h" resolve="SootTransformer_Expression" />
                                   <node concept="1GhH$d" id="3xFfVLRkG$n" role="37wK5m">
                                     <ref role="1GhH$c" node="1zG_gsNQy_L" resolve="left" />
                                   </node>
@@ -7706,7 +7898,7 @@
                               <node concept="2c44te" id="17hKM_4PwdA" role="lGtFl">
                                 <node concept="2YIFZM" id="3xFfVLRkHYj" role="2c44t1">
                                   <ref role="37wK5l" node="1zG_gsNMJIx" resolve="transformValue" />
-                                  <ref role="1Pybhd" node="3xFfVLRkH5h" resolve="SootTransformer_Expression" />
+                                  <ref role="1Pybhc" node="3xFfVLRkH5h" resolve="SootTransformer_Expression" />
                                   <node concept="1GhH$d" id="3xFfVLRkG$Y" role="37wK5m">
                                     <ref role="1GhH$c" node="1zG_gsNQO6L" resolve="right" />
                                   </node>
@@ -7724,7 +7916,7 @@
                               <node concept="2c44te" id="17hKM_4PwdF" role="lGtFl">
                                 <node concept="2YIFZM" id="3xFfVLRkHYa" role="2c44t1">
                                   <ref role="37wK5l" node="1zG_gsNMJIx" resolve="transformValue" />
-                                  <ref role="1Pybhd" node="3xFfVLRkH5h" resolve="SootTransformer_Expression" />
+                                  <ref role="1Pybhc" node="3xFfVLRkH5h" resolve="SootTransformer_Expression" />
                                   <node concept="1GhH$d" id="3xFfVLRkG$b" role="37wK5m">
                                     <ref role="1GhH$c" node="1zG_gsNQO6I" resolve="left" />
                                   </node>
@@ -7818,7 +8010,7 @@
                       </node>
                       <node concept="2YIFZM" id="3xFfVLRkHXw" role="33vP2m">
                         <ref role="37wK5l" node="7XVdL9R9m4" resolve="transformValue" />
-                        <ref role="1Pybhd" node="3xFfVLRkH5h" resolve="SootTransformer_Expression" />
+                        <ref role="1Pybhc" node="3xFfVLRkH5h" resolve="SootTransformer_Expression" />
                         <node concept="1GhH$d" id="3xFfVLRkG$G" role="37wK5m">
                           <ref role="1GhH$c" node="79KKQh31XwV" resolve="condition" />
                         </node>
@@ -7967,7 +8159,7 @@
                             <node concept="2c44te" id="17hKM_4PHZl" role="lGtFl">
                               <node concept="2YIFZM" id="3xFfVLRkHXG" role="2c44t1">
                                 <ref role="37wK5l" node="7XVdL9R9m4" resolve="transformValue" />
-                                <ref role="1Pybhd" node="3xFfVLRkH5h" resolve="SootTransformer_Expression" />
+                                <ref role="1Pybhc" node="3xFfVLRkH5h" resolve="SootTransformer_Expression" />
                                 <node concept="1GhH$d" id="3xFfVLRkGzT" role="37wK5m">
                                   <ref role="1GhH$c" node="7MqY1ac7Z$Q" resolve="expr" />
                                 </node>
@@ -8012,7 +8204,7 @@
                             <node concept="2c44te" id="59T8kI_DRWd" role="lGtFl">
                               <node concept="2YIFZM" id="3xFfVLRkHXI" role="2c44t1">
                                 <ref role="37wK5l" node="7XVdL9R9m4" resolve="transformValue" />
-                                <ref role="1Pybhd" node="3xFfVLRkH5h" resolve="SootTransformer_Expression" />
+                                <ref role="1Pybhc" node="3xFfVLRkH5h" resolve="SootTransformer_Expression" />
                                 <node concept="1GhH$d" id="3xFfVLRkG$z" role="37wK5m">
                                   <ref role="1GhH$c" node="59T8kI_DRi8" resolve="op" />
                                 </node>
@@ -8057,7 +8249,7 @@
                             <node concept="2c44te" id="59T8kI_STaM" role="lGtFl">
                               <node concept="2YIFZM" id="3xFfVLRkHXx" role="2c44t1">
                                 <ref role="37wK5l" node="7XVdL9R9m4" resolve="transformValue" />
-                                <ref role="1Pybhd" node="3xFfVLRkH5h" resolve="SootTransformer_Expression" />
+                                <ref role="1Pybhc" node="3xFfVLRkH5h" resolve="SootTransformer_Expression" />
                                 <node concept="1GhH$d" id="3xFfVLRkG$P" role="37wK5m">
                                   <ref role="1GhH$c" node="59T8kI_SL34" resolve="op" />
                                 </node>
@@ -8102,7 +8294,7 @@
                             <node concept="2c44te" id="59T8kI_SWFs" role="lGtFl">
                               <node concept="2YIFZM" id="3xFfVLRkHXK" role="2c44t1">
                                 <ref role="37wK5l" node="7XVdL9R9m4" resolve="transformValue" />
-                                <ref role="1Pybhd" node="3xFfVLRkH5h" resolve="SootTransformer_Expression" />
+                                <ref role="1Pybhc" node="3xFfVLRkH5h" resolve="SootTransformer_Expression" />
                                 <node concept="1GhH$d" id="3xFfVLRkG_a" role="37wK5m">
                                   <ref role="1GhH$c" node="59T8kI_STmL" resolve="op" />
                                 </node>
@@ -8164,7 +8356,7 @@
                       </node>
                       <node concept="2YIFZM" id="6Ab4H5GacUg" role="33vP2m">
                         <ref role="37wK5l" node="7XVdL9R9m4" resolve="transformValue" />
-                        <ref role="1Pybhd" node="3xFfVLRkH5h" resolve="SootTransformer_Expression" />
+                        <ref role="1Pybhc" node="3xFfVLRkH5h" resolve="SootTransformer_Expression" />
                         <node concept="1GhH$d" id="6Ab4H5GacUh" role="37wK5m">
                           <ref role="1GhH$c" node="6Ab4H5GabYP" resolve="key" />
                         </node>
@@ -8257,7 +8449,7 @@
                                     <property role="3hQQBS" value="IntegerConstant" />
                                     <node concept="2YIFZM" id="6Ab4H5Ga$3H" role="2c44t1">
                                       <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />
-                                      <ref role="1Pybhd" to="wyt6:~Integer" resolve="Integer" />
+                                      <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
                                       <node concept="37vLTw" id="6Ab4H5Ga$5s" role="37wK5m">
                                         <ref role="3cqZAo" node="6Ab4H5GaesZ" resolve="i" />
                                       </node>
@@ -8625,7 +8817,7 @@
                         <node concept="2c44te" id="17hKM_4PIyD" role="lGtFl">
                           <node concept="2YIFZM" id="3xFfVLRkYtu" role="2c44t1">
                             <ref role="37wK5l" node="79owz0bg4LP" resolve="transformType" />
-                            <ref role="1Pybhd" node="3xFfVLRkYdK" resolve="SootTransformer_Type" />
+                            <ref role="1Pybhc" node="3xFfVLRkYdK" resolve="SootTransformer_Type" />
                             <node concept="1GhH$d" id="3xFfVLRkG_j" role="37wK5m">
                               <ref role="1GhH$c" node="79KKQh2TRFF" resolve="type" />
                             </node>
@@ -8938,7 +9130,7 @@
                         <property role="3hQQBS" value="FloatingPointConstant" />
                         <node concept="2YIFZM" id="3KIzNoUGS9b" role="2c44t1">
                           <ref role="37wK5l" to="wyt6:~Float.toString(float):java.lang.String" resolve="toString" />
-                          <ref role="1Pybhd" to="wyt6:~Float" resolve="Float" />
+                          <ref role="1Pybhc" to="wyt6:~Float" resolve="Float" />
                           <node concept="2OqwBi" id="3KIzNoUGST3" role="37wK5m">
                             <node concept="1GhH$d" id="3KIzNoUGSeX" role="2Oq$k0">
                               <ref role="1GhH$c" node="3KIzNoUGK9T" resolve="it" />
@@ -9062,7 +9254,7 @@
                               <property role="3hQQBS" value="IntegerConstant" />
                               <node concept="2YIFZM" id="17hKM_4Od9H" role="2c44t1">
                                 <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />
-                                <ref role="1Pybhd" to="wyt6:~Integer" resolve="Integer" />
+                                <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
                                 <node concept="2OqwBi" id="17hKM_4Odlv" role="37wK5m">
                                   <node concept="1GhH$d" id="17hKM_4Odlw" role="2Oq$k0">
                                     <ref role="1GhH$c" node="1zG_gsNMSfO" resolve="it" />
@@ -9106,7 +9298,7 @@
                             <property role="Xl_RC" value="l" />
                           </node>
                           <node concept="2YIFZM" id="17hKM_4OhdG" role="3uHU7B">
-                            <ref role="1Pybhd" to="wyt6:~Long" resolve="Long" />
+                            <ref role="1Pybhc" to="wyt6:~Long" resolve="Long" />
                             <ref role="37wK5l" to="wyt6:~Long.toString(long):java.lang.String" resolve="toString" />
                             <node concept="2OqwBi" id="17hKM_4Oish" role="37wK5m">
                               <node concept="1GhH$d" id="17hKM_4OhAn" role="2Oq$k0">
@@ -9144,7 +9336,7 @@
                         <property role="3hQQBS" value="FloatingPointConstant" />
                         <node concept="2YIFZM" id="17hKM_4QQzO" role="2c44t1">
                           <ref role="37wK5l" to="wyt6:~Double.toString(double):java.lang.String" resolve="toString" />
-                          <ref role="1Pybhd" to="wyt6:~Double" resolve="Double" />
+                          <ref role="1Pybhc" to="wyt6:~Double" resolve="Double" />
                           <node concept="2OqwBi" id="17hKM_4QPVb" role="37wK5m">
                             <node concept="1GhH$d" id="17hKM_4QPVc" role="2Oq$k0">
                               <ref role="1GhH$c" node="1zG_gsNNdxH" resolve="it" />
@@ -10397,7 +10589,7 @@
                         <node concept="36biLy" id="79KKQh31Lpv" role="2pJxcZ">
                           <node concept="2YIFZM" id="3xFfVLRkYts" role="36biLW">
                             <ref role="37wK5l" node="79owz0bg4LP" resolve="transformType" />
-                            <ref role="1Pybhd" node="3xFfVLRkYdK" resolve="SootTransformer_Type" />
+                            <ref role="1Pybhc" node="3xFfVLRkYdK" resolve="SootTransformer_Type" />
                             <node concept="1GhH$d" id="79KKQh31LsT" role="37wK5m">
                               <ref role="1GhH$c" node="79KKQh31L4q" resolve="type" />
                             </node>
@@ -10498,7 +10690,7 @@
                     <ref role="ehGHo" to="tpee:g7pOWCK" resolve="Classifier" />
                   </node>
                   <node concept="2YIFZM" id="3xFfVLRlc7R" role="33vP2m">
-                    <ref role="1Pybhd" node="7YWMZ8Dru4A" resolve="SootTransformer_Top" />
+                    <ref role="1Pybhc" node="7YWMZ8Dru4A" resolve="SootTransformer_Top" />
                     <ref role="37wK5l" node="7YWMZ8DrukL" resolve="transformClass" />
                     <node concept="37vLTw" id="3xFfVLRlc7S" role="37wK5m">
                       <ref role="3cqZAo" node="7MqY1ac0FIs" resolve="clazz" />
@@ -10726,7 +10918,7 @@
                     <ref role="ehGHo" to="tpee:g7pOWCK" resolve="Classifier" />
                   </node>
                   <node concept="2YIFZM" id="3xFfVLRlcfk" role="33vP2m">
-                    <ref role="1Pybhd" node="7YWMZ8Dru4A" resolve="SootTransformer_Top" />
+                    <ref role="1Pybhc" node="7YWMZ8Dru4A" resolve="SootTransformer_Top" />
                     <ref role="37wK5l" node="7YWMZ8DrukL" resolve="transformClass" />
                     <node concept="37vLTw" id="3xFfVLRlcfl" role="37wK5m">
                       <ref role="3cqZAo" node="17hKM_4OGKH" resolve="clazz" />
@@ -10920,7 +11112,7 @@
                     <ref role="ehGHo" to="tpee:g7pOWCK" resolve="Classifier" />
                   </node>
                   <node concept="2YIFZM" id="4E7bgtNzw4Q" role="33vP2m">
-                    <ref role="1Pybhd" node="7YWMZ8Dru4A" resolve="SootTransformer_Top" />
+                    <ref role="1Pybhc" node="7YWMZ8Dru4A" resolve="SootTransformer_Top" />
                     <ref role="37wK5l" node="7YWMZ8DrukL" resolve="transformClass" />
                     <node concept="2OqwBi" id="4E7bgtNzw4R" role="37wK5m">
                       <node concept="1GhH$d" id="4E7bgtNzw4S" role="2Oq$k0">
@@ -11275,7 +11467,7 @@
                     </node>
                   </node>
                   <node concept="2YIFZM" id="3xFfVLRlcft" role="37vLTx">
-                    <ref role="1Pybhd" node="7YWMZ8Dru4A" resolve="SootTransformer_Top" />
+                    <ref role="1Pybhc" node="7YWMZ8Dru4A" resolve="SootTransformer_Top" />
                     <ref role="37wK5l" node="7YWMZ8DrukL" resolve="transformClass" />
                     <node concept="37vLTw" id="3xFfVLRlcfu" role="37wK5m">
                       <ref role="3cqZAo" node="17hKM_4FCpG" resolve="clazz" />
@@ -11356,7 +11548,7 @@
                     <ref role="ehGHo" to="tpee:g7pOWCK" resolve="Classifier" />
                   </node>
                   <node concept="2YIFZM" id="3xFfVLRlcf0" role="33vP2m">
-                    <ref role="1Pybhd" node="7YWMZ8Dru4A" resolve="SootTransformer_Top" />
+                    <ref role="1Pybhc" node="7YWMZ8Dru4A" resolve="SootTransformer_Top" />
                     <ref role="37wK5l" node="7YWMZ8DrukL" resolve="transformClass" />
                     <node concept="37vLTw" id="3xFfVLRlcf1" role="37wK5m">
                       <ref role="3cqZAo" node="7MqY1ac8Yf9" resolve="clazz" />
@@ -11671,7 +11863,7 @@
                     <ref role="ehGHo" to="tpee:g7pOWCK" resolve="Classifier" />
                   </node>
                   <node concept="2YIFZM" id="3xFfVLRlcfb" role="33vP2m">
-                    <ref role="1Pybhd" node="7YWMZ8Dru4A" resolve="SootTransformer_Top" />
+                    <ref role="1Pybhc" node="7YWMZ8Dru4A" resolve="SootTransformer_Top" />
                     <ref role="37wK5l" node="7YWMZ8DrukL" resolve="transformClass" />
                     <node concept="37vLTw" id="3xFfVLRlcfc" role="37wK5m">
                       <ref role="3cqZAo" node="17hKM_4OmEQ" resolve="clazz" />
@@ -11839,7 +12031,7 @@
                           <node concept="2c44te" id="7XVdL9PUpf" role="lGtFl">
                             <node concept="2YIFZM" id="3xFfVLRkYtt" role="2c44t1">
                               <ref role="37wK5l" node="79owz0bg4LP" resolve="transformType" />
-                              <ref role="1Pybhd" node="3xFfVLRkYdK" resolve="SootTransformer_Type" />
+                              <ref role="1Pybhc" node="3xFfVLRkYdK" resolve="SootTransformer_Type" />
                               <node concept="1GhH$d" id="17hKM_4OBWM" role="37wK5m">
                                 <ref role="1GhH$c" node="17hKM_4Oy$N" resolve="type" />
                               </node>
@@ -11905,7 +12097,7 @@
                 <node concept="37vLTI" id="1rL2BCrcWdb" role="3clFbG">
                   <node concept="2YIFZM" id="1rL2BCrcWhj" role="37vLTx">
                     <ref role="37wK5l" node="79owz0bg4LP" resolve="transformType" />
-                    <ref role="1Pybhd" node="3xFfVLRkYdK" resolve="SootTransformer_Type" />
+                    <ref role="1Pybhc" node="3xFfVLRkYdK" resolve="SootTransformer_Type" />
                     <node concept="1GhH$d" id="1rL2BCrcWkZ" role="37wK5m">
                       <ref role="1GhH$c" node="1rL2BCrcImi" resolve="type" />
                     </node>
@@ -12132,7 +12324,7 @@
                   </node>
                   <node concept="2YIFZM" id="2To5PNxZD$d" role="37vLTx">
                     <ref role="37wK5l" node="79owz0bg4LP" resolve="transformType" />
-                    <ref role="1Pybhd" node="3xFfVLRkYdK" resolve="SootTransformer_Type" />
+                    <ref role="1Pybhc" node="3xFfVLRkYdK" resolve="SootTransformer_Type" />
                     <node concept="1GhH$d" id="2To5PNxZD$e" role="37wK5m">
                       <ref role="1GhH$c" node="59T8kI_FFik" resolve="type" />
                     </node>
@@ -13212,7 +13404,7 @@
                           <ref role="ehGHo" to="tpee:g7pOWCK" resolve="Classifier" />
                         </node>
                         <node concept="2YIFZM" id="3xFfVLRlceR" role="33vP2m">
-                          <ref role="1Pybhd" node="7YWMZ8Dru4A" resolve="SootTransformer_Top" />
+                          <ref role="1Pybhc" node="7YWMZ8Dru4A" resolve="SootTransformer_Top" />
                           <ref role="37wK5l" node="1VByUoAG6Vp" resolve="lookUpClass" />
                           <node concept="1GhH$d" id="3xFfVLRlceS" role="37wK5m">
                             <ref role="1GhH$c" node="1VByUoADEzQ" resolve="value" />
@@ -14110,7 +14302,7 @@
                             </node>
                             <node concept="2YIFZM" id="79DGmuvtnyg" role="33vP2m">
                               <ref role="37wK5l" node="79owz0bg4LP" resolve="transformType" />
-                              <ref role="1Pybhd" node="3xFfVLRkYdK" resolve="SootTransformer_Type" />
+                              <ref role="1Pybhc" node="3xFfVLRkYdK" resolve="SootTransformer_Type" />
                               <node concept="37vLTw" id="79DGmuvtnyh" role="37wK5m">
                                 <ref role="3cqZAo" node="79DGmuvtn9c" resolve="actualRawType" />
                               </node>
@@ -14266,7 +14458,7 @@
           </node>
           <node concept="2YIFZM" id="4VnrxT9ugg0" role="3clFbw">
             <ref role="37wK5l" to="3sjl:~Modifier.isPublic(int):boolean" resolve="isPublic" />
-            <ref role="1Pybhd" to="3sjl:~Modifier" resolve="Modifier" />
+            <ref role="1Pybhc" to="3sjl:~Modifier" resolve="Modifier" />
             <node concept="37vLTw" id="4VnrxT9ughB" role="37wK5m">
               <ref role="3cqZAo" node="4VnrxT9ufTe" resolve="modifiers" />
             </node>
@@ -14285,7 +14477,7 @@
             </node>
             <node concept="2YIFZM" id="4VnrxT9ugAl" role="3eO9$A">
               <ref role="37wK5l" to="3sjl:~Modifier.isProtected(int):boolean" resolve="isProtected" />
-              <ref role="1Pybhd" to="3sjl:~Modifier" resolve="Modifier" />
+              <ref role="1Pybhc" to="3sjl:~Modifier" resolve="Modifier" />
               <node concept="37vLTw" id="4VnrxT9ugCW" role="37wK5m">
                 <ref role="3cqZAo" node="4VnrxT9ufTe" resolve="modifiers" />
               </node>
@@ -14294,7 +14486,7 @@
           <node concept="3eNFk2" id="4VnrxT9ugIK" role="3eNLev">
             <node concept="2YIFZM" id="4VnrxT9ugQk" role="3eO9$A">
               <ref role="37wK5l" to="3sjl:~Modifier.isPrivate(int):boolean" resolve="isPrivate" />
-              <ref role="1Pybhd" to="3sjl:~Modifier" resolve="Modifier" />
+              <ref role="1Pybhc" to="3sjl:~Modifier" resolve="Modifier" />
               <node concept="37vLTw" id="4VnrxT9ugTU" role="37wK5m">
                 <ref role="3cqZAo" node="4VnrxT9ufTe" resolve="modifiers" />
               </node>
@@ -14671,7 +14863,7 @@
                     </node>
                     <node concept="2YIFZM" id="3xFfVLRk$Hc" role="33vP2m">
                       <ref role="37wK5l" node="79KKQh2TPNn" resolve="transformLocal" />
-                      <ref role="1Pybhd" node="3xFfVLRkzP$" resolve="SootTransformer_Statement" />
+                      <ref role="1Pybhc" node="3xFfVLRkzP$" resolve="SootTransformer_Statement" />
                       <node concept="2GrUjf" id="17hKM_4ZA4M" role="37wK5m">
                         <ref role="2Gs0qQ" node="17hKM_4ZA4D" resolve="local" />
                       </node>
@@ -14738,7 +14930,7 @@
                     </node>
                     <node concept="2YIFZM" id="3xFfVLRk$Ha" role="33vP2m">
                       <ref role="37wK5l" node="1zG_gsNJTsT" resolve="transformUnit" />
-                      <ref role="1Pybhd" node="3xFfVLRkzP$" resolve="SootTransformer_Statement" />
+                      <ref role="1Pybhc" node="3xFfVLRkzP$" resolve="SootTransformer_Statement" />
                       <node concept="2GrUjf" id="17hKM_4ZA5o" role="37wK5m">
                         <ref role="2Gs0qQ" node="17hKM_4ZA54" resolve="unit" />
                       </node>
@@ -15003,7 +15195,7 @@
             </node>
             <node concept="2YIFZM" id="3KIzNoUJjvT" role="3uHU7w">
               <ref role="37wK5l" to="3sjl:~Modifier.isAbstract(int):boolean" resolve="isAbstract" />
-              <ref role="1Pybhd" to="3sjl:~Modifier" resolve="Modifier" />
+              <ref role="1Pybhc" to="3sjl:~Modifier" resolve="Modifier" />
               <node concept="2OqwBi" id="3KIzNoUJjvU" role="37wK5m">
                 <node concept="37vLTw" id="3KIzNoUJjvV" role="2Oq$k0">
                   <ref role="3cqZAo" node="3uHqybNawkI" resolve="input" />
@@ -15052,7 +15244,7 @@
             </node>
             <node concept="2YIFZM" id="3KIzNoULgEA" role="3uHU7w">
               <ref role="37wK5l" to="3sjl:~Modifier.isNative(int):boolean" resolve="isNative" />
-              <ref role="1Pybhd" to="3sjl:~Modifier" resolve="Modifier" />
+              <ref role="1Pybhc" to="3sjl:~Modifier" resolve="Modifier" />
               <node concept="2OqwBi" id="3KIzNoULgEB" role="37wK5m">
                 <node concept="37vLTw" id="3KIzNoULgEC" role="2Oq$k0">
                   <ref role="3cqZAo" node="3uHqybNawkI" resolve="input" />
@@ -15090,7 +15282,7 @@
           </node>
           <node concept="2YIFZM" id="3KIzNoUL8L6" role="3clFbw">
             <ref role="37wK5l" to="3sjl:~Modifier.isFinal(int):boolean" resolve="isFinal" />
-            <ref role="1Pybhd" to="3sjl:~Modifier" resolve="Modifier" />
+            <ref role="1Pybhc" to="3sjl:~Modifier" resolve="Modifier" />
             <node concept="2OqwBi" id="3KIzNoUL8L7" role="37wK5m">
               <node concept="37vLTw" id="3KIzNoUL8L8" role="2Oq$k0">
                 <ref role="3cqZAo" node="3uHqybNawkI" resolve="input" />
@@ -15127,7 +15319,7 @@
           </node>
           <node concept="2YIFZM" id="3KIzNoULblM" role="3clFbw">
             <ref role="37wK5l" to="3sjl:~Modifier.isSynchronized(int):boolean" resolve="isSynchronized" />
-            <ref role="1Pybhd" to="3sjl:~Modifier" resolve="Modifier" />
+            <ref role="1Pybhc" to="3sjl:~Modifier" resolve="Modifier" />
             <node concept="2OqwBi" id="3KIzNoULblN" role="37wK5m">
               <node concept="37vLTw" id="3KIzNoULblO" role="2Oq$k0">
                 <ref role="3cqZAo" node="3uHqybNawkI" resolve="input" />
@@ -15206,7 +15398,7 @@
               <node concept="37vLTI" id="79owz0bgL5T" role="3clFbG">
                 <node concept="2YIFZM" id="3xFfVLRkYtp" role="37vLTx">
                   <ref role="37wK5l" node="79owz0bg4LP" resolve="transformType" />
-                  <ref role="1Pybhd" node="3xFfVLRkYdK" resolve="SootTransformer_Type" />
+                  <ref role="1Pybhc" node="3xFfVLRkYdK" resolve="SootTransformer_Type" />
                   <node concept="2OqwBi" id="79owz0bgL_J" role="37wK5m">
                     <node concept="37vLTw" id="79owz0bgLmD" role="2Oq$k0">
                       <ref role="3cqZAo" node="3uHqybNawkI" resolve="input" />
@@ -15301,7 +15493,7 @@
                         <node concept="36biLy" id="2BNRyTOeeUN" role="2pJxcZ">
                           <node concept="2YIFZM" id="3xFfVLRkYtm" role="36biLW">
                             <ref role="37wK5l" node="79owz0bg4LP" resolve="transformType" />
-                            <ref role="1Pybhd" node="3xFfVLRkYdK" resolve="SootTransformer_Type" />
+                            <ref role="1Pybhc" node="3xFfVLRkYdK" resolve="SootTransformer_Type" />
                             <node concept="2OqwBi" id="2BNRyTOeffH" role="37wK5m">
                               <node concept="37vLTw" id="2BNRyTOef0H" role="2Oq$k0">
                                 <ref role="3cqZAo" node="3uHqybNawkI" resolve="input" />
@@ -15380,7 +15572,7 @@
                 </node>
                 <node concept="2YIFZM" id="3xFfVLRniSH" role="33vP2m">
                   <ref role="37wK5l" node="7YWMZ8DrukL" resolve="transformClass" />
-                  <ref role="1Pybhd" node="7YWMZ8Dru4A" resolve="SootTransformer_Top" />
+                  <ref role="1Pybhc" node="7YWMZ8Dru4A" resolve="SootTransformer_Top" />
                   <node concept="2GrUjf" id="17hKM_4LTI2" role="37wK5m">
                     <ref role="2Gs0qQ" node="17hKM_4LHDa" resolve="_throw" />
                   </node>
@@ -15588,7 +15780,7 @@
                         </node>
                         <node concept="2YIFZM" id="3xFfVLRk$Hd" role="33vP2m">
                           <ref role="37wK5l" node="79KKQh2TPNn" resolve="transformLocal" />
-                          <ref role="1Pybhd" node="3xFfVLRkzP$" resolve="SootTransformer_Statement" />
+                          <ref role="1Pybhc" node="3xFfVLRkzP$" resolve="SootTransformer_Statement" />
                           <node concept="2GrUjf" id="17hKM_4ZWZn" role="37wK5m">
                             <ref role="2Gs0qQ" node="17hKM_4ZWZe" resolve="local" />
                           </node>
@@ -15650,7 +15842,7 @@
                         </node>
                         <node concept="2YIFZM" id="3xFfVLRk$H6" role="33vP2m">
                           <ref role="37wK5l" node="1zG_gsNJTsT" resolve="transformUnit" />
-                          <ref role="1Pybhd" node="3xFfVLRkzP$" resolve="SootTransformer_Statement" />
+                          <ref role="1Pybhc" node="3xFfVLRkzP$" resolve="SootTransformer_Statement" />
                           <node concept="2GrUjf" id="17hKM_4ZWZX" role="37wK5m">
                             <ref role="2Gs0qQ" node="17hKM_4ZWZD" resolve="unit" />
                           </node>
@@ -15719,7 +15911,7 @@
                             </node>
                             <node concept="2YIFZM" id="3xFfVLRk$H9" role="33vP2m">
                               <ref role="37wK5l" node="1zG_gsNJTsT" resolve="transformUnit" />
-                              <ref role="1Pybhd" node="3xFfVLRkzP$" resolve="SootTransformer_Statement" />
+                              <ref role="1Pybhc" node="3xFfVLRkzP$" resolve="SootTransformer_Statement" />
                               <node concept="2OqwBi" id="7XVdL9X4Mj" role="37wK5m">
                                 <node concept="2GrUjf" id="7XVdL9X4Mk" role="2Oq$k0">
                                   <ref role="2Gs0qQ" node="7XVdL9X0OG" resolve="trap" />
@@ -15847,7 +16039,7 @@
                                 </node>
                                 <node concept="2YIFZM" id="3xFfVLRk$Hb" role="33vP2m">
                                   <ref role="37wK5l" node="1zG_gsNJTsT" resolve="transformUnit" />
-                                  <ref role="1Pybhd" node="3xFfVLRkzP$" resolve="SootTransformer_Statement" />
+                                  <ref role="1Pybhc" node="3xFfVLRkzP$" resolve="SootTransformer_Statement" />
                                   <node concept="37vLTw" id="7XVdL9XvRV" role="37wK5m">
                                     <ref role="3cqZAo" node="7XVdL9X8Tb" resolve="current" />
                                   </node>
@@ -15903,7 +16095,7 @@
                                   <ref role="ehGHo" to="tpee:g7pOWCK" resolve="Classifier" />
                                 </node>
                                 <node concept="2YIFZM" id="3xFfVLRl3i7" role="33vP2m">
-                                  <ref role="1Pybhd" node="7YWMZ8Dru4A" resolve="SootTransformer_Top" />
+                                  <ref role="1Pybhc" node="7YWMZ8Dru4A" resolve="SootTransformer_Top" />
                                   <ref role="37wK5l" node="7YWMZ8DrukL" resolve="transformClass" />
                                   <node concept="2OqwBi" id="3xFfVLRl3i8" role="37wK5m">
                                     <node concept="2GrUjf" id="3xFfVLRl3i9" role="2Oq$k0">
@@ -16066,7 +16258,7 @@
           <node concept="1Wc70l" id="17hKM_4ZX0g" role="3clFbw">
             <node concept="3fqX7Q" id="17hKM_4ZX0h" role="3uHU7w">
               <node concept="2YIFZM" id="17hKM_4ZX0i" role="3fr31v">
-                <ref role="1Pybhd" to="3sjl:~Modifier" resolve="Modifier" />
+                <ref role="1Pybhc" to="3sjl:~Modifier" resolve="Modifier" />
                 <ref role="37wK5l" to="3sjl:~Modifier.isNative(int):boolean" resolve="isNative" />
                 <node concept="2OqwBi" id="17hKM_4ZX0j" role="37wK5m">
                   <node concept="37vLTw" id="17hKM_4ZX0k" role="2Oq$k0">
@@ -16080,7 +16272,7 @@
             </node>
             <node concept="3fqX7Q" id="17hKM_4ZX0m" role="3uHU7B">
               <node concept="2YIFZM" id="17hKM_4ZX0n" role="3fr31v">
-                <ref role="1Pybhd" to="3sjl:~Modifier" resolve="Modifier" />
+                <ref role="1Pybhc" to="3sjl:~Modifier" resolve="Modifier" />
                 <ref role="37wK5l" to="3sjl:~Modifier.isAbstract(int):boolean" resolve="isAbstract" />
                 <node concept="2OqwBi" id="17hKM_4ZX0o" role="37wK5m">
                   <node concept="37vLTw" id="17hKM_4ZX0p" role="2Oq$k0">
@@ -16286,7 +16478,7 @@
           <node concept="37vLTI" id="4pyiuE3u8zD" role="3clFbG">
             <node concept="2YIFZM" id="3xFfVLRkYtq" role="37vLTx">
               <ref role="37wK5l" node="79owz0bg4LP" resolve="transformType" />
-              <ref role="1Pybhd" node="3xFfVLRkYdK" resolve="SootTransformer_Type" />
+              <ref role="1Pybhc" node="3xFfVLRkYdK" resolve="SootTransformer_Type" />
               <node concept="2OqwBi" id="4pyiuE3u8zF" role="37wK5m">
                 <node concept="37vLTw" id="4pyiuE3u8zG" role="2Oq$k0">
                   <ref role="3cqZAo" node="4pyiuE3u8$K" resolve="input" />
@@ -16616,7 +16808,7 @@
                         <property role="3hQQBS" value="ClassifierType" />
                         <node concept="2YIFZM" id="3xFfVLRkYtj" role="2c44t1">
                           <ref role="37wK5l" node="7YWMZ8DrukL" resolve="transformClass" />
-                          <ref role="1Pybhd" node="7YWMZ8Dru4A" resolve="SootTransformer_Top" />
+                          <ref role="1Pybhc" node="7YWMZ8Dru4A" resolve="SootTransformer_Top" />
                           <node concept="2OqwBi" id="17hKM_4O$Tv" role="37wK5m">
                             <node concept="1GhH$d" id="17hKM_4O$Tw" role="2Oq$k0">
                               <ref role="1GhH$c" node="1zG_gsNP0aJ" resolve="it" />
@@ -16713,7 +16905,7 @@
         </node>
         <node concept="3clFbF" id="16VcpKZWZmL" role="3cqZAp">
           <node concept="2YIFZM" id="4wNWMN_S4ig" role="3clFbG">
-            <ref role="1Pybhd" node="4wNWMN_S3tE" resolve="SootTransformer_Generator" />
+            <ref role="1Pybhc" node="4wNWMN_S3tE" resolve="SootTransformer_Generator" />
             <ref role="37wK5l" node="16VcpKZR5W7" resolve="generate" />
             <node concept="37vLTw" id="MeIVZL7E9f" role="37wK5m">
               <ref role="3cqZAo" node="MeIVZL7E99" resolve="module" />
@@ -16733,7 +16925,7 @@
             </node>
             <node concept="2YIFZM" id="MeIVZL7DUU" role="37wK5m">
               <ref role="37wK5l" node="MeIVZL7qoQ" resolve="getStubModels" />
-              <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+              <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
               <node concept="37vLTw" id="MeIVZL7DUV" role="37wK5m">
                 <ref role="3cqZAo" node="MeIVZL7E99" resolve="module" />
               </node>
@@ -16764,7 +16956,7 @@
           <node concept="3fqX7Q" id="16VcpKZXeeQ" role="3cqZAk">
             <node concept="2YIFZM" id="16VcpKZXeeS" role="3fr31v">
               <ref role="37wK5l" node="16VcpKZX2eH" resolve="isJimpleModel" />
-              <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+              <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
               <node concept="2OqwBi" id="16VcpKZXeeT" role="37wK5m">
                 <node concept="2WthIp" id="16VcpKZXeeU" role="2Oq$k0" />
                 <node concept="1DTwFV" id="16VcpKZXeeV" role="2OqNvi">
@@ -17098,7 +17290,7 @@
       <node concept="3clFbS" id="16VcpKZR55B" role="3clF47">
         <node concept="3clFbF" id="4wNWMN_VK8d" role="3cqZAp">
           <node concept="2YIFZM" id="4wNWMN_VKmX" role="3clFbG">
-            <ref role="1Pybhd" node="4wNWMN_S3tE" resolve="SootTransformer_Generator" />
+            <ref role="1Pybhc" node="4wNWMN_S3tE" resolve="SootTransformer_Generator" />
             <ref role="37wK5l" node="16VcpKZR5W7" resolve="generate" />
             <node concept="37vLTw" id="4wNWMN_VKrR" role="37wK5m">
               <ref role="3cqZAo" node="16VcpKZR5mP" resolve="module" />
@@ -17118,7 +17310,7 @@
             </node>
             <node concept="2YIFZM" id="MeIVZL7DzD" role="37wK5m">
               <ref role="37wK5l" node="MeIVZL7qoQ" resolve="getStubModels" />
-              <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+              <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
               <node concept="37vLTw" id="MeIVZL7DzE" role="37wK5m">
                 <ref role="3cqZAo" node="16VcpKZR5mP" resolve="module" />
               </node>
@@ -17205,7 +17397,7 @@
                       <node concept="3fqX7Q" id="4E7bgtNpEkR" role="3uHU7w">
                         <node concept="2YIFZM" id="4E7bgtNpEYA" role="3fr31v">
                           <ref role="37wK5l" node="4E7bgtNpup9" resolve="isStubModel" />
-                          <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+                          <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
                           <node concept="2GrUjf" id="4E7bgtNpEYB" role="37wK5m">
                             <ref role="2Gs0qQ" node="5ZdBSibiOPC" resolve="model" />
                           </node>
@@ -17214,7 +17406,7 @@
                       <node concept="1Wc70l" id="4odhE5pG_A4" role="3uHU7B">
                         <node concept="3fqX7Q" id="5ZdBSiblxVr" role="3uHU7B">
                           <node concept="2YIFZM" id="4wNWMN_VR_X" role="3fr31v">
-                            <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+                            <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
                             <ref role="37wK5l" node="16VcpKZX2eH" resolve="isJimpleModel" />
                             <node concept="2GrUjf" id="4wNWMN_VR_Y" role="37wK5m">
                               <ref role="2Gs0qQ" node="5ZdBSibiOPC" resolve="model" />
@@ -17223,7 +17415,7 @@
                         </node>
                         <node concept="3fqX7Q" id="4odhE5pG_OT" role="3uHU7w">
                           <node concept="2YIFZM" id="4wNWMN_VRA5" role="3fr31v">
-                            <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+                            <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
                             <ref role="37wK5l" node="5cMBPSsgNwx" resolve="isTemporaryModel" />
                             <node concept="2GrUjf" id="4wNWMN_VRA6" role="37wK5m">
                               <ref role="2Gs0qQ" node="5ZdBSibiOPC" resolve="model" />
@@ -17256,7 +17448,7 @@
         </node>
         <node concept="3clFbF" id="4wNWMN_VL7L" role="3cqZAp">
           <node concept="2YIFZM" id="4wNWMN_VM8X" role="3clFbG">
-            <ref role="1Pybhd" node="4wNWMN_S3tE" resolve="SootTransformer_Generator" />
+            <ref role="1Pybhc" node="4wNWMN_S3tE" resolve="SootTransformer_Generator" />
             <ref role="37wK5l" node="16VcpKZR5W7" resolve="generate" />
             <node concept="37vLTw" id="4wNWMN_VMoQ" role="37wK5m">
               <ref role="3cqZAo" node="16VcpKZWjKW" resolve="module" />
@@ -17266,7 +17458,7 @@
             </node>
             <node concept="2YIFZM" id="MeIVZL7Dht" role="37wK5m">
               <ref role="37wK5l" node="MeIVZL7qoQ" resolve="getStubModels" />
-              <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+              <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
               <node concept="37vLTw" id="MeIVZL7DnG" role="37wK5m">
                 <ref role="3cqZAo" node="16VcpKZWjKW" resolve="module" />
               </node>
@@ -17420,7 +17612,7 @@
                 </node>
                 <node concept="3clFbF" id="5AdqgcTGPM6" role="3cqZAp">
                   <node concept="2YIFZM" id="5AdqgcTGPM7" role="3clFbG">
-                    <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+                    <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
                     <ref role="37wK5l" node="59T8kI_LsGN" resolve="runInUIThreadWithCommand" />
                     <node concept="1bVj0M" id="5AdqgcTGPM8" role="37wK5m">
                       <node concept="3clFbS" id="5AdqgcTGPM9" role="1bW5cS">
@@ -17431,7 +17623,7 @@
                             </node>
                             <node concept="2YIFZM" id="5AdqgcTGPMd" role="37vLTx">
                               <ref role="37wK5l" node="5cMBPSsgWxL" resolve="getTemporaryModel" />
-                              <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+                              <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
                               <node concept="37vLTw" id="5AdqgcTGPMe" role="37wK5m">
                                 <ref role="3cqZAo" node="2vzj_6T$yJT" resolve="module" />
                               </node>
@@ -17470,10 +17662,10 @@
                       <node concept="H_c77" id="5AdqgcTGPMr" role="3rvSg0" />
                     </node>
                     <node concept="2YIFZM" id="5AdqgcTGPMs" role="33vP2m">
-                      <ref role="1Pybhd" to="33ny:~Collections" resolve="Collections" />
+                      <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
                       <ref role="37wK5l" to="33ny:~Collections.unmodifiableMap(java.util.Map):java.util.Map" resolve="unmodifiableMap" />
                       <node concept="2YIFZM" id="5AdqgcTGPMt" role="37wK5m">
-                        <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+                        <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
                         <ref role="37wK5l" node="59T8kI_Luin" resolve="getModelMap" />
                         <node concept="37vLTw" id="5AdqgcTGPMu" role="37wK5m">
                           <ref role="3cqZAo" node="2vzj_6T$yJT" resolve="module" />
@@ -17721,7 +17913,7 @@
                 <node concept="3clFbF" id="5AdqgcTGPO8" role="3cqZAp">
                   <node concept="2YIFZM" id="5AdqgcTGPO9" role="3clFbG">
                     <ref role="37wK5l" node="16VcpL00SpQ" resolve="makeAndWait" />
-                    <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+                    <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
                     <node concept="37vLTw" id="5AdqgcTGPOa" role="37wK5m">
                       <ref role="3cqZAo" node="2vzj_6TyH6_" resolve="applicationModels" />
                     </node>
@@ -17774,7 +17966,7 @@
                     </node>
                     <node concept="2YIFZM" id="5AdqgcTGPOv" role="33vP2m">
                       <ref role="37wK5l" to="w1kc:~SModelOperations.getOutputLocation(org.jetbrains.mps.openapi.model.SModel):jetbrains.mps.vfs.IFile" resolve="getOutputLocation" />
-                      <ref role="1Pybhd" to="w1kc:~SModelOperations" resolve="SModelOperations" />
+                      <ref role="1Pybhc" to="w1kc:~SModelOperations" resolve="SModelOperations" />
                       <node concept="37vLTw" id="5AdqgcTGPOw" role="37wK5m">
                         <ref role="3cqZAo" node="5AdqgcTGPOn" resolve="contextModel" />
                       </node>
@@ -17876,7 +18068,7 @@
                     <node concept="3clFbF" id="5AdqgcTGPP1" role="3cqZAp">
                       <node concept="2YIFZM" id="5AdqgcTGPP2" role="3clFbG">
                         <ref role="37wK5l" node="4wNWMN_CyYp" resolve="generateTextualJimple" />
-                        <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+                        <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
                         <node concept="37vLTw" id="5AdqgcTGPP3" role="37wK5m">
                           <ref role="3cqZAo" node="5AdqgcTGPOt" resolve="output" />
                         </node>
@@ -18059,7 +18251,7 @@
                                   <node concept="3fqX7Q" id="5AdqgcTGPQi" role="3uHU7w">
                                     <node concept="2YIFZM" id="5AdqgcTGPQj" role="3fr31v">
                                       <ref role="37wK5l" node="16VcpKZX2eH" resolve="isJimpleModel" />
-                                      <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+                                      <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
                                       <node concept="2OqwBi" id="5AdqgcTGPQk" role="37wK5m">
                                         <node concept="2GrUjf" id="5AdqgcTGPQl" role="2Oq$k0">
                                           <ref role="2Gs0qQ" node="5AdqgcTGPPl" resolve="mapping" />
@@ -18172,7 +18364,7 @@
                     </node>
                     <node concept="3clFbF" id="5AdqgcTGPQy" role="3cqZAp">
                       <node concept="2YIFZM" id="5AdqgcTGPQz" role="3clFbG">
-                        <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+                        <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
                         <ref role="37wK5l" node="59T8kI_LsGN" resolve="runInUIThreadWithCommand" />
                         <node concept="1bVj0M" id="5AdqgcTGPQ$" role="37wK5m">
                           <node concept="3clFbS" id="5AdqgcTGPQ_" role="1bW5cS">
@@ -18246,7 +18438,7 @@
                                     <property role="3TUv4t" value="true" />
                                     <node concept="H_c77" id="5AdqgcTGPR4" role="1tU5fm" />
                                     <node concept="2YIFZM" id="5AdqgcTGPR5" role="33vP2m">
-                                      <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+                                      <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
                                       <ref role="37wK5l" node="59T8kI_LC96" resolve="createModel" />
                                       <node concept="37vLTw" id="5AdqgcTGPR6" role="37wK5m">
                                         <ref role="3cqZAo" node="2vzj_6T$yJT" resolve="module" />
@@ -18277,6 +18469,27 @@
                                       <node concept="3zrR0B" id="5AdqgcTGPRf" role="2ShVmc">
                                         <node concept="3Tqbb2" id="5AdqgcTGPRg" role="3zrR0E">
                                           <ref role="ehGHo" to="tpee:g7pOWCK" resolve="Classifier" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="3clFbF" id="5IJ1btmehDk" role="3cqZAp">
+                                  <node concept="37vLTI" id="5IJ1btmexxZ" role="3clFbG">
+                                    <node concept="2ShNRf" id="5IJ1btme_ao" role="37vLTx">
+                                      <node concept="3zrR0B" id="5IJ1btmezTd" role="2ShVmc">
+                                        <node concept="3Tqbb2" id="5IJ1btmezTe" role="3zrR0E">
+                                          <ref role="ehGHo" to="tpee:5fRKNW6A6bM" resolve="JavaImports" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                    <node concept="2OqwBi" id="5IJ1btmel50" role="37vLTJ">
+                                      <node concept="37vLTw" id="5IJ1btmehDi" role="2Oq$k0">
+                                        <ref role="3cqZAo" node="5AdqgcTGPRc" resolve="classifier" />
+                                      </node>
+                                      <node concept="3CFZ6_" id="5IJ1btmepUR" role="2OqNvi">
+                                        <node concept="3CFYIy" id="5IJ1btmeu07" role="3CFYIz">
+                                          <ref role="3CFYIx" to="tpee:5fRKNW6A6bM" resolve="JavaImports" />
                                         </node>
                                       </node>
                                     </node>
@@ -18327,7 +18540,7 @@
                                 </node>
                                 <node concept="2OqwBi" id="5AdqgcTGPRy" role="33vP2m">
                                   <node concept="2YIFZM" id="5AdqgcTGPRz" role="2Oq$k0">
-                                    <ref role="1Pybhd" to="3sjl:~Scene" resolve="Scene" />
+                                    <ref role="1Pybhc" to="3sjl:~Scene" resolve="Scene" />
                                     <ref role="37wK5l" to="3sjl:~Scene.v():soot.Scene" resolve="v" />
                                   </node>
                                   <node concept="liA8E" id="5AdqgcTGPR$" role="2OqNvi">
@@ -18379,7 +18592,7 @@
                                   </node>
                                   <node concept="2YIFZM" id="5AdqgcTGPRR" role="3clFbw">
                                     <ref role="37wK5l" node="5cMBPSs7lfp" resolve="isApplicationClass" />
-                                    <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+                                    <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
                                     <node concept="2GrUjf" id="5AdqgcTGPRS" role="37wK5m">
                                       <ref role="2Gs0qQ" node="5AdqgcTGPRH" resolve="clazz" />
                                     </node>
@@ -18433,7 +18646,7 @@
                               <node concept="3clFbS" id="5AdqgcTGPSa" role="2LFqv$">
                                 <node concept="3clFbF" id="5AdqgcTGPSb" role="3cqZAp">
                                   <node concept="2YIFZM" id="5AdqgcTGPSc" role="3clFbG">
-                                    <ref role="1Pybhd" node="7YWMZ8Dru4A" resolve="SootTransformer_Top" />
+                                    <ref role="1Pybhc" node="7YWMZ8Dru4A" resolve="SootTransformer_Top" />
                                     <ref role="37wK5l" node="7YWMZ8DrukL" resolve="transformClass" />
                                     <node concept="2GrUjf" id="5AdqgcTGPSd" role="37wK5m">
                                       <ref role="2Gs0qQ" node="5AdqgcTGPS8" resolve="clazz" />
@@ -18501,7 +18714,7 @@
                                   <node concept="3clFbS" id="5AdqgcTGPSA" role="2LFqv$">
                                     <node concept="3clFbF" id="5AdqgcTGPSB" role="3cqZAp">
                                       <node concept="2YIFZM" id="5AdqgcTGPSC" role="3clFbG">
-                                        <ref role="1Pybhd" node="3xFfVLRkMjN" resolve="SootTransformer_ClassMember" />
+                                        <ref role="1Pybhc" node="3xFfVLRkMjN" resolve="SootTransformer_ClassMember" />
                                         <ref role="37wK5l" node="17hKM_51dfK" resolve="transformMethodBody" />
                                         <node concept="2GrUjf" id="5AdqgcTGPSD" role="37wK5m">
                                           <ref role="2Gs0qQ" node="5AdqgcTGPSy" resolve="method" />
@@ -18741,7 +18954,7 @@
                                           <node concept="3clFbS" id="5AdqgcTGPUg" role="1bW5cS">
                                             <node concept="3clFbF" id="5AdqgcTGPUh" role="3cqZAp">
                                               <node concept="2YIFZM" id="5AdqgcTGPUi" role="3clFbG">
-                                                <ref role="1Pybhd" to="33ny:~Objects" resolve="Objects" />
+                                                <ref role="1Pybhc" to="33ny:~Objects" resolve="Objects" />
                                                 <ref role="37wK5l" to="33ny:~Objects.equals(java.lang.Object,java.lang.Object):boolean" resolve="equals" />
                                                 <node concept="37vLTw" id="5AdqgcTGPUj" role="37wK5m">
                                                   <ref role="3cqZAo" node="5AdqgcTGPTM" resolve="name" />
@@ -18827,7 +19040,7 @@
                                         </node>
                                         <node concept="2YIFZM" id="5AdqgcTGPUP" role="33vP2m">
                                           <ref role="37wK5l" to="bfxj:42UviMIlkHv" resolve="buildChangeSet" />
-                                          <ref role="1Pybhd" to="bfxj:42UviMIlktg" resolve="StructChangeSetBuilder" />
+                                          <ref role="1Pybhc" to="bfxj:42UviMIlktg" resolve="StructChangeSetBuilder" />
                                           <node concept="37vLTw" id="5AdqgcTGPUQ" role="37wK5m">
                                             <ref role="3cqZAo" node="5AdqgcTGPU8" resolve="oldClassifier" />
                                           </node>
@@ -19070,7 +19283,7 @@
                                             <node concept="3clFbF" id="5AdqgcTGPWp" role="3cqZAp">
                                               <node concept="2YIFZM" id="5AdqgcTGPWq" role="3clFbG">
                                                 <ref role="37wK5l" to="33ny:~Objects.equals(java.lang.Object,java.lang.Object):boolean" resolve="equals" />
-                                                <ref role="1Pybhd" to="33ny:~Objects" resolve="Objects" />
+                                                <ref role="1Pybhc" to="33ny:~Objects" resolve="Objects" />
                                                 <node concept="37vLTw" id="5AdqgcTGPWr" role="37wK5m">
                                                   <ref role="3cqZAo" node="5AdqgcTGPVW" resolve="name" />
                                                 </node>
@@ -19101,7 +19314,7 @@
                                     <node concept="3Tqbb2" id="5AdqgcTGPWz" role="1tU5fm" />
                                     <node concept="2YIFZM" id="5AdqgcTGPW$" role="33vP2m">
                                       <ref role="37wK5l" node="5IM29kAvKJq" resolve="findMethodDeclaration" />
-                                      <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+                                      <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
                                       <node concept="37vLTw" id="5AdqgcTGPW_" role="37wK5m">
                                         <ref role="3cqZAo" node="5AdqgcTGPWg" resolve="oldClassifier" />
                                       </node>
@@ -19181,7 +19394,7 @@
                                     <node concept="3Tqbb2" id="5AdqgcTGPX6" role="1tU5fm" />
                                     <node concept="2YIFZM" id="5AdqgcTGPX7" role="33vP2m">
                                       <ref role="37wK5l" node="4wNWMNA5FvD" resolve="getSameChild" />
-                                      <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+                                      <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
                                       <node concept="37vLTw" id="5AdqgcTGPX8" role="37wK5m">
                                         <ref role="3cqZAo" node="5AdqgcTGPWy" resolve="oldNode" />
                                       </node>
@@ -19422,7 +19635,7 @@
                                                   <node concept="3clFbF" id="5AdqgcTGPYI" role="3cqZAp">
                                                     <node concept="2YIFZM" id="5AdqgcTGPYJ" role="3clFbG">
                                                       <ref role="37wK5l" to="33ny:~Objects.equals(java.lang.Object,java.lang.Object):boolean" resolve="equals" />
-                                                      <ref role="1Pybhd" to="33ny:~Objects" resolve="Objects" />
+                                                      <ref role="1Pybhc" to="33ny:~Objects" resolve="Objects" />
                                                       <node concept="37vLTw" id="5AdqgcTGPYK" role="37wK5m">
                                                         <ref role="3cqZAo" node="5AdqgcTGPY8" resolve="name" />
                                                       </node>
@@ -19750,7 +19963,7 @@
                                             <node concept="3clFbF" id="5AdqgcTGQ2M" role="3cqZAp">
                                               <node concept="2YIFZM" id="5AdqgcTGQ2N" role="3clFbG">
                                                 <ref role="37wK5l" node="2EsM1X1XO4H" resolve="setReferenceTarget" />
-                                                <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+                                                <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
                                                 <node concept="2GrUjf" id="5AdqgcTGQ2O" role="37wK5m">
                                                   <ref role="2Gs0qQ" node="5AdqgcTGQ2r" resolve="sourceNode" />
                                                 </node>
@@ -19857,7 +20070,7 @@
                                                         <node concept="3clFbF" id="5AdqgcTGQ3w" role="3cqZAp">
                                                           <node concept="2YIFZM" id="5AdqgcTGQ3x" role="3clFbG">
                                                             <ref role="37wK5l" node="2EsM1X1XO4H" resolve="setReferenceTarget" />
-                                                            <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+                                                            <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
                                                             <node concept="2GrUjf" id="5AdqgcTGQ3y" role="37wK5m">
                                                               <ref role="2Gs0qQ" node="5AdqgcTGQ2r" resolve="sourceNode" />
                                                             </node>
@@ -19907,7 +20120,7 @@
                                     <node concept="3clFbF" id="5AdqgcTGQ3L" role="3cqZAp">
                                       <node concept="2YIFZM" id="5AdqgcTGQ3M" role="3clFbG">
                                         <ref role="37wK5l" node="2To5PNxIAN5" resolve="resolveMethodCalls" />
-                                        <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+                                        <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
                                         <node concept="2GrUjf" id="5AdqgcTGQ3N" role="37wK5m">
                                           <ref role="2Gs0qQ" node="5AdqgcTGQ2n" resolve="resolvingNode" />
                                         </node>
@@ -20278,7 +20491,7 @@
                 <node concept="3clFbF" id="3OV1JRXGGwp" role="3cqZAp">
                   <node concept="2YIFZM" id="3OV1JRXGGwq" role="3clFbG">
                     <ref role="37wK5l" node="59T8kI_LsGN" resolve="runInUIThreadWithCommand" />
-                    <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+                    <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
                     <node concept="1bVj0M" id="3OV1JRXGGwr" role="37wK5m">
                       <node concept="3clFbS" id="3OV1JRXGGws" role="1bW5cS">
                         <node concept="3clFbF" id="3OV1JRXGGwt" role="3cqZAp">
@@ -20288,7 +20501,7 @@
                             </node>
                             <node concept="2YIFZM" id="3OV1JRXGGww" role="37vLTx">
                               <ref role="37wK5l" node="5cMBPSsgWxL" resolve="getTemporaryModel" />
-                              <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+                              <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
                               <node concept="37vLTw" id="3OV1JRXGGwx" role="37wK5m">
                                 <ref role="3cqZAo" node="3OV1JRXFr$c" resolve="module" />
                               </node>
@@ -20327,11 +20540,11 @@
                       <node concept="H_c77" id="3OV1JRXGGwI" role="3rvSg0" />
                     </node>
                     <node concept="2YIFZM" id="3OV1JRXGGwJ" role="33vP2m">
-                      <ref role="1Pybhd" to="33ny:~Collections" resolve="Collections" />
+                      <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
                       <ref role="37wK5l" to="33ny:~Collections.unmodifiableMap(java.util.Map):java.util.Map" resolve="unmodifiableMap" />
                       <node concept="2YIFZM" id="3OV1JRXGGwK" role="37wK5m">
                         <ref role="37wK5l" node="59T8kI_Luin" resolve="getModelMap" />
-                        <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+                        <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
                         <node concept="37vLTw" id="3OV1JRXGGwL" role="37wK5m">
                           <ref role="3cqZAo" node="3OV1JRXFr$c" resolve="module" />
                         </node>
@@ -20657,7 +20870,7 @@
                 <node concept="3clFbF" id="3OV1JRXGGys" role="3cqZAp">
                   <node concept="2YIFZM" id="3OV1JRXGGyt" role="3clFbG">
                     <ref role="37wK5l" node="16VcpL00SpQ" resolve="makeAndWait" />
-                    <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+                    <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
                     <node concept="2ShNRf" id="3OV1JRXLTtw" role="37wK5m">
                       <node concept="2HTt$P" id="3OV1JRXLQKK" role="2ShVmc">
                         <node concept="H_c77" id="3OV1JRXLZgh" role="2HTBi0" />
@@ -20702,7 +20915,7 @@
                     </node>
                     <node concept="2YIFZM" id="3OV1JRXGGyN" role="33vP2m">
                       <ref role="37wK5l" to="w1kc:~SModelOperations.getOutputLocation(org.jetbrains.mps.openapi.model.SModel):jetbrains.mps.vfs.IFile" resolve="getOutputLocation" />
-                      <ref role="1Pybhd" to="w1kc:~SModelOperations" resolve="SModelOperations" />
+                      <ref role="1Pybhc" to="w1kc:~SModelOperations" resolve="SModelOperations" />
                       <node concept="37vLTw" id="3OV1JRXM8QK" role="37wK5m">
                         <ref role="3cqZAo" node="3OV1JRXLo1y" resolve="hintClassifierOriginalModel" />
                       </node>
@@ -20782,7 +20995,7 @@
                     <node concept="3clFbH" id="3OV1JRXGGzk" role="3cqZAp" />
                     <node concept="3clFbF" id="3OV1JRXGGzl" role="3cqZAp">
                       <node concept="2YIFZM" id="3OV1JRXGGzm" role="3clFbG">
-                        <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+                        <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
                         <ref role="37wK5l" node="4wNWMN_CyYp" resolve="generateTextualJimple" />
                         <node concept="37vLTw" id="3OV1JRXGGzn" role="37wK5m">
                           <ref role="3cqZAo" node="3OV1JRXGGyL" resolve="output" />
@@ -20925,7 +21138,7 @@
                     <node concept="3clFbF" id="3OV1JRXGG$Q" role="3cqZAp">
                       <node concept="2YIFZM" id="3OV1JRXGG$R" role="3clFbG">
                         <ref role="37wK5l" node="59T8kI_LsGN" resolve="runInUIThreadWithCommand" />
-                        <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+                        <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
                         <node concept="1bVj0M" id="3OV1JRXGG$S" role="37wK5m">
                           <node concept="3clFbS" id="3OV1JRXGG$T" role="1bW5cS">
                             <node concept="3clFbH" id="3OV1JRXNcil" role="3cqZAp" />
@@ -21016,7 +21229,7 @@
                                 </node>
                                 <node concept="2OqwBi" id="3OV1JRXGG_Q" role="33vP2m">
                                   <node concept="2YIFZM" id="3OV1JRXGG_R" role="2Oq$k0">
-                                    <ref role="1Pybhd" to="3sjl:~Scene" resolve="Scene" />
+                                    <ref role="1Pybhc" to="3sjl:~Scene" resolve="Scene" />
                                     <ref role="37wK5l" to="3sjl:~Scene.v():soot.Scene" resolve="v" />
                                   </node>
                                   <node concept="liA8E" id="3OV1JRXGG_S" role="2OqNvi">
@@ -21133,7 +21346,7 @@
                             <node concept="3clFbF" id="3OV1JRXGGAv" role="3cqZAp">
                               <node concept="2YIFZM" id="3OV1JRXGGAw" role="3clFbG">
                                 <ref role="37wK5l" node="7YWMZ8DrukL" resolve="transformClass" />
-                                <ref role="1Pybhd" node="7YWMZ8Dru4A" resolve="SootTransformer_Top" />
+                                <ref role="1Pybhc" node="7YWMZ8Dru4A" resolve="SootTransformer_Top" />
                                 <node concept="37vLTw" id="3OV1JRXZAkx" role="37wK5m">
                                   <ref role="3cqZAo" node="3OV1JRXXASd" resolve="sootClass" />
                                 </node>
@@ -21190,7 +21403,7 @@
                               <node concept="3clFbS" id="3OV1JRXGGAU" role="2LFqv$">
                                 <node concept="3clFbF" id="3OV1JRXGGAV" role="3cqZAp">
                                   <node concept="2YIFZM" id="3OV1JRXGGAW" role="3clFbG">
-                                    <ref role="1Pybhd" node="3xFfVLRkMjN" resolve="SootTransformer_ClassMember" />
+                                    <ref role="1Pybhc" node="3xFfVLRkMjN" resolve="SootTransformer_ClassMember" />
                                     <ref role="37wK5l" node="17hKM_51dfK" resolve="transformMethodBody" />
                                     <node concept="2GrUjf" id="3OV1JRXGGAX" role="37wK5m">
                                       <ref role="2Gs0qQ" node="3OV1JRXGGAQ" resolve="method" />
@@ -21278,7 +21491,7 @@
                                             <node concept="3clFbF" id="3OV1JRXGGEH" role="3cqZAp">
                                               <node concept="2YIFZM" id="3OV1JRXGGEI" role="3clFbG">
                                                 <ref role="37wK5l" to="33ny:~Objects.equals(java.lang.Object,java.lang.Object):boolean" resolve="equals" />
-                                                <ref role="1Pybhd" to="33ny:~Objects" resolve="Objects" />
+                                                <ref role="1Pybhc" to="33ny:~Objects" resolve="Objects" />
                                                 <node concept="37vLTw" id="3OV1JRYf0tj" role="37wK5m">
                                                   <ref role="3cqZAo" node="3OV1JRY8kvF" resolve="hintClassifierName" />
                                                 </node>
@@ -21308,7 +21521,7 @@
                                     <property role="3TUv4t" value="true" />
                                     <node concept="3Tqbb2" id="3OV1JRXGGER" role="1tU5fm" />
                                     <node concept="2YIFZM" id="3OV1JRXGGES" role="33vP2m">
-                                      <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+                                      <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
                                       <ref role="37wK5l" node="5IM29kAvKJq" resolve="findMethodDeclaration" />
                                       <node concept="37vLTw" id="3OV1JRXGGET" role="37wK5m">
                                         <ref role="3cqZAo" node="3OV1JRXGGE$" resolve="oldClassifier" />
@@ -21366,7 +21579,7 @@
                                     <node concept="3Tqbb2" id="3OV1JRXGGFq" role="1tU5fm" />
                                     <node concept="2YIFZM" id="3OV1JRXGGFr" role="33vP2m">
                                       <ref role="37wK5l" node="4wNWMNA5FvD" resolve="getSameChild" />
-                                      <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+                                      <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
                                       <node concept="37vLTw" id="3OV1JRXGGFs" role="37wK5m">
                                         <ref role="3cqZAo" node="3OV1JRXGGEQ" resolve="oldMethod" />
                                       </node>
@@ -21519,7 +21732,7 @@
                                               <node concept="3clFbF" id="3OV1JRXGGH2" role="3cqZAp">
                                                 <node concept="2YIFZM" id="3OV1JRXGGH3" role="3clFbG">
                                                   <ref role="37wK5l" to="33ny:~Objects.equals(java.lang.Object,java.lang.Object):boolean" resolve="equals" />
-                                                  <ref role="1Pybhd" to="33ny:~Objects" resolve="Objects" />
+                                                  <ref role="1Pybhc" to="33ny:~Objects" resolve="Objects" />
                                                   <node concept="37vLTw" id="3OV1JRXGGH4" role="37wK5m">
                                                     <ref role="3cqZAo" node="3OV1JRXGGGs" resolve="name" />
                                                   </node>
@@ -21622,7 +21835,7 @@
                                 </node>
                                 <node concept="2YIFZM" id="3OV1JRYnp3V" role="33vP2m">
                                   <ref role="37wK5l" to="bfxj:42UviMIlkHv" resolve="buildChangeSet" />
-                                  <ref role="1Pybhd" to="bfxj:42UviMIlktg" resolve="StructChangeSetBuilder" />
+                                  <ref role="1Pybhc" to="bfxj:42UviMIlktg" resolve="StructChangeSetBuilder" />
                                   <node concept="37vLTw" id="3OV1JRYnp3W" role="37wK5m">
                                     <ref role="3cqZAo" node="3OV1JRYzPEV" resolve="oldNode" />
                                   </node>
@@ -21657,7 +21870,7 @@
                                     </node>
                                     <node concept="2YIFZM" id="3OV1JRYoBDs" role="37vLTx">
                                       <ref role="37wK5l" to="bfxj:42UviMIlkHv" resolve="buildChangeSet" />
-                                      <ref role="1Pybhd" to="bfxj:42UviMIlktg" resolve="StructChangeSetBuilder" />
+                                      <ref role="1Pybhc" to="bfxj:42UviMIlktg" resolve="StructChangeSetBuilder" />
                                       <node concept="2OqwBi" id="3OV1JRYoBDt" role="37wK5m">
                                         <node concept="37vLTw" id="3OV1JRYoBDu" role="2Oq$k0">
                                           <ref role="3cqZAo" node="3OV1JRYzPEV" resolve="oldNode" />
@@ -21778,7 +21991,7 @@
                                       <node concept="37vLTI" id="3OV1JRYnp4x" role="3clFbG">
                                         <node concept="2YIFZM" id="3OV1JRYnp4y" role="37vLTx">
                                           <ref role="37wK5l" node="5IM29kA$aPS" resolve="isSuperfluousReferenceChange" />
-                                          <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+                                          <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
                                           <node concept="1eOMI4" id="3OV1JRYnp4z" role="37wK5m">
                                             <node concept="10QFUN" id="3OV1JRYnp4$" role="1eOMHV">
                                               <node concept="3uibUv" id="3OV1JRYnp4_" role="10QFUM">
@@ -22025,7 +22238,7 @@
                                             <node concept="3clFbF" id="3OV1JRYnp6o" role="3cqZAp">
                                               <node concept="2YIFZM" id="3OV1JRYnp6p" role="3clFbG">
                                                 <ref role="37wK5l" node="2EsM1X1XO4H" resolve="setReferenceTarget" />
-                                                <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+                                                <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
                                                 <node concept="2GrUjf" id="3OV1JRYnp6q" role="37wK5m">
                                                   <ref role="2Gs0qQ" node="3OV1JRYnp61" resolve="sourceNode" />
                                                 </node>
@@ -22090,7 +22303,7 @@
                                                   </node>
                                                   <node concept="3clFbF" id="3OV1JRYnp76" role="3cqZAp">
                                                     <node concept="2YIFZM" id="3OV1JRYnp77" role="3clFbG">
-                                                      <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+                                                      <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
                                                       <ref role="37wK5l" node="2EsM1X1XO4H" resolve="setReferenceTarget" />
                                                       <node concept="2GrUjf" id="3OV1JRYnp78" role="37wK5m">
                                                         <ref role="2Gs0qQ" node="3OV1JRYnp61" resolve="sourceNode" />
@@ -22139,7 +22352,7 @@
                                 </node>
                                 <node concept="3clFbF" id="3OV1JRYnp7n" role="3cqZAp">
                                   <node concept="2YIFZM" id="3OV1JRYnp7o" role="3clFbG">
-                                    <ref role="1Pybhd" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
+                                    <ref role="1Pybhc" node="1lsowDUkCaZ" resolve="SootTransformer_GeneratorUtil" />
                                     <ref role="37wK5l" node="2To5PNxIAN5" resolve="resolveMethodCalls" />
                                     <node concept="2GrUjf" id="3OV1JRYnp7p" role="37wK5m">
                                       <ref role="2Gs0qQ" node="3OV1JRYnp5X" resolve="resolvingNode" />

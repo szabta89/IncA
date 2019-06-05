@@ -4485,7 +4485,7 @@
   </node>
   <node concept="24kQdi" id="3iREICylu8_">
     <property role="3GE5qa" value="compiler" />
-    <ref role="1XX52x" to="hqsm:3iREICylu8q" resolve="TimelyKind" />
+    <ref role="1XX52x" to="hqsm:3iREICylu8q" resolve="NSTimelyKind" />
     <node concept="PMmxH" id="3iREICylu8B" role="2wV5jI">
       <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
     </node>

@@ -28863,99 +28863,113 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="4h0s9CVLrlM" role="jymVt" />
-    <node concept="2YIFZL" id="4h0s9CVLrlN" role="jymVt">
+    <node concept="2tJIrI" id="63E4q93QuDF" role="jymVt" />
+    <node concept="2YIFZL" id="63E4q93Qt4L" role="jymVt">
       <property role="TrG5h" value="getMatcher" />
       <property role="od$2w" value="false" />
       <property role="DiZV1" value="false" />
-      <node concept="3clFbS" id="4h0s9CVLrlO" role="3clF47">
-        <node concept="SfApY" id="4h0s9CVLrlP" role="3cqZAp">
-          <node concept="3clFbS" id="4h0s9CVLrlQ" role="SfCbr">
-            <node concept="3cpWs8" id="5YH9iFAGcUc" role="3cqZAp">
-              <node concept="3cpWsn" id="5YH9iFAGcUd" role="3cpWs9">
+      <node concept="3clFbS" id="63E4q93Qt4M" role="3clF47">
+        <node concept="SfApY" id="63E4q93Qt4N" role="3cqZAp">
+          <node concept="3clFbS" id="63E4q93Qt4O" role="SfCbr">
+            <node concept="3cpWs8" id="63E4q93Qt4P" role="3cqZAp">
+              <node concept="3cpWsn" id="63E4q93Qt4Q" role="3cpWs9">
                 <property role="TrG5h" value="engineReference" />
                 <property role="3TUv4t" value="true" />
-                <node concept="3uibUv" id="5YH9iFAGcTt" role="1tU5fm">
+                <node concept="3uibUv" id="63E4q93Qt4R" role="1tU5fm">
                   <ref role="3uigEE" to="mpcv:~WeakReference" resolve="WeakReference" />
-                  <node concept="3uibUv" id="2Pc1eSRs0JN" role="11_B2D">
+                  <node concept="3uibUv" id="63E4q93Qt4S" role="11_B2D">
                     <ref role="3uigEE" to="h57a:~AdvancedViatraQueryEngine" resolve="AdvancedViatraQueryEngine" />
                   </node>
                 </node>
-                <node concept="2OqwBi" id="5YH9iFAGcUe" role="33vP2m">
-                  <node concept="10M0yZ" id="4m2T58r5Ye2" role="2Oq$k0">
+                <node concept="2OqwBi" id="63E4q93Qt4T" role="33vP2m">
+                  <node concept="10M0yZ" id="63E4q93Qt4U" role="2Oq$k0">
                     <ref role="1PxDUh" node="4h0s9CVLlTo" resolve="EnginePool" />
                     <ref role="3cqZAo" node="5YH9iFAG8N_" resolve="engineMap" />
                   </node>
-                  <node concept="liA8E" id="5YH9iFAGcUg" role="2OqNvi">
+                  <node concept="liA8E" id="63E4q93Qt4V" role="2OqNvi">
                     <ref role="37wK5l" to="33ny:~Map.get(java.lang.Object):java.lang.Object" resolve="get" />
-                    <node concept="37vLTw" id="5YH9iFAGcUh" role="37wK5m">
-                      <ref role="3cqZAo" node="6cJttNuq_vP" resolve="scope" />
+                    <node concept="37vLTw" id="63E4q93Qt4W" role="37wK5m">
+                      <ref role="3cqZAo" node="63E4q93Qt6e" resolve="scope" />
                     </node>
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="3cpWs8" id="2cknNXbLq3O" role="3cqZAp">
-              <node concept="3cpWsn" id="2cknNXbLq3P" role="3cpWs9">
+            <node concept="3cpWs8" id="63E4q93Qt4X" role="3cqZAp">
+              <node concept="3cpWsn" id="63E4q93Qt4Y" role="3cpWs9">
                 <property role="TrG5h" value="engine" />
-                <node concept="3uibUv" id="2Pc1eSRs3uO" role="1tU5fm">
+                <node concept="3uibUv" id="63E4q93Qt4Z" role="1tU5fm">
                   <ref role="3uigEE" to="h57a:~AdvancedViatraQueryEngine" resolve="AdvancedViatraQueryEngine" />
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="2cknNXbLzrM" role="3cqZAp" />
-            <node concept="3clFbJ" id="5YH9iFAGdNn" role="3cqZAp">
-              <node concept="3clFbS" id="5YH9iFAGdNq" role="3clFbx">
-                <node concept="3cpWs8" id="75lWqKIBnza" role="3cqZAp">
-                  <node concept="3cpWsn" id="75lWqKIBnzb" role="3cpWs9">
-                    <property role="TrG5h" value="factory" />
+            <node concept="3clFbH" id="63E4q93Qt50" role="3cqZAp" />
+            <node concept="3clFbJ" id="63E4q93Qt51" role="3cqZAp">
+              <node concept="3clFbS" id="63E4q93Qt52" role="3clFbx">
+                <node concept="3cpWs8" id="63E4q93QWKq" role="3cqZAp">
+                  <node concept="3cpWsn" id="63E4q93QWKr" role="3cpWs9">
+                    <property role="TrG5h" value="options" />
                     <property role="3TUv4t" value="true" />
-                    <node concept="3uibUv" id="1rXCk7hJ4Zu" role="1tU5fm">
-                      <ref role="3uigEE" to="x6p8:~ReteBackendFactory" resolve="ReteBackendFactory" />
+                    <node concept="3uibUv" id="63E4q93QWKa" role="1tU5fm">
+                      <ref role="3uigEE" to="h57a:~ViatraQueryEngineOptions" resolve="ViatraQueryEngineOptions" />
                     </node>
-                    <node concept="10M0yZ" id="75lWqKIBnzc" role="33vP2m">
-                      <ref role="1PxDUh" to="x6p8:~NonScatteredTimelyReteBackendFactory" resolve="NonScatteredTimelyReteBackendFactory" />
-                      <ref role="3cqZAo" to="x6p8:~NonScatteredTimelyReteBackendFactory.INSTANCE" resolve="INSTANCE" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3clFbF" id="252dCBpbt0" role="3cqZAp">
-                  <node concept="2YIFZM" id="252dCBpbF0" role="3clFbG">
-                    <ref role="37wK5l" to="h57a:~ViatraQueryEngineOptions.setSystemDefaultBackends(org.eclipse.viatra.query.runtime.matchers.backend.IQueryBackendFactory,org.eclipse.viatra.query.runtime.matchers.backend.IQueryBackendFactory,org.eclipse.viatra.query.runtime.matchers.backend.IQueryBackendFactory):void" resolve="setSystemDefaultBackends" />
-                    <ref role="1Pybhc" to="h57a:~ViatraQueryEngineOptions" resolve="ViatraQueryEngineOptions" />
-                    <node concept="37vLTw" id="75lWqKIBnzd" role="37wK5m">
-                      <ref role="3cqZAo" node="75lWqKIBnzb" resolve="factory" />
-                    </node>
-                    <node concept="37vLTw" id="75lWqKIBnze" role="37wK5m">
-                      <ref role="3cqZAo" node="75lWqKIBnzb" resolve="factory" />
-                    </node>
-                    <node concept="10M0yZ" id="252dCBsRsK" role="37wK5m">
-                      <ref role="3cqZAo" node="252dCBsNuQ" resolve="INSTANCE" />
-                      <ref role="1PxDUh" node="252dCBsJwK" resolve="DummySearchBackendFactory" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3clFbJ" id="4apIOoJ$ySy" role="3cqZAp">
-                  <node concept="3clFbS" id="4apIOoJ$yS$" role="3clFbx">
-                    <node concept="3clFbF" id="42LtM6TYCqS" role="3cqZAp">
-                      <node concept="2OqwBi" id="42LtM6TYC$x" role="3clFbG">
-                        <node concept="37vLTw" id="42LtM6TYCqQ" role="2Oq$k0">
-                          <ref role="3cqZAo" node="6cJttNuq_vP" resolve="scope" />
+                    <node concept="2OqwBi" id="63E4q93QWKs" role="33vP2m">
+                      <node concept="2OqwBi" id="63E4q93QWKt" role="2Oq$k0">
+                        <node concept="2OqwBi" id="63E4q93QWKu" role="2Oq$k0">
+                          <node concept="2OqwBi" id="63E4q93QWKv" role="2Oq$k0">
+                            <node concept="2YIFZM" id="63E4q93QWKw" role="2Oq$k0">
+                              <ref role="37wK5l" to="h57a:~ViatraQueryEngineOptions.defineOptions():org.eclipse.viatra.query.runtime.api.ViatraQueryEngineOptions$Builder" resolve="defineOptions" />
+                              <ref role="1Pybhc" to="h57a:~ViatraQueryEngineOptions" resolve="ViatraQueryEngineOptions" />
+                            </node>
+                            <node concept="liA8E" id="63E4q93QWKx" role="2OqNvi">
+                              <ref role="37wK5l" to="h57a:~ViatraQueryEngineOptions$Builder.withDefaultBackend(org.eclipse.viatra.query.runtime.matchers.backend.IQueryBackendFactory):org.eclipse.viatra.query.runtime.api.ViatraQueryEngineOptions$Builder" resolve="withDefaultBackend" />
+                              <node concept="37vLTw" id="63E4q93QWKy" role="37wK5m">
+                                <ref role="3cqZAo" node="63E4q93QvRT" resolve="backendFactory" />
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="liA8E" id="63E4q93QWKz" role="2OqNvi">
+                            <ref role="37wK5l" to="h57a:~ViatraQueryEngineOptions$Builder.withDefaultCachingBackend(org.eclipse.viatra.query.runtime.matchers.backend.IQueryBackendFactory):org.eclipse.viatra.query.runtime.api.ViatraQueryEngineOptions$Builder" resolve="withDefaultCachingBackend" />
+                            <node concept="37vLTw" id="63E4q93QWK$" role="37wK5m">
+                              <ref role="3cqZAo" node="63E4q93QvRT" resolve="backendFactory" />
+                            </node>
+                          </node>
                         </node>
-                        <node concept="liA8E" id="42LtM6TYCSE" role="2OqNvi">
+                        <node concept="liA8E" id="63E4q93QWK_" role="2OqNvi">
+                          <ref role="37wK5l" to="h57a:~ViatraQueryEngineOptions$Builder.withDefaultSearchBackend(org.eclipse.viatra.query.runtime.matchers.backend.IQueryBackendFactory):org.eclipse.viatra.query.runtime.api.ViatraQueryEngineOptions$Builder" resolve="withDefaultSearchBackend" />
+                          <node concept="10M0yZ" id="63E4q93QWKA" role="37wK5m">
+                            <ref role="1PxDUh" node="252dCBsJwK" resolve="DummySearchBackendFactory" />
+                            <ref role="3cqZAo" node="252dCBsNuQ" resolve="INSTANCE" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="63E4q93QWKB" role="2OqNvi">
+                        <ref role="37wK5l" to="h57a:~ViatraQueryEngineOptions$Builder.build():org.eclipse.viatra.query.runtime.api.ViatraQueryEngineOptions" resolve="build" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbJ" id="63E4q93Qt5c" role="3cqZAp">
+                  <node concept="3clFbS" id="63E4q93Qt5d" role="3clFbx">
+                    <node concept="3clFbF" id="63E4q93Qt5e" role="3cqZAp">
+                      <node concept="2OqwBi" id="63E4q93Qt5f" role="3clFbG">
+                        <node concept="37vLTw" id="63E4q93Qt5g" role="2Oq$k0">
+                          <ref role="3cqZAo" node="63E4q93Qt6e" resolve="scope" />
+                        </node>
+                        <node concept="liA8E" id="63E4q93Qt5h" role="2OqNvi">
                           <ref role="37wK5l" node="42LtM6TRz6H" resolve="setHints" />
-                          <node concept="2OqwBi" id="42LtM6TYDbq" role="37wK5m">
-                            <node concept="1eOMI4" id="42LtM6TYCYk" role="2Oq$k0">
-                              <node concept="10QFUN" id="42LtM6TYCYh" role="1eOMHV">
-                                <node concept="37vLTw" id="42LtM6TYD6o" role="10QFUP">
-                                  <ref role="3cqZAo" node="4h0s9CVLrmi" resolve="specification" />
+                          <node concept="2OqwBi" id="63E4q93Qt5i" role="37wK5m">
+                            <node concept="1eOMI4" id="63E4q93Qt5j" role="2Oq$k0">
+                              <node concept="10QFUN" id="63E4q93Qt5k" role="1eOMHV">
+                                <node concept="37vLTw" id="63E4q93Qt5l" role="10QFUP">
+                                  <ref role="3cqZAo" node="63E4q93Qt6c" resolve="specification" />
                                 </node>
-                                <node concept="3uibUv" id="42LtM6TYD0O" role="10QFUM">
+                                <node concept="3uibUv" id="63E4q93Qt5m" role="10QFUM">
                                   <ref role="3uigEE" node="2cknNXbyT0X" resolve="MPSQuerySpecification" />
                                 </node>
                               </node>
                             </node>
-                            <node concept="liA8E" id="42LtM6TYDIW" role="2OqNvi">
+                            <node concept="liA8E" id="63E4q93Qt5n" role="2OqNvi">
                               <ref role="37wK5l" node="2cknNXbyVes" resolve="getHints" />
                             </node>
                           </node>
@@ -28963,43 +28977,46 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="37vLTw" id="4apIOoJ$zaD" role="3clFbw">
-                    <ref role="3cqZAo" node="4apIOoJ$wMW" resolve="areHintsAllowed" />
+                  <node concept="37vLTw" id="63E4q93Qt5o" role="3clFbw">
+                    <ref role="3cqZAo" node="63E4q93Qt6g" resolve="areHintsAllowed" />
                   </node>
                 </node>
-                <node concept="3clFbF" id="2cknNXbLrdL" role="3cqZAp">
-                  <node concept="37vLTI" id="2cknNXbLrkj" role="3clFbG">
-                    <node concept="37vLTw" id="2cknNXbLrdJ" role="37vLTJ">
-                      <ref role="3cqZAo" node="2cknNXbLq3P" resolve="engine" />
+                <node concept="3clFbF" id="63E4q93Qt5p" role="3cqZAp">
+                  <node concept="37vLTI" id="63E4q93Qt5q" role="3clFbG">
+                    <node concept="37vLTw" id="63E4q93Qt5r" role="37vLTJ">
+                      <ref role="3cqZAo" node="63E4q93Qt4Y" resolve="engine" />
                     </node>
-                    <node concept="2YIFZM" id="2Pc1eSRsft6" role="37vLTx">
+                    <node concept="2YIFZM" id="63E4q93Qt5s" role="37vLTx">
                       <ref role="1Pybhc" to="h57a:~AdvancedViatraQueryEngine" resolve="AdvancedViatraQueryEngine" />
-                      <ref role="37wK5l" to="h57a:~AdvancedViatraQueryEngine.createUnmanagedEngine(org.eclipse.viatra.query.runtime.api.scope.QueryScope):org.eclipse.viatra.query.runtime.api.AdvancedViatraQueryEngine" resolve="createUnmanagedEngine" />
-                      <node concept="37vLTw" id="2Pc1eSRsft7" role="37wK5m">
-                        <ref role="3cqZAo" node="6cJttNuq_vP" resolve="scope" />
+                      <ref role="37wK5l" to="h57a:~AdvancedViatraQueryEngine.createUnmanagedEngine(org.eclipse.viatra.query.runtime.api.scope.QueryScope,org.eclipse.viatra.query.runtime.api.ViatraQueryEngineOptions):org.eclipse.viatra.query.runtime.api.AdvancedViatraQueryEngine" resolve="createUnmanagedEngine" />
+                      <node concept="37vLTw" id="63E4q93Qt5t" role="37wK5m">
+                        <ref role="3cqZAo" node="63E4q93Qt6e" resolve="scope" />
+                      </node>
+                      <node concept="37vLTw" id="63E4q93QXPL" role="37wK5m">
+                        <ref role="3cqZAo" node="63E4q93QWKr" resolve="options" />
                       </node>
                     </node>
                   </node>
                 </node>
-                <node concept="3clFbF" id="5YH9iFAGjEV" role="3cqZAp">
-                  <node concept="2OqwBi" id="5YH9iFAGjPB" role="3clFbG">
-                    <node concept="10M0yZ" id="4m2T58r5Ye3" role="2Oq$k0">
+                <node concept="3clFbF" id="63E4q93Qt5u" role="3cqZAp">
+                  <node concept="2OqwBi" id="63E4q93Qt5v" role="3clFbG">
+                    <node concept="10M0yZ" id="63E4q93Qt5w" role="2Oq$k0">
                       <ref role="3cqZAo" node="5YH9iFAG8N_" resolve="engineMap" />
                       <ref role="1PxDUh" node="4h0s9CVLlTo" resolve="EnginePool" />
                     </node>
-                    <node concept="liA8E" id="5YH9iFAGlqP" role="2OqNvi">
+                    <node concept="liA8E" id="63E4q93Qt5x" role="2OqNvi">
                       <ref role="37wK5l" to="33ny:~Map.put(java.lang.Object,java.lang.Object):java.lang.Object" resolve="put" />
-                      <node concept="37vLTw" id="5YH9iFAGlB7" role="37wK5m">
-                        <ref role="3cqZAo" node="6cJttNuq_vP" resolve="scope" />
+                      <node concept="37vLTw" id="63E4q93Qt5y" role="37wK5m">
+                        <ref role="3cqZAo" node="63E4q93Qt6e" resolve="scope" />
                       </node>
-                      <node concept="2ShNRf" id="5YH9iFAGlSJ" role="37wK5m">
-                        <node concept="1pGfFk" id="5YH9iFAGlSH" role="2ShVmc">
+                      <node concept="2ShNRf" id="63E4q93Qt5z" role="37wK5m">
+                        <node concept="1pGfFk" id="63E4q93Qt5$" role="2ShVmc">
                           <ref role="37wK5l" to="mpcv:~WeakReference.&lt;init&gt;(java.lang.Object)" resolve="WeakReference" />
-                          <node concept="3uibUv" id="2Pc1eSRsnm6" role="1pMfVU">
+                          <node concept="3uibUv" id="63E4q93Qt5_" role="1pMfVU">
                             <ref role="3uigEE" to="h57a:~AdvancedViatraQueryEngine" resolve="AdvancedViatraQueryEngine" />
                           </node>
-                          <node concept="37vLTw" id="2cknNXbLrs7" role="37wK5m">
-                            <ref role="3cqZAo" node="2cknNXbLq3P" resolve="engine" />
+                          <node concept="37vLTw" id="63E4q93Qt5A" role="37wK5m">
+                            <ref role="3cqZAo" node="63E4q93Qt4Y" resolve="engine" />
                           </node>
                         </node>
                       </node>
@@ -29007,111 +29024,118 @@
                   </node>
                 </node>
               </node>
-              <node concept="22lmx$" id="5YH9iFAGe3v" role="3clFbw">
-                <node concept="3clFbC" id="5YH9iFAGf0_" role="3uHU7w">
-                  <node concept="10Nm6u" id="5YH9iFAGf4I" role="3uHU7w" />
-                  <node concept="2OqwBi" id="5YH9iFAGeeI" role="3uHU7B">
-                    <node concept="37vLTw" id="5YH9iFAGec5" role="2Oq$k0">
-                      <ref role="3cqZAo" node="5YH9iFAGcUd" resolve="engineReference" />
+              <node concept="22lmx$" id="63E4q93Qt5B" role="3clFbw">
+                <node concept="3clFbC" id="63E4q93Qt5C" role="3uHU7w">
+                  <node concept="10Nm6u" id="63E4q93Qt5D" role="3uHU7w" />
+                  <node concept="2OqwBi" id="63E4q93Qt5E" role="3uHU7B">
+                    <node concept="37vLTw" id="63E4q93Qt5F" role="2Oq$k0">
+                      <ref role="3cqZAo" node="63E4q93Qt4Q" resolve="engineReference" />
                     </node>
-                    <node concept="liA8E" id="5YH9iFAGePy" role="2OqNvi">
+                    <node concept="liA8E" id="63E4q93Qt5G" role="2OqNvi">
                       <ref role="37wK5l" to="mpcv:~Reference.get():java.lang.Object" resolve="get" />
                     </node>
                   </node>
                 </node>
-                <node concept="3clFbC" id="5YH9iFAGe1B" role="3uHU7B">
-                  <node concept="37vLTw" id="5YH9iFAGdYz" role="3uHU7B">
-                    <ref role="3cqZAo" node="5YH9iFAGcUd" resolve="engineReference" />
+                <node concept="3clFbC" id="63E4q93Qt5H" role="3uHU7B">
+                  <node concept="37vLTw" id="63E4q93Qt5I" role="3uHU7B">
+                    <ref role="3cqZAo" node="63E4q93Qt4Q" resolve="engineReference" />
                   </node>
-                  <node concept="10Nm6u" id="5YH9iFAGe2x" role="3uHU7w" />
+                  <node concept="10Nm6u" id="63E4q93Qt5J" role="3uHU7w" />
                 </node>
               </node>
-              <node concept="9aQIb" id="2cknNXbLqlp" role="9aQIa">
-                <node concept="3clFbS" id="2cknNXbLqlq" role="9aQI4">
-                  <node concept="3clFbF" id="2cknNXbLqvc" role="3cqZAp">
-                    <node concept="37vLTI" id="2cknNXbLqyd" role="3clFbG">
-                      <node concept="2OqwBi" id="2cknNXbLqF$" role="37vLTx">
-                        <node concept="37vLTw" id="2cknNXbLqCi" role="2Oq$k0">
-                          <ref role="3cqZAo" node="5YH9iFAGcUd" resolve="engineReference" />
+              <node concept="9aQIb" id="63E4q93Qt5K" role="9aQIa">
+                <node concept="3clFbS" id="63E4q93Qt5L" role="9aQI4">
+                  <node concept="3clFbF" id="63E4q93Qt5M" role="3cqZAp">
+                    <node concept="37vLTI" id="63E4q93Qt5N" role="3clFbG">
+                      <node concept="2OqwBi" id="63E4q93Qt5O" role="37vLTx">
+                        <node concept="37vLTw" id="63E4q93Qt5P" role="2Oq$k0">
+                          <ref role="3cqZAo" node="63E4q93Qt4Q" resolve="engineReference" />
                         </node>
-                        <node concept="liA8E" id="2cknNXbLqXC" role="2OqNvi">
+                        <node concept="liA8E" id="63E4q93Qt5Q" role="2OqNvi">
                           <ref role="37wK5l" to="mpcv:~Reference.get():java.lang.Object" resolve="get" />
                         </node>
                       </node>
-                      <node concept="37vLTw" id="2cknNXbLqvb" role="37vLTJ">
-                        <ref role="3cqZAo" node="2cknNXbLq3P" resolve="engine" />
+                      <node concept="37vLTw" id="63E4q93Qt5R" role="37vLTJ">
+                        <ref role="3cqZAo" node="63E4q93Qt4Y" resolve="engine" />
                       </node>
                     </node>
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="2cknNXbLrS5" role="3cqZAp" />
-            <node concept="3cpWs6" id="5YH9iFAGnan" role="3cqZAp">
-              <node concept="2OqwBi" id="6KdnYMOwAye" role="3cqZAk">
-                <node concept="37vLTw" id="6KdnYMOwAyf" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2cknNXbLq3P" resolve="engine" />
+            <node concept="3clFbH" id="63E4q93Qt5S" role="3cqZAp" />
+            <node concept="3cpWs6" id="63E4q93Qt5T" role="3cqZAp">
+              <node concept="2OqwBi" id="63E4q93Qt5U" role="3cqZAk">
+                <node concept="37vLTw" id="63E4q93Qt5V" role="2Oq$k0">
+                  <ref role="3cqZAo" node="63E4q93Qt4Y" resolve="engine" />
                 </node>
-                <node concept="liA8E" id="6KdnYMOwAyg" role="2OqNvi">
+                <node concept="liA8E" id="63E4q93Qt5W" role="2OqNvi">
                   <ref role="37wK5l" to="h57a:~AdvancedViatraQueryEngine.getMatcher(org.eclipse.viatra.query.runtime.api.IQuerySpecification,org.eclipse.viatra.query.runtime.matchers.backend.QueryEvaluationHint):org.eclipse.viatra.query.runtime.api.ViatraQueryMatcher" resolve="getMatcher" />
-                  <node concept="37vLTw" id="6KdnYMOwAyh" role="37wK5m">
-                    <ref role="3cqZAo" node="4h0s9CVLrmi" resolve="specification" />
+                  <node concept="37vLTw" id="63E4q93Qt5X" role="37wK5m">
+                    <ref role="3cqZAo" node="63E4q93Qt6c" resolve="specification" />
                   </node>
-                  <node concept="10Nm6u" id="6KdnYMOwAyi" role="37wK5m" />
+                  <node concept="10Nm6u" id="63E4q93Qt5Y" role="37wK5m" />
                 </node>
               </node>
             </node>
           </node>
-          <node concept="TDmWw" id="4h0s9CVLrm3" role="TEbGg">
-            <node concept="3clFbS" id="4h0s9CVLrm4" role="TDEfX">
-              <node concept="3clFbF" id="4h0s9CVLrm5" role="3cqZAp">
-                <node concept="2OqwBi" id="4h0s9CVLrm6" role="3clFbG">
-                  <node concept="37vLTw" id="4h0s9CVLrm7" role="2Oq$k0">
-                    <ref role="3cqZAo" node="4h0s9CVLrmb" resolve="e" />
+          <node concept="TDmWw" id="63E4q93Qt5Z" role="TEbGg">
+            <node concept="3clFbS" id="63E4q93Qt60" role="TDEfX">
+              <node concept="3clFbF" id="63E4q93Qt61" role="3cqZAp">
+                <node concept="2OqwBi" id="63E4q93Qt62" role="3clFbG">
+                  <node concept="37vLTw" id="63E4q93Qt63" role="2Oq$k0">
+                    <ref role="3cqZAo" node="63E4q93Qt67" resolve="e" />
                   </node>
-                  <node concept="liA8E" id="4h0s9CVLrm8" role="2OqNvi">
+                  <node concept="liA8E" id="63E4q93Qt64" role="2OqNvi">
                     <ref role="37wK5l" to="wyt6:~Throwable.printStackTrace():void" resolve="printStackTrace" />
                   </node>
                 </node>
               </node>
-              <node concept="3cpWs6" id="4h0s9CVLrm9" role="3cqZAp">
-                <node concept="10Nm6u" id="4h0s9CVLrma" role="3cqZAk" />
+              <node concept="3cpWs6" id="63E4q93Qt65" role="3cqZAp">
+                <node concept="10Nm6u" id="63E4q93Qt66" role="3cqZAk" />
               </node>
             </node>
-            <node concept="3cpWsn" id="4h0s9CVLrmb" role="TDEfY">
+            <node concept="3cpWsn" id="63E4q93Qt67" role="TDEfY">
               <property role="TrG5h" value="e" />
-              <node concept="3uibUv" id="2Pc1eSRtfqs" role="1tU5fm">
+              <node concept="3uibUv" id="63E4q93Qt68" role="1tU5fm">
                 <ref role="3uigEE" to="5xaj:~ViatraQueryException" resolve="ViatraQueryException" />
               </node>
             </node>
           </node>
         </node>
       </node>
-      <node concept="3Tm1VV" id="4h0s9CVLrmd" role="1B3o_S" />
-      <node concept="3uibUv" id="4h0s9CVLrme" role="3clF45">
+      <node concept="3Tm1VV" id="63E4q93Qt69" role="1B3o_S" />
+      <node concept="3uibUv" id="63E4q93Qt6a" role="3clF45">
         <ref role="3uigEE" to="h57a:~ViatraQueryMatcher" resolve="ViatraQueryMatcher" />
-        <node concept="3uibUv" id="6$TCdl5z48h" role="11_B2D">
+        <node concept="3uibUv" id="63E4q93Qt6b" role="11_B2D">
           <ref role="3uigEE" to="h57a:~IPatternMatch" resolve="IPatternMatch" />
         </node>
       </node>
-      <node concept="37vLTG" id="4h0s9CVLrmi" role="3clF46">
+      <node concept="37vLTG" id="63E4q93Qt6c" role="3clF46">
         <property role="TrG5h" value="specification" />
         <property role="3TUv4t" value="true" />
-        <node concept="3uibUv" id="6KdnYMOyRE2" role="1tU5fm">
+        <node concept="3uibUv" id="63E4q93Qt6d" role="1tU5fm">
           <ref role="3uigEE" to="h57a:~GenericQuerySpecification" resolve="GenericQuerySpecification" />
         </node>
       </node>
-      <node concept="37vLTG" id="6cJttNuq_vP" role="3clF46">
+      <node concept="37vLTG" id="63E4q93Qt6e" role="3clF46">
         <property role="TrG5h" value="scope" />
         <property role="3TUv4t" value="true" />
-        <node concept="3uibUv" id="1cwfJkvt23P" role="1tU5fm">
+        <node concept="3uibUv" id="63E4q93Qt6f" role="1tU5fm">
           <ref role="3uigEE" node="1cwfJkvsPlx" resolve="AbstractScope" />
         </node>
       </node>
-      <node concept="37vLTG" id="4apIOoJ$wMW" role="3clF46">
+      <node concept="37vLTG" id="63E4q93Qt6g" role="3clF46">
         <property role="TrG5h" value="areHintsAllowed" />
         <property role="3TUv4t" value="true" />
-        <node concept="10P_77" id="4apIOoJ$xyo" role="1tU5fm" />
+        <node concept="10P_77" id="63E4q93Qt6h" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="63E4q93QvRT" role="3clF46">
+        <property role="TrG5h" value="backendFactory" />
+        <property role="3TUv4t" value="true" />
+        <node concept="3uibUv" id="63E4q93QQlj" role="1tU5fm">
+          <ref role="3uigEE" to="wduz:~IQueryBackendFactory" resolve="IQueryBackendFactory" />
+        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="2btsJ11lNFC" role="jymVt" />

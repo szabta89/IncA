@@ -31,6 +31,7 @@
     <language slang="l:8c9a2720-9d21-4370-a226-819eb3e76e1e:org.inca.fun" version="0" />
     <language slang="l:cd2909da-ecb4-49dc-b176-33e5c619e516:org.inca.gp" version="0" />
     <language slang="l:1d07278f-c7c0-42f9-86d5-36c90a494d43:org.inca.integration.doop" version="0" />
+    <language slang="l:4f0197ca-971d-45b6-82d7-0a2bf8511267:org.inca.integration.soot" version="0" />
   </languageVersions>
   <dependencyVersions>
     <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
