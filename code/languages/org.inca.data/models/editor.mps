@@ -274,6 +274,9 @@
       </concept>
       <concept id="8207263695490893775" name="com.mbeddr.mpsutil.grammarcells.structure.CellBasedRule" flags="ng" index="2ElW$n" />
       <concept id="8945098465480383073" name="com.mbeddr.mpsutil.grammarcells.structure.OptionalCell_TransformationText" flags="ig" index="ZYGn8" />
+      <concept id="7363578995839203705" name="com.mbeddr.mpsutil.grammarcells.structure.FlagCell" flags="sg" stub="1984422498400729024" index="1kHk_G">
+        <property id="7617962380315063287" name="flagText" index="ZjSer" />
+      </concept>
       <concept id="7363578995839435357" name="com.mbeddr.mpsutil.grammarcells.structure.WrapperCell" flags="ng" index="1kIj98">
         <property id="484443907677193054" name="focusWrapped" index="3g2DhO" />
         <child id="1984422498404558693" name="leftTransformationText" index="2ee7bq" />
@@ -1456,6 +1459,11 @@
     <ref role="1XX52x" to="uu1k:6h60itP$bP2" resolve="LatticeOperationParameterDeclaration" />
     <node concept="3EZMnI" id="6h60itP$bPz" role="2wV5jI">
       <node concept="l2Vlx" id="6h60itP$bP$" role="2iSdaV" />
+      <node concept="1kHk_G" id="frQ9H7ul4A" role="3EZMnx">
+        <property role="ZjSer" value="final" />
+        <ref role="1NtTu8" to="tpee:h7TUv0c" resolve="isFinal" />
+        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
+      </node>
       <node concept="1kIj98" id="5ZcZlaf5LJS" role="3EZMnx">
         <property role="3g2DhO" value="true" />
         <node concept="3F0A7n" id="5ZcZlaf5LK8" role="1kIj9b">

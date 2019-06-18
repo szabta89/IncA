@@ -128,6 +128,7 @@
         <child id="6592112598314499028" name="dependencies" index="m$_yJ" />
         <child id="6592112598314499021" name="name" index="m$_yQ" />
         <child id="6592112598314855574" name="containerName" index="m_cZH" />
+        <child id="2172791612906637490" name="description" index="3s6cr7" />
       </concept>
       <concept id="6592112598314498926" name="jetbrains.mps.build.mps.structure.BuildMpsLayout_Plugin" flags="ng" index="m$_wl">
         <reference id="6592112598314801433" name="plugin" index="m_rDy" />
@@ -2428,6 +2429,7 @@
         <property role="2iUeEu" value="org.inca.plugin.test" />
         <property role="2iUeEt" value="IncA" />
       </node>
+      <node concept="3_J27D" id="63E4q94ZBGb" role="3s6cr7" />
     </node>
     <node concept="2G$12M" id="7eF9rfAnzVd" role="3989C9">
       <property role="TrG5h" value="org.inca.tests" />

@@ -1607,5 +1607,15 @@
       <ref role="PrY4T" node="3iREICylu8n" resolve="IBackendKind" />
     </node>
   </node>
+  <node concept="1TIwiD" id="V2axCT8wM">
+    <property role="EcuMT" value="16616543033264178" />
+    <property role="3GE5qa" value="compiler" />
+    <property role="TrG5h" value="STimelyKind" />
+    <property role="34LRSv" value="S-Timely" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="V2axCT8wN" role="PzmwI">
+      <ref role="PrY4T" node="3iREICylu8n" resolve="IBackendKind" />
+    </node>
+  </node>
 </model>
 

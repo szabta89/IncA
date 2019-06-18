@@ -1879,6 +1879,50 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="2tJIrI" id="16zAhBYNDQR" role="jymVt" />
+    <node concept="3clFb_" id="16zAhBYNUsk" role="jymVt">
+      <property role="TrG5h" value="contains" />
+      <node concept="3Tm1VV" id="16zAhBYNUsm" role="1B3o_S" />
+      <node concept="10P_77" id="16zAhBYNUso" role="3clF45" />
+      <node concept="37vLTG" id="16zAhBYNUsp" role="3clF46">
+        <property role="TrG5h" value="value" />
+        <property role="3TUv4t" value="true" />
+        <node concept="16syzq" id="16zAhBYNUst" role="1tU5fm">
+          <ref role="16sUi3" node="3xDKE$ECYEH" resolve="T" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="16zAhBYNUsr" role="3clF46">
+        <property role="TrG5h" value="accumulator" />
+        <property role="3TUv4t" value="true" />
+        <node concept="3uibUv" id="16zAhBYNUsu" role="1tU5fm">
+          <ref role="3uigEE" node="1IHJpvFhhN0" resolve="AugmentedTree" />
+          <node concept="16syzq" id="16zAhBYNUsv" role="11_B2D">
+            <ref role="16sUi3" node="3xDKE$ECYEH" resolve="T" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbS" id="16zAhBYNUsw" role="3clF47">
+        <node concept="3cpWs6" id="16zAhBYO6hM" role="3cqZAp">
+          <node concept="3y3z36" id="16zAhBYO6hN" role="3cqZAk">
+            <node concept="10Nm6u" id="16zAhBYO6hO" role="3uHU7w" />
+            <node concept="2OqwBi" id="16zAhBYO6hP" role="3uHU7B">
+              <node concept="37vLTw" id="16zAhBYO6hQ" role="2Oq$k0">
+                <ref role="3cqZAo" node="16zAhBYNUsr" resolve="accumulator" />
+              </node>
+              <node concept="liA8E" id="16zAhBYO6hR" role="2OqNvi">
+                <ref role="37wK5l" to="gtp9:5JGdS3N8zys" resolve="find" />
+                <node concept="37vLTw" id="16zAhBYO6hS" role="37wK5m">
+                  <ref role="3cqZAo" node="16zAhBYNUsp" resolve="value" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="16zAhBYNUsx" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="3S041cdGdU2" role="jymVt" />
     <node concept="3clFb_" id="3S041cdGrCs" role="jymVt">
       <property role="TrG5h" value="prettyPrint" />
@@ -6554,79 +6598,86 @@
           </node>
         </node>
         <node concept="3clFbH" id="7zh7ZG6pWBV" role="3cqZAp" />
-        <node concept="3cpWs8" id="3iREICyxcYD" role="3cqZAp">
-          <node concept="3cpWsn" id="3iREICyxcYE" role="3cpWs9">
-            <property role="TrG5h" value="callGraph" />
-            <property role="3TUv4t" value="true" />
-            <node concept="3uibUv" id="3iREICyxcY_" role="1tU5fm">
-              <ref role="3uigEE" to="cqwv:~Graph" resolve="Graph" />
-              <node concept="3Tqbb2" id="3iREICyxcYC" role="11_B2D">
-                <ref role="ehGHo" to="hqsm:3VwoHXNAdmh" resolve="IPattern" />
+        <node concept="3clFbJ" id="V2axD120u" role="3cqZAp">
+          <node concept="3clFbS" id="V2axD120w" role="3clFbx">
+            <node concept="3cpWs8" id="3iREICyxcYD" role="3cqZAp">
+              <node concept="3cpWsn" id="3iREICyxcYE" role="3cpWs9">
+                <property role="TrG5h" value="callGraph" />
+                <property role="3TUv4t" value="true" />
+                <node concept="3uibUv" id="3iREICyxcY_" role="1tU5fm">
+                  <ref role="3uigEE" to="cqwv:~Graph" resolve="Graph" />
+                  <node concept="3Tqbb2" id="3iREICyxcYC" role="11_B2D">
+                    <ref role="ehGHo" to="hqsm:3VwoHXNAdmh" resolve="IPattern" />
+                  </node>
+                </node>
+                <node concept="2YIFZM" id="3iREICyxcYF" role="33vP2m">
+                  <ref role="37wK5l" to="t4sj:3iREICyqqz1" resolve="createCallGraph" />
+                  <ref role="1Pybhc" node="3iREICypDIo" resolve="TimelyLatticeAggregationRewriter" />
+                  <node concept="37vLTw" id="7zh7ZG67yUG" role="37wK5m">
+                    <ref role="3cqZAo" node="7zh7ZG671zV" resolve="model" />
+                  </node>
+                </node>
               </node>
             </node>
-            <node concept="2YIFZM" id="3iREICyxcYF" role="33vP2m">
-              <ref role="37wK5l" to="t4sj:3iREICyqqz1" resolve="createCallGraph" />
-              <ref role="1Pybhc" node="3iREICypDIo" resolve="TimelyLatticeAggregationRewriter" />
-              <node concept="37vLTw" id="7zh7ZG67yUG" role="37wK5m">
-                <ref role="3cqZAo" node="7zh7ZG671zV" resolve="model" />
+            <node concept="3cpWs8" id="3iREICyxl3U" role="3cqZAp">
+              <node concept="3cpWsn" id="3iREICyxl3V" role="3cpWs9">
+                <property role="TrG5h" value="sccs" />
+                <property role="3TUv4t" value="true" />
+                <node concept="3uibUv" id="7zh7ZG672_U" role="1tU5fm">
+                  <ref role="3uigEE" to="33ny:~Set" resolve="Set" />
+                  <node concept="3uibUv" id="7zh7ZG672_V" role="11_B2D">
+                    <ref role="3uigEE" to="33ny:~Set" resolve="Set" />
+                    <node concept="3Tqbb2" id="7zh7ZG672_W" role="11_B2D">
+                      <ref role="ehGHo" to="hqsm:3VwoHXNAdmh" resolve="IPattern" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="3iREICyxl3W" role="33vP2m">
+                  <node concept="2YIFZM" id="3iREICyxl3X" role="2Oq$k0">
+                    <ref role="37wK5l" to="ei0i:~SCC.computeSCC(org.eclipse.viatra.query.runtime.base.itc.igraph.IGraphDataSource):org.eclipse.viatra.query.runtime.base.itc.alg.misc.scc.SCCResult" resolve="computeSCC" />
+                    <ref role="1Pybhc" to="ei0i:~SCC" resolve="SCC" />
+                    <node concept="37vLTw" id="3iREICyxl3Y" role="37wK5m">
+                      <ref role="3cqZAo" node="3iREICyxcYE" resolve="callGraph" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="3iREICyxl3Z" role="2OqNvi">
+                    <ref role="37wK5l" to="ei0i:~SCCResult.getSccs():java.util.Set" resolve="getSccs" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="7zh7ZG6qXEl" role="3cqZAp" />
+            <node concept="2Gpval" id="7zh7ZG6qXe5" role="3cqZAp">
+              <node concept="2GrKxI" id="7zh7ZG6qXe7" role="2Gsz3X">
+                <property role="TrG5h" value="oldPattern" />
+              </node>
+              <node concept="37vLTw" id="7zh7ZG6r0p$" role="2GsD0m">
+                <ref role="3cqZAo" node="7zh7ZG6q7si" resolve="aggregatingPatterns" />
+              </node>
+              <node concept="3clFbS" id="7zh7ZG6qXeb" role="2LFqv$">
+                <node concept="3clFbF" id="3iREICyqgR3" role="3cqZAp">
+                  <node concept="2YIFZM" id="3iREICyqgR4" role="3clFbG">
+                    <ref role="37wK5l" node="3iREICypDIv" resolve="demandCreateDoubleAggregatingPattern" />
+                    <ref role="1Pybhc" node="3iREICypDIo" resolve="TimelyLatticeAggregationRewriter" />
+                    <node concept="2GrUjf" id="3iREICyqgR5" role="37wK5m">
+                      <ref role="2Gs0qQ" node="7zh7ZG6qXe7" resolve="oldPattern" />
+                    </node>
+                    <node concept="37vLTw" id="7zh7ZG67$je" role="37wK5m">
+                      <ref role="3cqZAo" node="7zh7ZG671zV" resolve="model" />
+                    </node>
+                    <node concept="37vLTw" id="3iREICyxdMO" role="37wK5m">
+                      <ref role="3cqZAo" node="3iREICyxcYE" resolve="callGraph" />
+                    </node>
+                    <node concept="37vLTw" id="3iREICyxjtX" role="37wK5m">
+                      <ref role="3cqZAo" node="3iREICyxl3V" resolve="sccs" />
+                    </node>
+                  </node>
+                </node>
               </node>
             </node>
           </node>
-        </node>
-        <node concept="3cpWs8" id="3iREICyxl3U" role="3cqZAp">
-          <node concept="3cpWsn" id="3iREICyxl3V" role="3cpWs9">
-            <property role="TrG5h" value="sccs" />
-            <property role="3TUv4t" value="true" />
-            <node concept="3uibUv" id="7zh7ZG672_U" role="1tU5fm">
-              <ref role="3uigEE" to="33ny:~Set" resolve="Set" />
-              <node concept="3uibUv" id="7zh7ZG672_V" role="11_B2D">
-                <ref role="3uigEE" to="33ny:~Set" resolve="Set" />
-                <node concept="3Tqbb2" id="7zh7ZG672_W" role="11_B2D">
-                  <ref role="ehGHo" to="hqsm:3VwoHXNAdmh" resolve="IPattern" />
-                </node>
-              </node>
-            </node>
-            <node concept="2OqwBi" id="3iREICyxl3W" role="33vP2m">
-              <node concept="2YIFZM" id="3iREICyxl3X" role="2Oq$k0">
-                <ref role="37wK5l" to="ei0i:~SCC.computeSCC(org.eclipse.viatra.query.runtime.base.itc.igraph.IGraphDataSource):org.eclipse.viatra.query.runtime.base.itc.alg.misc.scc.SCCResult" resolve="computeSCC" />
-                <ref role="1Pybhc" to="ei0i:~SCC" resolve="SCC" />
-                <node concept="37vLTw" id="3iREICyxl3Y" role="37wK5m">
-                  <ref role="3cqZAo" node="3iREICyxcYE" resolve="callGraph" />
-                </node>
-              </node>
-              <node concept="liA8E" id="3iREICyxl3Z" role="2OqNvi">
-                <ref role="37wK5l" to="ei0i:~SCCResult.getSccs():java.util.Set" resolve="getSccs" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="7zh7ZG6qXEl" role="3cqZAp" />
-        <node concept="2Gpval" id="7zh7ZG6qXe5" role="3cqZAp">
-          <node concept="2GrKxI" id="7zh7ZG6qXe7" role="2Gsz3X">
-            <property role="TrG5h" value="oldPattern" />
-          </node>
-          <node concept="37vLTw" id="7zh7ZG6r0p$" role="2GsD0m">
-            <ref role="3cqZAo" node="7zh7ZG6q7si" resolve="aggregatingPatterns" />
-          </node>
-          <node concept="3clFbS" id="7zh7ZG6qXeb" role="2LFqv$">
-            <node concept="3clFbF" id="3iREICyqgR3" role="3cqZAp">
-              <node concept="2YIFZM" id="3iREICyqgR4" role="3clFbG">
-                <ref role="37wK5l" node="3iREICypDIv" resolve="demandCreateDoubleAggregatingPattern" />
-                <ref role="1Pybhc" node="3iREICypDIo" resolve="TimelyLatticeAggregationRewriter" />
-                <node concept="2GrUjf" id="3iREICyqgR5" role="37wK5m">
-                  <ref role="2Gs0qQ" node="7zh7ZG6qXe7" resolve="oldPattern" />
-                </node>
-                <node concept="37vLTw" id="7zh7ZG67$je" role="37wK5m">
-                  <ref role="3cqZAo" node="7zh7ZG671zV" resolve="model" />
-                </node>
-                <node concept="37vLTw" id="3iREICyxdMO" role="37wK5m">
-                  <ref role="3cqZAo" node="3iREICyxcYE" resolve="callGraph" />
-                </node>
-                <node concept="37vLTw" id="3iREICyxjtX" role="37wK5m">
-                  <ref role="3cqZAo" node="3iREICyxl3V" resolve="sccs" />
-                </node>
-              </node>
-            </node>
+          <node concept="37vLTw" id="V2axD12NM" role="3clFbw">
+            <ref role="3cqZAo" node="V2axD0X32" resolve="withDoubleAggregation" />
           </node>
         </node>
       </node>
@@ -6636,6 +6687,11 @@
         <property role="TrG5h" value="model" />
         <property role="3TUv4t" value="true" />
         <node concept="H_c77" id="7zh7ZG671zU" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="V2axD0X32" role="3clF46">
+        <property role="TrG5h" value="withDoubleAggregation" />
+        <property role="3TUv4t" value="true" />
+        <node concept="10P_77" id="V2axD0Y9p" role="1tU5fm" />
       </node>
     </node>
     <node concept="2tJIrI" id="7zh7ZG66ZuG" role="jymVt" />

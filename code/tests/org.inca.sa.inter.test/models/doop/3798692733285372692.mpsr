@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model ref="r:1c89766f-bec5-416e-a735-1d8e2add3fc0(org.inca.sa.inter.test.doop)" content="root">
+  <persistence version="9" />
+  <imports />
+  <registry>
+    <language id="b802a056-92a2-4fbc-902e-f8e5004c331f" name="org.inca.core">
+      <concept id="3798692733285425690" name="org.inca.core.structure.NSTimelyKind" flags="ng" index="mS$zK" />
+      <concept id="3798692733285372749" name="org.inca.core.structure.BackendOption" flags="ng" index="mSFAB">
+        <child id="3798692733285425707" name="kind" index="mS$z1" />
+      </concept>
+      <concept id="4799072788058981840" name="org.inca.core.structure.IncACompilerOptions" flags="ng" index="1HTBUm">
+        <child id="4799072788058988391" name="options" index="1HTAgx" />
+      </concept>
+    </language>
+  </registry>
+  <node concept="1HTBUm" id="3iREICylhck">
+    <node concept="mSFAB" id="63E4q93PYlU" role="1HTAgx">
+      <node concept="mS$zK" id="63E4q93PYm1" role="mS$z1" />
+    </node>
+  </node>
+</model>
+
