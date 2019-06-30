@@ -86,7 +86,7 @@
     </language>
   </registry>
   <node concept="3TKv5i" id="4REMYHpS65x">
-    <property role="TrG5h" value="PointsToAnalysis" />
+    <property role="TrG5h" value="PointsToAnalysis_Rel" />
     <node concept="3zyOaA" id="4REMYHpS6hH" role="1dubk0">
       <property role="TrG5h" value="InitializedClass" />
       <node concept="1VLyuc" id="4REMYHpS6hG" role="1dv5OJ">
@@ -573,7 +573,7 @@
     </node>
     <node concept="1XdyHe" id="3s7jl2fIKWC" role="1dubk0" />
     <node concept="3zyOaA" id="4REMYHpS6hV" role="1dubk0">
-      <property role="TrG5h" value="VarPointsTo" />
+      <property role="TrG5h" value="VarPointsTo_Rel" />
       <node concept="1VLyuc" id="4REMYHpS6hS" role="1dv5OJ">
         <property role="TrG5h" value="heap" />
         <node concept="2PmbLq" id="4REMYHpS6hR" role="1dukDx">
@@ -639,7 +639,7 @@
           <node concept="2dT$3Y" id="31q4hCtkB52" role="34ocs8">
             <node concept="2k1GkI" id="31q4hCtkB53" role="2dT$1H">
               <node concept="2k1_uq" id="31q4hCtkB54" role="2nKVj6">
-                <ref role="2nKBpL" node="4REMYHpS6hV" resolve="VarPointsTo" />
+                <ref role="2nKBpL" node="4REMYHpS6hV" resolve="VarPointsTo_Rel" />
                 <node concept="30NkWi" id="31q4hCtkB4Z" role="2nKBpO">
                   <ref role="XkjO9" node="4REMYHpS6hS" resolve="heap" />
                 </node>
@@ -686,7 +686,7 @@
           <node concept="2dT$3Y" id="31q4hCtkB5l" role="34ocs8">
             <node concept="2k1GkI" id="31q4hCtkB5m" role="2dT$1H">
               <node concept="2k1_uq" id="31q4hCtkB5n" role="2nKVj6">
-                <ref role="2nKBpL" node="4REMYHpS6hV" resolve="VarPointsTo" />
+                <ref role="2nKBpL" node="4REMYHpS6hV" resolve="VarPointsTo_Rel" />
                 <node concept="30NkWi" id="31q4hCtkB5i" role="2nKBpO">
                   <ref role="XkjO9" node="4REMYHpS6hS" resolve="heap" />
                 </node>
@@ -766,7 +766,7 @@
           <node concept="2dT$3Y" id="31q4hCtkB5P" role="34ocs8">
             <node concept="2k1GkI" id="31q4hCtkB5Q" role="2dT$1H">
               <node concept="2k1_uq" id="31q4hCtkB5R" role="2nKVj6">
-                <ref role="2nKBpL" node="4REMYHpS6hV" resolve="VarPointsTo" />
+                <ref role="2nKBpL" node="4REMYHpS6hV" resolve="VarPointsTo_Rel" />
                 <node concept="30NkWi" id="31q4hCtkB5M" role="2nKBpO">
                   <ref role="XkjO9" node="4REMYHpS6hS" resolve="heap" />
                 </node>
@@ -813,7 +813,7 @@
           <node concept="2dT$3Y" id="31q4hCtkB6T" role="34ocs8">
             <node concept="2k1GkI" id="31q4hCtkB6U" role="2dT$1H">
               <node concept="2k1_uq" id="31q4hCtkB6V" role="2nKVj6">
-                <ref role="2nKBpL" node="4REMYHpS6hV" resolve="VarPointsTo" />
+                <ref role="2nKBpL" node="4REMYHpS6hV" resolve="VarPointsTo_Rel" />
                 <node concept="30KbLJ" id="31q4hCtkB6Q" role="2nKBpO">
                   <property role="TrG5h" value="baseheap" />
                 </node>
@@ -901,6 +901,15 @@
         </node>
       </node>
       <node concept="3zV_Rz" id="31q4hCtkB7q" role="3zVECR">
+        <node concept="1XdyHb" id="BLDkguXlxr" role="1dgzf0">
+          <property role="1dubkF" value="field load into var in the form of var := base.fld" />
+        </node>
+        <node concept="1XdyHb" id="BLDkguXokT" role="1dgzf0">
+          <property role="1dubkF" value="first we obtain the pointer targets for the base variable" />
+        </node>
+        <node concept="1XdyHb" id="BLDkguXB0S" role="1dgzf0">
+          <property role="1dubkF" value="then we query instance field points to for (baseheap, fld)" />
+        </node>
         <node concept="34ocy7" id="frQ9H7s6HU" role="1dgzf0">
           <node concept="2dT$3Y" id="frQ9H7s7rZ" role="34ocs8">
             <node concept="2k1GkI" id="frQ9H7s89t" role="2dT$1H">
@@ -910,7 +919,7 @@
                   <ref role="XkjO9" node="4REMYHpS6hU" resolve="var" />
                 </node>
                 <node concept="30KbLJ" id="frQ9H7skGM" role="2nKBpO">
-                  <property role="TrG5h" value="signature" />
+                  <property role="TrG5h" value="fld" />
                 </node>
                 <node concept="30KbLJ" id="frQ9H7snvX" role="2nKBpO">
                   <property role="TrG5h" value="baseheap" />
@@ -928,7 +937,7 @@
                   <ref role="XkjO9" node="4REMYHpS6hS" resolve="heap" />
                 </node>
                 <node concept="30NkWi" id="31q4hCtkB7J" role="2nKBpO">
-                  <ref role="XkjO9" node="frQ9H7skGM" resolve="signature" />
+                  <ref role="XkjO9" node="frQ9H7skGM" resolve="fld" />
                 </node>
                 <node concept="30NkWi" id="31q4hCtkB7K" role="2nKBpO">
                   <ref role="XkjO9" node="frQ9H7snvX" resolve="baseheap" />
@@ -1061,7 +1070,7 @@
         </node>
       </node>
       <node concept="1VLyuc" id="frQ9H7s5kc" role="1dv5OJ">
-        <property role="TrG5h" value="signature" />
+        <property role="TrG5h" value="fld" />
         <node concept="2PmbLq" id="frQ9H7sdE5" role="1dukDx">
           <ref role="2PmbDx" to="tpck:fKAQMTA" resolve="integer" />
         </node>
@@ -1094,7 +1103,7 @@
                   <property role="TrG5h" value="base" />
                 </node>
                 <node concept="30NkWi" id="frQ9H7sh77" role="2nKBpO">
-                  <ref role="XkjO9" node="frQ9H7s5kc" resolve="signature" />
+                  <ref role="XkjO9" node="frQ9H7s5kc" resolve="fld" />
                 </node>
                 <node concept="30NkWi" id="frQ9H7shQi" role="2nKBpO">
                   <ref role="XkjO9" node="frQ9H7s4Ch" resolve="var" />
@@ -1110,7 +1119,7 @@
           <node concept="2dT$3Y" id="frQ9H7s3Ua" role="34ocs8">
             <node concept="2k1GkI" id="frQ9H7s3Ub" role="2dT$1H">
               <node concept="2k1_uq" id="frQ9H7s3Uc" role="2nKVj6">
-                <ref role="2nKBpL" node="4REMYHpS6hV" resolve="VarPointsTo" />
+                <ref role="2nKBpL" node="4REMYHpS6hV" resolve="VarPointsTo_Rel" />
                 <node concept="30NkWi" id="frQ9H7sjhX" role="2nKBpO">
                   <ref role="XkjO9" node="frQ9H7sdE9" resolve="baseheap" />
                 </node>
@@ -1185,7 +1194,7 @@
           <node concept="2dT$3Y" id="31q4hCtkB86" role="34ocs8">
             <node concept="2k1GkI" id="31q4hCtkB87" role="2dT$1H">
               <node concept="2k1_uq" id="31q4hCtkB88" role="2nKVj6">
-                <ref role="2nKBpL" node="4REMYHpS6hV" resolve="VarPointsTo" />
+                <ref role="2nKBpL" node="4REMYHpS6hV" resolve="VarPointsTo_Rel" />
                 <node concept="30NkWi" id="31q4hCtkB83" role="2nKBpO">
                   <ref role="XkjO9" node="4REMYHpS6hZ" resolve="heap" />
                 </node>
@@ -1200,7 +1209,7 @@
           <node concept="2dT$3Y" id="31q4hCtkB8c" role="34ocs8">
             <node concept="2k1GkI" id="31q4hCtkB8d" role="2dT$1H">
               <node concept="2k1_uq" id="31q4hCtkB8e" role="2nKVj6">
-                <ref role="2nKBpL" node="4REMYHpS6hV" resolve="VarPointsTo" />
+                <ref role="2nKBpL" node="4REMYHpS6hV" resolve="VarPointsTo_Rel" />
                 <node concept="30NkWi" id="31q4hCtkB89" role="2nKBpO">
                   <ref role="XkjO9" node="4REMYHpS6i3" resolve="baseheap" />
                 </node>
@@ -1265,7 +1274,7 @@
           <node concept="2dT$3Y" id="31q4hCtkB8M" role="34ocs8">
             <node concept="2k1GkI" id="31q4hCtkB8N" role="2dT$1H">
               <node concept="2k1_uq" id="31q4hCtkB8O" role="2nKVj6">
-                <ref role="2nKBpL" node="4REMYHpS6hV" resolve="VarPointsTo" />
+                <ref role="2nKBpL" node="4REMYHpS6hV" resolve="VarPointsTo_Rel" />
                 <node concept="30NkWi" id="31q4hCtkB8J" role="2nKBpO">
                   <ref role="XkjO9" node="4REMYHpS6i8" resolve="heap" />
                 </node>
@@ -1522,7 +1531,7 @@
           <node concept="2dT$3Y" id="28QKaMBxAVo" role="34ocs8">
             <node concept="2k1GkI" id="28QKaMBxAVp" role="2dT$1H">
               <node concept="2k1_uq" id="28QKaMBxAVq" role="2nKVj6">
-                <ref role="2nKBpL" node="4REMYHpS6hV" resolve="VarPointsTo" />
+                <ref role="2nKBpL" node="4REMYHpS6hV" resolve="VarPointsTo_Rel" />
                 <node concept="30NkWi" id="28QKaMBxAVr" role="2nKBpO">
                   <ref role="XkjO9" node="28QKaMBxAV4" resolve="heap" />
                 </node>
@@ -1745,7 +1754,7 @@
           <node concept="2dT$3Y" id="6x_ofXK9NBb" role="34ocs8">
             <node concept="2k1GkI" id="6x_ofXK9NCO" role="2dT$1H">
               <node concept="2k1_uq" id="6x_ofXK9NCM" role="2nKVj6">
-                <ref role="2nKBpL" node="4REMYHpS6hV" resolve="VarPointsTo" />
+                <ref role="2nKBpL" node="4REMYHpS6hV" resolve="VarPointsTo_Rel" />
                 <node concept="30NkWi" id="6x_ofXKa4jv" role="2nKBpO">
                   <ref role="XkjO9" node="6x_ofXKa1pF" resolve="heap" />
                 </node>
@@ -1841,7 +1850,7 @@
           <node concept="2dT$3Y" id="31q4hCtkB68" role="34ocs8">
             <node concept="2k1GkI" id="31q4hCtkB69" role="2dT$1H">
               <node concept="2k1_uq" id="31q4hCtkB6a" role="2nKVj6">
-                <ref role="2nKBpL" node="4REMYHpS6hV" resolve="VarPointsTo" />
+                <ref role="2nKBpL" node="4REMYHpS6hV" resolve="VarPointsTo_Rel" />
                 <node concept="30NkWi" id="31q4hCtkB65" role="2nKBpO">
                   <ref role="XkjO9" node="4REMYHpS6im" resolve="baseheap" />
                 </node>
@@ -1856,7 +1865,7 @@
           <node concept="2dT$3Y" id="31q4hCtkB6e" role="34ocs8">
             <node concept="2k1GkI" id="31q4hCtkB6f" role="2dT$1H">
               <node concept="2k1_uq" id="31q4hCtkB6g" role="2nKVj6">
-                <ref role="2nKBpL" node="4REMYHpS6hV" resolve="VarPointsTo" />
+                <ref role="2nKBpL" node="4REMYHpS6hV" resolve="VarPointsTo_Rel" />
                 <node concept="30NkWi" id="31q4hCtkB6b" role="2nKBpO">
                   <ref role="XkjO9" node="4REMYHpS6io" resolve="heap" />
                 </node>

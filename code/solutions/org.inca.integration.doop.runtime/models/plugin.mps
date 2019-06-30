@@ -33,6 +33,7 @@
     <import index="ks1j" ref="7766a138-716a-422a-9c88-131459fb8d6a/java:org.eclipse.collections.api.map.primitive(org.inca.core.runtime/)" />
     <import index="6bun" ref="7766a138-716a-422a-9c88-131459fb8d6a/java:org.eclipse.collections.impl.factory.primitive(org.inca.core.runtime/)" />
     <import index="9h3f" ref="7766a138-716a-422a-9c88-131459fb8d6a/java:org.eclipse.viatra.query.runtime.matchers.util(org.inca.core.runtime/)" />
+    <import index="zt8v" ref="r:ab008189-f07c-44e4-9434-629f972e973d(org.inca.core.util.plugin)" />
     <import index="qyhf" ref="7766a138-716a-422a-9c88-131459fb8d6a/java:org.eclipse.collections.api.factory.map.primitive(org.inca.core.runtime/)" implicit="true" />
     <import index="wgkj" ref="7766a138-716a-422a-9c88-131459fb8d6a/java:org.eclipse.collections.api.tuple.primitive(org.inca.core.runtime/)" implicit="true" />
     <import index="8xw0" ref="7766a138-716a-422a-9c88-131459fb8d6a/java:org.eclipse.collections.api(org.inca.core.runtime/)" implicit="true" />
@@ -611,6 +612,15 @@
               <node concept="37vLTw" id="w2h3oE0B93" role="37wK5m">
                 <ref role="3cqZAo" node="w2h3oDZTUY" resolve="analysisFile" />
               </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="6Gsy$BH5DwW" role="3cqZAp">
+          <node concept="3cpWsn" id="6Gsy$BH5DwZ" role="3cpWs9">
+            <property role="TrG5h" value="allRelationSize" />
+            <node concept="3cpWsb" id="6Gsy$BH5DwU" role="1tU5fm" />
+            <node concept="3cmrfG" id="6Gsy$BH5FpZ" role="33vP2m">
+              <property role="3cmrfH" value="0" />
             </node>
           </node>
         </node>
@@ -1353,6 +1363,26 @@
                         </node>
                       </node>
                     </node>
+                    <node concept="3cpWs8" id="6Gsy$BH5FT_" role="3cqZAp">
+                      <node concept="3cpWsn" id="6Gsy$BH5FTA" role="3cpWs9">
+                        <property role="TrG5h" value="relationSize" />
+                        <property role="3TUv4t" value="true" />
+                        <node concept="10Oyi0" id="6Gsy$BH5FT8" role="1tU5fm" />
+                        <node concept="2OqwBi" id="6Gsy$BH5FTB" role="33vP2m">
+                          <node concept="2OqwBi" id="6Gsy$BH5FTC" role="2Oq$k0">
+                            <node concept="37vLTw" id="6Gsy$BH5FTD" role="2Oq$k0">
+                              <ref role="3cqZAo" node="w2h3oE12Hj" resolve="relation" />
+                            </node>
+                            <node concept="liA8E" id="6Gsy$BH5FTE" role="2OqNvi">
+                              <ref role="37wK5l" node="w2h3oDZoIU" resolve="getFacts" />
+                            </node>
+                          </node>
+                          <node concept="liA8E" id="6Gsy$BH5FTF" role="2OqNvi">
+                            <ref role="37wK5l" to="33ny:~Set.size():int" resolve="size" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
                     <node concept="3clFbJ" id="5p_pYsVnkh" role="3cqZAp">
                       <node concept="3clFbS" id="5p_pYsVnkj" role="3clFbx">
                         <node concept="YS8fn" id="5p_pYsVuPc" role="3cqZAp">
@@ -1367,18 +1397,8 @@
                         </node>
                       </node>
                       <node concept="3y3z36" id="5p_pYsVqR2" role="3clFbw">
-                        <node concept="2OqwBi" id="5p_pYsVse8" role="3uHU7w">
-                          <node concept="2OqwBi" id="5p_pYsVrsA" role="2Oq$k0">
-                            <node concept="37vLTw" id="5p_pYsVr7j" role="2Oq$k0">
-                              <ref role="3cqZAo" node="w2h3oE12Hj" resolve="relation" />
-                            </node>
-                            <node concept="liA8E" id="5p_pYsVrAt" role="2OqNvi">
-                              <ref role="37wK5l" node="w2h3oDZoIU" resolve="getFacts" />
-                            </node>
-                          </node>
-                          <node concept="liA8E" id="5p_pYsVuho" role="2OqNvi">
-                            <ref role="37wK5l" to="33ny:~Set.size():int" resolve="size" />
-                          </node>
+                        <node concept="37vLTw" id="6Gsy$BH5FTG" role="3uHU7w">
+                          <ref role="3cqZAo" node="6Gsy$BH5FTA" resolve="relationSize" />
                         </node>
                         <node concept="2OqwBi" id="5p_pYsVoIb" role="3uHU7B">
                           <node concept="37vLTw" id="5p_pYsVo4J" role="2Oq$k0">
@@ -1399,23 +1419,23 @@
                         <node concept="liA8E" id="2V8Gn2SsWs1" role="2OqNvi">
                           <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
                           <node concept="3cpWs3" id="2V8Gn2SsYaX" role="37wK5m">
-                            <node concept="2OqwBi" id="2V8Gn2SsZk$" role="3uHU7w">
-                              <node concept="2OqwBi" id="2V8Gn2SsYFl" role="2Oq$k0">
-                                <node concept="37vLTw" id="2V8Gn2SsYsu" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="w2h3oE12Hj" resolve="relation" />
-                                </node>
-                                <node concept="liA8E" id="2V8Gn2SsYTl" role="2OqNvi">
-                                  <ref role="37wK5l" node="w2h3oDZoIU" resolve="getFacts" />
-                                </node>
-                              </node>
-                              <node concept="liA8E" id="2V8Gn2St1oO" role="2OqNvi">
-                                <ref role="37wK5l" to="33ny:~Set.size():int" resolve="size" />
-                              </node>
+                            <node concept="37vLTw" id="6Gsy$BH5FTH" role="3uHU7w">
+                              <ref role="3cqZAo" node="6Gsy$BH5FTA" resolve="relationSize" />
                             </node>
                             <node concept="Xl_RD" id="2V8Gn2SsXb0" role="3uHU7B">
                               <property role="Xl_RC" value="\t number of facts in the relation is " />
                             </node>
                           </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbF" id="6Gsy$BH5KKd" role="3cqZAp">
+                      <node concept="d57v9" id="6Gsy$BH5M9V" role="3clFbG">
+                        <node concept="37vLTw" id="6Gsy$BH5M_T" role="37vLTx">
+                          <ref role="3cqZAo" node="6Gsy$BH5FTA" resolve="relationSize" />
+                        </node>
+                        <node concept="37vLTw" id="6Gsy$BH5KKb" role="37vLTJ">
+                          <ref role="3cqZAo" node="6Gsy$BH5DwZ" resolve="allRelationSize" />
                         </node>
                       </node>
                     </node>
@@ -1434,6 +1454,50 @@
                 </node>
                 <node concept="2GrUjf" id="w2h3oDZU1j" role="2ZW6bz">
                   <ref role="2Gs0qQ" node="w2h3oDZTVa" resolve="content" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6Gsy$BH5SjF" role="3cqZAp">
+          <node concept="2OqwBi" id="6Gsy$BH5SjC" role="3clFbG">
+            <node concept="10M0yZ" id="6Gsy$BH5SjD" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
+            </node>
+            <node concept="liA8E" id="6Gsy$BH5SjE" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="3cpWs3" id="6Gsy$BH5WpN" role="37wK5m">
+                <node concept="37vLTw" id="6Gsy$BH5Xdo" role="3uHU7w">
+                  <ref role="3cqZAo" node="6Gsy$BH5DwZ" resolve="allRelationSize" />
+                </node>
+                <node concept="Xl_RD" id="6Gsy$BH5U3i" role="3uHU7B">
+                  <property role="Xl_RC" value="Number of facts in the database " />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6Gsy$BHfipt" role="3cqZAp">
+          <node concept="2OqwBi" id="6Gsy$BHfipq" role="3clFbG">
+            <node concept="10M0yZ" id="6Gsy$BHfipr" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
+            </node>
+            <node concept="liA8E" id="6Gsy$BHfips" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="3cpWs3" id="6Gsy$BHfpV7" role="37wK5m">
+                <node concept="Xl_RD" id="6Gsy$BHfpVv" role="3uHU7w">
+                  <property role="Xl_RC" value=" MB" />
+                </node>
+                <node concept="3cpWs3" id="6Gsy$BHfmlC" role="3uHU7B">
+                  <node concept="Xl_RD" id="6Gsy$BHfkfD" role="3uHU7B">
+                    <property role="Xl_RC" value="Current memory use " />
+                  </node>
+                  <node concept="2YIFZM" id="6Gsy$BHfoID" role="3uHU7w">
+                    <ref role="37wK5l" to="zt8v:6Gsy$BH6vYB" resolve="getUsedMemoryInMegaBytes" />
+                    <ref role="1Pybhc" to="zt8v:1_JXc3TiqqE" resolve="MeasurementUtil" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -1465,11 +1529,11 @@
               <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
               <node concept="3cpWs3" id="1dZT6p19e$J" role="37wK5m">
                 <node concept="Xl_RD" id="1dZT6p19eEL" role="3uHU7w">
-                  <property role="Xl_RC" value=" ms." />
+                  <property role="Xl_RC" value=" ms" />
                 </node>
                 <node concept="3cpWs3" id="1dZT6p19dv4" role="3uHU7B">
                   <node concept="Xl_RD" id="1dZT6p19bTp" role="3uHU7B">
-                    <property role="Xl_RC" value="Initializing the database took " />
+                    <property role="Xl_RC" value="Initialization of the database took " />
                   </node>
                   <node concept="37vLTw" id="1dZT6p19dQO" role="3uHU7w">
                     <ref role="3cqZAo" node="1dZT6p197o9" resolve="duration" />

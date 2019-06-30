@@ -3358,23 +3358,7 @@
     <ref role="13h7C2" to="ebqt:3oMuSXR7kAP" resolve="EvalValue" />
     <node concept="13hLZK" id="3oMuSXR7lhj" role="13h7CW">
       <node concept="3clFbS" id="3oMuSXR7lhk" role="2VODD2">
-        <node concept="3clFbF" id="3oMuSXR7Ay_" role="3cqZAp">
-          <node concept="37vLTI" id="3oMuSXR7B7C" role="3clFbG">
-            <node concept="2ShNRf" id="3oMuSXR7B8B" role="37vLTx">
-              <node concept="3zrR0B" id="3oMuSXR7B85" role="2ShVmc">
-                <node concept="3Tqbb2" id="3oMuSXR7B86" role="3zrR0E">
-                  <ref role="ehGHo" to="hqsm:RjyNapPtPn" resolve="ExpressionEvaluationValue" />
-                </node>
-              </node>
-            </node>
-            <node concept="2OqwBi" id="3oMuSXR7A$Y" role="37vLTJ">
-              <node concept="13iPFW" id="3oMuSXR7Ay$" role="2Oq$k0" />
-              <node concept="3TrEf2" id="3oMuSXR7AU_" role="2OqNvi">
-                <ref role="3Tt5mk" to="ebqt:3oMuSXR7kAZ" resolve="expression" />
-              </node>
-            </node>
-          </node>
-        </node>
+        <node concept="3clFbH" id="Mr35FLdLpK" role="3cqZAp" />
       </node>
     </node>
     <node concept="13i0hz" id="3oMuSXR7loI" role="13h7CS">
