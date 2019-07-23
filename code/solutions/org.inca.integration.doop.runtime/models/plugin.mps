@@ -34,6 +34,7 @@
     <import index="6bun" ref="7766a138-716a-422a-9c88-131459fb8d6a/java:org.eclipse.collections.impl.factory.primitive(org.inca.core.runtime/)" />
     <import index="9h3f" ref="7766a138-716a-422a-9c88-131459fb8d6a/java:org.eclipse.viatra.query.runtime.matchers.util(org.inca.core.runtime/)" />
     <import index="zt8v" ref="r:ab008189-f07c-44e4-9434-629f972e973d(org.inca.core.util.plugin)" />
+    <import index="jo05" ref="r:84041fac-ee84-4462-aa40-45272492d5ac(org.inca.integration.souffle.structure)" />
     <import index="qyhf" ref="7766a138-716a-422a-9c88-131459fb8d6a/java:org.eclipse.collections.api.factory.map.primitive(org.inca.core.runtime/)" implicit="true" />
     <import index="wgkj" ref="7766a138-716a-422a-9c88-131459fb8d6a/java:org.eclipse.collections.api.tuple.primitive(org.inca.core.runtime/)" implicit="true" />
     <import index="8xw0" ref="7766a138-716a-422a-9c88-131459fb8d6a/java:org.eclipse.collections.api(org.inca.core.runtime/)" implicit="true" />
@@ -1345,17 +1346,17 @@
                             </node>
                           </node>
                         </node>
-                        <node concept="3clFbF" id="w2h3oE3oeH" role="3cqZAp">
-                          <node concept="2OqwBi" id="w2h3oE3o$w" role="3clFbG">
-                            <node concept="37vLTw" id="w2h3oE3oeF" role="2Oq$k0">
+                        <node concept="3clFbF" id="7SlENrF9SPX" role="3cqZAp">
+                          <node concept="2OqwBi" id="7SlENrF9SPY" role="3clFbG">
+                            <node concept="37vLTw" id="7SlENrF9SPZ" role="2Oq$k0">
                               <ref role="3cqZAo" node="w2h3oE12Hj" resolve="relation" />
                             </node>
-                            <node concept="liA8E" id="w2h3oE3oRS" role="2OqNvi">
+                            <node concept="liA8E" id="7SlENrF9SQ0" role="2OqNvi">
                               <ref role="37wK5l" node="w2h3oDWjjz" resolve="addFactInternal" />
-                              <node concept="37vLTw" id="w2h3oE3tbv" role="37wK5m">
+                              <node concept="37vLTw" id="7SlENrF9SQ1" role="37wK5m">
                                 <ref role="3cqZAo" node="w2h3oE3eRL" resolve="fact" />
                               </node>
-                              <node concept="3clFbT" id="6xWrepZ_Pgq" role="37wK5m">
+                              <node concept="3clFbT" id="7SlENrF9SQ2" role="37wK5m">
                                 <property role="3clFbU" value="true" />
                               </node>
                             </node>
@@ -1363,6 +1364,7 @@
                         </node>
                       </node>
                     </node>
+                    <node concept="3clFbH" id="7SlENrF8Mq$" role="3cqZAp" />
                     <node concept="3cpWs8" id="6Gsy$BH5FT_" role="3cqZAp">
                       <node concept="3cpWsn" id="6Gsy$BH5FTA" role="3cpWs9">
                         <property role="TrG5h" value="relationSize" />

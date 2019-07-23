@@ -17,6 +17,7 @@
     <import index="ekwn" ref="r:9832fb5f-2578-4b58-8014-a5de79da988e(jetbrains.mps.ide.editor.actions)" />
     <import index="38y7" ref="r:50e2196d-3af6-4b37-878b-561ddee89648(org.inca.sa.test.plugin)" />
     <import index="vebz" ref="r:1c89766f-bec5-416e-a735-1d8e2add3fc0(org.inca.sa.inter.test.doop)" />
+    <import index="zt8v" ref="r:ab008189-f07c-44e4-9434-629f972e973d(org.inca.core.util.plugin)" />
   </imports>
   <registry>
     <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
@@ -314,8 +315,8 @@
                           <ref role="3uigEE" to="guwi:~File" resolve="File" />
                         </node>
                         <node concept="2YIFZM" id="1_JXc3TiZQC" role="33vP2m">
-                          <ref role="1Pybhc" to="38y7:1_JXc3TiqqE" resolve="MeasurementUtil" />
-                          <ref role="37wK5l" to="38y7:3XQWGS7xKXe" resolve="selectOutputFolder" />
+                          <ref role="1Pybhc" to="zt8v:1_JXc3TiqqE" resolve="MeasurementUtil" />
+                          <ref role="37wK5l" to="zt8v:3XQWGS7xKXe" resolve="selectOutputFolder" />
                           <node concept="2OqwBi" id="1_JXc3TiZQD" role="37wK5m">
                             <node concept="2WthIp" id="1_JXc3TiZQE" role="2Oq$k0" />
                             <node concept="1DTwFV" id="1_JXc3TiZQF" role="2OqNvi">
@@ -458,8 +459,8 @@
                               <node concept="H_c77" id="1_JXc3TkeRk" role="A3Ik2" />
                             </node>
                             <node concept="2YIFZM" id="1_JXc3TkeRs" role="33vP2m">
-                              <ref role="1Pybhc" to="38y7:1_JXc3TiqqE" resolve="MeasurementUtil" />
-                              <ref role="37wK5l" to="38y7:1_JXc3TjeeI" resolve="getModelsWithPrefix" />
+                              <ref role="1Pybhc" to="zt8v:1_JXc3TiqqE" resolve="MeasurementUtil" />
+                              <ref role="37wK5l" to="zt8v:1_JXc3TjeeI" resolve="getModelsWithPrefix" />
                               <node concept="37vLTw" id="1_JXc3TkeRt" role="37wK5m">
                                 <ref role="3cqZAo" node="1_JXc3Tkd$J" resolve="repository" />
                               </node>

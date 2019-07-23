@@ -7,7 +7,7 @@
       <concept id="3798692733285372749" name="org.inca.core.structure.BackendOption" flags="ng" index="mSFAB">
         <child id="3798692733285425707" name="kind" index="mS$z1" />
       </concept>
-      <concept id="16616543033264178" name="org.inca.core.structure.STimelyKind" flags="ng" index="1CRS2q" />
+      <concept id="16616543033264178" name="org.inca.core.structure.ScatteredSeqTimelyKind" flags="ng" index="1CRS2q" />
       <concept id="4799072788058998828" name="org.inca.core.structure.DeveloperMode" flags="ng" index="1H6rdE" />
       <concept id="4799072788058998474" name="org.inca.core.structure.DeveloperModeOption" flags="ng" index="1H6rQc">
         <child id="4799072788058999195" name="mode" index="1H6rbt" />
@@ -20,7 +20,7 @@
   </registry>
   <node concept="1HTBUm" id="3iREICylhck">
     <node concept="mSFAB" id="63E4q93PYlU" role="1HTAgx">
-      <node concept="1CRS2q" id="2BwADJNICW0" role="mS$z1" />
+      <node concept="1CRS2q" id="2lXcFvtW4Ef" role="mS$z1" />
     </node>
     <node concept="3K5mK8" id="4EFi6MUSBxq" role="1HTAgx" />
     <node concept="1H6rQc" id="6Gsy$BHLD2s" role="1HTAgx">

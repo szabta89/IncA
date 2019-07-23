@@ -3557,7 +3557,7 @@
               </node>
               <node concept="1mIQ4w" id="V2axD0xqq" role="2OqNvi">
                 <node concept="chp4Y" id="V2axD0xsD" role="cj9EA">
-                  <ref role="cht4Q" to="hqsm:3iREICylu8q" resolve="NSTimelyKind" />
+                  <ref role="cht4Q" to="hqsm:3iREICylu8q" resolve="NonScatteredSeqTimelyKind" />
                 </node>
               </node>
             </node>
@@ -3591,7 +3591,53 @@
               </node>
               <node concept="1mIQ4w" id="V2axD0xHm" role="2OqNvi">
                 <node concept="chp4Y" id="V2axD0xKs" role="cj9EA">
-                  <ref role="cht4Q" to="hqsm:V2axCT8wM" resolve="STimelyKind" />
+                  <ref role="cht4Q" to="hqsm:V2axCT8wM" resolve="ScatteredSeqTimelyKind" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3eNFk2" id="5fgUiL6SVgU" role="3eNLev">
+            <node concept="3clFbS" id="5fgUiL6SVgV" role="3eOfB_">
+              <node concept="3clFbF" id="5fgUiL6SVgW" role="3cqZAp">
+                <node concept="2YIFZM" id="5fgUiL6SVgX" role="3clFbG">
+                  <ref role="37wK5l" to="fxl9:7zh7ZG670Yp" resolve="rewriteModel" />
+                  <ref role="1Pybhc" to="fxl9:3iREICypDIo" resolve="TimelyLatticeAggregationRewriter" />
+                  <node concept="1Q6Npb" id="5fgUiL6SVgY" role="37wK5m" />
+                  <node concept="3clFbT" id="5fgUiL6SVgZ" role="37wK5m" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="5fgUiL6SVh0" role="3eO9$A">
+              <node concept="37vLTw" id="5fgUiL6SVh1" role="2Oq$k0">
+                <ref role="3cqZAo" node="V2axD0vH0" resolve="kind" />
+              </node>
+              <node concept="1mIQ4w" id="5fgUiL6SVh2" role="2OqNvi">
+                <node concept="chp4Y" id="5fgUiL6SVvw" role="cj9EA">
+                  <ref role="cht4Q" to="hqsm:5fgUiL6GTD6" resolve="ScatteredParTimelyKind" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="5fgUiL6SVy2" role="9aQIa">
+            <node concept="3clFbS" id="5fgUiL6SVy3" role="9aQI4">
+              <node concept="YS8fn" id="5fgUiL6SVJt" role="3cqZAp">
+                <node concept="2ShNRf" id="5fgUiL6SVJL" role="YScLw">
+                  <node concept="1pGfFk" id="5fgUiL6SW4_" role="2ShVmc">
+                    <ref role="37wK5l" to="wyt6:~IllegalArgumentException.&lt;init&gt;(java.lang.String)" resolve="IllegalArgumentException" />
+                    <node concept="3cpWs3" id="5fgUiL6SWRl" role="37wK5m">
+                      <node concept="Xl_RD" id="5fgUiL6SWRo" role="3uHU7w">
+                        <property role="Xl_RC" value="!" />
+                      </node>
+                      <node concept="3cpWs3" id="5fgUiL6SWzJ" role="3uHU7B">
+                        <node concept="Xl_RD" id="5fgUiL6SW7u" role="3uHU7B">
+                          <property role="Xl_RC" value="Unhandled backend kind: " />
+                        </node>
+                        <node concept="37vLTw" id="5fgUiL6SWzQ" role="3uHU7w">
+                          <ref role="3cqZAo" node="V2axD0vH0" resolve="kind" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>

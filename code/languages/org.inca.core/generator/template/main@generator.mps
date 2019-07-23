@@ -5503,7 +5503,7 @@
     </node>
     <node concept="3aamgX" id="63E4q93RgFG" role="3aUrZf">
       <property role="36QftV" value="true" />
-      <ref role="30HIoZ" to="hqsm:3iREICylu8q" resolve="NSTimelyKind" />
+      <ref role="30HIoZ" to="hqsm:3iREICylu8q" resolve="NonScatteredSeqTimelyKind" />
       <node concept="gft3U" id="63E4q93RgFH" role="1lVwrX">
         <node concept="10M0yZ" id="63E4q93RgFI" role="gfFT$">
           <ref role="1PxDUh" to="x6p8:~NonScatteredTimelyReteBackendFactory" resolve="NonScatteredTimelyReteBackendFactory" />
@@ -5513,11 +5513,21 @@
     </node>
     <node concept="3aamgX" id="V2axCT8Te" role="3aUrZf">
       <property role="36QftV" value="true" />
-      <ref role="30HIoZ" to="hqsm:V2axCT8wM" resolve="STimelyKind" />
+      <ref role="30HIoZ" to="hqsm:V2axCT8wM" resolve="ScatteredSeqTimelyKind" />
       <node concept="gft3U" id="V2axCT8Tf" role="1lVwrX">
-        <node concept="10M0yZ" id="V2axCT8Tg" role="gfFT$">
-          <ref role="1PxDUh" to="x6p8:~TimelyReteBackendFactory" resolve="TimelyReteBackendFactory" />
-          <ref role="3cqZAo" to="x6p8:~TimelyReteBackendFactory.INSTANCE" resolve="INSTANCE" />
+        <node concept="10M0yZ" id="5fgUiL6Jb9S" role="gfFT$">
+          <ref role="3cqZAo" to="x6p8:~ScatteredTimelyReteBackendFactory.INSTANCE" resolve="INSTANCE" />
+          <ref role="1PxDUh" to="x6p8:~ScatteredTimelyReteBackendFactory" resolve="ScatteredTimelyReteBackendFactory" />
+        </node>
+      </node>
+    </node>
+    <node concept="3aamgX" id="5fgUiL6Jb9Z" role="3aUrZf">
+      <property role="36QftV" value="true" />
+      <ref role="30HIoZ" to="hqsm:5fgUiL6GTD6" resolve="ScatteredParTimelyKind" />
+      <node concept="gft3U" id="5fgUiL6Jba0" role="1lVwrX">
+        <node concept="10M0yZ" id="5fgUiL6Jbal" role="gfFT$">
+          <ref role="3cqZAo" to="x6p8:~ScatteredParallelTimelyReteBackendFactory.INSTANCE" resolve="INSTANCE" />
+          <ref role="1PxDUh" to="x6p8:~ScatteredParallelTimelyReteBackendFactory" resolve="ScatteredParallelTimelyReteBackendFactory" />
         </node>
       </node>
     </node>

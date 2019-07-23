@@ -4508,7 +4508,7 @@
   </node>
   <node concept="24kQdi" id="3iREICylu8_">
     <property role="3GE5qa" value="compiler" />
-    <ref role="1XX52x" to="hqsm:3iREICylu8q" resolve="NSTimelyKind" />
+    <ref role="1XX52x" to="hqsm:3iREICylu8q" resolve="NonScatteredSeqTimelyKind" />
     <node concept="PMmxH" id="3iREICylu8B" role="2wV5jI">
       <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
     </node>
@@ -4541,7 +4541,7 @@
   </node>
   <node concept="24kQdi" id="V2axCT8wW">
     <property role="3GE5qa" value="compiler" />
-    <ref role="1XX52x" to="hqsm:V2axCT8wM" resolve="STimelyKind" />
+    <ref role="1XX52x" to="hqsm:V2axCT8wM" resolve="ScatteredSeqTimelyKind" />
     <node concept="PMmxH" id="V2axCT8wY" role="2wV5jI">
       <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
     </node>
@@ -4550,6 +4550,13 @@
     <property role="3GE5qa" value="compiler" />
     <ref role="1XX52x" to="hqsm:4EFi6MUJyh$" resolve="NoTypeFilterConstraintOption" />
     <node concept="PMmxH" id="4EFi6MUJyIb" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5fgUiL6GTDg">
+    <property role="3GE5qa" value="compiler" />
+    <ref role="1XX52x" to="hqsm:5fgUiL6GTD6" resolve="ScatteredParTimelyKind" />
+    <node concept="PMmxH" id="5fgUiL6GTDi" role="2wV5jI">
       <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
     </node>
   </node>

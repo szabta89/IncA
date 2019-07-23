@@ -293,7 +293,7 @@
       <concept id="1925259677761400360" name="org.inca.core.structure.IPathElement" flags="ng" index="3zVwHh">
         <reference id="1925259677761400369" name="interfacePart" index="3zVwH8" />
       </concept>
-      <concept id="16616543033264178" name="org.inca.core.structure.STimelyKind" flags="ng" index="1CRS2q" />
+      <concept id="16616543033264178" name="org.inca.core.structure.ScatteredSeqTimelyKind" flags="ng" index="1CRS2q" />
       <concept id="1118899187025157789" name="org.inca.core.structure.IIncaModule" flags="ng" index="3DBbTW">
         <child id="8118018043742924547" name="imports" index="xaH5_" />
       </concept>
@@ -2164,7 +2164,7 @@
   </node>
   <node concept="1HTBUm" id="3iREICy$8jv">
     <node concept="mSFAB" id="3iREICy$8jx" role="1HTAgx">
-      <node concept="1CRS2q" id="V2axD3r71" role="mS$z1" />
+      <node concept="1CRS2q" id="6gUs9VwsNur" role="mS$z1" />
     </node>
   </node>
 </model>
