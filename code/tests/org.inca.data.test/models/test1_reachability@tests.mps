@@ -243,6 +243,7 @@
       <concept id="996292992025672789" name="org.inca.core.structure.ConceptReferenceType" flags="ng" index="2kdjtB">
         <reference id="7241148409041409499" name="concept" index="2UGuZ7" />
       </concept>
+      <concept id="3798692733285425686" name="org.inca.core.structure.DRedKind" flags="ng" index="mS$zW" />
       <concept id="3798692733285372749" name="org.inca.core.structure.BackendOption" flags="ng" index="mSFAB">
         <child id="3798692733285425707" name="kind" index="mS$z1" />
       </concept>
@@ -293,7 +294,6 @@
       <concept id="1925259677761400360" name="org.inca.core.structure.IPathElement" flags="ng" index="3zVwHh">
         <reference id="1925259677761400369" name="interfacePart" index="3zVwH8" />
       </concept>
-      <concept id="16616543033264178" name="org.inca.core.structure.ScatteredSeqTimelyKind" flags="ng" index="1CRS2q" />
       <concept id="1118899187025157789" name="org.inca.core.structure.IIncaModule" flags="ng" index="3DBbTW">
         <child id="8118018043742924547" name="imports" index="xaH5_" />
       </concept>
@@ -2164,7 +2164,7 @@
   </node>
   <node concept="1HTBUm" id="3iREICy$8jv">
     <node concept="mSFAB" id="3iREICy$8jx" role="1HTAgx">
-      <node concept="1CRS2q" id="6gUs9VwsNur" role="mS$z1" />
+      <node concept="mS$zW" id="3aNmBFkYEet" role="mS$z1" />
     </node>
   </node>
 </model>

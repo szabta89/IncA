@@ -209,7 +209,7 @@
   </node>
   <node concept="3_zdsH" id="3udlLtLIWc$">
     <property role="3GE5qa" value="usage.matcher" />
-    <ref role="3_znuS" to="hqsm:3udlLtLDedu" resolve="IncAPrintSizeDebugStatement" />
+    <ref role="3_znuS" to="hqsm:3udlLtLDedu" resolve="PrintSizeDebugStatement" />
     <node concept="3__wT9" id="3udlLtLIWc_" role="3_A6iZ">
       <node concept="3clFbS" id="3udlLtLIWcA" role="2VODD2">
         <node concept="3AgYrR" id="2ejHb2hLEs5" role="3cqZAp">
@@ -217,6 +217,22 @@
             <node concept="3__QtB" id="2ejHb2hLEv3" role="2Oq$k0" />
             <node concept="3TrEf2" id="2ejHb2hLFb9" role="2OqNvi">
               <ref role="3Tt5mk" to="hqsm:3udlLtLE6m5" resolve="model" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3_zdsH" id="2B5p$U98iVq">
+    <property role="3GE5qa" value="usage.matcher" />
+    <ref role="3_znuS" to="hqsm:2B5p$U98gdg" resolve="GetAllTuplesDebugExpression" />
+    <node concept="3__wT9" id="2B5p$U98iVr" role="3_A6iZ">
+      <node concept="3clFbS" id="2B5p$U98iVs" role="2VODD2">
+        <node concept="3AgYrR" id="2B5p$U98iVJ" role="3cqZAp">
+          <node concept="2OqwBi" id="2B5p$U98iVK" role="3Ah4Yx">
+            <node concept="3__QtB" id="2B5p$U98iVL" role="2Oq$k0" />
+            <node concept="3TrEf2" id="2B5p$U98iVM" role="2OqNvi">
+              <ref role="3Tt5mk" to="hqsm:2B5p$U98h5F" resolve="model" />
             </node>
           </node>
         </node>

@@ -4388,7 +4388,7 @@
   </node>
   <node concept="24kQdi" id="3udlLtLDedD">
     <property role="3GE5qa" value="usage.matcher" />
-    <ref role="1XX52x" to="hqsm:3udlLtLDedu" resolve="IncAPrintSizeDebugStatement" />
+    <ref role="1XX52x" to="hqsm:3udlLtLDedu" resolve="PrintSizeDebugStatement" />
     <node concept="3EZMnI" id="3udlLtLDedH" role="2wV5jI">
       <node concept="l2Vlx" id="3udlLtLDedI" role="2iSdaV" />
       <node concept="PMmxH" id="3udlLtLDedF" role="3EZMnx">
@@ -4558,6 +4558,46 @@
     <ref role="1XX52x" to="hqsm:5fgUiL6GTD6" resolve="ScatteredParTimelyKind" />
     <node concept="PMmxH" id="5fgUiL6GTDi" role="2wV5jI">
       <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2B5p$U98h5S">
+    <property role="3GE5qa" value="usage.matcher" />
+    <ref role="1XX52x" to="hqsm:2B5p$U98gdg" resolve="GetAllTuplesDebugExpression" />
+    <node concept="3EZMnI" id="2B5p$U98h5U" role="2wV5jI">
+      <node concept="l2Vlx" id="2B5p$U98h5V" role="2iSdaV" />
+      <node concept="PMmxH" id="2B5p$U98h5W" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="3F2HdR" id="4MhJ$RhTDJo" role="3EZMnx">
+        <property role="2czwfO" value="," />
+        <ref role="1NtTu8" to="hqsm:4MhJ$RhTDJa" resolve="references" />
+        <node concept="l2Vlx" id="4MhJ$RhTDJq" role="2czzBx" />
+        <node concept="tppnM" id="4MhJ$Ri1PF8" role="sWeuL">
+          <node concept="11L4FC" id="4MhJ$Ri1PHu" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="11LMrY" id="4MhJ$Ri1PHz" role="3F10Kt" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="2B5p$U98h60" role="3EZMnx">
+        <property role="3F0ifm" value="on" />
+      </node>
+      <node concept="3F1sOY" id="2B5p$U98h61" role="3EZMnx">
+        <ref role="1NtTu8" to="hqsm:2B5p$U98h5F" resolve="model" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="4MhJ$RhTDIl">
+    <property role="3GE5qa" value="usage.matcher" />
+    <ref role="1XX52x" to="hqsm:4MhJ$RhTB4y" resolve="NamedReference" />
+    <node concept="1iCGBv" id="4MhJ$RhTDIn" role="2wV5jI">
+      <ref role="1NtTu8" to="hqsm:4MhJ$RhTB4z" resolve="element" />
+      <node concept="1sVBvm" id="4MhJ$RhTDIp" role="1sWHZn">
+        <node concept="3F0A7n" id="4MhJ$RhTDIw" role="2wV5jI">
+          <property role="1Intyy" value="true" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+      </node>
     </node>
   </node>
 </model>

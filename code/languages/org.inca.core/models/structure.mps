@@ -1489,7 +1489,7 @@
   <node concept="1TIwiD" id="3udlLtLDedu">
     <property role="EcuMT" value="4002951402004734814" />
     <property role="3GE5qa" value="usage.matcher" />
-    <property role="TrG5h" value="IncAPrintSizeDebugStatement" />
+    <property role="TrG5h" value="PrintSizeDebugStatement" />
     <property role="34LRSv" value="printSize" />
     <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
     <node concept="1TJgyj" id="3udlLtLE6m5" role="1TKVEi">
@@ -1640,6 +1640,40 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="5fgUiL6GTD7" role="PzmwI">
       <ref role="PrY4T" node="3iREICylu8n" resolve="IBackendKind" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2B5p$U98gdg">
+    <property role="EcuMT" value="3009924413461168976" />
+    <property role="3GE5qa" value="usage.matcher" />
+    <property role="TrG5h" value="GetAllTuplesDebugExpression" />
+    <property role="34LRSv" value="getAllTuples" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="2B5p$U98h5F" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="model" />
+      <property role="IQ2ns" value="3009924413461172587" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="4MhJ$RhTDJa" role="1TKVEi">
+      <property role="IQ2ns" value="5517400259948878794" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="references" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="4MhJ$RhTB4y" resolve="NamedReference" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4MhJ$RhTB4y">
+    <property role="EcuMT" value="5517400259948867874" />
+    <property role="3GE5qa" value="usage.matcher" />
+    <property role="TrG5h" value="NamedReference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4MhJ$RhTB4z" role="1TKVEi">
+      <property role="IQ2ns" value="5517400259948867875" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="element" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
 </model>

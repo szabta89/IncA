@@ -18,6 +18,7 @@
     <import index="38y7" ref="r:50e2196d-3af6-4b37-878b-561ddee89648(org.inca.sa.test.plugin)" />
     <import index="vebz" ref="r:1c89766f-bec5-416e-a735-1d8e2add3fc0(org.inca.sa.inter.test.doop)" />
     <import index="zt8v" ref="r:ab008189-f07c-44e4-9434-629f972e973d(org.inca.core.util.plugin)" />
+    <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
   </imports>
   <registry>
     <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
@@ -90,6 +91,9 @@
       <concept id="1164991038168" name="jetbrains.mps.baseLanguage.structure.ThrowStatement" flags="nn" index="YS8fn">
         <child id="1164991057263" name="throwable" index="YScLw" />
       </concept>
+      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
+        <reference id="1144433057691" name="classifier" index="1PxDUh" />
+      </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
@@ -106,6 +110,10 @@
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
       <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
+      <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
+        <child id="1068580123160" name="condition" index="3clFbw" />
+        <child id="1068580123161" name="ifTrue" index="3clFbx" />
+      </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
@@ -121,6 +129,7 @@
       <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
+        <child id="1109201940907" name="parameter" index="11_B2D" />
       </concept>
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
@@ -185,11 +194,11 @@
       <node concept="tCFHf" id="1POFijRpcpz" role="ftvYc">
         <ref role="tCJdB" node="7$Y1SICub5" resolve="MeasureAction" />
       </node>
-      <node concept="tCFHf" id="1_JXc3TkJcq" role="ftvYc">
-        <ref role="tCJdB" node="1_JXc3TiNbn" resolve="FlixAction" />
-      </node>
       <node concept="tCFHf" id="1dZT6p18Uy6" role="ftvYc">
         <ref role="tCJdB" node="1dZT6p18Dyu" resolve="DoopAction" />
+      </node>
+      <node concept="tCFHf" id="3aNmBFkZUFX" role="ftvYc">
+        <ref role="tCJdB" node="3aNmBFkZ91b" resolve="ThreadKillerAction" />
       </node>
     </node>
   </node>
@@ -548,6 +557,96 @@
               <node concept="2WthIp" id="1dZT6p18SSF" role="2Oq$k0" />
               <node concept="1DTwFV" id="1dZT6p18SSH" role="2OqNvi">
                 <ref role="2WH_rO" node="1dZT6p18Dyv" resolve="project" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="sE7Ow" id="3aNmBFkZ91b">
+    <property role="TrG5h" value="ThreadKillerAction" />
+    <property role="2uzpH1" value="Kill Doop Measurement" />
+    <property role="3GE5qa" value="" />
+    <property role="72QZ$" value="true" />
+    <node concept="1DS2jV" id="3aNmBFkZ91c" role="1NuT2Z">
+      <property role="TrG5h" value="project" />
+      <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.MPS_PROJECT" resolve="MPS_PROJECT" />
+      <node concept="1oajcY" id="3aNmBFkZ91d" role="1oa70y" />
+    </node>
+    <node concept="tnohg" id="3aNmBFkZ91e" role="tncku">
+      <node concept="3clFbS" id="3aNmBFkZ91f" role="2VODD2">
+        <node concept="3cpWs8" id="3aNmBFkZfDv" role="3cqZAp">
+          <node concept="3cpWsn" id="3aNmBFkZfDw" role="3cpWs9">
+            <property role="TrG5h" value="threads" />
+            <property role="3TUv4t" value="true" />
+            <node concept="3uibUv" id="3aNmBFkZfDf" role="1tU5fm">
+              <ref role="3uigEE" to="33ny:~Set" resolve="Set" />
+              <node concept="3uibUv" id="3aNmBFkZfDi" role="11_B2D">
+                <ref role="3uigEE" to="wyt6:~Thread" resolve="Thread" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3aNmBFkZfDx" role="33vP2m">
+              <node concept="2YIFZM" id="3aNmBFkZfDy" role="2Oq$k0">
+                <ref role="1Pybhc" to="wyt6:~Thread" resolve="Thread" />
+                <ref role="37wK5l" to="wyt6:~Thread.getAllStackTraces():java.util.Map" resolve="getAllStackTraces" />
+              </node>
+              <node concept="liA8E" id="3aNmBFkZfDz" role="2OqNvi">
+                <ref role="37wK5l" to="33ny:~Map.keySet():java.util.Set" resolve="keySet" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2Gpval" id="3aNmBFkZgoq" role="3cqZAp">
+          <node concept="2GrKxI" id="3aNmBFkZgos" role="2Gsz3X">
+            <property role="TrG5h" value="thread" />
+          </node>
+          <node concept="37vLTw" id="3aNmBFkZgBw" role="2GsD0m">
+            <ref role="3cqZAo" node="3aNmBFkZfDw" resolve="threads" />
+          </node>
+          <node concept="3clFbS" id="3aNmBFkZgow" role="2LFqv$">
+            <node concept="3clFbJ" id="3aNmBFkZgOZ" role="3cqZAp">
+              <node concept="3clFbS" id="3aNmBFkZgP1" role="3clFbx">
+                <node concept="3clFbF" id="3aNmBFkZZHm" role="3cqZAp">
+                  <node concept="2OqwBi" id="3aNmBFkZZHj" role="3clFbG">
+                    <node concept="10M0yZ" id="3aNmBFkZZHk" role="2Oq$k0">
+                      <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                      <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
+                    </node>
+                    <node concept="liA8E" id="3aNmBFkZZHl" role="2OqNvi">
+                      <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                      <node concept="Xl_RD" id="3aNmBFkZZIz" role="37wK5m">
+                        <property role="Xl_RC" value="Killing DoopRunner thread." />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="3aNmBFkZQfS" role="3cqZAp">
+                  <node concept="2OqwBi" id="3aNmBFkZQmh" role="3clFbG">
+                    <node concept="2GrUjf" id="3aNmBFkZQfQ" role="2Oq$k0">
+                      <ref role="2Gs0qQ" node="3aNmBFkZgos" resolve="thread" />
+                    </node>
+                    <node concept="liA8E" id="3aNmBFkZQPm" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~Thread.stop():void" resolve="stop" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="3aNmBFkZyZk" role="3clFbw">
+                <node concept="2OqwBi" id="3aNmBFkZgXX" role="2Oq$k0">
+                  <node concept="2GrUjf" id="3aNmBFkZgPz" role="2Oq$k0">
+                    <ref role="2Gs0qQ" node="3aNmBFkZgos" resolve="thread" />
+                  </node>
+                  <node concept="liA8E" id="3aNmBFkZyFI" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~Thread.getName():java.lang.String" resolve="getName" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="3aNmBFkZPBv" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                  <node concept="Xl_RD" id="3aNmBFkZPH$" role="37wK5m">
+                    <property role="Xl_RC" value="DoopRunner" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>

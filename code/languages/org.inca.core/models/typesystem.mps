@@ -4742,5 +4742,40 @@
       <ref role="1YaFvo" to="hqsm:RjyNapPtPn" resolve="ExpressionEvaluationValue" />
     </node>
   </node>
+  <node concept="1YbPZF" id="2B5p$U98A4W">
+    <property role="TrG5h" value="typeof_GetAllTuplesDebugExpression" />
+    <property role="3GE5qa" value="usage.matcher" />
+    <node concept="3clFbS" id="2B5p$U98A4X" role="18ibNy">
+      <node concept="1Z5TYs" id="2B5p$U98CWM" role="3cqZAp">
+        <node concept="mw_s8" id="2B5p$U98CX6" role="1ZfhKB">
+          <node concept="2c44tf" id="2B5p$U98CX2" role="mwGJk">
+            <node concept="3uibUv" id="2B5p$U98CXO" role="2c44tc">
+              <ref role="3uigEE" to="33ny:~Map" resolve="Map" />
+              <node concept="3uibUv" id="2B5p$U98CYi" role="11_B2D">
+                <ref role="3uigEE" to="h57a:~ViatraQueryMatcher" resolve="ViatraQueryMatcher" />
+              </node>
+              <node concept="3uibUv" id="2B5p$U98CYP" role="11_B2D">
+                <ref role="3uigEE" to="33ny:~Set" resolve="Set" />
+                <node concept="3uibUv" id="2B5p$U98L$E" role="11_B2D">
+                  <ref role="3uigEE" to="h57a:~IPatternMatch" resolve="IPatternMatch" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="2B5p$U98CWP" role="1ZfhK$">
+          <node concept="1Z2H0r" id="2B5p$U98CIT" role="mwGJk">
+            <node concept="1YBJjd" id="2B5p$U98CJ9" role="1Z2MuG">
+              <ref role="1YBMHb" node="2B5p$U98A4Z" resolve="exp" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="2B5p$U98A4Z" role="1YuTPh">
+      <property role="TrG5h" value="exp" />
+      <ref role="1YaFvo" to="hqsm:2B5p$U98gdg" resolve="GetAllTuplesDebugExpression" />
+    </node>
+  </node>
 </model>
 
