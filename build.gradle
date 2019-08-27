@@ -20,11 +20,6 @@ ext.mpsVersion = '2018.3'
 // Specify the required mbeddr version or branch name
 ext.mbeddrVersion = '1.2+'
 
-task wrapper(type: Wrapper) {
-    gradleVersion '4.9'
-    distributionType 'all'
-}
-
 // detect if we are in a CI build
 if (project.hasProperty("forceCI")) {
     ext.ciBuild = true
