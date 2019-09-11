@@ -233,6 +233,7 @@
       </concept>
       <concept id="1168559333462" name="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference" flags="ln" index="j$656" />
       <concept id="1112730859144" name="jetbrains.mps.lang.generator.structure.TemplateSwitch" flags="ig" index="jVnub">
+        <child id="1168558750579" name="defaultConsequence" index="jxRDz" />
         <child id="1167340453568" name="reductionMappingRule" index="3aUrZf" />
       </concept>
       <concept id="1168619357332" name="jetbrains.mps.lang.generator.structure.RootTemplateAnnotation" flags="lg" index="n94m4">
@@ -5882,16 +5883,6 @@
         </node>
       </node>
     </node>
-    <node concept="3aamgX" id="63E4q93RgFG" role="3aUrZf">
-      <property role="36QftV" value="true" />
-      <ref role="30HIoZ" to="hqsm:3iREICylu8q" resolve="NonScatteredSeqTimelyKind" />
-      <node concept="gft3U" id="63E4q93RgFH" role="1lVwrX">
-        <node concept="10M0yZ" id="63E4q93RgFI" role="gfFT$">
-          <ref role="1PxDUh" to="x6p8:~NonScatteredTimelyReteBackendFactory" resolve="NonScatteredTimelyReteBackendFactory" />
-          <ref role="3cqZAo" to="x6p8:~NonScatteredTimelyReteBackendFactory.INSTANCE" resolve="INSTANCE" />
-        </node>
-      </node>
-    </node>
     <node concept="3aamgX" id="V2axCT8Te" role="3aUrZf">
       <property role="36QftV" value="true" />
       <ref role="30HIoZ" to="hqsm:V2axCT8wM" resolve="ScatteredSeqTimelyKind" />
@@ -5910,6 +5901,12 @@
           <ref role="3cqZAo" to="x6p8:~ScatteredParallelTimelyReteBackendFactory.INSTANCE" resolve="INSTANCE" />
           <ref role="1PxDUh" to="x6p8:~ScatteredParallelTimelyReteBackendFactory" resolve="ScatteredParallelTimelyReteBackendFactory" />
         </node>
+      </node>
+    </node>
+    <node concept="gft3U" id="1gFArwuE2We" role="jxRDz">
+      <node concept="10M0yZ" id="1gFArwuE2Wf" role="gfFT$">
+        <ref role="1PxDUh" to="x6p8:~NonScatteredTimelyReteBackendFactory" resolve="NonScatteredTimelyReteBackendFactory" />
+        <ref role="3cqZAo" to="x6p8:~NonScatteredTimelyReteBackendFactory.INSTANCE" resolve="INSTANCE" />
       </node>
     </node>
   </node>

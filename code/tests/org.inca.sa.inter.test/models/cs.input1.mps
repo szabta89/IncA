@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:c18299f0-50f0-419a-8946-b0b94cb21897(org.inca.sa.inter.test.cs_input)">
+<model ref="r:554919b9-e9a4-4b3d-86a7-d9bb2518a34e(org.inca.sa.inter.test.cs.input1)">
   <persistence version="9" />
   <languages>
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
@@ -85,7 +85,7 @@
     </language>
   </registry>
   <node concept="312cEu" id="6mnIne8ksV2">
-    <property role="TrG5h" value="CSInput" />
+    <property role="TrG5h" value="A" />
     <node concept="2tJIrI" id="2nZ5f50SFHo" role="jymVt" />
     <node concept="2YIFZL" id="2nZ5f50SFRk" role="jymVt">
       <property role="TrG5h" value="main" />
@@ -94,7 +94,7 @@
           <node concept="3cpWsn" id="2nZ5f50SG8k" role="3cpWs9">
             <property role="TrG5h" value="d" />
             <node concept="3uibUv" id="2nZ5f50SG8l" role="1tU5fm">
-              <ref role="3uigEE" node="6mnIne8ksV2" resolve="CSInput" />
+              <ref role="3uigEE" node="6mnIne8ksV2" resolve="A" />
             </node>
           </node>
         </node>
@@ -105,7 +105,7 @@
             </node>
             <node concept="2ShNRf" id="2nZ5f50SGbu" role="37vLTx">
               <node concept="HV5vD" id="2nZ5f50SHea" role="2ShVmc">
-                <ref role="HV5vE" node="6mnIne8ksV2" resolve="CSInput" />
+                <ref role="HV5vE" node="6mnIne8ksV2" resolve="A" />
               </node>
             </node>
           </node>
@@ -149,7 +149,7 @@
           <node concept="3cpWsn" id="2nZ5f50SHDr" role="3cpWs9">
             <property role="TrG5h" value="fun1Self" />
             <node concept="3uibUv" id="2nZ5f50SHDs" role="1tU5fm">
-              <ref role="3uigEE" node="6mnIne8ksV2" resolve="CSInput" />
+              <ref role="3uigEE" node="6mnIne8ksV2" resolve="A" />
             </node>
           </node>
         </node>
@@ -184,7 +184,7 @@
             </node>
             <node concept="2ShNRf" id="6mnIne8ktax" role="37vLTx">
               <node concept="HV5vD" id="6mnIne8ktaz" role="2ShVmc">
-                <ref role="HV5vE" node="6mnIne8kt6x" resolve="CSInput.A1" />
+                <ref role="HV5vE" node="6mnIne8kt6x" resolve="A.A1" />
               </node>
             </node>
           </node>
@@ -219,7 +219,7 @@
           <node concept="3cpWsn" id="2nZ5f50SHUQ" role="3cpWs9">
             <property role="TrG5h" value="fun2Self" />
             <node concept="3uibUv" id="2nZ5f50SHUR" role="1tU5fm">
-              <ref role="3uigEE" node="6mnIne8ksV2" resolve="CSInput" />
+              <ref role="3uigEE" node="6mnIne8ksV2" resolve="A" />
             </node>
           </node>
         </node>
@@ -254,7 +254,7 @@
             </node>
             <node concept="2ShNRf" id="6mnIne8kthr" role="37vLTx">
               <node concept="HV5vD" id="6mnIne8ktht" role="2ShVmc">
-                <ref role="HV5vE" node="6mnIne8ktcs" resolve="CSInput.A2" />
+                <ref role="HV5vE" node="6mnIne8ktcs" resolve="A.A2" />
               </node>
             </node>
           </node>
@@ -289,7 +289,7 @@
           <node concept="3cpWsn" id="2nZ5f50SIdg" role="3cpWs9">
             <property role="TrG5h" value="idSelf" />
             <node concept="3uibUv" id="2nZ5f50SIdh" role="1tU5fm">
-              <ref role="3uigEE" node="6mnIne8ksV2" resolve="CSInput" />
+              <ref role="3uigEE" node="6mnIne8ksV2" resolve="A" />
             </node>
           </node>
         </node>

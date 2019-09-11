@@ -5,14 +5,14 @@
       <sourceRoot location="models" />
     </modelRoot>
     <modelRoot contentPath="${module}" type="java_classes">
-      <sourceRoot location="lib/org.eclipse.viatra.addon.databinding.runtime_2.2.0.2019.jar" />
-      <sourceRoot location="lib/org.eclipse.viatra.query.runtime.base.itc_2.2.0.2019.jar" />
-      <sourceRoot location="lib/org.eclipse.viatra.query.runtime.base_2.2.0.2019.jar" />
-      <sourceRoot location="lib/org.eclipse.viatra.query.runtime.matchers_2.2.0.2019.jar" />
-      <sourceRoot location="lib/org.eclipse.viatra.query.runtime.rete.recipes_2.2.0.2019.jar" />
-      <sourceRoot location="lib/org.eclipse.viatra.query.runtime.rete_2.2.0.2019.jar" />
-      <sourceRoot location="lib/org.eclipse.viatra.query.runtime_2.2.0.2019.jar" />
-      <sourceRoot location="lib/org.eclipse.viatra.transformation.evm_2.2.0.2019.jar" />
+      <sourceRoot location="lib/org.eclipse.viatra.addon.databinding.runtime_2.3.0.2019.jar" />
+      <sourceRoot location="lib/org.eclipse.viatra.query.runtime.base.itc_2.3.0.2019.jar" />
+      <sourceRoot location="lib/org.eclipse.viatra.query.runtime.base_2.3.0.2019.jar" />
+      <sourceRoot location="lib/org.eclipse.viatra.query.runtime.matchers_2.3.0.2019.jar" />
+      <sourceRoot location="lib/org.eclipse.viatra.query.runtime.rete.recipes_2.3.0.2019.jar" />
+      <sourceRoot location="lib/org.eclipse.viatra.query.runtime.rete_2.3.0.2019.jar" />
+      <sourceRoot location="lib/org.eclipse.viatra.query.runtime_2.3.0.2019.jar" />
+      <sourceRoot location="lib/org.eclipse.viatra.transformation.evm_2.3.0.2019.jar" />
       <sourceRoot location="lib/capsule-0.4.0-20170621.132553-7.jar" />
       <sourceRoot location="lib/org.eclipse.collections_9.2.0.v20180518-1448.jar" />
       <sourceRoot location="lib/org.eclipse.core.databinding.observable_1.6.300.v20180827-2028.jar" />
@@ -27,14 +27,14 @@
     </modelRoot>
   </models>
   <stubModelEntries>
-    <stubModelEntry path="${module}/lib/org.eclipse.viatra.addon.databinding.runtime_2.2.0.2019.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.viatra.query.runtime.base.itc_2.2.0.2019.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.viatra.query.runtime.base_2.2.0.2019.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.viatra.query.runtime.matchers_2.2.0.2019.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.viatra.query.runtime.rete.recipes_2.2.0.2019.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.viatra.query.runtime.rete_2.2.0.2019.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.viatra.query.runtime_2.2.0.2019.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.viatra.transformation.evm_2.2.0.2019.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.viatra.addon.databinding.runtime_2.3.0.2019.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.viatra.query.runtime.base.itc_2.3.0.2019.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.viatra.query.runtime.base_2.3.0.2019.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.viatra.query.runtime.matchers_2.3.0.2019.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.viatra.query.runtime.rete.recipes_2.3.0.2019.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.viatra.query.runtime.rete_2.3.0.2019.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.viatra.query.runtime_2.3.0.2019.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.viatra.transformation.evm_2.3.0.2019.jar" />
     <stubModelEntry path="${module}/lib/capsule-0.4.0-20170621.132553-7.jar" />
     <stubModelEntry path="${module}/lib/org.eclipse.collections_9.2.0.v20180518-1448.jar" />
     <stubModelEntry path="${module}/lib/org.eclipse.core.databinding.observable_1.6.300.v20180827-2028.jar" />

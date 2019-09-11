@@ -247,7 +247,7 @@
       <concept id="996292992025672789" name="org.inca.core.structure.ConceptReferenceType" flags="ng" index="2kdjtB">
         <reference id="7241148409041409499" name="concept" index="2UGuZ7" />
       </concept>
-      <concept id="3798692733285425686" name="org.inca.core.structure.DRedKind" flags="ng" index="mS$zW" />
+      <concept id="3798692733285425690" name="org.inca.core.structure.NonScatteredSeqTimelyKind" flags="ng" index="mS$zK" />
       <concept id="3798692733285372749" name="org.inca.core.structure.BackendOption" flags="ng" index="mSFAB">
         <child id="3798692733285425707" name="kind" index="mS$z1" />
       </concept>
@@ -5382,11 +5382,8 @@
       <node concept="3Tm1VV" id="6jQDSPOxZYI" role="1B3o_S" />
       <node concept="3clFbS" id="6jQDSPOxZYJ" role="3clF47">
         <node concept="3cpWs6" id="6jQDSPOy031" role="3cqZAp">
-          <node concept="2ZRyFJ" id="7wQAOAoAIAd" role="3cqZAk">
-            <ref role="2ZRyFH" node="2nZ5f50ZfJ3" resolve="W" />
-            <node concept="37vLTw" id="7wQAOAoAIEp" role="2ZRyFy">
-              <ref role="3cqZAo" node="6jQDSPOy00T" resolve="call" />
-            </node>
+          <node concept="2ZRyFJ" id="k4e$mzRrEq" role="3cqZAk">
+            <ref role="2ZRyFH" node="2nZ5f50ZfGt" resolve="CTX" />
           </node>
         </node>
       </node>
@@ -5408,7 +5405,7 @@
   </node>
   <node concept="1HTBUm" id="6mnIne8kDih">
     <node concept="mSFAB" id="6mnIne8kDio" role="1HTAgx">
-      <node concept="mS$zW" id="2nZ5f511pVy" role="mS$z1" />
+      <node concept="mS$zK" id="k4e$mzUuTN" role="mS$z1" />
     </node>
   </node>
 </model>
