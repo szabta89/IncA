@@ -23,6 +23,8 @@
     <import index="g3l6" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.extapi.model(MPS.Core/)" />
     <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
+    <import index="pzen" ref="r:25bfb30f-3676-4451-9448-27a17343be80(org.inca.core.runtime.plugin)" />
+    <import index="4s4r" ref="7766a138-716a-422a-9c88-131459fb8d6a/java:org.eclipse.viatra.transformation.evm.api(org.inca.core.runtime/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
     <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" implicit="true" />
@@ -4746,6 +4748,28 @@
     <property role="TrG5h" value="typeof_GetAllTuplesDebugExpression" />
     <property role="3GE5qa" value="usage.matcher" />
     <node concept="3clFbS" id="2B5p$U98A4X" role="18ibNy">
+      <node concept="1ZobV4" id="3ZWK0jfObD" role="3cqZAp">
+        <property role="3wDh2S" value="true" />
+        <node concept="mw_s8" id="3ZWK0jfObX" role="1ZfhK$">
+          <node concept="1Z2H0r" id="3ZWK0jfObT" role="mwGJk">
+            <node concept="2OqwBi" id="3ZWK0jfOlL" role="1Z2MuG">
+              <node concept="1YBJjd" id="3ZWK0jfOce" role="2Oq$k0">
+                <ref role="1YBMHb" node="2B5p$U98A4Z" resolve="exp" />
+              </node>
+              <node concept="3TrEf2" id="3ZWK0jfOy5" role="2OqNvi">
+                <ref role="3Tt5mk" to="hqsm:2B5p$U98h5F" resolve="model" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="3ZWK0jfOAB" role="1ZfhKB">
+          <node concept="2pJPEk" id="3ZWK0jfOAz" role="mwGJk">
+            <node concept="2pJPED" id="3ZWK0jfOAM" role="2pJPEn">
+              <ref role="2pJxaS" to="tp25:gCH_c3d" resolve="SModelType" />
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="1Z5TYs" id="2B5p$U98CWM" role="3cqZAp">
         <node concept="mw_s8" id="2B5p$U98CX6" role="1ZfhKB">
           <node concept="2c44tf" id="2B5p$U98CX2" role="mwGJk">

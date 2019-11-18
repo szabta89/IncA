@@ -3835,6 +3835,74 @@
       <node concept="2Rw4kD" id="4REMYHpS6gy" role="lGtFl" />
       <node concept="wzYhZ" id="6cMYFD6cKwB" role="wzYgH" />
     </node>
+    <node concept="1XdyHe" id="1mDJtQN0Tef" role="1dubk0" />
+    <node concept="3zyOaA" id="1mDJtQN0QF8" role="1dubk0">
+      <property role="TrG5h" value="MethodLookupApproximating" />
+      <node concept="3zV_Rz" id="1mDJtQN0QF9" role="3zVECR">
+        <node concept="34ocy7" id="p_JJSUk6$Z" role="1dgzf0">
+          <node concept="2dT$3Y" id="p_JJSUk6Be" role="34ocs8">
+            <node concept="2k1GkI" id="p_JJSUk6DC" role="2dT$1H">
+              <node concept="2k1_uq" id="p_JJSUk6DA" role="2nKVj6">
+                <ref role="2nKBpL" node="4REMYHpS6gw" resolve="MethodLookup" />
+                <node concept="30NkWi" id="p_JJSUk6Et" role="2nKBpO">
+                  <ref role="XkjO9" node="1mDJtQN0QG0" resolve="simplename" />
+                </node>
+                <node concept="30NkWi" id="p_JJSUk6Sf" role="2nKBpO">
+                  <ref role="XkjO9" node="1mDJtQN0QG2" resolve="descriptor" />
+                </node>
+                <node concept="30KbLJ" id="1Tv85S3QgLE" role="2nKBpO">
+                  <property role="TrG5h" value="subtype" />
+                </node>
+                <node concept="30NkWi" id="1Tv85S3QgUJ" role="2nKBpO">
+                  <ref role="XkjO9" node="1mDJtQN0QG6" resolve="method" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="34ocy7" id="1mDJtQN3WNB" role="1dgzf0">
+          <node concept="2dT$3Y" id="1mDJtQN3WNC" role="34ocs8">
+            <node concept="2k1GkI" id="1mDJtQN3WND" role="2dT$1H">
+              <node concept="2k1_uq" id="1mDJtQN3WNE" role="2nKVj6">
+                <ref role="2nKBpL" node="4REMYHpS6he" resolve="SubtypeOf" />
+                <node concept="30NkWi" id="1Tv85S3Qh2M" role="2nKBpO">
+                  <ref role="XkjO9" node="1Tv85S3QgLE" resolve="subtype" />
+                </node>
+                <node concept="30NkWi" id="1mDJtQN3WNG" role="2nKBpO">
+                  <ref role="XkjO9" node="1mDJtQN3Pr5" resolve="type" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1VLyuc" id="1mDJtQN0QG0" role="1dv5OJ">
+        <property role="TrG5h" value="simplename" />
+        <node concept="2PmbLq" id="1mDJtQN0QG1" role="1dukDx">
+          <ref role="2PmbDx" to="tpck:fKAQMTA" resolve="integer" />
+        </node>
+      </node>
+      <node concept="1VLyuc" id="1mDJtQN0QG2" role="1dv5OJ">
+        <property role="TrG5h" value="descriptor" />
+        <node concept="2PmbLq" id="1mDJtQN0QG3" role="1dukDx">
+          <ref role="2PmbDx" to="tpck:fKAQMTA" resolve="integer" />
+        </node>
+      </node>
+      <node concept="1VLyuc" id="1mDJtQN3Pr5" role="1dv5OJ">
+        <property role="TrG5h" value="type" />
+        <node concept="2PmbLq" id="1mDJtQN3Psp" role="1dukDx">
+          <ref role="2PmbDx" to="tpck:fKAQMTA" resolve="integer" />
+        </node>
+      </node>
+      <node concept="1VLyuc" id="1mDJtQN0QG6" role="1dv5OJ">
+        <property role="TrG5h" value="method" />
+        <node concept="2PmbLq" id="1mDJtQN0QG7" role="1dukDx">
+          <ref role="2PmbDx" to="tpck:fKAQMTA" resolve="integer" />
+        </node>
+      </node>
+      <node concept="2Rw4kD" id="1mDJtQN0QG8" role="lGtFl" />
+      <node concept="wzYhZ" id="1mDJtQN0QG9" role="wzYgH" />
+    </node>
     <node concept="1XdyHe" id="6x_ofXK6cuN" role="1dubk0" />
     <node concept="3zyOaA" id="4REMYHpS6gF" role="1dubk0">
       <property role="TrG5h" value="MethodImplemented" />
