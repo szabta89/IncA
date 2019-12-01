@@ -1590,8 +1590,8 @@
   <node concept="1TIwiD" id="3iREICylu8m">
     <property role="EcuMT" value="3798692733285425686" />
     <property role="3GE5qa" value="compiler" />
-    <property role="TrG5h" value="DRedKind" />
-    <property role="34LRSv" value="DRed" />
+    <property role="TrG5h" value="DRedLKind" />
+    <property role="34LRSv" value="DRedL" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3iREICylu8o" role="PzmwI">
       <ref role="PrY4T" node="3iREICylu8n" resolve="IBackendKind" />
@@ -1605,20 +1605,10 @@
   <node concept="1TIwiD" id="3iREICylu8q">
     <property role="EcuMT" value="3798692733285425690" />
     <property role="3GE5qa" value="compiler" />
-    <property role="TrG5h" value="NonScatteredSeqTimelyKind" />
-    <property role="34LRSv" value="Non-scattered (Seq) Timely" />
+    <property role="TrG5h" value="TimelySequentialKind" />
+    <property role="34LRSv" value="Timely with Sequential Aggregation" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3iREICylu8r" role="PzmwI">
-      <ref role="PrY4T" node="3iREICylu8n" resolve="IBackendKind" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="V2axCT8wM">
-    <property role="EcuMT" value="16616543033264178" />
-    <property role="3GE5qa" value="compiler" />
-    <property role="TrG5h" value="ScatteredSeqTimelyKind" />
-    <property role="34LRSv" value="Scattered (Seq) Timely" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="V2axCT8wN" role="PzmwI">
       <ref role="PrY4T" node="3iREICylu8n" resolve="IBackendKind" />
     </node>
   </node>
@@ -1630,16 +1620,6 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="4EFi6MUJyhB" role="PzmwI">
       <ref role="PrY4T" node="4apIOoJvWqz" resolve="ICompilerOption" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="5fgUiL6GTD6">
-    <property role="EcuMT" value="6039583476677843526" />
-    <property role="3GE5qa" value="compiler" />
-    <property role="TrG5h" value="ScatteredParTimelyKind" />
-    <property role="34LRSv" value="Scattered (Par) Timely" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="5fgUiL6GTD7" role="PzmwI">
-      <ref role="PrY4T" node="3iREICylu8n" resolve="IBackendKind" />
     </node>
   </node>
   <node concept="1TIwiD" id="2B5p$U98gdg">
@@ -1674,6 +1654,16 @@
       <property role="20kJfa" value="element" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="gUN7B7UIQF">
+    <property role="EcuMT" value="304780748218101163" />
+    <property role="3GE5qa" value="compiler" />
+    <property role="TrG5h" value="TimelyNaiveKind" />
+    <property role="34LRSv" value="Timely with Naive Aggregation" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="gUN7B7UIQG" role="PzmwI">
+      <ref role="PrY4T" node="3iREICylu8n" resolve="IBackendKind" />
     </node>
   </node>
 </model>

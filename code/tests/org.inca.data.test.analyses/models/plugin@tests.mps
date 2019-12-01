@@ -290,7 +290,7 @@
       <concept id="996292992025672789" name="org.inca.core.structure.ConceptReferenceType" flags="ng" index="2kdjtB">
         <reference id="7241148409041409499" name="concept" index="2UGuZ7" />
       </concept>
-      <concept id="3798692733285425690" name="org.inca.core.structure.NonScatteredSeqTimelyKind" flags="ng" index="mS$zK" />
+      <concept id="3798692733285425690" name="org.inca.core.structure.TimelySequentialKind" flags="ng" index="mS$zK" />
       <concept id="3798692733285372749" name="org.inca.core.structure.BackendOption" flags="ng" index="mSFAB">
         <child id="3798692733285425707" name="kind" index="mS$z1" />
       </concept>
@@ -6533,7 +6533,7 @@
   </node>
   <node concept="1HTBUm" id="3iREICyobo4">
     <node concept="mSFAB" id="3iREICyobo6" role="1HTAgx">
-      <node concept="mS$zK" id="5k5_C0h1x3c" role="mS$z1" />
+      <node concept="mS$zK" id="BdHbKcSNZN" role="mS$z1" />
     </node>
   </node>
 </model>

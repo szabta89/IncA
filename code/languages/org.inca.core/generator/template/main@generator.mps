@@ -5875,7 +5875,7 @@
     <property role="TrG5h" value="backendFactoryInitialization" />
     <node concept="3aamgX" id="63E4q93R8G$" role="3aUrZf">
       <property role="36QftV" value="true" />
-      <ref role="30HIoZ" to="hqsm:3iREICylu8m" resolve="DRedKind" />
+      <ref role="30HIoZ" to="hqsm:3iREICylu8m" resolve="DRedLKind" />
       <node concept="gft3U" id="63E4q93RgzH" role="1lVwrX">
         <node concept="10M0yZ" id="63E4q93RgF$" role="gfFT$">
           <ref role="3cqZAo" to="x6p8:~DRedReteBackendFactory.INSTANCE" resolve="INSTANCE" />
@@ -5885,28 +5885,18 @@
     </node>
     <node concept="3aamgX" id="V2axCT8Te" role="3aUrZf">
       <property role="36QftV" value="true" />
-      <ref role="30HIoZ" to="hqsm:V2axCT8wM" resolve="ScatteredSeqTimelyKind" />
+      <ref role="30HIoZ" to="hqsm:gUN7B7UIQF" resolve="TimelyNaiveKind" />
       <node concept="gft3U" id="V2axCT8Tf" role="1lVwrX">
-        <node concept="10M0yZ" id="5fgUiL6Jb9S" role="gfFT$">
-          <ref role="3cqZAo" to="x6p8:~ScatteredTimelyReteBackendFactory.INSTANCE" resolve="INSTANCE" />
-          <ref role="1PxDUh" to="x6p8:~ScatteredTimelyReteBackendFactory" resolve="ScatteredTimelyReteBackendFactory" />
-        </node>
-      </node>
-    </node>
-    <node concept="3aamgX" id="5fgUiL6Jb9Z" role="3aUrZf">
-      <property role="36QftV" value="true" />
-      <ref role="30HIoZ" to="hqsm:5fgUiL6GTD6" resolve="ScatteredParTimelyKind" />
-      <node concept="gft3U" id="5fgUiL6Jba0" role="1lVwrX">
-        <node concept="10M0yZ" id="5fgUiL6Jbal" role="gfFT$">
-          <ref role="3cqZAo" to="x6p8:~ScatteredParallelTimelyReteBackendFactory.INSTANCE" resolve="INSTANCE" />
-          <ref role="1PxDUh" to="x6p8:~ScatteredParallelTimelyReteBackendFactory" resolve="ScatteredParallelTimelyReteBackendFactory" />
+        <node concept="10M0yZ" id="gUN7B7UJ0M" role="gfFT$">
+          <ref role="3cqZAo" to="x6p8:~NonScatteredParallelTimelyReteBackendFactory.INSTANCE" resolve="INSTANCE" />
+          <ref role="1PxDUh" to="x6p8:~NonScatteredParallelTimelyReteBackendFactory" resolve="NonScatteredParallelTimelyReteBackendFactory" />
         </node>
       </node>
     </node>
     <node concept="gft3U" id="1gFArwuE2We" role="jxRDz">
-      <node concept="10M0yZ" id="1gFArwuE2Wf" role="gfFT$">
-        <ref role="1PxDUh" to="x6p8:~NonScatteredTimelyReteBackendFactory" resolve="NonScatteredTimelyReteBackendFactory" />
-        <ref role="3cqZAo" to="x6p8:~NonScatteredTimelyReteBackendFactory.INSTANCE" resolve="INSTANCE" />
+      <node concept="10M0yZ" id="gUN7B7UugJ" role="gfFT$">
+        <ref role="3cqZAo" to="x6p8:~NonScatteredSequentialTimelyReteBackendFactory.INSTANCE" resolve="INSTANCE" />
+        <ref role="1PxDUh" to="x6p8:~NonScatteredSequentialTimelyReteBackendFactory" resolve="NonScatteredSequentialTimelyReteBackendFactory" />
       </node>
     </node>
   </node>
