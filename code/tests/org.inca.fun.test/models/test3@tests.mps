@@ -471,7 +471,7 @@
             <node concept="2OqwBi" id="9jrT7Edkkg" role="33vP2m">
               <node concept="1jxXqW" id="9jrT7Edk9F" role="2Oq$k0" />
               <node concept="liA8E" id="9jrT7EdkPo" role="2OqNvi">
-                <ref role="37wK5l" to="z1c3:~Project.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
+                <ref role="37wK5l" to="z1c3:~Project.getRepository()" resolve="getRepository" />
               </node>
             </node>
           </node>
@@ -633,7 +633,7 @@
                                   </node>
                                 </node>
                                 <node concept="liA8E" id="1L7nrci1QQw" role="2OqNvi">
-                                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                                   <node concept="Xl_RD" id="1L7nrci0qTK" role="37wK5m">
                                     <property role="Xl_RC" value="TestClass_with_interface_and_param" />
                                   </node>
@@ -668,7 +668,7 @@
                                   </node>
                                 </node>
                                 <node concept="liA8E" id="1L7nrci1Vrn" role="2OqNvi">
-                                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                                   <node concept="Xl_RD" id="1L7nrci0q4O" role="37wK5m">
                                     <property role="Xl_RC" value="TestClass_with_interface" />
                                   </node>
@@ -703,7 +703,7 @@
                                   </node>
                                 </node>
                                 <node concept="liA8E" id="1L7nrci20pE" role="2OqNvi">
-                                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                                   <node concept="Xl_RD" id="1L7nrci0qAB" role="37wK5m">
                                     <property role="Xl_RC" value="TestClass" />
                                   </node>

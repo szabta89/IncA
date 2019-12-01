@@ -263,7 +263,7 @@
                   <ref role="3cqZAo" node="3XQWGS7yN$3" resolve="measurement" />
                 </node>
                 <node concept="liA8E" id="3XQWGS7yN$e" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Thread.start():void" resolve="start" />
+                  <ref role="37wK5l" to="wyt6:~Thread.start()" resolve="start" />
                 </node>
               </node>
             </node>
@@ -312,7 +312,7 @@
           <node concept="3clFbS" id="1_JXc3TiZQw" role="SfCbr">
             <node concept="3clFbF" id="1_JXc3TiZQx" role="3cqZAp">
               <node concept="2YIFZM" id="1_JXc3TiZQy" role="3clFbG">
-                <ref role="37wK5l" to="dxuu:~SwingUtilities.invokeLater(java.lang.Runnable):void" resolve="invokeLater" />
+                <ref role="37wK5l" to="dxuu:~SwingUtilities.invokeLater(java.lang.Runnable)" resolve="invokeLater" />
                 <ref role="1Pybhc" to="dxuu:~SwingUtilities" resolve="SwingUtilities" />
                 <node concept="1bVj0M" id="1_JXc3TiZQz" role="37wK5m">
                   <node concept="3clFbS" id="1_JXc3TiZQ$" role="1bW5cS">
@@ -443,7 +443,7 @@
                             </node>
                           </node>
                           <node concept="liA8E" id="1_JXc3Tkd$O" role="2OqNvi">
-                            <ref role="37wK5l" to="z1c3:~Project.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
+                            <ref role="37wK5l" to="z1c3:~Project.getRepository()" resolve="getRepository" />
                           </node>
                         </node>
                       </node>
@@ -589,10 +589,10 @@
             <node concept="2OqwBi" id="3aNmBFkZfDx" role="33vP2m">
               <node concept="2YIFZM" id="3aNmBFkZfDy" role="2Oq$k0">
                 <ref role="1Pybhc" to="wyt6:~Thread" resolve="Thread" />
-                <ref role="37wK5l" to="wyt6:~Thread.getAllStackTraces():java.util.Map" resolve="getAllStackTraces" />
+                <ref role="37wK5l" to="wyt6:~Thread.getAllStackTraces()" resolve="getAllStackTraces" />
               </node>
               <node concept="liA8E" id="3aNmBFkZfDz" role="2OqNvi">
-                <ref role="37wK5l" to="33ny:~Map.keySet():java.util.Set" resolve="keySet" />
+                <ref role="37wK5l" to="33ny:~Map.keySet()" resolve="keySet" />
               </node>
             </node>
           </node>
@@ -614,7 +614,7 @@
                       <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
                     </node>
                     <node concept="liA8E" id="3aNmBFkZZHl" role="2OqNvi">
-                      <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                      <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
                       <node concept="Xl_RD" id="3aNmBFkZZIz" role="37wK5m">
                         <property role="Xl_RC" value="Killing DoopRunner thread." />
                       </node>
@@ -627,7 +627,7 @@
                       <ref role="2Gs0qQ" node="3aNmBFkZgos" resolve="thread" />
                     </node>
                     <node concept="liA8E" id="3aNmBFkZQPm" role="2OqNvi">
-                      <ref role="37wK5l" to="wyt6:~Thread.stop():void" resolve="stop" />
+                      <ref role="37wK5l" to="wyt6:~Thread.stop()" resolve="stop" />
                     </node>
                   </node>
                 </node>
@@ -638,11 +638,11 @@
                     <ref role="2Gs0qQ" node="3aNmBFkZgos" resolve="thread" />
                   </node>
                   <node concept="liA8E" id="3aNmBFkZyFI" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~Thread.getName():java.lang.String" resolve="getName" />
+                    <ref role="37wK5l" to="wyt6:~Thread.getName()" resolve="getName" />
                   </node>
                 </node>
                 <node concept="liA8E" id="3aNmBFkZPBv" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                   <node concept="Xl_RD" id="3aNmBFkZPH$" role="37wK5m">
                     <property role="Xl_RC" value="DoopRunner" />
                   </node>

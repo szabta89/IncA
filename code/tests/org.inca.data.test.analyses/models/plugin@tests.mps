@@ -4453,7 +4453,7 @@
                   <node concept="2ZRyFJ" id="oNpFNpxMJr" role="2ZRyFy">
                     <ref role="2ZRyFH" node="ziWFuXmekF" resolve="Interval" />
                     <node concept="2YIFZM" id="oNpFNpxMJs" role="2ZRyFy">
-                      <ref role="37wK5l" to="wyt6:~Math.min(long,long):long" resolve="min" />
+                      <ref role="37wK5l" to="wyt6:~Math.min(long,long)" resolve="min" />
                       <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
                       <node concept="37vLTw" id="1FxBGu9OCrk" role="37wK5m">
                         <ref role="3cqZAo" node="ziWFuXmSz_" resolve="l1" />
@@ -4464,7 +4464,7 @@
                     </node>
                     <node concept="2YIFZM" id="oNpFNpxMJv" role="2ZRyFy">
                       <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
-                      <ref role="37wK5l" to="wyt6:~Math.max(long,long):long" resolve="max" />
+                      <ref role="37wK5l" to="wyt6:~Math.max(long,long)" resolve="max" />
                       <node concept="37vLTw" id="1FxBGu9OCrm" role="37wK5m">
                         <ref role="3cqZAo" node="ziWFuXmSzA" resolve="h1" />
                       </node>
@@ -4602,7 +4602,7 @@
                     <ref role="2ZRyFH" node="ziWFuXmekF" resolve="Interval" />
                     <node concept="2YIFZM" id="oNpFNpxNmq" role="2ZRyFy">
                       <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
-                      <ref role="37wK5l" to="wyt6:~Math.max(long,long):long" resolve="max" />
+                      <ref role="37wK5l" to="wyt6:~Math.max(long,long)" resolve="max" />
                       <node concept="37vLTw" id="1FxBGu9OCro" role="37wK5m">
                         <ref role="3cqZAo" node="ziWFuXnxrX" resolve="l1" />
                       </node>
@@ -4611,7 +4611,7 @@
                       </node>
                     </node>
                     <node concept="2YIFZM" id="oNpFNpxNmt" role="2ZRyFy">
-                      <ref role="37wK5l" to="wyt6:~Math.min(long,long):long" resolve="min" />
+                      <ref role="37wK5l" to="wyt6:~Math.min(long,long)" resolve="min" />
                       <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
                       <node concept="37vLTw" id="1FxBGu9OCrq" role="37wK5m">
                         <ref role="3cqZAo" node="ziWFuXnxrY" resolve="h1" />
@@ -4881,20 +4881,20 @@
                         <property role="TrG5h" value="ln" />
                         <node concept="3cpWsb" id="3V60JYFKUqJ" role="1tU5fm" />
                         <node concept="2YIFZM" id="1Ev$xrSnoGU" role="33vP2m">
-                          <ref role="37wK5l" to="wyt6:~Math.min(long,long):long" resolve="min" />
+                          <ref role="37wK5l" to="wyt6:~Math.min(long,long)" resolve="min" />
                           <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
                           <node concept="37vLTw" id="1Ev$xrSnoGV" role="37wK5m">
                             <ref role="3cqZAo" node="1Ev$xrSn3sd" resolve="v1" />
                           </node>
                           <node concept="2YIFZM" id="1Ev$xrSnoGW" role="37wK5m">
-                            <ref role="37wK5l" to="wyt6:~Math.min(long,long):long" resolve="min" />
+                            <ref role="37wK5l" to="wyt6:~Math.min(long,long)" resolve="min" />
                             <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
                             <node concept="37vLTw" id="1Ev$xrSnoGX" role="37wK5m">
                               <ref role="3cqZAo" node="1Ev$xrSn5S$" resolve="v2" />
                             </node>
                             <node concept="2YIFZM" id="1Ev$xrSnoGY" role="37wK5m">
                               <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
-                              <ref role="37wK5l" to="wyt6:~Math.min(long,long):long" resolve="min" />
+                              <ref role="37wK5l" to="wyt6:~Math.min(long,long)" resolve="min" />
                               <node concept="37vLTw" id="1Ev$xrSnoGZ" role="37wK5m">
                                 <ref role="3cqZAo" node="1Ev$xrSn6gA" resolve="v3" />
                               </node>
@@ -4912,19 +4912,19 @@
                         <node concept="3cpWsb" id="3V60JYFKUVp" role="1tU5fm" />
                         <node concept="2YIFZM" id="1Ev$xrSnrrW" role="33vP2m">
                           <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
-                          <ref role="37wK5l" to="wyt6:~Math.max(long,long):long" resolve="max" />
+                          <ref role="37wK5l" to="wyt6:~Math.max(long,long)" resolve="max" />
                           <node concept="37vLTw" id="1Ev$xrSnrrX" role="37wK5m">
                             <ref role="3cqZAo" node="1Ev$xrSn3sd" resolve="v1" />
                           </node>
                           <node concept="2YIFZM" id="1Ev$xrSnrrY" role="37wK5m">
                             <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
-                            <ref role="37wK5l" to="wyt6:~Math.max(long,long):long" resolve="max" />
+                            <ref role="37wK5l" to="wyt6:~Math.max(long,long)" resolve="max" />
                             <node concept="37vLTw" id="1Ev$xrSnrrZ" role="37wK5m">
                               <ref role="3cqZAo" node="1Ev$xrSn5S$" resolve="v2" />
                             </node>
                             <node concept="2YIFZM" id="1Ev$xrSnsc3" role="37wK5m">
                               <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
-                              <ref role="37wK5l" to="wyt6:~Math.max(long,long):long" resolve="max" />
+                              <ref role="37wK5l" to="wyt6:~Math.max(long,long)" resolve="max" />
                               <node concept="37vLTw" id="1Ev$xrSnsc4" role="37wK5m">
                                 <ref role="3cqZAo" node="1Ev$xrSn6gA" resolve="v3" />
                               </node>
@@ -6415,7 +6415,7 @@
           <node concept="3clFbS" id="2MDx4A5d_NO" role="3clFbx">
             <node concept="3cpWs6" id="2MDx4A5dAyp" role="3cqZAp">
               <node concept="2YIFZM" id="2MDx4A5dBAk" role="3cqZAk">
-                <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />
+                <ref role="37wK5l" to="wyt6:~Integer.toString(int)" resolve="toString" />
                 <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
                 <node concept="2OqwBi" id="2MDx4A5dAUm" role="37wK5m">
                   <node concept="1PxgMI" id="2MDx4A5dAG1" role="2Oq$k0">
@@ -6482,7 +6482,7 @@
                         <node concept="2yIwOk" id="2MDx4A5dG1u" role="2OqNvi" />
                       </node>
                       <node concept="liA8E" id="2MDx4A5dN56" role="2OqNvi">
-                        <ref role="37wK5l" to="c17a:~SAbstractConcept.getName():java.lang.String" resolve="getName" />
+                        <ref role="37wK5l" to="c17a:~SAbstractConcept.getName()" resolve="getName" />
                       </node>
                     </node>
                   </node>
@@ -6517,7 +6517,7 @@
                     <node concept="2yIwOk" id="2MDx4A5dJEh" role="2OqNvi" />
                   </node>
                   <node concept="liA8E" id="2MDx4A5dLI6" role="2OqNvi">
-                    <ref role="37wK5l" to="c17a:~SAbstractConcept.getName():java.lang.String" resolve="getName" />
+                    <ref role="37wK5l" to="c17a:~SAbstractConcept.getName()" resolve="getName" />
                   </node>
                 </node>
               </node>

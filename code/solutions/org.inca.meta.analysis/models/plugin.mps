@@ -713,7 +713,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="4IazdVduef8" role="2OqNvi">
-                <ref role="37wK5l" to="mhbf:~SModel.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
+                <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
               </node>
             </node>
           </node>
@@ -770,7 +770,7 @@
                           </node>
                         </node>
                         <node concept="liA8E" id="28k0LIysQj4" role="2OqNvi">
-                          <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                          <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                           <node concept="Xl_RD" id="28k0LIysQj5" role="37wK5m">
                             <property role="Xl_RC" value="InconsistentLatticeUsageChecker" />
                           </node>
@@ -853,7 +853,7 @@
                   <node concept="3cpWs6" id="2Yoto85RGT$" role="3cqZAp">
                     <node concept="2YIFZM" id="2Yoto85RH7w" role="3cqZAk">
                       <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
-                      <ref role="37wK5l" to="33ny:~Collections.emptySet():java.util.Set" resolve="emptySet" />
+                      <ref role="37wK5l" to="33ny:~Collections.emptySet()" resolve="emptySet" />
                       <node concept="3Tqbb2" id="2Yoto85RH7x" role="3PaCim">
                         <ref role="ehGHo" to="uu1k:2A0WHmBhrvB" resolve="TypeConstructorTypeWrapper" />
                       </node>
@@ -934,7 +934,7 @@
             <node concept="3clFbS" id="2Yoto85NlmR" role="9aQI4">
               <node concept="3cpWs6" id="2Yoto85Nloc" role="3cqZAp">
                 <node concept="2YIFZM" id="2Yoto85NrHW" role="3cqZAk">
-                  <ref role="37wK5l" to="33ny:~Collections.emptySet():java.util.Set" resolve="emptySet" />
+                  <ref role="37wK5l" to="33ny:~Collections.emptySet()" resolve="emptySet" />
                   <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
                   <node concept="3Tqbb2" id="2Yoto85NrRB" role="3PaCim">
                     <ref role="ehGHo" to="uu1k:2A0WHmBhrvB" resolve="TypeConstructorTypeWrapper" />
@@ -978,7 +978,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="4IazdVdulIw" role="2OqNvi">
-                <ref role="37wK5l" to="mhbf:~SModel.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
+                <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
               </node>
             </node>
           </node>
@@ -1035,7 +1035,7 @@
                           </node>
                         </node>
                         <node concept="liA8E" id="28k0LIysTU9" role="2OqNvi">
-                          <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                          <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                           <node concept="Xl_RD" id="28k0LIysTUa" role="37wK5m">
                             <property role="Xl_RC" value="NegationInRecursionChecker" />
                           </node>
@@ -1118,7 +1118,7 @@
                   <node concept="3cpWs6" id="5u2_tz9HRq" role="3cqZAp">
                     <node concept="2YIFZM" id="5u2_tz9HRr" role="3cqZAk">
                       <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
-                      <ref role="37wK5l" to="33ny:~Collections.emptySet():java.util.Set" resolve="emptySet" />
+                      <ref role="37wK5l" to="33ny:~Collections.emptySet()" resolve="emptySet" />
                       <node concept="3Tqbb2" id="5u2_tz9HRs" role="3PaCim">
                         <ref role="ehGHo" to="ebqt:RjyNapPkSs" resolve="PatternFunctionCall" />
                       </node>
@@ -1199,7 +1199,7 @@
             <node concept="3clFbS" id="5u2_tz9HRR" role="9aQI4">
               <node concept="3cpWs6" id="5u2_tz9HRS" role="3cqZAp">
                 <node concept="2YIFZM" id="5u2_tz9HRT" role="3cqZAk">
-                  <ref role="37wK5l" to="33ny:~Collections.emptySet():java.util.Set" resolve="emptySet" />
+                  <ref role="37wK5l" to="33ny:~Collections.emptySet()" resolve="emptySet" />
                   <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
                   <node concept="3Tqbb2" id="5u2_tz9HRU" role="3PaCim">
                     <ref role="ehGHo" to="ebqt:RjyNapPkSs" resolve="PatternFunctionCall" />

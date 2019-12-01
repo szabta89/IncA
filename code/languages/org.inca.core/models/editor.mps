@@ -2388,15 +2388,15 @@
                       <ref role="3cqZAo" node="1dVWdooZXc3" resolve="context" />
                     </node>
                     <node concept="liA8E" id="7epptcjRPPS" role="2OqNvi">
-                      <ref role="37wK5l" to="cj4x:~EditorContext.getOperationContext():jetbrains.mps.smodel.IOperationContext" resolve="getOperationContext" />
+                      <ref role="37wK5l" to="cj4x:~EditorContext.getOperationContext()" resolve="getOperationContext" />
                     </node>
                   </node>
                   <node concept="liA8E" id="7epptcjRPPT" role="2OqNvi">
-                    <ref role="37wK5l" to="w1kc:~IOperationContext.getProject():jetbrains.mps.project.Project" resolve="getProject" />
+                    <ref role="37wK5l" to="w1kc:~IOperationContext.getProject()" resolve="getProject" />
                   </node>
                 </node>
                 <node concept="liA8E" id="7epptcjRPPU" role="2OqNvi">
-                  <ref role="37wK5l" to="z1c3:~Project.getComponent(java.lang.Class):java.lang.Object" resolve="getComponent" />
+                  <ref role="37wK5l" to="z1c3:~Project.getComponent(java.lang.Class)" resolve="getComponent" />
                   <node concept="3VsKOn" id="7epptcjRPPV" role="37wK5m">
                     <ref role="3VsUkX" to="sn11:192HKKPMXeL" resolve="GlobalIconManager" />
                   </node>
@@ -2499,7 +2499,7 @@
                       <ref role="3cqZAo" node="DubiFB6mE3" resolve="icon" />
                     </node>
                     <node concept="liA8E" id="DubiFB6va8" role="2OqNvi">
-                      <ref role="37wK5l" to="dxuu:~Icon.getIconWidth():int" resolve="getIconWidth" />
+                      <ref role="37wK5l" to="dxuu:~Icon.getIconWidth()" resolve="getIconWidth" />
                     </node>
                   </node>
                   <node concept="2OqwBi" id="DubiFB6wes" role="37wK5m">
@@ -2507,7 +2507,7 @@
                       <ref role="3cqZAo" node="DubiFB6mE3" resolve="icon" />
                     </node>
                     <node concept="liA8E" id="DubiFB6wKk" role="2OqNvi">
-                      <ref role="37wK5l" to="dxuu:~Icon.getIconHeight():int" resolve="getIconHeight" />
+                      <ref role="37wK5l" to="dxuu:~Icon.getIconHeight()" resolve="getIconHeight" />
                     </node>
                   </node>
                   <node concept="10M0yZ" id="DubiFB6y4t" role="37wK5m">
@@ -2524,14 +2524,14 @@
                 <ref role="3cqZAo" node="DubiFB6mE3" resolve="icon" />
               </node>
               <node concept="liA8E" id="DubiFB6BHb" role="2OqNvi">
-                <ref role="37wK5l" to="dxuu:~Icon.paintIcon(java.awt.Component,java.awt.Graphics,int,int):void" resolve="paintIcon" />
+                <ref role="37wK5l" to="dxuu:~Icon.paintIcon(java.awt.Component,java.awt.Graphics,int,int)" resolve="paintIcon" />
                 <node concept="10Nm6u" id="DubiFB6CUl" role="37wK5m" />
                 <node concept="2OqwBi" id="DubiFB6Dvd" role="37wK5m">
                   <node concept="37vLTw" id="DubiFB6CXV" role="2Oq$k0">
                     <ref role="3cqZAo" node="DubiFB6sMD" resolve="img" />
                   </node>
                   <node concept="liA8E" id="DubiFB6F_a" role="2OqNvi">
-                    <ref role="37wK5l" to="jan3:~BufferedImage.getGraphics():java.awt.Graphics" resolve="getGraphics" />
+                    <ref role="37wK5l" to="jan3:~BufferedImage.getGraphics()" resolve="getGraphics" />
                   </node>
                 </node>
                 <node concept="3cmrfG" id="DubiFB6GS1" role="37wK5m">
@@ -2552,7 +2552,7 @@
               </node>
               <node concept="2OqwBi" id="DubiFBOokx" role="33vP2m">
                 <node concept="liA8E" id="DubiFBOoky" role="2OqNvi">
-                  <ref role="37wK5l" to="g51k:~EditorCell_Basic.getParent():jetbrains.mps.nodeEditor.cells.EditorCell_Collection" resolve="getParent" />
+                  <ref role="37wK5l" to="g51k:~EditorCell_Basic.getParent()" resolve="getParent" />
                 </node>
                 <node concept="Xjq3P" id="DubiFBOokz" role="2Oq$k0" />
               </node>
@@ -2564,7 +2564,7 @@
                 <ref role="3cqZAo" node="DubiFB4e5L" resolve="g" />
               </node>
               <node concept="liA8E" id="DubiFB5RUO" role="2OqNvi">
-                <ref role="37wK5l" to="z60i:~Graphics.drawImage(java.awt.Image,int,int,java.awt.image.ImageObserver):boolean" resolve="drawImage" />
+                <ref role="37wK5l" to="z60i:~Graphics.drawImage(java.awt.Image,int,int,java.awt.image.ImageObserver)" resolve="drawImage" />
                 <node concept="37vLTw" id="DubiFB6_ih" role="37wK5m">
                   <ref role="3cqZAo" node="DubiFB6sMD" resolve="img" />
                 </node>
@@ -2573,7 +2573,7 @@
                     <ref role="3cqZAo" node="DubiFBOokv" resolve="parent" />
                   </node>
                   <node concept="liA8E" id="DubiFBOxB5" role="2OqNvi">
-                    <ref role="37wK5l" to="g51k:~EditorCell_Basic.getX():int" resolve="getX" />
+                    <ref role="37wK5l" to="g51k:~EditorCell_Basic.getX()" resolve="getX" />
                   </node>
                 </node>
                 <node concept="3cpWs3" id="DubiFBSgqw" role="37wK5m">
@@ -2585,7 +2585,7 @@
                       <ref role="3cqZAo" node="DubiFBOokv" resolve="parent" />
                     </node>
                     <node concept="liA8E" id="DubiFBOCoH" role="2OqNvi">
-                      <ref role="37wK5l" to="g51k:~EditorCell_Basic.getY():int" resolve="getY" />
+                      <ref role="37wK5l" to="g51k:~EditorCell_Basic.getY()" resolve="getY" />
                     </node>
                   </node>
                 </node>
@@ -2608,7 +2608,7 @@
                   <ref role="3cqZAo" node="DubiFB6mE3" resolve="icon" />
                 </node>
                 <node concept="liA8E" id="DubiFB6KUs" role="2OqNvi">
-                  <ref role="37wK5l" to="dxuu:~Icon.getIconWidth():int" resolve="getIconWidth" />
+                  <ref role="37wK5l" to="dxuu:~Icon.getIconWidth()" resolve="getIconWidth" />
                 </node>
               </node>
               <node concept="2OqwBi" id="DubiFB4e7a" role="37vLTJ">
@@ -2632,7 +2632,7 @@
                   <ref role="3cqZAo" node="DubiFB6mE3" resolve="icon" />
                 </node>
                 <node concept="liA8E" id="DubiFB6N8I" role="2OqNvi">
-                  <ref role="37wK5l" to="dxuu:~Icon.getIconHeight():int" resolve="getIconHeight" />
+                  <ref role="37wK5l" to="dxuu:~Icon.getIconHeight()" resolve="getIconHeight" />
                 </node>
               </node>
             </node>
@@ -2833,7 +2833,7 @@
                 <node concept="2OqwBi" id="2k6csr8nEAg" role="3clFbG">
                   <node concept="1Q80Hx" id="63oBH1IQcc2" role="2Oq$k0" />
                   <node concept="liA8E" id="2k6csr8nEKF" role="2OqNvi">
-                    <ref role="37wK5l" to="cj4x:~EditorContext.selectWRTFocusPolicy(org.jetbrains.mps.openapi.model.SNode):void" resolve="selectWRTFocusPolicy" />
+                    <ref role="37wK5l" to="cj4x:~EditorContext.selectWRTFocusPolicy(org.jetbrains.mps.openapi.model.SNode)" resolve="selectWRTFocusPolicy" />
                     <node concept="2OqwBi" id="4EPKw6tUA1j" role="37wK5m">
                       <node concept="2OqwBi" id="4EPKw6tUz2M" role="2Oq$k0">
                         <node concept="2OqwBi" id="2k6csr8nFjD" role="2Oq$k0">
@@ -3172,7 +3172,7 @@
                   <node concept="2OqwBi" id="348dMqpsimd" role="33vP2m">
                     <node concept="1GpqW3" id="348dMqpsime" role="2Oq$k0" />
                     <node concept="liA8E" id="348dMqpsimf" role="2OqNvi">
-                      <ref role="37wK5l" to="c17a:~SAbstractConcept.getQualifiedName():java.lang.String" resolve="getQualifiedName" />
+                      <ref role="37wK5l" to="c17a:~SAbstractConcept.getQualifiedName()" resolve="getQualifiedName" />
                     </node>
                   </node>
                 </node>
@@ -3201,11 +3201,11 @@
                       <node concept="2yIwOk" id="348dMqppsX8" role="2OqNvi" />
                     </node>
                     <node concept="liA8E" id="348dMqppvIN" role="2OqNvi">
-                      <ref role="37wK5l" to="c17a:~SAbstractConcept.getName():java.lang.String" resolve="getName" />
+                      <ref role="37wK5l" to="c17a:~SAbstractConcept.getName()" resolve="getName" />
                     </node>
                   </node>
                   <node concept="liA8E" id="348dMqppxCs" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                     <node concept="Xl_RD" id="348dMqppxCz" role="37wK5m">
                       <property role="Xl_RC" value="GraphPatternModule" />
                     </node>
@@ -3233,7 +3233,7 @@
                             <ref role="3cqZAo" node="348dMqpsimc" resolve="name" />
                           </node>
                           <node concept="liA8E" id="348dMqppFm$" role="2OqNvi">
-                            <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String):boolean" resolve="startsWith" />
+                            <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String)" resolve="startsWith" />
                             <node concept="Xl_RD" id="348dMqppFm_" role="37wK5m">
                               <property role="Xl_RC" value="org.inca.fun" />
                             </node>
@@ -3317,7 +3317,7 @@
                   <node concept="2OqwBi" id="7Hdi_qc2moe" role="33vP2m">
                     <node concept="1GpqW3" id="7Hdi_qc2mof" role="2Oq$k0" />
                     <node concept="liA8E" id="7Hdi_qc2mog" role="2OqNvi">
-                      <ref role="37wK5l" to="c17a:~SAbstractConcept.getQualifiedName():java.lang.String" resolve="getQualifiedName" />
+                      <ref role="37wK5l" to="c17a:~SAbstractConcept.getQualifiedName()" resolve="getQualifiedName" />
                     </node>
                   </node>
                 </node>
@@ -3346,11 +3346,11 @@
                       <node concept="2yIwOk" id="7Hdi_qc2mot" role="2OqNvi" />
                     </node>
                     <node concept="liA8E" id="7Hdi_qc2mou" role="2OqNvi">
-                      <ref role="37wK5l" to="c17a:~SAbstractConcept.getName():java.lang.String" resolve="getName" />
+                      <ref role="37wK5l" to="c17a:~SAbstractConcept.getName()" resolve="getName" />
                     </node>
                   </node>
                   <node concept="liA8E" id="7Hdi_qc2mov" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                     <node concept="Xl_RD" id="7Hdi_qc2mow" role="37wK5m">
                       <property role="Xl_RC" value="GraphPatternModule" />
                     </node>
@@ -3371,7 +3371,7 @@
                               <ref role="3cqZAo" node="7Hdi_qc2moc" resolve="name" />
                             </node>
                             <node concept="liA8E" id="7Hdi_qc2moH" role="2OqNvi">
-                              <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String):boolean" resolve="startsWith" />
+                              <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String)" resolve="startsWith" />
                               <node concept="Xl_RD" id="7Hdi_qc2moI" role="37wK5m">
                                 <property role="Xl_RC" value="org.inca.fun" />
                               </node>
@@ -3382,7 +3382,7 @@
                               <ref role="3cqZAo" node="7Hdi_qc2moc" resolve="name" />
                             </node>
                             <node concept="liA8E" id="16Zc08$bPP8" role="2OqNvi">
-                              <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String):boolean" resolve="startsWith" />
+                              <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String)" resolve="startsWith" />
                               <node concept="Xl_RD" id="16Zc08$bPP9" role="37wK5m">
                                 <property role="Xl_RC" value="org.inca.extensions" />
                               </node>
@@ -3516,11 +3516,11 @@
                             </node>
                           </node>
                           <node concept="liA8E" id="SSjGGIioyc" role="2OqNvi">
-                            <ref role="37wK5l" to="mhbf:~SModel.getName():org.jetbrains.mps.openapi.model.SModelName" resolve="getName" />
+                            <ref role="37wK5l" to="mhbf:~SModel.getName()" resolve="getName" />
                           </node>
                         </node>
                         <node concept="liA8E" id="SSjGGIipl2" role="2OqNvi">
-                          <ref role="37wK5l" to="mhbf:~SModelName.getLongName():java.lang.String" resolve="getLongName" />
+                          <ref role="37wK5l" to="mhbf:~SModelName.getLongName()" resolve="getLongName" />
                         </node>
                       </node>
                     </node>
@@ -3818,7 +3818,7 @@
                 <ref role="3cqZAo" node="hLuQ$Yf3C1" resolve="context" />
               </node>
               <node concept="liA8E" id="hLuQ$Yf3Ch" role="2OqNvi">
-                <ref role="37wK5l" to="cj4x:~EditorContext.getSelectedNode():org.jetbrains.mps.openapi.model.SNode" resolve="getSelectedNode" />
+                <ref role="37wK5l" to="cj4x:~EditorContext.getSelectedNode()" resolve="getSelectedNode" />
               </node>
             </node>
           </node>

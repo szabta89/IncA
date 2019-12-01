@@ -270,15 +270,15 @@
                 <node concept="2OqwBi" id="4wNWMNAi7LW" role="2Oq$k0">
                   <node concept="1XNTG" id="4wNWMNAi7LX" role="2Oq$k0" />
                   <node concept="liA8E" id="4wNWMNAi7LY" role="2OqNvi">
-                    <ref role="37wK5l" to="cj4x:~EditorContext.getOperationContext():jetbrains.mps.smodel.IOperationContext" resolve="getOperationContext" />
+                    <ref role="37wK5l" to="cj4x:~EditorContext.getOperationContext()" resolve="getOperationContext" />
                   </node>
                 </node>
                 <node concept="liA8E" id="4wNWMNAi7LZ" role="2OqNvi">
-                  <ref role="37wK5l" to="w1kc:~IOperationContext.getProject():jetbrains.mps.project.Project" resolve="getProject" />
+                  <ref role="37wK5l" to="w1kc:~IOperationContext.getProject()" resolve="getProject" />
                 </node>
               </node>
               <node concept="liA8E" id="4wNWMNAih4w" role="2OqNvi">
-                <ref role="37wK5l" to="z1c3:~Project.getComponent(java.lang.Class):java.lang.Object" resolve="getComponent" />
+                <ref role="37wK5l" to="z1c3:~Project.getComponent(java.lang.Class)" resolve="getComponent" />
                 <node concept="3VsKOn" id="4wNWMNAihmF" role="37wK5m">
                   <ref role="3VsUkX" to="z1c4:~MPSProject" resolve="MPSProject" />
                 </node>
@@ -313,7 +313,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="4wNWMNAidfN" role="2OqNvi">
-                <ref role="37wK5l" to="mhbf:~SModel.getModule():org.jetbrains.mps.openapi.module.SModule" resolve="getModule" />
+                <ref role="37wK5l" to="mhbf:~SModel.getModule()" resolve="getModule" />
               </node>
             </node>
           </node>

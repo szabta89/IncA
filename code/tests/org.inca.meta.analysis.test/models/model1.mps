@@ -465,7 +465,7 @@
             <ref role="2ZRyFH" node="7VDQWeb34MO" resolve="Exact" />
             <node concept="2YIFZM" id="7VDQWebeoCy" role="2ZRyFy">
               <ref role="1Pybhc" to="3o3z:~ImmutableSet" resolve="ImmutableSet" />
-              <ref role="37wK5l" to="3o3z:~ImmutableSet.of():com.google.common.collect.ImmutableSet" resolve="of" />
+              <ref role="37wK5l" to="3o3z:~ImmutableSet.of()" resolve="of" />
               <node concept="3Tqbb2" id="7VDQWebeqLp" role="3PaCim">
                 <ref role="ehGHo" to="tpck:gw2VY9q" resolve="BaseConcept" />
               </node>
@@ -600,7 +600,7 @@
                     <ref role="3cqZAo" node="7VDQWeb6Vjj" resolve="v2" />
                   </node>
                   <node concept="liA8E" id="oNpFNoHuju" role="2OqNvi">
-                    <ref role="37wK5l" to="33ny:~Set.containsAll(java.util.Collection):boolean" resolve="containsAll" />
+                    <ref role="37wK5l" to="33ny:~Set.containsAll(java.util.Collection)" resolve="containsAll" />
                     <node concept="37vLTw" id="1FxBGu9sM3B" role="37wK5m">
                       <ref role="3cqZAo" node="7VDQWeb6v7J" resolve="v1" />
                     </node>
@@ -916,7 +916,7 @@
               <ref role="3cqZAo" node="7VDQWebfRQ3" resolve="result" />
             </node>
             <node concept="liA8E" id="7VDQWebfRQc" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~Set.addAll(java.util.Collection):boolean" resolve="addAll" />
+              <ref role="37wK5l" to="33ny:~Set.addAll(java.util.Collection)" resolve="addAll" />
               <node concept="37vLTw" id="7VDQWebfWly" role="37wK5m">
                 <ref role="3cqZAo" node="7VDQWebfPiO" resolve="s1" />
               </node>
@@ -929,7 +929,7 @@
               <ref role="3cqZAo" node="7VDQWebfRQ3" resolve="result" />
             </node>
             <node concept="liA8E" id="7VDQWebfRQh" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~Set.addAll(java.util.Collection):boolean" resolve="addAll" />
+              <ref role="37wK5l" to="33ny:~Set.addAll(java.util.Collection)" resolve="addAll" />
               <node concept="37vLTw" id="7VDQWebfY07" role="37wK5m">
                 <ref role="3cqZAo" node="7VDQWebfQki" resolve="s2" />
               </node>
@@ -997,7 +997,7 @@
               <ref role="3cqZAo" node="7VDQWebg0fe" resolve="result" />
             </node>
             <node concept="liA8E" id="7VDQWebg0fn" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~Set.addAll(java.util.Collection):boolean" resolve="addAll" />
+              <ref role="37wK5l" to="33ny:~Set.addAll(java.util.Collection)" resolve="addAll" />
               <node concept="37vLTw" id="7VDQWebg0fo" role="37wK5m">
                 <ref role="3cqZAo" node="7VDQWebg0fw" resolve="s1" />
               </node>
@@ -1010,7 +1010,7 @@
               <ref role="3cqZAo" node="7VDQWebg0fe" resolve="result" />
             </node>
             <node concept="liA8E" id="7VDQWebg0fs" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~Set.retainAll(java.util.Collection):boolean" resolve="retainAll" />
+              <ref role="37wK5l" to="33ny:~Set.retainAll(java.util.Collection)" resolve="retainAll" />
               <node concept="37vLTw" id="7VDQWebg0ft" role="37wK5m">
                 <ref role="3cqZAo" node="7VDQWebg0fz" resolve="s2" />
               </node>

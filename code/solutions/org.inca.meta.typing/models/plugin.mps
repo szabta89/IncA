@@ -6,7 +6,7 @@
     <use id="e6d2ffd5-9c56-41f8-99ac-9d1ceb13daa2" name="org.inca.data" version="2" />
     <use id="8c9a2720-9d21-4370-a226-819eb3e76e1e" name="org.inca.fun" version="0" />
     <use id="3a1c1f85-c745-4d04-a210-f97a7e31f9cc" name="org.inca.extensions" version="0" />
-    <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="0" />
+    <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="1" />
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="1" />
     <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
@@ -8104,18 +8104,18 @@
                         <ref role="3cqZAo" node="56F00UuK3Sm" resolve="map" />
                       </node>
                       <node concept="liA8E" id="56F00UuK6GC" role="2OqNvi">
-                        <ref role="37wK5l" to="l0z0:~SetMultimap.get(java.lang.Object):io.usethesource.capsule.Set$Immutable" resolve="get" />
+                        <ref role="37wK5l" to="l0z0:~SetMultimap.get(java.lang.Object)" resolve="get" />
                         <node concept="37vLTw" id="56F00UuK74B" role="37wK5m">
                           <ref role="3cqZAo" node="56F00UuK3PE" resolve="i" />
                         </node>
                       </node>
                     </node>
                     <node concept="liA8E" id="56F00UuKaa0" role="2OqNvi">
-                      <ref role="37wK5l" to="l0z0:~Set.findFirst():java.util.Optional" resolve="findFirst" />
+                      <ref role="37wK5l" to="l0z0:~Set.findFirst()" resolve="findFirst" />
                     </node>
                   </node>
                   <node concept="liA8E" id="56F00UuRemA" role="2OqNvi">
-                    <ref role="37wK5l" to="33ny:~Optional.orElse(java.lang.Object):java.lang.Object" resolve="orElse" />
+                    <ref role="37wK5l" to="33ny:~Optional.orElse(java.lang.Object)" resolve="orElse" />
                     <node concept="2ZRyFJ" id="56F00UuReLd" role="37wK5m">
                       <ref role="2ZRyFH" node="16Zc08ry7sR" resolve="NoType" />
                     </node>

@@ -493,7 +493,7 @@
                     <ref role="355D3u" to="hqsm:5mId_SEJSJW" resolve="index" />
                   </node>
                   <node concept="liA8E" id="5mId_SELJ6R" role="2OqNvi">
-                    <ref role="37wK5l" to="c17a:~SProperty.getDeclarationNode():org.jetbrains.mps.openapi.model.SNode" resolve="getDeclarationNode" />
+                    <ref role="37wK5l" to="c17a:~SProperty.getDeclarationNode()" resolve="getDeclarationNode" />
                   </node>
                 </node>
               </node>

@@ -1385,7 +1385,7 @@
                     </node>
                   </node>
                   <node concept="liA8E" id="16Zc08zPIIi" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.split(java.lang.String):java.lang.String[]" resolve="split" />
+                    <ref role="37wK5l" to="wyt6:~String.split(java.lang.String)" resolve="split" />
                     <node concept="Xl_RD" id="16Zc08zPJ6A" role="37wK5m">
                       <property role="Xl_RC" value="$" />
                     </node>

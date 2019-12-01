@@ -145,7 +145,7 @@
             </node>
             <node concept="2YIFZM" id="1oQbVc7enod" role="3uHU7B">
               <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
-              <ref role="37wK5l" to="wyt6:~Math.random():double" resolve="random" />
+              <ref role="37wK5l" to="wyt6:~Math.random()" resolve="random" />
             </node>
           </node>
           <node concept="9aQIb" id="1oQbVc7enoe" role="9aQIa">
@@ -172,13 +172,13 @@
               <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
             </node>
             <node concept="liA8E" id="1oQbVc7enoo" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
               <node concept="2OqwBi" id="1oQbVc7enop" role="37wK5m">
                 <node concept="37vLTw" id="1oQbVc7enoq" role="2Oq$k0">
                   <ref role="3cqZAo" node="1oQbVc7eno0" resolve="var1" />
                 </node>
                 <node concept="liA8E" id="1oQbVc7enor" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Object.toString():java.lang.String" resolve="toString" />
+                  <ref role="37wK5l" to="wyt6:~Object.toString()" resolve="toString" />
                 </node>
               </node>
             </node>
@@ -191,13 +191,13 @@
               <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
             </node>
             <node concept="liA8E" id="1oQbVc7enov" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
               <node concept="2OqwBi" id="1oQbVc7enow" role="37wK5m">
                 <node concept="37vLTw" id="1oQbVc7enox" role="2Oq$k0">
                   <ref role="3cqZAo" node="1oQbVc7eno3" resolve="var2" />
                 </node>
                 <node concept="liA8E" id="1oQbVc7enoy" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Object.toString():java.lang.String" resolve="toString" />
+                  <ref role="37wK5l" to="wyt6:~Object.toString()" resolve="toString" />
                 </node>
               </node>
             </node>

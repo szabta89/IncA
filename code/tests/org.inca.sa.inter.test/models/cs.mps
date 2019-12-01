@@ -247,7 +247,7 @@
       <concept id="996292992025672789" name="org.inca.core.structure.ConceptReferenceType" flags="ng" index="2kdjtB">
         <reference id="7241148409041409499" name="concept" index="2UGuZ7" />
       </concept>
-      <concept id="3798692733285425690" name="org.inca.core.structure.NonScatteredSeqTimelyKind" flags="ng" index="mS$zK" />
+      <concept id="3798692733285425690" name="org.inca.core.structure.TimelySequentialKind" flags="ng" index="mS$zK" />
       <concept id="3798692733285372749" name="org.inca.core.structure.BackendOption" flags="ng" index="mSFAB">
         <child id="3798692733285425707" name="kind" index="mS$z1" />
       </concept>
@@ -2881,7 +2881,7 @@
           <node concept="2ZRyFJ" id="2uqO6hpXsmf" role="3cqZAk">
             <ref role="2ZRyFH" node="6VTZ7c64qmy" resolve="E" />
             <node concept="2YIFZM" id="2uqO6hpXtaQ" role="2ZRyFy">
-              <ref role="37wK5l" to="l0z0:~Map$Immutable.of():io.usethesource.capsule.Map$Immutable" resolve="of" />
+              <ref role="37wK5l" to="l0z0:~Map$Immutable.of()" resolve="of" />
               <ref role="1Pybhc" to="l0z0:~Map$Immutable" resolve="Map.Immutable" />
               <node concept="3uibUv" id="2uqO6hpXtSS" role="3PaCim">
                 <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
@@ -2986,7 +2986,7 @@
                           <ref role="3cqZAo" node="7qtWaR7psee" resolve="re" />
                         </node>
                         <node concept="liA8E" id="2hR54KDU9Mq" role="2OqNvi">
-                          <ref role="37wK5l" to="l0z0:~Map.size():int" resolve="size" />
+                          <ref role="37wK5l" to="l0z0:~Map.size()" resolve="size" />
                         </node>
                       </node>
                       <node concept="2OqwBi" id="2hR54KDU3YF" role="3uHU7B">
@@ -2994,7 +2994,7 @@
                           <ref role="3cqZAo" node="7qtWaR7pseb" resolve="le" />
                         </node>
                         <node concept="liA8E" id="2hR54KDU58g" role="2OqNvi">
-                          <ref role="37wK5l" to="l0z0:~Map.size():int" resolve="size" />
+                          <ref role="37wK5l" to="l0z0:~Map.size()" resolve="size" />
                         </node>
                       </node>
                     </node>
@@ -3013,7 +3013,7 @@
                     <ref role="3cqZAo" node="7qtWaR7pseb" resolve="le" />
                   </node>
                   <node concept="liA8E" id="2uqO6hpXzZw" role="2OqNvi">
-                    <ref role="37wK5l" to="33ny:~Map.keySet():java.util.Set" resolve="keySet" />
+                    <ref role="37wK5l" to="33ny:~Map.keySet()" resolve="keySet" />
                   </node>
                 </node>
                 <node concept="3clFbS" id="2uqO6hpXy7U" role="2LFqv$">
@@ -3032,7 +3032,7 @@
                             <ref role="3cqZAo" node="7qtWaR7psee" resolve="re" />
                           </node>
                           <node concept="liA8E" id="2uqO6hpXCbF" role="2OqNvi">
-                            <ref role="37wK5l" to="l0z0:~Map.containsKey(java.lang.Object):boolean" resolve="containsKey" />
+                            <ref role="37wK5l" to="l0z0:~Map.containsKey(java.lang.Object)" resolve="containsKey" />
                             <node concept="2GrUjf" id="2uqO6hpXCbG" role="37wK5m">
                               <ref role="2Gs0qQ" node="2uqO6hpXy7Q" resolve="lek" />
                             </node>
@@ -3051,7 +3051,7 @@
                                 <ref role="3cqZAo" node="7qtWaR7pseb" resolve="le" />
                               </node>
                               <node concept="liA8E" id="2uqO6hpXHFS" role="2OqNvi">
-                                <ref role="37wK5l" to="l0z0:~Map.get(java.lang.Object):java.lang.Object" resolve="get" />
+                                <ref role="37wK5l" to="l0z0:~Map.get(java.lang.Object)" resolve="get" />
                                 <node concept="2GrUjf" id="2uqO6hpXIbx" role="37wK5m">
                                   <ref role="2Gs0qQ" node="2uqO6hpXy7Q" resolve="lek" />
                                 </node>
@@ -3062,7 +3062,7 @@
                                 <ref role="3cqZAo" node="7qtWaR7psee" resolve="re" />
                               </node>
                               <node concept="liA8E" id="2hR54KDTY9N" role="2OqNvi">
-                                <ref role="37wK5l" to="l0z0:~Map.get(java.lang.Object):java.lang.Object" resolve="get" />
+                                <ref role="37wK5l" to="l0z0:~Map.get(java.lang.Object)" resolve="get" />
                                 <node concept="2GrUjf" id="2hR54KDTY9O" role="37wK5m">
                                   <ref role="2Gs0qQ" node="2uqO6hpXy7Q" resolve="lek" />
                                 </node>
@@ -3184,7 +3184,7 @@
                       <ref role="3cqZAo" node="7qtWaR7pwWb" resolve="le" />
                     </node>
                     <node concept="liA8E" id="2uqO6hpXZ16" role="2OqNvi">
-                      <ref role="37wK5l" to="l0z0:~Map$Immutable.__putAll(java.util.Map):io.usethesource.capsule.Map$Immutable" resolve="__putAll" />
+                      <ref role="37wK5l" to="l0z0:~Map$Immutable.__putAll(java.util.Map)" resolve="__putAll" />
                       <node concept="37vLTw" id="2uqO6hpXZ17" role="37wK5m">
                         <ref role="3cqZAo" node="7qtWaR7pwWe" resolve="re" />
                       </node>
@@ -3263,7 +3263,7 @@
             <ref role="2ZRyFH" node="6VTZ7c64qmy" resolve="E" />
             <node concept="2YIFZM" id="2uqO6hpYkuJ" role="2ZRyFy">
               <ref role="1Pybhc" to="l0z0:~Map$Immutable" resolve="Map.Immutable" />
-              <ref role="37wK5l" to="l0z0:~Map$Immutable.of(java.lang.Object,java.lang.Object):io.usethesource.capsule.Map$Immutable" resolve="of" />
+              <ref role="37wK5l" to="l0z0:~Map$Immutable.of(java.lang.Object,java.lang.Object)" resolve="of" />
               <node concept="3uibUv" id="2uqO6hpYkuK" role="3PaCim">
                 <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
               </node>
@@ -3495,7 +3495,7 @@
             </node>
           </node>
           <node concept="2YIFZM" id="2hR54KDSVYO" role="3clFbw">
-            <ref role="37wK5l" to="33ny:~Objects.equals(java.lang.Object,java.lang.Object):boolean" resolve="equals" />
+            <ref role="37wK5l" to="33ny:~Objects.equals(java.lang.Object,java.lang.Object)" resolve="equals" />
             <ref role="1Pybhc" to="33ny:~Objects" resolve="Objects" />
             <node concept="37vLTw" id="2hR54KDSVZf" role="37wK5m">
               <ref role="3cqZAo" node="2hR54KDSVTP" resolve="sub" />
@@ -5512,7 +5512,7 @@
               <node concept="3cpWs6" id="oNpFNoLnky" role="3cqZAp">
                 <node concept="2YIFZM" id="oNpFNoLnkz" role="3cqZAk">
                   <ref role="1Pybhc" to="33ny:~Objects" resolve="Objects" />
-                  <ref role="37wK5l" to="33ny:~Objects.equals(java.lang.Object,java.lang.Object):boolean" resolve="equals" />
+                  <ref role="37wK5l" to="33ny:~Objects.equals(java.lang.Object,java.lang.Object)" resolve="equals" />
                   <node concept="37vLTw" id="1FxBGu9sM4C" role="37wK5m">
                     <ref role="3cqZAo" node="NYUli09ybl" resolve="le" />
                   </node>
@@ -5623,7 +5623,7 @@
                 </node>
                 <node concept="2YIFZM" id="6bQC5MJv$dT" role="3clFbw">
                   <ref role="1Pybhc" to="33ny:~Objects" resolve="Objects" />
-                  <ref role="37wK5l" to="33ny:~Objects.equals(java.lang.Object,java.lang.Object):boolean" resolve="equals" />
+                  <ref role="37wK5l" to="33ny:~Objects.equals(java.lang.Object,java.lang.Object)" resolve="equals" />
                   <node concept="37vLTw" id="1FxBGu9sM4E" role="37wK5m">
                     <ref role="3cqZAo" node="NYUli09ybF" resolve="le" />
                   </node>
@@ -5752,7 +5752,7 @@
                 </node>
                 <node concept="2YIFZM" id="6bQC5MJvAaX" role="3clFbw">
                   <ref role="1Pybhc" to="33ny:~Objects" resolve="Objects" />
-                  <ref role="37wK5l" to="33ny:~Objects.equals(java.lang.Object,java.lang.Object):boolean" resolve="equals" />
+                  <ref role="37wK5l" to="33ny:~Objects.equals(java.lang.Object,java.lang.Object)" resolve="equals" />
                   <node concept="37vLTw" id="1FxBGu9sM4G" role="37wK5m">
                     <ref role="3cqZAo" node="7qtWaR7pyAT" resolve="le" />
                   </node>

@@ -1006,7 +1006,7 @@
                               <node concept="2yIwOk" id="4wicJwLtl83" role="2OqNvi" />
                             </node>
                             <node concept="liA8E" id="4wicJwLtl84" role="2OqNvi">
-                              <ref role="37wK5l" to="c17a:~SAbstractConcept.getName():java.lang.String" resolve="getName" />
+                              <ref role="37wK5l" to="c17a:~SAbstractConcept.getName()" resolve="getName" />
                             </node>
                           </node>
                         </node>
@@ -1175,7 +1175,7 @@
                                     <node concept="2yIwOk" id="4wicJwLtl99" role="2OqNvi" />
                                   </node>
                                   <node concept="liA8E" id="4wicJwLtl9a" role="2OqNvi">
-                                    <ref role="37wK5l" to="c17a:~SAbstractConcept.getName():java.lang.String" resolve="getName" />
+                                    <ref role="37wK5l" to="c17a:~SAbstractConcept.getName()" resolve="getName" />
                                   </node>
                                 </node>
                               </node>

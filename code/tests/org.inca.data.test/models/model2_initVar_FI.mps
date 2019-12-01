@@ -170,7 +170,7 @@
                   <property role="$nhwW" value="0.5" />
                 </node>
                 <node concept="2YIFZM" id="4MFObXfcD7f" role="3uHU7B">
-                  <ref role="37wK5l" to="wyt6:~Math.random():double" resolve="random" />
+                  <ref role="37wK5l" to="wyt6:~Math.random()" resolve="random" />
                   <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
                 </node>
               </node>
@@ -209,7 +209,7 @@
               <property role="$nhwW" value="0.5" />
             </node>
             <node concept="2YIFZM" id="4MFObXfc_DV" role="3uHU7B">
-              <ref role="37wK5l" to="wyt6:~Math.random():double" resolve="random" />
+              <ref role="37wK5l" to="wyt6:~Math.random()" resolve="random" />
               <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
             </node>
           </node>
@@ -221,14 +221,14 @@
               <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
             </node>
             <node concept="liA8E" id="1IhOgo0XAsp" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
               <node concept="3cpWs3" id="4MFObXfcBSf" role="37wK5m">
                 <node concept="2OqwBi" id="4MFObXfcCNK" role="3uHU7w">
                   <node concept="37vLTw" id="4MFObXfcCbL" role="2Oq$k0">
                     <ref role="3cqZAo" node="4MFObXfcAfv" resolve="var3" />
                   </node>
                   <node concept="liA8E" id="4MFObXfcCVr" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~Object.toString():java.lang.String" resolve="toString" />
+                    <ref role="37wK5l" to="wyt6:~Object.toString()" resolve="toString" />
                   </node>
                 </node>
                 <node concept="3cpWs3" id="4MFObXfcB4p" role="3uHU7B">
@@ -241,7 +241,7 @@
                         <ref role="3cqZAo" node="7D3SmK7icec" resolve="var1" />
                       </node>
                       <node concept="liA8E" id="4MFObXfcCtW" role="2OqNvi">
-                        <ref role="37wK5l" to="wyt6:~Object.toString():java.lang.String" resolve="toString" />
+                        <ref role="37wK5l" to="wyt6:~Object.toString()" resolve="toString" />
                       </node>
                     </node>
                   </node>
@@ -250,7 +250,7 @@
                       <ref role="3cqZAo" node="1IhOgo0XA5F" resolve="var2" />
                     </node>
                     <node concept="liA8E" id="4MFObXfcCGq" role="2OqNvi">
-                      <ref role="37wK5l" to="wyt6:~Object.toString():java.lang.String" resolve="toString" />
+                      <ref role="37wK5l" to="wyt6:~Object.toString()" resolve="toString" />
                     </node>
                   </node>
                 </node>

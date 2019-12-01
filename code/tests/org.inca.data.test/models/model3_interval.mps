@@ -154,7 +154,7 @@
               <property role="$nhwW" value="0.5" />
             </node>
             <node concept="2YIFZM" id="7VX7NcWtLbr" role="3uHU7B">
-              <ref role="37wK5l" to="wyt6:~Math.random():double" resolve="random" />
+              <ref role="37wK5l" to="wyt6:~Math.random()" resolve="random" />
               <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
             </node>
           </node>

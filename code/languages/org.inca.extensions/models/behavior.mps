@@ -541,7 +541,7 @@
                         <ref role="3cqZAo" node="7Hs6JnX07wC" resolve="result" />
                       </node>
                       <node concept="liA8E" id="7Hs6JnX0gP7" role="2OqNvi">
-                        <ref role="37wK5l" to="33ny:~List.add(java.lang.Object):boolean" resolve="add" />
+                        <ref role="37wK5l" to="33ny:~List.add(java.lang.Object)" resolve="add" />
                         <node concept="37vLTw" id="16Zc08qEjWK" role="37wK5m">
                           <ref role="3cqZAo" node="16Zc08qEjWE" resolve="last" />
                         </node>
@@ -1590,7 +1590,7 @@
       <node concept="3clFbS" id="6k2In$Gt7XA" role="3clF47">
         <node concept="3cpWs6" id="6k2In$Gt7XT" role="3cqZAp">
           <node concept="2YIFZM" id="6k2In$Gt9Ew" role="3cqZAk">
-            <ref role="37wK5l" to="33ny:~Collections.singletonList(java.lang.Object):java.util.List" resolve="singletonList" />
+            <ref role="37wK5l" to="33ny:~Collections.singletonList(java.lang.Object)" resolve="singletonList" />
             <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
             <node concept="2OqwBi" id="6k2In$Gt9Ex" role="37wK5m">
               <node concept="13iPFW" id="6k2In$Gt9Ey" role="2Oq$k0" />
@@ -2002,7 +2002,7 @@
         <node concept="3cpWs6" id="Tz5AFeEZ_4" role="3cqZAp">
           <node concept="2YIFZM" id="Tz5AFeEZA4" role="3cqZAk">
             <ref role="1Pybhc" to="3o3z:~Sets" resolve="Sets" />
-            <ref role="37wK5l" to="3o3z:~Sets.newHashSet(java.lang.Object...):java.util.HashSet" resolve="newHashSet" />
+            <ref role="37wK5l" to="3o3z:~Sets.newHashSet(java.lang.Object...)" resolve="newHashSet" />
             <node concept="2OqwBi" id="2RSm1Cz_Eo3" role="37wK5m">
               <node concept="FGMqu" id="2RSm1Cz_F2g" role="2OqNvi" />
               <node concept="35c_gC" id="2RSm1Cz_DF4" role="2Oq$k0">
@@ -2035,7 +2035,7 @@
       <node concept="3clFbS" id="6k2In$GRFSS" role="3clF47">
         <node concept="3cpWs6" id="6k2In$GRG1s" role="3cqZAp">
           <node concept="2YIFZM" id="6k2In$GRG1t" role="3cqZAk">
-            <ref role="37wK5l" to="33ny:~Collections.singletonList(java.lang.Object):java.util.List" resolve="singletonList" />
+            <ref role="37wK5l" to="33ny:~Collections.singletonList(java.lang.Object)" resolve="singletonList" />
             <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
             <node concept="2pJPEk" id="6k2In$GRG1u" role="37wK5m">
               <node concept="2pJPED" id="6k2In$GRG1v" role="2pJPEn">
@@ -2091,7 +2091,7 @@
         <node concept="3cpWs6" id="6k2In$GRGJW" role="3cqZAp">
           <node concept="2YIFZM" id="6k2In$GRGJX" role="3cqZAk">
             <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
-            <ref role="37wK5l" to="33ny:~Collections.singletonList(java.lang.Object):java.util.List" resolve="singletonList" />
+            <ref role="37wK5l" to="33ny:~Collections.singletonList(java.lang.Object)" resolve="singletonList" />
             <node concept="2OqwBi" id="6k2In$GRGJY" role="37wK5m">
               <node concept="2OqwBi" id="6k2In$GRGJZ" role="2Oq$k0">
                 <node concept="13iPFW" id="6k2In$GRGK0" role="2Oq$k0" />

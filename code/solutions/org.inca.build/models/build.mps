@@ -202,7 +202,7 @@
       </concept>
     </language>
   </registry>
-  <node concept="1l3spW" id="3AVJcIMlF8l">
+  <node concept="1l3spW" id="3AVJcIMlF8d">
     <property role="TrG5h" value="org.inca.build" />
     <property role="2DA0ip" value="../../../build/code" />
     <node concept="398rNT" id="3AVJcIMlF8u" role="1l3spd">
@@ -214,7 +214,7 @@
             <property role="2Ry0Am" value=".." />
             <node concept="2Ry0Ak" id="5AjJsRxpYyg" role="2Ry0An">
               <property role="2Ry0Am" value="build" />
-              <node concept="2Ry0Ak" id="5AjJsRxpYOg" role="2Ry0An">
+              <node concept="2Ry0Ak" id="2zd8iRaQR$z" role="2Ry0An">
                 <property role="2Ry0Am" value="mps" />
               </node>
             </node>
@@ -971,12 +971,6 @@
             <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
           </node>
         </node>
-        <node concept="1SiIV0" id="2aRidVugeqy" role="3bR37C">
-          <node concept="3bR9La" id="2aRidVugeqz" role="1SiIV1">
-            <property role="3bR36h" value="true" />
-            <ref role="3bR37D" to="al5i:5fGcQI947Ca" resolve="com.mbeddr.mpsutil.common" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="2Yoto85RRaB" role="3bR37C">
           <node concept="3bR9La" id="2Yoto85RRaC" role="1SiIV1">
             <property role="3bR36h" value="true" />
@@ -1023,6 +1017,12 @@
           <node concept="3bR9La" id="7w$jYjckyfb" role="1SiIV1">
             <property role="3bR36h" value="true" />
             <ref role="3bR37D" node="6_du9upXijF" resolve="org.inca.fun.runtime" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7842gKEtc8e" role="3bR37C">
+          <node concept="3bR9La" id="7842gKEtc8f" role="1SiIV1">
+            <property role="3bR36h" value="true" />
+            <ref role="3bR37D" to="al5i:5fGcQI947Ca" resolve="com.mbeddr.mpsutil.common" />
           </node>
         </node>
       </node>
@@ -1240,11 +1240,6 @@
             <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
           </node>
         </node>
-        <node concept="1SiIV0" id="6_du9upXj49" role="3bR37C">
-          <node concept="3bR9La" id="6_du9upXj4a" role="1SiIV1">
-            <ref role="3bR37D" to="90a9:6SVXTgIejl1" resolve="de.itemis.mps.editor.celllayout.runtime" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="6_du9upXjuc" role="3bR37C">
           <node concept="3bR9La" id="6_du9upXjud" role="1SiIV1">
             <ref role="3bR37D" node="6_du9upXhPy" resolve="org.inca.styles" />
@@ -1398,6 +1393,11 @@
         <node concept="1SiIV0" id="7epptckmilK" role="3bR37C">
           <node concept="3bR9La" id="7epptckmilL" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2zd8iRaSfOY" role="3bR37C">
+          <node concept="3bR9La" id="2zd8iRaSfOZ" role="1SiIV1">
+            <ref role="3bR37D" to="90a9:6SVXTgIejl1" resolve="de.itemis.mps.editor.celllayout.runtime" />
           </node>
         </node>
       </node>
@@ -2123,6 +2123,12 @@
         <ref role="398BVh" node="6_du9upX9Mu" resolve="artifacts.platform" />
       </node>
     </node>
+    <node concept="2sgV4H" id="2zd8iRaSfdM" role="1l3spa">
+      <ref role="1l3spb" to="90a9:2Xjt3l56m0V" resolve="de.itemis.mps.extensions" />
+      <node concept="398BVA" id="2zd8iRaSfyG" role="2JcizS">
+        <ref role="398BVh" node="6_du9upX9Mu" resolve="artifacts.platform" />
+      </node>
+    </node>
     <node concept="2sgV4H" id="6Upu9aNyQso" role="1l3spa">
       <ref role="1l3spb" node="4GMBmWUHnV9" resolve="jetbrains.mps.ide.modelchecker.build" />
       <node concept="398BVA" id="6Upu9aNyQCl" role="2JcizS">
@@ -2206,7 +2212,7 @@
       </node>
     </node>
   </node>
-  <node concept="1l3spW" id="7eF9rfAnzRy">
+  <node concept="1l3spW" id="7eF9rfAnzRf">
     <property role="TrG5h" value="org.inca.build.tests" />
     <property role="2DA0ip" value="../../../build/test" />
     <property role="turDy" value="build.xml" />
@@ -2359,7 +2365,7 @@
       </node>
     </node>
     <node concept="2sgV4H" id="6RmoJr9td8z" role="1l3spa">
-      <ref role="1l3spb" node="3AVJcIMlF8l" resolve="org.inca.build" />
+      <ref role="1l3spb" node="3AVJcIMlF8d" resolve="org.inca.build" />
       <node concept="398BVA" id="6RmoJr9tddi" role="2JcizS">
         <ref role="398BVh" node="6_du9upXp4S" resolve="artifacts.inca" />
       </node>
@@ -2437,7 +2443,6 @@
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="org.inca.gp.test" />
         <property role="3LESm3" value="e5fc7033-815f-4531-ba62-77957e8a8405" />
-        <property role="2GAjPV" value="false" />
         <property role="aoJFB" value="sources and tests" />
         <node concept="398BVA" id="7hVsScEQJ_F" role="3LF7KH">
           <ref role="398BVh" node="5KnlHU5SczI" resolve="inca.code" />
@@ -2459,31 +2464,26 @@
         </node>
         <node concept="1SiIV0" id="6_du9upXquT" role="3bR37C">
           <node concept="3bR9La" id="6_du9upXquU" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
           </node>
         </node>
         <node concept="1SiIV0" id="6_du9upXquX" role="3bR37C">
           <node concept="3bR9La" id="6_du9upXquY" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:7Kfy9QB6L8K" resolve="jetbrains.mps.lang.plugin" />
           </node>
         </node>
         <node concept="1SiIV0" id="6_du9upXquZ" role="3bR37C">
           <node concept="3bR9La" id="6_du9upXqv0" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
           </node>
         </node>
         <node concept="1SiIV0" id="6_du9upXqv1" role="3bR37C">
           <node concept="3bR9La" id="6_du9upXqv2" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" node="6_du9upXhrc" resolve="org.inca.core" />
           </node>
         </node>
         <node concept="1SiIV0" id="2Yoto85RSf8" role="3bR37C">
           <node concept="3bR9La" id="2Yoto85RSf9" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" node="2Yoto85RQ7e" resolve="org.inca.core.runtime" />
           </node>
         </node>
@@ -2508,7 +2508,6 @@
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="org.inca.fun.test" />
         <property role="3LESm3" value="b12ccb4d-e67e-44e8-88d5-58b787b6ee1c" />
-        <property role="2GAjPV" value="false" />
         <property role="aoJFB" value="sources and tests" />
         <node concept="398BVA" id="2uBN8jW2TQ5" role="3LF7KH">
           <ref role="398BVh" node="5KnlHU5SczI" resolve="inca.code" />
@@ -2530,25 +2529,21 @@
         </node>
         <node concept="1SiIV0" id="2uBN8jW2TQb" role="3bR37C">
           <node concept="3bR9La" id="2uBN8jW2TQc" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
           </node>
         </node>
         <node concept="1SiIV0" id="2uBN8jW2TQf" role="3bR37C">
           <node concept="3bR9La" id="2uBN8jW2TQg" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
           </node>
         </node>
         <node concept="1SiIV0" id="2uBN8jW2TQh" role="3bR37C">
           <node concept="3bR9La" id="2uBN8jW2TQi" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" node="6_du9upXhrc" resolve="org.inca.core" />
           </node>
         </node>
         <node concept="1SiIV0" id="2uBN8jW2TQj" role="3bR37C">
           <node concept="3bR9La" id="2uBN8jW2TQk" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" node="2Yoto85RQ7e" resolve="org.inca.core.runtime" />
           </node>
         </node>
@@ -2570,19 +2565,16 @@
         </node>
         <node concept="1SiIV0" id="2uBN8jW2TV$" role="3bR37C">
           <node concept="3bR9La" id="2uBN8jW2TV_" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
           </node>
         </node>
         <node concept="1SiIV0" id="5_25IeHDtJ4" role="3bR37C">
           <node concept="3bR9La" id="5_25IeHDtJ5" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" node="6_du9upXhGz" resolve="org.inca.fun" />
           </node>
         </node>
         <node concept="1SiIV0" id="5_25IeHDtJ6" role="3bR37C">
           <node concept="3bR9La" id="5_25IeHDtJ7" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
           </node>
         </node>
@@ -2591,7 +2583,6 @@
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="org.inca.meta.analysis.test" />
         <property role="3LESm3" value="8a78cefd-befa-4057-950a-1f7a74ff66f3" />
-        <property role="2GAjPV" value="false" />
         <property role="aoJFB" value="sources and tests" />
         <node concept="398BVA" id="2xeWpQbNJoT" role="3LF7KH">
           <ref role="398BVh" node="5KnlHU5SczI" resolve="inca.code" />
@@ -2607,7 +2598,6 @@
         </node>
         <node concept="1SiIV0" id="2xeWpQbNJoX" role="3bR37C">
           <node concept="3bR9La" id="2xeWpQbNJoY" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
@@ -2629,31 +2619,26 @@
         </node>
         <node concept="1SiIV0" id="2xeWpQbNJp7" role="3bR37C">
           <node concept="3bR9La" id="2xeWpQbNJp8" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" node="6_du9upXhYK" resolve="org.inca.data" />
           </node>
         </node>
         <node concept="1SiIV0" id="2xeWpQbNJp9" role="3bR37C">
           <node concept="3bR9La" id="2xeWpQbNJpa" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
           </node>
         </node>
         <node concept="1SiIV0" id="2xeWpQbNJw9" role="3bR37C">
           <node concept="3bR9La" id="2xeWpQbNJwa" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" node="6_du9upXhGz" resolve="org.inca.fun" />
           </node>
         </node>
         <node concept="1SiIV0" id="2xeWpQbNJwb" role="3bR37C">
           <node concept="3bR9La" id="2xeWpQbNJwc" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
           </node>
         </node>
         <node concept="1SiIV0" id="2xeWpQbNJwd" role="3bR37C">
           <node concept="3bR9La" id="2xeWpQbNJwe" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" node="11w71Xmfzpd" resolve="org.inca.meta.analysis" />
           </node>
         </node>
@@ -2662,7 +2647,6 @@
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="org.inca.data.test" />
         <property role="3LESm3" value="6839772c-d6f1-4888-802e-6f3fba3a3fe3" />
-        <property role="2GAjPV" value="false" />
         <property role="aoJFB" value="sources and tests" />
         <node concept="398BVA" id="6_du9upXpAO" role="3LF7KH">
           <ref role="398BVh" node="5KnlHU5SczI" resolve="inca.code" />
@@ -2678,25 +2662,21 @@
         </node>
         <node concept="1SiIV0" id="6_du9upXpAS" role="3bR37C">
           <node concept="3bR9La" id="6_du9upXpAT" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
         <node concept="1SiIV0" id="6_du9upXqvz" role="3bR37C">
           <node concept="3bR9La" id="6_du9upXqv$" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
           </node>
         </node>
         <node concept="1SiIV0" id="6_du9upXqyL" role="3bR37C">
           <node concept="3bR9La" id="6_du9upXqyM" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" node="6_du9upXhrc" resolve="org.inca.core" />
           </node>
         </node>
         <node concept="1SiIV0" id="2Yoto85RSfO" role="3bR37C">
           <node concept="3bR9La" id="2Yoto85RSfP" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" node="2Yoto85RQ7e" resolve="org.inca.core.runtime" />
           </node>
         </node>
@@ -2718,31 +2698,26 @@
         </node>
         <node concept="1SiIV0" id="7wIK_Lll4uY" role="3bR37C">
           <node concept="3bR9La" id="7wIK_Lll4uZ" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
           </node>
         </node>
         <node concept="1SiIV0" id="6L3u4302woQ" role="3bR37C">
           <node concept="3bR9La" id="6L3u4302woR" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
           </node>
         </node>
         <node concept="1SiIV0" id="1TG$cdoxtkN" role="3bR37C">
           <node concept="3bR9La" id="1TG$cdoxtkO" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
           </node>
         </node>
         <node concept="1SiIV0" id="41RZVBdswFm" role="3bR37C">
           <node concept="3bR9La" id="41RZVBdswFn" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" node="7wIK_Lll4ym" resolve="org.inca.data.test.analyses" />
           </node>
         </node>
         <node concept="1SiIV0" id="41RZVBdsAHF" role="3bR37C">
           <node concept="3bR9La" id="41RZVBdsAHG" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" node="6_du9upXqgq" resolve="org.inca.data.test.lang" />
           </node>
         </node>
@@ -2751,7 +2726,6 @@
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="org.inca.data.test.analyses" />
         <property role="3LESm3" value="af8b7d6e-4138-4959-9106-3ad2fd47fb92" />
-        <property role="2GAjPV" value="false" />
         <property role="aoJFB" value="sources and tests" />
         <node concept="398BVA" id="7wIK_Lll4yn" role="3LF7KH">
           <ref role="398BVh" node="5KnlHU5SczI" resolve="inca.code" />
@@ -2767,19 +2741,16 @@
         </node>
         <node concept="1SiIV0" id="7wIK_Lll4yr" role="3bR37C">
           <node concept="3bR9La" id="7wIK_Lll4ys" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
         <node concept="1SiIV0" id="7wIK_Lll4yt" role="3bR37C">
           <node concept="3bR9La" id="7wIK_Lll4yu" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
           </node>
         </node>
         <node concept="1SiIV0" id="7wIK_Lll4yx" role="3bR37C">
           <node concept="3bR9La" id="7wIK_Lll4yy" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" node="6_du9upXhrc" resolve="org.inca.core" />
           </node>
         </node>
@@ -2801,7 +2772,6 @@
         </node>
         <node concept="1SiIV0" id="7wIK_Lll4yH" role="3bR37C">
           <node concept="3bR9La" id="7wIK_Lll4yI" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
           </node>
         </node>
@@ -2810,7 +2780,6 @@
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="org.inca.integration.generic.test" />
         <property role="3LESm3" value="49d08239-4bd2-4687-bcd6-5efd14bd6ee1" />
-        <property role="2GAjPV" value="false" />
         <property role="aoJFB" value="sources and tests" />
         <node concept="398BVA" id="41RZVBdswvH" role="3LF7KH">
           <ref role="398BVh" node="5KnlHU5SczI" resolve="inca.code" />
@@ -2826,13 +2795,11 @@
         </node>
         <node concept="1SiIV0" id="41RZVBdswvL" role="3bR37C">
           <node concept="3bR9La" id="41RZVBdswvM" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
         <node concept="1SiIV0" id="41RZVBdswvN" role="3bR37C">
           <node concept="3bR9La" id="41RZVBdswvO" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
           </node>
         </node>
@@ -2854,50 +2821,47 @@
         </node>
         <node concept="1SiIV0" id="41RZVBdswBL" role="3bR37C">
           <node concept="3bR9La" id="41RZVBdswBM" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
           </node>
         </node>
         <node concept="1SiIV0" id="41RZVBdswBN" role="3bR37C">
           <node concept="3bR9La" id="41RZVBdswBO" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" node="41RZVBdslO0" resolve="org.inca.integration.generic" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="41RZVBdswBP" role="3bR37C">
-          <node concept="3bR9La" id="41RZVBdswBQ" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="al5i:776vT$mQZbf" resolve="com.mbeddr.mpsutil.comparator" />
           </node>
         </node>
         <node concept="1SiIV0" id="41RZVBdswBR" role="3bR37C">
           <node concept="3bR9La" id="41RZVBdswBS" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:7Kfy9QB6L4X" resolve="jetbrains.mps.lang.editor" />
           </node>
         </node>
         <node concept="1SiIV0" id="41RZVBdswBT" role="3bR37C">
           <node concept="3bR9La" id="41RZVBdswBU" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
           </node>
         </node>
         <node concept="1SiIV0" id="41RZVBdswBV" role="3bR37C">
           <node concept="3bR9La" id="41RZVBdswBW" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:7Kfy9QB6LaO" resolve="jetbrains.mps.lang.structure" />
           </node>
         </node>
         <node concept="1SiIV0" id="41RZVBdswBX" role="3bR37C">
           <node concept="3bR9La" id="41RZVBdswBY" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" node="41RZVBdsmRS" resolve="org.inca.integration.generic.runtime" />
           </node>
         </node>
         <node concept="1SiIV0" id="5$KhXEqDPxd" role="3bR37C">
           <node concept="3bR9La" id="5$KhXEqDPxe" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:1TaHNgiIbJb" resolve="MPS.Platform" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2zd8iRaSzmF" role="3bR37C">
+          <node concept="3bR9La" id="2zd8iRaSzmG" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:ymnOULAU0H" resolve="jetbrains.mps.lang.test" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7842gKEtczf" role="3bR37C">
+          <node concept="3bR9La" id="7842gKEtczg" role="1SiIV1">
+            <ref role="3bR37D" to="al5i:776vT$mQZbf" resolve="com.mbeddr.mpsutil.comparator" />
           </node>
         </node>
       </node>
@@ -2905,7 +2869,6 @@
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="org.inca.data.test.lang" />
         <property role="3LESm3" value="9c179615-5b01-47d6-8747-de24f81c45dc" />
-        <property role="2GAjPV" value="false" />
         <node concept="398BVA" id="6_du9upXqqr" role="3LF7KH">
           <ref role="398BVh" node="5KnlHU5SczI" resolve="inca.code" />
           <node concept="2Ry0Ak" id="6_du9upXqrB" role="iGT6I">
@@ -2939,7 +2902,6 @@
         </node>
         <node concept="1SiIV0" id="1RSI$j$Ib1t" role="3bR37C">
           <node concept="3bR9La" id="1RSI$j$Ib1u" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
           </node>
         </node>
@@ -2953,7 +2915,6 @@
         </node>
         <node concept="1SiIV0" id="41RZVBdswG2" role="3bR37C">
           <node concept="3bR9La" id="41RZVBdswG3" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" node="7wIK_Lll4ym" resolve="org.inca.data.test.analyses" />
           </node>
         </node>
@@ -2962,7 +2923,6 @@
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="org.inca.integration.generic.test.lang" />
         <property role="3LESm3" value="56c69f56-bf8a-4272-8045-bd79b973b66c" />
-        <property role="2GAjPV" value="false" />
         <node concept="398BVA" id="41RZVBdsAx_" role="3LF7KH">
           <ref role="398BVh" node="5KnlHU5SczI" resolve="inca.code" />
           <node concept="2Ry0Ak" id="41RZVBdsAxA" role="iGT6I">
@@ -2999,14 +2959,12 @@
         </node>
         <node concept="1SiIV0" id="41RZVBdsAV9" role="3bR37C">
           <node concept="3bR9La" id="41RZVBdsAVa" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" node="41RZVBdslO0" resolve="org.inca.integration.generic" />
           </node>
         </node>
         <node concept="1yeLz9" id="41RZVBdsAVb" role="1TViLv">
           <property role="TrG5h" value="org.inca.integration.generic.test.lang#01" />
           <property role="3LESm3" value="4889ec17-8443-4e88-923d-e8c024566a92" />
-          <property role="2GAjPV" value="false" />
         </node>
       </node>
     </node>

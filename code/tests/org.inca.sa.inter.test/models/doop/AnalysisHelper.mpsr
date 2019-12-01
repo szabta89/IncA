@@ -76,7 +76,7 @@
         </node>
       </node>
       <node concept="2YIFZM" id="62kpGTi3YAF" role="33vP2m">
-        <ref role="37wK5l" to="l0z0:~Set$Immutable.of():io.usethesource.capsule.Set$Immutable" resolve="of" />
+        <ref role="37wK5l" to="l0z0:~Set$Immutable.of()" resolve="of" />
         <ref role="1Pybhc" to="l0z0:~Set$Immutable" resolve="Set.Immutable" />
       </node>
     </node>

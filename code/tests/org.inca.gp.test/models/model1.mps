@@ -429,7 +429,7 @@
               </node>
             </node>
             <node concept="2YIFZM" id="4gUX5LzYDa$" role="37vLTx">
-              <ref role="37wK5l" to="33ny:~Arrays.copyOf(char[],int):char[]" resolve="copyOf" />
+              <ref role="37wK5l" to="33ny:~Arrays.copyOf(char[],int)" resolve="copyOf" />
               <ref role="1Pybhc" to="33ny:~Arrays" resolve="Arrays" />
               <node concept="37vLTw" id="4gUX5LzYvF0" role="37wK5m">
                 <ref role="3cqZAo" node="4gUX5LzYvEQ" resolve="value" />
@@ -535,7 +535,7 @@
                       <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
                     </node>
                     <node concept="liA8E" id="5bWtNn1ncxD" role="2OqNvi">
-                      <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                      <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
                       <node concept="Xl_RD" id="5bWtNn1ncyJ" role="37wK5m">
                         <property role="Xl_RC" value="Logging" />
                       </node>

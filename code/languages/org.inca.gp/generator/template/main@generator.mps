@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="2" />
-    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="-1" />
+    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="1" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="-1" />
     <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
@@ -887,7 +887,7 @@
               </node>
             </node>
             <node concept="liA8E" id="2cknNXbDHHA" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~Set.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~Set.add(java.lang.Object)" resolve="add" />
               <node concept="35c_gC" id="2cknNXbDEGS" role="37wK5m">
                 <ref role="35c_gD" to="tpck:gw2VY9q" resolve="BaseConcept" />
                 <node concept="1ZhdrF" id="2cknNXbDEGT" role="lGtFl">
@@ -1022,7 +1022,7 @@
               </node>
             </node>
             <node concept="liA8E" id="6VTlRjrKb_W" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~Set.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~Set.add(java.lang.Object)" resolve="add" />
               <node concept="2YIFZM" id="3v8A$eEkuP1" role="37wK5m">
                 <ref role="37wK5l" to="pzen:3v8A$eDUDA8" resolve="from" />
                 <ref role="1Pybhc" to="pzen:yM$tZcY5nk" resolve="UniqueDataType" />
@@ -1115,7 +1115,7 @@
               </node>
             </node>
             <node concept="liA8E" id="2cknNXbDM_r" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~Set.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~Set.add(java.lang.Object)" resolve="add" />
               <node concept="355D3s" id="2cknNXbDJU4" role="37wK5m">
                 <ref role="355D3t" to="tpee:fz7wK6G" resolve="BaseMethodCall" />
                 <ref role="355D3u" to="tpck:hnGE5uv" resolve="virtualPackage" />
@@ -1211,7 +1211,7 @@
                               <ref role="3cqZAo" node="59fzZVN81Di" resolve="result" />
                             </node>
                             <node concept="liA8E" id="59fzZVN8ere" role="2OqNvi">
-                              <ref role="37wK5l" to="33ny:~Set.add(java.lang.Object):boolean" resolve="add" />
+                              <ref role="37wK5l" to="33ny:~Set.add(java.lang.Object)" resolve="add" />
                               <node concept="1PxgMI" id="59fzZVN8fzd" role="37wK5m">
                                 <node concept="2GrUjf" id="59fzZVN8fc3" role="1m5AlR">
                                   <ref role="2Gs0qQ" node="59fzZVN870A" resolve="interfacePart" />
@@ -1263,7 +1263,7 @@
               </node>
             </node>
             <node concept="liA8E" id="4XO8PV50k8f" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~Set.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~Set.add(java.lang.Object)" resolve="add" />
               <node concept="359W_D" id="4XO8PV50pew" role="37wK5m">
                 <ref role="359W_E" to="tpee:fz7wK6G" resolve="BaseMethodCall" />
                 <ref role="359W_F" to="tpee:fz7wK6H" resolve="baseMethodDeclaration" />
@@ -1359,7 +1359,7 @@
                               <ref role="3cqZAo" node="4XO8PV50k8G" resolve="result" />
                             </node>
                             <node concept="liA8E" id="4XO8PV50k8U" role="2OqNvi">
-                              <ref role="37wK5l" to="33ny:~Set.add(java.lang.Object):boolean" resolve="add" />
+                              <ref role="37wK5l" to="33ny:~Set.add(java.lang.Object)" resolve="add" />
                               <node concept="1PxgMI" id="4XO8PV50k8V" role="37wK5m">
                                 <node concept="2GrUjf" id="4XO8PV50k8W" role="1m5AlR">
                                   <ref role="2Gs0qQ" node="4XO8PV50k8N" resolve="interfacePart" />
@@ -1430,7 +1430,7 @@
               </node>
             </node>
             <node concept="liA8E" id="1DxZyGUL7bo" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~Set.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~Set.add(java.lang.Object)" resolve="add" />
               <node concept="pHN19" id="187n2sLXxUA" role="37wK5m">
                 <node concept="2V$Bhx" id="187n2sLXyiy" role="2V$M_3">
                   <property role="2V$B1T" value="b802a056-92a2-4fbc-902e-f8e5004c331f" />
@@ -1552,7 +1552,7 @@
                     </node>
                   </node>
                   <node concept="liA8E" id="7xh$8$gNxx4" role="2OqNvi">
-                    <ref role="37wK5l" to="33ny:~Map.get(java.lang.Object):java.lang.Object" resolve="get" />
+                    <ref role="37wK5l" to="33ny:~Map.get(java.lang.Object)" resolve="get" />
                     <node concept="2GrUjf" id="7xh$8$gPfPm" role="37wK5m">
                       <ref role="2Gs0qQ" node="7xh$8$gPcTv" resolve="feature" />
                     </node>
@@ -1584,7 +1584,7 @@
                       </node>
                     </node>
                     <node concept="liA8E" id="7xh$8$gNACM" role="2OqNvi">
-                      <ref role="37wK5l" to="33ny:~Map.put(java.lang.Object,java.lang.Object):java.lang.Object" resolve="put" />
+                      <ref role="37wK5l" to="33ny:~Map.put(java.lang.Object,java.lang.Object)" resolve="put" />
                       <node concept="2GrUjf" id="7xh$8$gPlUt" role="37wK5m">
                         <ref role="2Gs0qQ" node="7xh$8$gPcTv" resolve="feature" />
                       </node>
@@ -1608,7 +1608,7 @@
                   <ref role="3cqZAo" node="7xh$8$gNxwZ" resolve="values" />
                 </node>
                 <node concept="liA8E" id="7xh$8$gNDjj" role="2OqNvi">
-                  <ref role="37wK5l" to="33ny:~Set.add(java.lang.Object):boolean" resolve="add" />
+                  <ref role="37wK5l" to="33ny:~Set.add(java.lang.Object)" resolve="add" />
                   <node concept="37vLTw" id="7xh$8$gNDvw" role="37wK5m">
                     <ref role="3cqZAo" node="7xh$8$gNsvD" resolve="id" />
                   </node>
@@ -2161,7 +2161,7 @@
                       <ref role="3cqZAo" node="8FTmV8tlCi" resolve="body" />
                     </node>
                     <node concept="liA8E" id="8FTmV8tlCs" role="2OqNvi">
-                      <ref role="37wK5l" to="6a0m:~PBody.getOrCreateVariableByName(java.lang.String):org.eclipse.viatra.query.runtime.matchers.psystem.PVariable" resolve="getOrCreateVariableByName" />
+                      <ref role="37wK5l" to="6a0m:~PBody.getOrCreateVariableByName(java.lang.String)" resolve="getOrCreateVariableByName" />
                       <node concept="Xl_RD" id="8FTmV8tlCt" role="37wK5m">
                         <property role="Xl_RC" value="var" />
                         <node concept="17Uvod" id="8FTmV8tlCu" role="lGtFl">
@@ -2250,7 +2250,7 @@
                     <ref role="3cqZAo" node="8FTmV8tlCT" resolve="exportedParameters" />
                   </node>
                   <node concept="liA8E" id="8FTmV8tlD2" role="2OqNvi">
-                    <ref role="37wK5l" to="33ny:~List.add(java.lang.Object):boolean" resolve="add" />
+                    <ref role="37wK5l" to="33ny:~List.add(java.lang.Object)" resolve="add" />
                     <node concept="2ShNRf" id="8FTmV8tlD3" role="37wK5m">
                       <node concept="1pGfFk" id="8FTmV8tlD4" role="2ShVmc">
                         <ref role="37wK5l" to="1wlx:~ExportedParameter.&lt;init&gt;(org.eclipse.viatra.query.runtime.matchers.psystem.PBody,org.eclipse.viatra.query.runtime.matchers.psystem.PVariable,org.eclipse.viatra.query.runtime.matchers.psystem.queries.PParameter)" resolve="ExportedParameter" />
@@ -2334,7 +2334,7 @@
                     <ref role="3cqZAo" node="8FTmV8tlCi" resolve="body" />
                   </node>
                   <node concept="liA8E" id="z7YXzAay3c" role="2OqNvi">
-                    <ref role="37wK5l" to="6a0m:~PBody.setSymbolicParameters(java.util.List):void" resolve="setSymbolicParameters" />
+                    <ref role="37wK5l" to="6a0m:~PBody.setSymbolicParameters(java.util.List)" resolve="setSymbolicParameters" />
                     <node concept="37vLTw" id="z7YXzAaygF" role="37wK5m">
                       <ref role="3cqZAo" node="8FTmV8tlCT" resolve="exportedParameters" />
                     </node>
@@ -2353,7 +2353,7 @@
                       <ref role="3cqZAo" node="8FTmV8tlCi" resolve="body" />
                     </node>
                     <node concept="liA8E" id="8FTmV8tlDI" role="2OqNvi">
-                      <ref role="37wK5l" to="6a0m:~PBody.newVirtualVariable():org.eclipse.viatra.query.runtime.matchers.psystem.PVariable" resolve="newVirtualVariable" />
+                      <ref role="37wK5l" to="6a0m:~PBody.newVirtualVariable()" resolve="newVirtualVariable" />
                     </node>
                     <node concept="1sPUBX" id="8FTmV8tlDJ" role="lGtFl">
                       <ref role="v9R2y" to="cj1d:mbIjfClULc" resolve="switch_TemporaryVariableInstantiation" />
@@ -3179,7 +3179,7 @@
           <node concept="3cpWs6" id="26S5csTpMYJ" role="3cqZAp">
             <node concept="2YIFZM" id="26S5csTpOwN" role="3cqZAk">
               <ref role="1Pybhc" to="33ny:~Arrays" resolve="Arrays" />
-              <ref role="37wK5l" to="33ny:~Arrays.asList(java.lang.Object...):java.util.List" resolve="asList" />
+              <ref role="37wK5l" to="33ny:~Arrays.asList(java.lang.Object...)" resolve="asList" />
               <node concept="37vLTw" id="z7YXzAbfKb" role="37wK5m">
                 <ref role="3cqZAo" node="z7YXzAaG2h" resolve="p_parameter" />
                 <node concept="1WS0z7" id="z7YXzAbhVp" role="lGtFl">
@@ -3238,7 +3238,7 @@
         <node concept="3clFbS" id="26S5csTpV5z" role="3clF47">
           <node concept="3cpWs6" id="26S5csTq6WZ" role="3cqZAp">
             <node concept="2YIFZM" id="26S5csTq8CA" role="3cqZAk">
-              <ref role="37wK5l" to="33ny:~Arrays.asList(java.lang.Object...):java.util.List" resolve="asList" />
+              <ref role="37wK5l" to="33ny:~Arrays.asList(java.lang.Object...)" resolve="asList" />
               <ref role="1Pybhc" to="33ny:~Arrays" resolve="Arrays" />
               <node concept="Xl_RD" id="26S5csTq9Kk" role="37wK5m">
                 <property role="Xl_RC" value="parameter" />
@@ -5066,7 +5066,7 @@
                     <ref role="3cqZAo" node="1suAdVkP5iK" resolve="body" />
                   </node>
                   <node concept="2YIFZM" id="1cwfJkvjfUX" role="37wK5m">
-                    <ref role="37wK5l" to="inmn:~Tuples.staticArityFlatTupleOf(java.lang.Object,java.lang.Object):org.eclipse.viatra.query.runtime.matchers.tuple.Tuple" resolve="staticArityFlatTupleOf" />
+                    <ref role="37wK5l" to="inmn:~Tuples.staticArityFlatTupleOf(java.lang.Object,java.lang.Object)" resolve="staticArityFlatTupleOf" />
                     <ref role="1Pybhc" to="inmn:~Tuples" resolve="Tuples" />
                     <node concept="37vLTw" id="1cwfJkvjfUY" role="37wK5m">
                       <ref role="3cqZAo" node="1suAdVkP5iO" resolve="source" />
@@ -5309,7 +5309,7 @@
                     <ref role="3cqZAo" node="1suAdVkP6YG" resolve="body" />
                   </node>
                   <node concept="2YIFZM" id="1cwfJkvjgs1" role="37wK5m">
-                    <ref role="37wK5l" to="inmn:~Tuples.staticArityFlatTupleOf(java.lang.Object,java.lang.Object):org.eclipse.viatra.query.runtime.matchers.tuple.Tuple" resolve="staticArityFlatTupleOf" />
+                    <ref role="37wK5l" to="inmn:~Tuples.staticArityFlatTupleOf(java.lang.Object,java.lang.Object)" resolve="staticArityFlatTupleOf" />
                     <ref role="1Pybhc" to="inmn:~Tuples" resolve="Tuples" />
                     <node concept="37vLTw" id="1cwfJkvjgs2" role="37wK5m">
                       <ref role="3cqZAo" node="1suAdVkP6YK" resolve="source" />
@@ -5614,7 +5614,7 @@
                     <ref role="3cqZAo" node="2WpF3SwvUVQ" resolve="body" />
                   </node>
                   <node concept="2YIFZM" id="1cwfJkvjh3d" role="37wK5m">
-                    <ref role="37wK5l" to="inmn:~Tuples.staticArityFlatTupleOf(java.lang.Object,java.lang.Object):org.eclipse.viatra.query.runtime.matchers.tuple.Tuple" resolve="staticArityFlatTupleOf" />
+                    <ref role="37wK5l" to="inmn:~Tuples.staticArityFlatTupleOf(java.lang.Object,java.lang.Object)" resolve="staticArityFlatTupleOf" />
                     <ref role="1Pybhc" to="inmn:~Tuples" resolve="Tuples" />
                     <node concept="37vLTw" id="1cwfJkvjh3e" role="37wK5m">
                       <ref role="3cqZAo" node="2WpF3SwvUVU" resolve="source" />
@@ -5945,7 +5945,7 @@
                       <ref role="3cqZAo" node="LXEcppt9zv" resolve="body" />
                     </node>
                     <node concept="2YIFZM" id="2051hW8fnXs" role="37wK5m">
-                      <ref role="37wK5l" to="inmn:~Tuples.flatTupleOf(java.lang.Object...):org.eclipse.viatra.query.runtime.matchers.tuple.Tuple" resolve="flatTupleOf" />
+                      <ref role="37wK5l" to="inmn:~Tuples.flatTupleOf(java.lang.Object...)" resolve="flatTupleOf" />
                       <ref role="1Pybhc" to="inmn:~Tuples" resolve="Tuples" />
                       <node concept="37vLTw" id="5hMpCBZjNL7" role="37wK5m">
                         <ref role="3cqZAo" node="LXEcppuvOL" resolve="var" />
@@ -6018,7 +6018,7 @@
                         </node>
                       </node>
                       <node concept="liA8E" id="26S5csTve9b" role="2OqNvi">
-                        <ref role="37wK5l" to="la48:~BaseQuerySpecification.getInternalQueryRepresentation():org.eclipse.viatra.query.runtime.matchers.psystem.queries.PQuery" resolve="getInternalQueryRepresentation" />
+                        <ref role="37wK5l" to="la48:~BaseQuerySpecification.getInternalQueryRepresentation()" resolve="getInternalQueryRepresentation" />
                       </node>
                     </node>
                   </node>
@@ -6257,7 +6257,7 @@
                       <ref role="3cqZAo" node="LXEcppxsuh" resolve="body" />
                     </node>
                     <node concept="2YIFZM" id="2051hW8fps9" role="37wK5m">
-                      <ref role="37wK5l" to="inmn:~Tuples.flatTupleOf(java.lang.Object...):org.eclipse.viatra.query.runtime.matchers.tuple.Tuple" resolve="flatTupleOf" />
+                      <ref role="37wK5l" to="inmn:~Tuples.flatTupleOf(java.lang.Object...)" resolve="flatTupleOf" />
                       <ref role="1Pybhc" to="inmn:~Tuples" resolve="Tuples" />
                       <node concept="37vLTw" id="LXEcppuwBm" role="37wK5m">
                         <ref role="3cqZAo" node="LXEcppxsul" resolve="var" />
@@ -6330,7 +6330,7 @@
                         </node>
                       </node>
                       <node concept="liA8E" id="26S5csTvgpC" role="2OqNvi">
-                        <ref role="37wK5l" to="la48:~BaseQuerySpecification.getInternalQueryRepresentation():org.eclipse.viatra.query.runtime.matchers.psystem.queries.PQuery" resolve="getInternalQueryRepresentation" />
+                        <ref role="37wK5l" to="la48:~BaseQuerySpecification.getInternalQueryRepresentation()" resolve="getInternalQueryRepresentation" />
                       </node>
                     </node>
                   </node>
@@ -6568,7 +6568,7 @@
                       <ref role="3cqZAo" node="wYNqCIo$6s" resolve="body" />
                     </node>
                     <node concept="2YIFZM" id="2051hW8fqMF" role="37wK5m">
-                      <ref role="37wK5l" to="inmn:~Tuples.flatTupleOf(java.lang.Object...):org.eclipse.viatra.query.runtime.matchers.tuple.Tuple" resolve="flatTupleOf" />
+                      <ref role="37wK5l" to="inmn:~Tuples.flatTupleOf(java.lang.Object...)" resolve="flatTupleOf" />
                       <ref role="1Pybhc" to="inmn:~Tuples" resolve="Tuples" />
                       <node concept="37vLTw" id="wYNqCIo$7g" role="37wK5m">
                         <ref role="3cqZAo" node="wYNqCIo$6w" resolve="var" />
@@ -6641,7 +6641,7 @@
                         </node>
                       </node>
                       <node concept="liA8E" id="26S5csTvFGk" role="2OqNvi">
-                        <ref role="37wK5l" to="la48:~BaseQuerySpecification.getInternalQueryRepresentation():org.eclipse.viatra.query.runtime.matchers.psystem.queries.PQuery" resolve="getInternalQueryRepresentation" />
+                        <ref role="37wK5l" to="la48:~BaseQuerySpecification.getInternalQueryRepresentation()" resolve="getInternalQueryRepresentation" />
                       </node>
                     </node>
                   </node>

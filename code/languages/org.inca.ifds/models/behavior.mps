@@ -694,11 +694,11 @@
                     </node>
                   </node>
                   <node concept="liA8E" id="7ike8KAOxEK" role="2OqNvi">
-                    <ref role="37wK5l" to="mhbf:~SModel.getName():org.jetbrains.mps.openapi.model.SModelName" resolve="getName" />
+                    <ref role="37wK5l" to="mhbf:~SModel.getName()" resolve="getName" />
                   </node>
                 </node>
                 <node concept="liA8E" id="7ike8KAOy7x" role="2OqNvi">
-                  <ref role="37wK5l" to="mhbf:~SModelName.getLongName():java.lang.String" resolve="getLongName" />
+                  <ref role="37wK5l" to="mhbf:~SModelName.getLongName()" resolve="getLongName" />
                 </node>
               </node>
               <node concept="Xl_RD" id="7ike8KAOytV" role="3uHU7w">

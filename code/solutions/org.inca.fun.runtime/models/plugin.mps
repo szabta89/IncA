@@ -3,9 +3,9 @@
   <persistence version="9" />
   <languages>
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="13" />
-    <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="-1" />
+    <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="1" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
-    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="-1" />
+    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="1" />
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="-1" />
     <use id="b802a056-92a2-4fbc-902e-f8e5004c331f" name="org.inca.core" version="-1" />
     <use id="cd2909da-ecb4-49dc-b176-33e5c619e516" name="org.inca.gp" version="-1" />
@@ -1395,7 +1395,7 @@
                   <ref role="3cqZAo" node="3iREICyx0Xa" resolve="graph" />
                 </node>
                 <node concept="liA8E" id="3iREICyx3Bs" role="2OqNvi">
-                  <ref role="37wK5l" to="cqwv:~Graph.insertNode(java.lang.Object):void" resolve="insertNode" />
+                  <ref role="37wK5l" to="cqwv:~Graph.insertNode(java.lang.Object)" resolve="insertNode" />
                   <node concept="2GrUjf" id="3iREICyx3FC" role="37wK5m">
                     <ref role="2Gs0qQ" node="3iREICyx0Ue" resolve="pattern" />
                   </node>
@@ -1442,7 +1442,7 @@
                       <ref role="3cqZAo" node="3iREICyx0Xa" resolve="graph" />
                     </node>
                     <node concept="liA8E" id="3iREICyx7nx" role="2OqNvi">
-                      <ref role="37wK5l" to="cqwv:~Graph.insertEdge(java.lang.Object,java.lang.Object):void" resolve="insertEdge" />
+                      <ref role="37wK5l" to="cqwv:~Graph.insertEdge(java.lang.Object,java.lang.Object)" resolve="insertEdge" />
                       <node concept="2GrUjf" id="3iREICyx7so" role="37wK5m">
                         <ref role="2Gs0qQ" node="3iREICyx3IO" resolve="caller" />
                       </node>
@@ -1520,7 +1520,7 @@
                     </node>
                   </node>
                   <node concept="liA8E" id="aQnmvInsJz" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String):boolean" resolve="startsWith" />
+                    <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String)" resolve="startsWith" />
                     <node concept="37vLTw" id="7zh7ZG63oAa" role="37wK5m">
                       <ref role="3cqZAo" node="aQnmvIk3ik" resolve="FUNCTIONAL_DEPENDENCY_PREFIX" />
                     </node>
@@ -1882,7 +1882,7 @@
               <ref role="3cqZAo" node="7w$jYjc4141" resolve="keyBuilder" />
             </node>
             <node concept="liA8E" id="7w$jYjc43v4" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
+              <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String)" resolve="append" />
               <node concept="3cpWs3" id="7w$jYjc43xx" role="37wK5m">
                 <node concept="Xl_RD" id="7w$jYjc43xy" role="3uHU7B">
                   <property role="Xl_RC" value="defined_" />
@@ -1907,7 +1907,7 @@
                   <ref role="3cqZAo" node="7w$jYjc4141" resolve="keyBuilder" />
                 </node>
                 <node concept="liA8E" id="7w$jYjc48qa" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
+                  <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String)" resolve="append" />
                   <node concept="2OqwBi" id="7w$jYjc49IY" role="37wK5m">
                     <node concept="35c_gC" id="7w$jYjc49lN" role="2Oq$k0">
                       <ref role="35c_gD" to="hqsm:1ERTnBTmuSC" resolve="IPathElement" />
@@ -1961,7 +1961,7 @@
                 <ref role="3cqZAo" node="7w$jYjc4141" resolve="keyBuilder" />
               </node>
               <node concept="liA8E" id="7w$jYjc4cPk" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~StringBuilder.toString():java.lang.String" resolve="toString" />
+                <ref role="37wK5l" to="wyt6:~StringBuilder.toString()" resolve="toString" />
               </node>
             </node>
           </node>

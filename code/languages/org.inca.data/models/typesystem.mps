@@ -595,7 +595,7 @@
         </node>
         <node concept="3eOVzh" id="6fy2FM6mBLN" role="1Dwp0S">
           <node concept="2YIFZM" id="6fy2FM6mBQ4" role="3uHU7w">
-            <ref role="37wK5l" to="wyt6:~Math.min(int,int):int" resolve="min" />
+            <ref role="37wK5l" to="wyt6:~Math.min(int,int)" resolve="min" />
             <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
             <node concept="2OqwBi" id="6fy2FM6mEg7" role="37wK5m">
               <node concept="37vLTw" id="6fy2FM6mC0Z" role="2Oq$k0">
@@ -1126,7 +1126,7 @@
             <node concept="3eOVzh" id="4aOuL3PVooV" role="1Dwp0S">
               <node concept="2YIFZM" id="4aOuL3PVov9" role="3uHU7w">
                 <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
-                <ref role="37wK5l" to="wyt6:~Math.min(int,int):int" resolve="min" />
+                <ref role="37wK5l" to="wyt6:~Math.min(int,int)" resolve="min" />
                 <node concept="2OqwBi" id="4aOuL3PVtlQ" role="37wK5m">
                   <node concept="37vLTw" id="4aOuL3PVoFg" role="2Oq$k0">
                     <ref role="3cqZAo" node="4aOuL3PVmeA" resolve="formals" />
@@ -1373,7 +1373,7 @@
             </node>
           </node>
           <node concept="2YIFZM" id="1WbPV9BxlO5" role="3uHU7w">
-            <ref role="37wK5l" to="33ny:~Objects.equals(java.lang.Object,java.lang.Object):boolean" resolve="equals" />
+            <ref role="37wK5l" to="33ny:~Objects.equals(java.lang.Object,java.lang.Object)" resolve="equals" />
             <ref role="1Pybhc" to="33ny:~Objects" resolve="Objects" />
             <node concept="2OqwBi" id="1WbPV9Bxmf4" role="37wK5m">
               <node concept="37vLTw" id="1WbPV9Bxm4p" role="2Oq$k0">

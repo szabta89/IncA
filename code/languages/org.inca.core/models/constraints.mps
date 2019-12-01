@@ -428,7 +428,7 @@
                 <node concept="2OqwBi" id="5LLe7EhFBDR" role="3uHU7w">
                   <node concept="3dgs5T" id="5LLe7EhFBDS" role="2Oq$k0" />
                   <node concept="liA8E" id="5LLe7EhFBDT" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object):boolean" resolve="equals" />
+                    <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object)" resolve="equals" />
                     <node concept="359W_D" id="5LLe7EhFBDU" role="37wK5m">
                       <ref role="359W_E" to="hqsm:3VwoHXNAdvt" resolve="IPatternBody" />
                       <ref role="359W_F" to="hqsm:3VwoHXNC_4v" resolve="contents" />
@@ -844,7 +844,7 @@
                                 <property role="Xl_RC" value="_" />
                               </node>
                               <node concept="liA8E" id="5LLe7EhFBFP" role="2OqNvi">
-                                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                                 <node concept="2OqwBi" id="5LLe7EhFBFQ" role="37wK5m">
                                   <node concept="37vLTw" id="5LLe7EhFBFR" role="2Oq$k0">
                                     <ref role="3cqZAo" node="5LLe7EhFBFT" resolve="it" />
@@ -1700,7 +1700,7 @@
                 <node concept="2OqwBi" id="2RSm1CzrcGE" role="3uHU7w">
                   <node concept="3dgs5T" id="2RSm1Cz272z" role="2Oq$k0" />
                   <node concept="liA8E" id="2RSm1CzregK" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object):boolean" resolve="equals" />
+                    <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object)" resolve="equals" />
                     <node concept="359W_D" id="2RSm1Cz272$" role="37wK5m">
                       <ref role="359W_E" to="hqsm:3VwoHXNAdvt" resolve="IPatternBody" />
                       <ref role="359W_F" to="hqsm:3VwoHXNC_4v" resolve="contents" />
@@ -2025,7 +2025,7 @@
                                 <property role="Xl_RC" value="_" />
                               </node>
                               <node concept="liA8E" id="2RSm1Czr2Lg" role="2OqNvi">
-                                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                                 <node concept="2OqwBi" id="2RSm1Czr2Lh" role="37wK5m">
                                   <node concept="37vLTw" id="2RSm1Czr2Li" role="2Oq$k0">
                                     <ref role="3cqZAo" node="2RSm1Czr2Lk" resolve="it" />
@@ -2502,7 +2502,7 @@
             <node concept="2OqwBi" id="65XyadYKJgV" role="3cqZAk">
               <node concept="1Wqviy" id="65XyadYKJgW" role="2Oq$k0" />
               <node concept="liA8E" id="65XyadYKJgX" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String):boolean" resolve="matches" />
+                <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
                 <node concept="Xl_RD" id="65XyadYKJgY" role="37wK5m">
                   <property role="Xl_RC" value="[a-zA-Z$[_]][a-zA-Z0-9$[_]]*" />
                 </node>
@@ -2602,7 +2602,7 @@
           <node concept="2OqwBi" id="2RSm1CzqHyK" role="3clFbw">
             <node concept="2DA6wF" id="2RSm1Cz26Os" role="2Oq$k0" />
             <node concept="liA8E" id="2RSm1CzqHYZ" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object):boolean" resolve="equals" />
+              <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object)" resolve="equals" />
               <node concept="359W_D" id="2RSm1Cz26Ot" role="37wK5m">
                 <ref role="359W_E" to="hqsm:7a3nU354JVn" resolve="IJoinTypeDef" />
                 <ref role="359W_F" to="hqsm:7a3nU34ZPB7" resolve="types" />

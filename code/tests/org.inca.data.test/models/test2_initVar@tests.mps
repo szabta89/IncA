@@ -224,13 +224,13 @@
                   <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
                 </node>
                 <node concept="liA8E" id="1IhOgo0XA9i" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
                   <node concept="2OqwBi" id="1IhOgo0XAdk" role="37wK5m">
                     <node concept="37vLTw" id="1IhOgo0XAyZ" role="2Oq$k0">
                       <ref role="3cqZAo" node="1IhOgo0XA2k" resolve="var1" />
                     </node>
                     <node concept="liA8E" id="1IhOgo0XAiB" role="2OqNvi">
-                      <ref role="37wK5l" to="wyt6:~Object.toString():java.lang.String" resolve="toString" />
+                      <ref role="37wK5l" to="wyt6:~Object.toString()" resolve="toString" />
                     </node>
                   </node>
                 </node>
@@ -246,13 +246,13 @@
                   <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
                 </node>
                 <node concept="liA8E" id="1IhOgo0XAsp" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
                   <node concept="2OqwBi" id="1IhOgo0XAsq" role="37wK5m">
                     <node concept="37vLTw" id="1IhOgo0XAsr" role="2Oq$k0">
                       <ref role="3cqZAo" node="1IhOgo0XA5F" resolve="var2" />
                     </node>
                     <node concept="liA8E" id="1IhOgo0XAss" role="2OqNvi">
-                      <ref role="37wK5l" to="wyt6:~Object.toString():java.lang.String" resolve="toString" />
+                      <ref role="37wK5l" to="wyt6:~Object.toString()" resolve="toString" />
                     </node>
                   </node>
                 </node>
@@ -296,7 +296,7 @@
             <node concept="2OqwBi" id="5_25IeH$Hl7" role="33vP2m">
               <node concept="1jxXqW" id="5_25IeH$Hl8" role="2Oq$k0" />
               <node concept="liA8E" id="5_25IeH$Hl9" role="2OqNvi">
-                <ref role="37wK5l" to="z1c3:~Project.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
+                <ref role="37wK5l" to="z1c3:~Project.getRepository()" resolve="getRepository" />
               </node>
             </node>
           </node>
@@ -420,7 +420,7 @@
                 </node>
                 <node concept="2YIFZM" id="1UtqsmggUff" role="3uHU7B">
                   <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
-                  <ref role="37wK5l" to="wyt6:~Math.random():double" resolve="random" />
+                  <ref role="37wK5l" to="wyt6:~Math.random()" resolve="random" />
                 </node>
               </node>
               <node concept="9aQIb" id="1UtqsmggUzv" role="9aQIa">
@@ -447,13 +447,13 @@
                   <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
                 </node>
                 <node concept="liA8E" id="7iCDZEf2g_3" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
                   <node concept="2OqwBi" id="7iCDZEf2g_4" role="37wK5m">
                     <node concept="37vLTw" id="7iCDZEf2g_5" role="2Oq$k0">
                       <ref role="3cqZAo" node="7iCDZEf2g$T" resolve="var1" />
                     </node>
                     <node concept="liA8E" id="7iCDZEf2g_6" role="2OqNvi">
-                      <ref role="37wK5l" to="wyt6:~Object.toString():java.lang.String" resolve="toString" />
+                      <ref role="37wK5l" to="wyt6:~Object.toString()" resolve="toString" />
                     </node>
                   </node>
                 </node>
@@ -469,13 +469,13 @@
                   <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
                 </node>
                 <node concept="liA8E" id="7iCDZEf2g_a" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
                   <node concept="2OqwBi" id="7iCDZEf2g_b" role="37wK5m">
                     <node concept="37vLTw" id="7iCDZEf2g_c" role="2Oq$k0">
                       <ref role="3cqZAo" node="7iCDZEf2g$W" resolve="var2" />
                     </node>
                     <node concept="liA8E" id="7iCDZEf2g_d" role="2OqNvi">
-                      <ref role="37wK5l" to="wyt6:~Object.toString():java.lang.String" resolve="toString" />
+                      <ref role="37wK5l" to="wyt6:~Object.toString()" resolve="toString" />
                     </node>
                   </node>
                 </node>
@@ -519,7 +519,7 @@
             <node concept="2OqwBi" id="5_25IeH$I$O" role="33vP2m">
               <node concept="1jxXqW" id="5_25IeH$I$P" role="2Oq$k0" />
               <node concept="liA8E" id="5_25IeH$I$Q" role="2OqNvi">
-                <ref role="37wK5l" to="z1c3:~Project.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
+                <ref role="37wK5l" to="z1c3:~Project.getRepository()" resolve="getRepository" />
               </node>
             </node>
           </node>
@@ -643,7 +643,7 @@
                 </node>
                 <node concept="2YIFZM" id="7iCDZEf2vmx" role="3uHU7B">
                   <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
-                  <ref role="37wK5l" to="wyt6:~Math.random():double" resolve="random" />
+                  <ref role="37wK5l" to="wyt6:~Math.random()" resolve="random" />
                 </node>
               </node>
               <node concept="9aQIb" id="7iCDZEf2vmy" role="9aQIa">
@@ -670,13 +670,13 @@
                   <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
                 </node>
                 <node concept="liA8E" id="7iCDZEf2vmG" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
                   <node concept="2OqwBi" id="7iCDZEf2vmH" role="37wK5m">
                     <node concept="37vLTw" id="7iCDZEf2vmI" role="2Oq$k0">
                       <ref role="3cqZAo" node="7iCDZEf2vmh" resolve="var1" />
                     </node>
                     <node concept="liA8E" id="7iCDZEf2vmJ" role="2OqNvi">
-                      <ref role="37wK5l" to="wyt6:~Object.toString():java.lang.String" resolve="toString" />
+                      <ref role="37wK5l" to="wyt6:~Object.toString()" resolve="toString" />
                     </node>
                   </node>
                 </node>
@@ -692,13 +692,13 @@
                   <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
                 </node>
                 <node concept="liA8E" id="7iCDZEf2vmO" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
                   <node concept="2OqwBi" id="7iCDZEf2vmP" role="37wK5m">
                     <node concept="37vLTw" id="7iCDZEf2vmQ" role="2Oq$k0">
                       <ref role="3cqZAo" node="7iCDZEf2vml" resolve="var2" />
                     </node>
                     <node concept="liA8E" id="7iCDZEf2vmR" role="2OqNvi">
-                      <ref role="37wK5l" to="wyt6:~Object.toString():java.lang.String" resolve="toString" />
+                      <ref role="37wK5l" to="wyt6:~Object.toString()" resolve="toString" />
                     </node>
                   </node>
                 </node>
@@ -742,7 +742,7 @@
             <node concept="2OqwBi" id="5_25IeH$Kax" role="33vP2m">
               <node concept="1jxXqW" id="5_25IeH$Kay" role="2Oq$k0" />
               <node concept="liA8E" id="5_25IeH$Kaz" role="2OqNvi">
-                <ref role="37wK5l" to="z1c3:~Project.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
+                <ref role="37wK5l" to="z1c3:~Project.getRepository()" resolve="getRepository" />
               </node>
             </node>
           </node>

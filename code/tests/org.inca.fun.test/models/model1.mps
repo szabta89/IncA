@@ -171,7 +171,7 @@
               <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
             </node>
             <node concept="liA8E" id="6IScWK1VoFn" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(int):void" resolve="println" />
+              <ref role="37wK5l" to="guwi:~PrintStream.println(int)" resolve="println" />
               <node concept="37vLTw" id="6IScWK1VoGx" role="37wK5m">
                 <ref role="3cqZAo" node="6IScWK1UPjV" resolve="field" />
               </node>
@@ -224,7 +224,7 @@
       <node concept="3clFbS" id="6IScWK1VAhK" role="3clF47">
         <node concept="3clFbF" id="6IScWK1VAhO" role="3cqZAp">
           <node concept="3nyPlj" id="6IScWK1VAhN" role="3clFbG">
-            <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object):boolean" resolve="equals" />
+            <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object)" resolve="equals" />
             <node concept="37vLTw" id="6IScWK1VAhM" role="37wK5m">
               <ref role="3cqZAo" node="6IScWK1VAhI" resolve="object" />
             </node>
@@ -246,7 +246,7 @@
       <node concept="3clFbS" id="72CZAphnhvo" role="3clF47">
         <node concept="3clFbF" id="72CZAphnhvr" role="3cqZAp">
           <node concept="3nyPlj" id="72CZAphnhvq" role="3clFbG">
-            <ref role="37wK5l" to="wyt6:~Object.hashCode():int" resolve="hashCode" />
+            <ref role="37wK5l" to="wyt6:~Object.hashCode()" resolve="hashCode" />
           </node>
         </node>
       </node>
@@ -385,7 +385,7 @@
                     <ref role="3cqZAo" node="6IScWK1Vlg_" resolve="e" />
                   </node>
                   <node concept="liA8E" id="6IScWK1VlEk" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~Throwable.printStackTrace():void" resolve="printStackTrace" />
+                    <ref role="37wK5l" to="wyt6:~Throwable.printStackTrace()" resolve="printStackTrace" />
                   </node>
                 </node>
               </node>
@@ -429,7 +429,7 @@
       <node concept="3clFbS" id="6IScWK1Vrc5" role="3clF47">
         <node concept="3clFbF" id="6IScWK1Vrc8" role="3cqZAp">
           <node concept="3nyPlj" id="6IScWK1Vrc7" role="3clFbG">
-            <ref role="37wK5l" to="wyt6:~Object.finalize():void" resolve="finalize" />
+            <ref role="37wK5l" to="wyt6:~Object.finalize()" resolve="finalize" />
           </node>
         </node>
       </node>
@@ -452,7 +452,7 @@
       <node concept="3clFbS" id="6IScWK1VsK0" role="3clF47">
         <node concept="3clFbF" id="6IScWK1VsKE" role="3cqZAp">
           <node concept="2YIFZM" id="6IScWK1VsL8" role="3clFbG">
-            <ref role="37wK5l" to="wyt6:~Runtime.runFinalizersOnExit(boolean):void" resolve="runFinalizersOnExit" />
+            <ref role="37wK5l" to="wyt6:~Runtime.runFinalizersOnExit(boolean)" resolve="runFinalizersOnExit" />
             <ref role="1Pybhc" to="wyt6:~Runtime" resolve="Runtime" />
             <node concept="3clFbT" id="6IScWK1VsTj" role="37wK5m">
               <property role="3clFbU" value="true" />
@@ -474,7 +474,7 @@
       <node concept="3clFbS" id="6IScWK1Vukc" role="3clF47">
         <node concept="3clFbF" id="6IScWK1Vul6" role="3cqZAp">
           <node concept="2YIFZM" id="6IScWK1Vul$" role="3clFbG">
-            <ref role="37wK5l" to="wyt6:~System.runFinalizersOnExit(boolean):void" resolve="runFinalizersOnExit" />
+            <ref role="37wK5l" to="wyt6:~System.runFinalizersOnExit(boolean)" resolve="runFinalizersOnExit" />
             <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
             <node concept="3clFbT" id="6IScWK1Vum8" role="37wK5m">
               <property role="3clFbU" value="true" />
@@ -508,7 +508,7 @@
       <node concept="3clFbS" id="6IScWK1VvIG" role="3clF47">
         <node concept="3clFbF" id="6IScWK1VvIK" role="3cqZAp">
           <node concept="3nyPlj" id="6IScWK1VvIJ" role="3clFbG">
-            <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object):boolean" resolve="equals" />
+            <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object)" resolve="equals" />
             <node concept="37vLTw" id="6IScWK1VvII" role="37wK5m">
               <ref role="3cqZAo" node="6IScWK1VvIE" resolve="object" />
             </node>

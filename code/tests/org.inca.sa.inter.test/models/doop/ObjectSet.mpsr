@@ -236,7 +236,7 @@
                         <ref role="3cqZAo" node="1CuVusewwZn" resolve="v2" />
                       </node>
                       <node concept="liA8E" id="62kpGTi47xx" role="2OqNvi">
-                        <ref role="37wK5l" to="l0z0:~Set.containsAll(java.util.Collection):boolean" resolve="containsAll" />
+                        <ref role="37wK5l" to="l0z0:~Set.containsAll(java.util.Collection)" resolve="containsAll" />
                         <node concept="37vLTw" id="62kpGTi47Py" role="37wK5m">
                           <ref role="3cqZAo" node="1CuVusewwXR" resolve="v1" />
                         </node>
@@ -356,7 +356,7 @@
                           <ref role="3cqZAo" node="frQ9H7tUbA" resolve="v1" />
                         </node>
                         <node concept="liA8E" id="62kpGTi4gJN" role="2OqNvi">
-                          <ref role="37wK5l" to="l0z0:~Set$Immutable.__insertAll(java.util.Set):io.usethesource.capsule.Set$Immutable" resolve="__insertAll" />
+                          <ref role="37wK5l" to="l0z0:~Set$Immutable.__insertAll(java.util.Set)" resolve="__insertAll" />
                           <node concept="37vLTw" id="62kpGTi4gJO" role="37wK5m">
                             <ref role="3cqZAo" node="frQ9H7tUbE" resolve="v2" />
                           </node>
@@ -385,7 +385,7 @@
                           <ref role="3cqZAo" node="62kpGTi4gJK" resolve="v" />
                         </node>
                         <node concept="liA8E" id="62kpGTi52WY" role="2OqNvi">
-                          <ref role="37wK5l" to="l0z0:~Set.size():int" resolve="size" />
+                          <ref role="37wK5l" to="l0z0:~Set.size()" resolve="size" />
                         </node>
                       </node>
                     </node>
@@ -493,7 +493,7 @@
                       <ref role="3cqZAo" node="62kpGTi5cI7" resolve="v1" />
                     </node>
                     <node concept="liA8E" id="62kpGTi5nA0" role="2OqNvi">
-                      <ref role="37wK5l" to="l0z0:~Set$Immutable.__retainAll(java.util.Set):io.usethesource.capsule.Set$Immutable" resolve="__retainAll" />
+                      <ref role="37wK5l" to="l0z0:~Set$Immutable.__retainAll(java.util.Set)" resolve="__retainAll" />
                       <node concept="37vLTw" id="62kpGTi5oCq" role="37wK5m">
                         <ref role="3cqZAo" node="62kpGTi5cIb" resolve="v2" />
                       </node>
@@ -562,7 +562,7 @@
                     <ref role="3cqZAo" node="62kpGTi6hqO" resolve="v" />
                   </node>
                   <node concept="liA8E" id="62kpGTi6ylU" role="2OqNvi">
-                    <ref role="37wK5l" to="l0z0:~Set.contains(java.lang.Object):boolean" resolve="contains" />
+                    <ref role="37wK5l" to="l0z0:~Set.contains(java.lang.Object)" resolve="contains" />
                     <node concept="37vLTw" id="62kpGTi6zpC" role="37wK5m">
                       <ref role="3cqZAo" node="62kpGTi6hhR" resolve="heap" />
                     </node>
@@ -649,7 +649,7 @@
             <ref role="2ZRyFH" node="3ZrW9h2yEaH" resolve="S" />
             <node concept="2YIFZM" id="62kpGTi5TRk" role="2ZRyFy">
               <ref role="1Pybhc" to="l0z0:~Set$Immutable" resolve="Set.Immutable" />
-              <ref role="37wK5l" to="l0z0:~Set$Immutable.of(java.lang.Object):io.usethesource.capsule.Set$Immutable" resolve="of" />
+              <ref role="37wK5l" to="l0z0:~Set$Immutable.of(java.lang.Object)" resolve="of" />
               <node concept="37vLTw" id="62kpGTi5VOY" role="37wK5m">
                 <ref role="3cqZAo" node="3ZrW9h2yYSY" resolve="heap" />
               </node>

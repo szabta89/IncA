@@ -553,11 +553,11 @@
                             </node>
                           </node>
                           <node concept="liA8E" id="SSjGGIioyc" role="2OqNvi">
-                            <ref role="37wK5l" to="mhbf:~SModel.getName():org.jetbrains.mps.openapi.model.SModelName" resolve="getName" />
+                            <ref role="37wK5l" to="mhbf:~SModel.getName()" resolve="getName" />
                           </node>
                         </node>
                         <node concept="liA8E" id="SSjGGIipl2" role="2OqNvi">
-                          <ref role="37wK5l" to="mhbf:~SModelName.getLongName():java.lang.String" resolve="getLongName" />
+                          <ref role="37wK5l" to="mhbf:~SModelName.getLongName()" resolve="getLongName" />
                         </node>
                       </node>
                     </node>
@@ -802,7 +802,7 @@
                   <node concept="2OqwBi" id="5xvu2kSJBS$" role="1m5AlR">
                     <node concept="2kS8pE" id="5xvu2kSJBS_" role="2Oq$k0" />
                     <node concept="liA8E" id="5xvu2kSJBSA" role="2OqNvi">
-                      <ref role="37wK5l" to="uddc:~TransformationMenuContext.getNode():org.jetbrains.mps.openapi.model.SNode" resolve="getNode" />
+                      <ref role="37wK5l" to="uddc:~TransformationMenuContext.getNode()" resolve="getNode" />
                     </node>
                   </node>
                   <node concept="chp4Y" id="2RSm1Cz26ID" role="3oSUPX">
@@ -892,7 +892,7 @@
                   <node concept="2OqwBi" id="5xvu2kSHQQ9" role="1m5AlR">
                     <node concept="2kS8pE" id="5xvu2kSHQQa" role="2Oq$k0" />
                     <node concept="liA8E" id="5xvu2kSHQQb" role="2OqNvi">
-                      <ref role="37wK5l" to="uddc:~TransformationMenuContext.getNode():org.jetbrains.mps.openapi.model.SNode" resolve="getNode" />
+                      <ref role="37wK5l" to="uddc:~TransformationMenuContext.getNode()" resolve="getNode" />
                     </node>
                   </node>
                   <node concept="chp4Y" id="2RSm1Cz26IF" role="3oSUPX">
@@ -1124,7 +1124,7 @@
                   <node concept="2OqwBi" id="4YtCEG_YdDB" role="10QFUP">
                     <node concept="2kS8pE" id="4YtCEG_YdDC" role="2Oq$k0" />
                     <node concept="liA8E" id="4YtCEG_YdDD" role="2OqNvi">
-                      <ref role="37wK5l" to="uddc:~TransformationMenuContext.getNode():org.jetbrains.mps.openapi.model.SNode" resolve="getNode" />
+                      <ref role="37wK5l" to="uddc:~TransformationMenuContext.getNode()" resolve="getNode" />
                     </node>
                   </node>
                 </node>
@@ -1249,7 +1249,7 @@
                   <node concept="2OqwBi" id="4YtCEG_YMab" role="10QFUP">
                     <node concept="2kS8pE" id="4YtCEG_YMac" role="2Oq$k0" />
                     <node concept="liA8E" id="4YtCEG_YMad" role="2OqNvi">
-                      <ref role="37wK5l" to="uddc:~TransformationMenuContext.getNode():org.jetbrains.mps.openapi.model.SNode" resolve="getNode" />
+                      <ref role="37wK5l" to="uddc:~TransformationMenuContext.getNode()" resolve="getNode" />
                     </node>
                   </node>
                 </node>

@@ -222,7 +222,7 @@
                                 <ref role="2Gs0qQ" node="47nSWis73Uh" resolve="model" />
                               </node>
                               <node concept="liA8E" id="47nSWis7ekz" role="2OqNvi">
-                                <ref role="37wK5l" to="mhbf:~SModel.getRootNodes():java.lang.Iterable" resolve="getRootNodes" />
+                                <ref role="37wK5l" to="mhbf:~SModel.getRootNodes()" resolve="getRootNodes" />
                               </node>
                             </node>
                             <node concept="3clFbS" id="47nSWis7djO" role="2LFqv$">

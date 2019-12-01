@@ -423,11 +423,11 @@
                     </node>
                   </node>
                   <node concept="liA8E" id="Y78e7A6$L6" role="2OqNvi">
-                    <ref role="37wK5l" to="mhbf:~SModel.getName():org.jetbrains.mps.openapi.model.SModelName" resolve="getName" />
+                    <ref role="37wK5l" to="mhbf:~SModel.getName()" resolve="getName" />
                   </node>
                 </node>
                 <node concept="liA8E" id="Y78e7A6_aP" role="2OqNvi">
-                  <ref role="37wK5l" to="mhbf:~SModelName.getLongName():java.lang.String" resolve="getLongName" />
+                  <ref role="37wK5l" to="mhbf:~SModelName.getLongName()" resolve="getLongName" />
                 </node>
               </node>
               <node concept="Xl_RD" id="Y78e7A6_A5" role="3uHU7w">
@@ -1465,11 +1465,11 @@
                     </node>
                   </node>
                   <node concept="liA8E" id="7ike8KAOxEK" role="2OqNvi">
-                    <ref role="37wK5l" to="mhbf:~SModel.getName():org.jetbrains.mps.openapi.model.SModelName" resolve="getName" />
+                    <ref role="37wK5l" to="mhbf:~SModel.getName()" resolve="getName" />
                   </node>
                 </node>
                 <node concept="liA8E" id="7ike8KAOy7x" role="2OqNvi">
-                  <ref role="37wK5l" to="mhbf:~SModelName.getLongName():java.lang.String" resolve="getLongName" />
+                  <ref role="37wK5l" to="mhbf:~SModelName.getLongName()" resolve="getLongName" />
                 </node>
               </node>
               <node concept="Xl_RD" id="7ike8KAOytV" role="3uHU7w">
@@ -1763,7 +1763,7 @@
         <node concept="3cpWs6" id="ziWFuXy887" role="3cqZAp">
           <node concept="2YIFZM" id="ziWFuXy888" role="3cqZAk">
             <ref role="1Pybhc" to="3o3z:~Sets" resolve="Sets" />
-            <ref role="37wK5l" to="3o3z:~Sets.newHashSet(java.lang.Object...):java.util.HashSet" resolve="newHashSet" />
+            <ref role="37wK5l" to="3o3z:~Sets.newHashSet(java.lang.Object...)" resolve="newHashSet" />
             <node concept="2OqwBi" id="2RSm1CzrVub" role="37wK5m">
               <node concept="FGMqu" id="2RSm1CzrWun" role="2OqNvi" />
               <node concept="35c_gC" id="2RSm1CzrUPs" role="2Oq$k0">
@@ -2034,7 +2034,7 @@
       <node concept="3clFbS" id="4aOuL3PKwzH" role="3clF47">
         <node concept="3cpWs6" id="4aOuL3PKwzI" role="3cqZAp">
           <node concept="2YIFZM" id="4aOuL3PKwzJ" role="3cqZAk">
-            <ref role="37wK5l" to="3o3z:~Sets.newHashSet(java.lang.Object...):java.util.HashSet" resolve="newHashSet" />
+            <ref role="37wK5l" to="3o3z:~Sets.newHashSet(java.lang.Object...)" resolve="newHashSet" />
             <ref role="1Pybhc" to="3o3z:~Sets" resolve="Sets" />
             <node concept="2OqwBi" id="2RSm1Czs0_R" role="37wK5m">
               <node concept="FGMqu" id="2RSm1Czs1A3" role="2OqNvi" />
@@ -2235,7 +2235,7 @@
                   <ref role="3cqZAo" node="4crFY5uUKt3" resolve="expectedName" />
                 </node>
                 <node concept="liA8E" id="4crFY5uUNcI" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                   <node concept="2OqwBi" id="4crFY5uUNcJ" role="37wK5m">
                     <node concept="13iPFW" id="4crFY5uUNcK" role="2Oq$k0" />
                     <node concept="3TrcHB" id="4crFY5uUNcL" role="2OqNvi">

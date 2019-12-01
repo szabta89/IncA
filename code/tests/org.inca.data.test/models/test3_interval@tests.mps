@@ -228,7 +228,7 @@
             <node concept="2OqwBi" id="1TG$cdoqNnM" role="33vP2m">
               <node concept="1jxXqW" id="1TG$cdoqNnN" role="2Oq$k0" />
               <node concept="liA8E" id="1TG$cdoqNnO" role="2OqNvi">
-                <ref role="37wK5l" to="z1c3:~Project.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
+                <ref role="37wK5l" to="z1c3:~Project.getRepository()" resolve="getRepository" />
               </node>
             </node>
           </node>
@@ -324,7 +324,7 @@
                                     <property role="Xl_RC" value="x" />
                                   </node>
                                   <node concept="liA8E" id="1TG$cdor5vc" role="2OqNvi">
-                                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                                     <node concept="2OqwBi" id="1TG$cdor5vd" role="37wK5m">
                                       <node concept="37vLTw" id="1TG$cdor5ve" role="2Oq$k0">
                                         <ref role="3cqZAo" node="1TG$cdor5vg" resolve="it" />
@@ -373,7 +373,7 @@
                                     <property role="Xl_RC" value="y" />
                                   </node>
                                   <node concept="liA8E" id="1TG$cdor6ZT" role="2OqNvi">
-                                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                                     <node concept="2OqwBi" id="1TG$cdor6ZU" role="37wK5m">
                                       <node concept="37vLTw" id="1TG$cdor6ZV" role="2Oq$k0">
                                         <ref role="3cqZAo" node="1TG$cdor6ZX" resolve="it" />
