@@ -128,7 +128,6 @@
         <child id="6592112598314499028" name="dependencies" index="m$_yJ" />
         <child id="6592112598314499021" name="name" index="m$_yQ" />
         <child id="6592112598314855574" name="containerName" index="m_cZH" />
-        <child id="2172791612906637490" name="description" index="3s6cr7" />
       </concept>
       <concept id="6592112598314498926" name="jetbrains.mps.build.mps.structure.BuildMpsLayout_Plugin" flags="ng" index="m$_wl">
         <reference id="6592112598314801433" name="plugin" index="m_rDy" />
@@ -2562,32 +2561,6 @@
       <node concept="L2wRC" id="41RZVBdsBHt" role="39821P">
         <ref role="L2wRA" node="41RZVBdsAx$" resolve="org.inca.integration.generic.test.lang" />
       </node>
-    </node>
-    <node concept="m$_wf" id="7eF9rfAnzV5" role="3989C9">
-      <property role="m$_wk" value="dummy" />
-      <node concept="3_J27D" id="7eF9rfAnzV6" role="m$_yQ">
-        <node concept="3Mxwew" id="7eF9rfAnzV7" role="3MwsjC">
-          <property role="3MwjfP" value="org.inca.plugin.test" />
-        </node>
-      </node>
-      <node concept="3_J27D" id="7eF9rfAnzV8" role="m_cZH">
-        <node concept="3Mxwew" id="7eF9rfAnzV9" role="3MwsjC">
-          <property role="3MwjfP" value="org.inca.plugin.test" />
-        </node>
-      </node>
-      <node concept="3_J27D" id="7eF9rfAnzVa" role="m$_w8">
-        <node concept="3Mxwey" id="5Jmd_rYpAao" role="3MwsjC">
-          <ref role="3Mxwex" node="5Jmd_rYpA7M" resolve="inca.version" />
-        </node>
-      </node>
-      <node concept="m$_yC" id="7eF9rfAnzVc" role="m$_yJ">
-        <ref role="m$_y1" to="ffeo:5CFKsRWRuFN" resolve="jetbrains.mps.debugger.api" />
-      </node>
-      <node concept="2iUeEo" id="5Jmd_rYp_yY" role="2iVFfd">
-        <property role="2iUeEu" value="org.inca.plugin.test" />
-        <property role="2iUeEt" value="IncA" />
-      </node>
-      <node concept="3_J27D" id="63E4q94ZBGb" role="3s6cr7" />
     </node>
     <node concept="2G$12M" id="7eF9rfAnzVd" role="3989C9">
       <property role="TrG5h" value="org.inca.tests" />
