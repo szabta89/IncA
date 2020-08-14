@@ -2,7 +2,7 @@
 <model ref="r:758bd704-3a6f-448b-889c-cbce5c88424b(org.inca.fun.test.model1)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
   </languages>
   <imports>
@@ -34,9 +34,6 @@
       </concept>
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
-      </concept>
-      <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
-        <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
       <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
         <reference id="1144433057691" name="classifier" index="1PxDUh" />
@@ -439,55 +436,6 @@
     </node>
     <node concept="2tJIrI" id="6IScWK1VrbG" role="jymVt" />
     <node concept="3Tm1VV" id="6IScWK1Vrbh" role="1B3o_S" />
-  </node>
-  <node concept="312cEu" id="6IScWK1VsJ1">
-    <property role="TrG5h" value="DM_RUN_FINALIZERS_ON_EXIT" />
-    <node concept="2tJIrI" id="6IScWK1VsJf" role="jymVt" />
-    <node concept="3clFb_" id="6IScWK1VsJX" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="m1" />
-      <property role="od$2w" value="false" />
-      <property role="DiZV1" value="false" />
-      <property role="2aFKle" value="false" />
-      <node concept="3clFbS" id="6IScWK1VsK0" role="3clF47">
-        <node concept="3clFbF" id="6IScWK1VsKE" role="3cqZAp">
-          <node concept="2YIFZM" id="6IScWK1VsL8" role="3clFbG">
-            <ref role="37wK5l" to="wyt6:~Runtime.runFinalizersOnExit(boolean)" resolve="runFinalizersOnExit" />
-            <ref role="1Pybhc" to="wyt6:~Runtime" resolve="Runtime" />
-            <node concept="3clFbT" id="6IScWK1VsTj" role="37wK5m">
-              <property role="3clFbU" value="true" />
-            </node>
-          </node>
-          <node concept="15s5l7" id="6IScWK1VAeu" role="lGtFl" />
-        </node>
-      </node>
-      <node concept="3Tm1VV" id="6IScWK1VsJ$" role="1B3o_S" />
-      <node concept="3cqZAl" id="6IScWK1VsJP" role="3clF45" />
-    </node>
-    <node concept="2tJIrI" id="6IScWK1VsLt" role="jymVt" />
-    <node concept="3clFb_" id="6IScWK1Vuk9" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="m2" />
-      <property role="od$2w" value="false" />
-      <property role="DiZV1" value="false" />
-      <property role="2aFKle" value="false" />
-      <node concept="3clFbS" id="6IScWK1Vukc" role="3clF47">
-        <node concept="3clFbF" id="6IScWK1Vul6" role="3cqZAp">
-          <node concept="2YIFZM" id="6IScWK1Vul$" role="3clFbG">
-            <ref role="37wK5l" to="wyt6:~System.runFinalizersOnExit(boolean)" resolve="runFinalizersOnExit" />
-            <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
-            <node concept="3clFbT" id="6IScWK1Vum8" role="37wK5m">
-              <property role="3clFbU" value="true" />
-            </node>
-          </node>
-          <node concept="15s5l7" id="6IScWK1VAg9" role="lGtFl" />
-        </node>
-      </node>
-      <node concept="3Tm1VV" id="6IScWK1VsMb" role="1B3o_S" />
-      <node concept="3cqZAl" id="6IScWK1Vuk1" role="3clF45" />
-    </node>
-    <node concept="2tJIrI" id="6IScWK1VsJn" role="jymVt" />
-    <node concept="3Tm1VV" id="6IScWK1VsJ2" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="6IScWK1VvHW">
     <property role="TrG5h" value="HE_EQUALS_USE_HASHCODE" />

@@ -2,9 +2,9 @@
 <model ref="r:a96f1052-bd9d-4afc-9906-de8b5939c032(org.inca.data.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="13" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
     <use id="9d69e719-78c8-4286-90db-fb19c107d049" name="com.mbeddr.mpsutil.grammarcells" version="-1" />
     <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   </languages>
@@ -290,9 +290,7 @@
     <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
       <concept id="5455284157993911077" name="jetbrains.mps.lang.quotation.structure.NodeBuilderInitProperty" flags="ng" index="2pJxcG">
         <reference id="5455284157993911078" name="property" index="2pJxcJ" />
-      </concept>
-      <concept id="5455284157993911097" name="jetbrains.mps.lang.quotation.structure.NodeBuilderInitPart" flags="ng" index="2pJxcK">
-        <child id="5455284157993911094" name="expression" index="2pJxcZ" />
+        <child id="1595412875168045201" name="initValue" index="28ntcv" />
       </concept>
       <concept id="5455284157993863837" name="jetbrains.mps.lang.quotation.structure.NodeBuilder" flags="nn" index="2pJPEk">
         <child id="5455284157993863838" name="quotedNode" index="2pJPEn" />
@@ -1442,7 +1440,7 @@
       </node>
       <node concept="3F1sOY" id="fDoUsrO" role="3EZMnx">
         <property role="1$x2rV" value="&lt;no return type&gt;" />
-        <property role="1cu_pB" value="2" />
+        <property role="1cu_pB" value="gtguBGO/firstEditableCell" />
         <ref role="1NtTu8" to="tpee:fzclF7X" resolve="returnType" />
       </node>
       <node concept="3F0ifn" id="6h60itP$31y" role="3EZMnx">
@@ -1708,7 +1706,7 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VechU" id="hQ6p9Zf" role="3F10Kt">
-          <property role="Vb096" value="DARK_BLUE" />
+          <property role="Vb096" value="g1_eI4o/darkBlue" />
         </node>
         <node concept="11LMrY" id="4crFY5vaauX" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -1731,7 +1729,7 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VechU" id="4crFY5vaav9" role="3F10Kt">
-          <property role="Vb096" value="DARK_BLUE" />
+          <property role="Vb096" value="g1_eI4o/darkBlue" />
         </node>
         <node concept="11LMrY" id="4crFY5vaava" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -1793,7 +1791,7 @@
                   <node concept="1OKiuA" id="4crFY5vpx52" role="2OqNvi">
                     <node concept="1Q80Hx" id="4crFY5vpx74" role="lBI5i" />
                     <node concept="2B6iha" id="4crFY5vpx95" role="lGT1i">
-                      <property role="1lyBwo" value="lastEditable" />
+                      <property role="1lyBwo" value="1S2pyLby17D/lastEditable" />
                     </node>
                     <node concept="3cmrfG" id="4crFY5vqNOu" role="3dN3m$">
                       <property role="3cmrfH" value="-1" />
@@ -1818,7 +1816,7 @@
                     <ref role="2pJxaS" to="uu1k:4crFY5veme9" resolve="DataConstructorParameterAccessor" />
                     <node concept="2pJxcG" id="4crFY5vly3D" role="2pJxcM">
                       <ref role="2pJxcJ" to="uu1k:4crFY5vemfF" resolve="index" />
-                      <node concept="2ZBlsa" id="4crFY5vly3E" role="2pJxcZ" />
+                      <node concept="2ZBlsa" id="4crFY5vly3E" role="28ntcv" />
                     </node>
                   </node>
                 </node>

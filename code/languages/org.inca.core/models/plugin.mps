@@ -85,7 +85,6 @@
     </language>
     <language id="696c1165-4a59-463b-bc5d-902caab85dd0" name="jetbrains.mps.make.facet">
       <concept id="6418371274763029565" name="jetbrains.mps.make.facet.structure.TargetDeclaration" flags="ng" index="15KeUm">
-        <property id="1675547159918562088" name="resourcesPolicy" index="2w7fpF" />
         <child id="2360002718792633290" name="job" index="ElM8M" />
         <child id="6418371274763146553" name="dependency" index="15LFui" />
         <child id="119022571401949665" name="output" index="3D36I4" />
@@ -167,7 +166,6 @@
     <property role="TrG5h" value="Cleanup" />
     <node concept="15KeUm" id="1OEz4kkbZNd" role="15LFul">
       <property role="TrG5h" value="unregisterListeners" />
-      <property role="2w7fpF" value="TRANSFORM" />
       <node concept="15KeVb" id="1OEz4kkjfO8" role="15LFui">
         <ref role="15KeV8" to="tpcq:5L5h3brvz7k" resolve="checkParameters" />
       </node>

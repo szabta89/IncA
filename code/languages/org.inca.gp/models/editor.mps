@@ -2,9 +2,9 @@
 <model ref="r:bc16ef10-9f09-4540-9cb7-941117b2dffd(org.inca.gp.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="13" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
     <use id="9d69e719-78c8-4286-90db-fb19c107d049" name="com.mbeddr.mpsutil.grammarcells" version="0" />
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="4" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
@@ -226,6 +226,9 @@
       <concept id="767145758118872830" name="jetbrains.mps.lang.actions.structure.NF_Link_SetNewChildOperation" flags="nn" index="2DeJnY" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="4705942098322467729" name="jetbrains.mps.lang.smodel.structure.EnumMemberReference" flags="ng" index="21nZrQ">
+        <reference id="4705942098322467736" name="decl" index="21nZrZ" />
+      </concept>
       <concept id="1179168000618" name="jetbrains.mps.lang.smodel.structure.Node_GetIndexInParentOperation" flags="nn" index="2bSWHS" />
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
@@ -233,9 +236,6 @@
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1138661924179" name="jetbrains.mps.lang.smodel.structure.Property_SetOperation" flags="nn" index="tyxLq">
         <child id="1138662048170" name="value" index="tz02z" />
-      </concept>
-      <concept id="1138676077309" name="jetbrains.mps.lang.smodel.structure.EnumMemberReference" flags="nn" index="uoxfO">
-        <reference id="1138676095763" name="enumMember" index="uo_Cq" />
       </concept>
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
@@ -359,7 +359,7 @@
     <ref role="1XX52x" to="55iy:1ERTnBTmryq" resolve="GraphPatternBody" />
     <node concept="3EZMnI" id="hzePLP2" role="2wV5jI">
       <node concept="LD5Jc" id="hH01COl" role="3F10Kt">
-        <property role="LDHlv" value="next-line" />
+        <property role="LDHlv" value="hGLCI6j/next_line" />
       </node>
       <node concept="3EZMnI" id="RjyNaq0wrl" role="3EZMnx">
         <node concept="VPM3Z" id="RjyNaq0wrn" role="3F10Kt">
@@ -493,8 +493,8 @@
         <property role="3F0ifm" value="find" />
         <ref role="1k5W1q" to="3sc9:2CEi94dgHKA" resolve="KeyWord" />
       </node>
-      <node concept="3F1sOY" id="RjyNaq440D" role="3EZMnx">
-        <ref role="1NtTu8" to="55iy:RjyNaq43ZO" resolve="call" />
+      <node concept="3F1sOY" id="7wGc0kb6W$4" role="3EZMnx">
+        <ref role="1NtTu8" to="55iy:RjyNaq43ZO" resolve="patternCall" />
       </node>
       <node concept="l2Vlx" id="RjyNaq440j" role="2iSdaV" />
     </node>
@@ -981,7 +981,7 @@
     <property role="TrG5h" value="GraphPatternPathExpressionConstraint_ActionMap" />
     <ref role="1h_SK9" to="55iy:RjyNapTDgY" resolve="PathExpressionConstraint" />
     <node concept="1hA7zw" id="nrkjVh5NSm" role="1h_SK8">
-      <property role="1hAc7j" value="backspace_action_id" />
+      <property role="1hAc7j" value="7P1WhNABvta/backspace_action_id" />
       <node concept="1hAIg9" id="nrkjVh5NSn" role="1hA7z_">
         <node concept="3clFbS" id="nrkjVh5NSo" role="2VODD2">
           <node concept="3cpWs8" id="nrkjVh5O1e" role="3cqZAp">
@@ -1101,12 +1101,12 @@
                     <ref role="3cqZAo" node="4YtCEG_YacZ" resolve="constraint" />
                   </node>
                   <node concept="3TrcHB" id="4YtCEG_YQV5" role="2OqNvi">
-                    <ref role="3TsBF5" to="hqsm:7i4WCRX$8_B" resolve="feature" />
+                    <ref role="3TsBF5" to="hqsm:7g8_0qqexCR" resolve="feature" />
                   </node>
                 </node>
                 <node concept="tyxLq" id="4YtCEG_YQV6" role="2OqNvi">
-                  <node concept="uoxfO" id="4YtCEG_YQV7" role="tz02z">
-                    <ref role="uo_Cq" to="hqsm:RjyNapTFJR" />
+                  <node concept="21nZrQ" id="7g8_0qqf79a" role="tz02z">
+                    <ref role="21nZrZ" to="hqsm:7g8_0qqetqI" resolve="equality" />
                   </node>
                 </node>
               </node>
@@ -1226,12 +1226,12 @@
                     <ref role="3cqZAo" node="4YtCEG_YMa1" resolve="constraint" />
                   </node>
                   <node concept="3TrcHB" id="4YtCEG_YNMs" role="2OqNvi">
-                    <ref role="3TsBF5" to="hqsm:7i4WCRX$8_B" resolve="feature" />
+                    <ref role="3TsBF5" to="hqsm:7g8_0qqexCR" resolve="feature" />
                   </node>
                 </node>
                 <node concept="tyxLq" id="4YtCEG_YQcz" role="2OqNvi">
-                  <node concept="uoxfO" id="4YtCEG_YQvZ" role="tz02z">
-                    <ref role="uo_Cq" to="hqsm:RjyNapTFJS" />
+                  <node concept="21nZrQ" id="7g8_0qqf79b" role="tz02z">
+                    <ref role="21nZrZ" to="hqsm:7g8_0qqetqJ" resolve="inequality" />
                   </node>
                 </node>
               </node>
@@ -1324,8 +1324,8 @@
         <ref role="1NtTu8" to="hqsm:7i4WCRX$8$q" resolve="left" />
       </node>
       <node concept="3F0A7n" id="14BIdL0kx5F" role="3EZMnx">
-        <ref role="1NtTu8" to="hqsm:7i4WCRX$8_B" resolve="feature" />
         <ref role="1ERwB7" node="4YtCEG_ZnYL" resolve="GraphPatternCompareConstraint_ActionMap" />
+        <ref role="1NtTu8" to="hqsm:7g8_0qqexCR" resolve="feature" />
       </node>
       <node concept="3F1sOY" id="4YtCEG_OXOv" role="3EZMnx">
         <ref role="1NtTu8" to="hqsm:7i4WCRX$8$t" resolve="right" />
@@ -1338,7 +1338,7 @@
     <property role="TrG5h" value="GraphPatternCompareConstraint_ActionMap" />
     <ref role="1h_SK9" to="55iy:1i65yRAR_fk" resolve="GraphPatternCompareConstraint" />
     <node concept="1hA7zw" id="4YtCEG_ZnYM" role="1h_SK8">
-      <property role="1hAc7j" value="backspace_action_id" />
+      <property role="1hAc7j" value="7P1WhNABvta/backspace_action_id" />
       <node concept="1hAIg9" id="4YtCEG_ZnYN" role="1hA7z_">
         <node concept="3clFbS" id="4YtCEG_ZnYO" role="2VODD2">
           <node concept="3cpWs8" id="4YtCEG_Zonf" role="3cqZAp">
@@ -1388,7 +1388,7 @@
       </node>
     </node>
     <node concept="1hA7zw" id="4YtCEG_Zq7f" role="1h_SK8">
-      <property role="1hAc7j" value="delete_action_id" />
+      <property role="1hAc7j" value="g_hAxAO/delete_action_id" />
       <node concept="1hAIg9" id="4YtCEG_Zq7g" role="1hA7z_">
         <node concept="3clFbS" id="4YtCEG_Zq7h" role="2VODD2">
           <node concept="3cpWs8" id="4YtCEG_Zq7i" role="3cqZAp">

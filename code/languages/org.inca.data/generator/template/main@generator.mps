@@ -2,9 +2,10 @@
 <model ref="r:f1e81aa1-bf14-4d0c-a467-c773b57d5bbb(org.inca.data.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="-1" />
+    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="4" />
     <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="-1" />
-    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="1" />
+    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="2" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
   </languages>
   <imports>
@@ -251,11 +252,8 @@
         <child id="1144231399730" name="condition" index="1Dwp0S" />
         <child id="1144231408325" name="iteration" index="1Dwrff" />
       </concept>
-      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
-        <property id="6329021646629104958" name="text" index="3SKdUp" />
-      </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+        <child id="1350122676458893092" name="text" index="3ndbpf" />
       </concept>
       <concept id="2580416627845338977" name="jetbrains.mps.baseLanguage.structure.ImplicitAnnotationInstanceValue" flags="ng" index="1SXeKx" />
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
@@ -396,9 +394,7 @@
     <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
       <concept id="5455284157994012186" name="jetbrains.mps.lang.quotation.structure.NodeBuilderInitLink" flags="ng" index="2pIpSj">
         <reference id="5455284157994012188" name="link" index="2pIpSl" />
-      </concept>
-      <concept id="5455284157993911097" name="jetbrains.mps.lang.quotation.structure.NodeBuilderInitPart" flags="ng" index="2pJxcK">
-        <child id="5455284157993911094" name="expression" index="2pJxcZ" />
+        <child id="1595412875168045827" name="initValue" index="28nt2d" />
       </concept>
       <concept id="5455284157993863837" name="jetbrains.mps.lang.quotation.structure.NodeBuilder" flags="nn" index="2pJPEk">
         <child id="5455284157993863838" name="quotedNode" index="2pJPEn" />
@@ -412,6 +408,10 @@
       <concept id="4733039728785194814" name="jetbrains.mps.lang.modelapi.structure.NamedNodeReference" flags="ng" index="ZC_QK">
         <reference id="7256306938026143658" name="target" index="2aWVGs" />
       </concept>
+      <concept id="361130699826193249" name="jetbrains.mps.lang.modelapi.structure.ModulePointer" flags="ng" index="1dCxOk">
+        <property id="1863527487546097500" name="moduleId" index="1XweGW" />
+        <property id="1863527487545993577" name="moduleName" index="1XxBO9" />
+      </concept>
     </language>
     <language id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem">
       <concept id="1176543928247" name="jetbrains.mps.lang.typesystem.structure.IsSubtypeExpression" flags="nn" index="3JuTUA">
@@ -421,10 +421,6 @@
       <concept id="1176544042499" name="jetbrains.mps.lang.typesystem.structure.Node_TypeOperation" flags="nn" index="3JvlWi" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
-      <concept id="427659576753752243" name="jetbrains.mps.lang.smodel.structure.ModulePointer" flags="ng" index="20RdaH">
-        <property id="427659576753753627" name="moduleId" index="20Rdg5" />
-        <property id="427659576753753625" name="moduleName" index="20Rdg7" />
-      </concept>
       <concept id="1179168000618" name="jetbrains.mps.lang.smodel.structure.Node_GetIndexInParentOperation" flags="nn" index="2bSWHS" />
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
@@ -503,6 +499,14 @@
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
       <concept id="4222318806802425298" name="jetbrains.mps.lang.core.structure.SuppressErrorsAnnotation" flags="ng" index="15s5l7" />
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
+      </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="1204796164442" name="jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation" flags="nn" index="23sCx2">
@@ -634,8 +638,34 @@
             <node concept="15s5l7" id="oNpFNpbf$F" role="lGtFl" />
           </node>
           <node concept="3SKdUt" id="oNpFNpb8ix" role="3cqZAp">
-            <node concept="3SKdUq" id="oNpFNpb8iz" role="3SKWNk">
-              <property role="3SKdUp" value="either this is not within the first match case" />
+            <node concept="1PaTwC" id="7g8_0qqf7_E" role="3ndbpf">
+              <node concept="3oM_SD" id="7g8_0qqf7_F" role="1PaTwD">
+                <property role="3oM_SC" value="either" />
+              </node>
+              <node concept="3oM_SD" id="7g8_0qqf7_G" role="1PaTwD">
+                <property role="3oM_SC" value="this" />
+              </node>
+              <node concept="3oM_SD" id="7g8_0qqf7_H" role="1PaTwD">
+                <property role="3oM_SC" value="is" />
+              </node>
+              <node concept="3oM_SD" id="7g8_0qqf7_I" role="1PaTwD">
+                <property role="3oM_SC" value="not" />
+              </node>
+              <node concept="3oM_SD" id="7g8_0qqf7_J" role="1PaTwD">
+                <property role="3oM_SC" value="within" />
+              </node>
+              <node concept="3oM_SD" id="7g8_0qqf7_K" role="1PaTwD">
+                <property role="3oM_SC" value="the" />
+              </node>
+              <node concept="3oM_SD" id="7g8_0qqf7_L" role="1PaTwD">
+                <property role="3oM_SC" value="first" />
+              </node>
+              <node concept="3oM_SD" id="7g8_0qqf7_M" role="1PaTwD">
+                <property role="3oM_SC" value="match" />
+              </node>
+              <node concept="3oM_SD" id="7g8_0qqf7_N" role="1PaTwD">
+                <property role="3oM_SC" value="case" />
+              </node>
             </node>
           </node>
           <node concept="3clFbF" id="oNpFNpb5xe" role="3cqZAp">
@@ -664,8 +694,31 @@
           <node concept="3clFbJ" id="oNpFNpb706" role="3cqZAp">
             <node concept="3clFbS" id="oNpFNpb708" role="3clFbx">
               <node concept="3SKdUt" id="oNpFNpb8PP" role="3cqZAp">
-                <node concept="3SKdUq" id="oNpFNpb8PR" role="3SKWNk">
-                  <property role="3SKdUp" value="or it is within the first match case" />
+                <node concept="1PaTwC" id="7g8_0qqf7_O" role="3ndbpf">
+                  <node concept="3oM_SD" id="7g8_0qqf7_P" role="1PaTwD">
+                    <property role="3oM_SC" value="or" />
+                  </node>
+                  <node concept="3oM_SD" id="7g8_0qqf7_Q" role="1PaTwD">
+                    <property role="3oM_SC" value="it" />
+                  </node>
+                  <node concept="3oM_SD" id="7g8_0qqf7_R" role="1PaTwD">
+                    <property role="3oM_SC" value="is" />
+                  </node>
+                  <node concept="3oM_SD" id="7g8_0qqf7_S" role="1PaTwD">
+                    <property role="3oM_SC" value="within" />
+                  </node>
+                  <node concept="3oM_SD" id="7g8_0qqf7_T" role="1PaTwD">
+                    <property role="3oM_SC" value="the" />
+                  </node>
+                  <node concept="3oM_SD" id="7g8_0qqf7_U" role="1PaTwD">
+                    <property role="3oM_SC" value="first" />
+                  </node>
+                  <node concept="3oM_SD" id="7g8_0qqf7_V" role="1PaTwD">
+                    <property role="3oM_SC" value="match" />
+                  </node>
+                  <node concept="3oM_SD" id="7g8_0qqf7_W" role="1PaTwD">
+                    <property role="3oM_SC" value="case" />
+                  </node>
                 </node>
               </node>
               <node concept="3clFbF" id="oNpFNpb96N" role="3cqZAp">
@@ -779,8 +832,34 @@
             <node concept="15s5l7" id="oNpFNpbgbr" role="lGtFl" />
           </node>
           <node concept="3SKdUt" id="oNpFNpbcQx" role="3cqZAp">
-            <node concept="3SKdUq" id="oNpFNpbcQy" role="3SKWNk">
-              <property role="3SKdUp" value="either this is not within the first match case" />
+            <node concept="1PaTwC" id="7g8_0qqf7_X" role="3ndbpf">
+              <node concept="3oM_SD" id="7g8_0qqf7_Y" role="1PaTwD">
+                <property role="3oM_SC" value="either" />
+              </node>
+              <node concept="3oM_SD" id="7g8_0qqf7_Z" role="1PaTwD">
+                <property role="3oM_SC" value="this" />
+              </node>
+              <node concept="3oM_SD" id="7g8_0qqf7A0" role="1PaTwD">
+                <property role="3oM_SC" value="is" />
+              </node>
+              <node concept="3oM_SD" id="7g8_0qqf7A1" role="1PaTwD">
+                <property role="3oM_SC" value="not" />
+              </node>
+              <node concept="3oM_SD" id="7g8_0qqf7A2" role="1PaTwD">
+                <property role="3oM_SC" value="within" />
+              </node>
+              <node concept="3oM_SD" id="7g8_0qqf7A3" role="1PaTwD">
+                <property role="3oM_SC" value="the" />
+              </node>
+              <node concept="3oM_SD" id="7g8_0qqf7A4" role="1PaTwD">
+                <property role="3oM_SC" value="first" />
+              </node>
+              <node concept="3oM_SD" id="7g8_0qqf7A5" role="1PaTwD">
+                <property role="3oM_SC" value="match" />
+              </node>
+              <node concept="3oM_SD" id="7g8_0qqf7A6" role="1PaTwD">
+                <property role="3oM_SC" value="case" />
+              </node>
             </node>
           </node>
           <node concept="3clFbF" id="oNpFNpbcQz" role="3cqZAp">
@@ -809,8 +888,31 @@
           <node concept="3clFbJ" id="oNpFNpbcQI" role="3cqZAp">
             <node concept="3clFbS" id="oNpFNpbcQJ" role="3clFbx">
               <node concept="3SKdUt" id="oNpFNpbcQK" role="3cqZAp">
-                <node concept="3SKdUq" id="oNpFNpbcQL" role="3SKWNk">
-                  <property role="3SKdUp" value="or it is within the first match case" />
+                <node concept="1PaTwC" id="7g8_0qqf7A7" role="3ndbpf">
+                  <node concept="3oM_SD" id="7g8_0qqf7A8" role="1PaTwD">
+                    <property role="3oM_SC" value="or" />
+                  </node>
+                  <node concept="3oM_SD" id="7g8_0qqf7A9" role="1PaTwD">
+                    <property role="3oM_SC" value="it" />
+                  </node>
+                  <node concept="3oM_SD" id="7g8_0qqf7Aa" role="1PaTwD">
+                    <property role="3oM_SC" value="is" />
+                  </node>
+                  <node concept="3oM_SD" id="7g8_0qqf7Ab" role="1PaTwD">
+                    <property role="3oM_SC" value="within" />
+                  </node>
+                  <node concept="3oM_SD" id="7g8_0qqf7Ac" role="1PaTwD">
+                    <property role="3oM_SC" value="the" />
+                  </node>
+                  <node concept="3oM_SD" id="7g8_0qqf7Ad" role="1PaTwD">
+                    <property role="3oM_SC" value="first" />
+                  </node>
+                  <node concept="3oM_SD" id="7g8_0qqf7Ae" role="1PaTwD">
+                    <property role="3oM_SC" value="match" />
+                  </node>
+                  <node concept="3oM_SD" id="7g8_0qqf7Af" role="1PaTwD">
+                    <property role="3oM_SC" value="case" />
+                  </node>
                 </node>
               </node>
               <node concept="3clFbF" id="oNpFNpbcQM" role="3cqZAp">
@@ -2937,8 +3039,31 @@
               </node>
               <node concept="3clFbH" id="oNpFNpbH7A" role="3cqZAp" />
               <node concept="3SKdUt" id="oNpFNpbIIe" role="3cqZAp">
-                <node concept="3SKdUq" id="oNpFNpbIIg" role="3SKWNk">
-                  <property role="3SKdUp" value="declare the local variables for the case matchers" />
+                <node concept="1PaTwC" id="7g8_0qqf7Ag" role="3ndbpf">
+                  <node concept="3oM_SD" id="7g8_0qqf7Ah" role="1PaTwD">
+                    <property role="3oM_SC" value="declare" />
+                  </node>
+                  <node concept="3oM_SD" id="7g8_0qqf7Ai" role="1PaTwD">
+                    <property role="3oM_SC" value="the" />
+                  </node>
+                  <node concept="3oM_SD" id="7g8_0qqf7Aj" role="1PaTwD">
+                    <property role="3oM_SC" value="local" />
+                  </node>
+                  <node concept="3oM_SD" id="7g8_0qqf7Ak" role="1PaTwD">
+                    <property role="3oM_SC" value="variables" />
+                  </node>
+                  <node concept="3oM_SD" id="7g8_0qqf7Al" role="1PaTwD">
+                    <property role="3oM_SC" value="for" />
+                  </node>
+                  <node concept="3oM_SD" id="7g8_0qqf7Am" role="1PaTwD">
+                    <property role="3oM_SC" value="the" />
+                  </node>
+                  <node concept="3oM_SD" id="7g8_0qqf7An" role="1PaTwD">
+                    <property role="3oM_SC" value="case" />
+                  </node>
+                  <node concept="3oM_SD" id="7g8_0qqf7Ao" role="1PaTwD">
+                    <property role="3oM_SC" value="matchers" />
+                  </node>
                 </node>
               </node>
               <node concept="3cpWs8" id="25AxjW2RcnG" role="3cqZAp">
@@ -3565,7 +3690,7 @@
   </node>
   <node concept="1pmfR0" id="606mdnYjXfG">
     <property role="TrG5h" value="rewriteLatticeAggregation" />
-    <property role="1v3f2W" value="pre_processing" />
+    <property role="1v3f2W" value="hpv1Zf2/pre_processing" />
     <property role="1v3jST" value="true" />
     <property role="3GE5qa" value="scripts" />
     <node concept="1pplIY" id="606mdnYjXfH" role="1pqMTA">
@@ -4995,8 +5120,22 @@
             <node concept="3clFbJ" id="6CmzIMnm3TT" role="3cqZAp">
               <node concept="3clFbS" id="6CmzIMnm3TV" role="3clFbx">
                 <node concept="3SKdUt" id="6CmzIMnm80o" role="3cqZAp">
-                  <node concept="3SKdUq" id="6CmzIMnm80q" role="3SKWNk">
-                    <property role="3SKdUp" value="it is safe to cast" />
+                  <node concept="1PaTwC" id="7g8_0qqf7Ap" role="3ndbpf">
+                    <node concept="3oM_SD" id="7g8_0qqf7Aq" role="1PaTwD">
+                      <property role="3oM_SC" value="it" />
+                    </node>
+                    <node concept="3oM_SD" id="7g8_0qqf7Ar" role="1PaTwD">
+                      <property role="3oM_SC" value="is" />
+                    </node>
+                    <node concept="3oM_SD" id="7g8_0qqf7As" role="1PaTwD">
+                      <property role="3oM_SC" value="safe" />
+                    </node>
+                    <node concept="3oM_SD" id="7g8_0qqf7At" role="1PaTwD">
+                      <property role="3oM_SC" value="to" />
+                    </node>
+                    <node concept="3oM_SD" id="7g8_0qqf7Au" role="1PaTwD">
+                      <property role="3oM_SC" value="cast" />
+                    </node>
                   </node>
                 </node>
                 <node concept="3cpWs8" id="6CmzIMnm8kx" role="3cqZAp">
@@ -6505,7 +6644,7 @@
                                       <ref role="2pJxaS" to="tp2q:6bxRKqX8naM" resolve="CollectionType" />
                                       <node concept="2pIpSj" id="ADbz7um39b" role="2pJxcM">
                                         <ref role="2pIpSl" to="tp2q:4VG9JMUYces" resolve="elementType" />
-                                        <node concept="2pJPED" id="ADbz7um3tr" role="2pJxcZ">
+                                        <node concept="2pJPED" id="ADbz7um3tr" role="28nt2d">
                                           <ref role="2pJxaS" to="tp25:gzTqbfa" resolve="SNodeType" />
                                         </node>
                                       </node>
@@ -7175,12 +7314,29 @@
   <node concept="1pmfR0" id="5u2_tzjX1a">
     <property role="3GE5qa" value="scripts" />
     <property role="TrG5h" value="checkLatticeUsage" />
-    <property role="1v3f2W" value="pre_processing" />
+    <property role="1v3f2W" value="hpv1Zf2/pre_processing" />
     <node concept="1pplIY" id="5u2_tzjX1b" role="1pqMTA">
       <node concept="3clFbS" id="5u2_tzjX1c" role="2VODD2">
         <node concept="3SKdUt" id="5u2_tzjXPy" role="3cqZAp">
-          <node concept="3SKdUq" id="5u2_tzjXP$" role="3SKWNk">
-            <property role="3SKdUp" value="Use reflection to ensure correct bootstrapping" />
+          <node concept="1PaTwC" id="7g8_0qqf7Av" role="3ndbpf">
+            <node concept="3oM_SD" id="7g8_0qqf7Aw" role="1PaTwD">
+              <property role="3oM_SC" value="Use" />
+            </node>
+            <node concept="3oM_SD" id="7g8_0qqf7Ax" role="1PaTwD">
+              <property role="3oM_SC" value="reflection" />
+            </node>
+            <node concept="3oM_SD" id="7g8_0qqf7Ay" role="1PaTwD">
+              <property role="3oM_SC" value="to" />
+            </node>
+            <node concept="3oM_SD" id="7g8_0qqf7Az" role="1PaTwD">
+              <property role="3oM_SC" value="ensure" />
+            </node>
+            <node concept="3oM_SD" id="7g8_0qqf7A$" role="1PaTwD">
+              <property role="3oM_SC" value="correct" />
+            </node>
+            <node concept="3oM_SD" id="7g8_0qqf7A_" role="1PaTwD">
+              <property role="3oM_SC" value="bootstrapping" />
+            </node>
           </node>
         </node>
         <node concept="3cpWs8" id="5u2_tznlcp" role="3cqZAp">
@@ -7203,9 +7359,9 @@
             </node>
             <node concept="2OqwBi" id="5u2_tzr9vX" role="33vP2m">
               <node concept="37shsh" id="5u2_tzr8qI" role="2Oq$k0">
-                <node concept="20RdaH" id="5FbNFMJCuNP" role="37shsm">
-                  <property role="20Rdg5" value="8d229d59-8739-4677-a240-23d8a9ef55b6" />
-                  <property role="20Rdg7" value="org.inca.meta.analysis" />
+                <node concept="1dCxOk" id="7g8_0qqf77T" role="37shsm">
+                  <property role="1XxBO9" value="org.inca.meta.analysis" />
+                  <property role="1XweGW" value="8d229d59-8739-4677-a240-23d8a9ef55b6" />
                 </node>
               </node>
               <node concept="liA8E" id="5u2_tzra2V" role="2OqNvi">

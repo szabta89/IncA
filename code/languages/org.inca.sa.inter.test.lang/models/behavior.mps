@@ -44,9 +44,7 @@
     <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
       <concept id="5455284157993911077" name="jetbrains.mps.lang.quotation.structure.NodeBuilderInitProperty" flags="ng" index="2pJxcG">
         <reference id="5455284157993911078" name="property" index="2pJxcJ" />
-      </concept>
-      <concept id="5455284157993911097" name="jetbrains.mps.lang.quotation.structure.NodeBuilderInitPart" flags="ng" index="2pJxcK">
-        <child id="5455284157993911094" name="expression" index="2pJxcZ" />
+        <child id="1595412875168045201" name="initValue" index="28ntcv" />
       </concept>
       <concept id="5455284157993863837" name="jetbrains.mps.lang.quotation.structure.NodeBuilder" flags="nn" index="2pJPEk">
         <child id="5455284157993863838" name="quotedNode" index="2pJPEn" />
@@ -101,7 +99,7 @@
                 <ref role="2pJxaS" to="5r84:1gVl_oH377Z" resolve="Variable" />
                 <node concept="2pJxcG" id="1gVl_oH61Qs" role="2pJxcM">
                   <ref role="2pJxcJ" to="tpck:h0TrG11" resolve="name" />
-                  <node concept="Xl_RD" id="1gVl_oH61SH" role="2pJxcZ">
+                  <node concept="Xl_RD" id="1gVl_oH61SH" role="28ntcv">
                     <property role="Xl_RC" value="0" />
                   </node>
                 </node>

@@ -2,12 +2,12 @@
 <model ref="r:d2d84e6c-cf0c-4ca7-a9fa-ec9e67ca1098(org.inca.data.runtime.plugin)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="-1" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="13" />
-    <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="1" />
-    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="-1" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
+    <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="3" />
+    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="4" />
   </languages>
   <imports>
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
@@ -232,11 +232,8 @@
       </concept>
       <concept id="1107796713796" name="jetbrains.mps.baseLanguage.structure.Interface" flags="ig" index="3HP615" />
       <concept id="1208890769693" name="jetbrains.mps.baseLanguage.structure.ArrayLengthOperation" flags="nn" index="1Rwk04" />
-      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
-        <property id="6329021646629104958" name="text" index="3SKdUp" />
-      </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+        <child id="1350122676458893092" name="text" index="3ndbpf" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
@@ -287,9 +284,7 @@
     <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
       <concept id="5455284157994012186" name="jetbrains.mps.lang.quotation.structure.NodeBuilderInitLink" flags="ng" index="2pIpSj">
         <reference id="5455284157994012188" name="link" index="2pIpSl" />
-      </concept>
-      <concept id="5455284157993911097" name="jetbrains.mps.lang.quotation.structure.NodeBuilderInitPart" flags="ng" index="2pJxcK">
-        <child id="5455284157993911094" name="expression" index="2pJxcZ" />
+        <child id="1595412875168045827" name="initValue" index="28nt2d" />
       </concept>
       <concept id="5455284157993863837" name="jetbrains.mps.lang.quotation.structure.NodeBuilder" flags="nn" index="2pJPEk">
         <child id="5455284157993863838" name="quotedNode" index="2pJPEn" />
@@ -371,6 +366,14 @@
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
       <concept id="4222318806802425298" name="jetbrains.mps.lang.core.structure.SuppressErrorsAnnotation" flags="ng" index="15s5l7" />
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
+      </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="1204796164442" name="jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation" flags="nn" index="23sCx2">
@@ -3754,8 +3757,16 @@
             </node>
             <node concept="3clFbH" id="aQnmvIFDsM" role="3cqZAp" />
             <node concept="3SKdUt" id="aQnmvIFFl3" role="3cqZAp">
-              <node concept="3SKdUq" id="aQnmvIFFl5" role="3SKWNk">
-                <property role="3SKdUp" value="repair function calls" />
+              <node concept="1PaTwC" id="7g8_0qqf7Vp" role="3ndbpf">
+                <node concept="3oM_SD" id="7g8_0qqf7Vq" role="1PaTwD">
+                  <property role="3oM_SC" value="repair" />
+                </node>
+                <node concept="3oM_SD" id="7g8_0qqf7Vr" role="1PaTwD">
+                  <property role="3oM_SC" value="function" />
+                </node>
+                <node concept="3oM_SD" id="7g8_0qqf7Vs" role="1PaTwD">
+                  <property role="3oM_SC" value="calls" />
+                </node>
               </node>
             </node>
             <node concept="2Gpval" id="aQnmvIFJc$" role="3cqZAp">
@@ -3970,8 +3981,37 @@
         </node>
         <node concept="3clFbH" id="aQnmvInDWD" role="3cqZAp" />
         <node concept="3SKdUt" id="aQnmvIocoq" role="3cqZAp">
-          <node concept="3SKdUq" id="aQnmvIocos" role="3SKWNk">
-            <property role="3SKdUp" value="get the parameters before adding the potential body identifier parameter" />
+          <node concept="1PaTwC" id="7g8_0qqf7Vt" role="3ndbpf">
+            <node concept="3oM_SD" id="7g8_0qqf7Vu" role="1PaTwD">
+              <property role="3oM_SC" value="get" />
+            </node>
+            <node concept="3oM_SD" id="7g8_0qqf7Vv" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7g8_0qqf7Vw" role="1PaTwD">
+              <property role="3oM_SC" value="parameters" />
+            </node>
+            <node concept="3oM_SD" id="7g8_0qqf7Vx" role="1PaTwD">
+              <property role="3oM_SC" value="before" />
+            </node>
+            <node concept="3oM_SD" id="7g8_0qqf7Vy" role="1PaTwD">
+              <property role="3oM_SC" value="adding" />
+            </node>
+            <node concept="3oM_SD" id="7g8_0qqf7Vz" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7g8_0qqf7V$" role="1PaTwD">
+              <property role="3oM_SC" value="potential" />
+            </node>
+            <node concept="3oM_SD" id="7g8_0qqf7V_" role="1PaTwD">
+              <property role="3oM_SC" value="body" />
+            </node>
+            <node concept="3oM_SD" id="7g8_0qqf7VA" role="1PaTwD">
+              <property role="3oM_SC" value="identifier" />
+            </node>
+            <node concept="3oM_SD" id="7g8_0qqf7VB" role="1PaTwD">
+              <property role="3oM_SC" value="parameter" />
+            </node>
           </node>
         </node>
         <node concept="3cpWs8" id="aQnmvIkpUC" role="3cqZAp">
@@ -4186,8 +4226,16 @@
         </node>
         <node concept="3clFbH" id="aQnmvIk59Q" role="3cqZAp" />
         <node concept="3SKdUt" id="aQnmvIk59R" role="3cqZAp">
-          <node concept="3SKdUq" id="aQnmvIk59S" role="3SKWNk">
-            <property role="3SKdUp" value="setup pattern body" />
+          <node concept="1PaTwC" id="7g8_0qqf7VC" role="3ndbpf">
+            <node concept="3oM_SD" id="7g8_0qqf7VD" role="1PaTwD">
+              <property role="3oM_SC" value="setup" />
+            </node>
+            <node concept="3oM_SD" id="7g8_0qqf7VE" role="1PaTwD">
+              <property role="3oM_SC" value="pattern" />
+            </node>
+            <node concept="3oM_SD" id="7g8_0qqf7VF" role="1PaTwD">
+              <property role="3oM_SC" value="body" />
+            </node>
           </node>
         </node>
         <node concept="3cpWs8" id="aQnmvIkYQe" role="3cqZAp">
@@ -4248,8 +4296,16 @@
             </node>
             <node concept="3clFbH" id="aQnmvImxqG" role="3cqZAp" />
             <node concept="3SKdUt" id="aQnmvImXHq" role="3cqZAp">
-              <node concept="3SKdUq" id="aQnmvImXHs" role="3SKWNk">
-                <property role="3SKdUp" value="setup body identifier" />
+              <node concept="1PaTwC" id="7g8_0qqf7VG" role="3ndbpf">
+                <node concept="3oM_SD" id="7g8_0qqf7VH" role="1PaTwD">
+                  <property role="3oM_SC" value="setup" />
+                </node>
+                <node concept="3oM_SD" id="7g8_0qqf7VI" role="1PaTwD">
+                  <property role="3oM_SC" value="body" />
+                </node>
+                <node concept="3oM_SD" id="7g8_0qqf7VJ" role="1PaTwD">
+                  <property role="3oM_SC" value="identifier" />
+                </node>
               </node>
             </node>
             <node concept="3clFbJ" id="aQnmvIlDm_" role="3cqZAp">
@@ -4397,8 +4453,40 @@
             </node>
             <node concept="3clFbH" id="aQnmvIlt5J" role="3cqZAp" />
             <node concept="3SKdUt" id="aQnmvIk5ad" role="3cqZAp">
-              <node concept="3SKdUq" id="aQnmvIk5ae" role="3SKWNk">
-                <property role="3SKdUp" value="setup pattern call that avoids the blow up with join nodes" />
+              <node concept="1PaTwC" id="7g8_0qqf7VK" role="3ndbpf">
+                <node concept="3oM_SD" id="7g8_0qqf7VL" role="1PaTwD">
+                  <property role="3oM_SC" value="setup" />
+                </node>
+                <node concept="3oM_SD" id="7g8_0qqf7VM" role="1PaTwD">
+                  <property role="3oM_SC" value="pattern" />
+                </node>
+                <node concept="3oM_SD" id="7g8_0qqf7VN" role="1PaTwD">
+                  <property role="3oM_SC" value="call" />
+                </node>
+                <node concept="3oM_SD" id="7g8_0qqf7VO" role="1PaTwD">
+                  <property role="3oM_SC" value="that" />
+                </node>
+                <node concept="3oM_SD" id="7g8_0qqf7VP" role="1PaTwD">
+                  <property role="3oM_SC" value="avoids" />
+                </node>
+                <node concept="3oM_SD" id="7g8_0qqf7VQ" role="1PaTwD">
+                  <property role="3oM_SC" value="the" />
+                </node>
+                <node concept="3oM_SD" id="7g8_0qqf7VR" role="1PaTwD">
+                  <property role="3oM_SC" value="blow" />
+                </node>
+                <node concept="3oM_SD" id="7g8_0qqf7VS" role="1PaTwD">
+                  <property role="3oM_SC" value="up" />
+                </node>
+                <node concept="3oM_SD" id="7g8_0qqf7VT" role="1PaTwD">
+                  <property role="3oM_SC" value="with" />
+                </node>
+                <node concept="3oM_SD" id="7g8_0qqf7VU" role="1PaTwD">
+                  <property role="3oM_SC" value="join" />
+                </node>
+                <node concept="3oM_SD" id="7g8_0qqf7VV" role="1PaTwD">
+                  <property role="3oM_SC" value="nodes" />
+                </node>
               </node>
             </node>
             <node concept="3cpWs8" id="aQnmvIk5af" role="3cqZAp">
@@ -4712,7 +4800,7 @@
                     <ref role="3cqZAo" node="aQnmvIk5ag" resolve="findConstraint" />
                   </node>
                   <node concept="3TrEf2" id="aQnmvIk5bk" role="2OqNvi">
-                    <ref role="3Tt5mk" to="55iy:RjyNaq43ZO" resolve="call" />
+                    <ref role="3Tt5mk" to="55iy:RjyNaq43ZO" resolve="patternCall" />
                   </node>
                 </node>
               </node>
@@ -4738,8 +4826,13 @@
             <node concept="3clFbJ" id="2XoPn7nZpIk" role="3cqZAp">
               <node concept="3clFbS" id="2XoPn7nZpIm" role="3clFbx">
                 <node concept="3SKdUt" id="aQnmvIk5bt" role="3cqZAp">
-                  <node concept="3SKdUq" id="aQnmvIk5bu" role="3SKWNk">
-                    <property role="3SKdUp" value="setup aggregator" />
+                  <node concept="1PaTwC" id="7g8_0qqf7VW" role="3ndbpf">
+                    <node concept="3oM_SD" id="7g8_0qqf7VX" role="1PaTwD">
+                      <property role="3oM_SC" value="setup" />
+                    </node>
+                    <node concept="3oM_SD" id="7g8_0qqf7VY" role="1PaTwD">
+                      <property role="3oM_SC" value="aggregator" />
+                    </node>
                   </node>
                 </node>
                 <node concept="3cpWs8" id="aQnmvIk5bz" role="3cqZAp">
@@ -5257,11 +5350,11 @@
                         <ref role="2pJxaS" to="hqsm:RjyNapPtMn" resolve="AggregatedValue" />
                         <node concept="2pIpSj" id="aQnmvIk5db" role="2pJxcM">
                           <ref role="2pIpSl" to="hqsm:RjyNapPtN8" resolve="aggregator" />
-                          <node concept="2pJPED" id="aQnmvIk5dc" role="2pJxcZ">
+                          <node concept="2pJPED" id="aQnmvIk5dc" role="28nt2d">
                             <ref role="2pJxaS" to="uu1k:606mdnYmDzq" resolve="LatticeAggregator" />
                             <node concept="2pIpSj" id="aQnmvIk5dd" role="2pJxcM">
                               <ref role="2pIpSl" to="uu1k:606mdnYmDzT" resolve="operation" />
-                              <node concept="36biLy" id="aQnmvIk5de" role="2pJxcZ">
+                              <node concept="36biLy" id="aQnmvIk5de" role="28nt2d">
                                 <node concept="37vLTw" id="3gA3b2_VvlF" role="36biLW">
                                   <ref role="3cqZAo" node="3gA3b2_Vvlz" resolve="combinator" />
                                 </node>
@@ -5271,7 +5364,7 @@
                         </node>
                         <node concept="2pIpSj" id="aQnmvIk5dm" role="2pJxcM">
                           <ref role="2pIpSl" to="hqsm:RjyNapPtNr" resolve="call" />
-                          <node concept="36biLy" id="aQnmvIk5dn" role="2pJxcZ">
+                          <node concept="36biLy" id="aQnmvIk5dn" role="28nt2d">
                             <node concept="37vLTw" id="aQnmvIk5do" role="36biLW">
                               <ref role="3cqZAo" node="aQnmvIk5b$" resolve="aggregatorCall" />
                             </node>
@@ -6847,8 +6940,52 @@
         </node>
         <node concept="3clFbH" id="3iREICyAaDP" role="3cqZAp" />
         <node concept="3SKdUt" id="3iREICy_LOX" role="3cqZAp">
-          <node concept="3SKdUq" id="3iREICy_LOZ" role="3SKWNk">
-            <property role="3SKdUp" value="collect the calls that will need to be redirected before we actually do any rewriting" />
+          <node concept="1PaTwC" id="7g8_0qqf7VZ" role="3ndbpf">
+            <node concept="3oM_SD" id="7g8_0qqf7W0" role="1PaTwD">
+              <property role="3oM_SC" value="collect" />
+            </node>
+            <node concept="3oM_SD" id="7g8_0qqf7W1" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7g8_0qqf7W2" role="1PaTwD">
+              <property role="3oM_SC" value="calls" />
+            </node>
+            <node concept="3oM_SD" id="7g8_0qqf7W3" role="1PaTwD">
+              <property role="3oM_SC" value="that" />
+            </node>
+            <node concept="3oM_SD" id="7g8_0qqf7W4" role="1PaTwD">
+              <property role="3oM_SC" value="will" />
+            </node>
+            <node concept="3oM_SD" id="7g8_0qqf7W5" role="1PaTwD">
+              <property role="3oM_SC" value="need" />
+            </node>
+            <node concept="3oM_SD" id="7g8_0qqf7W6" role="1PaTwD">
+              <property role="3oM_SC" value="to" />
+            </node>
+            <node concept="3oM_SD" id="7g8_0qqf7W7" role="1PaTwD">
+              <property role="3oM_SC" value="be" />
+            </node>
+            <node concept="3oM_SD" id="7g8_0qqf7W8" role="1PaTwD">
+              <property role="3oM_SC" value="redirected" />
+            </node>
+            <node concept="3oM_SD" id="7g8_0qqf7W9" role="1PaTwD">
+              <property role="3oM_SC" value="before" />
+            </node>
+            <node concept="3oM_SD" id="7g8_0qqf7Wa" role="1PaTwD">
+              <property role="3oM_SC" value="we" />
+            </node>
+            <node concept="3oM_SD" id="7g8_0qqf7Wb" role="1PaTwD">
+              <property role="3oM_SC" value="actually" />
+            </node>
+            <node concept="3oM_SD" id="7g8_0qqf7Wc" role="1PaTwD">
+              <property role="3oM_SC" value="do" />
+            </node>
+            <node concept="3oM_SD" id="7g8_0qqf7Wd" role="1PaTwD">
+              <property role="3oM_SC" value="any" />
+            </node>
+            <node concept="3oM_SD" id="7g8_0qqf7We" role="1PaTwD">
+              <property role="3oM_SC" value="rewriting" />
+            </node>
           </node>
         </node>
         <node concept="2Gpval" id="3iREICy_044" role="3cqZAp">
@@ -6917,8 +7054,67 @@
             <node concept="3clFbJ" id="3iREICy_jfW" role="3cqZAp">
               <node concept="3clFbS" id="3iREICy_jfY" role="3clFbx">
                 <node concept="3SKdUt" id="3iREICy_lmv" role="3cqZAp">
-                  <node concept="3SKdUq" id="3iREICy_lmx" role="3SKWNk">
-                    <property role="3SKdUp" value="we only need to use the wrapped pattern if the call is inside of the scc of the original pattern" />
+                  <node concept="1PaTwC" id="7g8_0qqf7Wf" role="3ndbpf">
+                    <node concept="3oM_SD" id="7g8_0qqf7Wg" role="1PaTwD">
+                      <property role="3oM_SC" value="we" />
+                    </node>
+                    <node concept="3oM_SD" id="7g8_0qqf7Wh" role="1PaTwD">
+                      <property role="3oM_SC" value="only" />
+                    </node>
+                    <node concept="3oM_SD" id="7g8_0qqf7Wi" role="1PaTwD">
+                      <property role="3oM_SC" value="need" />
+                    </node>
+                    <node concept="3oM_SD" id="7g8_0qqf7Wj" role="1PaTwD">
+                      <property role="3oM_SC" value="to" />
+                    </node>
+                    <node concept="3oM_SD" id="7g8_0qqf7Wk" role="1PaTwD">
+                      <property role="3oM_SC" value="use" />
+                    </node>
+                    <node concept="3oM_SD" id="7g8_0qqf7Wl" role="1PaTwD">
+                      <property role="3oM_SC" value="the" />
+                    </node>
+                    <node concept="3oM_SD" id="7g8_0qqf7Wm" role="1PaTwD">
+                      <property role="3oM_SC" value="wrapped" />
+                    </node>
+                    <node concept="3oM_SD" id="7g8_0qqf7Wn" role="1PaTwD">
+                      <property role="3oM_SC" value="pattern" />
+                    </node>
+                    <node concept="3oM_SD" id="7g8_0qqf7Wo" role="1PaTwD">
+                      <property role="3oM_SC" value="if" />
+                    </node>
+                    <node concept="3oM_SD" id="7g8_0qqf7Wp" role="1PaTwD">
+                      <property role="3oM_SC" value="the" />
+                    </node>
+                    <node concept="3oM_SD" id="7g8_0qqf7Wq" role="1PaTwD">
+                      <property role="3oM_SC" value="call" />
+                    </node>
+                    <node concept="3oM_SD" id="7g8_0qqf7Wr" role="1PaTwD">
+                      <property role="3oM_SC" value="is" />
+                    </node>
+                    <node concept="3oM_SD" id="7g8_0qqf7Ws" role="1PaTwD">
+                      <property role="3oM_SC" value="inside" />
+                    </node>
+                    <node concept="3oM_SD" id="7g8_0qqf7Wt" role="1PaTwD">
+                      <property role="3oM_SC" value="of" />
+                    </node>
+                    <node concept="3oM_SD" id="7g8_0qqf7Wu" role="1PaTwD">
+                      <property role="3oM_SC" value="the" />
+                    </node>
+                    <node concept="3oM_SD" id="7g8_0qqf7Wv" role="1PaTwD">
+                      <property role="3oM_SC" value="scc" />
+                    </node>
+                    <node concept="3oM_SD" id="7g8_0qqf7Ww" role="1PaTwD">
+                      <property role="3oM_SC" value="of" />
+                    </node>
+                    <node concept="3oM_SD" id="7g8_0qqf7Wx" role="1PaTwD">
+                      <property role="3oM_SC" value="the" />
+                    </node>
+                    <node concept="3oM_SD" id="7g8_0qqf7Wy" role="1PaTwD">
+                      <property role="3oM_SC" value="original" />
+                    </node>
+                    <node concept="3oM_SD" id="7g8_0qqf7Wz" role="1PaTwD">
+                      <property role="3oM_SC" value="pattern" />
+                    </node>
                   </node>
                 </node>
                 <node concept="3clFbF" id="3iREICy_lr4" role="3cqZAp">
@@ -7255,8 +7451,28 @@
             </node>
             <node concept="3clFbH" id="3iREICyD7V3" role="3cqZAp" />
             <node concept="3SKdUt" id="7zh7ZG6ow6m" role="3cqZAp">
-              <node concept="3SKdUq" id="7zh7ZG6oxrT" role="3SKWNk">
-                <property role="3SKdUp" value="redirect old calls in the wrapped pattern" />
+              <node concept="1PaTwC" id="7g8_0qqf7W$" role="3ndbpf">
+                <node concept="3oM_SD" id="7g8_0qqf7W_" role="1PaTwD">
+                  <property role="3oM_SC" value="redirect" />
+                </node>
+                <node concept="3oM_SD" id="7g8_0qqf7WA" role="1PaTwD">
+                  <property role="3oM_SC" value="old" />
+                </node>
+                <node concept="3oM_SD" id="7g8_0qqf7WB" role="1PaTwD">
+                  <property role="3oM_SC" value="calls" />
+                </node>
+                <node concept="3oM_SD" id="7g8_0qqf7WC" role="1PaTwD">
+                  <property role="3oM_SC" value="in" />
+                </node>
+                <node concept="3oM_SD" id="7g8_0qqf7WD" role="1PaTwD">
+                  <property role="3oM_SC" value="the" />
+                </node>
+                <node concept="3oM_SD" id="7g8_0qqf7WE" role="1PaTwD">
+                  <property role="3oM_SC" value="wrapped" />
+                </node>
+                <node concept="3oM_SD" id="7g8_0qqf7WF" role="1PaTwD">
+                  <property role="3oM_SC" value="pattern" />
+                </node>
               </node>
             </node>
             <node concept="2Gpval" id="7zh7ZG6oyQn" role="3cqZAp">
@@ -7508,8 +7724,40 @@
         </node>
         <node concept="3clFbH" id="7zh7ZG6syur" role="3cqZAp" />
         <node concept="3SKdUt" id="7zh7ZG6s2sD" role="3cqZAp">
-          <node concept="3SKdUq" id="7zh7ZG6s2sE" role="3SKWNk">
-            <property role="3SKdUp" value="setup pattern call that avoids the blow up with join nodes" />
+          <node concept="1PaTwC" id="7g8_0qqf7WG" role="3ndbpf">
+            <node concept="3oM_SD" id="7g8_0qqf7WH" role="1PaTwD">
+              <property role="3oM_SC" value="setup" />
+            </node>
+            <node concept="3oM_SD" id="7g8_0qqf7WI" role="1PaTwD">
+              <property role="3oM_SC" value="pattern" />
+            </node>
+            <node concept="3oM_SD" id="7g8_0qqf7WJ" role="1PaTwD">
+              <property role="3oM_SC" value="call" />
+            </node>
+            <node concept="3oM_SD" id="7g8_0qqf7WK" role="1PaTwD">
+              <property role="3oM_SC" value="that" />
+            </node>
+            <node concept="3oM_SD" id="7g8_0qqf7WL" role="1PaTwD">
+              <property role="3oM_SC" value="avoids" />
+            </node>
+            <node concept="3oM_SD" id="7g8_0qqf7WM" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7g8_0qqf7WN" role="1PaTwD">
+              <property role="3oM_SC" value="blow" />
+            </node>
+            <node concept="3oM_SD" id="7g8_0qqf7WO" role="1PaTwD">
+              <property role="3oM_SC" value="up" />
+            </node>
+            <node concept="3oM_SD" id="7g8_0qqf7WP" role="1PaTwD">
+              <property role="3oM_SC" value="with" />
+            </node>
+            <node concept="3oM_SD" id="7g8_0qqf7WQ" role="1PaTwD">
+              <property role="3oM_SC" value="join" />
+            </node>
+            <node concept="3oM_SD" id="7g8_0qqf7WR" role="1PaTwD">
+              <property role="3oM_SC" value="nodes" />
+            </node>
           </node>
         </node>
         <node concept="3cpWs8" id="7zh7ZG6s2sF" role="3cqZAp">
@@ -7754,7 +8002,7 @@
                 <ref role="3cqZAo" node="7zh7ZG6s2sG" resolve="findConstraint" />
               </node>
               <node concept="3TrEf2" id="7zh7ZG6s2ud" role="2OqNvi">
-                <ref role="3Tt5mk" to="55iy:RjyNaq43ZO" resolve="call" />
+                <ref role="3Tt5mk" to="55iy:RjyNaq43ZO" resolve="patternCall" />
               </node>
             </node>
           </node>
@@ -7778,8 +8026,13 @@
         </node>
         <node concept="3clFbH" id="7zh7ZG6s2ul" role="3cqZAp" />
         <node concept="3SKdUt" id="7zh7ZG6s2um" role="3cqZAp">
-          <node concept="3SKdUq" id="7zh7ZG6s2un" role="3SKWNk">
-            <property role="3SKdUp" value="setup aggregator" />
+          <node concept="1PaTwC" id="7g8_0qqf7WS" role="3ndbpf">
+            <node concept="3oM_SD" id="7g8_0qqf7WT" role="1PaTwD">
+              <property role="3oM_SC" value="setup" />
+            </node>
+            <node concept="3oM_SD" id="7g8_0qqf7WU" role="1PaTwD">
+              <property role="3oM_SC" value="aggregator" />
+            </node>
           </node>
         </node>
         <node concept="3cpWs8" id="7zh7ZG6s2uo" role="3cqZAp">
@@ -8228,11 +8481,11 @@
                 <ref role="2pJxaS" to="hqsm:RjyNapPtMn" resolve="AggregatedValue" />
                 <node concept="2pIpSj" id="7zh7ZG6s2x9" role="2pJxcM">
                   <ref role="2pIpSl" to="hqsm:RjyNapPtN8" resolve="aggregator" />
-                  <node concept="2pJPED" id="7zh7ZG6s2xa" role="2pJxcZ">
+                  <node concept="2pJPED" id="7zh7ZG6s2xa" role="28nt2d">
                     <ref role="2pJxaS" to="uu1k:606mdnYmDzq" resolve="LatticeAggregator" />
                     <node concept="2pIpSj" id="7zh7ZG6s2xb" role="2pJxcM">
                       <ref role="2pIpSl" to="uu1k:606mdnYmDzT" resolve="operation" />
-                      <node concept="36biLy" id="7zh7ZG6s2xc" role="2pJxcZ">
+                      <node concept="36biLy" id="7zh7ZG6s2xc" role="28nt2d">
                         <node concept="37vLTw" id="7zh7ZG6s2xd" role="36biLW">
                           <ref role="3cqZAo" node="7zh7ZG6s2wR" resolve="combinator" />
                         </node>
@@ -8242,7 +8495,7 @@
                 </node>
                 <node concept="2pIpSj" id="7zh7ZG6s2xe" role="2pJxcM">
                   <ref role="2pIpSl" to="hqsm:RjyNapPtNr" resolve="call" />
-                  <node concept="36biLy" id="7zh7ZG6s2xf" role="2pJxcZ">
+                  <node concept="36biLy" id="7zh7ZG6s2xf" role="28nt2d">
                     <node concept="37vLTw" id="7zh7ZG6s2xg" role="36biLW">
                       <ref role="3cqZAo" node="7zh7ZG6s2up" resolve="aggregatorCall" />
                     </node>

@@ -2,7 +2,7 @@
 <model ref="r:f35721f3-eca6-4301-8510-9f706f6f09b7(org.inca.gp.test.model1)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
     <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="4" />
   </languages>
   <imports>
@@ -463,11 +463,11 @@
   </node>
   <node concept="Zd50a" id="1DVNPtFPBO5">
     <property role="TrG5h" value="Default_OSX" />
-    <property role="Zd52Q" value="Mac OS X" />
+    <property role="Zd52Q" value="1mJS7WEAV1T/Mac_OS_X" />
   </node>
   <node concept="Zd50a" id="7A0HCuGlZXj">
     <property role="TrG5h" value="Default_KDE" />
-    <property role="Zd52Q" value="Default for KDE" />
+    <property role="Zd52Q" value="1E5xVYI0RcM/KDE" />
   </node>
   <node concept="312cEu" id="62ABz02Sw2G">
     <property role="TrG5h" value="Recursion" />

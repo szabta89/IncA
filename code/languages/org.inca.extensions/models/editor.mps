@@ -2,12 +2,12 @@
 <model ref="r:9e14f465-c5de-4a94-b7b2-d2edf5975516(org.inca.extensions.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
     <use id="9d69e719-78c8-4286-90db-fb19c107d049" name="com.mbeddr.mpsutil.grammarcells" version="-1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="13" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
-    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="-1" />
+    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -55,9 +55,7 @@
       <concept id="1078939183254" name="jetbrains.mps.lang.editor.structure.CellModel_Component" flags="sg" stub="3162947552742194261" index="PMmxH">
         <reference id="1078939183255" name="editorComponent" index="PMmxG" />
       </concept>
-      <concept id="1186403751766" name="jetbrains.mps.lang.editor.structure.FontStyleStyleClassItem" flags="ln" index="Vb9p2">
-        <property id="1186403771423" name="style" index="Vbekb" />
-      </concept>
+      <concept id="1186403751766" name="jetbrains.mps.lang.editor.structure.FontStyleStyleClassItem" flags="ln" index="Vb9p2" />
       <concept id="615427434521884870" name="jetbrains.mps.lang.editor.structure.SubstituteMenuPart_Subconcepts" flags="ng" index="2VfDsV" />
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
@@ -388,7 +386,7 @@
         </node>
         <node concept="3EZMnI" id="7Hs6JnWGBvB" role="3EZMnx">
           <node concept="LD5Jc" id="7Hs6JnWGBvC" role="3F10Kt">
-            <property role="LDHlv" value="next-line" />
+            <property role="LDHlv" value="hGLCI6j/next_line" />
           </node>
           <node concept="3F2HdR" id="7Hs6JnWGBwI" role="3EZMnx">
             <ref role="1NtTu8" to="hqsm:3VwoHXNC_4v" resolve="contents" />
@@ -903,7 +901,7 @@
       </node>
       <node concept="l2Vlx" id="5jddR$DCr8e" role="2iSdaV" />
       <node concept="LD5Jc" id="5jddR$DCr8f" role="3F10Kt">
-        <property role="LDHlv" value="next-line" />
+        <property role="LDHlv" value="hGLCI6j/next_line" />
       </node>
       <node concept="3F1sOY" id="hzePUMg" role="3EZMnx">
         <ref role="1NtTu8" to="z9af:5jddR$DCoUF" resolve="condition" />
@@ -1449,9 +1447,7 @@
       <node concept="VPxyj" id="16Zc08$_j4V" role="3F10Kt">
         <property role="VOm3f" value="true" />
       </node>
-      <node concept="Vb9p2" id="16Zc08$D8fw" role="3F10Kt">
-        <property role="Vbekb" value="PLAIN" />
-      </node>
+      <node concept="Vb9p2" id="16Zc08$D8fw" role="3F10Kt" />
     </node>
   </node>
   <node concept="24kQdi" id="16Zc08$nDll">

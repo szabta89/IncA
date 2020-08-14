@@ -2,10 +2,10 @@
 <model ref="r:bbb96e37-f8e8-4936-a0a1-5ee128c2ea4f(org.inca.gp.test.test1@tests)">
   <persistence version="9" />
   <languages>
-    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="2" />
+    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="1" />
     <use id="cd2909da-ecb4-49dc-b176-33e5c619e516" name="org.inca.gp" version="-1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
     <use id="b802a056-92a2-4fbc-902e-f8e5004c331f" name="org.inca.core" version="-1" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="-1" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="-1" />
@@ -169,9 +169,6 @@
       </concept>
     </language>
     <language id="b802a056-92a2-4fbc-902e-f8e5004c331f" name="org.inca.core">
-      <concept id="3909214783373897140" name="org.inca.core.structure.EnumValue" flags="ng" index="7XbYm">
-        <reference id="6973815483243564601" name="enum" index="3f7vo2" />
-      </concept>
       <concept id="996292992024566533" name="org.inca.core.structure.BoolValue" flags="ng" index="2k1_0R">
         <property id="996292992024566534" name="value" index="2k1_0O" />
       </concept>
@@ -262,10 +259,6 @@
         <child id="8251544086380719158" name="type" index="2RGvem" />
         <child id="5589093812003084950" name="var" index="3XlQAz" />
       </concept>
-      <concept id="5589093812003326776" name="org.inca.core.structure.EnumMemberValue" flags="ng" index="3XmFwd">
-        <reference id="6973815483243565416" name="member" index="3f7u_j" />
-        <child id="3909214783373910235" name="enum" index="7XnbT" />
-      </concept>
     </language>
     <language id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi">
       <concept id="361130699826193248" name="jetbrains.mps.lang.modelapi.structure.ModelPointer" flags="ng" index="1dCxOl">
@@ -286,7 +279,7 @@
     <language id="cd2909da-ecb4-49dc-b176-33e5c619e516" name="org.inca.gp">
       <concept id="3909214783366769316" name="org.inca.gp.structure.PathElement" flags="ng" index="727y6" />
       <concept id="996292992024530460" name="org.inca.gp.structure.PatternCompositionConstraint" flags="ng" index="2k1GkI">
-        <child id="996292992028393460" name="call" index="2nKVj6" />
+        <child id="996292992028393460" name="patternCall" index="2nKVj6" />
       </concept>
       <concept id="996292992025662526" name="org.inca.gp.structure.PathExpressionConstraint" flags="ng" index="2kdhWc">
         <child id="996292992025662592" name="src" index="2kdhYM" />
@@ -883,7 +876,6 @@
           </node>
         </node>
         <node concept="3Mm4nT" id="4YtCEGA0s3D" role="1dgzf0">
-          <property role="2957JE" value="equality" />
           <node concept="2vme6Z" id="4YtCEGA0s1R" role="2957In">
             <ref role="XkjO9" node="4YtCEGA0qY1" resolve="initializer" />
           </node>
@@ -933,7 +925,7 @@
           </node>
         </node>
         <node concept="3Mm4nT" id="4YtCEGA0wk4" role="1dgzf0">
-          <property role="2957JE" value="inequality" />
+          <property role="2957JE" value="RjyNapTFJS/inequality" />
           <node concept="2vme6Z" id="4YtCEGA0wk5" role="2957In">
             <ref role="XkjO9" node="4YtCEGA0wk9" resolve="initializer" />
           </node>
@@ -1046,7 +1038,7 @@
           </node>
         </node>
         <node concept="3Mm4nT" id="4YtCEGA0qCO" role="1dgzf0">
-          <property role="2957JE" value="inequality" />
+          <property role="2957JE" value="RjyNapTFJS/inequality" />
           <node concept="2vme6Z" id="4YtCEGA0qBR" role="2957In">
             <ref role="XkjO9" node="62ABz02SzH4" resolve="m2" />
           </node>
@@ -1301,8 +1293,8 @@
       </node>
       <node concept="3zV_Rz" id="7A0HCuGmkBp" role="3zVECR">
         <node concept="2kdhWc" id="7A0HCuGmp5h" role="1dgzf0">
-          <node concept="727y6" id="2RSm1CzV7rA" role="3zVzRQ">
-            <ref role="3zVwH8" to="tp4k:1mJS7WEAV39" resolve="keymap" />
+          <node concept="727y6" id="1ujRkaAzarK" role="3zVzRQ">
+            <ref role="3zVwH8" to="tp4k:3Ftr4R6BH7p" resolve="keymap" />
           </node>
           <node concept="2vme6Z" id="7A0HCuGmpQ3" role="2kdhYM">
             <ref role="XkjO9" node="7A0HCuGmmVN" resolve="keyMap" />
@@ -1312,18 +1304,6 @@
           </node>
           <node concept="2kdjtB" id="5xvu2kRScwV" role="1JwMcg">
             <ref role="2UGuZ7" to="tp4k:1mJS7WEAV1P" resolve="KeymapChangesDeclaration" />
-          </node>
-        </node>
-        <node concept="3Mm4nT" id="7A0HCuGmJUL" role="1dgzf0">
-          <property role="2957JE" value="inequality" />
-          <node concept="2vme6Z" id="7A0HCuGmJTP" role="2957In">
-            <ref role="XkjO9" node="7A0HCuGmrhY" resolve="value" />
-          </node>
-          <node concept="3XmFwd" id="7A0HCuGmSLD" role="2957Ig">
-            <ref role="3f7u_j" to="tp4k:1E5xVYI0RcM" />
-            <node concept="7XbYm" id="7A0HCuGmKFl" role="7XnbT">
-              <ref role="3f7vo2" to="tp4k:1mJS7WEAV1S" resolve="Keymap" />
-            </node>
           </node>
         </node>
       </node>
@@ -1353,7 +1333,6 @@
           </node>
         </node>
         <node concept="3Mm4nT" id="63E4q94FNtG" role="1dgzf0">
-          <property role="2957JE" value="equality" />
           <node concept="2vme6Z" id="63E4q94FNsW" role="2957In">
             <ref role="XkjO9" node="63E4q94FM8h" resolve="value" />
           </node>
@@ -1388,7 +1367,6 @@
           </node>
         </node>
         <node concept="3Mm4nT" id="63E4q94FRiM" role="1dgzf0">
-          <property role="2957JE" value="equality" />
           <node concept="2vme6Z" id="63E4q94FRiN" role="2957In">
             <ref role="XkjO9" node="63E4q94FRiL" resolve="value" />
           </node>
@@ -2460,7 +2438,7 @@
                       <node concept="34oBXx" id="7A0HCuGoLlv" role="2OqNvi" />
                     </node>
                     <node concept="3cmrfG" id="7A0HCuGoLnq" role="3tpDZA">
-                      <property role="3cmrfH" value="1" />
+                      <property role="3cmrfH" value="2" />
                     </node>
                   </node>
                 </node>

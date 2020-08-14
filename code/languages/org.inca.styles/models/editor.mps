@@ -2,7 +2,7 @@
 <model ref="r:7b49db30-2b41-4747-a24c-d8b355719ffd(org.inca.styles.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
     <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   </languages>
   <imports>
@@ -75,19 +75,19 @@
       </node>
       <node concept="Vb9p2" id="2CEi94e7jvE" role="3F10Kt" />
       <node concept="VechU" id="2CEi94dZG7m" role="3F10Kt">
-        <property role="Vb096" value="darkGray" />
+        <property role="Vb096" value="fLJRk5B/darkGray" />
       </node>
     </node>
     <node concept="14StLt" id="SSjGGIix$D" role="V601i">
       <property role="TrG5h" value="Comment" />
       <node concept="VechU" id="SSjGGIix$S" role="3F10Kt">
-        <property role="Vb096" value="gray" />
+        <property role="Vb096" value="fLJRk5_/gray" />
       </node>
     </node>
     <node concept="14StLt" id="2CEi94dgHKA" role="V601i">
       <property role="TrG5h" value="KeyWord" />
       <node concept="VechU" id="2CEi94dgMB1" role="3F10Kt">
-        <property role="Vb096" value="DARK_MAGENTA" />
+        <property role="Vb096" value="g1_qVrt/darkMagenta" />
         <node concept="3ZlJ5R" id="5v_KyvNSsuf" role="VblUZ">
           <node concept="3clFbS" id="5v_KyvNSsug" role="2VODD2">
             <node concept="3cpWs6" id="SSjGGIiB9E" role="3cqZAp">
@@ -110,7 +110,7 @@
         </node>
       </node>
       <node concept="Vb9p2" id="2CEi94dgOTW" role="3F10Kt">
-        <property role="Vbekb" value="BOLD" />
+        <property role="Vbekb" value="g1_k_vY/BOLD" />
       </node>
     </node>
     <node concept="14StLt" id="2CEi94dh36z" role="V601i">
@@ -126,31 +126,31 @@
     <node concept="14StLt" id="2$$_2GR98qK" role="V601i">
       <property role="TrG5h" value="Nothing" />
       <node concept="VechU" id="2$$_2GR98qL" role="3F10Kt">
-        <property role="Vb096" value="lightGray" />
+        <property role="Vb096" value="fLJRk5A/lightGray" />
       </node>
     </node>
     <node concept="14StLt" id="7tOfV2_EoPv" role="V601i">
       <property role="TrG5h" value="Type" />
       <node concept="VechU" id="7tOfV2_EoTf" role="3F10Kt">
-        <property role="Vb096" value="DARK_GREEN" />
+        <property role="Vb096" value="g1_qRwE/darkGreen" />
       </node>
     </node>
     <node concept="14StLt" id="2hR54KDMZgx" role="V601i">
       <property role="TrG5h" value="SynthesisedType" />
       <node concept="VechU" id="2hR54KDMZgy" role="3F10Kt">
-        <property role="Vb096" value="DARK_MAGENTA" />
+        <property role="Vb096" value="g1_qVrt/darkMagenta" />
       </node>
     </node>
     <node concept="14StLt" id="3q7IHWoHbWQ" role="V601i">
       <property role="TrG5h" value="Label" />
       <node concept="VechU" id="3q7IHWoHbWR" role="3F10Kt">
-        <property role="Vb096" value="DARK_GREEN" />
+        <property role="Vb096" value="g1_qRwE/darkGreen" />
       </node>
     </node>
     <node concept="14StLt" id="6F2cd7xKKt4" role="V601i">
       <property role="TrG5h" value="Constant" />
       <node concept="VechU" id="6F2cd7xKKt5" role="3F10Kt">
-        <property role="Vb096" value="DARK_MAGENTA" />
+        <property role="Vb096" value="g1_qVrt/darkMagenta" />
       </node>
     </node>
   </node>

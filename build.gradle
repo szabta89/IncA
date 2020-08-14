@@ -15,10 +15,10 @@ apply plugin: 'base'
 import de.itemis.mps.gradle.*
 
 // Specify the required MPS version
-ext.mpsVersion = '2019.1+'
+ext.mpsVersion = '2019.2+'
 
 // Specify the required mbeddr version or branch name
-ext.mbeddrVersion = 'maintenance-mps20191+'
+ext.mbeddrVersion = '2019.2.22376.b95ff6b'
 
 // detect if we are in a CI build
 if (project.hasProperty("forceCI")) {
@@ -32,17 +32,31 @@ if (project.hasProperty("forceCI")) {
     }
 }
 
+def jdk_home
 
-// Detect jdk location, required to start ant with tools.jar on classpath otherwise javac and tests will fail
-def java_home = System.properties['java.home']
-def jdk_home = java_home
-if (!file("$jdk_home/lib/tools.jar").isFile()) {
-    jdk_home = jdk_home + "/.."
+if (ext.has('java11_home')) {
+    jdk_home = ext.get('java11_home')
+} else if (System.getenv('JB_JAVA11_HOME') != null) {
+    jdk_home = System.getenv('JB_JAVA11_HOME')
+} else {
+    def expected = JavaVersion.VERSION_11
+    if (JavaVersion.current() != expected) {
+        throw new GradleException("This build script requires Java 11, but you are currently using ${JavaVersion.current()}.\nPlease do one of the following:\n"
+            + "  * Use project property java11_home to point to a Java 11 JDK\n"
+            + "  * Use the environment variable JAVA11_HOME to point to a Java 11 JDK\n"
+            + "  * Run Gradle using Java 11")
+    }
+    jdk_home = System.getProperty('java.home')
 }
-if (!file("$jdk_home/lib/tools.jar").isFile()) {
-    throw new GradleException("Was not able to locate jdk home folder. Use 'jdk_home' project variable to specify JDK location explicitly. Current JAVA_HOME is: $java_home")
+
+// Check JDK location
+if (!new File(jdk_home, "lib").exists()) {
+    throw new GradleException("Unable to locate JDK home folder. Detected folder is: $jdk_home")
 }
+
 ext.jdk_home = jdk_home
+logger.info 'Using JDK at {}', jdk_home
+
 
 // Default repository credentials
 if (!project.hasProperty('nexusUsername')) {
@@ -70,12 +84,14 @@ ext.publishingRepository = version.toString().endsWith("-SNAPSHOT") ? snapshotRe
 configurations {
     mps
     mbeddrPlatformArtifacts
+    ant_lib
 }
 
 dependencies {
     mps "com.jetbrains:mps:$mpsVersion"
     mbeddrPlatformArtifacts "com.mbeddr:allScripts:$mbeddrVersion"
     mbeddrPlatformArtifacts "com.mbeddr:platform:$mbeddrVersion"
+    ant_lib "org.apache.ant:ant-junit:1.10.1"
 }
 
 repositories {
@@ -87,14 +103,12 @@ repositories {
         }
 }
 
-// Ant support
-configurations {
-    ant_lib
-}
+ext.buildScriptClasspath = project.configurations.ant_lib.fileCollection({
+    true
+})
 
-dependencies {
-    ant_lib "org.apache.ant:ant-junit:1.10.1"
-}
+ext["itemis.mps.gradle.ant.defaultScriptClasspath"] = buildScriptClasspath
+ext["itemis.mps.gradle.ant.defaultJavaExecutable"] = new File(jdk_home, 'bin/java')
 
 task resolveMps(type: Copy) {
     dependsOn configurations.mps
@@ -103,9 +117,6 @@ task resolveMps(type: Copy) {
     }
     into "$buildDir/mps"
 }
-
-// tools might be needed later for running test scripts
-ext.buildScriptClasspath = project.configurations.ant_lib.fileCollection({ true }) + project.files("$project.jdk_home/lib/tools.jar")
 
 def artifactsDir = new File(rootDir, 'artifacts')
 def buildDir = new File(rootDir, 'build')

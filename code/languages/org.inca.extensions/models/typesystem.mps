@@ -2,10 +2,10 @@
 <model ref="r:3ab68c7d-3ea1-4ceb-b2ae-a6d6a1dd50b1(org.inca.extensions.typesystem)">
   <persistence version="9" />
   <languages>
-    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="-1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
-    <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="1" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="13" />
+    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="4" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
+    <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="3" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="-1" />
     <devkit ref="00000000-0000-4000-0000-1de82b3a4936(jetbrains.mps.devkit.aspect.typesystem)" />
@@ -116,11 +116,8 @@
         <child id="1144231399730" name="condition" index="1Dwp0S" />
         <child id="1144231408325" name="iteration" index="1Dwrff" />
       </concept>
-      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
-        <property id="6329021646629104958" name="text" index="3SKdUp" />
-      </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+        <child id="1350122676458893092" name="text" index="3ndbpf" />
       </concept>
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
@@ -136,9 +133,7 @@
       </concept>
       <concept id="5455284157994012186" name="jetbrains.mps.lang.quotation.structure.NodeBuilderInitLink" flags="ng" index="2pIpSj">
         <reference id="5455284157994012188" name="link" index="2pIpSl" />
-      </concept>
-      <concept id="5455284157993911097" name="jetbrains.mps.lang.quotation.structure.NodeBuilderInitPart" flags="ng" index="2pJxcK">
-        <child id="5455284157993911094" name="expression" index="2pJxcZ" />
+        <child id="1595412875168045827" name="initValue" index="28nt2d" />
       </concept>
       <concept id="5455284157993863837" name="jetbrains.mps.lang.quotation.structure.NodeBuilder" flags="nn" index="2pJPEk">
         <child id="5455284157993863838" name="quotedNode" index="2pJPEn" />
@@ -163,7 +158,6 @@
         <child id="1227096802790" name="nodeToReport" index="2OEOjV" />
       </concept>
       <concept id="1195213580585" name="jetbrains.mps.lang.typesystem.structure.AbstractCheckingRule" flags="ig" index="18hYwZ">
-        <child id="1766949807893591548" name="overridesFun" index="bX4a1" />
         <child id="1195213635060" name="body" index="18ibNy" />
       </concept>
       <concept id="1195214364922" name="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule" flags="ig" index="18kY7G" />
@@ -174,7 +168,9 @@
       <concept id="1174642788531" name="jetbrains.mps.lang.typesystem.structure.ConceptReference" flags="ig" index="1YaCAy">
         <reference id="1174642800329" name="concept" index="1YaFvo" />
       </concept>
-      <concept id="1174643105530" name="jetbrains.mps.lang.typesystem.structure.InferenceRule" flags="ig" index="1YbPZF" />
+      <concept id="1174643105530" name="jetbrains.mps.lang.typesystem.structure.InferenceRule" flags="ig" index="1YbPZF">
+        <child id="422148324487088858" name="overridesFun" index="ujSXK" />
+      </concept>
       <concept id="1174648085619" name="jetbrains.mps.lang.typesystem.structure.AbstractRule" flags="ng" index="1YuPPy">
         <child id="1174648101952" name="applicableNode" index="1YuTPh" />
       </concept>
@@ -241,6 +237,14 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -964,7 +968,7 @@
               <ref role="2pJxaS" to="tp25:gzTqbfa" resolve="SNodeType" />
               <node concept="2pIpSj" id="3Ql53yE9_2R" role="2pJxcM">
                 <ref role="2pIpSl" to="tp25:g$ehGDh" resolve="concept" />
-                <node concept="36biLy" id="4Glg1j4gXXQ" role="2pJxcZ">
+                <node concept="36biLy" id="4Glg1j4gXXQ" role="28nt2d">
                   <node concept="2OqwBi" id="5jddR$DlHiN" role="36biLW">
                     <node concept="2OqwBi" id="5jddR$DlGO0" role="2Oq$k0">
                       <node concept="1YBJjd" id="5jddR$DlGuA" role="2Oq$k0">
@@ -1044,8 +1048,16 @@
     <property role="3GE5qa" value="statement.match" />
     <node concept="3clFbS" id="5jddR$Dt1km" role="18ibNy">
       <node concept="3SKdUt" id="5jddR$Dt1Ew" role="3cqZAp">
-        <node concept="3SKdUq" id="5jddR$Dt1Ex" role="3SKWNk">
-          <property role="3SKdUp" value="inferred from context" />
+        <node concept="1PaTwC" id="7g8_0qqf7Bg" role="3ndbpf">
+          <node concept="3oM_SD" id="7g8_0qqf7Bh" role="1PaTwD">
+            <property role="3oM_SC" value="inferred" />
+          </node>
+          <node concept="3oM_SD" id="7g8_0qqf7Bi" role="1PaTwD">
+            <property role="3oM_SC" value="from" />
+          </node>
+          <node concept="3oM_SD" id="7g8_0qqf7Bj" role="1PaTwD">
+            <property role="3oM_SC" value="context" />
+          </node>
         </node>
       </node>
     </node>
@@ -1053,7 +1065,7 @@
       <property role="TrG5h" value="patternVariable" />
       <ref role="1YaFvo" to="z9af:7Hs6JnWyxN4" resolve="PatternVariable" />
     </node>
-    <node concept="bXqS6" id="5jddR$Dt1rI" role="bX4a1">
+    <node concept="bXqS6" id="5jddR$Dt1rI" role="ujSXK">
       <node concept="3clFbS" id="5jddR$Dt1rJ" role="2VODD2">
         <node concept="3clFbF" id="5jddR$Dt1z1" role="3cqZAp">
           <node concept="3clFbT" id="5jddR$Dt1z0" role="3clFbG">

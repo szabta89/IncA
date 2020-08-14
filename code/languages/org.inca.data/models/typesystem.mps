@@ -120,9 +120,7 @@
       </concept>
       <concept id="5455284157994012186" name="jetbrains.mps.lang.quotation.structure.NodeBuilderInitLink" flags="ng" index="2pIpSj">
         <reference id="5455284157994012188" name="link" index="2pIpSl" />
-      </concept>
-      <concept id="5455284157993911097" name="jetbrains.mps.lang.quotation.structure.NodeBuilderInitPart" flags="ng" index="2pJxcK">
-        <child id="5455284157993911094" name="expression" index="2pJxcZ" />
+        <child id="1595412875168045827" name="initValue" index="28nt2d" />
       </concept>
       <concept id="5455284157993863837" name="jetbrains.mps.lang.quotation.structure.NodeBuilder" flags="nn" index="2pJPEk">
         <child id="5455284157993863838" name="quotedNode" index="2pJPEn" />
@@ -151,14 +149,15 @@
         <child id="1227096802790" name="nodeToReport" index="2OEOjV" />
       </concept>
       <concept id="1195213580585" name="jetbrains.mps.lang.typesystem.structure.AbstractCheckingRule" flags="ig" index="18hYwZ">
-        <child id="1766949807893591548" name="overridesFun" index="bX4a1" />
         <child id="1195213635060" name="body" index="18ibNy" />
       </concept>
       <concept id="1195214364922" name="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule" flags="ig" index="18kY7G" />
       <concept id="1174642788531" name="jetbrains.mps.lang.typesystem.structure.ConceptReference" flags="ig" index="1YaCAy">
         <reference id="1174642800329" name="concept" index="1YaFvo" />
       </concept>
-      <concept id="1174643105530" name="jetbrains.mps.lang.typesystem.structure.InferenceRule" flags="ig" index="1YbPZF" />
+      <concept id="1174643105530" name="jetbrains.mps.lang.typesystem.structure.InferenceRule" flags="ig" index="1YbPZF">
+        <child id="422148324487088858" name="overridesFun" index="ujSXK" />
+      </concept>
       <concept id="1174648085619" name="jetbrains.mps.lang.typesystem.structure.AbstractRule" flags="ng" index="1YuPPy">
         <child id="1174648101952" name="applicableNode" index="1YuTPh" />
       </concept>
@@ -338,7 +337,7 @@
       <property role="TrG5h" value="member" />
       <ref role="1YaFvo" to="uu1k:6fy2FM6rkms" resolve="IPatternMemberElement" />
     </node>
-    <node concept="bXqS6" id="68kmV6hrYcv" role="bX4a1">
+    <node concept="bXqS6" id="68kmV6hrYcv" role="ujSXK">
       <node concept="3clFbS" id="68kmV6hrYcw" role="2VODD2">
         <node concept="3cpWs6" id="68kmV6hrYoI" role="3cqZAp">
           <node concept="3clFbT" id="68kmV6hrYoO" role="3cqZAk">
@@ -1222,7 +1221,7 @@
               <ref role="2pJxaS" to="uu1k:3l0M8IaAFF7" resolve="TypeConstructorType" />
               <node concept="2pIpSj" id="4crFY5vb_8K" role="2pJxcM">
                 <ref role="2pIpSl" to="uu1k:3l0M8IaAFF8" resolve="constructor" />
-                <node concept="36biLy" id="4crFY5vb_9Y" role="2pJxcZ">
+                <node concept="36biLy" id="4crFY5vb_9Y" role="28nt2d">
                   <node concept="2OqwBi" id="4crFY5vb_jJ" role="36biLW">
                     <node concept="1YBJjd" id="4crFY5vb_ab" role="2Oq$k0">
                       <ref role="1YBMHb" node="4crFY5vb$Rk" resolve="exp" />

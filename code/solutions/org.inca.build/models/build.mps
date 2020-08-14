@@ -296,7 +296,7 @@
       <node concept="m$_yC" id="11cllTXhE1r" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:6EN03E8oSte" resolve="jetbrains.mps.ide.make" />
       </node>
-      <node concept="m$_yC" id="6Upu9aNySr7" role="m$_yJ">
+      <node concept="m$_yC" id="sY0s_3cPff" role="m$_yJ">
         <ref role="m$_y1" node="6Upu9aNyRga" resolve="org.inca.modelchecker" />
       </node>
     </node>
@@ -339,7 +339,7 @@
             <node concept="2Ry0Ak" id="6Upu9aNyXcF" role="iGT6I">
               <property role="2Ry0Am" value="plugins" />
               <node concept="2Ry0Ak" id="6Upu9aNyXcO" role="2Ry0An">
-                <property role="2Ry0Am" value="modelchecker" />
+                <property role="2Ry0Am" value="mps-modelchecker" />
                 <node concept="2Ry0Ak" id="6Upu9aNyXcX" role="2Ry0An">
                   <property role="2Ry0Am" value="lib" />
                   <node concept="2Ry0Ak" id="6Upu9aNyXd6" role="2Ry0An">
@@ -1093,6 +1093,11 @@
         <node concept="1SiIV0" id="6Upu9aNyVDV" role="3bR37C">
           <node concept="3bR9La" id="6Upu9aNyVDW" role="1SiIV1">
             <ref role="3bR37D" node="6Upu9aNyTf2" resolve="modelchecker" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1ujRkaAmdMx" role="3bR37C">
+          <node concept="3bR9La" id="1ujRkaAmdMy" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:4IP11oWmB07" resolve="jetbrains.mps.ide.modelchecker.platform" />
           </node>
         </node>
       </node>
@@ -2303,13 +2308,13 @@
             <node concept="L2wRC" id="6Upu9aNyZ4U" role="39821P">
               <ref role="L2wRA" node="6Upu9aNyTf2" resolve="modelchecker" />
               <node concept="3yLZsm" id="6Upu9aNyZn5" role="3yL2VB">
-                <property role="3yLZsk" value="/plugins/modelchecker/lib/modelchecker.jar" />
+                <property role="3yLZsk" value="/plugins/mps-modelchecker/lib/modelchecker.jar" />
                 <node concept="398BVA" id="6Upu9aNyZnd" role="3yLZsn">
                   <ref role="398BVh" node="3AVJcIMlF8u" resolve="mps_home" />
                   <node concept="2Ry0Ak" id="6Upu9aNyZte" role="iGT6I">
                     <property role="2Ry0Am" value="plugins" />
                     <node concept="2Ry0Ak" id="6Upu9aNyZtn" role="2Ry0An">
-                      <property role="2Ry0Am" value="modelchecker" />
+                      <property role="2Ry0Am" value="mps-modelchecker" />
                       <node concept="2Ry0Ak" id="6Upu9aNyZtw" role="2Ry0An">
                         <property role="2Ry0Am" value="lib" />
                         <node concept="2Ry0Ak" id="6Upu9aNyZtD" role="2Ry0An">
@@ -2568,7 +2573,7 @@
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="org.inca.gp.test" />
         <property role="3LESm3" value="e5fc7033-815f-4531-ba62-77957e8a8405" />
-        <property role="aoJFB" value="sources and tests" />
+        <property role="aoJFB" value="eYcmk9QOlj/sources_and_tests" />
         <node concept="398BVA" id="7hVsScEQJ_F" role="3LF7KH">
           <ref role="398BVh" node="5KnlHU5SczI" resolve="inca.code" />
           <node concept="2Ry0Ak" id="7hVsScEQJKE" role="iGT6I">
@@ -2633,7 +2638,7 @@
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="org.inca.fun.test" />
         <property role="3LESm3" value="b12ccb4d-e67e-44e8-88d5-58b787b6ee1c" />
-        <property role="aoJFB" value="sources and tests" />
+        <property role="aoJFB" value="eYcmk9QOlj/sources_and_tests" />
         <node concept="398BVA" id="2uBN8jW2TQ5" role="3LF7KH">
           <ref role="398BVh" node="5KnlHU5SczI" resolve="inca.code" />
           <node concept="2Ry0Ak" id="2uBN8jW2TQ6" role="iGT6I">
@@ -2708,7 +2713,7 @@
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="org.inca.meta.analysis.test" />
         <property role="3LESm3" value="8a78cefd-befa-4057-950a-1f7a74ff66f3" />
-        <property role="aoJFB" value="sources and tests" />
+        <property role="aoJFB" value="eYcmk9QOlj/sources_and_tests" />
         <node concept="398BVA" id="2xeWpQbNJoT" role="3LF7KH">
           <ref role="398BVh" node="5KnlHU5SczI" resolve="inca.code" />
           <node concept="2Ry0Ak" id="2xeWpQbNJoU" role="iGT6I">
@@ -2772,7 +2777,7 @@
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="org.inca.data.test" />
         <property role="3LESm3" value="6839772c-d6f1-4888-802e-6f3fba3a3fe3" />
-        <property role="aoJFB" value="sources and tests" />
+        <property role="aoJFB" value="eYcmk9QOlj/sources_and_tests" />
         <node concept="398BVA" id="6_du9upXpAO" role="3LF7KH">
           <ref role="398BVh" node="5KnlHU5SczI" resolve="inca.code" />
           <node concept="2Ry0Ak" id="6_du9upXpAP" role="iGT6I">
@@ -2851,7 +2856,7 @@
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="org.inca.data.test.analyses" />
         <property role="3LESm3" value="af8b7d6e-4138-4959-9106-3ad2fd47fb92" />
-        <property role="aoJFB" value="sources and tests" />
+        <property role="aoJFB" value="eYcmk9QOlj/sources_and_tests" />
         <node concept="398BVA" id="7wIK_Lll4yn" role="3LF7KH">
           <ref role="398BVh" node="5KnlHU5SczI" resolve="inca.code" />
           <node concept="2Ry0Ak" id="7wIK_Lll4yo" role="iGT6I">
@@ -2905,7 +2910,7 @@
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="org.inca.integration.generic.test" />
         <property role="3LESm3" value="49d08239-4bd2-4687-bcd6-5efd14bd6ee1" />
-        <property role="aoJFB" value="sources and tests" />
+        <property role="aoJFB" value="eYcmk9QOlj/sources_and_tests" />
         <node concept="398BVA" id="41RZVBdswvH" role="3LF7KH">
           <ref role="398BVh" node="5KnlHU5SczI" resolve="inca.code" />
           <node concept="2Ry0Ak" id="41RZVBdswvI" role="iGT6I">
@@ -3157,8 +3162,8 @@
         <ref role="398BVh" node="8p5r0qVdIb" resolve="mps.home" />
         <node concept="2Ry0Ak" id="4GMBmWUH$WQ" role="iGT6I">
           <property role="2Ry0Am" value="plugins" />
-          <node concept="2Ry0Ak" id="8p5r0qVdPw" role="2Ry0An">
-            <property role="2Ry0Am" value="modelchecker" />
+          <node concept="2Ry0Ak" id="7wGc0kccJzw" role="2Ry0An">
+            <property role="2Ry0Am" value="mps-modelchecker" />
           </node>
         </node>
       </node>
@@ -3194,7 +3199,7 @@
       <property role="m$_wk" value="jetbrains.mps.ide.modelchecker" />
       <node concept="3_J27D" id="4GMBmWUHpN3" role="m_cZH">
         <node concept="3Mxwew" id="4GMBmWUHq6$" role="3MwsjC">
-          <property role="3MwjfP" value="modelchecker" />
+          <property role="3MwjfP" value="mps-modelchecker" />
         </node>
       </node>
       <node concept="3_J27D" id="4GMBmWUHpN4" role="m$_w8">
