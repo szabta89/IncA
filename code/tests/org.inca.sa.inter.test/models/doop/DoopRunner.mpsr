@@ -1108,7 +1108,7 @@
           </node>
         </node>
         <node concept="16arh9" id="1d5nvWVFOpa" role="3cqZAp">
-          <ref role="16arh8" node="4REMYHpS65x" resolve="PointsToAnalysis_Rel" />
+          <ref role="16arh8" node="62kpGTi5zKp" resolve="PointsToAnalysis_Lat" />
           <node concept="10M0yZ" id="7YDBmANafsQ" role="169jai">
             <ref role="3cqZAo" node="7YDBmAN9ZuF" resolve="SCOPE" />
             <ref role="1PxDUh" node="7YDBmAN9Zts" resolve="AnalysisHelper" />
@@ -1681,10 +1681,10 @@
             <property role="TrG5h" value="evaluator" />
             <property role="3TUv4t" value="true" />
             <node concept="VdqW6" id="4twydQJVtKY" role="1tU5fm">
-              <ref role="Vdrjr" node="4REMYHpS6hV" resolve="VarPointsTo_Rel" />
+              <ref role="Vdrjr" node="62kpGTi5zNx" resolve="VarPointsTo_Lat" />
             </node>
             <node concept="2UzQ1s" id="4twydQJVtKZ" role="33vP2m">
-              <ref role="2UzQ1C" node="4REMYHpS6hV" resolve="VarPointsTo_Rel" />
+              <ref role="2UzQ1C" node="62kpGTi5zNx" resolve="VarPointsTo_Lat" />
               <node concept="37vLTw" id="4twydQJVtMi" role="HflyE">
                 <ref role="3cqZAo" node="4twydQJVtM9" resolve="model" />
               </node>

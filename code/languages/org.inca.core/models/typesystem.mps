@@ -278,10 +278,6 @@
       <concept id="1175517767210" name="jetbrains.mps.lang.typesystem.structure.ReportErrorStatement" flags="nn" index="2MkqsV">
         <child id="1175517851849" name="errorString" index="2MkJ7o" />
       </concept>
-      <concept id="1227096774658" name="jetbrains.mps.lang.typesystem.structure.MessageStatement" flags="ng" index="2OEH$v">
-        <child id="1227096802791" name="helginsIntention" index="2OEOjU" />
-        <child id="1227096802790" name="nodeToReport" index="2OEOjV" />
-      </concept>
       <concept id="1216383170661" name="jetbrains.mps.lang.typesystem.structure.TypesystemQuickFix" flags="ng" index="Q5z_Y">
         <child id="1216383424566" name="executeBlock" index="Q6x$H" />
         <child id="1216383476350" name="quickFixArgument" index="Q6Id_" />
@@ -306,6 +302,10 @@
         <child id="1195213635060" name="body" index="18ibNy" />
       </concept>
       <concept id="1195214364922" name="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule" flags="ig" index="18kY7G" />
+      <concept id="3937244445246642777" name="jetbrains.mps.lang.typesystem.structure.AbstractReportStatement" flags="ng" index="1urrMJ">
+        <child id="3937244445246643221" name="helginsIntention" index="1urrFz" />
+        <child id="3937244445246642781" name="nodeToReport" index="1urrMF" />
+      </concept>
       <concept id="3592071576955708904" name="jetbrains.mps.lang.typesystem.structure.IsReplacementRuleApplicable_ConceptFunction" flags="in" index="1xSnZT" />
       <concept id="1210784285454" name="jetbrains.mps.lang.typesystem.structure.TypesystemIntention" flags="ng" index="3Cnw8n">
         <property id="1216127910019" name="applyImmediately" index="ARO6o" />
@@ -595,11 +595,11 @@
           <node concept="3clFbJ" id="3VwoHXNBvLN" role="3cqZAp">
             <node concept="3clFbS" id="3VwoHXNBvLP" role="3clFbx">
               <node concept="2MkqsV" id="39KhnTI85mV" role="3cqZAp">
-                <node concept="1YBJjd" id="39KhnTI85ps" role="2OEOjV">
-                  <ref role="1YBMHb" node="3VwoHXNAZBF" resolve="variable" />
-                </node>
                 <node concept="Xl_RD" id="39KhnTI85mX" role="2MkJ7o">
                   <property role="Xl_RC" value="The name is not unique!" />
+                </node>
+                <node concept="1YBJjd" id="39KhnTI85ps" role="1urrMF">
+                  <ref role="1YBMHb" node="3VwoHXNAZBF" resolve="variable" />
                 </node>
               </node>
             </node>
@@ -1190,7 +1190,7 @@
                 <node concept="Xl_RD" id="1KfKM1YIp5G" role="2MkJ7o">
                   <property role="Xl_RC" value="Expression must evaluate to a root node, a model, or a collection of models!" />
                 </node>
-                <node concept="2OqwBi" id="1KfKM1YIpj1" role="2OEOjV">
+                <node concept="2OqwBi" id="1KfKM1YIpj1" role="1urrMF">
                   <node concept="1YBJjd" id="1KfKM1YIpfe" role="2Oq$k0">
                     <ref role="1YBMHb" node="1KfKM1YIldu" resolve="expression" />
                   </node>
@@ -1384,7 +1384,7 @@
             <node concept="Xl_RD" id="6trdyn5_eD7" role="2MkJ7o">
               <property role="Xl_RC" value="The expression must evaluate to an IPatternMatch!" />
             </node>
-            <node concept="2OqwBi" id="6trdyn5_eD8" role="2OEOjV">
+            <node concept="2OqwBi" id="6trdyn5_eD8" role="1urrMF">
               <node concept="1YBJjd" id="6trdyn5_eD9" role="2Oq$k0">
                 <ref role="1YBMHb" node="77l4yxHKb_L" resolve="operation" />
               </node>
@@ -1457,7 +1457,7 @@
             <node concept="Xl_RD" id="6trdyn5oJ7E" role="2MkJ7o">
               <property role="Xl_RC" value="The expression must evaluate to an IPatternMatch!" />
             </node>
-            <node concept="2OqwBi" id="6trdyn5oJ7F" role="2OEOjV">
+            <node concept="2OqwBi" id="6trdyn5oJ7F" role="1urrMF">
               <node concept="1YBJjd" id="6trdyn5oJ7G" role="2Oq$k0">
                 <ref role="1YBMHb" node="77l4yxHKCn0" resolve="operation" />
               </node>
@@ -1571,7 +1571,7 @@
                 </node>
               </node>
             </node>
-            <node concept="2OqwBi" id="77l4yxHKCYk" role="2OEOjV">
+            <node concept="2OqwBi" id="77l4yxHKCYk" role="1urrMF">
               <node concept="1YBJjd" id="77l4yxHKCYl" role="2Oq$k0">
                 <ref role="1YBMHb" node="77l4yxHKCS9" resolve="operation" />
               </node>
@@ -1813,7 +1813,7 @@
                 <ref role="3cqZAo" node="6trdyn55H22" resolve="requiredType" />
               </node>
             </node>
-            <node concept="2OqwBi" id="6trdyn54Xj3" role="2OEOjV">
+            <node concept="2OqwBi" id="6trdyn54Xj3" role="1urrMF">
               <node concept="1YBJjd" id="6trdyn54XdQ" role="2Oq$k0">
                 <ref role="1YBMHb" node="6trdyn54MoC" resolve="binding" />
               </node>
@@ -2039,7 +2039,7 @@
                           <node concept="Xl_RD" id="6trdyn573NX" role="2MkJ7o">
                             <property role="Xl_RC" value="Redundant parameter binding!" />
                           </node>
-                          <node concept="37vLTw" id="6trdyn575Si" role="2OEOjV">
+                          <node concept="37vLTw" id="6trdyn575Si" role="1urrMF">
                             <ref role="3cqZAo" node="6trdyn573q_" resolve="it" />
                           </node>
                         </node>
@@ -2088,7 +2088,7 @@
                 <node concept="Xl_RD" id="6WpUQi6Qyky" role="2MkJ7o">
                   <property role="Xl_RC" value="Wrong number of parameters!" />
                 </node>
-                <node concept="1YBJjd" id="6WpUQi6QyjQ" role="2OEOjV">
+                <node concept="1YBJjd" id="6WpUQi6QyjQ" role="1urrMF">
                   <ref role="1YBMHb" node="6WpUQi6Qn6M" resolve="call" />
                 </node>
               </node>
@@ -2316,7 +2316,7 @@
             <node concept="Xl_RD" id="1YBYCQ12F9q" role="2MkJ7o">
               <property role="Xl_RC" value="The expression in the check constraint must evaluate to a boolean value!" />
             </node>
-            <node concept="2OqwBi" id="1YBYCQ13pgs" role="2OEOjV">
+            <node concept="2OqwBi" id="1YBYCQ13pgs" role="1urrMF">
               <node concept="1YBJjd" id="1YBYCQ12F8O" role="2Oq$k0">
                 <ref role="1YBMHb" node="1YBYCQ12C7Y" resolve="constraint" />
               </node>
@@ -2520,11 +2520,11 @@
         </node>
         <node concept="3clFbS" id="39KhnTI7SF6" role="2LFqv$">
           <node concept="2MkqsV" id="39KhnTI7R0h" role="3cqZAp">
-            <node concept="2GrUjf" id="39KhnTI7T6Z" role="2OEOjV">
-              <ref role="2Gs0qQ" node="39KhnTI7SF4" resolve="node" />
-            </node>
             <node concept="Xl_RD" id="39KhnTI7R0j" role="2MkJ7o">
               <property role="Xl_RC" value="The name is not unique!" />
+            </node>
+            <node concept="2GrUjf" id="39KhnTI7T6Z" role="1urrMF">
+              <ref role="2Gs0qQ" node="39KhnTI7SF4" resolve="node" />
             </node>
           </node>
         </node>
@@ -2544,7 +2544,7 @@
                 <node concept="Xl_RD" id="2vh$OcNytN8" role="Dpw9R">
                   <property role="Xl_RC" value="This import is part of a cyclic dependency chain." />
                 </node>
-                <node concept="2GrUjf" id="2vh$OcNzc61" role="2OEOjV">
+                <node concept="2GrUjf" id="2vh$OcNzc61" role="1urrMF">
                   <ref role="2Gs0qQ" node="2vh$OcNz2fW" resolve="importNode" />
                 </node>
               </node>
@@ -3435,7 +3435,7 @@
             <node concept="Xl_RD" id="3p0ky8LUnRb" role="2MkJ7o">
               <property role="Xl_RC" value="Invalid enum member reference!" />
             </node>
-            <node concept="1YBJjd" id="3p0ky8LUnRG" role="2OEOjV">
+            <node concept="1YBJjd" id="3p0ky8LUnRG" role="1urrMF">
               <ref role="1YBMHb" node="3p0ky8LUmKx" resolve="value" />
             </node>
           </node>
@@ -3806,7 +3806,7 @@
             <node concept="Xl_RD" id="1IUWmS1ol0$" role="2MkJ7o">
               <property role="Xl_RC" value="Mixed usage of concept and synthesised data types!" />
             </node>
-            <node concept="1YBJjd" id="1IUWmS1ol24" role="2OEOjV">
+            <node concept="1YBJjd" id="1IUWmS1ol24" role="1urrMF">
               <ref role="1YBMHb" node="1IUWmS1ogxU" resolve="def" />
             </node>
           </node>
@@ -3900,7 +3900,7 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="1YBJjd" id="2jl89KELzpF" role="2OEOjV">
+                    <node concept="1YBJjd" id="2jl89KELzpF" role="1urrMF">
                       <ref role="1YBMHb" node="2jl89KELt1v" resolve="op" />
                     </node>
                   </node>
@@ -4475,10 +4475,10 @@
             <node concept="Xl_RD" id="7Hdi_qc0vtg" role="2MkJ7o">
               <property role="Xl_RC" value="" />
             </node>
-            <node concept="1YBJjd" id="7Hdi_qc0vt_" role="2OEOjV">
+            <node concept="1YBJjd" id="7Hdi_qc0vt_" role="1urrMF">
               <ref role="1YBMHb" node="7Hdi_qbZxi1" resolve="element" />
             </node>
-            <node concept="3Cnw8n" id="7Hdi_qc0vvC" role="2OEOjU">
+            <node concept="3Cnw8n" id="7Hdi_qc0vvC" role="1urrFz">
               <property role="ARO6o" value="true" />
               <ref role="QpYPw" node="7Hdi_qc0vv_" resolve="fix_IVirtualPathElement" />
               <node concept="3CnSsL" id="7Hdi_qc0vK6" role="3Coj4f">
@@ -4588,7 +4588,7 @@
             <node concept="Xl_RD" id="4apIOoJ$4rZ" role="2MkJ7o">
               <property role="Xl_RC" value="Multiple compiler options container found!" />
             </node>
-            <node concept="1YBJjd" id="4apIOoJ$4Bc" role="2OEOjV">
+            <node concept="1YBJjd" id="4apIOoJ$4Bc" role="1urrMF">
               <ref role="1YBMHb" node="4apIOoJzY5S" resolve="options" />
             </node>
           </node>
@@ -4631,7 +4631,7 @@
             <node concept="Xl_RD" id="1cwfJkvtybt" role="2MkJ7o">
               <property role="Xl_RC" value="There must be at most one custom scope definition!" />
             </node>
-            <node concept="1YBJjd" id="1cwfJkvtyci" role="2OEOjV">
+            <node concept="1YBJjd" id="1cwfJkvtyci" role="1urrMF">
               <ref role="1YBMHb" node="1cwfJkvtudb" resolve="scope" />
             </node>
           </node>
@@ -4702,7 +4702,7 @@
                 <node concept="Xl_RD" id="Mr35FLzlFR" role="2MkJ7o">
                   <property role="Xl_RC" value="The expression must have set type in order to unwind it!" />
                 </node>
-                <node concept="2OqwBi" id="Mr35FLzlFS" role="2OEOjV">
+                <node concept="2OqwBi" id="Mr35FLzlFS" role="1urrMF">
                   <node concept="1YBJjd" id="Mr35FLzlFT" role="2Oq$k0">
                     <ref role="1YBMHb" node="Mr35FLzlFw" resolve="eval" />
                   </node>
@@ -4736,7 +4736,7 @@
             <node concept="Xl_RD" id="Mr35FLzoXX" role="2MkJ7o">
               <property role="Xl_RC" value="Unwind and const cannot be used at the same time!" />
             </node>
-            <node concept="1YBJjd" id="Mr35FLzoZh" role="2OEOjV">
+            <node concept="1YBJjd" id="Mr35FLzoZh" role="1urrMF">
               <ref role="1YBMHb" node="Mr35FLzlFw" resolve="eval" />
             </node>
           </node>

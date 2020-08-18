@@ -15,10 +15,10 @@ apply plugin: 'base'
 import de.itemis.mps.gradle.*
 
 // Specify the required MPS version
-ext.mpsVersion = '2019.2+'
+ext.mpsVersion = '2019.3+'
 
 // Specify the required mbeddr version or branch name
-ext.mbeddrVersion = '2019.2.22376.b95ff6b'
+ext.mbeddrVersion = '2019.3.22398.30a8a0a'
 
 // detect if we are in a CI build
 if (project.hasProperty("forceCI")) {

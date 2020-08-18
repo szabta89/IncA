@@ -134,9 +134,6 @@
       <concept id="1175517767210" name="jetbrains.mps.lang.typesystem.structure.ReportErrorStatement" flags="nn" index="2MkqsV">
         <child id="1175517851849" name="errorString" index="2MkJ7o" />
       </concept>
-      <concept id="1227096774658" name="jetbrains.mps.lang.typesystem.structure.MessageStatement" flags="ng" index="2OEH$v">
-        <child id="1227096802790" name="nodeToReport" index="2OEOjV" />
-      </concept>
       <concept id="1205762105978" name="jetbrains.mps.lang.typesystem.structure.WhenConcreteVariableDeclaration" flags="ng" index="2X1qdy" />
       <concept id="1205762656241" name="jetbrains.mps.lang.typesystem.structure.WhenConcreteVariableReference" flags="nn" index="2X3wrD">
         <reference id="1205762683928" name="whenConcreteVar" index="2X3Bk0" />
@@ -145,6 +142,9 @@
         <child id="1195213635060" name="body" index="18ibNy" />
       </concept>
       <concept id="1195214364922" name="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule" flags="ig" index="18kY7G" />
+      <concept id="3937244445246642777" name="jetbrains.mps.lang.typesystem.structure.AbstractReportStatement" flags="ng" index="1urrMJ">
+        <child id="3937244445246642781" name="nodeToReport" index="1urrMF" />
+      </concept>
       <concept id="1174642788531" name="jetbrains.mps.lang.typesystem.structure.ConceptReference" flags="ig" index="1YaCAy">
         <reference id="1174642800329" name="concept" index="1YaFvo" />
       </concept>
@@ -922,7 +922,7 @@
                 <property role="Xl_RC" value="!" />
               </node>
             </node>
-            <node concept="1YBJjd" id="4wicJwLtl7q" role="2OEOjV">
+            <node concept="1YBJjd" id="4wicJwLtl7q" role="1urrMF">
               <ref role="1YBMHb" node="4wicJwLtkYF" resolve="path" />
             </node>
           </node>
@@ -1023,7 +1023,7 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="1YBJjd" id="4wicJwLtl86" role="2OEOjV">
+                  <node concept="1YBJjd" id="4wicJwLtl86" role="1urrMF">
                     <ref role="1YBMHb" node="4wicJwLtkYF" resolve="path" />
                   </node>
                 </node>
@@ -1192,7 +1192,7 @@
                             </node>
                           </node>
                         </node>
-                        <node concept="1YBJjd" id="4wicJwLtl9c" role="2OEOjV">
+                        <node concept="1YBJjd" id="4wicJwLtl9c" role="1urrMF">
                           <ref role="1YBMHb" node="4wicJwLtkYF" resolve="path" />
                         </node>
                       </node>
@@ -1284,7 +1284,7 @@
         <node concept="Xl_RD" id="5mId_SEXmBZ" role="Dpw9R">
           <property role="Xl_RC" value="Incremental maintenance is expensive on long lists!" />
         </node>
-        <node concept="1YBJjd" id="5mId_SEXmDB" role="2OEOjV">
+        <node concept="1YBJjd" id="5mId_SEXmDB" role="1urrMF">
           <ref role="1YBMHb" node="5mId_SEXmBw" resolve="element" />
         </node>
       </node>

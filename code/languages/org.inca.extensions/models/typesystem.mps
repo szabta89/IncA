@@ -2,9 +2,9 @@
 <model ref="r:3ab68c7d-3ea1-4ceb-b2ae-a6d6a1dd50b1(org.inca.extensions.typesystem)">
   <persistence version="9" />
   <languages>
-    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="4" />
+    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="5" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
-    <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="3" />
+    <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="4" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="-1" />
@@ -154,13 +154,13 @@
       <concept id="1175517767210" name="jetbrains.mps.lang.typesystem.structure.ReportErrorStatement" flags="nn" index="2MkqsV">
         <child id="1175517851849" name="errorString" index="2MkJ7o" />
       </concept>
-      <concept id="1227096774658" name="jetbrains.mps.lang.typesystem.structure.MessageStatement" flags="ng" index="2OEH$v">
-        <child id="1227096802790" name="nodeToReport" index="2OEOjV" />
-      </concept>
       <concept id="1195213580585" name="jetbrains.mps.lang.typesystem.structure.AbstractCheckingRule" flags="ig" index="18hYwZ">
         <child id="1195213635060" name="body" index="18ibNy" />
       </concept>
       <concept id="1195214364922" name="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule" flags="ig" index="18kY7G" />
+      <concept id="3937244445246642777" name="jetbrains.mps.lang.typesystem.structure.AbstractReportStatement" flags="ng" index="1urrMJ">
+        <child id="3937244445246642781" name="nodeToReport" index="1urrMF" />
+      </concept>
       <concept id="1176543928247" name="jetbrains.mps.lang.typesystem.structure.IsSubtypeExpression" flags="nn" index="3JuTUA">
         <child id="1176543945045" name="subtypeExpression" index="3JuY14" />
         <child id="1176543950311" name="supertypeExpression" index="3JuZjQ" />
@@ -522,7 +522,7 @@
                 <node concept="34oBXx" id="69yn6_E_iSB" role="2OqNvi" />
               </node>
             </node>
-            <node concept="1YBJjd" id="69yn6_E_j7g" role="2OEOjV">
+            <node concept="1YBJjd" id="69yn6_E_j7g" role="1urrMF">
               <ref role="1YBMHb" node="69yn6_EzaRA" resolve="mcase" />
             </node>
           </node>
@@ -765,7 +765,7 @@
                         <property role="Xl_RC" value="Duplicate binding for " />
                       </node>
                     </node>
-                    <node concept="37vLTw" id="2RafZtcjbqX" role="2OEOjV">
+                    <node concept="37vLTw" id="2RafZtcjbqX" role="1urrMF">
                       <ref role="3cqZAo" node="2RafZtcj8ij" resolve="one" />
                     </node>
                   </node>
@@ -783,7 +783,7 @@
                         <property role="Xl_RC" value="Duplicate binding for " />
                       </node>
                     </node>
-                    <node concept="37vLTw" id="2RafZtcjbMf" role="2OEOjV">
+                    <node concept="37vLTw" id="2RafZtcjbMf" role="1urrMF">
                       <ref role="3cqZAo" node="2RafZtcj8Up" resolve="two" />
                     </node>
                   </node>
@@ -1548,7 +1548,7 @@
             <node concept="Xl_RD" id="6ZopJQQ_N10" role="2MkJ7o">
               <property role="Xl_RC" value="Cannot use default case when matching more than one expression" />
             </node>
-            <node concept="1YBJjd" id="6ZopJQQ_N11" role="2OEOjV">
+            <node concept="1YBJjd" id="6ZopJQQ_N11" role="1urrMF">
               <ref role="1YBMHb" node="6ZopJQQ_wij" resolve="defPat" />
             </node>
           </node>
@@ -1699,7 +1699,7 @@
                             <property role="Xl_RC" value="Cannot use default case when using a nested node pattern: " />
                           </node>
                         </node>
-                        <node concept="1YBJjd" id="6ZopJQQA1fj" role="2OEOjV">
+                        <node concept="1YBJjd" id="6ZopJQQA1fj" role="1urrMF">
                           <ref role="1YBMHb" node="6ZopJQQ_wij" resolve="defPat" />
                         </node>
                       </node>
