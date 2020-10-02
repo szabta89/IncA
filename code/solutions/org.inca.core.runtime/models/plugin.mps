@@ -36443,7 +36443,7 @@
                   <property role="TrG5h" value="customScope" />
                   <property role="3TUv4t" value="true" />
                   <node concept="3Tqbb2" id="1cwfJkvM8WE" role="1tU5fm">
-                    <ref role="ehGHo" to="hqsm:1cwfJkvtqFk" resolve="AbstractCustomScope" />
+                    <ref role="ehGHo" to="hqsm:1cwfJkvtqFk" resolve="CustomScope" />
                   </node>
                   <node concept="2OqwBi" id="1cwfJkvM8WI" role="33vP2m">
                     <node concept="2OqwBi" id="1cwfJkvM8WJ" role="2Oq$k0">
@@ -36451,7 +36451,7 @@
                         <ref role="3cqZAo" node="1cwfJkvJisO" resolve="model" />
                       </node>
                       <node concept="2RRcyG" id="1cwfJkvM8WL" role="2OqNvi">
-                        <ref role="2RRcyH" to="hqsm:1cwfJkvtqFk" resolve="AbstractCustomScope" />
+                        <ref role="2RRcyH" to="hqsm:1cwfJkvtqFk" resolve="CustomScope" />
                       </node>
                     </node>
                     <node concept="1uHKPH" id="1cwfJkvM8WM" role="2OqNvi" />
@@ -36613,7 +36613,7 @@
                   <node concept="YS8fn" id="1cwfJkvMjTI" role="3cqZAp">
                     <node concept="2ShNRf" id="1cwfJkvMjTW" role="YScLw">
                       <node concept="1pGfFk" id="1cwfJkvMkxj" role="2ShVmc">
-                        <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                        <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String,java.lang.Throwable)" resolve="RuntimeException" />
                         <node concept="3cpWs3" id="2oRZV_1OoFn" role="37wK5m">
                           <node concept="Xl_RD" id="2oRZV_1OoFo" role="3uHU7w">
                             <property role="Xl_RC" value="! (Probably not generated)" />
@@ -36643,6 +36643,9 @@
                               </node>
                             </node>
                           </node>
+                        </node>
+                        <node concept="37vLTw" id="2gqfjGxjeDJ" role="37wK5m">
+                          <ref role="3cqZAo" node="1cwfJkvMumL" resolve="e" />
                         </node>
                       </node>
                     </node>

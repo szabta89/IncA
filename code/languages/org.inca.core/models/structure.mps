@@ -1496,8 +1496,9 @@
   <node concept="1TIwiD" id="1cwfJkvtqFk">
     <property role="EcuMT" value="1378170708491086548" />
     <property role="3GE5qa" value="scope" />
-    <property role="TrG5h" value="AbstractCustomScope" />
+    <property role="TrG5h" value="CustomScope" />
     <property role="19KtqR" value="true" />
+    <property role="34LRSv" value="Custom IncA Scope" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1cwfJkvtqFl" role="1TKVEi">
       <property role="IQ2ns" value="1378170708491086549" />

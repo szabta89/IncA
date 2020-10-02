@@ -4650,7 +4650,7 @@
               </node>
               <node concept="2SmgA7" id="1cwfJkvtuKR" role="2OqNvi">
                 <node concept="chp4Y" id="1cwfJkvtuMR" role="1dBWTz">
-                  <ref role="cht4Q" to="hqsm:1cwfJkvtqFk" resolve="AbstractCustomScope" />
+                  <ref role="cht4Q" to="hqsm:1cwfJkvtqFk" resolve="CustomScope" />
                 </node>
               </node>
             </node>
@@ -4661,7 +4661,7 @@
     </node>
     <node concept="1YaCAy" id="1cwfJkvtudb" role="1YuTPh">
       <property role="TrG5h" value="scope" />
-      <ref role="1YaFvo" to="hqsm:1cwfJkvtqFk" resolve="AbstractCustomScope" />
+      <ref role="1YaFvo" to="hqsm:1cwfJkvtqFk" resolve="CustomScope" />
     </node>
   </node>
   <node concept="18kY7G" id="Mr35FLzlFt">

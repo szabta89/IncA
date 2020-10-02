@@ -4393,11 +4393,11 @@
   </node>
   <node concept="24kQdi" id="1cwfJkvtucr">
     <property role="3GE5qa" value="scope" />
-    <ref role="1XX52x" to="hqsm:1cwfJkvtqFk" resolve="AbstractCustomScope" />
+    <ref role="1XX52x" to="hqsm:1cwfJkvtqFk" resolve="CustomScope" />
     <node concept="3EZMnI" id="1cwfJkvtucw" role="2wV5jI">
       <node concept="l2Vlx" id="1cwfJkvtucx" role="2iSdaV" />
-      <node concept="3F0ifn" id="1cwfJkvtuct" role="3EZMnx">
-        <property role="3F0ifm" value="custom IncA scope" />
+      <node concept="PMmxH" id="5Fo5JmSMFpz" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
       </node>
       <node concept="3F1sOY" id="1cwfJkvtucD" role="3EZMnx">
         <ref role="1NtTu8" to="hqsm:1cwfJkvtqFl" resolve="function" />

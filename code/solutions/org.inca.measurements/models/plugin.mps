@@ -19,6 +19,7 @@
     <import index="vebz" ref="r:1c89766f-bec5-416e-a735-1d8e2add3fc0(org.inca.sa.inter.test.doop)" />
     <import index="zt8v" ref="r:ab008189-f07c-44e4-9434-629f972e973d(org.inca.core.util.plugin)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
+    <import index="1191" ref="r:0308273e-d8ca-4295-ae1a-8d0fb0b73b31(org.inca.sa.inter.test.soot)" />
   </imports>
   <registry>
     <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
@@ -196,6 +197,9 @@
       </node>
       <node concept="tCFHf" id="1dZT6p18Uy6" role="ftvYc">
         <ref role="tCJdB" node="1dZT6p18Dyu" resolve="DoopAction" />
+      </node>
+      <node concept="tCFHf" id="4azcGFj_yBQ" role="ftvYc">
+        <ref role="tCJdB" node="4azcGFj_cvd" resolve="SootAction" />
       </node>
       <node concept="tCFHf" id="3aNmBFkZUFX" role="ftvYc">
         <ref role="tCJdB" node="3aNmBFkZ91b" resolve="ThreadKillerAction" />
@@ -647,6 +651,33 @@
                     <property role="Xl_RC" value="DoopRunner" />
                   </node>
                 </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="sE7Ow" id="4azcGFj_cvd">
+    <property role="TrG5h" value="SootAction" />
+    <property role="2uzpH1" value="Soot Measurement" />
+    <property role="3GE5qa" value="" />
+    <property role="72QZ$" value="true" />
+    <node concept="1DS2jV" id="4azcGFj_cve" role="1NuT2Z">
+      <property role="TrG5h" value="project" />
+      <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.MPS_PROJECT" resolve="MPS_PROJECT" />
+      <node concept="1oajcY" id="4azcGFj_cvf" role="1oa70y" />
+    </node>
+    <node concept="tnohg" id="4azcGFj_cvg" role="tncku">
+      <node concept="3clFbS" id="4azcGFj_cvh" role="2VODD2">
+        <node concept="3clFbF" id="4azcGFj_cvi" role="3cqZAp">
+          <node concept="2YIFZM" id="4azcGFj_cvj" role="3clFbG">
+            <ref role="1Pybhc" to="1191:4azcGFjyt9G" resolve="SootRunner" />
+            <ref role="37wK5l" to="1191:1dZT6p12vjv" resolve="run" />
+            <node concept="2OqwBi" id="4azcGFj_cvk" role="37wK5m">
+              <node concept="2WthIp" id="4azcGFj_cvl" role="2Oq$k0" />
+              <node concept="1DTwFV" id="4azcGFj_cvm" role="2OqNvi">
+                <ref role="2WH_rO" node="4azcGFj_cve" resolve="project" />
               </node>
             </node>
           </node>

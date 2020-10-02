@@ -3,7 +3,7 @@
   <persistence version="9" />
   <imports>
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="jo05" ref="r:84041fac-ee84-4462-aa40-45272492d5ac(org.inca.integration.souffle.structure)" implicit="true" />
+    <import index="jo05" ref="r:84041fac-ee84-4462-aa40-45272492d5ac(org.inca.integration.fs.souffle.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="8c9a2720-9d21-4370-a226-819eb3e76e1e" name="org.inca.fun">

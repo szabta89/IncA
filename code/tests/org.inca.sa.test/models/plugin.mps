@@ -15,16 +15,13 @@
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
   </languages>
   <imports>
-    <import index="dxuu" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing(JDK/)" />
     <import index="l0z0" ref="7766a138-716a-422a-9c88-131459fb8d6a/java:io.usethesource.capsule(org.inca.core.runtime/)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="zlu8" ref="r:78834de7-6fe6-4a19-9aac-690061daffae(org.inca.integration.soot.structure)" />
     <import index="h57a" ref="7766a138-716a-422a-9c88-131459fb8d6a/java:org.eclipse.viatra.query.runtime.api(org.inca.core.runtime/)" />
     <import index="zdap" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.util.text(MPS.IDEA/)" />
-    <import index="dkrr" ref="r:31aa68bd-d799-4414-836e-9bac5d90f662(org.inca.integration.soot.runtime.plugin)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
-    <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="z1c3" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.project(MPS.Platform/)" />
     <import index="3a50" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide(MPS.Platform/)" />
@@ -13416,31 +13413,6 @@
                       </node>
                     </node>
                     <node concept="3clFbH" id="3OV1JRYERvC" role="3cqZAp" />
-                    <node concept="1X3_iC" id="4yrDaCVOVnC" role="lGtFl">
-                      <property role="3V$3am" value="statement" />
-                      <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-                      <node concept="3clFbF" id="1nqMXVsm8AG" role="8Wnug">
-                        <node concept="2YIFZM" id="3OV1JRYByMY" role="3clFbG">
-                          <ref role="37wK5l" to="dkrr:3OV1JRXFqMY" resolve="update" />
-                          <ref role="1Pybhc" to="dkrr:3OV1JRYz6dF" resolve="SootTransformer_Updater" />
-                          <node concept="37vLTw" id="3OV1JRYByMZ" role="37wK5m">
-                            <ref role="3cqZAo" node="1nqMXVsmk6$" resolve="module" />
-                          </node>
-                          <node concept="1LFfDK" id="3OV1JRYF0Qi" role="37wK5m">
-                            <node concept="3cmrfG" id="3OV1JRYF1GH" role="1LF_Uc">
-                              <property role="3cmrfH" value="1" />
-                            </node>
-                            <node concept="37vLTw" id="3OV1JRYEZE0" role="1LFl5Q">
-                              <ref role="3cqZAo" node="3zjqC8vqbPH" resolve="result" />
-                            </node>
-                          </node>
-                          <node concept="37vLTw" id="3OV1JRYByN2" role="37wK5m">
-                            <ref role="3cqZAo" node="1OpGjkrWc$t" resolve="project" />
-                          </node>
-                          <node concept="3clFbT" id="3OV1JRYByN3" role="37wK5m" />
-                        </node>
-                      </node>
-                    </node>
                     <node concept="3cpWs6" id="1OpGjkrVDgQ" role="3cqZAp">
                       <node concept="1LFfDK" id="3OV1JRYF8Y_" role="3cqZAk">
                         <node concept="3cmrfG" id="3OV1JRYF94O" role="1LF_Uc">

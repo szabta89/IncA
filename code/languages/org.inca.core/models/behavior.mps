@@ -8159,7 +8159,7 @@
   </node>
   <node concept="13h7C7" id="1cwfJkvAgtb">
     <property role="3GE5qa" value="scope" />
-    <ref role="13h7C2" to="hqsm:1cwfJkvtqFk" resolve="AbstractCustomScope" />
+    <ref role="13h7C2" to="hqsm:1cwfJkvtqFk" resolve="CustomScope" />
     <node concept="13i0hz" id="1cwfJkvAgtm" role="13h7CS">
       <property role="TrG5h" value="getFullyQualifiedName" />
       <node concept="3Tm1VV" id="1cwfJkvAgtn" role="1B3o_S" />
