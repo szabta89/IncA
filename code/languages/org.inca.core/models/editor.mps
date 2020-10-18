@@ -25,7 +25,6 @@
     <import index="jan3" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.image(JDK/)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="sn11" ref="r:836426ab-a6f4-4fa3-9a9c-34c02ed6ab5d(jetbrains.mps.ide.icons)" />
-    <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
     <import index="dxuu" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing(JDK/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="3sc9" ref="r:7b49db30-2b41-4747-a24c-d8b355719ffd(org.inca.styles.editor)" />
@@ -281,6 +280,9 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
+      <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
+        <reference id="1144433194310" name="classConcept" index="1Pybhc" />
+      </concept>
       <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
         <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
@@ -383,9 +385,6 @@
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
       <concept id="1146644641414" name="jetbrains.mps.baseLanguage.structure.ProtectedVisibility" flags="nn" index="3Tmbuc" />
-      <concept id="1116615150612" name="jetbrains.mps.baseLanguage.structure.ClassifierClassExpression" flags="nn" index="3VsKOn">
-        <reference id="1116615189566" name="classifier" index="3VsUkX" />
-      </concept>
       <concept id="1178893518978" name="jetbrains.mps.baseLanguage.structure.ThisConstructorInvocation" flags="nn" index="1VxSAg" />
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
@@ -2379,36 +2378,6 @@
               <ref role="3cqZAo" node="1dVWdooZXc8" resolve="node" />
             </node>
           </node>
-          <node concept="3cpWs8" id="7epptcjRPPM" role="3cqZAp">
-            <node concept="3cpWsn" id="7epptcjRPPN" role="3cpWs9">
-              <property role="TrG5h" value="iconManager" />
-              <property role="3TUv4t" value="true" />
-              <node concept="3uibUv" id="7epptcjRPPA" role="1tU5fm">
-                <ref role="3uigEE" to="sn11:192HKKPMXeL" resolve="GlobalIconManager" />
-              </node>
-              <node concept="2OqwBi" id="7epptcjRPPO" role="33vP2m">
-                <node concept="2OqwBi" id="7epptcjRPPP" role="2Oq$k0">
-                  <node concept="2OqwBi" id="7epptcjRPPQ" role="2Oq$k0">
-                    <node concept="37vLTw" id="7epptcjRPPR" role="2Oq$k0">
-                      <ref role="3cqZAo" node="1dVWdooZXc3" resolve="context" />
-                    </node>
-                    <node concept="liA8E" id="7epptcjRPPS" role="2OqNvi">
-                      <ref role="37wK5l" to="cj4x:~EditorContext.getOperationContext()" resolve="getOperationContext" />
-                    </node>
-                  </node>
-                  <node concept="liA8E" id="7epptcjRPPT" role="2OqNvi">
-                    <ref role="37wK5l" to="w1kc:~IOperationContext.getProject()" resolve="getProject" />
-                  </node>
-                </node>
-                <node concept="liA8E" id="7epptcjRPPU" role="2OqNvi">
-                  <ref role="37wK5l" to="z1c3:~Project.getComponent(java.lang.Class)" resolve="getComponent" />
-                  <node concept="3VsKOn" id="7epptcjRPPV" role="37wK5m">
-                    <ref role="3VsUkX" to="sn11:192HKKPMXeL" resolve="GlobalIconManager" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
           <node concept="3clFbF" id="DubiFB6nGu" role="3cqZAp">
             <node concept="37vLTI" id="DubiFB6pof" role="3clFbG">
               <node concept="2OqwBi" id="DubiFB6nJd" role="37vLTJ">
@@ -2418,18 +2387,18 @@
                 </node>
               </node>
               <node concept="2OqwBi" id="7epptcjRRQ0" role="37vLTx">
-                <node concept="37vLTw" id="7epptcjRRkA" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7epptcjRPPN" resolve="iconManager" />
-                </node>
                 <node concept="liA8E" id="7epptcjRScS" role="2OqNvi">
                   <ref role="37wK5l" to="sn11:192HKKPOd3m" resolve="getIconFor" />
                   <node concept="37vLTw" id="7epptcjRSX1" role="37wK5m">
                     <ref role="3cqZAo" node="1dVWdooZXc8" resolve="node" />
                   </node>
                 </node>
+                <node concept="2YIFZM" id="2pvLD2907vw" role="2Oq$k0">
+                  <ref role="37wK5l" to="sn11:5UC$YgehaLf" resolve="getInstance" />
+                  <ref role="1Pybhc" to="sn11:192HKKPMXeL" resolve="GlobalIconManager" />
+                </node>
               </node>
             </node>
-            <node concept="15s5l7" id="2FsPteOW17c" role="lGtFl" />
           </node>
           <node concept="3clFbF" id="1dVWdop04xO" role="3cqZAp">
             <node concept="37vLTI" id="1dVWdop04xQ" role="3clFbG">

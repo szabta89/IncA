@@ -13,6 +13,7 @@
     <import index="e2tr" ref="r:821d0bb6-83d2-4134-bee1-c974a102d139(org.inca.integration.fs.runtime.plugin)" />
     <import index="82uw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.function(JDK/)" />
     <import index="eoo2" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.nio.file(JDK/)" />
+    <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
@@ -125,6 +126,7 @@
       </concept>
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
+        <child id="1109201940907" name="parameter" index="11_B2D" />
       </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
@@ -202,9 +204,6 @@
       <concept id="1151688443754" name="jetbrains.mps.baseLanguage.collections.structure.ListType" flags="in" index="_YKpA">
         <child id="1151688676805" name="elementType" index="_ZDj9" />
       </concept>
-      <concept id="1151689724996" name="jetbrains.mps.baseLanguage.collections.structure.SequenceType" flags="in" index="A3Dl8">
-        <child id="1151689745422" name="elementType" index="A3Ik2" />
-      </concept>
       <concept id="1153943597977" name="jetbrains.mps.baseLanguage.collections.structure.ForEachStatement" flags="nn" index="2Gpval">
         <child id="1153944400369" name="variable" index="2Gsz3X" />
         <child id="1153944424730" name="inputSequence" index="2GsD0m" />
@@ -219,7 +218,6 @@
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1160600644654" name="jetbrains.mps.baseLanguage.collections.structure.ListCreatorWithInit" flags="nn" index="Tc6Ow" />
       <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
-      <concept id="1240325842691" name="jetbrains.mps.baseLanguage.collections.structure.AsSequenceOperation" flags="nn" index="39bAoz" />
       <concept id="1225727723840" name="jetbrains.mps.baseLanguage.collections.structure.FindFirstOperation" flags="nn" index="1z4cxt" />
     </language>
   </registry>
@@ -522,11 +520,6 @@
                     <node concept="3clFb_" id="5Fo5JmTa$jQ" role="jymVt">
                       <property role="TrG5h" value="apply" />
                       <node concept="3Tm1VV" id="5Fo5JmTa$jR" role="1B3o_S" />
-                      <node concept="A3Dl8" id="5Fo5JmTa$kf" role="3clF45">
-                        <node concept="3uibUv" id="5Fo5JmTa$kg" role="A3Ik2">
-                          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
-                        </node>
-                      </node>
                       <node concept="37vLTG" id="5Fo5JmTa$jU" role="3clF46">
                         <property role="TrG5h" value="line" />
                         <property role="3TUv4t" value="true" />
@@ -541,32 +534,40 @@
                       </node>
                       <node concept="3clFbS" id="5Fo5JmTa$jY" role="3clF47">
                         <node concept="3cpWs6" id="5Fo5JmTa_fe" role="3cqZAp">
-                          <node concept="2OqwBi" id="5Fo5JmTa_ff" role="3cqZAk">
-                            <node concept="2OqwBi" id="5Fo5JmTa_fg" role="2Oq$k0">
-                              <node concept="37vLTw" id="5Fo5JmTa_fh" role="2Oq$k0">
+                          <node concept="2YIFZM" id="7PSP33tVjFK" role="3cqZAk">
+                            <ref role="1Pybhc" to="33ny:~Arrays" resolve="Arrays" />
+                            <ref role="37wK5l" to="33ny:~Arrays.asList(java.lang.Object...)" resolve="asList" />
+                            <node concept="2OqwBi" id="7PSP33tVklF" role="37wK5m">
+                              <node concept="37vLTw" id="7PSP33tVklG" role="2Oq$k0">
                                 <ref role="3cqZAo" node="5Fo5JmTa$jU" resolve="line" />
                               </node>
-                              <node concept="liA8E" id="5Fo5JmTa_fi" role="2OqNvi">
+                              <node concept="liA8E" id="7PSP33tVklH" role="2OqNvi">
                                 <ref role="37wK5l" to="wyt6:~String.split(java.lang.String)" resolve="split" />
-                                <node concept="Xl_RD" id="5Fo5JmTa_fj" role="37wK5m">
+                                <node concept="Xl_RD" id="7PSP33tVklI" role="37wK5m">
                                   <property role="Xl_RC" value="\t" />
                                 </node>
                               </node>
                             </node>
-                            <node concept="39bAoz" id="5Fo5JmTa_fk" role="2OqNvi" />
                           </node>
                         </node>
                       </node>
                       <node concept="2AHcQZ" id="5Fo5JmTa$k0" role="2AJF6D">
                         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                       </node>
+                      <node concept="3uibUv" id="7PSP33tVEgy" role="3clF45">
+                        <ref role="3uigEE" to="33ny:~List" resolve="List" />
+                        <node concept="3uibUv" id="7PSP33tVEgz" role="11_B2D">
+                          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                        </node>
+                      </node>
                     </node>
                     <node concept="17QB3L" id="5Fo5JmTa$k9" role="2Ghqu4" />
                     <node concept="3uibUv" id="5Fo5JmTa$kb" role="2Ghqu4">
                       <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
                     </node>
-                    <node concept="A3Dl8" id="5Fo5JmTa$kd" role="2Ghqu4">
-                      <node concept="3uibUv" id="5Fo5JmTa$ke" role="A3Ik2">
+                    <node concept="3uibUv" id="7PSP33tV_sB" role="2Ghqu4">
+                      <ref role="3uigEE" to="33ny:~List" resolve="List" />
+                      <node concept="3uibUv" id="7PSP33tVApg" role="11_B2D">
                         <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
                       </node>
                     </node>

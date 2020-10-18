@@ -1108,15 +1108,15 @@
           </node>
         </node>
         <node concept="16arh9" id="1d5nvWVFOpa" role="3cqZAp">
-          <ref role="16arh8" node="62kpGTi5zKp" resolve="PointsToAnalysis_Lat" />
+          <ref role="16arh8" node="4REMYHpS65x" resolve="PointsToAnalysis_Rel" />
           <node concept="10M0yZ" id="7YDBmANafsQ" role="169jai">
             <ref role="3cqZAo" node="7YDBmAN9ZuF" resolve="SCOPE" />
             <ref role="1PxDUh" node="7YDBmAN9Zts" resolve="AnalysisHelper" />
           </node>
         </node>
         <node concept="3clFbF" id="6IH22jmm1o8" role="3cqZAp">
-          <node concept="1rXfSq" id="sd0mgOXTlZ" role="3clFbG">
-            <ref role="37wK5l" node="b4_9o$B65o" resolve="printVarPointsToStatisticsLat" />
+          <node concept="1rXfSq" id="2xvZY1bDBbZ" role="3clFbG">
+            <ref role="37wK5l" node="62kpGTi0zJy" resolve="printVarPointsToStatisticsRel" />
           </node>
         </node>
         <node concept="3cpWs8" id="1dZT6p12zKM" role="3cqZAp">
@@ -1598,7 +1598,9 @@
                             <node concept="37vLTw" id="4twydQJVtMw" role="37wK5m">
                               <ref role="3cqZAo" node="6xWrepZswdv" resolve="relation" />
                             </node>
-                            <node concept="10Nm6u" id="4OC2YygBJhZ" role="37wK5m" />
+                            <node concept="37vLTw" id="2xvZY1bD$cw" role="37wK5m">
+                              <ref role="3cqZAo" node="3kb$4DOHK0n" resolve="impactCounter" />
+                            </node>
                           </node>
                         </node>
                       </node>
@@ -1681,10 +1683,10 @@
             <property role="TrG5h" value="evaluator" />
             <property role="3TUv4t" value="true" />
             <node concept="VdqW6" id="4twydQJVtKY" role="1tU5fm">
-              <ref role="Vdrjr" node="62kpGTi5zNx" resolve="VarPointsTo_Lat" />
+              <ref role="Vdrjr" node="4REMYHpS6hV" resolve="VarPointsTo_Rel" />
             </node>
             <node concept="2UzQ1s" id="4twydQJVtKZ" role="33vP2m">
-              <ref role="2UzQ1C" node="62kpGTi5zNx" resolve="VarPointsTo_Lat" />
+              <ref role="2UzQ1C" node="4REMYHpS6hV" resolve="VarPointsTo_Rel" />
               <node concept="37vLTw" id="4twydQJVtMi" role="HflyE">
                 <ref role="3cqZAo" node="4twydQJVtM9" resolve="model" />
               </node>
@@ -1834,7 +1836,7 @@
                   <ref role="3cqZAo" node="4twydQJVtMe" resolve="relation" />
                 </node>
                 <node concept="liA8E" id="4twydQJVtLx" role="2OqNvi">
-                  <ref role="37wK5l" to="e2tr:6xWrepZAL4d" resolve="removeFact" />
+                  <ref role="37wK5l" to="e2tr:6xWrepZAL4d" resolve="removeFactDelayed" />
                   <node concept="37vLTw" id="1Z6tkp_FZaZ" role="37wK5m">
                     <ref role="3cqZAo" node="1Z6tkp_FIXL" resolve="fact" />
                   </node>
@@ -1939,7 +1941,7 @@
                   <ref role="3cqZAo" node="4twydQJVtMe" resolve="relation" />
                 </node>
                 <node concept="liA8E" id="4twydQJVtLN" role="2OqNvi">
-                  <ref role="37wK5l" to="e2tr:6xWrepZA3wd" resolve="addFact" />
+                  <ref role="37wK5l" to="e2tr:6xWrepZA3wd" resolve="addFactDelayed" />
                   <node concept="37vLTw" id="1Z6tkp_G17L" role="37wK5m">
                     <ref role="3cqZAo" node="1Z6tkp_FIXL" resolve="fact" />
                   </node>
