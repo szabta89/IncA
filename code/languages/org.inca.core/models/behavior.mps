@@ -8441,6 +8441,19 @@
         <ref role="3uigEE" to="wduz:~IQueryBackendFactory" resolve="IQueryBackendFactory" />
       </node>
     </node>
+    <node concept="13i0hz" id="6drV32qBNZD" role="13h7CS">
+      <property role="TrG5h" value="getDetailedPresentation" />
+      <ref role="13i0hy" to="tpcu:22G2W3WJ92t" resolve="getDetailedPresentation" />
+      <node concept="3Tm1VV" id="6drV32qBNZE" role="1B3o_S" />
+      <node concept="3clFbS" id="6drV32qBNZF" role="3clF47">
+        <node concept="3cpWs6" id="6drV32qBNZG" role="3cqZAp">
+          <node concept="Xl_RD" id="6drV32qBNZH" role="3cqZAk">
+            <property role="Xl_RC" value="dredl" />
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="6drV32qBNZI" role="3clF45" />
+    </node>
   </node>
   <node concept="13h7C7" id="63E4q94nO4w">
     <property role="3GE5qa" value="compiler" />
@@ -8460,6 +8473,19 @@
       <node concept="3uibUv" id="63E4q94nO4K" role="3clF45">
         <ref role="3uigEE" to="wduz:~IQueryBackendFactory" resolve="IQueryBackendFactory" />
       </node>
+    </node>
+    <node concept="13i0hz" id="6drV32qBNTG" role="13h7CS">
+      <property role="TrG5h" value="getDetailedPresentation" />
+      <ref role="13i0hy" to="tpcu:22G2W3WJ92t" resolve="getDetailedPresentation" />
+      <node concept="3Tm1VV" id="6drV32qBNTH" role="1B3o_S" />
+      <node concept="3clFbS" id="6drV32qBNTI" role="3clF47">
+        <node concept="3cpWs6" id="6drV32qBNTJ" role="3cqZAp">
+          <node concept="Xl_RD" id="6drV32qBNTK" role="3cqZAk">
+            <property role="Xl_RC" value="laddder_sequential" />
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="6drV32qBNTL" role="3clF45" />
     </node>
     <node concept="13hLZK" id="63E4q94nO4x" role="13h7CW">
       <node concept="3clFbS" id="63E4q94nO4y" role="2VODD2">
@@ -8510,6 +8536,19 @@
       <node concept="3clFbS" id="gUN7B7UITl" role="2VODD2">
         <node concept="3clFbH" id="gUN7B7UIVV" role="3cqZAp" />
       </node>
+    </node>
+    <node concept="13i0hz" id="6drV32qBNMs" role="13h7CS">
+      <property role="TrG5h" value="getDetailedPresentation" />
+      <ref role="13i0hy" to="tpcu:22G2W3WJ92t" resolve="getDetailedPresentation" />
+      <node concept="3Tm1VV" id="6drV32qBNMt" role="1B3o_S" />
+      <node concept="3clFbS" id="6drV32qBNM$" role="3clF47">
+        <node concept="3cpWs6" id="6drV32qBNQH" role="3cqZAp">
+          <node concept="Xl_RD" id="6drV32qBNQI" role="3cqZAk">
+            <property role="Xl_RC" value="laddder_naive" />
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="6drV32qBNM_" role="3clF45" />
     </node>
   </node>
 </model>

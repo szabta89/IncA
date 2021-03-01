@@ -36927,17 +36927,47 @@
             </node>
           </node>
         </node>
+        <node concept="3cpWs8" id="1_UEfL1TkMk" role="3cqZAp">
+          <node concept="3cpWsn" id="1_UEfL1TkMl" role="3cpWs9">
+            <property role="TrG5h" value="allNodes" />
+            <property role="3TUv4t" value="true" />
+            <node concept="_YKpA" id="1_UEfL1TkM8" role="1tU5fm">
+              <node concept="3uibUv" id="1_UEfL1TkMb" role="_ZDj9">
+                <ref role="3uigEE" to="qtrc:~Node" resolve="Node" />
+              </node>
+            </node>
+            <node concept="2ShNRf" id="1_UEfL1TkMm" role="33vP2m">
+              <node concept="Tc6Ow" id="1_UEfL1TkMn" role="2ShVmc">
+                <node concept="3uibUv" id="1_UEfL1TkMo" role="HW$YZ">
+                  <ref role="3uigEE" to="qtrc:~Node" resolve="Node" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1_UEfL1TfOe" role="3cqZAp">
+          <node concept="2OqwBi" id="1_UEfL1TlJc" role="3clFbG">
+            <node concept="37vLTw" id="1_UEfL1TkMp" role="2Oq$k0">
+              <ref role="3cqZAo" node="1_UEfL1TkMl" resolve="allNodes" />
+            </node>
+            <node concept="X8dFx" id="1_UEfL1TmWz" role="2OqNvi">
+              <node concept="2OqwBi" id="1_UEfL1Tn9J" role="25WWJ7">
+                <node concept="37vLTw" id="1_UEfL1Tn9K" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3ZWK0j75z4" resolve="container" />
+                </node>
+                <node concept="liA8E" id="1_UEfL1Tn9L" role="2OqNvi">
+                  <ref role="37wK5l" to="qtrc:~ReteContainer.getAllNodes()" resolve="getAllNodes" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="2Gpval" id="3kb$4DODfit" role="3cqZAp">
           <node concept="2GrKxI" id="3kb$4DODfiv" role="2Gsz3X">
             <property role="TrG5h" value="node" />
           </node>
-          <node concept="2OqwBi" id="3kb$4DODg6v" role="2GsD0m">
-            <node concept="37vLTw" id="3kb$4DODfXY" role="2Oq$k0">
-              <ref role="3cqZAo" node="3ZWK0j75z4" resolve="container" />
-            </node>
-            <node concept="liA8E" id="3kb$4DODgj7" role="2OqNvi">
-              <ref role="37wK5l" to="qtrc:~ReteContainer.getAllNodes()" resolve="getAllNodes" />
-            </node>
+          <node concept="37vLTw" id="1_UEfL1TocS" role="2GsD0m">
+            <ref role="3cqZAo" node="1_UEfL1TkMl" resolve="allNodes" />
           </node>
           <node concept="3clFbS" id="3kb$4DODfiz" role="2LFqv$">
             <node concept="3clFbJ" id="3kb$4DODgo_" role="3cqZAp">

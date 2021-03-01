@@ -1586,7 +1586,7 @@
     <property role="EcuMT" value="3798692733285425690" />
     <property role="3GE5qa" value="compiler" />
     <property role="TrG5h" value="TimelySequentialKind" />
-    <property role="34LRSv" value="Timely with Sequential Aggregation" />
+    <property role="34LRSv" value="LADDDER with Sequential Aggregation" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3iREICylu8r" role="PzmwI">
       <ref role="PrY4T" node="3iREICylu8n" resolve="IBackendKind" />
@@ -1639,7 +1639,7 @@
     <property role="EcuMT" value="304780748218101163" />
     <property role="3GE5qa" value="compiler" />
     <property role="TrG5h" value="TimelyNaiveKind" />
-    <property role="34LRSv" value="Timely with Naive Aggregation" />
+    <property role="34LRSv" value="LADDDER with Naive Aggregation" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="gUN7B7UIQG" role="PzmwI">
       <ref role="PrY4T" node="3iREICylu8n" resolve="IBackendKind" />

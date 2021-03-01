@@ -7,7 +7,6 @@
       <modulePath path="$PROJECT_DIR$/languages/org.inca.extensions/org.inca.extensions.mpl" folder="ext" />
       <modulePath path="$PROJECT_DIR$/languages/org.inca.fun/org.inca.fun.mpl" folder="core" />
       <modulePath path="$PROJECT_DIR$/languages/org.inca.gp/org.inca.gp.mpl" folder="core" />
-      <modulePath path="$PROJECT_DIR$/languages/org.inca.ifds/org.inca.ifds.mpl" folder="ext" />
       <modulePath path="$PROJECT_DIR$/languages/org.inca.integration.fs.soot/org.inca.integration.fs.soot.mpl" folder="integration.soot" />
       <modulePath path="$PROJECT_DIR$/languages/org.inca.integration.fs.souffle/org.inca.integration.fs.souffle.mpl" folder="integration.souffle" />
       <modulePath path="$PROJECT_DIR$/languages/org.inca.integration.soot/com.mbeddr.mpsutil.soot.mpl" folder="integration.soot" />
@@ -25,10 +24,7 @@
       <modulePath path="$PROJECT_DIR$/solutions/org.inca.integration.fs.runtime/org.inca.integration.fs.runtime.msd" folder="integration" />
       <modulePath path="$PROJECT_DIR$/solutions/org.inca.integration.fs.soot.runtime/org.inca.integration.fs.soot.runtime.msd" folder="integration.soot" />
       <modulePath path="$PROJECT_DIR$/solutions/org.inca.integration.fs.souffle.runtime/org.inca.integration.fs.souffle.runtime.msd" folder="integration.souffle" />
-      <modulePath path="$PROJECT_DIR$/solutions/org.inca.measurements/org.inca.measurements.msd" folder="measurements" />
       <modulePath path="$PROJECT_DIR$/solutions/org.inca.meta.analysis/org.inca.meta.analysis.msd" folder="meta" />
-      <modulePath path="$PROJECT_DIR$/solutions/org.inca.meta.typing/org.inca.meta.typing.msd" folder="meta" />
-      <modulePath path="$PROJECT_DIR$/solutions/org.inca.sa.ifds.test/org.inca.sa.ifds.test.msd" folder="tests" />
       <modulePath path="$PROJECT_DIR$/solutions/org.inca.ui/org.inca.ui.msd" folder="ui" />
       <modulePath path="$PROJECT_DIR$/tests/org.inca.data.test.analyses/org.inca.data.test.analyses.msd" folder="tests" />
       <modulePath path="$PROJECT_DIR$/tests/org.inca.data.test.lang/org.inca.data.test.lang.mpl" folder="tests" />

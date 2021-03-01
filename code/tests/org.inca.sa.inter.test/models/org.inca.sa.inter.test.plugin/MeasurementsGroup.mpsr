@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model ref="r:663e7341-bd17-4926-930a-ffa29826f8c1(org.inca.sa.inter.test.plugin)" content="root">
+  <persistence version="9" />
+  <imports>
+    <import index="ekwn" ref="r:9832fb5f-2578-4b58-8014-a5de79da988e(jetbrains.mps.ide.editor.actions)" implicit="true" />
+    <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" implicit="true" />
+  </imports>
+  <registry>
+    <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
+      <concept id="1207145163717" name="jetbrains.mps.lang.plugin.structure.ElementListContents" flags="ng" index="ftmFs">
+        <child id="1207145201301" name="reference" index="ftvYc" />
+      </concept>
+      <concept id="1203087890642" name="jetbrains.mps.lang.plugin.structure.ActionGroupDeclaration" flags="ng" index="tC5Ba">
+        <property id="1204991940915" name="caption" index="2f7twF" />
+        <property id="1213283637680" name="isPopup" index="1XlLyE" />
+        <child id="1204991552650" name="modifier" index="2f5YQi" />
+        <child id="1207145245948" name="contents" index="ftER_" />
+      </concept>
+      <concept id="1203088046679" name="jetbrains.mps.lang.plugin.structure.ActionInstance" flags="ng" index="tCFHf">
+        <reference id="1203088061055" name="action" index="tCJdB" />
+      </concept>
+      <concept id="1203092361741" name="jetbrains.mps.lang.plugin.structure.ModificationStatement" flags="lg" index="tT9cl">
+        <reference id="1204992316090" name="point" index="2f8Tey" />
+        <reference id="1203092736097" name="modifiedGroup" index="tU$_T" />
+      </concept>
+    </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+        <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+  </registry>
+  <node concept="tC5Ba" id="1GlxrIveqTo">
+    <property role="TrG5h" value="MeasurementsGroup" />
+    <property role="3GE5qa" value="" />
+    <property role="2f7twF" value="IncA Measurements" />
+    <property role="1XlLyE" value="true" />
+    <node concept="ftmFs" id="1GlxrIveqTs" role="ftER_">
+      <node concept="tCFHf" id="5DxsSbs5m7n" role="ftvYc">
+        <ref role="tCJdB" node="1dZT6p18Dyu" resolve="PSPointsToAction" />
+      </node>
+      <node concept="tCFHf" id="5DxsSbsaLdl" role="ftvYc">
+        <ref role="tCJdB" node="5DxsSbs82ul" resolve="KPointsToAction" />
+      </node>
+      <node concept="tCFHf" id="5DxsSbscFk8" role="ftvYc">
+        <ref role="tCJdB" node="5DxsSbscE0y" resolve="ConstantPropagationAction" />
+      </node>
+      <node concept="tCFHf" id="1_UEfL1Swtj" role="ftvYc">
+        <ref role="tCJdB" node="1_UEfL1RXMK" resolve="TerminateBenchmarkAction" />
+      </node>
+    </node>
+    <node concept="tT9cl" id="30k9qscCvBF" role="2f5YQi">
+      <ref role="2f8Tey" to="ekwn:1xsN4xJX8VY" resolve="debug" />
+      <ref role="tU$_T" to="ekwn:1xsN4xJX8VI" resolve="EditorPopup" />
+    </node>
+    <node concept="tT9cl" id="30k9qscCvBG" role="2f5YQi">
+      <ref role="tU$_T" to="tprs:hyf4Gvz" resolve="NodeActions" />
+      <ref role="2f8Tey" to="tprs:14z8V6nEs7K" resolve="debug" />
+    </node>
+  </node>
+</model>
+

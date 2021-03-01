@@ -406,6 +406,16 @@
         <ref role="3uigEE" to="h57a:~AdvancedViatraQueryEngine" resolve="AdvancedViatraQueryEngine" />
       </node>
     </node>
+    <node concept="312cEg" id="bFXUXALzdG" role="jymVt">
+      <property role="TrG5h" value="memoryUse" />
+      <node concept="3Tmbuc" id="bFXUXALx6G" role="1B3o_S" />
+      <node concept="3cpWsb" id="bFXUXALz5B" role="1tU5fm" />
+    </node>
+    <node concept="312cEg" id="bFXUXALAbX" role="jymVt">
+      <property role="TrG5h" value="initializationTime" />
+      <node concept="3Tmbuc" id="bFXUXALAbY" role="1B3o_S" />
+      <node concept="3cpWsb" id="bFXUXALAbZ" role="1tU5fm" />
+    </node>
     <node concept="2tJIrI" id="w2h3oDZhmi" role="jymVt" />
     <node concept="3clFbW" id="w2h3oDZhlo" role="jymVt">
       <node concept="3cqZAl" id="w2h3oDZhlq" role="3clF45" />
@@ -774,32 +784,36 @@
             <node concept="3clFbH" id="7PSP33ub5G5" role="3cqZAp" />
             <node concept="3clFbJ" id="7PSP33u9LCN" role="3cqZAp">
               <node concept="3clFbS" id="7PSP33u9LCP" role="3clFbx">
-                <node concept="3clFbF" id="w2h3oDZTVG" role="3cqZAp">
-                  <node concept="2OqwBi" id="w2h3oDZTVH" role="3clFbG">
-                    <node concept="10M0yZ" id="w2h3oDZTVI" role="2Oq$k0">
-                      <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                      <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
-                    </node>
-                    <node concept="liA8E" id="w2h3oDZTVJ" role="2OqNvi">
-                      <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
-                      <node concept="3cpWs3" id="w2h3oDZTVK" role="37wK5m">
-                        <node concept="37vLTw" id="w2h3oDZTVL" role="3uHU7w">
-                          <ref role="3cqZAo" node="w2h3oDZTVv" resolve="file" />
-                        </node>
-                        <node concept="3cpWs3" id="w2h3oE0V6G" role="3uHU7B">
-                          <node concept="Xl_RD" id="w2h3oE0V9r" role="3uHU7w">
-                            <property role="Xl_RC" value=" from file " />
+                <node concept="1X3_iC" id="bFXUXASdrP" role="lGtFl">
+                  <property role="3V$3am" value="statement" />
+                  <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+                  <node concept="3clFbF" id="w2h3oDZTVG" role="8Wnug">
+                    <node concept="2OqwBi" id="w2h3oDZTVH" role="3clFbG">
+                      <node concept="10M0yZ" id="w2h3oDZTVI" role="2Oq$k0">
+                        <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                        <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
+                      </node>
+                      <node concept="liA8E" id="w2h3oDZTVJ" role="2OqNvi">
+                        <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
+                        <node concept="3cpWs3" id="w2h3oDZTVK" role="37wK5m">
+                          <node concept="37vLTw" id="w2h3oDZTVL" role="3uHU7w">
+                            <ref role="3cqZAo" node="w2h3oDZTVv" resolve="file" />
                           </node>
-                          <node concept="3cpWs3" id="w2h3oE0QkH" role="3uHU7B">
-                            <node concept="Xl_RD" id="w2h3oDZTVM" role="3uHU7B">
-                              <property role="Xl_RC" value="Initializing relation " />
+                          <node concept="3cpWs3" id="w2h3oE0V6G" role="3uHU7B">
+                            <node concept="Xl_RD" id="w2h3oE0V9r" role="3uHU7w">
+                              <property role="Xl_RC" value=" from file " />
                             </node>
-                            <node concept="2OqwBi" id="42Itsm8GJkN" role="3uHU7w">
-                              <node concept="37vLTw" id="42Itsm8GJ3T" role="2Oq$k0">
-                                <ref role="3cqZAo" node="w2h3oDZTVO" resolve="concept" />
+                            <node concept="3cpWs3" id="w2h3oE0QkH" role="3uHU7B">
+                              <node concept="Xl_RD" id="w2h3oDZTVM" role="3uHU7B">
+                                <property role="Xl_RC" value="Initializing relation " />
                               </node>
-                              <node concept="liA8E" id="42Itsm8GJ$X" role="2OqNvi">
-                                <ref role="37wK5l" to="c17a:~SAbstractConcept.getName()" resolve="getName" />
+                              <node concept="2OqwBi" id="42Itsm8GJkN" role="3uHU7w">
+                                <node concept="37vLTw" id="42Itsm8GJ3T" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="w2h3oDZTVO" resolve="concept" />
+                                </node>
+                                <node concept="liA8E" id="42Itsm8GJ$X" role="2OqNvi">
+                                  <ref role="37wK5l" to="c17a:~SAbstractConcept.getName()" resolve="getName" />
+                                </node>
                               </node>
                             </node>
                           </node>
@@ -1104,20 +1118,24 @@
                     </node>
                   </node>
                 </node>
-                <node concept="3clFbF" id="2V8Gn2SsWs2" role="3cqZAp">
-                  <node concept="2OqwBi" id="2V8Gn2SsWrZ" role="3clFbG">
-                    <node concept="10M0yZ" id="2V8Gn2SsWs0" role="2Oq$k0">
-                      <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                      <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
-                    </node>
-                    <node concept="liA8E" id="2V8Gn2SsWs1" role="2OqNvi">
-                      <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
-                      <node concept="3cpWs3" id="2V8Gn2SsYaX" role="37wK5m">
-                        <node concept="37vLTw" id="6Gsy$BH5FTH" role="3uHU7w">
-                          <ref role="3cqZAo" node="6Gsy$BH5FTA" resolve="relationSize" />
-                        </node>
-                        <node concept="Xl_RD" id="2V8Gn2SsXb0" role="3uHU7B">
-                          <property role="Xl_RC" value="\t number of facts in the relation is " />
+                <node concept="1X3_iC" id="bFXUXASd9D" role="lGtFl">
+                  <property role="3V$3am" value="statement" />
+                  <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+                  <node concept="3clFbF" id="2V8Gn2SsWs2" role="8Wnug">
+                    <node concept="2OqwBi" id="2V8Gn2SsWrZ" role="3clFbG">
+                      <node concept="10M0yZ" id="2V8Gn2SsWs0" role="2Oq$k0">
+                        <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                        <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
+                      </node>
+                      <node concept="liA8E" id="2V8Gn2SsWs1" role="2OqNvi">
+                        <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
+                        <node concept="3cpWs3" id="2V8Gn2SsYaX" role="37wK5m">
+                          <node concept="37vLTw" id="6Gsy$BH5FTH" role="3uHU7w">
+                            <ref role="3cqZAo" node="6Gsy$BH5FTA" resolve="relationSize" />
+                          </node>
+                          <node concept="Xl_RD" id="2V8Gn2SsXb0" role="3uHU7B">
+                            <property role="Xl_RC" value="\t number of facts in the relation is " />
+                          </node>
                         </node>
                       </node>
                     </node>
@@ -1164,65 +1182,93 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="6Gsy$BHfipt" role="3cqZAp">
-          <node concept="2OqwBi" id="6Gsy$BHfipq" role="3clFbG">
-            <node concept="10M0yZ" id="6Gsy$BHfipr" role="2Oq$k0">
-              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-              <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
+        <node concept="3clFbF" id="bFXUXALDNu" role="3cqZAp">
+          <node concept="37vLTI" id="bFXUXALFqw" role="3clFbG">
+            <node concept="37vLTw" id="bFXUXALDNs" role="37vLTJ">
+              <ref role="3cqZAo" node="bFXUXALAbX" resolve="initializationTime" />
             </node>
-            <node concept="liA8E" id="6Gsy$BHfips" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
-              <node concept="3cpWs3" id="6Gsy$BHfpV7" role="37wK5m">
-                <node concept="Xl_RD" id="6Gsy$BHfpVv" role="3uHU7w">
-                  <property role="Xl_RC" value=" MB" />
-                </node>
-                <node concept="3cpWs3" id="6Gsy$BHfmlC" role="3uHU7B">
-                  <node concept="Xl_RD" id="6Gsy$BHfkfD" role="3uHU7B">
-                    <property role="Xl_RC" value="Current memory use " />
-                  </node>
-                  <node concept="2YIFZM" id="6Gsy$BHfoID" role="3uHU7w">
-                    <ref role="37wK5l" to="zt8v:6Gsy$BH6vYB" resolve="getUsedMemoryInMegaBytes" />
-                    <ref role="1Pybhc" to="zt8v:1_JXc3TiqqE" resolve="MeasurementUtil" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="1dZT6p197o6" role="3cqZAp">
-          <node concept="3cpWsn" id="1dZT6p197o9" role="3cpWs9">
-            <property role="TrG5h" value="duration" />
-            <property role="3TUv4t" value="true" />
-            <node concept="3cpWsb" id="1dZT6p197o4" role="1tU5fm" />
-            <node concept="3cpWsd" id="1dZT6p19979" role="33vP2m">
-              <node concept="37vLTw" id="1dZT6p199gJ" role="3uHU7w">
+            <node concept="3cpWsd" id="bFXUXALFRT" role="37vLTx">
+              <node concept="37vLTw" id="bFXUXALFRU" role="3uHU7w">
                 <ref role="3cqZAo" node="1dZT6p194L$" resolve="start" />
               </node>
-              <node concept="2YIFZM" id="1dZT6p198Ba" role="3uHU7B">
+              <node concept="2YIFZM" id="bFXUXALFRV" role="3uHU7B">
                 <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
                 <ref role="37wK5l" to="wyt6:~System.currentTimeMillis()" resolve="currentTimeMillis" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="1dZT6p19a$k" role="3cqZAp">
-          <node concept="2OqwBi" id="1dZT6p19a$h" role="3clFbG">
-            <node concept="10M0yZ" id="1dZT6p19a$i" role="2Oq$k0">
-              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-              <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
-            </node>
-            <node concept="liA8E" id="1dZT6p19a$j" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
-              <node concept="3cpWs3" id="1dZT6p19e$J" role="37wK5m">
-                <node concept="Xl_RD" id="1dZT6p19eEL" role="3uHU7w">
-                  <property role="Xl_RC" value=" ms" />
-                </node>
-                <node concept="3cpWs3" id="1dZT6p19dv4" role="3uHU7B">
-                  <node concept="Xl_RD" id="1dZT6p19bTp" role="3uHU7B">
-                    <property role="Xl_RC" value="Initialization of the database took " />
+        <node concept="1X3_iC" id="bFXUXASbbm" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbF" id="1dZT6p19a$k" role="8Wnug">
+            <node concept="2OqwBi" id="1dZT6p19a$h" role="3clFbG">
+              <node concept="10M0yZ" id="1dZT6p19a$i" role="2Oq$k0">
+                <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
+              </node>
+              <node concept="liA8E" id="1dZT6p19a$j" role="2OqNvi">
+                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
+                <node concept="3cpWs3" id="1dZT6p19e$J" role="37wK5m">
+                  <node concept="Xl_RD" id="1dZT6p19eEL" role="3uHU7w">
+                    <property role="Xl_RC" value=" ms" />
                   </node>
-                  <node concept="37vLTw" id="1dZT6p19dQO" role="3uHU7w">
-                    <ref role="3cqZAo" node="1dZT6p197o9" resolve="duration" />
+                  <node concept="3cpWs3" id="1dZT6p19dv4" role="3uHU7B">
+                    <node concept="Xl_RD" id="1dZT6p19bTp" role="3uHU7B">
+                      <property role="Xl_RC" value="Initialization of the database took " />
+                    </node>
+                    <node concept="2OqwBi" id="bFXUXAMXCG" role="3uHU7w">
+                      <node concept="Xjq3P" id="bFXUXAMX$H" role="2Oq$k0" />
+                      <node concept="2OwXpG" id="bFXUXAMY5X" role="2OqNvi">
+                        <ref role="2Oxat5" node="bFXUXALAbX" resolve="initializationTime" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="bFXUXALZI2" role="3cqZAp">
+          <node concept="37vLTI" id="bFXUXAM3nR" role="3clFbG">
+            <node concept="2OqwBi" id="bFXUXAM0Da" role="37vLTJ">
+              <node concept="Xjq3P" id="bFXUXALZI0" role="2Oq$k0" />
+              <node concept="2OwXpG" id="bFXUXAM1tW" role="2OqNvi">
+                <ref role="2Oxat5" node="bFXUXALzdG" resolve="memoryUse" />
+              </node>
+            </node>
+            <node concept="2YIFZM" id="bFXUXAMd3l" role="37vLTx">
+              <ref role="1Pybhc" to="zt8v:1_JXc3TiqqE" resolve="MeasurementUtil" />
+              <ref role="37wK5l" to="zt8v:6Gsy$BH6vYB" resolve="getUsedMemoryInMegaBytes" />
+              <node concept="3clFbT" id="bFXUXAMd3m" role="37wK5m" />
+            </node>
+          </node>
+        </node>
+        <node concept="1X3_iC" id="bFXUXAScrE" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbF" id="6Gsy$BHfipt" role="8Wnug">
+            <node concept="2OqwBi" id="6Gsy$BHfipq" role="3clFbG">
+              <node concept="10M0yZ" id="6Gsy$BHfipr" role="2Oq$k0">
+                <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
+              </node>
+              <node concept="liA8E" id="6Gsy$BHfips" role="2OqNvi">
+                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
+                <node concept="3cpWs3" id="6Gsy$BHfpV7" role="37wK5m">
+                  <node concept="Xl_RD" id="6Gsy$BHfpVv" role="3uHU7w">
+                    <property role="Xl_RC" value=" MB" />
+                  </node>
+                  <node concept="3cpWs3" id="6Gsy$BHfmlC" role="3uHU7B">
+                    <node concept="Xl_RD" id="6Gsy$BHfkfD" role="3uHU7B">
+                      <property role="Xl_RC" value="Current memory use " />
+                    </node>
+                    <node concept="2OqwBi" id="bFXUXAMWRK" role="3uHU7w">
+                      <node concept="Xjq3P" id="bFXUXAMWsF" role="2Oq$k0" />
+                      <node concept="2OwXpG" id="bFXUXAMXgJ" role="2OqNvi">
+                        <ref role="2Oxat5" node="bFXUXALzdG" resolve="memoryUse" />
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
@@ -1234,6 +1280,38 @@
       <node concept="3cqZAl" id="w2h3oDZBIV" role="3clF45" />
     </node>
     <node concept="2tJIrI" id="w2h3oDZB6V" role="jymVt" />
+    <node concept="3clFb_" id="bFXUXALtS7" role="jymVt">
+      <property role="TrG5h" value="getMemoryUse" />
+      <node concept="3clFbS" id="bFXUXALtSa" role="3clF47">
+        <node concept="3cpWs6" id="bFXUXALHaX" role="3cqZAp">
+          <node concept="2OqwBi" id="bFXUXALHmx" role="3cqZAk">
+            <node concept="Xjq3P" id="bFXUXALHbB" role="2Oq$k0" />
+            <node concept="2OwXpG" id="bFXUXALV1s" role="2OqNvi">
+              <ref role="2Oxat5" node="bFXUXALzdG" resolve="memoryUse" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="bFXUXALqUg" role="1B3o_S" />
+      <node concept="3cpWsb" id="bFXUXALsJR" role="3clF45" />
+    </node>
+    <node concept="2tJIrI" id="bFXUXALNpy" role="jymVt" />
+    <node concept="3clFb_" id="bFXUXALKzD" role="jymVt">
+      <property role="TrG5h" value="getInitializationTime" />
+      <node concept="3clFbS" id="bFXUXALKzE" role="3clF47">
+        <node concept="3cpWs6" id="bFXUXALKzF" role="3cqZAp">
+          <node concept="2OqwBi" id="bFXUXALKzG" role="3cqZAk">
+            <node concept="Xjq3P" id="bFXUXALKzH" role="2Oq$k0" />
+            <node concept="2OwXpG" id="bFXUXALSLh" role="2OqNvi">
+              <ref role="2Oxat5" node="bFXUXALAbX" resolve="initializationTime" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="bFXUXALKzJ" role="1B3o_S" />
+      <node concept="3cpWsb" id="bFXUXALKzK" role="3clF45" />
+    </node>
+    <node concept="2tJIrI" id="bFXUXALj0p" role="jymVt" />
     <node concept="3clFb_" id="7PSP33tHOEm" role="jymVt">
       <property role="TrG5h" value="createFact" />
       <node concept="3clFbS" id="7PSP33tHOEp" role="3clF47">
@@ -9303,6 +9381,9 @@
                 <ref role="37wK5l" to="33ny:~ArrayList.&lt;init&gt;(java.util.Collection)" resolve="ArrayList" />
                 <node concept="37vLTw" id="7PSP33tNGP3" role="37wK5m">
                   <ref role="3cqZAo" node="1cwfJkv6UlW" resolve="properties" />
+                </node>
+                <node concept="3uibUv" id="47pFljiNNhB" role="1pMfVU">
+                  <ref role="3uigEE" to="c17a:~SProperty" resolve="SProperty" />
                 </node>
               </node>
             </node>

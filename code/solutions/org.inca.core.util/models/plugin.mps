@@ -4504,12 +4504,90 @@
     <property role="TrG5h" value="MeasurementUtil" />
     <property role="3GE5qa" value="" />
     <node concept="2tJIrI" id="1_JXc3Tiqr4" role="jymVt" />
+    <node concept="2YIFZL" id="bFXUXAN366" role="jymVt">
+      <property role="TrG5h" value="gc" />
+      <node concept="3clFbS" id="bFXUXAN369" role="3clF47">
+        <node concept="3clFbF" id="bFXUXAQe$n" role="3cqZAp">
+          <node concept="2OqwBi" id="bFXUXAQe$k" role="3clFbG">
+            <node concept="10M0yZ" id="bFXUXAQe$l" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
+            </node>
+            <node concept="liA8E" id="bFXUXAQe$m" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
+              <node concept="Xl_RD" id="bFXUXAQeDT" role="37wK5m">
+                <property role="Xl_RC" value="Running GC" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3DLJHSn2ZIX" role="3cqZAp">
+          <node concept="2YIFZM" id="3DLJHSn2ZIY" role="3clFbG">
+            <ref role="37wK5l" to="wyt6:~System.gc()" resolve="gc" />
+            <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+          </node>
+        </node>
+        <node concept="SfApY" id="3DLJHSn5IRy" role="3cqZAp">
+          <node concept="3clFbS" id="3DLJHSn5IR$" role="SfCbr">
+            <node concept="3clFbF" id="3DLJHSn2ZIZ" role="3cqZAp">
+              <node concept="2YIFZM" id="3DLJHSn2ZJ0" role="3clFbG">
+                <ref role="37wK5l" to="wyt6:~Thread.sleep(long)" resolve="sleep" />
+                <ref role="1Pybhc" to="wyt6:~Thread" resolve="Thread" />
+                <node concept="3cmrfG" id="3DLJHSn2ZJ1" role="37wK5m">
+                  <property role="3cmrfH" value="2000" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="TDmWw" id="3DLJHSn5IR_" role="TEbGg">
+            <node concept="3cpWsn" id="3DLJHSn5IRB" role="TDEfY">
+              <property role="TrG5h" value="e" />
+              <node concept="3uibUv" id="3DLJHSn5QHd" role="1tU5fm">
+                <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
+              </node>
+            </node>
+            <node concept="3clFbS" id="3DLJHSn5IRF" role="TDEfX">
+              <node concept="3clFbF" id="3DLJHSn5RcH" role="3cqZAp">
+                <node concept="2OqwBi" id="3DLJHSn5RyP" role="3clFbG">
+                  <node concept="37vLTw" id="3DLJHSn5RcG" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3DLJHSn5IRB" resolve="e" />
+                  </node>
+                  <node concept="liA8E" id="3DLJHSn5ZWS" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~Throwable.printStackTrace()" resolve="printStackTrace" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="bFXUXAN2SM" role="1B3o_S" />
+      <node concept="3cqZAl" id="bFXUXAN34D" role="3clF45" />
+    </node>
+    <node concept="2tJIrI" id="bFXUXAN2IB" role="jymVt" />
     <node concept="2YIFZL" id="1z2_LfBRNWC" role="jymVt">
       <property role="TrG5h" value="getUsedMemoryInBytes" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <property role="2aFKle" value="false" />
+      <node concept="37vLTG" id="bFXUXAM9U7" role="3clF46">
+        <property role="TrG5h" value="forceGC" />
+        <property role="3TUv4t" value="true" />
+        <node concept="10P_77" id="bFXUXAM9U8" role="1tU5fm" />
+      </node>
       <node concept="3clFbS" id="1z2_LfBRNWF" role="3clF47">
+        <node concept="3clFbJ" id="bFXUXAMafs" role="3cqZAp">
+          <node concept="3clFbS" id="bFXUXAMafu" role="3clFbx">
+            <node concept="3clFbF" id="bFXUXAN3jC" role="3cqZAp">
+              <node concept="1rXfSq" id="bFXUXAN3jA" role="3clFbG">
+                <ref role="37wK5l" node="bFXUXAN366" resolve="gc" />
+              </node>
+            </node>
+          </node>
+          <node concept="37vLTw" id="bFXUXAMare" role="3clFbw">
+            <ref role="3cqZAo" node="bFXUXAM9U7" resolve="forceGC" />
+          </node>
+        </node>
         <node concept="3cpWs8" id="1z2_LfBRNWG" role="3cqZAp">
           <node concept="3cpWsn" id="1z2_LfBRNWH" role="3cpWs9">
             <property role="TrG5h" value="totalMemory" />
@@ -4560,46 +4638,12 @@
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <property role="2aFKle" value="false" />
+      <node concept="37vLTG" id="bFXUXAM7H_" role="3clF46">
+        <property role="TrG5h" value="forceGC" />
+        <property role="3TUv4t" value="true" />
+        <node concept="10P_77" id="bFXUXAM9K$" role="1tU5fm" />
+      </node>
       <node concept="3clFbS" id="6Gsy$BH6vYC" role="3clF47">
-        <node concept="3clFbF" id="3DLJHSn2ZIX" role="3cqZAp">
-          <node concept="2YIFZM" id="3DLJHSn2ZIY" role="3clFbG">
-            <ref role="37wK5l" to="wyt6:~System.gc()" resolve="gc" />
-            <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
-          </node>
-        </node>
-        <node concept="SfApY" id="3DLJHSn5IRy" role="3cqZAp">
-          <node concept="3clFbS" id="3DLJHSn5IR$" role="SfCbr">
-            <node concept="3clFbF" id="3DLJHSn2ZIZ" role="3cqZAp">
-              <node concept="2YIFZM" id="3DLJHSn2ZJ0" role="3clFbG">
-                <ref role="37wK5l" to="wyt6:~Thread.sleep(long)" resolve="sleep" />
-                <ref role="1Pybhc" to="wyt6:~Thread" resolve="Thread" />
-                <node concept="3cmrfG" id="3DLJHSn2ZJ1" role="37wK5m">
-                  <property role="3cmrfH" value="2000" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="TDmWw" id="3DLJHSn5IR_" role="TEbGg">
-            <node concept="3cpWsn" id="3DLJHSn5IRB" role="TDEfY">
-              <property role="TrG5h" value="e" />
-              <node concept="3uibUv" id="3DLJHSn5QHd" role="1tU5fm">
-                <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
-              </node>
-            </node>
-            <node concept="3clFbS" id="3DLJHSn5IRF" role="TDEfX">
-              <node concept="3clFbF" id="3DLJHSn5RcH" role="3cqZAp">
-                <node concept="2OqwBi" id="3DLJHSn5RyP" role="3clFbG">
-                  <node concept="37vLTw" id="3DLJHSn5RcG" role="2Oq$k0">
-                    <ref role="3cqZAo" node="3DLJHSn5IRB" resolve="e" />
-                  </node>
-                  <node concept="liA8E" id="3DLJHSn5ZWS" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~Throwable.printStackTrace()" resolve="printStackTrace" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3cpWs6" id="6Gsy$BH6ypp" role="3cqZAp">
           <node concept="FJ1c_" id="6Gsy$BH6ypq" role="3cqZAk">
             <node concept="1eOMI4" id="6Gsy$BH6ypr" role="3uHU7w">
@@ -4615,6 +4659,9 @@
             <node concept="2YIFZM" id="6Gsy$BH6ypv" role="3uHU7B">
               <ref role="1Pybhc" node="1_JXc3TiqqE" resolve="MeasurementUtil" />
               <ref role="37wK5l" node="1z2_LfBRNWC" resolve="getUsedMemoryInBytes" />
+              <node concept="37vLTw" id="bFXUXAMa5g" role="37wK5m">
+                <ref role="3cqZAo" node="bFXUXAM7H_" resolve="forceGC" />
+              </node>
             </node>
           </node>
         </node>

@@ -386,7 +386,6 @@
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
       </concept>
-      <concept id="1144146199828" name="jetbrains.mps.lang.smodel.structure.Node_CopyOperation" flags="nn" index="1$rogu" />
       <concept id="6407023681583036853" name="jetbrains.mps.lang.smodel.structure.NodeAttributeQualifier" flags="ng" index="3CFYIy">
         <reference id="6407023681583036854" name="attributeConcept" index="3CFYIx" />
       </concept>
@@ -1235,33 +1234,6 @@
     <node concept="1YaCAy" id="1KfKM1YIldu" role="1YuTPh">
       <property role="TrG5h" value="expression" />
       <ref role="1YaFvo" to="hqsm:6hXIxNuWHD0" resolve="IncaEvaluatorInstantiation" />
-    </node>
-  </node>
-  <node concept="1YbPZF" id="7wcU5h3oUKb">
-    <property role="TrG5h" value="typeof_IncaEvaluator" />
-    <property role="3GE5qa" value="usage.matcher" />
-    <node concept="3clFbS" id="7wcU5h3oUKc" role="18ibNy">
-      <node concept="1Z5TYs" id="7wcU5h3oV9w" role="3cqZAp">
-        <node concept="mw_s8" id="7wcU5h3oVtf" role="1ZfhKB">
-          <node concept="2OqwBi" id="z7YXzAgIvz" role="mwGJk">
-            <node concept="1YBJjd" id="z7YXzAgInE" role="2Oq$k0">
-              <ref role="1YBMHb" node="7wcU5h3oUKe" resolve="evaluator" />
-            </node>
-            <node concept="1$rogu" id="z7YXzAgIE_" role="2OqNvi" />
-          </node>
-        </node>
-        <node concept="mw_s8" id="7wcU5h3oV9z" role="1ZfhK$">
-          <node concept="1Z2H0r" id="7wcU5h3oV35" role="mwGJk">
-            <node concept="1YBJjd" id="7wcU5h3oV5l" role="1Z2MuG">
-              <ref role="1YBMHb" node="7wcU5h3oUKe" resolve="evaluator" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="7wcU5h3oUKe" role="1YuTPh">
-      <property role="TrG5h" value="evaluator" />
-      <ref role="1YaFvo" to="hqsm:7wcU5h3ekti" resolve="IncaEvaluator" />
     </node>
   </node>
   <node concept="1YbPZF" id="7wcU5h3qqMj">
