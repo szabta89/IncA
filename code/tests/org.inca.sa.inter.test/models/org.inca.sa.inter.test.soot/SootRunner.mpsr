@@ -750,18 +750,8 @@
                     <node concept="2YIFZM" id="6drV32qKI45" role="3uHU7B">
                       <ref role="37wK5l" to="wyt6:~Long.toString(long)" resolve="toString" />
                       <ref role="1Pybhc" to="wyt6:~Long" resolve="Long" />
-                      <node concept="3cpWsd" id="6drV32qKIFL" role="37wK5m">
-                        <node concept="2OqwBi" id="bFXUXAQ_px" role="3uHU7w">
-                          <node concept="37vLTw" id="bFXUXAQ_dw" role="2Oq$k0">
-                            <ref role="3cqZAo" node="6drV32q$ahn" resolve="database" />
-                          </node>
-                          <node concept="liA8E" id="bFXUXAQ_Cv" role="2OqNvi">
-                            <ref role="37wK5l" to="e2tr:bFXUXALtS7" resolve="getMemoryUse" />
-                          </node>
-                        </node>
-                        <node concept="37vLTw" id="6drV32qKI6a" role="3uHU7B">
-                          <ref role="3cqZAo" node="6drV32qKE7n" resolve="currentMemoryUse" />
-                        </node>
+                      <node concept="37vLTw" id="6drV32qKI6a" role="37wK5m">
+                        <ref role="3cqZAo" node="6drV32qKE7n" resolve="currentMemoryUse" />
                       </node>
                     </node>
                     <node concept="2YIFZM" id="6drV32qJmIf" role="3uHU7w">

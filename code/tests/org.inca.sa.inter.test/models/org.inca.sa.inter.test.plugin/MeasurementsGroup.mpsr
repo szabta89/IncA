@@ -48,6 +48,9 @@
       <node concept="tCFHf" id="5DxsSbscFk8" role="ftvYc">
         <ref role="tCJdB" node="5DxsSbscE0y" resolve="ConstantPropagationAction" />
       </node>
+      <node concept="tCFHf" id="1adlJTyMYsq" role="ftvYc">
+        <ref role="tCJdB" node="1adlJTyMCV9" resolve="IntervalAnalysisAction" />
+      </node>
       <node concept="tCFHf" id="1_UEfL1Swtj" role="ftvYc">
         <ref role="tCJdB" node="1_UEfL1RXMK" resolve="TerminateBenchmarkAction" />
       </node>

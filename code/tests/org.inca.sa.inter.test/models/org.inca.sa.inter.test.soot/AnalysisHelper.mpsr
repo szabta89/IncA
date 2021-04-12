@@ -223,7 +223,7 @@
       <node concept="3Tm1VV" id="3fI3cDkZbro" role="1B3o_S" />
       <node concept="17QB3L" id="3fI3cDkZIBI" role="1tU5fm" />
       <node concept="Xl_RD" id="3fI3cDkZbsR" role="33vP2m">
-        <property role="Xl_RC" value="pmd" />
+        <property role="Xl_RC" value="minijavac" />
       </node>
     </node>
     <node concept="Wx3nA" id="3fI3cDkZbwE" role="jymVt">
@@ -236,7 +236,7 @@
           <ref role="3cqZAo" node="3fI3cDkZbsc" resolve="BENCHMARK" />
         </node>
         <node concept="Xl_RD" id="3fI3cDkZcf6" role="3uHU7B">
-          <property role="Xl_RC" value="/Users/szabta/Downloads/soot.experiments/facts/" />
+          <property role="Xl_RC" value="/Users/szabta/git/soot.experiments/facts/" />
         </node>
       </node>
     </node>
@@ -322,6 +322,44 @@
         <node concept="3uibUv" id="5DxsSbs3QAy" role="1ajl9A">
           <ref role="3uigEE" to="h57a:~ViatraQueryMatcher" resolve="ViatraQueryMatcher" />
           <node concept="3uibUv" id="5DxsSbs3QAz" role="11_B2D">
+            <ref role="3uigEE" to="h57a:~IPatternMatch" resolve="IPatternMatch" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="Wx3nA" id="1adlJTyMX$g" role="jymVt">
+      <property role="TrG5h" value="INTERVAL_ANALYSIS_EVALUATOR" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm1VV" id="1adlJTyMX$h" role="1B3o_S" />
+      <node concept="1bVj0M" id="1adlJTyMX$i" role="33vP2m">
+        <node concept="3clFbS" id="1adlJTyMX$j" role="1bW5cS">
+          <node concept="3cpWs8" id="1adlJTyMX$k" role="3cqZAp">
+            <node concept="3cpWsn" id="1adlJTyMX$l" role="3cpWs9">
+              <property role="TrG5h" value="evaluator" />
+              <property role="3TUv4t" value="true" />
+              <node concept="VdqW6" id="1adlJTyMX$m" role="1tU5fm">
+                <ref role="Vdrjr" node="3W$J2zkiRXC" resolve="IntervalAfter" />
+              </node>
+              <node concept="2UzQ1s" id="1adlJTyMX$n" role="33vP2m">
+                <ref role="2UzQ1C" node="3W$J2zkiRXC" resolve="IntervalAfter" />
+                <node concept="10M0yZ" id="1adlJTyMX$o" role="HflyE">
+                  <ref role="1PxDUh" node="7YDBmAN9Zts" resolve="AnalysisHelper" />
+                  <ref role="3cqZAo" node="7YDBmAN9ZuF" resolve="SCOPE" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3cpWs6" id="1adlJTyMX$p" role="3cqZAp">
+            <node concept="37vLTw" id="1adlJTyMX$q" role="3cqZAk">
+              <ref role="3cqZAo" node="1adlJTyMX$l" resolve="evaluator" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1ajhzC" id="1adlJTyMX$r" role="1tU5fm">
+        <node concept="3uibUv" id="1adlJTyMX$s" role="1ajl9A">
+          <ref role="3uigEE" to="h57a:~ViatraQueryMatcher" resolve="ViatraQueryMatcher" />
+          <node concept="3uibUv" id="1adlJTyMX$t" role="11_B2D">
             <ref role="3uigEE" to="h57a:~IPatternMatch" resolve="IPatternMatch" />
           </node>
         </node>
